@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Problematic STRs - Occupancy Tracker</title>
+  <title>Chatham County STVR Compliance Map</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <link href="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+
   <style>
     body {
       background-color: #1e1e1e;
@@ -19,12 +21,15 @@
       margin: 0;
       color: #fff;
     }
-    #map { 
-      height: calc(100vh - 44px); 
+    #map {
+      height: calc(100vh - 44px);
       width: 100%;
     }
-    /* Filter control dashboard panel layout */
+
     .filter-panel {
+      position: absolute;
+      top: 10px;
+      right: 10px;
       background: white;
       color: #333;
       padding: 12px;
@@ -32,47 +37,36 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
       font-size: 14px;
       line-height: 1.5;
+      z-index: 10;
     }
+
     .filter-title {
       font-weight: bold;
       margin-bottom: 6px;
       border-bottom: 1px solid #ccc;
       padding-bottom: 4px;
     }
+
     .filter-item {
       display: flex;
       align-items: center;
       cursor: pointer;
       font-weight: bold;
     }
+
     .filter-item input {
       margin-right: 8px;
       transform: scale(1.2);
       cursor: pointer;
     }
-    /* Dynamic pin markers markers */
-    .map-pin {
-      color: white;
-      border-radius: 50%;
-      width: 32px;
-      height: 32px;
-      text-align: center;
-      line-height: 32px;
-      font-weight: bold;
-      border: 2px solid #fff;
-      box-shadow: 0 0 6px rgba(0,0,0,0.6);
-      transition: all 0.2s ease;
-    }
-    .leaflet-popup-content {
-      color: #111 !important;
-      font-size: 13px;
-    }
+
     .popup-title {
       font-size: 14px;
       font-weight: bold;
       color: #222;
       margin-bottom: 4px;
     }
+
     .warning-text {
       color: #d32f2f;
       font-weight: bold;
@@ -82,6 +76,7 @@
       margin: 4px 0;
       display: inline-block;
     }
+
     .airbnb-link {
       display: block;
       margin-top: 10px;
@@ -93,9 +88,6 @@
       font-weight: bold;
       text-align: center;
     }
-    .airbnb-link:hover {
-      background-color: #e0484d;
-    }
   </style>
 </head>
 <body>
@@ -103,70 +95,147 @@
   <h2>Chatham County STVR Compliance Map</h2>
   <div id="map"></div>
 
-  <!-- Include Leaflet Maps Engine Source Bundle -->
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  
-  <!-- Include local locations array bundle generated from Python -->
+  <div class="filter-panel">
+    <div class="filter-title">Compliance Filters</div>
+    <label class="filter-item">
+      <input type="checkbox" id="complianceCheckbox">
+      Show Violations Only
+    </label>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
   <script src="data_files/in_process_data/locations.js"></script>
 
   <script>
-    // Configuration properties
-    const defaultCenter = [32.0485, -81.0087];
-    let mapCenter = defaultCenter;
+    // Precompute metrics
+    const processedLocations = locations.map(loc => {
+      const latitude = Number(loc.latitude);
+      const longitude = Number(loc.longitude);
+      const guests = parseInt(loc.guests) || 0;
+      const bedrooms = parseInt(loc.bedrooms) || 0;
 
-    if (typeof locations !== 'undefined' && locations.length > 0) {
-      const avgLat = locations.reduce((sum, loc) => sum + Number(loc.latitude), 0) / locations.length;
-      const avgLng = locations.reduce((sum, loc) => sum + Number(loc.longitude), 0) / locations.length;
-      mapCenter = [avgLat, avgLng];
+      if (!latitude || !longitude) return null;
+
+      const baselineLimit = (bedrooms * 2) + 2;
+      const maxAllowedGuests = bedrooms === 0 ? 2 : baselineLimit;
+      const isOverCapacity = guests > maxAllowedGuests;
+
+      return {
+        ...loc,
+        latitude,
+        longitude,
+        guests,
+        bedrooms,
+        maxAllowedGuests,
+        isOverCapacity
+      };
+    }).filter(Boolean);
+
+    // Convert to GeoJSON
+    function toGeoJSON(data) {
+      return {
+        type: "FeatureCollection",
+        features: data.map(loc => ({
+          type: "Feature",
+          geometry: {
+            type: "Point",
+            coordinates: [loc.longitude, loc.latitude]
+          },
+          properties: loc
+        }))
+      };
     }
 
-    const map = L.map('map').setView(mapCenter, 12);
+    // Map center
+    const defaultCenter = [-81.0087, 32.0485];
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    const map = new maplibregl.Map({
+      container: "map",
+      style: {
+        version: 8,
+        sources: {
+          "osm": {
+            type: "raster",
+            tiles: [
+              "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+            ],
+            tileSize: 256
+          }
+        },
+        layers: [
+          {
+            id: "osm",
+            type: "raster",
+            source: "osm"
+          }
+        ]
+      },
+      center: defaultCenter,
+      zoom: 12
+    });
 
-    // Keep an array tracking created markers to cleanly filter them on user input actions
-    let markerLayerGroup = L.layerGroup().addTo(map);
+    map.on("load", () => {
+      map.addSource("strv", {
+        type: "geojson",
+        data: toGeoJSON(processedLocations)
+      });
 
-    // This renders markers depending on your checklist settings
-    function renderMarkers(filterOnlyViolations) {
-      // Clear all active tracking layouts from the view pane
-      markerLayerGroup.clearLayers();
-
-      locations.forEach(function(loc) {
-        if (!loc.latitude || !loc.longitude) return;
-
-        const totalGuests = parseInt(loc.guests) || 0;
-        const totalBedrooms = parseInt(loc.bedrooms) || 0;
-        
-        // Compliance formulation limit rule calculation logic
-        const baselineLimit = (totalBedrooms * 2) + 2;
-        const maxAllowedGuests = totalBedrooms === 0 ? 2 : baselineLimit;
-        const isOverCapacity = totalGuests > maxAllowedGuests;
-
-        // Drop normal listings out of processing array early if filtering option checkbox checked
-        if (filterOnlyViolations && !isOverCapacity) {
-          return; 
+      // Circle layer (GPU accelerated)
+      map.addLayer({
+        id: "strv-circles",
+        type: "circle",
+        source: "strv",
+        paint: {
+          "circle-radius": 12,
+          "circle-color": [
+            "case",
+            ["get", "isOverCapacity"],
+            "#d32f2f",
+            "#388e3c"
+          ],
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fff"
         }
+      });
 
-        // Color coding profile styles: Red for non-compliant properties, Green for stable listings
-        const markerColor = isOverCapacity ? "#d32f2f" : "#388e3c";
-        
-        const pinIcon = L.divIcon({
-          className: 'custom-div-icon',
-          html: `<div class="map-pin" style="background-color: ${markerColor};">${totalGuests}</div>`,
-          iconSize: [32, 32],
-          iconAnchor: [16, 16]
-        });
-
-        // Assemble metrics readout layouts inside balloon popup frame
-        let occupancyWarningHtml = "";
-        if (isOverCapacity) {
-          const excessiveCount = totalGuests - maxAllowedGuests;
-          occupancyWarningHtml = `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessiveCount} GUESTS</div>`;
+      // Guest count labels (no external fonts)
+      map.addLayer({
+        id: "strv-labels",
+        type: "symbol",
+        source: "strv",
+        layout: {
+          "text-field": ["get", "guests"],
+          "text-size": 12,
+          "text-font": ["Arial Unicode MS Regular"],
+          "text-offset": [0, 0]
+        },
+        paint: {
+          "text-color": "#fff",
+          "text-halo-color": "#000",
+          "text-halo-width": 1.5
         }
+      });
 
+<<<<<<< HEAD
+      // Popups
+      map.on("click", "strv-circles", (e) => {
+        const loc = e.features[0].properties;
+
+        const excessive = loc.guests - loc.maxAllowedGuests;
+        const warning = excessive > 0
+          ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
+          : "";
+
+        const html = `
+          <div class="popup-title">${loc.rental_type}</div>
+          <strong>Approximate Address:</strong> ${loc.approximate_address}<br/>
+          <strong>Host:</strong> ${loc.host_name}<hr/>
+
+          <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
+          <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
+          <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+          ${warning}
+=======
         const popupTemplate = `
           <div class="popup-title">${loc.rental_type || 'Short Term Rental'}</div>
           <strong>Approximate Address:</strong> ${loc.approximate_address || 'Unknown Address'}<br/>          <strong>Host:</strong> ${loc.host_name || 'N/A'}<hr style="margin:6px 0; border:0; border-top:1px solid #ddd;"/>
@@ -175,43 +244,24 @@
           <strong>Stated Bedrooms:</strong> ${totalBedrooms}<br/>
           <strong>Legal Limit:</strong> Max ${maxAllowedGuests} guests
           ${occupancyWarningHtml}
+>>>>>>> 24fa8a3ed55a2f89897a41cc62c03fcbfc89e996
           <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
         `;
 
-        const newMarker = L.marker([Number(loc.latitude), Number(loc.longitude)], {icon: pinIcon})
-                           .bindPopup(popupTemplate);
-        
-        markerLayerGroup.addLayer(newMarker);
+        new maplibregl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(html)
+          .addTo(map);
       });
-    }
+    });
 
-    // Initialize with all records displayed
-    renderMarkers(false);
+    // Filter handler
+    document.getElementById("complianceCheckbox").addEventListener("change", (e) => {
+      const filtered = e.target.checked
+        ? processedLocations.filter(loc => loc.isOverCapacity)
+        : processedLocations;
 
-    // Build the interactive floating control panel element widget inside Leaflet
-    const interfaceWidgetControl = L.control({ position: 'topright' });
-
-    interfaceWidgetControl.onAdd = function() {
-      const containerDiv = L.DomUtil.create('div', 'filter-panel');
-      
-      // Stop clicks on filter dashboard leaking tracking movements down through beneath base maps
-      L.DomEvent.disableClickPropagation(containerDiv);
-
-      containerDiv.innerHTML = `
-        <div class="filter-title">Compliance Filters</div>
-        <label class="filter-item">
-          <input type="checkbox" id="complianceCheckbox">
-          Show Violations Only
-        </label>
-      `;
-      return containerDiv;
-    };
-
-    interfaceWidgetControl.addTo(map);
-
-    // Track active change events directly bound to your toggle switch input element
-    document.getElementById('complianceCheckbox').addEventListener('change', function(e) {
-      renderMarkers(e.target.checked);
+      map.getSource("strv").setData(toGeoJSON(filtered));
     });
   </script>
 </body>
