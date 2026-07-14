@@ -9,10 +9,11 @@ const locations = [
     "latitude": 32.0485,
     "longitude": -81.0087,
     "host_name": "Jill And Jordan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 W PENROSE DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 3.62487937255042e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1191278127505459484",
@@ -24,10 +25,11 @@ const locations = [
     "latitude": 32.03535,
     "longitude": -80.99582,
     "host_name": "Yan 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "43 LANDWARD WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020449652969095264
   },
   {
     "url": "https://www.airbnb.com/rooms/32067143",
@@ -39,10 +41,11 @@ const locations = [
     "latitude": 32.0361,
     "longitude": -81.0545,
     "host_name": "Melissa Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2612 WHATLEY RD #8B",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 4.636488235505095e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1632147438511514448",
@@ -54,10 +57,11 @@ const locations = [
     "latitude": 32.05905838749175,
     "longitude": -81.10194573172602,
     "host_name": "Katie Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1909 BARNARD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011318927204588093
   },
   {
     "url": "https://www.airbnb.com/rooms/358111",
@@ -69,10 +73,11 @@ const locations = [
     "latitude": 32.03749,
     "longitude": -81.0524,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "3108 FENNEL ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.827780613867876e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/836838326002480258",
@@ -84,10 +89,11 @@ const locations = [
     "latitude": 32.03401,
     "longitude": -81.18573,
     "host_name": "Caren Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "229 BUCKHALTER RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004489507242232243
   },
   {
     "url": "https://www.airbnb.com/rooms/630197397184597220",
@@ -99,10 +105,11 @@ const locations = [
     "latitude": 32.0472,
     "longitude": -81.0076,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "290 OATLAND ISLAND RD",
     "allowed_guests": 12,
     "over_occupancy": 4,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.0005421648973996763
   },
   {
     "url": "https://www.airbnb.com/rooms/1501030060746906896",
@@ -114,10 +121,11 @@ const locations = [
     "latitude": 31.9804,
     "longitude": -81.1071,
     "host_name": "Patrick Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9240 GARLAND DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 2.1764112283444556e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/37862354",
@@ -129,10 +137,11 @@ const locations = [
     "latitude": 32.05998,
     "longitude": -81.10388,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1905 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029422672508870736
   },
   {
     "url": "https://www.airbnb.com/rooms/1416756623979761911",
@@ -144,10 +153,11 @@ const locations = [
     "latitude": 32.03424081170273,
     "longitude": -81.0568686488491,
     "host_name": "Traci Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "3018 YOUNG AVE",
     "allowed_guests": 12,
     "over_occupancy": 4,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.0001894940333496568
   },
   {
     "url": "https://www.airbnb.com/rooms/1013884230354103070",
@@ -159,10 +169,11 @@ const locations = [
     "latitude": 32.0281,
     "longitude": -81.0574,
     "host_name": "Heirloom Stays Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3108 WHATLEY AVE",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 1.1467312890148289e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/755271617425833932",
@@ -174,10 +185,11 @@ const locations = [
     "latitude": 31.98214,
     "longitude": -80.99659,
     "host_name": "Donna Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1419 WILMINGTON ISLAND RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017049581677108731
   },
   {
     "url": "https://www.airbnb.com/rooms/775617601208217877",
@@ -189,10 +201,11 @@ const locations = [
     "latitude": 32.043,
     "longitude": -81.0168,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1159 MOBLEY DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003980533962867419
   },
   {
     "url": "https://www.airbnb.com/rooms/605047436783749331",
@@ -204,10 +217,11 @@ const locations = [
     "latitude": 32.0408,
     "longitude": -81.0083,
     "host_name": "Michelle Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "408 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.330972127235816e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/659642859644408670",
@@ -219,10 +233,11 @@ const locations = [
     "latitude": 32.05973,
     "longitude": -81.09889,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1718 BULL ST",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 9.155497842896259e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/942640738769154937",
@@ -234,10 +249,11 @@ const locations = [
     "latitude": 32.0487,
     "longitude": -81.05844,
     "host_name": "Courtney Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "40 ALTMAN CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024738909544512233
   },
   {
     "url": "https://www.airbnb.com/rooms/1468991842618836071",
@@ -249,10 +265,11 @@ const locations = [
     "latitude": 32.05512,
     "longitude": -81.10084,
     "host_name": "Cairo Walters 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "BULL ST",
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 0.00012239294132203893
   },
   {
     "url": "https://www.airbnb.com/rooms/830297128684319163",
@@ -264,10 +281,11 @@ const locations = [
     "latitude": 32.05781,
     "longitude": -81.09186,
     "host_name": "Julie Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "602 E 34TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014120806472762951
   },
   {
     "url": "https://www.airbnb.com/rooms/1594489443895091467",
@@ -279,10 +297,11 @@ const locations = [
     "latitude": 32.05884999156032,
     "longitude": -81.10196457116811,
     "host_name": "Charles Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 W 36TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001657040533076892
   },
   {
     "url": "https://www.airbnb.com/rooms/37854232",
@@ -294,10 +313,11 @@ const locations = [
     "latitude": 32.05992,
     "longitude": -81.10385,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1905 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026874756092095477
   },
   {
     "url": "https://www.airbnb.com/rooms/1659034393253295010",
@@ -309,10 +329,11 @@ const locations = [
     "latitude": 31.98793027252503,
     "longitude": -81.10068976791706,
     "host_name": "Terri 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "8620 W CREIGHTON PL",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001665084738528046
   },
   {
     "url": "https://www.airbnb.com/rooms/1364587005425979843",
@@ -324,10 +345,11 @@ const locations = [
     "latitude": 32.01527975002854,
     "longitude": -81.0671034018974,
     "host_name": "Maxine 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "LAROCHE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024881791342613977
   },
   {
     "url": "https://www.airbnb.com/rooms/1245372176042056528",
@@ -339,10 +361,11 @@ const locations = [
     "latitude": 32.05569,
     "longitude": -81.10303,
     "host_name": "Cairo Walters 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2311 BARNARD ST",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.00024313552208919177
   },
   {
     "url": "https://www.airbnb.com/rooms/26214569",
@@ -354,10 +377,11 @@ const locations = [
     "latitude": 32.0578,
     "longitude": -81.0944,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "412 E 35TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.819452856110917e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1637843440634199955",
@@ -369,10 +393,11 @@ const locations = [
     "latitude": 32.0515,
     "longitude": -81.01574,
     "host_name": "Anjali Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "602 SANDHILL RD",
     "allowed_guests": 10,
     "over_occupancy": 6,
-    "over_percent": 0.6
+    "over_percent": 0.6,
+    "approx_distance_meters": 0.00019062248672859183
   },
   {
     "url": "https://www.airbnb.com/rooms/1207477526958698040",
@@ -384,10 +409,11 @@ const locations = [
     "latitude": 32.0594,
     "longitude": -81.1042,
     "host_name": "Jay Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "402 W 36TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9291727374641405e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1085067613506171624",
@@ -399,10 +425,11 @@ const locations = [
     "latitude": 32.0466,
     "longitude": -81.06574,
     "host_name": "Chad Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2001 E 38TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018982728213934593
   },
   {
     "url": "https://www.airbnb.com/rooms/1614589782434900377",
@@ -414,10 +441,11 @@ const locations = [
     "latitude": 32.03269611356804,
     "longitude": -81.05696375190112,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3102 HARRIS ST",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00015784469601533977
   },
   {
     "url": "https://www.airbnb.com/rooms/550033020854105258",
@@ -429,10 +457,11 @@ const locations = [
     "latitude": 31.99424,
     "longitude": -81.14842,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "10902 JAMESTOWN RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002277080316041971
   },
   {
     "url": "https://www.airbnb.com/rooms/24455767",
@@ -444,10 +473,11 @@ const locations = [
     "latitude": 32.05864,
     "longitude": -81.10513,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2010 MARTIN LUTHER KING BLVD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001363569120825276
   },
   {
     "url": "https://www.airbnb.com/rooms/1721978963600351913",
@@ -459,10 +489,11 @@ const locations = [
     "latitude": 32.04109,
     "longitude": -81.05563,
     "host_name": "BloomStay Collection 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "2207 DOWNING DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.151362199800417e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1366314649758598329",
@@ -474,10 +505,11 @@ const locations = [
     "latitude": 32.0220284318202,
     "longitude": -81.06942421760508,
     "host_name": "Oscar And Carolina Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2133 GLYNNWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00027383041851907836
   },
   {
     "url": "https://www.airbnb.com/rooms/1213106063496418934",
@@ -489,10 +521,11 @@ const locations = [
     "latitude": 31.9798,
     "longitude": -81.0662,
     "host_name": "Cary Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7614 SKIDAWAY RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015084079828466915
   },
   {
     "url": "https://www.airbnb.com/rooms/877437059911410981",
@@ -504,10 +537,11 @@ const locations = [
     "latitude": 31.972,
     "longitude": -81.1071,
     "host_name": "Trey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9219 WHITEFIELD AVE",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001077511312549259
   },
   {
     "url": "https://www.airbnb.com/rooms/569578158295985685",
@@ -519,10 +553,11 @@ const locations = [
     "latitude": 32.02529,
     "longitude": -81.00212,
     "host_name": "Patricia Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "38 PINEY POINT RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003459450879283371
   },
   {
     "url": "https://www.airbnb.com/rooms/1417504113845638769",
@@ -534,10 +569,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -81.0566,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 ASHLYN RT",
     "allowed_guests": 54,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.97237174477788e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/40528508",
@@ -549,10 +585,11 @@ const locations = [
     "latitude": 32.03812,
     "longitude": -81.16795,
     "host_name": "Red Gate Farms Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "163 RED GATE FARMS TRL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004694588561413168
   },
   {
     "url": "https://www.airbnb.com/rooms/1725558621062152879",
@@ -564,10 +601,11 @@ const locations = [
     "latitude": 32.0243,
     "longitude": -81.0694,
     "host_name": "Sherri 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4815 LAROCHE AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005808064811531912
   },
   {
     "url": "https://www.airbnb.com/rooms/1337679872814382387",
@@ -579,10 +617,11 @@ const locations = [
     "latitude": 32.053125836974246,
     "longitude": -81.01889571527549,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "716 SANDTOWN RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024150061043162142
   },
   {
     "url": "https://www.airbnb.com/rooms/1158787454660158576",
@@ -594,10 +633,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -81.0566,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 ASHLYN RT",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.97237174477788e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/21752684",
@@ -609,10 +649,11 @@ const locations = [
     "latitude": 32.054,
     "longitude": -81.0968,
     "host_name": "Jason Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "320 E 40TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.668473500159634e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43726145",
@@ -624,10 +665,11 @@ const locations = [
     "latitude": 32.05825,
     "longitude": -81.10425,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "322 W 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002918299629843584
   },
   {
     "url": "https://www.airbnb.com/rooms/42813983",
@@ -639,10 +681,11 @@ const locations = [
     "latitude": 31.9414,
     "longitude": -81.1228,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "523 CARTWRIGHT ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000294638027714833
   },
   {
     "url": "https://www.airbnb.com/rooms/1666044673969494042",
@@ -654,10 +697,11 @@ const locations = [
     "latitude": 32.03645,
     "longitude": -81.03644,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3624 MACCEO DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000907636097372415
   },
   {
     "url": "https://www.airbnb.com/rooms/911636272013035816",
@@ -669,10 +713,11 @@ const locations = [
     "latitude": 32.04748,
     "longitude": -81.06013,
     "host_name": "Julia 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2165 MASSACHUSETTS AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017073096954357538
   },
   {
     "url": "https://www.airbnb.com/rooms/1025347671052176616",
@@ -684,10 +729,11 @@ const locations = [
     "latitude": 31.98307,
     "longitude": -81.10184,
     "host_name": "Tabitha Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "118 CHAPEL DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001483230451160393
   },
   {
     "url": "https://www.airbnb.com/rooms/1614590383355671752",
@@ -699,10 +745,11 @@ const locations = [
     "latitude": 32.03249,
     "longitude": -81.05553,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3118 SHELL RD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00029763235799479997
   },
   {
     "url": "https://www.airbnb.com/rooms/21327627",
@@ -714,10 +761,11 @@ const locations = [
     "latitude": 32.05472,
     "longitude": -81.09754,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "LINCOLN ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000160262953060661
   },
   {
     "url": "https://www.airbnb.com/rooms/29370183",
@@ -729,10 +777,11 @@ const locations = [
     "latitude": 32.03818,
     "longitude": -80.99702,
     "host_name": "Tom And Jessica Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 STONEBRIDGE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016677261652488915
   },
   {
     "url": "https://www.airbnb.com/rooms/1599336895559554286",
@@ -744,10 +793,11 @@ const locations = [
     "latitude": 32.0555,
     "longitude": -81.0195,
     "host_name": "Paul Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "308 HOLLY HILL RD",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 3.5138450599497976e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1563508872099417910",
@@ -759,10 +809,11 @@ const locations = [
     "latitude": 32.02623,
     "longitude": -81.08931,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1313 E 68TH ST",
     "allowed_guests": 10,
     "over_occupancy": 5,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.00019754727155738304
   },
   {
     "url": "https://www.airbnb.com/rooms/1005093609068753712",
@@ -774,10 +825,11 @@ const locations = [
     "latitude": 32.0371,
     "longitude": -81.0012,
     "host_name": "Mona Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "126 REDAN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002015951353108836
   },
   {
     "url": "https://www.airbnb.com/rooms/753435124583526211",
@@ -789,10 +841,11 @@ const locations = [
     "latitude": 31.98699,
     "longitude": -80.9949,
     "host_name": "Eric & Danielle Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "WILMINGTON ISLAND RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00045844106343229584
   },
   {
     "url": "https://www.airbnb.com/rooms/576386940173412138",
@@ -804,10 +857,11 @@ const locations = [
     "latitude": 32.0398,
     "longitude": -80.9995,
     "host_name": "Kimber 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5864066587033116e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/831997964610928009",
@@ -819,10 +873,11 @@ const locations = [
     "latitude": 31.94956,
     "longitude": -81.11831,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1342 PINE RIDGE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001277218752596507
   },
   {
     "url": "https://www.airbnb.com/rooms/42517531",
@@ -834,10 +889,11 @@ const locations = [
     "latitude": 32.0386,
     "longitude": -81.15222,
     "host_name": "Christian Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 BRANDLE CV",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00012443469833119526
   },
   {
     "url": "https://www.airbnb.com/rooms/1662657636017563487",
@@ -849,10 +905,11 @@ const locations = [
     "latitude": 32.04,
     "longitude": -81.0059,
     "host_name": "Josh And Hannah Superhost \u00b7 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.991084975904675e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1705997854711264311",
@@ -864,10 +921,11 @@ const locations = [
     "latitude": 32.05916421071056,
     "longitude": -81.10122933526976,
     "host_name": "Daniel Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 W 35TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.67831870171015e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/915455160718001309",
@@ -879,10 +937,11 @@ const locations = [
     "latitude": 31.98933,
     "longitude": -81.09825,
     "host_name": "Kevin 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8508 LABERTA BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.932952853123929e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1548573903370840491",
@@ -894,10 +953,11 @@ const locations = [
     "latitude": 32.0563,
     "longitude": -81.1049,
     "host_name": "Josh & Lynn Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "321 W 39TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.693201514125968e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/842019462265056394",
@@ -909,10 +969,11 @@ const locations = [
     "latitude": 32.03461,
     "longitude": -81.05465,
     "host_name": "Harold Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2170 E VICTORY DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001882580180438164
   },
   {
     "url": "https://www.airbnb.com/rooms/52697193",
@@ -924,10 +985,11 @@ const locations = [
     "latitude": 32.05197,
     "longitude": -81.0929,
     "host_name": "Eric Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "619 MAUPAS AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001683167381799306
   },
   {
     "url": "https://www.airbnb.com/rooms/31744030",
@@ -939,10 +1001,11 @@ const locations = [
     "latitude": 32.04576,
     "longitude": -81.0127,
     "host_name": "Steve Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1014 REITA ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.965996948136305e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1383347930799346683",
@@ -954,10 +1017,11 @@ const locations = [
     "latitude": 32.02543702510858,
     "longitude": -81.09409581673533,
     "host_name": "Mark Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5772 WATERS AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021527342555778336
   },
   {
     "url": "https://www.airbnb.com/rooms/47053688",
@@ -969,10 +1033,11 @@ const locations = [
     "latitude": 32.02435,
     "longitude": -81.09383,
     "host_name": "Mark Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1110 E DERENNE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022860970978891764
   },
   {
     "url": "https://www.airbnb.com/rooms/1504302307754623244",
@@ -984,10 +1049,11 @@ const locations = [
     "latitude": 31.98735,
     "longitude": -81.20296,
     "host_name": "Troy & Sydney Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "141 WIMBLEDON DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001175282501460491
   },
   {
     "url": "https://www.airbnb.com/rooms/920484828285657462",
@@ -999,10 +1065,11 @@ const locations = [
     "latitude": 32.05639,
     "longitude": -81.1035,
     "host_name": "Jacob Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "210 W 39TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.779127501859653e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1653110710424906883",
@@ -1014,10 +1081,11 @@ const locations = [
     "latitude": 32.0566,
     "longitude": -81.0996,
     "host_name": "Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "23 E 37TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.452483709345538e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/9942864",
@@ -1029,10 +1097,11 @@ const locations = [
     "latitude": 32.0565,
     "longitude": -81.0986,
     "host_name": "Taylor Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001337150158282659
   },
   {
     "url": "https://www.airbnb.com/rooms/1037748463133229179",
@@ -1044,10 +1113,11 @@ const locations = [
     "latitude": 32.0292,
     "longitude": -81.0546,
     "host_name": "Gerald Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3215 PIERCE BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.4065827654822695e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1299315426915018351",
@@ -1059,10 +1129,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -81.0566,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 ASHLYN RT",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 4.97237174477788e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/21715417",
@@ -1074,10 +1145,11 @@ const locations = [
     "latitude": 32.054,
     "longitude": -81.0968,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "320 E 40TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.668473500159634e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48104930",
@@ -1089,10 +1161,11 @@ const locations = [
     "latitude": 32.05936,
     "longitude": -81.10455,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "410 W 36TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015434585758149148
   },
   {
     "url": "https://www.airbnb.com/rooms/909762443633618544",
@@ -1104,10 +1177,11 @@ const locations = [
     "latitude": 32.04039,
     "longitude": -81.00886,
     "host_name": "Michael Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "417 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.6658243363103465e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/25484296",
@@ -1119,10 +1193,11 @@ const locations = [
     "latitude": 32.0336,
     "longitude": -81.05341,
     "host_name": "Barry Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2712 MECHANICS AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.705652476648738e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1693113930783863629",
@@ -1134,10 +1209,11 @@ const locations = [
     "latitude": 32.040621786878305,
     "longitude": -81.10144797641485,
     "host_name": "Randy 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "140 E 57TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001820092243692384
   },
   {
     "url": "https://www.airbnb.com/rooms/22908420",
@@ -1149,10 +1225,11 @@ const locations = [
     "latitude": 32.05413,
     "longitude": -81.01493,
     "host_name": "Lacey Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 OATLAND ISLAND RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030049531871970337
   },
   {
     "url": "https://www.airbnb.com/rooms/1647788922427175386",
@@ -1164,10 +1241,11 @@ const locations = [
     "latitude": 31.9983,
     "longitude": -81.11935,
     "host_name": "Gabrielle Superhost \u00b7 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 SENECA RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011058883207798553
   },
   {
     "url": "https://www.airbnb.com/rooms/842874763491717567",
@@ -1179,10 +1257,11 @@ const locations = [
     "latitude": 32.0405,
     "longitude": -81.0063,
     "host_name": "Caitlin Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "313 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.796327495844452e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1363872509496143235",
@@ -1194,10 +1273,11 @@ const locations = [
     "latitude": 32.04583891433963,
     "longitude": -81.15631189867078,
     "host_name": "Kirsten Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4810 GARRARD AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004993704435944064
   },
   {
     "url": "https://www.airbnb.com/rooms/671903177438607752",
@@ -1209,10 +1289,11 @@ const locations = [
     "latitude": 32.0525,
     "longitude": -81.0976,
     "host_name": "Lindsey Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "309 E 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.866657902749265e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444850612466195190",
@@ -1224,10 +1305,11 @@ const locations = [
     "latitude": 32.0564,
     "longitude": -81.1049,
     "host_name": "Josh & Lynn Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "321 W 39TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.253379209569557e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/528948",
@@ -1239,10 +1321,11 @@ const locations = [
     "latitude": 32.0583,
     "longitude": -81.0959,
     "host_name": "Richard Superhost \u00b7 15 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "302 E 35TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010768883015190641
   },
   {
     "url": "https://www.airbnb.com/rooms/1002950587602351901",
@@ -1254,10 +1337,11 @@ const locations = [
     "latitude": 32.036,
     "longitude": -81.1543,
     "host_name": "Allen 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "177 MILLS RUN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.2365578559487664e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/848993598389115425",
@@ -1269,10 +1353,11 @@ const locations = [
     "latitude": 32.05865,
     "longitude": -81.10537,
     "host_name": "Jordan Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "502 W 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002856323777592929
   },
   {
     "url": "https://www.airbnb.com/rooms/869009632387349139",
@@ -1284,10 +1369,11 @@ const locations = [
     "latitude": 32.02401,
     "longitude": -81.09154,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1216 E DERENNE AVE",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.0002590853109617269
   },
   {
     "url": "https://www.airbnb.com/rooms/1705856997384011474",
@@ -1299,10 +1385,11 @@ const locations = [
     "latitude": 32.05999,
     "longitude": -81.09276,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "507 E 31ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.9236681880689284e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1216163346212534094",
@@ -1314,10 +1401,11 @@ const locations = [
     "latitude": 32.0539,
     "longitude": -81.1051,
     "host_name": "Max Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2605 JEFFERSON ST",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 2.3187506495303513e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/45396944",
@@ -1329,10 +1417,11 @@ const locations = [
     "latitude": 32.0565,
     "longitude": -81.0986,
     "host_name": "Taylor Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001337150158282659
   },
   {
     "url": "https://www.airbnb.com/rooms/1197063594332589893",
@@ -1344,10 +1433,11 @@ const locations = [
     "latitude": 32.0511,
     "longitude": -81.1173,
     "host_name": "SNS Quality Rentals Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1120 W 50TH ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.7631200542571293e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1572078400357706537",
@@ -1359,10 +1449,11 @@ const locations = [
     "latitude": 31.99279764039612,
     "longitude": -81.07307226815607,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7319 GARFIELD ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022696062722893926
   },
   {
     "url": "https://www.airbnb.com/rooms/1288897092087495881",
@@ -1374,10 +1465,11 @@ const locations = [
     "latitude": 32.056035130030615,
     "longitude": -81.10091873992101,
     "host_name": "Carla Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2201 BULL ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014557877549094703
   },
   {
     "url": "https://www.airbnb.com/rooms/9469801",
@@ -1389,10 +1481,11 @@ const locations = [
     "latitude": 32.0565,
     "longitude": -81.0986,
     "host_name": "Taylor Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001337150158282659
   },
   {
     "url": "https://www.airbnb.com/rooms/45435531",
@@ -1404,10 +1497,11 @@ const locations = [
     "latitude": 32.04471,
     "longitude": -81.00418,
     "host_name": "Kamann Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ISLANDS EXPY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008646102267956258
   },
   {
     "url": "https://www.airbnb.com/rooms/35842280",
@@ -1419,10 +1513,11 @@ const locations = [
     "latitude": 32.05861,
     "longitude": -81.10075,
     "host_name": "Rob Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 W 36TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020067846012446626
   },
   {
     "url": "https://www.airbnb.com/rooms/831929544693462080",
@@ -1434,10 +1529,11 @@ const locations = [
     "latitude": 32.03341,
     "longitude": -81.05441,
     "host_name": "Harold Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2805 MECHANICS AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.887134610403704e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1688492923193761460",
@@ -1449,10 +1545,11 @@ const locations = [
     "latitude": 32.0453,
     "longitude": -80.999,
     "host_name": "Jake Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "29 PENROSE DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030704012508123515
   },
   {
     "url": "https://www.airbnb.com/rooms/43814647",
@@ -1464,10 +1561,11 @@ const locations = [
     "latitude": 32.0539,
     "longitude": -81.0952,
     "host_name": "An Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "501 E 39TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012083471112301181
   },
   {
     "url": "https://www.airbnb.com/rooms/28751615",
@@ -1479,10 +1577,11 @@ const locations = [
     "latitude": 31.98968,
     "longitude": -81.05419,
     "host_name": "Steven 16 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 JACQUELYN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.17396213733612e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/357988",
@@ -1494,10 +1593,11 @@ const locations = [
     "latitude": 32.0382,
     "longitude": -81.05242,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "100 RIVERBROOK CIR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016048294826993045
   },
   {
     "url": "https://www.airbnb.com/rooms/1708049214621228036",
@@ -1509,10 +1609,11 @@ const locations = [
     "latitude": 31.9928,
     "longitude": -81.1364,
     "host_name": "Keiry Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "205 LEEDS GATE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.972631657965834e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1270248385754965891",
@@ -1524,10 +1625,11 @@ const locations = [
     "latitude": 32.05333386955314,
     "longitude": -81.1049017514072,
     "host_name": "Max Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "218 W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.453806158224156e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1176043654186220791",
@@ -1539,10 +1641,11 @@ const locations = [
     "latitude": 32.05245430879038,
     "longitude": -81.01277000357284,
     "host_name": "Lacey Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 OATLAND ISLAND RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016589697895476766
   },
   {
     "url": "https://www.airbnb.com/rooms/1133081",
@@ -1554,10 +1657,11 @@ const locations = [
     "latitude": 32.0591,
     "longitude": -81.0964,
     "host_name": "Richard Superhost \u00b7 15 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "208 E 34TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.989310966150186e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1673150985275356458",
@@ -1569,10 +1673,11 @@ const locations = [
     "latitude": 32.0452,
     "longitude": -80.9987,
     "host_name": "Jake Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 PENROSE DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002655947166262138
   },
   {
     "url": "https://www.airbnb.com/rooms/587633562795200453",
@@ -1584,10 +1689,11 @@ const locations = [
     "latitude": 31.99314,
     "longitude": -81.06252,
     "host_name": "Pamela Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2510 EASY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.120564424789888e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/872556836676754358",
@@ -1599,10 +1705,11 @@ const locations = [
     "latitude": 31.94719,
     "longitude": -81.12132,
     "host_name": "Vera Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "137 STRACHAN AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00045503693328476953
   },
   {
     "url": "https://www.airbnb.com/rooms/50168991",
@@ -1614,10 +1721,11 @@ const locations = [
     "latitude": 32.03862,
     "longitude": -81.00044,
     "host_name": "Christine Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 REDAN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001116756430734672
   },
   {
     "url": "https://www.airbnb.com/rooms/49824783",
@@ -1629,10 +1737,11 @@ const locations = [
     "latitude": 32.05882,
     "longitude": -81.09534,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "306 E 34TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.171902560584598e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/879157498134844448",
@@ -1644,10 +1753,11 @@ const locations = [
     "latitude": 32.03512,
     "longitude": -80.99971,
     "host_name": "Lesley Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "STONEBRIDGE LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005903609476905693
   },
   {
     "url": "https://www.airbnb.com/rooms/1580886642509835131",
@@ -1659,10 +1769,11 @@ const locations = [
     "latitude": 32.05881,
     "longitude": -81.04321,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "408 RIVERVIEW DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.878043209190155e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/625477086735441303",
@@ -1674,10 +1785,11 @@ const locations = [
     "latitude": 32.0265,
     "longitude": -81.0511,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3403 BANNON DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.298056812771017e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/656994219153161854",
@@ -1689,10 +1801,11 @@ const locations = [
     "latitude": 31.9878,
     "longitude": -80.9959,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1226 WILMINGTON ISLAND RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017974859181674806
   },
   {
     "url": "https://www.airbnb.com/rooms/1461207831095530235",
@@ -1704,10 +1817,11 @@ const locations = [
     "latitude": 31.99448862567146,
     "longitude": -81.07326996007058,
     "host_name": "Ilona Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7244 GARFIELD ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010878833513439857
   },
   {
     "url": "https://www.airbnb.com/rooms/1635159492201407822",
@@ -1719,10 +1833,11 @@ const locations = [
     "latitude": 32.02298,
     "longitude": -81.05383,
     "host_name": "Jingchen Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3212 COLLEGE AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005589968140720952
   },
   {
     "url": "https://www.airbnb.com/rooms/1263927107433075590",
@@ -1734,10 +1849,11 @@ const locations = [
     "latitude": 31.9889151686279,
     "longitude": -81.04605991354521,
     "host_name": "Bucky & Kathy Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "153 HOPECREST AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001749244575571992
   },
   {
     "url": "https://www.airbnb.com/rooms/1627105111588915432",
@@ -1749,10 +1865,11 @@ const locations = [
     "latitude": 32.0093,
     "longitude": -81.0652,
     "host_name": "Juanita 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5808 LAROCHE AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002030424448324016
   },
   {
     "url": "https://www.airbnb.com/rooms/609170506823659366",
@@ -1764,10 +1881,11 @@ const locations = [
     "latitude": 32.05498,
     "longitude": -81.10515,
     "host_name": "Archer 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "318 W 41ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010371129020579476
   },
   {
     "url": "https://www.airbnb.com/rooms/606777325040139105",
@@ -1779,10 +1897,11 @@ const locations = [
     "latitude": 32.05491,
     "longitude": -81.105,
     "host_name": "Archer 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "316 W 41ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001305030387496797
   },
   {
     "url": "https://www.airbnb.com/rooms/1574829047170750388",
@@ -1794,10 +1913,11 @@ const locations = [
     "latitude": 31.98366,
     "longitude": -81.14747,
     "host_name": "Ayid\u00e9 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "11606 LARGO DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013358846107785054
   },
   {
     "url": "https://www.airbnb.com/rooms/1249390264246650931",
@@ -1809,10 +1929,11 @@ const locations = [
     "latitude": 32.0395,
     "longitude": -81.004,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 ROPEMAKER CT",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.00012729602448023443
   },
   {
     "url": "https://www.airbnb.com/rooms/45225076",
@@ -1824,10 +1945,11 @@ const locations = [
     "latitude": 32.05138,
     "longitude": -81.09718,
     "host_name": "Angelique Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "402 E VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023456332269849395
   },
   {
     "url": "https://www.airbnb.com/rooms/671909691140922052",
@@ -1839,10 +1961,11 @@ const locations = [
     "latitude": 32.0528,
     "longitude": -81.0975,
     "host_name": "Lindsey Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 E 41ST ST",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 3.85087824195347e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1656698631934050595",
@@ -1854,10 +1977,11 @@ const locations = [
     "latitude": 32.0572,
     "longitude": -81.1065,
     "host_name": "Margaret Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "512 W 39TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5224844097751983e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1460981502921060724",
@@ -1869,10 +1993,11 @@ const locations = [
     "latitude": 32.0587,
     "longitude": -81.0438,
     "host_name": "Jason 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "414 RIVERVIEW DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.252609082311847e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1624318889887938316",
@@ -1884,10 +2009,11 @@ const locations = [
     "latitude": 32.03646,
     "longitude": -80.99845,
     "host_name": "Angelica Superhost \u00b7 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 LANDWARD WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018191118141336603
   },
   {
     "url": "https://www.airbnb.com/rooms/46290792",
@@ -1899,10 +2025,11 @@ const locations = [
     "latitude": 31.98957,
     "longitude": -81.09173,
     "host_name": "Sonya 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "8505 HEATHERWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001472891923707915
   },
   {
     "url": "https://www.airbnb.com/rooms/923175890779102031",
@@ -1914,10 +2041,11 @@ const locations = [
     "latitude": 32.05234,
     "longitude": -81.01605,
     "host_name": "Denise Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "308 SANDY SPRINGS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019475173894906804
   },
   {
     "url": "https://www.airbnb.com/rooms/42209051",
@@ -1929,10 +2057,11 @@ const locations = [
     "latitude": 32.05861,
     "longitude": -81.08323,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "920 E ANDERSON ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.33527576332448e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/40655911",
@@ -1944,10 +2073,11 @@ const locations = [
     "latitude": 32.05362,
     "longitude": -81.09756,
     "host_name": "Steven 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2408 LINCOLN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.063914735108153e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42208507",
@@ -1959,10 +2089,11 @@ const locations = [
     "latitude": 32.05857,
     "longitude": -81.08321,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "920 E ANDERSON ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.176489310216893e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/49369209",
@@ -1974,10 +2105,11 @@ const locations = [
     "latitude": 32.0328,
     "longitude": -81.0518,
     "host_name": "Abbie Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2806 2ND ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.66908549886257e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/986200177859846330",
@@ -1989,10 +2121,11 @@ const locations = [
     "latitude": 32.01695,
     "longitude": -81.08017,
     "host_name": "Ella Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1947 BROGDON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.00409102836446e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1294569021513324277",
@@ -2004,10 +2137,11 @@ const locations = [
     "latitude": 32.03588564227355,
     "longitude": -81.15289598253949,
     "host_name": "Haley Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 MILLS RUN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021136356944622702
   },
   {
     "url": "https://www.airbnb.com/rooms/50619088",
@@ -2019,10 +2153,11 @@ const locations = [
     "latitude": 31.99364,
     "longitude": -81.14356,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "604 TIBET AVE",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0005462361779159079
   },
   {
     "url": "https://www.airbnb.com/rooms/42669205",
@@ -2034,10 +2169,11 @@ const locations = [
     "latitude": 32.03998,
     "longitude": -81.16703,
     "host_name": "Joyce Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 RED GATE FARMS TRL",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001763014393003779
   },
   {
     "url": "https://www.airbnb.com/rooms/687522",
@@ -2049,10 +2185,11 @@ const locations = [
     "latitude": 32.05386,
     "longitude": -81.09531,
     "host_name": "Jerry Superhost \u00b7 15 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "501 E 39TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.701248725072272e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50155225",
@@ -2064,10 +2201,11 @@ const locations = [
     "latitude": 32.03304,
     "longitude": -81.18337,
     "host_name": "Kimberly Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "237 BUCKHALTER RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006080385327312626
   },
   {
     "url": "https://www.airbnb.com/rooms/38646117",
@@ -2079,10 +2217,11 @@ const locations = [
     "latitude": 32.0365,
     "longitude": -80.9989,
     "host_name": "Abbie Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 STONEBRIDGE LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.124052586360043e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1389297779363113257",
@@ -2094,10 +2233,11 @@ const locations = [
     "latitude": 32.059346979252744,
     "longitude": -81.09930180689929,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1809 BULL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00036552937902204803
   },
   {
     "url": "https://www.airbnb.com/rooms/948199060925065758",
@@ -2109,10 +2249,11 @@ const locations = [
     "latitude": 32.0361,
     "longitude": -81.0538,
     "host_name": "Anjali Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3109 FURBER AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.690974703002576e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1277611330348777510",
@@ -2124,10 +2265,11 @@ const locations = [
     "latitude": 32.05506874998824,
     "longitude": -81.09920446938723,
     "host_name": "Carla Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 E 39TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001752501124376139
   },
   {
     "url": "https://www.airbnb.com/rooms/947229006185289651",
@@ -2139,10 +2281,11 @@ const locations = [
     "latitude": 32.0569,
     "longitude": -81.0915,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "616 E 35TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002293731352372192
   },
   {
     "url": "https://www.airbnb.com/rooms/1327731151991166864",
@@ -2154,10 +2297,11 @@ const locations = [
     "latitude": 32.0331,
     "longitude": -81.0504,
     "host_name": "Laurie Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3216 CENTER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000159568916554611
   },
   {
     "url": "https://www.airbnb.com/rooms/52610724",
@@ -2169,10 +2313,11 @@ const locations = [
     "latitude": 32.05977,
     "longitude": -81.09634,
     "host_name": "Stefanie Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "207 E 33RD ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002008966161792409
   },
   {
     "url": "https://www.airbnb.com/rooms/45497908",
@@ -2184,10 +2329,11 @@ const locations = [
     "latitude": 32.04973,
     "longitude": -81.0517,
     "host_name": "Chad Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 TENNESSEE AVE",
     "allowed_guests": 2,
     "over_occupancy": 2,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.00014306619769121495
   },
   {
     "url": "https://www.airbnb.com/rooms/905747194064468414",
@@ -2199,10 +2345,11 @@ const locations = [
     "latitude": 32.0591,
     "longitude": -81.0931,
     "host_name": "Coleby 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "510 E 33RD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010055671568059105
   },
   {
     "url": "https://www.airbnb.com/rooms/1530554435982174070",
@@ -2214,10 +2361,11 @@ const locations = [
     "latitude": 32.04921,
     "longitude": -81.06184,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2116 VERMONT AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.67584508684367e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42216408",
@@ -2229,10 +2377,11 @@ const locations = [
     "latitude": 32.05897,
     "longitude": -81.08473,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "828 E ANDERSON ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.181158293782352e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/26868109",
@@ -2244,10 +2393,11 @@ const locations = [
     "latitude": 32.0527,
     "longitude": -81.0976,
     "host_name": "Gretchen Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "308 E 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010507187363409575
   },
   {
     "url": "https://www.airbnb.com/rooms/1441631794052186637",
@@ -2259,10 +2409,11 @@ const locations = [
     "latitude": 32.05365663493214,
     "longitude": -81.06016727049813,
     "host_name": "Sarah Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2117 LOUISIANA AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013087601702078199
   },
   {
     "url": "https://www.airbnb.com/rooms/17774091",
@@ -2274,10 +2425,11 @@ const locations = [
     "latitude": 32.01567,
     "longitude": -81.08061,
     "host_name": "Ella Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1947 COLONIAL DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001460478340151052
   },
   {
     "url": "https://www.airbnb.com/rooms/689300872038099807",
@@ -2289,10 +2441,11 @@ const locations = [
     "latitude": 32.0536,
     "longitude": -81.1008,
     "host_name": "Christine 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 E 41ST ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.946033089448116e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/36405081",
@@ -2304,10 +2457,11 @@ const locations = [
     "latitude": 32.05516,
     "longitude": -81.08185,
     "host_name": "Leslie Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1119 E 33RD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020550382564678084
   },
   {
     "url": "https://www.airbnb.com/rooms/1516240160979355895",
@@ -2319,10 +2473,11 @@ const locations = [
     "latitude": 32.0135,
     "longitude": -81.0656,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 MICHAEL CT",
     "allowed_guests": 10,
     "over_occupancy": 1,
-    "over_percent": 0.1
+    "over_percent": 0.1,
+    "approx_distance_meters": 2.31509813874991e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/675919486105912125",
@@ -2334,10 +2489,11 @@ const locations = [
     "latitude": 31.9414,
     "longitude": -81.1217,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9943 WHITEFIELD AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023166351918957301
   },
   {
     "url": "https://www.airbnb.com/rooms/52634400",
@@ -2349,10 +2505,11 @@ const locations = [
     "latitude": 32.02701,
     "longitude": -81.05219,
     "host_name": "Molly Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3122 ROBERTSON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028773521577077756
   },
   {
     "url": "https://www.airbnb.com/rooms/1270219537102813016",
@@ -2364,10 +2521,11 @@ const locations = [
     "latitude": 32.05363131293293,
     "longitude": -81.1062686062072,
     "host_name": "Max Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019989952385120186
   },
   {
     "url": "https://www.airbnb.com/rooms/608936987178844598",
@@ -2379,10 +2537,11 @@ const locations = [
     "latitude": 32.05507,
     "longitude": -81.1031,
     "host_name": "Archer 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "125 W 40TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001581033938262597
   },
   {
     "url": "https://www.airbnb.com/rooms/40759694",
@@ -2394,10 +2553,11 @@ const locations = [
     "latitude": 32.054,
     "longitude": -81.0969,
     "host_name": "Steven 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "316 E 40TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9132394138423906e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/28156315",
@@ -2409,10 +2569,11 @@ const locations = [
     "latitude": 32.05924,
     "longitude": -81.0993,
     "host_name": "Karen Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1810 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003294575531970296
   },
   {
     "url": "https://www.airbnb.com/rooms/27343301",
@@ -2424,10 +2585,11 @@ const locations = [
     "latitude": 32.03408,
     "longitude": -81.04823,
     "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007508704140572738
   },
   {
     "url": "https://www.airbnb.com/rooms/21754706",
@@ -2439,10 +2601,11 @@ const locations = [
     "latitude": 32.054,
     "longitude": -81.0968,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "320 E 40TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.668473500159634e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/35224050",
@@ -2454,10 +2617,11 @@ const locations = [
     "latitude": 31.941,
     "longitude": -81.10391,
     "host_name": "Kristen Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "257 SHIPYARD RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006257747206460604
   },
   {
     "url": "https://www.airbnb.com/rooms/889880369418848626",
@@ -2469,10 +2633,11 @@ const locations = [
     "latitude": 32.03979,
     "longitude": -81.00025,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "117 CROSSOVER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.299296216700786e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/24249480",
@@ -2484,10 +2649,11 @@ const locations = [
     "latitude": 31.97306,
     "longitude": -81.08662,
     "host_name": "Janet Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9137 FERGUSON AVE",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.0007634204993116713
   },
   {
     "url": "https://www.airbnb.com/rooms/45896777",
@@ -2499,10 +2665,11 @@ const locations = [
     "latitude": 32.04028,
     "longitude": -81.00633,
     "host_name": "Sheila Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "313 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001546793435793028
   },
   {
     "url": "https://www.airbnb.com/rooms/13898256",
@@ -2514,10 +2681,11 @@ const locations = [
     "latitude": 31.9807,
     "longitude": -80.9966,
     "host_name": "John Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1954 STONE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00038178566692009726
   },
   {
     "url": "https://www.airbnb.com/rooms/37417642",
@@ -2529,10 +2697,11 @@ const locations = [
     "latitude": 32.01354,
     "longitude": -81.07943,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 BROADMOOR CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.060690486547646e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48584146",
@@ -2544,10 +2713,11 @@ const locations = [
     "latitude": 32.05828,
     "longitude": -81.0969,
     "host_name": "Michael Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1816 ABERCORN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.581950053893482e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/724554925831356219",
@@ -2559,10 +2729,11 @@ const locations = [
     "latitude": 31.95195,
     "longitude": -81.11053,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 TIMBERS WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000167558421963846
   },
   {
     "url": "https://www.airbnb.com/rooms/945593470525999930",
@@ -2574,10 +2745,11 @@ const locations = [
     "latitude": 32.0525,
     "longitude": -81.0977,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "307 E 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.614283455106686e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1440157134324476567",
@@ -2589,10 +2761,11 @@ const locations = [
     "latitude": 32.0472,
     "longitude": -81.015,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1002 PERRY CV",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.854692488674367e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1664107504402531784",
@@ -2604,10 +2777,11 @@ const locations = [
     "latitude": 31.9912,
     "longitude": -81.1224,
     "host_name": "Ada Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "211 DYCHES DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00027859919373120836
   },
   {
     "url": "https://www.airbnb.com/rooms/1666967529955388630",
@@ -2619,10 +2793,11 @@ const locations = [
     "latitude": 32.02521,
     "longitude": -81.09147,
     "host_name": "Sarah 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1210 E 71ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.149289767361204e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/897775383449349974",
@@ -2634,10 +2809,11 @@ const locations = [
     "latitude": 32.02,
     "longitude": -81.2118,
     "host_name": "Ebony Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "41 MONTERO DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.419496198749738e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/751411503770202241",
@@ -2649,10 +2825,11 @@ const locations = [
     "latitude": 32.0569,
     "longitude": -81.1034,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "213 W 38TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001177781977741203
   },
   {
     "url": "https://www.airbnb.com/rooms/42208826",
@@ -2664,10 +2841,11 @@ const locations = [
     "latitude": 32.05921,
     "longitude": -81.08401,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "829 E HENRY ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.994019934251516e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/19803423",
@@ -2679,10 +2857,11 @@ const locations = [
     "latitude": 31.97993,
     "longitude": -81.06177,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "205 PARKERSBURG RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019974220974349082
   },
   {
     "url": "https://www.airbnb.com/rooms/876274709036363871",
@@ -2694,10 +2873,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/659358073607959345",
@@ -2709,10 +2889,11 @@ const locations = [
     "latitude": 31.97574,
     "longitude": -81.00037,
     "host_name": "Ann 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1721 WILMINGTON ISLAND RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000391150925835575
   },
   {
     "url": "https://www.airbnb.com/rooms/1210187113076829810",
@@ -2724,10 +2905,11 @@ const locations = [
     "latitude": 32.0127,
     "longitude": -81.0727,
     "host_name": "Pamela Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "5649 EMORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.287467302899123e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1245703002681053046",
@@ -2739,10 +2921,11 @@ const locations = [
     "latitude": 31.9284,
     "longitude": -81.0934,
     "host_name": "Nan & Pat Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "336 ISLAND RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.940716359325081e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/876098809139937188",
@@ -2754,10 +2937,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/37392324",
@@ -2769,10 +2953,11 @@ const locations = [
     "latitude": 32.01193,
     "longitude": -81.07938,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2006 BONA BELLA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000997844803342497
   },
   {
     "url": "https://www.airbnb.com/rooms/876313781858557642",
@@ -2784,10 +2969,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/876123536025719684",
@@ -2799,10 +2985,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/1711860483453506764",
@@ -2814,10 +3001,11 @@ const locations = [
     "latitude": 32.05446,
     "longitude": -81.10644,
     "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "415 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001447421035895354
   },
   {
     "url": "https://www.airbnb.com/rooms/1385098670881695071",
@@ -2829,10 +3017,11 @@ const locations = [
     "latitude": 32.04320795422351,
     "longitude": -81.1389428890213,
     "host_name": "Ebony Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1829 VASSAR ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015423755254889845
   },
   {
     "url": "https://www.airbnb.com/rooms/1724191467167517882",
@@ -2844,10 +3033,11 @@ const locations = [
     "latitude": 32.05281536232371,
     "longitude": -81.10717139185377,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2802 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.755013971772275e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1045960760418208185",
@@ -2859,10 +3049,11 @@ const locations = [
     "latitude": 32.02555,
     "longitude": -81.09109,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1210 E 70TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018712891989152493
   },
   {
     "url": "https://www.airbnb.com/rooms/1249401925190667358",
@@ -2874,10 +3065,11 @@ const locations = [
     "latitude": 32.0412,
     "longitude": -81.0031,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "134 ROPEMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.780127453433238e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/639275695280383332",
@@ -2889,10 +3081,11 @@ const locations = [
     "latitude": 32.03738,
     "longitude": -80.99995,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "1 GUNPOWDER CT",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001607180162411291
   },
   {
     "url": "https://www.airbnb.com/rooms/1683336721436577488",
@@ -2904,10 +3097,11 @@ const locations = [
     "latitude": 32.0305,
     "longitude": -81.054,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3222 OAKWOOD DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.546483931464905e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1437876386707313111",
@@ -2919,10 +3113,11 @@ const locations = [
     "latitude": 32.03838,
     "longitude": -81.08795,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1118 E 56TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020413067349609975
   },
   {
     "url": "https://www.airbnb.com/rooms/876201541599000459",
@@ -2934,10 +3129,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0507,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3001 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002490004988295634
   },
   {
     "url": "https://www.airbnb.com/rooms/1153177883374356782",
@@ -2949,10 +3145,11 @@ const locations = [
     "latitude": 32.04365,
     "longitude": -81.05452,
     "host_name": "Gennaro Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2015 DOWNING DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016652381569190515
   },
   {
     "url": "https://www.airbnb.com/rooms/1347197201176999773",
@@ -2964,10 +3161,11 @@ const locations = [
     "latitude": 31.9917,
     "longitude": -81.1222,
     "host_name": "Ada Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 JOYCE CT",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.072308118457697e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1346660039165557101",
@@ -2979,10 +3177,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -81.0507,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "3212 CENTER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017561007864697132
   },
   {
     "url": "https://www.airbnb.com/rooms/1262262993490480039",
@@ -2994,10 +3193,11 @@ const locations = [
     "latitude": 32.0407,
     "longitude": -81.004,
     "host_name": "Cortney Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "145 ROPEMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010268593992975458
   },
   {
     "url": "https://www.airbnb.com/rooms/1394622070366939267",
@@ -3009,10 +3209,11 @@ const locations = [
     "latitude": 32.03802973613945,
     "longitude": -81.08655924265845,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1209 E 55TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020361757836315594
   },
   {
     "url": "https://www.airbnb.com/rooms/43681370",
@@ -3024,10 +3225,11 @@ const locations = [
     "latitude": 32.05992,
     "longitude": -81.09937,
     "host_name": "Sylvia And Chris Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "BULL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004191657440383144
   },
   {
     "url": "https://www.airbnb.com/rooms/39424294",
@@ -3039,10 +3241,11 @@ const locations = [
     "latitude": 32.05851,
     "longitude": -81.10457,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2021 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012031570407044081
   },
   {
     "url": "https://www.airbnb.com/rooms/45216179",
@@ -3054,10 +3257,11 @@ const locations = [
     "latitude": 32.05338,
     "longitude": -81.09733,
     "host_name": "Angelique Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "306 MAUPAS AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.401823180519247e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/37417167",
@@ -3069,10 +3273,11 @@ const locations = [
     "latitude": 32.01401,
     "longitude": -81.07894,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2009 BACON PARK DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030995996847312765
   },
   {
     "url": "https://www.airbnb.com/rooms/22251992",
@@ -3084,10 +3289,11 @@ const locations = [
     "latitude": 31.989320779387093,
     "longitude": -81.09858004810044,
     "host_name": "Harrison 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8508 LABERTA BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00025391292205993374
   },
   {
     "url": "https://www.airbnb.com/rooms/1220407512335700447",
@@ -3099,10 +3305,11 @@ const locations = [
     "latitude": 31.9801,
     "longitude": -81.1031,
     "host_name": "Laura & Chris Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1507 KINGS WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.5478780789903282e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1378551392179055860",
@@ -3114,10 +3321,11 @@ const locations = [
     "latitude": 32.05491219321842,
     "longitude": -81.09926152120096,
     "host_name": "Carla Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 E 39TH ST",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.494020101276419e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1456103016924929540",
@@ -3129,10 +3337,11 @@ const locations = [
     "latitude": 32.03439860504373,
     "longitude": -81.07593316357185,
     "host_name": "Harriet Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2020 E 57TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011808421193547879
   },
   {
     "url": "https://www.airbnb.com/rooms/39577659",
@@ -3144,10 +3353,11 @@ const locations = [
     "latitude": 32.01194,
     "longitude": -81.07892,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2006 BONA BELLA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001253297924850825
   },
   {
     "url": "https://www.airbnb.com/rooms/50208021",
@@ -3159,10 +3369,11 @@ const locations = [
     "latitude": 32.03068,
     "longitude": -81.05427,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3220 OAKWOOD DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.182321859556344e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1136964284599709748",
@@ -3174,10 +3385,11 @@ const locations = [
     "latitude": 32.0328,
     "longitude": -81.1229,
     "host_name": "Walter Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "940 GAREY AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.079311940781302e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51849799",
@@ -3189,10 +3401,11 @@ const locations = [
     "latitude": 31.9733,
     "longitude": -81.0842,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9110 FERGUSON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010705600437325892
   },
   {
     "url": "https://www.airbnb.com/rooms/1197757188101454439",
@@ -3204,10 +3417,11 @@ const locations = [
     "latitude": 32.03684,
     "longitude": -81.0017,
     "host_name": "Melissa Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 REDAN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021397523422704497
   },
   {
     "url": "https://www.airbnb.com/rooms/1229036067997847074",
@@ -3219,10 +3433,11 @@ const locations = [
     "latitude": 32.0328,
     "longitude": -81.1229,
     "host_name": "Walter Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "940 GAREY AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.079311940781302e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1174892409340063646",
@@ -3234,10 +3449,11 @@ const locations = [
     "latitude": 32.04413,
     "longitude": -81.12401,
     "host_name": "Vee Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1027 MILTON AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001280365806015654
   },
   {
     "url": "https://www.airbnb.com/rooms/866536940012514104",
@@ -3249,10 +3465,11 @@ const locations = [
     "latitude": 32.04921,
     "longitude": -81.10413,
     "host_name": "Valerian Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 W 48TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.796261796843429e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/37418837",
@@ -3264,10 +3481,11 @@ const locations = [
     "latitude": 32.01213,
     "longitude": -81.08033,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2004 BONA BELLA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007469478831872323
   },
   {
     "url": "https://www.airbnb.com/rooms/739264524612926963",
@@ -3279,10 +3497,11 @@ const locations = [
     "latitude": 32.03815,
     "longitude": -81.00221,
     "host_name": "Karli & Kevin 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 BLOCKADE CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001440391365726499
   },
   {
     "url": "https://www.airbnb.com/rooms/37391283",
@@ -3294,10 +3513,11 @@ const locations = [
     "latitude": 32.01237,
     "longitude": -81.08079,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2002 BONA BELLA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005860848732361229
   },
   {
     "url": "https://www.airbnb.com/rooms/871047953743104659",
@@ -3309,10 +3529,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/1013978100453102215",
@@ -3324,10 +3545,11 @@ const locations = [
     "latitude": 32.041,
     "longitude": -81.0044,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "150 ROPEMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015836056481511774
   },
   {
     "url": "https://www.airbnb.com/rooms/1375126261445281578",
@@ -3339,10 +3561,11 @@ const locations = [
     "latitude": 32.05261096649004,
     "longitude": -81.01819779845593,
     "host_name": "Luka Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SANDTOWN RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.320268413768774e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42240448",
@@ -3354,10 +3577,11 @@ const locations = [
     "latitude": 32.0494,
     "longitude": -81.0511,
     "host_name": "Chad Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 TENNESSEE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006219453696221773
   },
   {
     "url": "https://www.airbnb.com/rooms/35242331",
@@ -3369,10 +3593,11 @@ const locations = [
     "latitude": 32.03885,
     "longitude": -80.99936,
     "host_name": "Jonathan And Cecil Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "29 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000165010816020218
   },
   {
     "url": "https://www.airbnb.com/rooms/37417637",
@@ -3384,10 +3609,11 @@ const locations = [
     "latitude": 32.01183,
     "longitude": -81.07872,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2100 BONA BELLA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0012233109459503582
   },
   {
     "url": "https://www.airbnb.com/rooms/54248685",
@@ -3399,10 +3625,11 @@ const locations = [
     "latitude": 31.97136,
     "longitude": -81.15122,
     "host_name": "Molly Barnes 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "535 WINDSOR RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012759685911532137
   },
   {
     "url": "https://www.airbnb.com/rooms/52029955",
@@ -3414,10 +3641,11 @@ const locations = [
     "latitude": 32.05814,
     "longitude": -81.09262,
     "host_name": "Coleby 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "524 E 34TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001590611727005673
   },
   {
     "url": "https://www.airbnb.com/rooms/1333480278753868842",
@@ -3429,10 +3657,11 @@ const locations = [
     "latitude": 32.05383,
     "longitude": -81.09814,
     "host_name": "Angelique Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "211 E 40TH ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001538832629794285
   },
   {
     "url": "https://www.airbnb.com/rooms/35377787",
@@ -3444,10 +3673,11 @@ const locations = [
     "latitude": 32.05975,
     "longitude": -81.09424,
     "host_name": "Jewell Superhost \u00b7 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "402 32ND ST #E",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002104785960826818
   },
   {
     "url": "https://www.airbnb.com/rooms/27627652",
@@ -3459,10 +3689,11 @@ const locations = [
     "latitude": 32.0332,
     "longitude": -81.0486,
     "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3301 E VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.4580956104779843e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1044814103644540047",
@@ -3474,10 +3705,11 @@ const locations = [
     "latitude": 32.04077,
     "longitude": -81.0065,
     "host_name": "Morgan Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "318 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002338339173398764
   },
   {
     "url": "https://www.airbnb.com/rooms/1570281058394070164",
@@ -3489,10 +3721,11 @@ const locations = [
     "latitude": 31.98131,
     "longitude": -81.06653,
     "host_name": "Milan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 BRANSBY DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00018701417073047974
   },
   {
     "url": "https://www.airbnb.com/rooms/37452129",
@@ -3504,10 +3737,11 @@ const locations = [
     "latitude": 32.05963,
     "longitude": -81.10533,
     "host_name": "Rebecca Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "502 W 36TH ST",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 8.539602701756389e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1435024503068139662",
@@ -3519,10 +3753,11 @@ const locations = [
     "latitude": 32.0585,
     "longitude": -81.1033,
     "host_name": "Shannon 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 W 36TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022176374993485224
   },
   {
     "url": "https://www.airbnb.com/rooms/1511665113645217940",
@@ -3534,10 +3769,11 @@ const locations = [
     "latitude": 31.9888,
     "longitude": -81.0715,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 DOE TAIL CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.659898526211113e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/574698670219459414",
@@ -3549,10 +3785,11 @@ const locations = [
     "latitude": 32.04124,
     "longitude": -81.00049,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "111 BINNACLE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001852662188787893
   },
   {
     "url": "https://www.airbnb.com/rooms/1102450462288152381",
@@ -3564,10 +3801,11 @@ const locations = [
     "latitude": 32.0395,
     "longitude": -80.9985,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.871483639731706e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/21587149",
@@ -3579,10 +3817,11 @@ const locations = [
     "latitude": 31.9813,
     "longitude": -81.1113,
     "host_name": "Wendy Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1119 HALCYON DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.960438376035855e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53021108",
@@ -3594,10 +3833,11 @@ const locations = [
     "latitude": 32.05795,
     "longitude": -81.09382,
     "host_name": "Cristina 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "501 E 34TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.739028354895541e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42733232",
@@ -3609,10 +3849,11 @@ const locations = [
     "latitude": 32.03637,
     "longitude": -81.05255,
     "host_name": "Michael And Anna Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "10 BONAVENTURE RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013547008060217484
   },
   {
     "url": "https://www.airbnb.com/rooms/1647155588743208705",
@@ -3624,10 +3865,11 @@ const locations = [
     "latitude": 32.020246234482094,
     "longitude": -81.11396954062351,
     "host_name": "Annetta 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 LEE BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010391636177044079
   },
   {
     "url": "https://www.airbnb.com/rooms/871048696818199616",
@@ -3639,10 +3881,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/1029672515032770714",
@@ -3654,10 +3897,11 @@ const locations = [
     "latitude": 32.0254,
     "longitude": -81.0538,
     "host_name": "Seaport Vacation Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CEDAR ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.138385976846412e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1093505241588345972",
@@ -3669,10 +3913,11 @@ const locations = [
     "latitude": 32.0262,
     "longitude": -81.0518,
     "host_name": "Lauren 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "3130 ROBERTSON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.663963065445568e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/578380061902675213",
@@ -3684,10 +3929,11 @@ const locations = [
     "latitude": 32.04967,
     "longitude": -81.01253,
     "host_name": "Charles Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "JUANITA AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002583804959132497
   },
   {
     "url": "https://www.airbnb.com/rooms/985455284754852431",
@@ -3699,10 +3945,11 @@ const locations = [
     "latitude": 32.0589,
     "longitude": -81.093,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "512 E 33RD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.947946060830595e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1353779805285849877",
@@ -3714,10 +3961,11 @@ const locations = [
     "latitude": 31.995756548278717,
     "longitude": -81.07139446022865,
     "host_name": "Ray 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 EARL CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018020598315763228
   },
   {
     "url": "https://www.airbnb.com/rooms/945735448761090387",
@@ -3729,10 +3977,11 @@ const locations = [
     "latitude": 32.04959,
     "longitude": -81.10542,
     "host_name": "Valerian Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3202 BARNARD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00042686986340063123
   },
   {
     "url": "https://www.airbnb.com/rooms/1003075566898464139",
@@ -3744,10 +3993,11 @@ const locations = [
     "latitude": 32.03681,
     "longitude": -80.99994,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 GUNPOWDER DR",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.0001418076611004498
   },
   {
     "url": "https://www.airbnb.com/rooms/676072205551648398",
@@ -3759,10 +4009,11 @@ const locations = [
     "latitude": 32.04786,
     "longitude": -81.01035,
     "host_name": "Jill And Jordan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "916 DEBBIE AVE",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.1225914760774776e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43399498",
@@ -3774,10 +4025,11 @@ const locations = [
     "latitude": 32.05893,
     "longitude": -81.10268,
     "host_name": "Daniel Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "216 W 36TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.925136800877524e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/718700616714031653",
@@ -3789,10 +4041,11 @@ const locations = [
     "latitude": 32.0477,
     "longitude": -81.01404,
     "host_name": "Katya Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "908 TARA AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002524418240418005
   },
   {
     "url": "https://www.airbnb.com/rooms/1511710100353100532",
@@ -3804,10 +4057,11 @@ const locations = [
     "latitude": 31.99076,
     "longitude": -81.09692,
     "host_name": "Kevin Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 ROYAL OAK CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018536302479109948
   },
   {
     "url": "https://www.airbnb.com/rooms/876302024127731447",
@@ -3819,10 +4073,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/1240225291979582672",
@@ -3834,10 +4089,11 @@ const locations = [
     "latitude": 32.03346,
     "longitude": -81.05322,
     "host_name": "Kellie Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2712 MECHANICS AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019899660020537488
   },
   {
     "url": "https://www.airbnb.com/rooms/53644603",
@@ -3849,10 +4105,11 @@ const locations = [
     "latitude": 32.05966,
     "longitude": -81.10546,
     "host_name": "Aaron Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "504 W 36TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010560737248140444
   },
   {
     "url": "https://www.airbnb.com/rooms/805935580366879261",
@@ -3864,10 +4121,11 @@ const locations = [
     "latitude": 31.97814,
     "longitude": -81.10861,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1327 GRACE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013784224267289006
   },
   {
     "url": "https://www.airbnb.com/rooms/23328571",
@@ -3879,10 +4137,11 @@ const locations = [
     "latitude": 31.98222,
     "longitude": -81.11052,
     "host_name": "Wendy Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1120 HALCYON DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.0005980006497177543
   },
   {
     "url": "https://www.airbnb.com/rooms/1602911746828091928",
@@ -3894,10 +4153,11 @@ const locations = [
     "latitude": 31.9909,
     "longitude": -81.2033,
     "host_name": "Jason And Felicia Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 LEEWARD DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.874564881401799e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/27628803",
@@ -3909,10 +4169,11 @@ const locations = [
     "latitude": 32.03253,
     "longitude": -81.04934,
     "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2801 RIVER DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014643173627282015
   },
   {
     "url": "https://www.airbnb.com/rooms/53333280",
@@ -3924,10 +4185,11 @@ const locations = [
     "latitude": 31.99022,
     "longitude": -81.20112,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "28 LEEWARD DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.2638692675182695e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1687029903504286024",
@@ -3939,10 +4201,11 @@ const locations = [
     "latitude": 32.0533,
     "longitude": -81.1036,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2602 BARNARD ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011046723398198885
   },
   {
     "url": "https://www.airbnb.com/rooms/1156020631418148610",
@@ -3954,10 +4217,11 @@ const locations = [
     "latitude": 32.04003,
     "longitude": -81.01376,
     "host_name": "Ishell Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 BLUE MARLIN CV",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.1345327307409857e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/918136785026378634",
@@ -3969,10 +4233,11 @@ const locations = [
     "latitude": 32.0409,
     "longitude": -81.1368,
     "host_name": "Juan 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1700 STALEY AVE #1/2",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00010739399341487516
   },
   {
     "url": "https://www.airbnb.com/rooms/43721871",
@@ -3984,10 +4249,11 @@ const locations = [
     "latitude": 32.03981,
     "longitude": -81.00005,
     "host_name": "Jonathan And Cecil Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "115 CROSSOVER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.070913150993755e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1538298",
@@ -3999,10 +4265,11 @@ const locations = [
     "latitude": 32.0582,
     "longitude": -81.0981,
     "host_name": "Keith 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 E 35TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5077142931470923e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/37392327",
@@ -4014,10 +4281,11 @@ const locations = [
     "latitude": 32.01342,
     "longitude": -81.07939,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 BROADMOOR CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015347374643086118
   },
   {
     "url": "https://www.airbnb.com/rooms/1142954320044562392",
@@ -4029,10 +4297,11 @@ const locations = [
     "latitude": 32.02182,
     "longitude": -81.21917,
     "host_name": "Shandira Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "212 FONTENOT DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012279912620882243
   },
   {
     "url": "https://www.airbnb.com/rooms/996988096603711031",
@@ -4044,10 +4313,11 @@ const locations = [
     "latitude": 31.97140197580312,
     "longitude": -81.22435340619083,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 WILD HERON RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00032048513872525315
   },
   {
     "url": "https://www.airbnb.com/rooms/1351139337866485412",
@@ -4059,10 +4329,11 @@ const locations = [
     "latitude": 32.0354267921533,
     "longitude": -81.12205342219552,
     "host_name": "Na Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "514 TATEM ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012846622663363098
   },
   {
     "url": "https://www.airbnb.com/rooms/1050811506611396480",
@@ -4074,10 +4345,11 @@ const locations = [
     "latitude": 32.0256,
     "longitude": -81.2218,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "157 W TAHOE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001031642520810653
   },
   {
     "url": "https://www.airbnb.com/rooms/33972218",
@@ -4089,10 +4361,11 @@ const locations = [
     "latitude": 32.02673,
     "longitude": -81.22996,
     "host_name": "Rochelle Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 REESE WAY",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.7104651837409124e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1703121385884277094",
@@ -4104,10 +4377,11 @@ const locations = [
     "latitude": 31.99017290199702,
     "longitude": -81.22585280444041,
     "host_name": "Gerald Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 PINE GROVE DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006308510820569835
   },
   {
     "url": "https://www.airbnb.com/rooms/1503089280701821273",
@@ -4119,10 +4393,11 @@ const locations = [
     "latitude": 31.98715,
     "longitude": -81.09944,
     "host_name": "Hannah Superhost \u00b7 8 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1513 CRESTHILL AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002264004500726782
   },
   {
     "url": "https://www.airbnb.com/rooms/50312910",
@@ -4134,10 +4409,11 @@ const locations = [
     "latitude": 31.98214,
     "longitude": -81.22954,
     "host_name": "Carlos Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 BRANDY LN",
     "allowed_guests": 8,
     "over_occupancy": 3,
-    "over_percent": 0.375
+    "over_percent": 0.375,
+    "approx_distance_meters": 0.0003112676987526748
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002838969917151",
@@ -4149,10 +4425,11 @@ const locations = [
     "latitude": 31.9778,
     "longitude": -81.1019,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 KINGS CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.656070544378982e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/642083688123089044",
@@ -4164,10 +4441,11 @@ const locations = [
     "latitude": 31.96355,
     "longitude": -81.22748,
     "host_name": "Elaina Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 LEEHALL DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.57701072498288e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1711790880294273196",
@@ -4179,10 +4457,11 @@ const locations = [
     "latitude": 31.97927,
     "longitude": -81.10351,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1513 BUCKINGHAM WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.426685129736861e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/818903605728094194",
@@ -4194,10 +4473,11 @@ const locations = [
     "latitude": 31.9796,
     "longitude": -81.1012,
     "host_name": "Wendy Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 QUEENS CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023802470197032988
   },
   {
     "url": "https://www.airbnb.com/rooms/962555818770026832",
@@ -4209,10 +4489,11 @@ const locations = [
     "latitude": 31.98238,
     "longitude": -81.22421,
     "host_name": "BE Cole 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1211 KING GEORGE BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000792897369795952
   },
   {
     "url": "https://www.airbnb.com/rooms/1293688468208208135",
@@ -4224,10 +4505,11 @@ const locations = [
     "latitude": 31.99175838468613,
     "longitude": -81.11584776665886,
     "host_name": "Robin 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "411 INGLEWOOD DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002020401858380253
   },
   {
     "url": "https://www.airbnb.com/rooms/1719058161176381493",
@@ -4239,10 +4521,11 @@ const locations = [
     "latitude": 32.0272,
     "longitude": -81.1152,
     "host_name": "Narelle Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "123 ALPINE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4117893459007291e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/957290693268771897",
@@ -4254,10 +4537,11 @@ const locations = [
     "latitude": 31.98216,
     "longitude": -81.10577,
     "host_name": "Adam 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9009 WHITEFIELD AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001763054755741167
   },
   {
     "url": "https://www.airbnb.com/rooms/1710427914881895755",
@@ -4269,10 +4553,11 @@ const locations = [
     "latitude": 31.94797,
     "longitude": -81.11262,
     "host_name": "Spicy Stays Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ADELINE ST",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00012150214765740513
   },
   {
     "url": "https://www.airbnb.com/rooms/1221772206946471643",
@@ -4284,10 +4569,11 @@ const locations = [
     "latitude": 31.9793,
     "longitude": -81.2201,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "112 LAURENS LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.8379332138690166e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1668040087999941605",
@@ -4299,10 +4585,11 @@ const locations = [
     "latitude": 32.03529842283677,
     "longitude": -81.1218507942943,
     "host_name": "Keiry Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "5104 FRANKLIN ST",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.00011540500119154106
   },
   {
     "url": "https://www.airbnb.com/rooms/1244445381646629003",
@@ -4314,10 +4601,11 @@ const locations = [
     "latitude": 32.0161,
     "longitude": -81.2127,
     "host_name": "Ebony Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "319 COTTONVALE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.002119688129892827
   },
   {
     "url": "https://www.airbnb.com/rooms/1608834203215529920",
@@ -4329,10 +4617,11 @@ const locations = [
     "latitude": 32.0375,
     "longitude": -81.1116,
     "host_name": "Together Oasis Homes Superhost \u00b7 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "4630 HERTY DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.599189396818307e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1651022915689162415",
@@ -4344,10 +4633,11 @@ const locations = [
     "latitude": 32.03272,
     "longitude": -81.11726,
     "host_name": "Keiry Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "21 FLUKE ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015589705344006718
   },
   {
     "url": "https://www.airbnb.com/rooms/1045774141190855625",
@@ -4359,10 +4649,11 @@ const locations = [
     "latitude": 32.02499,
     "longitude": -81.09168,
     "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1206 E 71ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002067571699137274
   },
   {
     "url": "https://www.airbnb.com/rooms/871329548481445130",
@@ -4374,10 +4665,11 @@ const locations = [
     "latitude": 32.03711,
     "longitude": -81.14646,
     "host_name": "Noah 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2043 WESTLAKE AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019910132672092766
   },
   {
     "url": "https://www.airbnb.com/rooms/621952874502511847",
@@ -4389,10 +4681,11 @@ const locations = [
     "latitude": 31.96189,
     "longitude": -81.22859,
     "host_name": "Colleen 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "179 RICE MILL DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017683277099599104
   },
   {
     "url": "https://www.airbnb.com/rooms/31603674",
@@ -4404,10 +4697,11 @@ const locations = [
     "latitude": 31.99269,
     "longitude": -81.11668,
     "host_name": "Sony Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "401 BARNHILL DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001367676032857944
   },
   {
     "url": "https://www.airbnb.com/rooms/573957514797550315",
@@ -4419,10 +4713,11 @@ const locations = [
     "latitude": 31.99477387554723,
     "longitude": -81.13605073364086,
     "host_name": "Alvin Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "10710 EGMONT RD #16",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.2386962640284894e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1602973293877508560",
@@ -4434,10 +4729,11 @@ const locations = [
     "latitude": 31.990389219173768,
     "longitude": -81.20249610410771,
     "host_name": "Jason And Felicia Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 LEEWARD DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010094827851462167
   },
   {
     "url": "https://www.airbnb.com/rooms/835400871119056764",
@@ -4449,10 +4745,11 @@ const locations = [
     "latitude": 32.02354,
     "longitude": -81.22548,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "10 BERWICK BLVD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0011798343243586682
   },
   {
     "url": "https://www.airbnb.com/rooms/1652820348172937648",
@@ -4464,10 +4761,11 @@ const locations = [
     "latitude": 31.99839,
     "longitude": -81.1206,
     "host_name": "Gabrielle Superhost \u00b7 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "15 SENECA RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011621326721592058
   },
   {
     "url": "https://www.airbnb.com/rooms/1175965553729718139",
@@ -4479,10 +4777,11 @@ const locations = [
     "latitude": 31.94846,
     "longitude": -81.11318,
     "host_name": "Spicy Stays Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "570 MENDEL AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018998545563629203
   },
   {
     "url": "https://www.airbnb.com/rooms/1295686240105191179",
@@ -4494,10 +4793,11 @@ const locations = [
     "latitude": 31.9773,
     "longitude": -81.1574,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 HOPELAND DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.431103289224206e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/12409455",
@@ -4509,10 +4809,11 @@ const locations = [
     "latitude": 32.01837,
     "longitude": -81.21694,
     "host_name": "Jt 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "144 FONTENOT DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0012865696247681094
   },
   {
     "url": "https://www.airbnb.com/rooms/1333355951002452280",
@@ -4524,10 +4825,11 @@ const locations = [
     "latitude": 31.9761,
     "longitude": -81.0994,
     "host_name": "Christie Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1707 KINGS WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000112977186636249
   },
   {
     "url": "https://www.airbnb.com/rooms/2080814",
@@ -4539,10 +4841,11 @@ const locations = [
     "latitude": 31.98962,
     "longitude": -81.2012,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "33 LEEWARD DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.179540919016958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/838361552879116631",
@@ -4554,10 +4857,11 @@ const locations = [
     "latitude": 32.02295,
     "longitude": -81.22747,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "101 FENWICK VILLAGE DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030917019138835725
   },
   {
     "url": "https://www.airbnb.com/rooms/1541681301616189432",
@@ -4569,10 +4873,11 @@ const locations = [
     "latitude": 32.03221982767884,
     "longitude": -81.0976829536995,
     "host_name": "SaBreen Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "501 E 64TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028371030219886197
   },
   {
     "url": "https://www.airbnb.com/rooms/620905214260647136",
@@ -4584,10 +4889,11 @@ const locations = [
     "latitude": 31.9487,
     "longitude": -81.1136,
     "host_name": "Spicy Stays Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "569 MENDEL AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.388789506205004e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1047360707611645002",
@@ -4599,10 +4905,11 @@ const locations = [
     "latitude": 31.96326,
     "longitude": -81.13929,
     "host_name": "Cairo Walters 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "250 BORDEAUX LN",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 0.00018531318142290295
   },
   {
     "url": "https://www.airbnb.com/rooms/1267383853089562691",
@@ -4614,10 +4921,11 @@ const locations = [
     "latitude": 32.03588887780371,
     "longitude": -81.08859053822381,
     "host_name": "Chang Kai 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1203 DELESSEPS AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001855882124832632
   },
   {
     "url": "https://www.airbnb.com/rooms/1587732127706045559",
@@ -4629,10 +4937,11 @@ const locations = [
     "latitude": 32.0376,
     "longitude": -81.1562,
     "host_name": "Everett 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 BRANDLE WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.73503012658998e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1532221249596598529",
@@ -4644,10 +4953,11 @@ const locations = [
     "latitude": 31.998,
     "longitude": -81.1351,
     "host_name": "Keturah Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "227 W MONTGOMERY XR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00046839856486083055
   },
   {
     "url": "https://www.airbnb.com/rooms/1699977694755519049",
@@ -4659,10 +4969,11 @@ const locations = [
     "latitude": 31.990744100539253,
     "longitude": -81.20222899540596,
     "host_name": "Jason And Felicia Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 LEEWARD DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.672171281669029e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1245789335495266847",
@@ -4674,10 +4985,11 @@ const locations = [
     "latitude": 32.02549733842202,
     "longitude": -81.08814001679559,
     "host_name": "Jennifer 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1322 E 69TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012732979466427446
   },
   {
     "url": "https://www.airbnb.com/rooms/1693548177016423827",
@@ -4689,10 +5001,11 @@ const locations = [
     "latitude": 32.03471,
     "longitude": -81.09311,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "633 E 60TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00041772846733638554
   },
   {
     "url": "https://www.airbnb.com/rooms/1716034637465322627",
@@ -4704,10 +5017,11 @@ const locations = [
     "latitude": 31.9895,
     "longitude": -81.2024,
     "host_name": "Sheila New Host",
-    "searched_full_address": "",
+    "approximate_address": "8 LEEWARD CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.176727258792433e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/554391218195608270",
@@ -4719,10 +5033,11 @@ const locations = [
     "latitude": 31.99847,
     "longitude": -81.09971,
     "host_name": "MiMi 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "WATERS AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0013983083097554969
   },
   {
     "url": "https://www.airbnb.com/rooms/1316008017615247105",
@@ -4734,10 +5049,11 @@ const locations = [
     "latitude": 31.9848,
     "longitude": -81.1271,
     "host_name": "Monica 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "45 SKYLINE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.046809494312892e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/700900094715455522",
@@ -4749,10 +5065,11 @@ const locations = [
     "latitude": 31.99835,
     "longitude": -81.09899,
     "host_name": "Salena 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1418 DALE DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0014154176770732828
   },
   {
     "url": "https://www.airbnb.com/rooms/38295496",
@@ -4764,10 +5081,11 @@ const locations = [
     "latitude": 32.0002,
     "longitude": -81.10921,
     "host_name": "Cornelius 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "459 MALL BLVD #29",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.670649630162316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1428295916447682544",
@@ -4779,10 +5097,11 @@ const locations = [
     "latitude": 32.0088132779415,
     "longitude": -81.11352736400988,
     "host_name": "Neal 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 DOUGLAS ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9278738439170752e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1718947034215415054",
@@ -4794,10 +5113,11 @@ const locations = [
     "latitude": 31.9895,
     "longitude": -81.2024,
     "host_name": "Sheila New Host",
-    "searched_full_address": "",
+    "approximate_address": "8 LEEWARD CT",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.176727258792433e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1450678689813384309",
@@ -4809,10 +5129,11 @@ const locations = [
     "latitude": 32.0082541294729,
     "longitude": -81.10473678186996,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "301 NOBLE OAKS DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006250631367951883
   },
   {
     "url": "https://www.airbnb.com/rooms/1166770255873932040",
@@ -4824,10 +5145,11 @@ const locations = [
     "latitude": 31.99229,
     "longitude": -81.2017,
     "host_name": "Jamari 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "32 ABACO CT",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004863936269579829
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002673904169052",
@@ -4839,10 +5161,11 @@ const locations = [
     "latitude": 31.95105570884917,
     "longitude": -81.11349328565511,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "MENDEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018999785408341339
   },
   {
     "url": "https://www.airbnb.com/rooms/1655807385370383451",
@@ -4854,10 +5177,11 @@ const locations = [
     "latitude": 32.02435364678734,
     "longitude": -81.22868293318213,
     "host_name": "Terri Gaines Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "163 REESE WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006721411523033707
   },
   {
     "url": "https://www.airbnb.com/rooms/1192264252790187735",
@@ -4869,10 +5193,11 @@ const locations = [
     "latitude": 32.03719,
     "longitude": -81.14941,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2140 MCLEOD AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020393529487885498
   },
   {
     "url": "https://www.airbnb.com/rooms/1267686203437585689",
@@ -4884,10 +5209,11 @@ const locations = [
     "latitude": 31.991365108527383,
     "longitude": -81.20196608476014,
     "host_name": "Satriee 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 PRINCE ROYAL LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007213019401050568
   },
   {
     "url": "https://www.airbnb.com/rooms/1690922652972787710",
@@ -4899,10 +5225,11 @@ const locations = [
     "latitude": 32.0376,
     "longitude": -81.1039,
     "host_name": "Angel 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 61ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001260859035429038
   },
   {
     "url": "https://www.airbnb.com/rooms/1648526312201167883",
@@ -4914,10 +5241,11 @@ const locations = [
     "latitude": 32.035,
     "longitude": -81.1519,
     "host_name": "RedAwning Vacation Rentals 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "117 BLAINE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.255613320430337e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53239342",
@@ -4929,10 +5257,11 @@ const locations = [
     "latitude": 32.02686,
     "longitude": -81.21708,
     "host_name": "SagaCity 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "118 COTTONVALE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023711473078642754
   },
   {
     "url": "https://www.airbnb.com/rooms/50917062",
@@ -4944,10 +5273,11 @@ const locations = [
     "latitude": 31.99712,
     "longitude": -80.97271,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1414 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000605615763231301
   },
   {
     "url": "https://www.airbnb.com/rooms/1197344498932362098",
@@ -4959,10 +5289,11 @@ const locations = [
     "latitude": 32.01466,
     "longitude": -80.97753,
     "host_name": "Kaylee Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 WASSAW RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013459967211046288
   },
   {
     "url": "https://www.airbnb.com/rooms/42505423",
@@ -4974,10 +5305,11 @@ const locations = [
     "latitude": 32.01681,
     "longitude": -80.96418,
     "host_name": "Emerson Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": null,
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003707192624134277
   },
   {
     "url": "https://www.airbnb.com/rooms/641346425520854756",
@@ -4989,10 +5321,11 @@ const locations = [
     "latitude": 31.99732,
     "longitude": -80.98055,
     "host_name": "Kolin Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "155 HAMPSHIRE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014264023897789184
   },
   {
     "url": "https://www.airbnb.com/rooms/1268818841356176663",
@@ -5004,10 +5337,11 @@ const locations = [
     "latitude": 31.99426123345309,
     "longitude": -80.97539009998076,
     "host_name": "Jen Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1518 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019421097240222715
   },
   {
     "url": "https://www.airbnb.com/rooms/1443704520834078207",
@@ -5019,10 +5353,11 @@ const locations = [
     "latitude": 31.9921,
     "longitude": -80.9942,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1107 WILMINGTON ISLAND RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013686636301391602
   },
   {
     "url": "https://www.airbnb.com/rooms/1190056640601151350",
@@ -5034,10 +5369,11 @@ const locations = [
     "latitude": 32.01308,
     "longitude": -80.9794,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 CALIBOGUE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010688028708782906
   },
   {
     "url": "https://www.airbnb.com/rooms/1443749632523164087",
@@ -5049,10 +5385,11 @@ const locations = [
     "latitude": 32.0112,
     "longitude": -80.9689,
     "host_name": "Kamal Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "133 S SHEFTALL CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.094185733862868e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1470641628581509483",
@@ -5064,10 +5401,11 @@ const locations = [
     "latitude": 32.0053,
     "longitude": -80.9619,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "917 BOB WHITE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.838318359116168e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1115959586377919929",
@@ -5079,10 +5417,11 @@ const locations = [
     "latitude": 32.0232,
     "longitude": -80.9693,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 QUARTERMAN DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4749615509144228e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/665819609408396651",
@@ -5094,10 +5433,11 @@ const locations = [
     "latitude": 32.00247,
     "longitude": -80.96554,
     "host_name": "Celia Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1034 FISHER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002663832763780648
   },
   {
     "url": "https://www.airbnb.com/rooms/1609853086401984308",
@@ -5109,10 +5449,11 @@ const locations = [
     "latitude": 32.01468545995674,
     "longitude": -80.9707105251485,
     "host_name": "Antoinette Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": null,
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0003517623590532454
   },
   {
     "url": "https://www.airbnb.com/rooms/50998560",
@@ -5124,10 +5465,11 @@ const locations = [
     "latitude": 31.99466,
     "longitude": -80.97661,
     "host_name": "Mary 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1518 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040621723827179867
   },
   {
     "url": "https://www.airbnb.com/rooms/1169095003030419604",
@@ -5139,10 +5481,11 @@ const locations = [
     "latitude": 32.0115,
     "longitude": -80.9707,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 SHEFTALL CV",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.147434626467901e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1347854349047092342",
@@ -5154,10 +5497,11 @@ const locations = [
     "latitude": 32.0127,
     "longitude": -80.969,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "130 N SHEFTALL CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.407300369068572e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/945600683169907452",
@@ -5169,10 +5513,11 @@ const locations = [
     "latitude": 32.0144,
     "longitude": -80.964,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "805 BETZ CREEK RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.211765386288997e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/739651787894205434",
@@ -5184,10 +5529,11 @@ const locations = [
     "latitude": 32.0078,
     "longitude": -80.9674,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 BLACK FOREST DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013190814371195022
   },
   {
     "url": "https://www.airbnb.com/rooms/50942595",
@@ -5199,10 +5545,11 @@ const locations = [
     "latitude": 31.99675,
     "longitude": -80.97215,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1414 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.13700800430755e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1484729857538833989",
@@ -5214,10 +5561,11 @@ const locations = [
     "latitude": 32.02542,
     "longitude": -80.96311,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7508 MAYER AVE",
     "allowed_guests": 10,
     "over_occupancy": 1,
-    "over_percent": 0.1
+    "over_percent": 0.1,
+    "approx_distance_meters": 0.00015219861561590432
   },
   {
     "url": "https://www.airbnb.com/rooms/46414413",
@@ -5229,10 +5577,11 @@ const locations = [
     "latitude": 32.02024,
     "longitude": -80.98146,
     "host_name": "Gayle Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 JOHNNY MERCER BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0012386670915085995
   },
   {
     "url": "https://www.airbnb.com/rooms/722610469447990892",
@@ -5244,10 +5593,11 @@ const locations = [
     "latitude": 32.00487,
     "longitude": -80.96382,
     "host_name": "Celia Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 NORTH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012727126030993144
   },
   {
     "url": "https://www.airbnb.com/rooms/13017628",
@@ -5259,10 +5609,11 @@ const locations = [
     "latitude": 32.02052,
     "longitude": -80.97641,
     "host_name": "Liz 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 DEBRA RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013644492366384517
   },
   {
     "url": "https://www.airbnb.com/rooms/802192031681350863",
@@ -5274,10 +5625,11 @@ const locations = [
     "latitude": 32.01564,
     "longitude": -80.9725,
     "host_name": "Chris Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "12 ANGEL OAKS DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031952840007610345
   },
   {
     "url": "https://www.airbnb.com/rooms/1498006241934201577",
@@ -5289,10 +5641,11 @@ const locations = [
     "latitude": 32.00996,
     "longitude": -80.97191,
     "host_name": "Lindsey Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1105 COBB RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001115953766289016
   },
   {
     "url": "https://www.airbnb.com/rooms/729785390948342007",
@@ -5304,10 +5657,11 @@ const locations = [
     "latitude": 32.01443,
     "longitude": -80.95962,
     "host_name": "Caitlin Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "506 POINTE NORTH DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023203927965519336
   },
   {
     "url": "https://www.airbnb.com/rooms/1571929995471443704",
@@ -5319,10 +5673,11 @@ const locations = [
     "latitude": 32.0125,
     "longitude": -80.9709,
     "host_name": "Miranda Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 N SHEFTALL CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010637392440564623
   },
   {
     "url": "https://www.airbnb.com/rooms/1376802007491321745",
@@ -5334,10 +5689,11 @@ const locations = [
     "latitude": 32.0085,
     "longitude": -80.9687,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1023 BRITTLEWOOD DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.408281518807552e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1541538623040547368",
@@ -5349,10 +5705,11 @@ const locations = [
     "latitude": 32.0228,
     "longitude": -80.9669,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 WALTHOUR CV",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014028910338721972
   },
   {
     "url": "https://www.airbnb.com/rooms/1655335896944843984",
@@ -5364,10 +5721,11 @@ const locations = [
     "latitude": 32.01428758587195,
     "longitude": -80.97095311726405,
     "host_name": "Antoinette Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": null,
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 0.00017059834131604148
   },
   {
     "url": "https://www.airbnb.com/rooms/1152120355292044939",
@@ -5379,10 +5737,11 @@ const locations = [
     "latitude": 32.0193,
     "longitude": -80.9763,
     "host_name": "Dylan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6715 SAND RD",
     "allowed_guests": 10,
     "over_occupancy": 6,
-    "over_percent": 0.6
+    "over_percent": 0.6,
+    "approx_distance_meters": 5.373967176885051e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/639198406449105039",
@@ -5394,10 +5753,11 @@ const locations = [
     "latitude": 32.005,
     "longitude": -80.96,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "633 WHIPPOORWILL RD",
     "allowed_guests": 18,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.95044397098308e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/30979336",
@@ -5409,10 +5769,11 @@ const locations = [
     "latitude": 32.02479,
     "longitude": -80.97156,
     "host_name": "Mark 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "212 OVERLOOK RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031672251756816733
   },
   {
     "url": "https://www.airbnb.com/rooms/45486310",
@@ -5424,10 +5785,11 @@ const locations = [
     "latitude": 32.01539,
     "longitude": -80.97622,
     "host_name": "Christina Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "124 WASSAW RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002362010185081025
   },
   {
     "url": "https://www.airbnb.com/rooms/1655095017686597773",
@@ -5439,10 +5801,11 @@ const locations = [
     "latitude": 32.01269,
     "longitude": -80.97237,
     "host_name": "Antoinette Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 CYPRESS CV",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.40017953425978e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1113849451276424776",
@@ -5454,10 +5817,11 @@ const locations = [
     "latitude": 32.01708,
     "longitude": -80.96151,
     "host_name": "Kathee Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "420 WALTHOUR RD",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0005454269124440498
   },
   {
     "url": "https://www.airbnb.com/rooms/876268272566610190",
@@ -5469,10 +5833,11 @@ const locations = [
     "latitude": 32.01587,
     "longitude": -80.9804,
     "host_name": "Jason Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "342 JOHNNY MERCER BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019220757674546802
   },
   {
     "url": "https://www.airbnb.com/rooms/1700237276318624659",
@@ -5484,10 +5849,11 @@ const locations = [
     "latitude": 31.99433,
     "longitude": -80.97593,
     "host_name": "Mighty Tree Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1520 WALTHOUR RD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00031305149146096503
   },
   {
     "url": "https://www.airbnb.com/rooms/1359416824336389691",
@@ -5499,10 +5865,11 @@ const locations = [
     "latitude": 32.0245,
     "longitude": -80.9668,
     "host_name": "Russ Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "7220 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.069056384035117e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1126038065684347591",
@@ -5514,10 +5881,11 @@ const locations = [
     "latitude": 32.00771,
     "longitude": -80.97157,
     "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "708 PENN WALLER RD",
     "allowed_guests": 12,
     "over_occupancy": 4,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.00025888171937369313
   },
   {
     "url": "https://www.airbnb.com/rooms/50942774",
@@ -5529,10 +5897,11 @@ const locations = [
     "latitude": 31.99817,
     "longitude": -80.97236,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1402 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002798398993918371
   },
   {
     "url": "https://www.airbnb.com/rooms/1361201086184003908",
@@ -5544,10 +5913,11 @@ const locations = [
     "latitude": 32.0266,
     "longitude": -80.9838,
     "host_name": "Abigail Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "408 SUNCREST BLVD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00016746086953344413
   },
   {
     "url": "https://www.airbnb.com/rooms/1542739415082998147",
@@ -5559,10 +5929,11 @@ const locations = [
     "latitude": 31.9944,
     "longitude": -81.0618,
     "host_name": "Pamela Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7416 HEMLOCK AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.6952704199836985e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1397342172071921723",
@@ -5574,10 +5945,11 @@ const locations = [
     "latitude": 32.024,
     "longitude": -80.9672,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "7212 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.1010905756074182e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1696575747246273268",
@@ -5589,10 +5961,11 @@ const locations = [
     "latitude": 32.0064,
     "longitude": -80.9771,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "152 PENN STATION",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5573880821431395e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1556982593838436463",
@@ -5604,10 +5977,11 @@ const locations = [
     "latitude": 32.00405,
     "longitude": -80.98321,
     "host_name": "Clay 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "207 DEERWOOD RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.789410363426822e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/922304739942461640",
@@ -5619,10 +5993,11 @@ const locations = [
     "latitude": 32.00191,
     "longitude": -80.96526,
     "host_name": "Josh Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1030 FISHER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004148206093833236
   },
   {
     "url": "https://www.airbnb.com/rooms/1522007191039266497",
@@ -5634,10 +6009,11 @@ const locations = [
     "latitude": 31.98844,
     "longitude": -81.07009,
     "host_name": "Debbie Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 NORWOOD AVE",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 0.00011989091791172947
   },
   {
     "url": "https://www.airbnb.com/rooms/702257097388921497",
@@ -5649,10 +6025,11 @@ const locations = [
     "latitude": 32.0123,
     "longitude": -80.9728,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 N SHEFTALL CIR",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 2.31408213824117e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/37392385",
@@ -5664,10 +6041,11 @@ const locations = [
     "latitude": 32.01333,
     "longitude": -81.08061,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "25 BROADMOOR CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019955037045128832
   },
   {
     "url": "https://www.airbnb.com/rooms/623108258582047150",
@@ -5679,10 +6057,11 @@ const locations = [
     "latitude": 31.9984,
     "longitude": -80.9699,
     "host_name": "Sherry Lynn Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1318 WALTHOUR RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020432907591477853
   },
   {
     "url": "https://www.airbnb.com/rooms/36917618",
@@ -5694,10 +6073,11 @@ const locations = [
     "latitude": 31.9922,
     "longitude": -81.0635,
     "host_name": "Virgil Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2426 EASY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.647035059986697e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1350154662614279306",
@@ -5709,10 +6089,11 @@ const locations = [
     "latitude": 31.9872,
     "longitude": -81.0556,
     "host_name": "Brigitta Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 CARDINAL RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.628118052267817e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1008583598206861190",
@@ -5724,10 +6105,11 @@ const locations = [
     "latitude": 32.02286,
     "longitude": -80.95819,
     "host_name": "Joshua Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 FISH HAWK RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016801080013262678
   },
   {
     "url": "https://www.airbnb.com/rooms/774660357541973639",
@@ -5739,10 +6121,11 @@ const locations = [
     "latitude": 32.0148,
     "longitude": -80.9741,
     "host_name": "Jill Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "29 ANGEL OAKS DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021934267570351872
   },
   {
     "url": "https://www.airbnb.com/rooms/1713915018948378842",
@@ -5754,10 +6137,11 @@ const locations = [
     "latitude": 32.0242,
     "longitude": -80.967,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7216 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.061190455202467e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1271775941306055348",
@@ -5769,10 +6153,11 @@ const locations = [
     "latitude": 32.00416222518824,
     "longitude": -80.96286726468131,
     "host_name": "Jonathan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 NORTH ST",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001772971478154352
   },
   {
     "url": "https://www.airbnb.com/rooms/1713903140116747808",
@@ -5784,10 +6169,11 @@ const locations = [
     "latitude": 31.99641,
     "longitude": -81.0712,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 CROSS BOW CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001197739870282898
   },
   {
     "url": "https://www.airbnb.com/rooms/1655265633249023314",
@@ -5799,10 +6185,11 @@ const locations = [
     "latitude": 32.0089,
     "longitude": -80.9749,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 E DEERWOOD RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.2292292823417095e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/41265700",
@@ -5814,10 +6201,11 @@ const locations = [
     "latitude": 32.02309,
     "longitude": -81.0538,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3212 COLLEGE AVE",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004488432628977195
   },
   {
     "url": "https://www.airbnb.com/rooms/1350892809038515958",
@@ -5829,10 +6217,11 @@ const locations = [
     "latitude": 31.986115914807176,
     "longitude": -81.05579016658811,
     "host_name": "Brigitta Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 CORNUS DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016809608175329864
   },
   {
     "url": "https://www.airbnb.com/rooms/550772505969020234",
@@ -5844,10 +6233,11 @@ const locations = [
     "latitude": 31.97915,
     "longitude": -81.07989,
     "host_name": "Andy Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8841 FERGUSON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000272890180092699
   },
   {
     "url": "https://www.airbnb.com/rooms/1389802751171880223",
@@ -5859,10 +6249,11 @@ const locations = [
     "latitude": 32.0235,
     "longitude": -80.9587,
     "host_name": "Evolve 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "127 TEAKWOOD DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.807320870111783e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/27226189",
@@ -5874,10 +6265,11 @@ const locations = [
     "latitude": 32.0093,
     "longitude": -80.9826,
     "host_name": "Karla 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 OKATEE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.706272014756164e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1453001658691036300",
@@ -5889,10 +6281,11 @@ const locations = [
     "latitude": 32.01841,
     "longitude": -80.96591,
     "host_name": "Karli 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 VICKERY LN",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023458966814698617
   },
   {
     "url": "https://www.airbnb.com/rooms/47951533",
@@ -5904,10 +6297,11 @@ const locations = [
     "latitude": 31.99865,
     "longitude": -80.97057,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1008 WELCH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001360983959054094
   },
   {
     "url": "https://www.airbnb.com/rooms/1702998109364969067",
@@ -5919,10 +6313,11 @@ const locations = [
     "latitude": 31.9921,
     "longitude": -81.0518,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 GOVERNMENT RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9425301553490553e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/651554671571141680",
@@ -5934,10 +6329,11 @@ const locations = [
     "latitude": 31.9882,
     "longitude": -81.0707,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2218 CINDER LANDING CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.114432756939944e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1576976261359892313",
@@ -5949,10 +6345,11 @@ const locations = [
     "latitude": 31.978635605926712,
     "longitude": -80.99363543736617,
     "host_name": "Shannon Superhost \u00b7 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "WALTHOUR RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003941725312009182
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979146454984191",
@@ -5964,10 +6361,11 @@ const locations = [
     "latitude": 32.0193,
     "longitude": -80.9619,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 RIVERMIST LN",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 6.292636445781801e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1008981874308980074",
@@ -5979,10 +6377,11 @@ const locations = [
     "latitude": 31.99492,
     "longitude": -81.07518,
     "host_name": "Elizabeth 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7203 ALBERT ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002407468221061389
   },
   {
     "url": "https://www.airbnb.com/rooms/1602163090158746442",
@@ -5994,10 +6393,11 @@ const locations = [
     "latitude": 31.9969,
     "longitude": -81.0717,
     "host_name": "Milan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 CROSS BOW CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001298444757320343
   },
   {
     "url": "https://www.airbnb.com/rooms/1527908669890523241",
@@ -6009,10 +6409,11 @@ const locations = [
     "latitude": 31.981,
     "longitude": -81.0798,
     "host_name": "Chinwe Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 TARA MANOR DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.141018013894231e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1706657022533800961",
@@ -6024,10 +6425,11 @@ const locations = [
     "latitude": 32.01727,
     "longitude": -80.97535,
     "host_name": "Royal Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "306 LARBRE RD",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.00030227107649111033
   },
   {
     "url": "https://www.airbnb.com/rooms/1047398678982660638",
@@ -6039,10 +6441,11 @@ const locations = [
     "latitude": 32.0137,
     "longitude": -80.9706,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 BRADFORD CV",
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 0.00018508939592166464
   },
   {
     "url": "https://www.airbnb.com/rooms/1444470035596137084",
@@ -6054,10 +6457,11 @@ const locations = [
     "latitude": 31.98018,
     "longitude": -81.06664,
     "host_name": "Milan 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 FALLOWFIELD DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013820464810619432
   },
   {
     "url": "https://www.airbnb.com/rooms/1474960637504030145",
@@ -6069,10 +6473,11 @@ const locations = [
     "latitude": 32.02636,
     "longitude": -80.97147,
     "host_name": "Nick Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 QUARTERMAN DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019804435921144372
   },
   {
     "url": "https://www.airbnb.com/rooms/1245960434565341038",
@@ -6084,10 +6489,11 @@ const locations = [
     "latitude": 32.0002,
     "longitude": -81.0642,
     "host_name": "Tiffany Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 NEVA AVE",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 6.512295849913456e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/908763689853733767",
@@ -6099,10 +6505,11 @@ const locations = [
     "latitude": 32.0224,
     "longitude": -80.9699,
     "host_name": "Shelia 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7024 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.177336848949662e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/893172135033173394",
@@ -6114,10 +6521,11 @@ const locations = [
     "latitude": 31.98238,
     "longitude": -81.06267,
     "host_name": "Aniston 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7617 CENTRAL AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028822546663583905
   },
   {
     "url": "https://www.airbnb.com/rooms/1066817842172394156",
@@ -6129,10 +6537,11 @@ const locations = [
     "latitude": 32.0079,
     "longitude": -80.9763,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "35 E DEERWOOD RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.000481294130583e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1018876891434658521",
@@ -6144,10 +6553,11 @@ const locations = [
     "latitude": 31.9729,
     "longitude": -80.9994,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2326 WALTHOUR RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005593844754333808
   },
   {
     "url": "https://www.airbnb.com/rooms/917504843455292638",
@@ -6159,10 +6569,11 @@ const locations = [
     "latitude": 31.9955,
     "longitude": -81.0702,
     "host_name": "Claire 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 MARIAN CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.698121667916848e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1602120078538874836",
@@ -6174,10 +6585,11 @@ const locations = [
     "latitude": 32.0129,
     "longitude": -80.9778,
     "host_name": "Sandy 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 SAPELO RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.547314476147355e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1519665016204832894",
@@ -6189,10 +6601,11 @@ const locations = [
     "latitude": 32.0231,
     "longitude": -80.96733,
     "host_name": "Joshua & Brittany Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7203 JOHNNY MERCER BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.965190535636e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1628625143443243535",
@@ -6204,10 +6617,11 @@ const locations = [
     "latitude": 31.9968,
     "longitude": -80.9748,
     "host_name": "Dylan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1507 WALTHOUR RD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00014225594005440705
   },
   {
     "url": "https://www.airbnb.com/rooms/958302222162394139",
@@ -6219,10 +6633,11 @@ const locations = [
     "latitude": 32.01211,
     "longitude": -80.97718,
     "host_name": "Nancy Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 SAPELO RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00038837943027100524
   },
   {
     "url": "https://www.airbnb.com/rooms/1234860632104509197",
@@ -6234,10 +6649,11 @@ const locations = [
     "latitude": 32.01444,
     "longitude": -80.98168,
     "host_name": "Celia Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "324 JOHNNY MERCER BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021416057714857234
   },
   {
     "url": "https://www.airbnb.com/rooms/1658962815013924864",
@@ -6249,10 +6665,11 @@ const locations = [
     "latitude": 31.9854,
     "longitude": -80.9935,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 BILTMORE RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.639410927086811e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/992747380441567693",
@@ -6264,10 +6681,11 @@ const locations = [
     "latitude": 32.0081,
     "longitude": -81.0665,
     "host_name": "Vinay Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6101 LAROCHE AVE",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002721020858617933
   },
   {
     "url": "https://www.airbnb.com/rooms/1718120700026544653",
@@ -6279,10 +6697,11 @@ const locations = [
     "latitude": 32.01559,
     "longitude": -80.97721,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "463 JOHNNY MERCER BLVD",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 0.0002742198510967375
   },
   {
     "url": "https://www.airbnb.com/rooms/1600749684865342988",
@@ -6294,10 +6713,11 @@ const locations = [
     "latitude": 32.0222,
     "longitude": -80.95951,
     "host_name": "Peyton Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 TEAKWOOD DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 5.9511248022693136e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/730590509836861903",
@@ -6309,10 +6729,11 @@ const locations = [
     "latitude": 31.97839,
     "longitude": -81.07979,
     "host_name": "Milan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8845 FERGUSON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007651704005778248
   },
   {
     "url": "https://www.airbnb.com/rooms/1596097849186394259",
@@ -6324,10 +6745,11 @@ const locations = [
     "latitude": 32.002,
     "longitude": -80.967,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1112 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022737652124936873
   },
   {
     "url": "https://www.airbnb.com/rooms/1663190508912907923",
@@ -6339,10 +6761,11 @@ const locations = [
     "latitude": 31.9921,
     "longitude": -81.0518,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 GOVERNMENT RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9425301553490553e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1366604429834788025",
@@ -6354,10 +6777,11 @@ const locations = [
     "latitude": 32.00411782566225,
     "longitude": -80.96199773759483,
     "host_name": "Jonathan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1005 BOB WHITE RD",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.00034303582746177195
   },
   {
     "url": "https://www.airbnb.com/rooms/1272591829166339366",
@@ -6369,10 +6793,11 @@ const locations = [
     "latitude": 31.991,
     "longitude": -81.0705,
     "host_name": "Yanina Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "126 HUNT CLUB CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.54448040578481e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43204135",
@@ -6384,10 +6809,11 @@ const locations = [
     "latitude": 32.0128,
     "longitude": -80.9805,
     "host_name": "Glen 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "12 OSSABAW RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.684211765698614e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1597458309031799218",
@@ -6399,10 +6825,11 @@ const locations = [
     "latitude": 32.01743,
     "longitude": -81.07323,
     "host_name": "Silvia Superhost \u00b7 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "5545 ALMA ST",
     "allowed_guests": 8,
     "over_occupancy": 8,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.00025625727271506404
   },
   {
     "url": "https://www.airbnb.com/rooms/1568406203760849656",
@@ -6414,10 +6841,11 @@ const locations = [
     "latitude": 32.02424,
     "longitude": -81.05854,
     "host_name": "Caitlin Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2204 TOMPKINS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002283628122279995
   },
   {
     "url": "https://www.airbnb.com/rooms/1612456265124781196",
@@ -6429,10 +6857,11 @@ const locations = [
     "latitude": 31.99819,
     "longitude": -81.06378,
     "host_name": "Ethan Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 CHESTLEY PL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011687572544248409
   },
   {
     "url": "https://www.airbnb.com/rooms/1361104614510273229",
@@ -6444,10 +6873,11 @@ const locations = [
     "latitude": 31.9989,
     "longitude": -80.9701,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1316 WALTHOUR RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017304122251119146
   },
   {
     "url": "https://www.airbnb.com/rooms/1497949957267156694",
@@ -6459,10 +6889,11 @@ const locations = [
     "latitude": 31.9797,
     "longitude": -81.07797,
     "host_name": "Elizabeth 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "8836 FERGUSON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004129897683207155
   },
   {
     "url": "https://www.airbnb.com/rooms/1192816297277825237",
@@ -6474,10 +6905,11 @@ const locations = [
     "latitude": 32.0035,
     "longitude": -80.9696,
     "host_name": "Jill Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "904 PENN WALLER RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010720104842795085
   },
   {
     "url": "https://www.airbnb.com/rooms/1466067497779364200",
@@ -6489,10 +6921,11 @@ const locations = [
     "latitude": 31.99625,
     "longitude": -81.06498,
     "host_name": "Carlos Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 MULBERRY CT",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026704437370598264
   },
   {
     "url": "https://www.airbnb.com/rooms/1644571036388148904",
@@ -6504,10 +6937,11 @@ const locations = [
     "latitude": 32.02481,
     "longitude": -81.05366,
     "host_name": "Jingchen Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3220 FALLIGANT AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003380799164084057
   },
   {
     "url": "https://www.airbnb.com/rooms/1366633956344458459",
@@ -6519,10 +6953,11 @@ const locations = [
     "latitude": 32.00253001446678,
     "longitude": -80.96273395103144,
     "host_name": "Jonathan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "908 2ND ST",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.0002960049081779192
   },
   {
     "url": "https://www.airbnb.com/rooms/745888920267194745",
@@ -6534,10 +6969,11 @@ const locations = [
     "latitude": 32.02609,
     "longitude": -81.0587,
     "host_name": "Caitlin Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2821 GRANT ST",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010873110466327045
   },
   {
     "url": "https://www.airbnb.com/rooms/51490258",
@@ -6549,10 +6985,11 @@ const locations = [
     "latitude": 32.00265,
     "longitude": -80.99813,
     "host_name": "Jenny Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "722 WILMINGTON ISLAND RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000933928009501532
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979430689308423",
@@ -6564,10 +7001,11 @@ const locations = [
     "latitude": 31.99982,
     "longitude": -81.06321,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "7010 LAROCHE AVE",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.0003030479731950333
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002516242558154",
@@ -6579,10 +7017,11 @@ const locations = [
     "latitude": 31.9906,
     "longitude": -81.0729,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2207 WASHINGTON ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.9987465716831737e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1684142818837051244",
@@ -6594,10 +7033,11 @@ const locations = [
     "latitude": 31.98,
     "longitude": -80.9928,
     "host_name": "Darian 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "1906 STONE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005468000665890441
   },
   {
     "url": "https://www.airbnb.com/rooms/1210789582920262614",
@@ -6609,10 +7049,11 @@ const locations = [
     "latitude": 32.0124,
     "longitude": -80.9809,
     "host_name": "Gerald Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 OSSABAW RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.359118273592122e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1647521020054845089",
@@ -6624,10 +7065,11 @@ const locations = [
     "latitude": 32.01581446777827,
     "longitude": -80.97601318877696,
     "host_name": "Royal Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "128 WASSAW RD",
     "allowed_guests": 4,
     "over_occupancy": 1,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 9.291078052547672e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/724061295600091778",
@@ -6639,10 +7081,11 @@ const locations = [
     "latitude": 32.00906,
     "longitude": -80.98216,
     "host_name": "Karla 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "124 OKATEE DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012788476750036118
   },
   {
     "url": "https://www.airbnb.com/rooms/1233922269834222917",
@@ -6654,10 +7097,11 @@ const locations = [
     "latitude": 32.0149,
     "longitude": -80.958,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "522 OEMLER LOOP",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.9137033553457965e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1654481991204591610",
@@ -6669,10 +7113,11 @@ const locations = [
     "latitude": 32.026,
     "longitude": -81.0516,
     "host_name": "Ashish Superhost \u00b7 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "3132 ROBERTSON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.2245265629594146e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/669557993111942110",
@@ -6684,10 +7129,11 @@ const locations = [
     "latitude": 32.01374,
     "longitude": -80.9809,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 CALIBOGUE RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018198066024435324
   },
   {
     "url": "https://www.airbnb.com/rooms/1619672797957554074",
@@ -6699,10 +7145,11 @@ const locations = [
     "latitude": 32.02518,
     "longitude": -81.05971,
     "host_name": "Miya 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "3219 COLLEGE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018290134109991358
   },
   {
     "url": "https://www.airbnb.com/rooms/1632041409768785513",
@@ -6714,10 +7161,11 @@ const locations = [
     "latitude": 32.02076,
     "longitude": -80.95823,
     "host_name": "Mary 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 SAPPHIRE ISLAND RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006351751690049281
   },
   {
     "url": "https://www.airbnb.com/rooms/1709588715837376027",
@@ -6729,10 +7177,11 @@ const locations = [
     "latitude": 32.01952,
     "longitude": -80.96156,
     "host_name": "Anthony 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 SAPPHIRE ISLAND RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001271681426133089
   },
   {
     "url": "https://www.airbnb.com/rooms/554919757078767047",
@@ -6744,10 +7193,11 @@ const locations = [
     "latitude": 32.02418,
     "longitude": -80.96867,
     "host_name": "Lillian Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 TREASURE LOOP",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.138968769229707e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/34899046",
@@ -6759,10 +7209,11 @@ const locations = [
     "latitude": 32.00096673564956,
     "longitude": -80.96861722361045,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1302 WALTHOUR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000585143832828627
   },
   {
     "url": "https://www.airbnb.com/rooms/980313733702904639",
@@ -6774,10 +7225,11 @@ const locations = [
     "latitude": 31.99383,
     "longitude": -81.06831,
     "host_name": "Vacasa 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2404 NORWOOD AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002526443131821029
   },
   {
     "url": "https://www.airbnb.com/rooms/1615400164944175326",
@@ -6789,10 +7241,11 @@ const locations = [
     "latitude": 32.0108,
     "longitude": -80.9689,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1131 COBB RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7380441052504846e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979453933093428",
@@ -6804,10 +7257,11 @@ const locations = [
     "latitude": 32.0005497046955,
     "longitude": -81.06473319490627,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2603 NOTTINGHAM DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024250509073148107
   },
   {
     "url": "https://www.airbnb.com/rooms/45398819",
@@ -6819,10 +7273,11 @@ const locations = [
     "latitude": 31.99034,
     "longitude": -81.076,
     "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SKIDAWAY RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001812740410528116
   },
   {
     "url": "https://www.airbnb.com/rooms/1663793149099777815",
@@ -6834,10 +7289,11 @@ const locations = [
     "latitude": 31.9922,
     "longitude": -81.0518,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 GOVERNMENT RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.125359980892105e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1511316409509577602",
@@ -6849,10 +7305,11 @@ const locations = [
     "latitude": 32.01747,
     "longitude": -80.97466,
     "host_name": "Royal Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "312 LARBRE RD",
     "allowed_guests": 8,
     "over_occupancy": 6,
-    "over_percent": 0.75
+    "over_percent": 0.75,
+    "approx_distance_meters": 0.0001543928633252516
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002786196728313",
@@ -6864,10 +7321,11 @@ const locations = [
     "latitude": 31.991,
     "longitude": -81.0749,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "7342 LEGHORN ST",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 1.0746266773508447e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/23467441",
@@ -6879,10 +7337,11 @@ const locations = [
     "latitude": 32.02491,
     "longitude": -81.04915,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3121 RIVER DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009521901304585877
   },
   {
     "url": "https://www.airbnb.com/rooms/37395624",
@@ -6894,10 +7353,11 @@ const locations = [
     "latitude": 32.0135,
     "longitude": -81.08041,
     "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 BROADMOOR CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001311007009695785
   },
   {
     "url": "https://www.airbnb.com/rooms/1670948368944992842",
@@ -6909,10 +7369,11 @@ const locations = [
     "latitude": 32.02535,
     "longitude": -80.96732,
     "host_name": "Alan New Host",
-    "searched_full_address": "",
+    "approximate_address": "7216 GOLDEN ISLES WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7002396564890866e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979596992354118",
@@ -6924,10 +7385,11 @@ const locations = [
     "latitude": 32.00181,
     "longitude": -81.06515,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2604 NOTTINGHAM DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004429981728507986
   },
   {
     "url": "https://www.airbnb.com/rooms/1671259291246493333",
@@ -6939,10 +7401,11 @@ const locations = [
     "latitude": 32.0130808540956,
     "longitude": -80.97933728316157,
     "host_name": "Vacasa Georgia 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 CALIBOGUE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014020821617174604
   },
   {
     "url": "https://www.airbnb.com/rooms/1027164774723228226",
@@ -6954,10 +7417,11 @@ const locations = [
     "latitude": 31.98251,
     "longitude": -80.99612,
     "host_name": "Mike Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1411 WILMINGTON ISLAND RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001896367146975817
   },
   {
     "url": "https://www.airbnb.com/rooms/1322760451077464978",
@@ -6969,10 +7433,11 @@ const locations = [
     "latitude": 32.02513,
     "longitude": -80.96681,
     "host_name": "Clare 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "7301 TROPICAL WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001299389320738509
   },
   {
     "url": "https://www.airbnb.com/rooms/916148287801341255",
@@ -6984,10 +7449,11 @@ const locations = [
     "latitude": 32.00006,
     "longitude": -80.98074,
     "host_name": "Anh 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 N CROMWELL RD",
     "allowed_guests": 10,
     "over_occupancy": 5,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.0001849382615336179
   },
   {
     "url": "https://www.airbnb.com/rooms/54262679",
@@ -6999,10 +7465,11 @@ const locations = [
     "latitude": 32.01236,
     "longitude": -80.9583,
     "host_name": "Diann 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 S LAKE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.927325805487212e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/11126593",
@@ -7014,10 +7481,11 @@ const locations = [
     "latitude": 32.0019,
     "longitude": -80.9689,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "916 PENN WALLER RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013696282315400074
   },
   {
     "url": "https://www.airbnb.com/rooms/1677872441327393562",
@@ -7029,10 +7497,11 @@ const locations = [
     "latitude": 32.0242,
     "longitude": -80.967,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7216 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.061190455202467e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/842211069396110950",
@@ -7044,10 +7513,11 @@ const locations = [
     "latitude": 32.01925,
     "longitude": -81.07486,
     "host_name": "Sarah 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5406 SKIDAWAY RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002588900215402207
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979338433950679",
@@ -7059,10 +7529,11 @@ const locations = [
     "latitude": 32.00152895792488,
     "longitude": -81.06506272366772,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2604 NOTTINGHAM DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014886152201929617
   },
   {
     "url": "https://www.airbnb.com/rooms/6589932",
@@ -7074,10 +7545,11 @@ const locations = [
     "latitude": 32.0019,
     "longitude": -80.9689,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "916 PENN WALLER RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013696282315400074
   },
   {
     "url": "https://www.airbnb.com/rooms/21142315",
@@ -7089,10 +7561,11 @@ const locations = [
     "latitude": 31.9906,
     "longitude": -81.07432,
     "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7349 ALBERT ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016981542829805238
   },
   {
     "url": "https://www.airbnb.com/rooms/1619680476404974885",
@@ -7104,10 +7577,11 @@ const locations = [
     "latitude": 32.02464,
     "longitude": -81.05905,
     "host_name": "Miya 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "N TOMPKINS RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014918045428648983
   },
   {
     "url": "https://www.airbnb.com/rooms/21154850",
@@ -7119,10 +7593,11 @@ const locations = [
     "latitude": 31.99151,
     "longitude": -81.07503,
     "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7334 LEGHORN ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.715217806896583e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979501153843915",
@@ -7134,10 +7609,11 @@ const locations = [
     "latitude": 32.00070920330952,
     "longitude": -81.06444783966694,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2607 NOTTINGHAM DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016803728849222908
   },
   {
     "url": "https://www.airbnb.com/rooms/25014298",
@@ -7149,10 +7625,11 @@ const locations = [
     "latitude": 32.00261177391876,
     "longitude": -80.96933005469671,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "910 PENN WALLER RD",
     "allowed_guests": 6,
     "over_occupancy": 6,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.00026345629054421636
   },
   {
     "url": "https://www.airbnb.com/rooms/1526949654922640193",
@@ -7164,10 +7641,11 @@ const locations = [
     "latitude": 32.0165,
     "longitude": -80.9758,
     "host_name": "Royal Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "302 LARBRE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012172823781918908
   },
   {
     "url": "https://www.airbnb.com/rooms/1619659831345404753",
@@ -7179,10 +7657,11 @@ const locations = [
     "latitude": 32.02509,
     "longitude": -81.05907,
     "host_name": "Miya 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "FISH BAIT TRL",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031117160022412713
   },
   {
     "url": "https://www.airbnb.com/rooms/24818962",
@@ -7194,10 +7673,11 @@ const locations = [
     "latitude": 32.002586309704824,
     "longitude": -80.96970376645238,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "908 PENN WALLER RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005861265984640088
   },
   {
     "url": "https://www.airbnb.com/rooms/1604638288281397575",
@@ -7209,10 +7689,11 @@ const locations = [
     "latitude": 32.01192,
     "longitude": -80.96916,
     "host_name": "Ann 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 SHEFTALL CV",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018308166781943403
   },
   {
     "url": "https://www.airbnb.com/rooms/1949742",
@@ -7224,10 +7705,11 @@ const locations = [
     "latitude": 32.0019,
     "longitude": -80.9689,
     "host_name": "Peggy 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "916 PENN WALLER RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013696282315400074
   },
   {
     "url": "https://www.airbnb.com/rooms/30935998",
@@ -7239,10 +7721,11 @@ const locations = [
     "latitude": 31.99077,
     "longitude": -81.07574,
     "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7254 CENTRAL AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019429654596233762
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979645996015018",
@@ -7254,10 +7737,11 @@ const locations = [
     "latitude": 32.012,
     "longitude": -81.0655,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "5603 LAROCHE AVE",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.00021468374710570008
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979120980853299",
@@ -7269,10 +7753,11 @@ const locations = [
     "latitude": 32.0193,
     "longitude": -80.9619,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 RIVERMIST LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.292636445781801e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979405993187895",
@@ -7284,10 +7769,11 @@ const locations = [
     "latitude": 31.99965,
     "longitude": -81.06439,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2636 LANSING AVE",
     "allowed_guests": 20,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003874056250378045
   },
   {
     "url": "https://www.airbnb.com/rooms/1620486762869915517",
@@ -7299,10 +7785,11 @@ const locations = [
     "latitude": 32.0256,
     "longitude": -81.0499,
     "host_name": "John 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "3312 FALLIGANT AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.0595170008838575e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002540978846885",
@@ -7314,10 +7801,11 @@ const locations = [
     "latitude": 32.0193,
     "longitude": -80.9619,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 RIVERMIST LN",
     "allowed_guests": 12,
     "over_occupancy": 1,
-    "over_percent": 0.0833
+    "over_percent": 0.0833,
+    "approx_distance_meters": 6.292636445781801e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/569325174256314434",
@@ -7329,10 +7817,11 @@ const locations = [
     "latitude": 32.0402,
     "longitude": -80.9913,
     "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "170 PENROSE DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00011298926444110002
   },
   {
     "url": "https://www.airbnb.com/rooms/1677952533465112557",
@@ -7344,10 +7833,11 @@ const locations = [
     "latitude": 32.0338,
     "longitude": -80.9671,
     "host_name": "Mason Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "200 E POINT DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 5.484416669779149e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1433372238733894642",
@@ -7359,10 +7849,11 @@ const locations = [
     "latitude": 32.0327,
     "longitude": -80.9688,
     "host_name": "Mason Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 E POINT DR",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015230580351472813
   },
   {
     "url": "https://www.airbnb.com/rooms/1552200143648849054",
@@ -7374,10 +7865,11 @@ const locations = [
     "latitude": 32.03401,
     "longitude": -80.96502,
     "host_name": "Lia & Armando Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "207 E POINT DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004273192435774741
   },
   {
     "url": "https://www.airbnb.com/rooms/1350300262399915925",
@@ -7389,10 +7881,11 @@ const locations = [
     "latitude": 32.0106,
     "longitude": -80.9575,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "816 OEMLER LOOP",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.8247134516509862e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1711790856248887280",
@@ -7404,10 +7897,11 @@ const locations = [
     "latitude": 32.03546,
     "longitude": -81.05407,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3110 E VICTORY DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000161104385090075
   },
   {
     "url": "https://www.airbnb.com/rooms/1195472885896005268",
@@ -7419,10 +7913,11 @@ const locations = [
     "latitude": 32.03427,
     "longitude": -80.97917,
     "host_name": "Caleb Barnes Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "627 SUNCREST BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005329649517803993
   },
   {
     "url": "https://www.airbnb.com/rooms/1510281895888945906",
@@ -7434,10 +7929,11 @@ const locations = [
     "latitude": 32.0114,
     "longitude": -80.9554,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 BREVARD CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5607017901716046e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/730336617510666551",
@@ -7449,10 +7945,11 @@ const locations = [
     "latitude": 32.0384,
     "longitude": -80.9873,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 PENROSE DR",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015571060540892914
   },
   {
     "url": "https://www.airbnb.com/rooms/766806947333977454",
@@ -7464,10 +7961,11 @@ const locations = [
     "latitude": 32.0309,
     "longitude": -80.973,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 SUNCREST BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00036183188303191426
   },
   {
     "url": "https://www.airbnb.com/rooms/17527106",
@@ -7479,10 +7977,11 @@ const locations = [
     "latitude": 32.04037,
     "longitude": -80.99098,
     "host_name": "Kimberly Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "170 PENROSE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003834903672273077
   },
   {
     "url": "https://www.airbnb.com/rooms/1442968505831143135",
@@ -7494,10 +7993,11 @@ const locations = [
     "latitude": 32.0127,
     "longitude": -80.9565,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "529 POINTE SOUTH DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.316100678161065e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1724949972769062468",
@@ -7509,10 +8009,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -80.9652,
     "host_name": "Brooke 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7616 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.469799430642182e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/695550406897286691",
@@ -7524,10 +8025,11 @@ const locations = [
     "latitude": 32.04,
     "longitude": -80.9905,
     "host_name": "Carrie Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "178 PENROSE DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002851493211708868
   },
   {
     "url": "https://www.airbnb.com/rooms/1724945680620517848",
@@ -7539,10 +8041,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -80.9652,
     "host_name": "Brooke 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7616 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.469799430642182e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47824566",
@@ -7554,10 +8057,11 @@ const locations = [
     "latitude": 32.0288,
     "longitude": -80.9661,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 BLUE HERON DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002498490955520443
   },
   {
     "url": "https://www.airbnb.com/rooms/969602097220089994",
@@ -7569,10 +8073,11 @@ const locations = [
     "latitude": 32.0314,
     "longitude": -80.9808,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 TWELVE OAKS LN",
     "allowed_guests": 18,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013416432046840622
   },
   {
     "url": "https://www.airbnb.com/rooms/1624269033749912259",
@@ -7584,10 +8089,11 @@ const locations = [
     "latitude": 32.028,
     "longitude": -80.9674,
     "host_name": "Bryan Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "128 BLUE HERON DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.1028507853027223e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50979138",
@@ -7599,10 +8105,11 @@ const locations = [
     "latitude": 32.0285,
     "longitude": -80.9712,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 BLUE HERON DR",
     "allowed_guests": 18,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014761591575505108
   },
   {
     "url": "https://www.airbnb.com/rooms/1363189978146082875",
@@ -7614,10 +8121,11 @@ const locations = [
     "latitude": 32.0366,
     "longitude": -80.9727,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "533 QUARTERMAN DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001169674898662348
   },
   {
     "url": "https://www.airbnb.com/rooms/857793162043772861",
@@ -7629,10 +8137,11 @@ const locations = [
     "latitude": 32.0145,
     "longitude": -80.9577,
     "host_name": "Leandro 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "520 POINTE NORTH DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.493103811200162e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1610320824203124179",
@@ -7644,10 +8153,11 @@ const locations = [
     "latitude": 32.03591,
     "longitude": -80.96544,
     "host_name": "Mighty Tree Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "214 E POINT DR #A",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.0006563611901883685
   },
   {
     "url": "https://www.airbnb.com/rooms/1499529860572816028",
@@ -7659,10 +8169,11 @@ const locations = [
     "latitude": 32.0322,
     "longitude": -80.9699,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 E POINT DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011073835153137306
   },
   {
     "url": "https://www.airbnb.com/rooms/920470079693526816",
@@ -7674,10 +8185,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -80.9717,
     "host_name": "Heirloom Stays Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 LAKE DR",
     "allowed_guests": 18,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.61914441534181e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1386256709091442741",
@@ -7689,10 +8201,11 @@ const locations = [
     "latitude": 32.02260151124729,
     "longitude": -80.95767941192646,
     "host_name": "Adam Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 HIGHTIDE LN",
     "allowed_guests": 12,
     "over_occupancy": 4,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 9.434391108195409e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/812223504376628087",
@@ -7704,10 +8217,11 @@ const locations = [
     "latitude": 32.0398,
     "longitude": -80.9869,
     "host_name": "Lisa Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "215 BATTERY CRES",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.835430295657619e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/983219595917762790",
@@ -7719,10 +8233,11 @@ const locations = [
     "latitude": 32.02966,
     "longitude": -80.96543,
     "host_name": "Scott Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 BLUE FIN CIR #A-10",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00029244273435666723
   },
   {
     "url": "https://www.airbnb.com/rooms/646530526816078803",
@@ -7734,10 +8249,11 @@ const locations = [
     "latitude": 32.02872,
     "longitude": -80.97567,
     "host_name": "Luka Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 SUNCREST BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040543270039434794
   },
   {
     "url": "https://www.airbnb.com/rooms/1005065744233549667",
@@ -7749,10 +8265,11 @@ const locations = [
     "latitude": 32.0331,
     "longitude": -80.9674,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E POINT DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.2059326336397383e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1513991268785829277",
@@ -7764,10 +8281,11 @@ const locations = [
     "latitude": 32.0322,
     "longitude": -80.9699,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 E POINT DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011073835153137306
   },
   {
     "url": "https://www.airbnb.com/rooms/1196629954914027512",
@@ -7779,10 +8297,11 @@ const locations = [
     "latitude": 32.0144,
     "longitude": -80.9579,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "518 POINTE NORTH DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010720157669426624
   },
   {
     "url": "https://www.airbnb.com/rooms/1313196737330598593",
@@ -7794,10 +8313,11 @@ const locations = [
     "latitude": 32.0333,
     "longitude": -81.0566,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 ASHLYN RT",
     "allowed_guests": 30,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.97237174477788e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1299231801509783824",
@@ -7809,10 +8329,11 @@ const locations = [
     "latitude": 32.01016,
     "longitude": -80.9572,
     "host_name": "Lesley Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 BREVARD CT",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024110359820998383
   },
   {
     "url": "https://www.airbnb.com/rooms/655222155351021425",
@@ -7824,10 +8345,11 @@ const locations = [
     "latitude": 32.04394,
     "longitude": -80.9958,
     "host_name": "Kris 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 FORT BARTOW DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022586691806547558
   },
   {
     "url": "https://www.airbnb.com/rooms/22889268",
@@ -7839,10 +8361,11 @@ const locations = [
     "latitude": 32.0323,
     "longitude": -81.0569,
     "host_name": "Jimmy Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3104 HARRIS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015596460789985274
   },
   {
     "url": "https://www.airbnb.com/rooms/1244941815317913984",
@@ -7854,10 +8377,11 @@ const locations = [
     "latitude": 32.03968,
     "longitude": -80.98798,
     "host_name": "Matt Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 BATTERY WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012730838323726226
   },
   {
     "url": "https://www.airbnb.com/rooms/645532275079012693",
@@ -7869,10 +8393,11 @@ const locations = [
     "latitude": 32.03626,
     "longitude": -80.97187,
     "host_name": "Amy Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "528 QUARTERMAN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024445916483372754
   },
   {
     "url": "https://www.airbnb.com/rooms/1664819526888767077",
@@ -7884,10 +8409,11 @@ const locations = [
     "latitude": 32.0335,
     "longitude": -81.0536,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2716 MECHANICS AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012526682742367378
   },
   {
     "url": "https://www.airbnb.com/rooms/1113836232935487006",
@@ -7899,10 +8425,11 @@ const locations = [
     "latitude": 32.0325,
     "longitude": -80.97831,
     "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "612 SUNCREST BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016805914416870583
   },
   {
     "url": "https://www.airbnb.com/rooms/1557647945376292850",
@@ -7914,10 +8441,11 @@ const locations = [
     "latitude": 32.02121,
     "longitude": -80.95782,
     "host_name": "Alaura Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "117 RUNNER RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004449622873756505
   },
   {
     "url": "https://www.airbnb.com/rooms/1516816784750356745",
@@ -7929,10 +8457,11 @@ const locations = [
     "latitude": 32.0384,
     "longitude": -80.9945,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 OYSTER CATCHER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011332622861279165
   },
   {
     "url": "https://www.airbnb.com/rooms/1490900177054278838",
@@ -7944,10 +8473,11 @@ const locations = [
     "latitude": 32.03,
     "longitude": -80.9746,
     "host_name": "Allen 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "19 SUNCREST BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.2099124913512899e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/49132085",
@@ -7959,10 +8489,11 @@ const locations = [
     "latitude": 32.0288,
     "longitude": -80.965,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7610 JOHNNY MERCER BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003124874830304555
   },
   {
     "url": "https://www.airbnb.com/rooms/821957279411239289",
@@ -7974,10 +8505,11 @@ const locations = [
     "latitude": 32.0315,
     "longitude": -80.9624,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7833 JOHNNY MERCER BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002444312089697024
   },
   {
     "url": "https://www.airbnb.com/rooms/1522709071710502880",
@@ -7989,10 +8521,11 @@ const locations = [
     "latitude": 32.0322,
     "longitude": -80.9699,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 E POINT DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011073835153137306
   },
   {
     "url": "https://www.airbnb.com/rooms/1005065834643174647",
@@ -8004,10 +8537,11 @@ const locations = [
     "latitude": 32.0331,
     "longitude": -80.9674,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E POINT DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.2059326336397383e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/809305443330999414",
@@ -8019,10 +8553,11 @@ const locations = [
     "latitude": 32.016,
     "longitude": -80.9516,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 MORNINGSIDE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011290060932063244
   },
   {
     "url": "https://www.airbnb.com/rooms/37677829",
@@ -8034,10 +8569,11 @@ const locations = [
     "latitude": 32.03546,
     "longitude": -80.96861,
     "host_name": "Carol Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "25 BRANNEN DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005378663913951306
   },
   {
     "url": "https://www.airbnb.com/rooms/47963862",
@@ -8049,10 +8585,11 @@ const locations = [
     "latitude": 32.01529,
     "longitude": -80.9527,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 MORNINGSIDE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00037072160908940534
   },
   {
     "url": "https://www.airbnb.com/rooms/15770259",
@@ -8064,10 +8601,11 @@ const locations = [
     "latitude": 32.04937,
     "longitude": -81.05305,
     "host_name": "Margaret Emily 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2500 TENNESSEE AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002262909921213807
   },
   {
     "url": "https://www.airbnb.com/rooms/47951598",
@@ -8079,10 +8617,11 @@ const locations = [
     "latitude": 32.01533,
     "longitude": -80.95042,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 MORNINGSIDE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0013941613969958321
   },
   {
     "url": "https://www.airbnb.com/rooms/706598502774942158",
@@ -8094,10 +8633,11 @@ const locations = [
     "latitude": 32.05,
     "longitude": -81.008,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OATLAND ISLAND RD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.0003917256137065915
   },
   {
     "url": "https://www.airbnb.com/rooms/1433289144772039142",
@@ -8109,10 +8649,11 @@ const locations = [
     "latitude": 32.0443,
     "longitude": -81.052,
     "host_name": "Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "301 LAUREL OAK LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.916851754572086e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1339149665464626100",
@@ -8124,10 +8665,11 @@ const locations = [
     "latitude": 32.0337,
     "longitude": -81.0533,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2710 MECHANICS AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.02160941205049e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1362374286709102876",
@@ -8139,10 +8681,11 @@ const locations = [
     "latitude": 32.01517,
     "longitude": -80.95053,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 MORNINGSIDE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0014460769425232633
   },
   {
     "url": "https://www.airbnb.com/rooms/1711790903965459935",
@@ -8154,10 +8697,11 @@ const locations = [
     "latitude": 32.03408,
     "longitude": -81.04991,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2701 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003135575601742557
   },
   {
     "url": "https://www.airbnb.com/rooms/852785616761953142",
@@ -8169,10 +8713,11 @@ const locations = [
     "latitude": 32.03156,
     "longitude": -80.98206,
     "host_name": "Sarah Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "548 SUNCREST BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018030391714922393
   },
   {
     "url": "https://www.airbnb.com/rooms/1409656048706542257",
@@ -8184,10 +8729,11 @@ const locations = [
     "latitude": 32.0412,
     "longitude": -81.0022,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 ROPEMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014173507291005986
   },
   {
     "url": "https://www.airbnb.com/rooms/31952682",
@@ -8199,10 +8745,11 @@ const locations = [
     "latitude": 32.0339,
     "longitude": -81.04826,
     "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005927084662532825
   },
   {
     "url": "https://www.airbnb.com/rooms/13697466",
@@ -8214,10 +8761,11 @@ const locations = [
     "latitude": 32.04944,
     "longitude": -81.05315,
     "host_name": "Margaret Emily 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2500 TENNESSEE AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012329681079271894
   },
   {
     "url": "https://www.airbnb.com/rooms/39274812",
@@ -8229,10 +8777,11 @@ const locations = [
     "latitude": 32.04025,
     "longitude": -80.97156,
     "host_name": "Ruth 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 FALLIGANT AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005422103651318458
   },
   {
     "url": "https://www.airbnb.com/rooms/1003756622224095922",
@@ -8244,10 +8793,11 @@ const locations = [
     "latitude": 32.0331,
     "longitude": -80.9674,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 E POINT DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.2059326336397383e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42621247",
@@ -8259,10 +8809,11 @@ const locations = [
     "latitude": 32.05395,
     "longitude": -81.01636,
     "host_name": "Nancy Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "305 WOODBINE RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024826678925199294
   },
   {
     "url": "https://www.airbnb.com/rooms/601388152942161990",
@@ -8274,10 +8825,11 @@ const locations = [
     "latitude": 32.0137,
     "longitude": -80.9576,
     "host_name": "Sai Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "522 POINTE SOUTH DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.9823456898082546e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/26005354",
@@ -8289,10 +8841,11 @@ const locations = [
     "latitude": 32.03811,
     "longitude": -81.00387,
     "host_name": "Tricia 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 BOWSPRIT LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.765022193498508e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1124789260321348741",
@@ -8304,10 +8857,11 @@ const locations = [
     "latitude": 32.0359,
     "longitude": -81.051,
     "host_name": "Lisa 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2605 DOGWOOD AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020221453404995347
   },
   {
     "url": "https://www.airbnb.com/rooms/48318851",
@@ -8319,10 +8873,11 @@ const locations = [
     "latitude": 32.0309,
     "longitude": -80.9708,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7759 E US HIGHWAY 80",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005318652037897947
   },
   {
     "url": "https://www.airbnb.com/rooms/861663410335419102",
@@ -8334,10 +8889,11 @@ const locations = [
     "latitude": 32.031,
     "longitude": -81.0523,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3228 BANNON DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.203555331017788e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/993713608422781543",
@@ -8349,10 +8905,11 @@ const locations = [
     "latitude": 32.03221,
     "longitude": -80.9622,
     "host_name": "Rachel Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7903 E US HIGHWAY 80",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 9.785864870192673e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1270879084584160918",
@@ -8364,10 +8921,11 @@ const locations = [
     "latitude": 32.0341,
     "longitude": -81.0539,
     "host_name": "Aimee Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2709 MECHANICS AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.8883837824234583e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1223988675255933512",
@@ -8379,10 +8937,11 @@ const locations = [
     "latitude": 32.0485,
     "longitude": -81.0087,
     "host_name": "Jill And Jordan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 W PENROSE DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.62487937255042e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/573202024620269659",
@@ -8394,10 +8953,11 @@ const locations = [
     "latitude": 32.0408,
     "longitude": -81.00165,
     "host_name": "Jay & Tia Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "139 CROSSOVER LN",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020417058817781748
   },
   {
     "url": "https://www.airbnb.com/rooms/1159844559437277448",
@@ -8409,10 +8969,11 @@ const locations = [
     "latitude": 32.04693,
     "longitude": -81.00986,
     "host_name": "Milan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1005 LORA ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014511341110976327
   },
   {
     "url": "https://www.airbnb.com/rooms/48225981",
@@ -8424,10 +8985,11 @@ const locations = [
     "latitude": 32.01422,
     "longitude": -80.9524,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 MORNINGSIDE CT",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002047667382720007
   },
   {
     "url": "https://www.airbnb.com/rooms/42246915",
@@ -8439,10 +9001,11 @@ const locations = [
     "latitude": 32.0494,
     "longitude": -81.0537,
     "host_name": "Chad Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2500 TENNESSEE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004291221885919696
   },
   {
     "url": "https://www.airbnb.com/rooms/1273968808084302262",
@@ -8454,10 +9017,11 @@ const locations = [
     "latitude": 32.03182589902695,
     "longitude": -81.05209056836236,
     "host_name": "Sherri Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3226 RUSSELL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017980051265143425
   },
   {
     "url": "https://www.airbnb.com/rooms/1224017725242067278",
@@ -8469,10 +9033,11 @@ const locations = [
     "latitude": 32.04747,
     "longitude": -81.00799,
     "host_name": "Jill And Jordan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ISLANDS EXPY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004534691359613251
   },
   {
     "url": "https://www.airbnb.com/rooms/47955374",
@@ -8484,10 +9049,11 @@ const locations = [
     "latitude": 32.01544,
     "longitude": -80.95054,
     "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "33 MORNINGSIDE DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001243095785037514
   },
   {
     "url": "https://www.airbnb.com/rooms/1380517969389207600",
@@ -8499,10 +9065,11 @@ const locations = [
     "latitude": 32.02937,
     "longitude": -80.97564,
     "host_name": "Kevin 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 SUNCREST BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002475392541097684
   },
   {
     "url": "https://www.airbnb.com/rooms/1410494890004445261",
@@ -8514,10 +9081,11 @@ const locations = [
     "latitude": 32.0404,
     "longitude": -81.0015,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "137 CROSSOVER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.050436561527567e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/18731846",
@@ -8529,10 +9097,11 @@ const locations = [
     "latitude": 32.02919,
     "longitude": -81.05207,
     "host_name": "Edward 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3313 BANNON DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.825817023627338e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1705929673024720690",
@@ -8544,10 +9113,11 @@ const locations = [
     "latitude": 32.04521,
     "longitude": -81.05293,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "415 BONAVENTURE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003218672781380681
   },
   {
     "url": "https://www.airbnb.com/rooms/1604578113019780865",
@@ -8559,10 +9129,11 @@ const locations = [
     "latitude": 32.032,
     "longitude": -81.0566,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3105 HARRIS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.293078648984999e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/28439088",
@@ -8574,10 +9145,11 @@ const locations = [
     "latitude": 32.04156,
     "longitude": -81.0071,
     "host_name": "Jimmy Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "326 MAPMAKER LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000610237254333294
   },
   {
     "url": "https://www.airbnb.com/rooms/1610414097888578929",
@@ -8589,10 +9161,11 @@ const locations = [
     "latitude": 32.03931505944315,
     "longitude": -81.00684972915896,
     "host_name": "Kyle And Nicole Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 TURNBUCKLE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00025197262210316997
   },
   {
     "url": "https://www.airbnb.com/rooms/48006524",
@@ -8604,10 +9177,11 @@ const locations = [
     "latitude": 32.0344,
     "longitude": -81.0547,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3112 ROWLAND AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026101954985560796
   },
   {
     "url": "https://www.airbnb.com/rooms/51288429",
@@ -8619,10 +9193,11 @@ const locations = [
     "latitude": 32.0459,
     "longitude": -81.0145,
     "host_name": "Liang Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1012 WILMA AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.1450369313213714e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/36600162",
@@ -8634,10 +9209,11 @@ const locations = [
     "latitude": 32.04041,
     "longitude": -80.97014,
     "host_name": "Charisse Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "131 FALLIGANT AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015604185728256375
   },
   {
     "url": "https://www.airbnb.com/rooms/655190650427758480",
@@ -8649,10 +9225,11 @@ const locations = [
     "latitude": 32.0516,
     "longitude": -81.0084,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "188 OATLAND ISLAND RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003201141660402419
   },
   {
     "url": "https://www.airbnb.com/rooms/1268726821591298626",
@@ -8664,10 +9241,11 @@ const locations = [
     "latitude": 32.0399,
     "longitude": -81.0031,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 ROPEMAKER CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.556161475929165e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50247262",
@@ -8679,10 +9257,11 @@ const locations = [
     "latitude": 32.03768,
     "longitude": -80.99786,
     "host_name": "Jonathan And Cecil Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 STONEBRIDGE LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002927825383605701
   },
   {
     "url": "https://www.airbnb.com/rooms/673866830350270344",
@@ -8694,10 +9273,11 @@ const locations = [
     "latitude": 32.04053,
     "longitude": -80.99254,
     "host_name": "Priscilla Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "158 PENROSE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012577828610381488
   },
   {
     "url": "https://www.airbnb.com/rooms/41802250",
@@ -8709,10 +9289,11 @@ const locations = [
     "latitude": 32.03223,
     "longitude": -81.05557,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "3119 SHELL RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00035290111547306
   },
   {
     "url": "https://www.airbnb.com/rooms/32723890",
@@ -8724,10 +9305,11 @@ const locations = [
     "latitude": 32.04274,
     "longitude": -81.22212,
     "host_name": "Diane Brandt Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OGEECHEE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0013068392334452247
   },
   {
     "url": "https://www.airbnb.com/rooms/33429403",
@@ -8739,10 +9321,11 @@ const locations = [
     "latitude": 32.04326,
     "longitude": -81.22111,
     "host_name": "Diane Brandt Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5524 SILK HOPE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008511503675768162
   },
   {
     "url": "https://www.airbnb.com/rooms/651646981278913031",
@@ -8754,10 +9337,11 @@ const locations = [
     "latitude": 32.02004,
     "longitude": -81.23726,
     "host_name": "Plushy 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 LARCHMONT DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017959898107927996
   },
   {
     "url": "https://www.airbnb.com/rooms/1642931684048285492",
@@ -8769,10 +9353,11 @@ const locations = [
     "latitude": 31.9752,
     "longitude": -81.2393,
     "host_name": "Shandira Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "124 RED FOX DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.385503173994333e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1085743948191451484",
@@ -8784,10 +9369,11 @@ const locations = [
     "latitude": 32.0231,
     "longitude": -81.24027,
     "host_name": "Sharleen And Billy Ryan Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 LOCH WAY",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000306679128410198
   },
   {
     "url": "https://www.airbnb.com/rooms/864504585116410261",
@@ -8799,10 +9385,11 @@ const locations = [
     "latitude": 32.027,
     "longitude": -81.2439,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "167 LAURELWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010377586342573303
   },
   {
     "url": "https://www.airbnb.com/rooms/1508049389921225759",
@@ -8814,10 +9401,11 @@ const locations = [
     "latitude": 32.03851,
     "longitude": -81.15595,
     "host_name": "Na Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "127 GLEN OAKS DR",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 8.634976707375691e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1034768171853947187",
@@ -8829,10 +9417,11 @@ const locations = [
     "latitude": 32.0435,
     "longitude": -81.23793,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "141 CHAPEL LAKE S",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.900755066519143e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1242585505338645522",
@@ -8844,10 +9433,11 @@ const locations = [
     "latitude": 32.0447,
     "longitude": -81.1253,
     "host_name": "Priscilla Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1103 MILTON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010152251667741377
   },
   {
     "url": "https://www.airbnb.com/rooms/578160533950414742",
@@ -8859,10 +9449,11 @@ const locations = [
     "latitude": 32.04199,
     "longitude": -81.20051,
     "host_name": "Leslie 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5306 SILK HOPE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021283866616018157
   },
   {
     "url": "https://www.airbnb.com/rooms/1263713354495392521",
@@ -8874,10 +9465,11 @@ const locations = [
     "latitude": 32.0389,
     "longitude": -81.1552,
     "host_name": "Arlene 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 GLEN OAKS DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.073011786734748e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/960084067923349247",
@@ -8889,10 +9481,11 @@ const locations = [
     "latitude": 31.9701,
     "longitude": -81.2404,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 TRELLIS WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011489007079058126
   },
   {
     "url": "https://www.airbnb.com/rooms/963251823602809512",
@@ -8904,10 +9497,11 @@ const locations = [
     "latitude": 32.02611,
     "longitude": -81.24412,
     "host_name": "Francis Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 HOLIDAY CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022521925234905729
   },
   {
     "url": "https://www.airbnb.com/rooms/673006116217371017",
@@ -8919,10 +9513,11 @@ const locations = [
     "latitude": 31.97381,
     "longitude": -81.2444,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "120 CORMORANT WAY",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001802322951112328
   },
   {
     "url": "https://www.airbnb.com/rooms/960084066503262413",
@@ -8934,10 +9529,11 @@ const locations = [
     "latitude": 31.97,
     "longitude": -81.2404,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 TRELLIS WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001744135086010372
   },
   {
     "url": "https://www.airbnb.com/rooms/38804281",
@@ -8949,10 +9545,11 @@ const locations = [
     "latitude": 32.02678,
     "longitude": -81.24195,
     "host_name": "Deyan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "228 HOLIDAY CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020023975033947944
   },
   {
     "url": "https://www.airbnb.com/rooms/53961803",
@@ -8964,10 +9561,11 @@ const locations = [
     "latitude": 32.0401,
     "longitude": -81.15688,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "5212 GARRARD AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.597286074977855e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979225364060737",
@@ -8979,10 +9577,11 @@ const locations = [
     "latitude": 32.0271,
     "longitude": -81.2458,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "222 LAURELWOOD DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 7.923148491788829e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53147581",
@@ -8994,10 +9593,11 @@ const locations = [
     "latitude": 32.02456,
     "longitude": -81.24499,
     "host_name": "Sofia Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 LITTLE RIVER DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010075741867781746
   },
   {
     "url": "https://www.airbnb.com/rooms/1649610540571460942",
@@ -9009,10 +9609,11 @@ const locations = [
     "latitude": 32.027012298651094,
     "longitude": -81.24271935566655,
     "host_name": "Francis Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 HOLIDAY CV",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00025199462541901374
   },
   {
     "url": "https://www.airbnb.com/rooms/1274735550548244077",
@@ -9024,10 +9625,11 @@ const locations = [
     "latitude": 31.970188919564244,
     "longitude": -81.23537105778759,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "112 JUNCO WAY",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029425215755787143
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979316045341150",
@@ -9039,10 +9641,11 @@ const locations = [
     "latitude": 32.0283,
     "longitude": -81.2461,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 LAURELWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 4,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 9.004643721293225e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1405144018648835570",
@@ -9054,10 +9657,11 @@ const locations = [
     "latitude": 32.0257,
     "longitude": -81.2446,
     "host_name": "Francis Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 HOLIDAY CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002396276894687521
   },
   {
     "url": "https://www.airbnb.com/rooms/1124801981476133915",
@@ -9069,10 +9673,11 @@ const locations = [
     "latitude": 32.0416,
     "longitude": -81.2002,
     "host_name": "Richard 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5302 SILK HOPE RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.995271107602037e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/808666360392852411",
@@ -9084,10 +9689,11 @@ const locations = [
     "latitude": 32.1133,
     "longitude": -81.2508,
     "host_name": "Brandon Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "306 S NEWTON ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018087859665481083
   },
   {
     "url": "https://www.airbnb.com/rooms/1147817335109913101",
@@ -9099,10 +9705,11 @@ const locations = [
     "latitude": 32.08551,
     "longitude": -81.25124,
     "host_name": "Dr Tommy Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 CASSIDY CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024833069518689297
   },
   {
     "url": "https://www.airbnb.com/rooms/559389786453716248",
@@ -9114,10 +9721,11 @@ const locations = [
     "latitude": 32.0455,
     "longitude": -81.25444,
     "host_name": "Roberto 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 WILLOW LAKES DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.725199214402703e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/552349251563372733",
@@ -9129,10 +9737,11 @@ const locations = [
     "latitude": 32.05915,
     "longitude": -81.26158,
     "host_name": "William Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "46 BLUELAKE BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014028001429752804
   },
   {
     "url": "https://www.airbnb.com/rooms/1602134286905350999",
@@ -9144,10 +9753,11 @@ const locations = [
     "latitude": 32.038632729048445,
     "longitude": -81.25241126978064,
     "host_name": "Terrell Superhost \u00b7 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "151 FINN CIR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017931406735551727
   },
   {
     "url": "https://www.airbnb.com/rooms/621740827844821134",
@@ -9159,10 +9769,11 @@ const locations = [
     "latitude": 32.11638,
     "longitude": -81.16081,
     "host_name": "Shana Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "144 AZALEA AVE",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00011586685609458231
   },
   {
     "url": "https://www.airbnb.com/rooms/1171101680461431674",
@@ -9174,10 +9785,11 @@ const locations = [
     "latitude": 32.10066,
     "longitude": -81.27991,
     "host_name": "Victoria Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "227 CHIPPINGWOOD CIR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001255731682801539
   },
   {
     "url": "https://www.airbnb.com/rooms/1371198222718470800",
@@ -9189,10 +9801,11 @@ const locations = [
     "latitude": 32.0579,
     "longitude": -81.2586,
     "host_name": "Matthew Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "180 BERWICK LAKES BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.034414070443453e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/726757260921196980",
@@ -9204,10 +9817,11 @@ const locations = [
     "latitude": 32.08995,
     "longitude": -81.25064,
     "host_name": "Lucky 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 LONGLEAF CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.897145570917379e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/40967659",
@@ -9219,10 +9833,11 @@ const locations = [
     "latitude": 32.11394,
     "longitude": -81.15799,
     "host_name": "Adam Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 ROMMEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001371807295293688
   },
   {
     "url": "https://www.airbnb.com/rooms/1187719192001324164",
@@ -9234,10 +9849,11 @@ const locations = [
     "latitude": 32.05758,
     "longitude": -81.26495,
     "host_name": "Stephanie Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "319 KATAMA WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001922779591613904
   },
   {
     "url": "https://www.airbnb.com/rooms/703737188815386289",
@@ -9249,10 +9865,11 @@ const locations = [
     "latitude": 32.09227,
     "longitude": -81.25731,
     "host_name": "Samuel Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "COMMERCE CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030236952559826037
   },
   {
     "url": "https://www.airbnb.com/rooms/810480834085835319",
@@ -9264,10 +9881,11 @@ const locations = [
     "latitude": 32.1102,
     "longitude": -81.2471,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "313 MANDEN RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.472311836195375e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1389946608982585551",
@@ -9279,10 +9897,11 @@ const locations = [
     "latitude": 32.1139,
     "longitude": -81.1583,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 ROMMEL AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.716872288460614e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/838560656838480911",
@@ -9294,10 +9913,11 @@ const locations = [
     "latitude": 32.0634,
     "longitude": -81.2633,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "197 AQUINNAH DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.361179664950124e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1423843190766383050",
@@ -9309,10 +9929,11 @@ const locations = [
     "latitude": 32.1167,
     "longitude": -81.2406,
     "host_name": "Zachary Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "408 ROTHWELL ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.202838262794064e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/963063546089473037",
@@ -9324,10 +9945,11 @@ const locations = [
     "latitude": 32.08369,
     "longitude": -81.26572,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2478 QUACCO RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001708758013769188
   },
   {
     "url": "https://www.airbnb.com/rooms/1577741583442593269",
@@ -9339,10 +9961,11 @@ const locations = [
     "latitude": 32.11711856572595,
     "longitude": -81.23992168999176,
     "host_name": "Lara Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "409 GREENWAY ST",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.00015071047318115824
   },
   {
     "url": "https://www.airbnb.com/rooms/1184103480051593354",
@@ -9354,10 +9977,11 @@ const locations = [
     "latitude": 32.08896,
     "longitude": -81.25484,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "125 TIMBERLAND GAP RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00033835289300998843
   },
   {
     "url": "https://www.airbnb.com/rooms/1245077967913585671",
@@ -9369,10 +9993,11 @@ const locations = [
     "latitude": 32.0931,
     "longitude": -81.2529,
     "host_name": "Francis Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "750 PINE BARREN RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001087748385805208
   },
   {
     "url": "https://www.airbnb.com/rooms/1018006992979043354",
@@ -9384,10 +10009,11 @@ const locations = [
     "latitude": 32.10384,
     "longitude": -81.25086,
     "host_name": "Christian Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1223 CRAWFORD WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.973412175409873e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1025302570554106155",
@@ -9399,10 +10025,11 @@ const locations = [
     "latitude": 32.06011,
     "longitude": -81.25879,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 LANWICK CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000257105283829938
   },
   {
     "url": "https://www.airbnb.com/rooms/899526598556111144",
@@ -9414,10 +10041,11 @@ const locations = [
     "latitude": 32.0597,
     "longitude": -81.25917,
     "host_name": "Miranda Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "22 BLUELAKE BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004477420328410105
   },
   {
     "url": "https://www.airbnb.com/rooms/1317540076889892710",
@@ -9429,10 +10057,11 @@ const locations = [
     "latitude": 32.05964,
     "longitude": -81.26375,
     "host_name": "Debby Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "146 W TISBURY LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002739323577711726
   },
   {
     "url": "https://www.airbnb.com/rooms/937094147509988486",
@@ -9444,10 +10073,11 @@ const locations = [
     "latitude": 32.11057,
     "longitude": -81.24705,
     "host_name": "Michael Morrison Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "312 MANDEN RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.045789665409641e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/856000218328094076",
@@ -9459,10 +10089,11 @@ const locations = [
     "latitude": 32.03832,
     "longitude": -81.25582,
     "host_name": "Vanessa 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "915 QUACCO RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007465232300982632
   },
   {
     "url": "https://www.airbnb.com/rooms/1421146420496557487",
@@ -9474,10 +10105,11 @@ const locations = [
     "latitude": 32.1163,
     "longitude": -81.2657,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "12 HAYDENS CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011101254716428315
   },
   {
     "url": "https://www.airbnb.com/rooms/886719195138905024",
@@ -9489,10 +10121,11 @@ const locations = [
     "latitude": 32.1062,
     "longitude": -81.2519,
     "host_name": "Joseph 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1108 S ROGERS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029770492572610746
   },
   {
     "url": "https://www.airbnb.com/rooms/48124607",
@@ -9504,10 +10137,11 @@ const locations = [
     "latitude": 32.08606,
     "longitude": -81.24516,
     "host_name": "Arnoldo Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "138 CROSS CREEK DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012606902096782215
   },
   {
     "url": "https://www.airbnb.com/rooms/1708854169772432734",
@@ -9519,10 +10153,11 @@ const locations = [
     "latitude": 32.111356858169614,
     "longitude": -81.24233072985405,
     "host_name": "City Express Savannah Airport/ Pooler New Host",
-    "searched_full_address": "",
+    "approximate_address": "105 SAN DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008885259448100265
   },
   {
     "url": "https://www.airbnb.com/rooms/1362464914665658061",
@@ -9534,10 +10169,11 @@ const locations = [
     "latitude": 32.11311,
     "longitude": -81.15762,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "111 ROMMEL AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013768817405637992
   },
   {
     "url": "https://www.airbnb.com/rooms/44196068",
@@ -9549,10 +10185,11 @@ const locations = [
     "latitude": 32.05845,
     "longitude": -81.26508,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "128 W TISBURY LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015119130169928105
   },
   {
     "url": "https://www.airbnb.com/rooms/804490532151701704",
@@ -9564,10 +10201,11 @@ const locations = [
     "latitude": 32.11082,
     "longitude": -81.24455,
     "host_name": "Lisa Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "420 S SKINNER AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004234002111588508
   },
   {
     "url": "https://www.airbnb.com/rooms/1199303620365015031",
@@ -9579,10 +10217,11 @@ const locations = [
     "latitude": 32.11608,
     "longitude": -81.26426,
     "host_name": "Denise Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "BRIGHTON WOODS DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029504677576483777
   },
   {
     "url": "https://www.airbnb.com/rooms/29189330",
@@ -9594,10 +10233,11 @@ const locations = [
     "latitude": 32.06116,
     "longitude": -81.2626,
     "host_name": "William Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "123 BLUELAKE BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002123600096095455
   },
   {
     "url": "https://www.airbnb.com/rooms/47314445",
@@ -9609,10 +10249,11 @@ const locations = [
     "latitude": 32.08548,
     "longitude": -81.26125,
     "host_name": "Harold Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GENTRY ST",
     "allowed_guests": 10,
     "over_occupancy": 1,
-    "over_percent": 0.1
+    "over_percent": 0.1,
+    "approx_distance_meters": 0.0003734169207556719
   },
   {
     "url": "https://www.airbnb.com/rooms/1552412728953402907",
@@ -9624,10 +10265,11 @@ const locations = [
     "latitude": 32.0109,
     "longitude": -81.2974,
     "host_name": "Taylor 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 4,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0015305939136109879
   },
   {
     "url": "https://www.airbnb.com/rooms/1552964594208412277",
@@ -9639,10 +10281,11 @@ const locations = [
     "latitude": 32.0902,
     "longitude": -81.25115,
     "host_name": "David Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 SILVERTON RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017113070111483928
   },
   {
     "url": "https://www.airbnb.com/rooms/1552396074229499841",
@@ -9654,10 +10297,11 @@ const locations = [
     "latitude": 32.0107,
     "longitude": -81.2973,
     "host_name": "Taylor 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.0013920789576235826
   },
   {
     "url": "https://www.airbnb.com/rooms/1182018235443567752",
@@ -9669,10 +10313,11 @@ const locations = [
     "latitude": 32.06167,
     "longitude": -81.26445,
     "host_name": "Miranda Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 BOSTWICK DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010580948885403022
   },
   {
     "url": "https://www.airbnb.com/rooms/1071011481498897440",
@@ -9684,10 +10329,11 @@ const locations = [
     "latitude": 32.0616,
     "longitude": -81.2634,
     "host_name": "Carmelo Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "130 BLUELAKE BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.036112706966676e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/940625498246642908",
@@ -9699,10 +10345,11 @@ const locations = [
     "latitude": 32.11496,
     "longitude": -81.25203,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "305 W COLLINS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017898316620953742
   },
   {
     "url": "https://www.airbnb.com/rooms/1355966753221376799",
@@ -9714,10 +10361,11 @@ const locations = [
     "latitude": 32.0461,
     "longitude": -81.2537,
     "host_name": "Jessica Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 WAX MYRTLE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.934633622994509e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1552416447511029521",
@@ -9729,10 +10377,11 @@ const locations = [
     "latitude": 32.0107,
     "longitude": -81.2973,
     "host_name": "Taylor 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 4,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0013920789576235826
   },
   {
     "url": "https://www.airbnb.com/rooms/1374006724012699538",
@@ -9744,10 +10393,11 @@ const locations = [
     "latitude": 32.04572107822351,
     "longitude": -81.23930490555826,
     "host_name": "Dee 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 BELLADONA WAY",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002211484646211102
   },
   {
     "url": "https://www.airbnb.com/rooms/822639668084638767",
@@ -9759,10 +10409,11 @@ const locations = [
     "latitude": 32.0759,
     "longitude": -81.2643,
     "host_name": "Brenda 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "217 SONOMA DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010340756531349164
   },
   {
     "url": "https://www.airbnb.com/rooms/46484927",
@@ -9774,10 +10425,11 @@ const locations = [
     "latitude": 32.06063,
     "longitude": -81.26376,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "39 BOSTWICK DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011746479325930862
   },
   {
     "url": "https://www.airbnb.com/rooms/1539270908357418994",
@@ -9789,10 +10441,11 @@ const locations = [
     "latitude": 32.01112698416597,
     "longitude": -81.296222739306,
     "host_name": "Taylor 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.000693655171104387
   },
   {
     "url": "https://www.airbnb.com/rooms/1691980679527172170",
@@ -9804,10 +10457,11 @@ const locations = [
     "latitude": 32.1015,
     "longitude": -81.2493,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1254 HOMER CITY WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024101457638493293
   },
   {
     "url": "https://www.airbnb.com/rooms/895577613821653123",
@@ -9819,10 +10473,11 @@ const locations = [
     "latitude": 32.0642,
     "longitude": -81.2646,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "182 AQUINNAH DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.474283787248569e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/689886009976821667",
@@ -9834,10 +10489,11 @@ const locations = [
     "latitude": 32.09325,
     "longitude": -81.24091,
     "host_name": "Jared 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "480 PINE BARREN RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010302329050316011
   },
   {
     "url": "https://www.airbnb.com/rooms/1552277049261402015",
@@ -9849,10 +10505,11 @@ const locations = [
     "latitude": 32.0591,
     "longitude": -81.2641,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "142 W TISBURY LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.5756142922675357e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1708858579688361633",
@@ -9864,10 +10521,11 @@ const locations = [
     "latitude": 32.11289,
     "longitude": -81.24042,
     "host_name": "City Express Savannah Airport/ Pooler New Host",
-    "searched_full_address": "",
+    "approximate_address": "100 GOVERNOR TREUTLEN RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.892049683105947e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47121456",
@@ -9879,10 +10537,11 @@ const locations = [
     "latitude": 32.11882,
     "longitude": -81.262,
     "host_name": "Katherine Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "833 W US HIGHWAY 80",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003013281632291793
   },
   {
     "url": "https://www.airbnb.com/rooms/1577097349989679997",
@@ -9894,10 +10553,11 @@ const locations = [
     "latitude": 32.08393342523649,
     "longitude": -81.24242974195477,
     "host_name": "Jaime 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 BARROW DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009829204112575594
   },
   {
     "url": "https://www.airbnb.com/rooms/1706923303195424455",
@@ -9909,10 +10569,11 @@ const locations = [
     "latitude": 32.0884,
     "longitude": -81.2606,
     "host_name": "Lanson Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 LEGENDS RD",
     "allowed_guests": 12,
     "over_occupancy": 1,
-    "over_percent": 0.0833
+    "over_percent": 0.0833,
+    "approx_distance_meters": 2.4664982299281097e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10018689",
@@ -9924,10 +10585,11 @@ const locations = [
     "latitude": 32.11563,
     "longitude": -81.15995,
     "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "133 AZALEA AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002346162574403118
   },
   {
     "url": "https://www.airbnb.com/rooms/1702546867202227872",
@@ -9939,10 +10601,11 @@ const locations = [
     "latitude": 32.0875,
     "longitude": -81.2635,
     "host_name": "Nanying Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 CREEKSIDE DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.282457631324574e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1396654340540709942",
@@ -9954,10 +10617,11 @@ const locations = [
     "latitude": 32.11625179799713,
     "longitude": -81.25337384490115,
     "host_name": "Labi Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 SHEFTALL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005134488209660916
   },
   {
     "url": "https://www.airbnb.com/rooms/1577888021944557890",
@@ -9969,10 +10633,11 @@ const locations = [
     "latitude": 32.11507,
     "longitude": -81.25189,
     "host_name": "Savannah Brown 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "305 W COLLINS ST",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 2.4263772527090053e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/41385814",
@@ -9984,10 +10649,11 @@ const locations = [
     "latitude": 32.10894,
     "longitude": -81.16282,
     "host_name": "Jonathan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "130 OGLESBY AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030265156351360093
   },
   {
     "url": "https://www.airbnb.com/rooms/1244458403795084365",
@@ -9999,10 +10665,11 @@ const locations = [
     "latitude": 32.05508419003573,
     "longitude": -81.26552332276744,
     "host_name": "Angelys Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "126 OLD WHALING WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.987313598322872e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1163100600376479007",
@@ -10014,10 +10681,11 @@ const locations = [
     "latitude": 32.10376,
     "longitude": -81.2459,
     "host_name": "Marcel Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1202 ROBERTS WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002731259443886673
   },
   {
     "url": "https://www.airbnb.com/rooms/1603231469099722811",
@@ -10029,10 +10697,11 @@ const locations = [
     "latitude": 32.11622,
     "longitude": -81.24179,
     "host_name": "Tm Superhost \u00b7 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 MOORE AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.097046196579818e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/853262275520347270",
@@ -10044,10 +10713,11 @@ const locations = [
     "latitude": 32.0626,
     "longitude": -81.2593,
     "host_name": "Camila 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 STALWICK DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.09601797388523e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/688225955764900451",
@@ -10059,10 +10729,11 @@ const locations = [
     "latitude": 32.11252,
     "longitude": -81.15886,
     "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 ROMMEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00048575335542487005
   },
   {
     "url": "https://www.airbnb.com/rooms/596590113878015820",
@@ -10074,10 +10745,11 @@ const locations = [
     "latitude": 32.0758,
     "longitude": -81.2655,
     "host_name": "Jesse Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "234 SONOMA DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.103411827864885e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1567565549464390894",
@@ -10089,10 +10761,11 @@ const locations = [
     "latitude": 32.05569,
     "longitude": -81.26294,
     "host_name": "Carmelo Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "148 BERWICK LAKES BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011248835433674419
   },
   {
     "url": "https://www.airbnb.com/rooms/746997138849675412",
@@ -10104,10 +10777,11 @@ const locations = [
     "latitude": 32.11351,
     "longitude": -81.25114,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 WHATLEY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002266619717834155
   },
   {
     "url": "https://www.airbnb.com/rooms/1670994864646084800",
@@ -10119,10 +10793,11 @@ const locations = [
     "latitude": 32.0476,
     "longitude": -81.2555,
     "host_name": "RedAwning Vacation Rentals 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 WILLOW LAKES CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016972509836506787
   },
   {
     "url": "https://www.airbnb.com/rooms/1714022375766253189",
@@ -10134,10 +10809,11 @@ const locations = [
     "latitude": 32.09055,
     "longitude": -81.17762,
     "host_name": "Ted New Host",
-    "searched_full_address": "",
+    "approximate_address": "2609 GOVERNOR ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.185105635378212e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/653791049652365727",
@@ -10149,10 +10825,11 @@ const locations = [
     "latitude": 32.08609,
     "longitude": -81.25577,
     "host_name": "John 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "176 SILVERTON RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017874006576877615
   },
   {
     "url": "https://www.airbnb.com/rooms/1391685983228049736",
@@ -10164,10 +10841,11 @@ const locations = [
     "latitude": 32.105,
     "longitude": -81.239,
     "host_name": "Alexis Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "527 GOVERNOR TREUTLEN CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.615898814181554e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1310607030709957919",
@@ -10179,10 +10857,11 @@ const locations = [
     "latitude": 32.0857,
     "longitude": -81.25092,
     "host_name": "Ben Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 CASSIDY CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.089536792731669e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1534864446312870090",
@@ -10194,10 +10873,11 @@ const locations = [
     "latitude": 32.08984,
     "longitude": -81.25429,
     "host_name": "Bien Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "117 TIMBERLAND GAP RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000145407477274908
   },
   {
     "url": "https://www.airbnb.com/rooms/680421328729132855",
@@ -10209,10 +10889,11 @@ const locations = [
     "latitude": 32.10335,
     "longitude": -81.25067,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1228 CRAWFORD WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019290882188468817
   },
   {
     "url": "https://www.airbnb.com/rooms/1625593671984677304",
@@ -10224,10 +10905,11 @@ const locations = [
     "latitude": 32.0858,
     "longitude": -81.2549,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "169 SILVERTON RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.730392037352799e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1291594004608644268",
@@ -10239,10 +10921,11 @@ const locations = [
     "latitude": 32.061890996506435,
     "longitude": -81.26695101951293,
     "host_name": "Miranda Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "140 AQUINNAH DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011868673197642336
   },
   {
     "url": "https://www.airbnb.com/rooms/671795538517213675",
@@ -10254,10 +10937,11 @@ const locations = [
     "latitude": 32.098,
     "longitude": -81.2835,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 LAKE HOUSE RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.0592364292265435e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1402143153899910435",
@@ -10269,10 +10953,11 @@ const locations = [
     "latitude": 32.046,
     "longitude": -81.1902,
     "host_name": "Stanley Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4926 PINELAND DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007283879261545963
   },
   {
     "url": "https://www.airbnb.com/rooms/1661185732941095831",
@@ -10284,10 +10969,11 @@ const locations = [
     "latitude": 32.0897,
     "longitude": -81.169,
     "host_name": "Laura 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2102 SHAW AVE ##A",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028263232480461284
   },
   {
     "url": "https://www.airbnb.com/rooms/1685070930621160904",
@@ -10299,10 +10985,11 @@ const locations = [
     "latitude": 32.10045,
     "longitude": -81.27972,
     "host_name": "Marcus 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 COACH HOUSE SQ",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.234124985161129e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1638552776586763946",
@@ -10314,10 +11001,11 @@ const locations = [
     "latitude": 32.10044842281869,
     "longitude": -81.28461135992391,
     "host_name": "Ishmail 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 MORGAN PINES DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005805318306443905
   },
   {
     "url": "https://www.airbnb.com/rooms/25233909",
@@ -10329,10 +11017,11 @@ const locations = [
     "latitude": 32.0618,
     "longitude": -81.26594,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "131 AQUINNAH DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.2452613477078603e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1630780219770090884",
@@ -10344,10 +11033,11 @@ const locations = [
     "latitude": 32.0542,
     "longitude": -81.26333,
     "host_name": "Solace Escapes Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 CATFISH CT",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030022982707900256
   },
   {
     "url": "https://www.airbnb.com/rooms/1077452008381370730",
@@ -10359,10 +11049,11 @@ const locations = [
     "latitude": 32.05797,
     "longitude": -81.25921,
     "host_name": "Arnoldo Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "35 KILLEARN CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021739626221051796
   },
   {
     "url": "https://www.airbnb.com/rooms/1398962160951014084",
@@ -10374,10 +11065,11 @@ const locations = [
     "latitude": 32.041191927882586,
     "longitude": -81.29792161196548,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "129 ELLIE WAY",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012842918632866585
   },
   {
     "url": "https://www.airbnb.com/rooms/1633390552261903915",
@@ -10389,10 +11081,11 @@ const locations = [
     "latitude": 32.03982236892603,
     "longitude": -81.2981031802091,
     "host_name": "Ange Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "469 BUSH RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008225839708461655
   },
   {
     "url": "https://www.airbnb.com/rooms/952417003695039227",
@@ -10404,10 +11097,11 @@ const locations = [
     "latitude": 32.0754,
     "longitude": -81.2627,
     "host_name": "Jesse Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "209 VENTURA PL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.0470483868972285e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1382761521134426262",
@@ -10419,10 +11113,11 @@ const locations = [
     "latitude": 32.041232927439495,
     "longitude": -81.29904183627553,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "167 PAINTED LADY LOOP",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.497308522944277e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/616887263750949740",
@@ -10434,10 +11129,11 @@ const locations = [
     "latitude": 32.06552,
     "longitude": -81.27033,
     "host_name": "Tanya 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 HAMILTON GROVE DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002623083350378687
   },
   {
     "url": "https://www.airbnb.com/rooms/1040871866028757408",
@@ -10449,10 +11145,11 @@ const locations = [
     "latitude": 32.10811,
     "longitude": -81.24727,
     "host_name": "Labi Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "613 MANDEN LN",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005213869405434891
   },
   {
     "url": "https://www.airbnb.com/rooms/710730558111244991",
@@ -10464,10 +11161,11 @@ const locations = [
     "latitude": 32.07975,
     "longitude": -81.26736,
     "host_name": "Brenda 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 SONATA CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005455677231645141
   },
   {
     "url": "https://www.airbnb.com/rooms/1623273875495311901",
@@ -10479,10 +11177,11 @@ const locations = [
     "latitude": 32.11726,
     "longitude": -81.24402,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "139 READ ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019100045532179045
   },
   {
     "url": "https://www.airbnb.com/rooms/44534257",
@@ -10494,10 +11193,11 @@ const locations = [
     "latitude": 32.11374,
     "longitude": -81.25422,
     "host_name": "Christie 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "404 WINSKIE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.245744675850987e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1398766028783954011",
@@ -10509,10 +11209,11 @@ const locations = [
     "latitude": 32.0897,
     "longitude": -81.169,
     "host_name": "Laura 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2102 SHAW AVE ##A",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028263232480461284
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979197463626075",
@@ -10524,10 +11225,11 @@ const locations = [
     "latitude": 32.03687,
     "longitude": -81.25591,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "FINN CIR",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0003461599544514759
   },
   {
     "url": "https://www.airbnb.com/rooms/1039351255865103176",
@@ -10539,10 +11241,11 @@ const locations = [
     "latitude": 32.11202,
     "longitude": -81.24737,
     "host_name": "Labi Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "311 E WHATLEY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.844781758095639e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1383327882192716750",
@@ -10554,10 +11257,11 @@ const locations = [
     "latitude": 32.045161065683686,
     "longitude": -81.25512431733723,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "9 WILLOW LAKES DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002565833786835692
   },
   {
     "url": "https://www.airbnb.com/rooms/1702516726132095726",
@@ -10569,10 +11273,11 @@ const locations = [
     "latitude": 32.08482969305774,
     "longitude": -81.26279326120665,
     "host_name": "Emily 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 GENTRY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003550754417700574
   },
   {
     "url": "https://www.airbnb.com/rooms/1039311687513391820",
@@ -10584,10 +11289,11 @@ const locations = [
     "latitude": 32.04507,
     "longitude": -81.18971,
     "host_name": "Vacasa Georgia 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4923 PINELAND DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.512502926507441e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1131062022931606117",
@@ -10599,10 +11305,11 @@ const locations = [
     "latitude": 32.08538,
     "longitude": -81.16928,
     "host_name": "Jay 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1909 US HIGHWAY 80",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003480660445545091
   },
   {
     "url": "https://www.airbnb.com/rooms/1696849666381739569",
@@ -10614,10 +11321,11 @@ const locations = [
     "latitude": 32.10416,
     "longitude": -81.24785,
     "host_name": "Harper From Dynasty Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1201 D J'S WAY",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016687307050716673
   },
   {
     "url": "https://www.airbnb.com/rooms/647323438609805562",
@@ -10629,10 +11337,11 @@ const locations = [
     "latitude": 32.0763,
     "longitude": -81.2639,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "206 SONOMA DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.690847470172473e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/967646920344967093",
@@ -10644,10 +11353,11 @@ const locations = [
     "latitude": 32.0766,
     "longitude": -81.2699,
     "host_name": "Steven 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "22 STONE GATE CT",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.394044513962399e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/551547827448933544",
@@ -10659,10 +11369,11 @@ const locations = [
     "latitude": 32.11347,
     "longitude": -81.25512,
     "host_name": "Christie 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "409 WINSKIE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.548900911013327e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1582143071647024742",
@@ -10674,10 +11385,11 @@ const locations = [
     "latitude": 32.041,
     "longitude": -81.2984,
     "host_name": "Ange Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 ELLIE WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023107733364967565
   },
   {
     "url": "https://www.airbnb.com/rooms/1373945927516383974",
@@ -10689,10 +11401,11 @@ const locations = [
     "latitude": 32.046167543476976,
     "longitude": -81.25769441034062,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "200 CHERRY LAURAL LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00042251623804389417
   },
   {
     "url": "https://www.airbnb.com/rooms/1312604324956534067",
@@ -10704,10 +11417,11 @@ const locations = [
     "latitude": 32.0605,
     "longitude": -81.2034,
     "host_name": "Jesus 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 SUNSHINE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.4920474969516244e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002592648041413",
@@ -10719,10 +11433,11 @@ const locations = [
     "latitude": 32.057729869968966,
     "longitude": -81.2583208743275,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "187 BERWICK LAKES BLVD",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.0001999206238530299
   },
   {
     "url": "https://www.airbnb.com/rooms/1070978616828850674",
@@ -10734,10 +11449,11 @@ const locations = [
     "latitude": 32.074,
     "longitude": -81.0916,
     "host_name": "Farrell Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "123 E LIBERTY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.573144372440617e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1558277456302782082",
@@ -10749,10 +11465,11 @@ const locations = [
     "latitude": 32.0709,
     "longitude": -81.09,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "410 HABERSHAM ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.2916498960417145e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1660859565047567167",
@@ -10764,10 +11481,11 @@ const locations = [
     "latitude": 32.06008,
     "longitude": -81.04186,
     "host_name": "Traci Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 RUNAWAY POINT RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011800300447346428
   },
   {
     "url": "https://www.airbnb.com/rooms/1291550831492901278",
@@ -10779,10 +11497,11 @@ const locations = [
     "latitude": 32.063456631168634,
     "longitude": -81.04000202991489,
     "host_name": "Adam & Christina Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 RUNAWAY POINT RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010085341207549869
   },
   {
     "url": "https://www.airbnb.com/rooms/1126991317759056330",
@@ -10794,10 +11513,11 @@ const locations = [
     "latitude": 32.063,
     "longitude": -81.0941,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1202 LINCOLN ST",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.0625776110540485e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/27466922",
@@ -10809,10 +11529,11 @@ const locations = [
     "latitude": 32.0622,
     "longitude": -81.0955,
     "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1312 ABERCORN ST",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.82389645659535e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1356521873573124832",
@@ -10824,10 +11545,11 @@ const locations = [
     "latitude": 32.06199524807135,
     "longitude": -81.04267280918833,
     "host_name": "Scott Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "124 BACK SHELL RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017610971411080134
   },
   {
     "url": "https://www.airbnb.com/rooms/52526713",
@@ -10839,10 +11561,11 @@ const locations = [
     "latitude": 32.0606,
     "longitude": -81.0966,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1509 ABERCORN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.898877391153571e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/697125879399214362",
@@ -10854,10 +11577,11 @@ const locations = [
     "latitude": 32.06164,
     "longitude": -81.09947,
     "host_name": "Caroline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1512 WHITAKER ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.3901126205109425e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1145784535506480833",
@@ -10869,10 +11593,11 @@ const locations = [
     "latitude": 32.06318,
     "longitude": -81.09345,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1117 HABERSHAM ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.463564059105674e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1385488027503178719",
@@ -10884,10 +11609,11 @@ const locations = [
     "latitude": 32.060646823145326,
     "longitude": -81.09611740465067,
     "host_name": "Paul Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1520 ABERCORN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.973688896082609e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48675691",
@@ -10899,10 +11625,11 @@ const locations = [
     "latitude": 32.06021,
     "longitude": -81.09972,
     "host_name": "Kevin Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1707 BULL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.9814292376521575e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/917455033873540278",
@@ -10914,10 +11641,11 @@ const locations = [
     "latitude": 32.0609,
     "longitude": -81.0428,
     "host_name": "David And Alex Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "127 BACK SHELL RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.551431127885399e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1373943746758785651",
@@ -10929,10 +11657,11 @@ const locations = [
     "latitude": 32.0616,
     "longitude": -81.0958,
     "host_name": "Paul Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1408 ABERCORN ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.073216747729497e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/36623069",
@@ -10944,10 +11673,11 @@ const locations = [
     "latitude": 32.0616,
     "longitude": -81.0924,
     "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "505 E HENRY ST",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 4.7332232084156506e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1269008313807364353",
@@ -10959,10 +11689,11 @@ const locations = [
     "latitude": 32.0623,
     "longitude": -81.0655,
     "host_name": "Renee Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "404 GOEBEL AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013707146663652188
   },
   {
     "url": "https://www.airbnb.com/rooms/37491491",
@@ -10974,10 +11705,11 @@ const locations = [
     "latitude": 32.06284,
     "longitude": -81.09353,
     "host_name": "Eric & Danielle Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1201 HABERSHAM ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.662453324923167e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/29804946",
@@ -10989,10 +11721,11 @@ const locations = [
     "latitude": 32.0632,
     "longitude": -81.0938,
     "host_name": "Sarah And Mike Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "308 E DUFFY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.539296357381821e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/6208163",
@@ -11004,10 +11737,11 @@ const locations = [
     "latitude": 32.06252,
     "longitude": -81.0946,
     "host_name": "Joyce Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "224 E HENRY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014182676441480007
   },
   {
     "url": "https://www.airbnb.com/rooms/1705857023267791954",
@@ -11019,10 +11753,11 @@ const locations = [
     "latitude": 32.06187,
     "longitude": -81.09264,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "416 E HENRY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002799899563446727
   },
   {
     "url": "https://www.airbnb.com/rooms/1173861872640536415",
@@ -11034,10 +11769,11 @@ const locations = [
     "latitude": 32.06111,
     "longitude": -81.09339,
     "host_name": "Madeline Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "411 E ANDERSON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015956469888294753
   },
   {
     "url": "https://www.airbnb.com/rooms/50191155",
@@ -11049,10 +11785,11 @@ const locations = [
     "latitude": 32.06133,
     "longitude": -81.09282,
     "host_name": "Charles Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1316 PRICE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019670264804736869
   },
   {
     "url": "https://www.airbnb.com/rooms/1363804103349521503",
@@ -11064,10 +11801,11 @@ const locations = [
     "latitude": 32.06209,
     "longitude": -81.08954,
     "host_name": "Kevin And Karli Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "618 E DUFFY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5151120062887065e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52652241",
@@ -11079,10 +11817,11 @@ const locations = [
     "latitude": 32.06196,
     "longitude": -81.09465,
     "host_name": "Charles Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1311 LINCOLN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001671639465612809
   },
   {
     "url": "https://www.airbnb.com/rooms/1508525648132721862",
@@ -11094,10 +11833,11 @@ const locations = [
     "latitude": 32.06262049487558,
     "longitude": -81.09073298470439,
     "host_name": "Ryan Superhost \u00b7 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "540 E DUFFY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.819257237809971e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1517626017322149420",
@@ -11109,10 +11849,11 @@ const locations = [
     "latitude": 32.062466025141134,
     "longitude": -81.09152914554394,
     "host_name": "Megan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "515 E DUFFY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023147711792558938
   },
   {
     "url": "https://www.airbnb.com/rooms/916633683073198617",
@@ -11124,10 +11865,11 @@ const locations = [
     "latitude": 32.06313,
     "longitude": -81.09348,
     "host_name": "Madison Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1119 HABERSHAM ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.390046660079462e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1540107963701573296",
@@ -11139,10 +11881,11 @@ const locations = [
     "latitude": 32.0625,
     "longitude": -81.091,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "524 E DUFFY ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010371349290685162
   },
   {
     "url": "https://www.airbnb.com/rooms/49533951",
@@ -11154,10 +11897,11 @@ const locations = [
     "latitude": 32.06304,
     "longitude": -81.08627,
     "host_name": "Lea Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "734 E WALDBURG ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.376418248668039e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/23163705",
@@ -11169,10 +11913,11 @@ const locations = [
     "latitude": 32.0628,
     "longitude": -81.0941,
     "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1208 LINCOLN ST",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 4.0692410876955475e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1526296963313534516",
@@ -11184,10 +11929,11 @@ const locations = [
     "latitude": 32.0629,
     "longitude": -81.096,
     "host_name": "Daniel Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 E HENRY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012774350491576473
   },
   {
     "url": "https://www.airbnb.com/rooms/730411902784605095",
@@ -11199,10 +11945,11 @@ const locations = [
     "latitude": 32.06273,
     "longitude": -81.09168,
     "host_name": "Megan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "510 E DUFFY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.590489173917214e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/17607155",
@@ -11214,10 +11961,11 @@ const locations = [
     "latitude": 31.8893,
     "longitude": -81.20304,
     "host_name": "Phil Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05266282682675807
   },
   {
     "url": "https://www.airbnb.com/rooms/1463384836758673614",
@@ -11229,10 +11977,11 @@ const locations = [
     "latitude": 32.0805,
     "longitude": -81.2621,
     "host_name": "Sam Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "128 CHORUS LOOP",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.4091282875698474e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/572450542537195282",
@@ -11244,10 +11993,11 @@ const locations = [
     "latitude": 32.16252,
     "longitude": -81.32792,
     "host_name": "Ina Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "STAGECOACH RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.01881336183686795
   },
   {
     "url": "https://www.airbnb.com/rooms/1285374865884121629",
@@ -11259,10 +12009,11 @@ const locations = [
     "latitude": 32.08898660146064,
     "longitude": -81.25099542760692,
     "host_name": "Bien Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 LONGLEAF CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001341662984591494
   },
   {
     "url": "https://www.airbnb.com/rooms/37914293",
@@ -11274,10 +12025,11 @@ const locations = [
     "latitude": 32.1311,
     "longitude": -81.3017,
     "host_name": "Amber Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 CHERRY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.970467910759315e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1574664898316578786",
@@ -11289,10 +12041,11 @@ const locations = [
     "latitude": 32.121718289867665,
     "longitude": -81.24784124823309,
     "host_name": "Troy & Sydney Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "302 BENTON DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00027290542214124377
   },
   {
     "url": "https://www.airbnb.com/rooms/1656888459370729346",
@@ -11304,10 +12057,11 @@ const locations = [
     "latitude": 32.122895067166205,
     "longitude": -81.26199019867002,
     "host_name": "Zachary Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "134 HOUSTON ST",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.89105258707161e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/816536146055859026",
@@ -11319,10 +12073,11 @@ const locations = [
     "latitude": 32.14531,
     "longitude": -81.33086,
     "host_name": "Irene Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "LOUISVILLE RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.004750014124854616
   },
   {
     "url": "https://www.airbnb.com/rooms/1447885038440611941",
@@ -11334,10 +12089,11 @@ const locations = [
     "latitude": 32.1456,
     "longitude": -81.1629,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "316 CANTYRE ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.6454070917888083e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1586446837252706600",
@@ -11349,10 +12105,11 @@ const locations = [
     "latitude": 32.1248,
     "longitude": -81.29147,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "210 CYPRESS ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024646744626644583
   },
   {
     "url": "https://www.airbnb.com/rooms/1112371050735344648",
@@ -11364,10 +12121,11 @@ const locations = [
     "latitude": 32.1204,
     "longitude": -81.24892,
     "host_name": "Trisha Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 HOLLY AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.925697955896365e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/653068899651663334",
@@ -11379,10 +12137,11 @@ const locations = [
     "latitude": 32.12787,
     "longitude": -81.29415,
     "host_name": "Wanda Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 OAK ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024700761049822656
   },
   {
     "url": "https://www.airbnb.com/rooms/1041923631571138642",
@@ -11394,10 +12153,11 @@ const locations = [
     "latitude": 32.087,
     "longitude": -81.24953,
     "host_name": "Bien Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "203 LONGLEAF CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.460348038320063e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/54092251",
@@ -11409,10 +12169,11 @@ const locations = [
     "latitude": 32.11906,
     "longitude": -81.2491,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 NEWTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010312502796030153
   },
   {
     "url": "https://www.airbnb.com/rooms/1586437148733095810",
@@ -11424,10 +12185,11 @@ const locations = [
     "latitude": 32.12548,
     "longitude": -81.29229,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 MAPLE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013519459387990396
   },
   {
     "url": "https://www.airbnb.com/rooms/1025430132461051567",
@@ -11439,10 +12201,11 @@ const locations = [
     "latitude": 32.12849,
     "longitude": -81.26698,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1107 PLANTATION DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.391026602492414e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/20756201",
@@ -11454,10 +12217,11 @@ const locations = [
     "latitude": 32.1305,
     "longitude": -81.3019,
     "host_name": "Amber Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 CHERRY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.62953735351367e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/715639852437623868",
@@ -11469,10 +12233,11 @@ const locations = [
     "latitude": 32.1203,
     "longitude": -81.2551,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "402 SYMONS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.924035557993707e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/706704340911048946",
@@ -11484,10 +12249,11 @@ const locations = [
     "latitude": 32.12087,
     "longitude": -81.15792,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 BRIARWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00011931620527685567
   },
   {
     "url": "https://www.airbnb.com/rooms/1494428825752782867",
@@ -11499,10 +12265,11 @@ const locations = [
     "latitude": 32.0903,
     "longitude": -81.1568,
     "host_name": "Ross Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1305 JUNCTION AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.939995691403085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1590000735458600229",
@@ -11514,10 +12281,11 @@ const locations = [
     "latitude": 32.15036,
     "longitude": -81.25759,
     "host_name": "Vonetta Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 ARBORS CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028799582629769773
   },
   {
     "url": "https://www.airbnb.com/rooms/41508800",
@@ -11529,10 +12297,11 @@ const locations = [
     "latitude": 32.1315,
     "longitude": -81.29336,
     "host_name": "Elizabeth Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 DOUGLAS CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001107719139534213
   },
   {
     "url": "https://www.airbnb.com/rooms/54008190",
@@ -11544,10 +12313,11 @@ const locations = [
     "latitude": 32.12135,
     "longitude": -81.16333,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SMITH AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006063578586838674
   },
   {
     "url": "https://www.airbnb.com/rooms/1582878754832767886",
@@ -11559,10 +12329,11 @@ const locations = [
     "latitude": 32.14933,
     "longitude": -81.16208,
     "host_name": "Savannah Brown 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "ABERFELDY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003605537091905626
   },
   {
     "url": "https://www.airbnb.com/rooms/1650250975025949554",
@@ -11574,10 +12345,11 @@ const locations = [
     "latitude": 32.138243,
     "longitude": -81.24286,
     "host_name": "RoomPicks 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003881729755663466
   },
   {
     "url": "https://www.airbnb.com/rooms/1386391583042028888",
@@ -11589,10 +12361,11 @@ const locations = [
     "latitude": 32.128906978525976,
     "longitude": -81.27961881208634,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 BRAGG DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00038717100817878036
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832403856502150",
@@ -11604,10 +12377,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/719534675928986814",
@@ -11619,10 +12393,11 @@ const locations = [
     "latitude": 32.14596,
     "longitude": -81.16239,
     "host_name": "Jason Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "311 BIRKENHEAD ST",
     "allowed_guests": 2,
     "over_occupancy": 3,
-    "over_percent": 1.5
+    "over_percent": 1.5,
+    "approx_distance_meters": 0.0002395573339927289
   },
   {
     "url": "https://www.airbnb.com/rooms/1587156844089664394",
@@ -11634,10 +12409,11 @@ const locations = [
     "latitude": 32.1541,
     "longitude": -81.1718,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "44 WARREN DR",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 0.00010193376804930338
   },
   {
     "url": "https://www.airbnb.com/rooms/1034767204037703626",
@@ -11649,10 +12425,11 @@ const locations = [
     "latitude": 32.14551,
     "longitude": -81.159,
     "host_name": "Chip Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 17",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024421825827580736
   },
   {
     "url": "https://www.airbnb.com/rooms/1586492262628500178",
@@ -11664,10 +12441,11 @@ const locations = [
     "latitude": 32.09168,
     "longitude": -81.28307,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "346 CASEY DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018563039968426393
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832470158421689",
@@ -11679,10 +12457,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1706674897083060948",
@@ -11694,10 +12473,11 @@ const locations = [
     "latitude": 32.13852,
     "longitude": -81.23644,
     "host_name": "Hilton Garden Inn Savannah Airport 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "80 CLYDE E MARTIN DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009489060245620935
   },
   {
     "url": "https://www.airbnb.com/rooms/1477572070763401867",
@@ -11709,10 +12489,11 @@ const locations = [
     "latitude": 32.1238,
     "longitude": -81.2915,
     "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "304 CYPRESS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.295578738745543e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1586417723482806811",
@@ -11724,10 +12505,11 @@ const locations = [
     "latitude": 32.12401758831036,
     "longitude": -81.2923240249936,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "705 CREGOR ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.537058137306365e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1384182312798617406",
@@ -11739,10 +12521,11 @@ const locations = [
     "latitude": 32.0873126151216,
     "longitude": -81.25105350726945,
     "host_name": "Maya Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "270 LONGLEAF CIR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010422393877757175
   },
   {
     "url": "https://www.airbnb.com/rooms/51620291",
@@ -11754,10 +12537,11 @@ const locations = [
     "latitude": 32.1207,
     "longitude": -81.24256,
     "host_name": "Sofia Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "421 2ND ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001186127639866574
   },
   {
     "url": "https://www.airbnb.com/rooms/1337194232550239932",
@@ -11769,10 +12553,11 @@ const locations = [
     "latitude": 32.05831018314158,
     "longitude": -81.26409847621457,
     "host_name": "Justin Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "308 KATAMA WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.88737653256556e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1194150967510094301",
@@ -11784,10 +12569,11 @@ const locations = [
     "latitude": 32.12433,
     "longitude": -81.25859,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "407 CARDINAL ST",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022697091628681485
   },
   {
     "url": "https://www.airbnb.com/rooms/811041301840525497",
@@ -11799,10 +12585,11 @@ const locations = [
     "latitude": 32.12096,
     "longitude": -81.16517,
     "host_name": "Montisha Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "DANIEL AVE",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.00023278609880211196
   },
   {
     "url": "https://www.airbnb.com/rooms/1132635263335270990",
@@ -11814,10 +12601,11 @@ const locations = [
     "latitude": 32.0858,
     "longitude": -81.17617,
     "host_name": "Jessica Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "COVINGTON AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003526073213853376
   },
   {
     "url": "https://www.airbnb.com/rooms/772619174250830470",
@@ -11829,10 +12617,11 @@ const locations = [
     "latitude": 32.1201,
     "longitude": -81.2499,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "217 HOLLY AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010683550698499632
   },
   {
     "url": "https://www.airbnb.com/rooms/1421903060587949280",
@@ -11844,10 +12633,11 @@ const locations = [
     "latitude": 32.13265076620861,
     "longitude": -81.29163981066554,
     "host_name": "Landing 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "US HIGHWAY 80",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00046121331396006333
   },
   {
     "url": "https://www.airbnb.com/rooms/46494808",
@@ -11859,10 +12649,11 @@ const locations = [
     "latitude": 32.11356,
     "longitude": -81.15671,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "93 ROMMEL AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011200788745142815
   },
   {
     "url": "https://www.airbnb.com/rooms/1583570111217517171",
@@ -11874,10 +12665,11 @@ const locations = [
     "latitude": 32.12218,
     "longitude": -81.26145,
     "host_name": "Elizabeth Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "DOWD ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012859248651110394
   },
   {
     "url": "https://www.airbnb.com/rooms/991955619073726293",
@@ -11889,10 +12681,11 @@ const locations = [
     "latitude": 32.04889,
     "longitude": -81.25785,
     "host_name": "Astrid Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "166 CHERRY LAURAL LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013179418496124035
   },
   {
     "url": "https://www.airbnb.com/rooms/1389261973774714056",
@@ -11904,10 +12697,11 @@ const locations = [
     "latitude": 32.12155413490131,
     "longitude": -81.25018989541356,
     "host_name": "Sid 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "316 GLEASON AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002840233623408856
   },
   {
     "url": "https://www.airbnb.com/rooms/907219330455225727",
@@ -11919,10 +12713,11 @@ const locations = [
     "latitude": 32.12069,
     "longitude": -81.25009,
     "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "216 HOLLY AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002467668079501784
   },
   {
     "url": "https://www.airbnb.com/rooms/827414062587251355",
@@ -11934,10 +12729,11 @@ const locations = [
     "latitude": 32.1486,
     "longitude": -81.1618,
     "host_name": "Ashley 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "208 ABERFELDY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001342301272949558
   },
   {
     "url": "https://www.airbnb.com/rooms/688225391528276519",
@@ -11949,10 +12745,11 @@ const locations = [
     "latitude": 32.1309,
     "longitude": -81.3038,
     "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 HICKORY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021357604244263718
   },
   {
     "url": "https://www.airbnb.com/rooms/1719843696960531093",
@@ -11964,10 +12761,11 @@ const locations = [
     "latitude": 32.1345,
     "longitude": -81.24764,
     "host_name": "Takiya 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TANGER OUTLETS BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040457448952406673
   },
   {
     "url": "https://www.airbnb.com/rooms/1099862560256320334",
@@ -11979,10 +12777,11 @@ const locations = [
     "latitude": 32.08761,
     "longitude": -81.31831,
     "host_name": "C. Chris 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 CHALK FARM WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010836918082965761
   },
   {
     "url": "https://www.airbnb.com/rooms/1724313762107821114",
@@ -11994,10 +12793,11 @@ const locations = [
     "latitude": 32.1282,
     "longitude": -81.279,
     "host_name": "Tasha Hughes Superhost \u00b7 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 MESA AVE",
     "allowed_guests": 10,
     "over_occupancy": 3,
-    "over_percent": 0.3
+    "over_percent": 0.3,
+    "approx_distance_meters": 0.00011278458112162173
   },
   {
     "url": "https://www.airbnb.com/rooms/1573248466594866350",
@@ -12009,10 +12809,11 @@ const locations = [
     "latitude": 32.1043,
     "longitude": -81.2467,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "348 GARDEN ACRES WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7182034052768015e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48076969",
@@ -12024,10 +12825,11 @@ const locations = [
     "latitude": 32.15477,
     "longitude": -81.27417,
     "host_name": "Naima 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "117 TANZANIA TRL",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001351518480899444
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832420889124411",
@@ -12039,10 +12841,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1706674582165389638",
@@ -12054,10 +12857,11 @@ const locations = [
     "latitude": 32.13847247185545,
     "longitude": -81.2369557814686,
     "host_name": "Hilton Garden Inn Savannah Airport 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "80 CLYDE E MARTIN DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004975444740323984
   },
   {
     "url": "https://www.airbnb.com/rooms/1716100892656075664",
@@ -12069,10 +12873,11 @@ const locations = [
     "latitude": 32.136902367007806,
     "longitude": -81.24106718133739,
     "host_name": "Holiday Inn & Suites Savannah Airport Pooler New Host",
-    "searched_full_address": "",
+    "approximate_address": "100 OUTLET PKWY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005203658837459338
   },
   {
     "url": "https://www.airbnb.com/rooms/1697392900910491274",
@@ -12084,10 +12889,11 @@ const locations = [
     "latitude": 32.10354,
     "longitude": -81.24882,
     "host_name": "Harper From Dynasty Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1213 HOMER CITY WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015293437303720553
   },
   {
     "url": "https://www.airbnb.com/rooms/1716092844799565385",
@@ -12099,10 +12905,11 @@ const locations = [
     "latitude": 32.137106870179046,
     "longitude": -81.2424340655644,
     "host_name": "Holiday Inn & Suites Savannah Airport Pooler New Host",
-    "searched_full_address": "",
+    "approximate_address": "100 OUTLET PKWY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009890339950469624
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832401792424161",
@@ -12114,10 +12921,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1386397660736946942",
@@ -12129,10 +12937,11 @@ const locations = [
     "latitude": 32.12938685320788,
     "longitude": -81.27981852334682,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "19 CONAWAY RD",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.00040567191379346036
   },
   {
     "url": "https://www.airbnb.com/rooms/1390062124280429955",
@@ -12144,10 +12953,11 @@ const locations = [
     "latitude": 32.13935266884038,
     "longitude": -81.31979860227528,
     "host_name": "Thomas 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1320 W US HIGHWAY 80",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004408520325887604
   },
   {
     "url": "https://www.airbnb.com/rooms/1719871835766906380",
@@ -12159,10 +12969,11 @@ const locations = [
     "latitude": 32.13236,
     "longitude": -81.24942,
     "host_name": "Takiya 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "285 PARK AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001460332347615431
   },
   {
     "url": "https://www.airbnb.com/rooms/1501608249493665219",
@@ -12174,10 +12985,11 @@ const locations = [
     "latitude": 32.07566,
     "longitude": -81.31309,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "180 BOTTLEBRUSH DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016010830326979234
   },
   {
     "url": "https://www.airbnb.com/rooms/1650250975263244103",
@@ -12189,10 +13001,11 @@ const locations = [
     "latitude": 32.138243,
     "longitude": -81.24286,
     "host_name": "RoomPicks 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003881729755663466
   },
   {
     "url": "https://www.airbnb.com/rooms/1079049365743748142",
@@ -12204,10 +13017,11 @@ const locations = [
     "latitude": 32.14757,
     "longitude": -81.1594,
     "host_name": "Arneja 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "301 COMMONWEALTH AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001648631451694943
   },
   {
     "url": "https://www.airbnb.com/rooms/1439942573704952163",
@@ -12219,10 +13033,11 @@ const locations = [
     "latitude": 32.1436,
     "longitude": -81.1565,
     "host_name": "Mark Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "418 PHILLIPS AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.1913137931781843e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1261780236668114427",
@@ -12234,10 +13049,11 @@ const locations = [
     "latitude": 32.1162,
     "longitude": -81.2558,
     "host_name": "Rebeca 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "218 PINECREST PL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002165821982501077
   },
   {
     "url": "https://www.airbnb.com/rooms/14741537",
@@ -12249,10 +13065,11 @@ const locations = [
     "latitude": 32.11226,
     "longitude": -81.15907,
     "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 VARNEDOE AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026496481060650436
   },
   {
     "url": "https://www.airbnb.com/rooms/1273292023804017821",
@@ -12264,10 +13081,11 @@ const locations = [
     "latitude": 32.138303,
     "longitude": -81.243163,
     "host_name": "My Place Hotels By RoomPicks 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000689356209131075
   },
   {
     "url": "https://www.airbnb.com/rooms/1568976176728015002",
@@ -12279,10 +13097,11 @@ const locations = [
     "latitude": 32.14887,
     "longitude": -81.161,
     "host_name": "Caleb 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "205 TURNBERRY ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031379793041047847
   },
   {
     "url": "https://www.airbnb.com/rooms/1587347367192665440",
@@ -12294,10 +13113,11 @@ const locations = [
     "latitude": 32.14428,
     "longitude": -81.29612,
     "host_name": "Elizabeth Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "319 ADAMS RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003886428305337608
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832502262385013",
@@ -12309,10 +13129,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1497174488750846728",
@@ -12324,10 +13145,11 @@ const locations = [
     "latitude": 32.07561,
     "longitude": -81.31471,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "124 CRIMSON LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.324419825475467e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832519159851726",
@@ -12339,10 +13161,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1650250968150451461",
@@ -12354,10 +13177,11 @@ const locations = [
     "latitude": 32.138243,
     "longitude": -81.24286,
     "host_name": "RoomPicks 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003881729755663466
   },
   {
     "url": "https://www.airbnb.com/rooms/1273292006775537352",
@@ -12369,10 +13193,11 @@ const locations = [
     "latitude": 32.138303,
     "longitude": -81.243163,
     "host_name": "My Place Hotels By RoomPicks 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000689356209131075
   },
   {
     "url": "https://www.airbnb.com/rooms/1394237111785684659",
@@ -12384,10 +13209,11 @@ const locations = [
     "latitude": 32.1272,
     "longitude": -81.2541,
     "host_name": "Linzie 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "225 DURHAM PARK WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.2038100028670193e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1582919859224405682",
@@ -12399,10 +13225,11 @@ const locations = [
     "latitude": 32.14954,
     "longitude": -81.16088,
     "host_name": "Savannah Brown 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 TURNBERRY ST",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 0.00016651175376334096
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832492824493725",
@@ -12414,10 +13241,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/1273292006244518487",
@@ -12429,10 +13257,11 @@ const locations = [
     "latitude": 32.138303,
     "longitude": -81.243163,
     "host_name": "My Place Hotels By RoomPicks 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000689356209131075
   },
   {
     "url": "https://www.airbnb.com/rooms/1605392530020192808",
@@ -12444,10 +13273,11 @@ const locations = [
     "latitude": 32.114599754083464,
     "longitude": -81.25161939424464,
     "host_name": "Labi Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 S CHESTNUT ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.4790155906516934e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1046502724086075619",
@@ -12459,10 +13289,11 @@ const locations = [
     "latitude": 32.1324,
     "longitude": -81.299,
     "host_name": "Lorie 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 E US HIGHWAY 80",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001863738255124023
   },
   {
     "url": "https://www.airbnb.com/rooms/1566832413447894549",
@@ -12474,10 +13305,11 @@ const locations = [
     "latitude": 32.13766,
     "longitude": -81.234116,
     "host_name": "Wingate By Wyndham 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 SYLVESTER C FORMEY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034628475534640075
   },
   {
     "url": "https://www.airbnb.com/rooms/21335202",
@@ -12489,10 +13321,11 @@ const locations = [
     "latitude": 32.0366,
     "longitude": -81.32348,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1058 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0016117101509640279
   },
   {
     "url": "https://www.airbnb.com/rooms/1295015604821520877",
@@ -12504,10 +13337,11 @@ const locations = [
     "latitude": 32.16743963116017,
     "longitude": -81.25237113455347,
     "host_name": "Rachael 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "324 HITCHING POST LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010169269394576465
   },
   {
     "url": "https://www.airbnb.com/rooms/16628997",
@@ -12519,10 +13353,11 @@ const locations = [
     "latitude": 32.03724,
     "longitude": -81.32533,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004064707267003407
   },
   {
     "url": "https://www.airbnb.com/rooms/13028958",
@@ -12534,10 +13369,11 @@ const locations = [
     "latitude": 32.03863,
     "longitude": -81.32519,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1058 FORT ARGYLE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010436222665435055
   },
   {
     "url": "https://www.airbnb.com/rooms/12956129",
@@ -12549,10 +13385,11 @@ const locations = [
     "latitude": 32.04028,
     "longitude": -81.32196,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1062 FORT ARGYLE RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010674276273873575
   },
   {
     "url": "https://www.airbnb.com/rooms/1148794249197564779",
@@ -12564,10 +13401,11 @@ const locations = [
     "latitude": 32.1387,
     "longitude": -81.3102,
     "host_name": "Laura 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "90 CHEYENNE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009970065276491517
   },
   {
     "url": "https://www.airbnb.com/rooms/810977554621709428",
@@ -12579,10 +13417,11 @@ const locations = [
     "latitude": 32.14,
     "longitude": -81.3111,
     "host_name": "Larry And Laura 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "68 CHEYENNE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015925644076193057
   },
   {
     "url": "https://www.airbnb.com/rooms/1262461126878139780",
@@ -12594,10 +13433,11 @@ const locations = [
     "latitude": 32.0393,
     "longitude": -81.3226,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1062 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 2,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.00011518267710902728
   },
   {
     "url": "https://www.airbnb.com/rooms/1553819134643230966",
@@ -12609,10 +13449,11 @@ const locations = [
     "latitude": 32.13463,
     "longitude": -81.2476,
     "host_name": "Takiya 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TANGER OUTLETS BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00035487322370214325
   },
   {
     "url": "https://www.airbnb.com/rooms/970371616773605415",
@@ -12624,10 +13465,11 @@ const locations = [
     "latitude": 32.04042,
     "longitude": -81.23072,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "619 STONEBRIDGE CIR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002810984952371864
   },
   {
     "url": "https://www.airbnb.com/rooms/23694663",
@@ -12639,10 +13481,11 @@ const locations = [
     "latitude": 32.03778,
     "longitude": -81.32383,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1058 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 2,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0007170575081306056
   },
   {
     "url": "https://www.airbnb.com/rooms/932543197727282340",
@@ -12654,10 +13497,11 @@ const locations = [
     "latitude": 32.1393,
     "longitude": -81.31188,
     "host_name": "Larry And Laura 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "98 CHEYENNE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008538802003351391
   },
   {
     "url": "https://www.airbnb.com/rooms/23772128",
@@ -12669,10 +13513,11 @@ const locations = [
     "latitude": 32.0383,
     "longitude": -81.32351,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "66 TILLMAN CARTER RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010028600476206081
   },
   {
     "url": "https://www.airbnb.com/rooms/23816961",
@@ -12684,10 +13529,11 @@ const locations = [
     "latitude": 32.03664,
     "longitude": -81.32488,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006692229701996673
   },
   {
     "url": "https://www.airbnb.com/rooms/1650250967786544998",
@@ -12699,10 +13545,11 @@ const locations = [
     "latitude": 32.138243,
     "longitude": -81.24286,
     "host_name": "RoomPicks 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "20 MILL CREEK CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003881729755663466
   },
   {
     "url": "https://www.airbnb.com/rooms/917558553560593631",
@@ -12714,10 +13561,11 @@ const locations = [
     "latitude": 32.12983,
     "longitude": -81.29149,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "US HIGHWAY 80",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004446674474572778
   },
   {
     "url": "https://www.airbnb.com/rooms/1479473925241136698",
@@ -12729,10 +13577,11 @@ const locations = [
     "latitude": 31.96027,
     "longitude": -81.32436,
     "host_name": "Cecilia Superhost \u00b7 6 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "6811 CHIEF O F LOVE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.040760839038407326
   },
   {
     "url": "https://www.airbnb.com/rooms/1558627952414032870",
@@ -12744,10 +13593,11 @@ const locations = [
     "latitude": 32.19102,
     "longitude": -81.32209,
     "host_name": "Derek Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "107 GODLEY RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.036566465701522145
   },
   {
     "url": "https://www.airbnb.com/rooms/999165310076209712",
@@ -12759,10 +13609,11 @@ const locations = [
     "latitude": 32.10712,
     "longitude": -81.49981,
     "host_name": "Dayle Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SANDHILL RD",
     "allowed_guests": 4,
     "over_occupancy": 1,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.112614447390111
   },
   {
     "url": "https://www.airbnb.com/rooms/1454514349310089931",
@@ -12774,10 +13625,11 @@ const locations = [
     "latitude": 31.8446,
     "longitude": -81.323,
     "host_name": "Shula Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 14,
     "over_occupancy": 1,
-    "over_percent": 0.0714
+    "over_percent": 0.0714,
+    "approx_distance_meters": 0.1003681585821987
   },
   {
     "url": "https://www.airbnb.com/rooms/14352979",
@@ -12789,10 +13641,11 @@ const locations = [
     "latitude": 31.83606,
     "longitude": -81.3604,
     "host_name": "Jeff Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.13098786012543823
   },
   {
     "url": "https://www.airbnb.com/rooms/1420537606859167656",
@@ -12804,10 +13657,11 @@ const locations = [
     "latitude": 32.10911,
     "longitude": -80.88197,
     "host_name": "Haley 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OYSTER BED ISLAND",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0705725123689619
   },
   {
     "url": "https://www.airbnb.com/rooms/25325973",
@@ -12819,10 +13673,11 @@ const locations = [
     "latitude": 31.73241,
     "longitude": -81.23671,
     "host_name": "Jackson Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.13775303017671392
   },
   {
     "url": "https://www.airbnb.com/rooms/567948076088329077",
@@ -12834,10 +13689,11 @@ const locations = [
     "latitude": 32.23055,
     "longitude": -80.98123,
     "host_name": "Heidi Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 ELBA ISLAND RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.14260161828715517
   },
   {
     "url": "https://www.airbnb.com/rooms/1456671980882907233",
@@ -12849,10 +13705,11 @@ const locations = [
     "latitude": 32.08072,
     "longitude": -81.0992,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 FAHM ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005540130124541109
   },
   {
     "url": "https://www.airbnb.com/rooms/54063814",
@@ -12864,10 +13721,11 @@ const locations = [
     "latitude": 32.0682,
     "longitude": -81.0975,
     "host_name": "Diana Superhost \u00b7 15 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "705 WHITAKER ST",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 4.212907561631434e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1461530802802503735",
@@ -12879,10 +13737,11 @@ const locations = [
     "latitude": 32.0664,
     "longitude": -81.1007,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "307 W WALDBURG ST",
     "allowed_guests": 6,
     "over_occupancy": 1,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 1.4424220602474447e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/35872820",
@@ -12894,10 +13753,11 @@ const locations = [
     "latitude": 31.9828,
     "longitude": -81.0575,
     "host_name": "Wendy Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 CRAMER AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.527234017987519e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1157205180469247740",
@@ -12909,10 +13769,11 @@ const locations = [
     "latitude": 32.0729,
     "longitude": -81.0877,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "519 E LIBERTY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.2294811097351776e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1513203547922564299",
@@ -12924,10 +13785,11 @@ const locations = [
     "latitude": 32.01443,
     "longitude": -80.88254,
     "host_name": "Dave Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 OLD US HIGHWAY 80",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022248831224944162
   },
   {
     "url": "https://www.airbnb.com/rooms/1446674568272779492",
@@ -12939,10 +13801,11 @@ const locations = [
     "latitude": 32.0716,
     "longitude": -81.0882,
     "host_name": "Patrick & Libby Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "513 E CHARLTON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.968186276558569e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/564689476551742564",
@@ -12954,10 +13817,11 @@ const locations = [
     "latitude": 32.03787,
     "longitude": -81.05464,
     "host_name": "Charles Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2605 WHATLEY AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000332643918492826
   },
   {
     "url": "https://www.airbnb.com/rooms/673012493353711055",
@@ -12969,10 +13833,11 @@ const locations = [
     "latitude": 32.0142,
     "longitude": -80.9802,
     "host_name": "Christy Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 SAPELO RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.925969563744647e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1039981723043243595",
@@ -12984,10 +13849,11 @@ const locations = [
     "latitude": 32.11908,
     "longitude": -81.15339,
     "host_name": "Paulette Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "41 LYNN AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029192353828152355
   },
   {
     "url": "https://www.airbnb.com/rooms/1428159307476828479",
@@ -12999,10 +13865,11 @@ const locations = [
     "latitude": 32.067776763421875,
     "longitude": -81.05035251634486,
     "host_name": "Racy Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2219 BEECH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008836994009177546
   },
   {
     "url": "https://www.airbnb.com/rooms/1480180481985235173",
@@ -13014,10 +13881,11 @@ const locations = [
     "latitude": 32.17043,
     "longitude": -81.25027,
     "host_name": "Raven 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "87 CRYSTAL LAKE DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.0008607572653984336
   },
   {
     "url": "https://www.airbnb.com/rooms/40056906",
@@ -13029,10 +13897,11 @@ const locations = [
     "latitude": 32.17307,
     "longitude": -81.2428,
     "host_name": "Felicia 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 LAKEPOINTE DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 8.512794571707492e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48426092",
@@ -13044,10 +13913,11 @@ const locations = [
     "latitude": 32.17245,
     "longitude": -81.2321,
     "host_name": "Marquii 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2080 BENTON BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006497666090811278
   },
   {
     "url": "https://www.airbnb.com/rooms/23731885",
@@ -13059,10 +13929,11 @@ const locations = [
     "latitude": 32.03895,
     "longitude": -81.32316,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1062 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007755588889369463
   },
   {
     "url": "https://www.airbnb.com/rooms/23724412",
@@ -13074,10 +13945,11 @@ const locations = [
     "latitude": 32.03898,
     "longitude": -81.3215,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1062 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 2,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0010716626851190614
   },
   {
     "url": "https://www.airbnb.com/rooms/50770843",
@@ -13089,10 +13961,11 @@ const locations = [
     "latitude": 32.03713,
     "longitude": -81.32566,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1082 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00041878894817849185
   },
   {
     "url": "https://www.airbnb.com/rooms/23790871",
@@ -13104,10 +13977,11 @@ const locations = [
     "latitude": 32.03699,
     "longitude": -81.32548,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 2,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0006357502002202611
   },
   {
     "url": "https://www.airbnb.com/rooms/1660291145432196952",
@@ -13119,10 +13993,11 @@ const locations = [
     "latitude": 32.1416,
     "longitude": -81.1628,
     "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 HORNE PL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011220157505347098
   },
   {
     "url": "https://www.airbnb.com/rooms/43527397",
@@ -13134,10 +14009,11 @@ const locations = [
     "latitude": 32.03863,
     "longitude": -81.32328,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "66 TILLMAN CARTER RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009378163194542908
   },
   {
     "url": "https://www.airbnb.com/rooms/49853302",
@@ -13149,10 +14025,11 @@ const locations = [
     "latitude": 32.03686,
     "longitude": -81.32492,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 FORT ARGYLE RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004475087432136137
   },
   {
     "url": "https://www.airbnb.com/rooms/48486641",
@@ -13164,10 +14041,11 @@ const locations = [
     "latitude": 32.03837,
     "longitude": -81.32546,
     "host_name": "Annette 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 TILLMAN CARTER RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008852518030184771
   },
   {
     "url": "https://www.airbnb.com/rooms/46502880",
@@ -13179,10 +14057,11 @@ const locations = [
     "latitude": 31.97645,
     "longitude": -81.29204,
     "host_name": "Walter Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6817 CHIEF O F LOVE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.005065605163937127
   },
   {
     "url": "https://www.airbnb.com/rooms/1330439348893176781",
@@ -13194,10 +14073,11 @@ const locations = [
     "latitude": 31.958200735336447,
     "longitude": -81.32408316566016,
     "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6811 CHIEF O F LOVE RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04160581900563112
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002813066764840",
@@ -13209,10 +14089,11 @@ const locations = [
     "latitude": 32.10549089249952,
     "longitude": -81.15636963988159,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "129 CHATHAM VILLA DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006949254212051464
   },
   {
     "url": "https://www.airbnb.com/rooms/706704077706632830",
@@ -13224,10 +14105,11 @@ const locations = [
     "latitude": 31.99753,
     "longitude": -81.14168,
     "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "610 SUGAR BUSH CIR",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 7.116697002767287e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1486340419067179353",
@@ -13239,10 +14121,11 @@ const locations = [
     "latitude": 31.98559,
     "longitude": -81.04947,
     "host_name": "Joe 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "25 LEARY DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001983032845026357
   },
   {
     "url": "https://www.airbnb.com/rooms/638982199945207777",
@@ -13254,10 +14137,11 @@ const locations = [
     "latitude": 31.96822,
     "longitude": -81.12796,
     "host_name": "Valentin Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 DAVIDSON AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001808449886214644
   },
   {
     "url": "https://www.airbnb.com/rooms/892549282506767509",
@@ -13269,10 +14153,11 @@ const locations = [
     "latitude": 31.99916,
     "longitude": -81.11935,
     "host_name": "Hristo Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 CHIPPEWA DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011926082981048434
   },
   {
     "url": "https://www.airbnb.com/rooms/16631717",
@@ -13284,10 +14169,11 @@ const locations = [
     "latitude": 31.9803,
     "longitude": -80.9936,
     "host_name": "John Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "STONE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000263906330682753
   },
   {
     "url": "https://www.airbnb.com/rooms/45238392",
@@ -13299,10 +14185,11 @@ const locations = [
     "latitude": 31.99107,
     "longitude": -81.09926,
     "host_name": "Lillis Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8429 LABERTA BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.991283689789438e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1237087616150016902",
@@ -13314,10 +14201,11 @@ const locations = [
     "latitude": 32.00233,
     "longitude": -80.99817,
     "host_name": "Jenny Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "728 WILMINGTON ISLAND RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007740694056017279
   },
   {
     "url": "https://www.airbnb.com/rooms/863034671652150540",
@@ -13329,10 +14217,11 @@ const locations = [
     "latitude": 31.98482,
     "longitude": -81.06092,
     "host_name": "Joel Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "7621 PERIDOT LN",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 0.00023580700140160094
   },
   {
     "url": "https://www.airbnb.com/rooms/1373974536829262775",
@@ -13344,10 +14233,11 @@ const locations = [
     "latitude": 31.99194659905354,
     "longitude": -81.09973482002663,
     "host_name": "Sid 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8417 LABERTA BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007167506330408981
   },
   {
     "url": "https://www.airbnb.com/rooms/1026865082663070606",
@@ -13359,10 +14249,11 @@ const locations = [
     "latitude": 31.9746,
     "longitude": -81.15166,
     "host_name": "Susie 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "12439 LARGO DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013956520709807653
   },
   {
     "url": "https://www.airbnb.com/rooms/1611271516437798655",
@@ -13374,10 +14265,11 @@ const locations = [
     "latitude": 31.9722,
     "longitude": -81.15526,
     "host_name": "Narelle Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "615 WINDSOR RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002886438379024353
   },
   {
     "url": "https://www.airbnb.com/rooms/1227576278638490928",
@@ -13389,10 +14281,11 @@ const locations = [
     "latitude": 32.00142,
     "longitude": -80.99878,
     "host_name": "Jenny Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "740 WILMINGTON ISLAND RD",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014695665447763401
   },
   {
     "url": "https://www.airbnb.com/rooms/1620594065041400852",
@@ -13404,10 +14297,11 @@ const locations = [
     "latitude": 31.99814,
     "longitude": -81.06744,
     "host_name": "Miya 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 GILLIAM AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002318981422603372
   },
   {
     "url": "https://www.airbnb.com/rooms/1642781364648218376",
@@ -13419,10 +14313,11 @@ const locations = [
     "latitude": 31.97683,
     "longitude": -81.13413,
     "host_name": "Jane 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 WINDMILL CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.930958652756154e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1282012402824764841",
@@ -13434,10 +14329,11 @@ const locations = [
     "latitude": 31.99219373824746,
     "longitude": -81.09895165744078,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "8417 LABERTA BLVD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005559836384522063
   },
   {
     "url": "https://www.airbnb.com/rooms/46727566",
@@ -13449,10 +14345,11 @@ const locations = [
     "latitude": 31.98531,
     "longitude": -81.12816,
     "host_name": "Monica 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "15 SUMMIT DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020871646361502423
   },
   {
     "url": "https://www.airbnb.com/rooms/1364567041799428374",
@@ -13464,10 +14361,11 @@ const locations = [
     "latitude": 31.91801257100801,
     "longitude": -81.32045100758302,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05436898570748178
   },
   {
     "url": "https://www.airbnb.com/rooms/1525653997682038566",
@@ -13479,10 +14377,11 @@ const locations = [
     "latitude": 31.944507695789536,
     "longitude": -81.3189153507883,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.042864958034179786
   },
   {
     "url": "https://www.airbnb.com/rooms/1217409900188124842",
@@ -13494,10 +14393,11 @@ const locations = [
     "latitude": 31.93466,
     "longitude": -81.30509,
     "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03393032806786984
   },
   {
     "url": "https://www.airbnb.com/rooms/1217511716201313797",
@@ -13509,10 +14409,11 @@ const locations = [
     "latitude": 31.93488,
     "longitude": -81.3046,
     "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.033401736167315996
   },
   {
     "url": "https://www.airbnb.com/rooms/1286551966944745716",
@@ -13524,10 +14425,11 @@ const locations = [
     "latitude": 31.91900808254397,
     "longitude": -81.31259317046734,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04646315658210711
   },
   {
     "url": "https://www.airbnb.com/rooms/1026016050416342166",
@@ -13539,10 +14441,11 @@ const locations = [
     "latitude": 31.93151,
     "longitude": -81.30665,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03703489131564395
   },
   {
     "url": "https://www.airbnb.com/rooms/1066067919344181051",
@@ -13554,10 +14457,11 @@ const locations = [
     "latitude": 31.8983,
     "longitude": -81.2735,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03029233309550018
   },
   {
     "url": "https://www.airbnb.com/rooms/931067419890308247",
@@ -13569,10 +14473,11 @@ const locations = [
     "latitude": 31.9996,
     "longitude": -81.2815,
     "host_name": "Keenya 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "214 PRESERVATION DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.904382452223425e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/841306060528762005",
@@ -13584,10 +14489,11 @@ const locations = [
     "latitude": 31.9188,
     "longitude": -81.3206,
     "host_name": "Mark Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05437844515997395
   },
   {
     "url": "https://www.airbnb.com/rooms/45954785",
@@ -13599,10 +14505,11 @@ const locations = [
     "latitude": 31.938,
     "longitude": -81.31609,
     "host_name": "Debra Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04209640799427981
   },
   {
     "url": "https://www.airbnb.com/rooms/1207459185556273801",
@@ -13614,10 +14521,11 @@ const locations = [
     "latitude": 31.9773,
     "longitude": -81.2912,
     "host_name": "Walter Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6817 CHIEF O F LOVE RD",
     "allowed_guests": 4,
     "over_occupancy": 4,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 0.0038708512637024616
   },
   {
     "url": "https://www.airbnb.com/rooms/1721178951888609736",
@@ -13629,10 +14537,11 @@ const locations = [
     "latitude": 31.98653,
     "longitude": -81.16755,
     "host_name": "Properties By Preston 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 HIDDEN LAKE CT",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006528021399469485
   },
   {
     "url": "https://www.airbnb.com/rooms/50363769",
@@ -13644,10 +14553,11 @@ const locations = [
     "latitude": 31.98997,
     "longitude": -81.2041,
     "host_name": "Matthew Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 EMBASSY CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014001375325148186
   },
   {
     "url": "https://www.airbnb.com/rooms/1716101140990726418",
@@ -13659,10 +14569,11 @@ const locations = [
     "latitude": 32.0052,
     "longitude": -81.2758,
     "host_name": "Dan New Host",
-    "searched_full_address": "",
+    "approximate_address": "17009 ABERCORN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.979567115875648e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/20819055",
@@ -13674,10 +14585,11 @@ const locations = [
     "latitude": 31.88088,
     "longitude": -81.24313,
     "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.047894953337048525
   },
   {
     "url": "https://www.airbnb.com/rooms/33210992",
@@ -13689,10 +14601,11 @@ const locations = [
     "latitude": 31.9733,
     "longitude": -81.2147,
     "host_name": "Jay-Stephanie 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 DRIFTON DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0012262621443961319
   },
   {
     "url": "https://www.airbnb.com/rooms/1389225554876912886",
@@ -13704,10 +14617,11 @@ const locations = [
     "latitude": 31.932054103126685,
     "longitude": -81.30460791674223,
     "host_name": "Sid 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03508537940118573
   },
   {
     "url": "https://www.airbnb.com/rooms/745461168660163347",
@@ -13719,10 +14633,11 @@ const locations = [
     "latitude": 31.98915652671648,
     "longitude": -81.20250130948907,
     "host_name": "Jason And Felicia Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 LEEWARD CT",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030388953957057567
   },
   {
     "url": "https://www.airbnb.com/rooms/650729918072086354",
@@ -13734,10 +14649,11 @@ const locations = [
     "latitude": 31.99038,
     "longitude": -81.26635,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "44 FIORE DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.1845976119898496e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1711808907814553157",
@@ -13749,10 +14665,11 @@ const locations = [
     "latitude": 31.9826,
     "longitude": -81.2572,
     "host_name": "Erin New Host",
-    "searched_full_address": "",
+    "approximate_address": "454 CHEVIS RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005291701934056748
   },
   {
     "url": "https://www.airbnb.com/rooms/1334707835463121417",
@@ -13764,10 +14681,11 @@ const locations = [
     "latitude": 31.991,
     "longitude": -81.2664,
     "host_name": "Sapphire Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 RISTONA DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.570483407256836e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1472716020863970522",
@@ -13779,10 +14697,11 @@ const locations = [
     "latitude": 31.9912,
     "longitude": -81.2666,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "97 RISTONA DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.261073485002297e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1503820543063736319",
@@ -13794,10 +14713,11 @@ const locations = [
     "latitude": 31.99183,
     "longitude": -81.26711,
     "host_name": "Sapphire Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "83 RISTONA DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.284090005351784e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/918183046300076674",
@@ -13809,10 +14729,11 @@ const locations = [
     "latitude": 32.00122,
     "longitude": -81.28227,
     "host_name": "OneWay 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 CONSERVATION DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002680161919270612
   },
   {
     "url": "https://www.airbnb.com/rooms/857849973027838760",
@@ -13824,10 +14745,11 @@ const locations = [
     "latitude": 31.9432,
     "longitude": -81.3198,
     "host_name": "Kalsy 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04402521718195695
   },
   {
     "url": "https://www.airbnb.com/rooms/34157656",
@@ -13839,10 +14761,11 @@ const locations = [
     "latitude": 31.99812,
     "longitude": -81.28367,
     "host_name": "Marquii 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "43 LITCHFIELD DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000219956037566489
   },
   {
     "url": "https://www.airbnb.com/rooms/1449412592725449852",
@@ -13854,10 +14777,11 @@ const locations = [
     "latitude": 31.93176,
     "longitude": -81.3069,
     "host_name": "Sid 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03708582298183429
   },
   {
     "url": "https://www.airbnb.com/rooms/708176066341648445",
@@ -13869,10 +14793,11 @@ const locations = [
     "latitude": 31.98951,
     "longitude": -81.20264,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "7 LEEWARD CT",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.601732524483044e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1633450725667409559",
@@ -13884,10 +14809,11 @@ const locations = [
     "latitude": 31.97194,
     "longitude": -81.2639,
     "host_name": "David 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "29 POMONA CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.249808440470277e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1126929535859919554",
@@ -13899,10 +14825,11 @@ const locations = [
     "latitude": 31.945,
     "longitude": -81.322,
     "host_name": "Jorge 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04578416840563776
   },
   {
     "url": "https://www.airbnb.com/rooms/949964757651958772",
@@ -13914,10 +14841,11 @@ const locations = [
     "latitude": 32.00152,
     "longitude": -81.28386,
     "host_name": "OneWay 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 GATEWAY BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007961711834769302
   },
   {
     "url": "https://www.airbnb.com/rooms/1263015614831330158",
@@ -13929,10 +14857,11 @@ const locations = [
     "latitude": 32.0287,
     "longitude": -81.2447,
     "host_name": "Brandon Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "133 LAURELWOOD DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.590089002550528e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/812402910015645334",
@@ -13944,10 +14873,11 @@ const locations = [
     "latitude": 32.02526,
     "longitude": -81.22961,
     "host_name": "Raquel Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 REESE WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017182352557660287
   },
   {
     "url": "https://www.airbnb.com/rooms/1147220054833840127",
@@ -13959,10 +14889,11 @@ const locations = [
     "latitude": 32.2141,
     "longitude": -81.1941,
     "host_name": "Brandon Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "321 DOGWOOD CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012258032935379918
   },
   {
     "url": "https://www.airbnb.com/rooms/1673981415894323877",
@@ -13974,10 +14905,11 @@ const locations = [
     "latitude": 32.24337,
     "longitude": -81.22224,
     "host_name": "Sherry 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.021144788283919348
   },
   {
     "url": "https://www.airbnb.com/rooms/1432851200788053373",
@@ -13989,10 +14921,11 @@ const locations = [
     "latitude": 32.2119,
     "longitude": -81.1933,
     "host_name": "Manuel Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "111 CRABAPPLE CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.61091284293428e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1727570624970602144",
@@ -14004,10 +14937,11 @@ const locations = [
     "latitude": 32.18102,
     "longitude": -81.24034,
     "host_name": "Denim 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 WAVERLY WAY",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00046141104353161246
   },
   {
     "url": "https://www.airbnb.com/rooms/925893911779829101",
@@ -14019,10 +14953,11 @@ const locations = [
     "latitude": 32.1891,
     "longitude": -81.2659,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 30",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.006104455755463396
   },
   {
     "url": "https://www.airbnb.com/rooms/1707258638419759291",
@@ -14034,10 +14969,11 @@ const locations = [
     "latitude": 32.2126,
     "longitude": -81.182,
     "host_name": "Michael New Host",
-    "searched_full_address": "",
+    "approximate_address": "24 SANDY SHOALS PASS",
     "allowed_guests": 10,
     "over_occupancy": 1,
-    "over_percent": 0.1
+    "over_percent": 0.1,
+    "approx_distance_meters": 6.606270356373314e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/833294669754989711",
@@ -14049,10 +14985,11 @@ const locations = [
     "latitude": 32.21468,
     "longitude": -81.19491,
     "host_name": "Shay Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "140 BIRCH CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013814290968581247
   },
   {
     "url": "https://www.airbnb.com/rooms/1191132099001348446",
@@ -14064,10 +15001,11 @@ const locations = [
     "latitude": 32.2156,
     "longitude": -81.1781,
     "host_name": "Tara Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "164 LAKESIDE DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.585390370498095e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1027872466170914117",
@@ -14079,10 +15017,11 @@ const locations = [
     "latitude": 32.18466,
     "longitude": -81.22497,
     "host_name": "Eugenia Bolanos Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 BROWN THRASHER CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002328343673552106
   },
   {
     "url": "https://www.airbnb.com/rooms/1569926647580128655",
@@ -14094,10 +15033,11 @@ const locations = [
     "latitude": 32.19092,
     "longitude": -81.23548,
     "host_name": "Natasha Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SPRINGWATER DR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.450471226144979e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/778318952725936457",
@@ -14109,10 +15049,11 @@ const locations = [
     "latitude": 32.18398,
     "longitude": -81.21884,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 BRAXTON MANOR DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002186120332191695
   },
   {
     "url": "https://www.airbnb.com/rooms/1141405035943655752",
@@ -14124,10 +15065,11 @@ const locations = [
     "latitude": 32.18556,
     "longitude": -81.22263,
     "host_name": "Zena Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "FOX GLEN CT",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 2.2261647234637185e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1472059099303469262",
@@ -14139,10 +15081,11 @@ const locations = [
     "latitude": 32.21962,
     "longitude": -81.18137,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8 GLADEWATER DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.063776674979386e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1683581325344197171",
@@ -14154,10 +15097,11 @@ const locations = [
     "latitude": 32.217798594475695,
     "longitude": -81.18393629692106,
     "host_name": "Fried Fish Vacation Rentals Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "221 COLD CREEK PASS",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.744809919329834e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1278881301029693711",
@@ -14169,10 +15113,11 @@ const locations = [
     "latitude": 32.2836843776618,
     "longitude": -81.25084100392982,
     "host_name": "Jason Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.07056338712703147
   },
   {
     "url": "https://www.airbnb.com/rooms/1696783109839497109",
@@ -14184,10 +15129,11 @@ const locations = [
     "latitude": 32.21723434617667,
     "longitude": -81.18499209270664,
     "host_name": "Bobby New Host",
-    "searched_full_address": "",
+    "approximate_address": "5 CEDAR CREEK LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017158770545443584
   },
   {
     "url": "https://www.airbnb.com/rooms/1429048559219104413",
@@ -14199,10 +15145,11 @@ const locations = [
     "latitude": 32.18341068812334,
     "longitude": -81.22407062444476,
     "host_name": "Kendall Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 CARDINAL CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.897616046985702e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1300951385551209633",
@@ -14214,10 +15161,11 @@ const locations = [
     "latitude": 32.2131,
     "longitude": -81.1821,
     "host_name": "Tommy Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 SANDY SHOALS PASS",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 9.298021139203682e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1347178180631106349",
@@ -14229,10 +15177,11 @@ const locations = [
     "latitude": 32.2761,
     "longitude": -81.2706,
     "host_name": "Veronica Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 30",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.07614822632732371
   },
   {
     "url": "https://www.airbnb.com/rooms/674698125818886796",
@@ -14244,10 +15193,11 @@ const locations = [
     "latitude": 32.2148,
     "longitude": -81.1925,
     "host_name": "Marcus Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 DOGWOOD CIR",
     "allowed_guests": 10,
     "over_occupancy": 3,
-    "over_percent": 0.3
+    "over_percent": 0.3,
+    "approx_distance_meters": 0.000315838214260423
   },
   {
     "url": "https://www.airbnb.com/rooms/1343771560522661791",
@@ -14259,10 +15209,11 @@ const locations = [
     "latitude": 32.21759946238712,
     "longitude": -81.18113622522347,
     "host_name": "Yadelsy 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "LAKESIDE DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008903685073346252
   },
   {
     "url": "https://www.airbnb.com/rooms/1244298198640116422",
@@ -14274,10 +15225,11 @@ const locations = [
     "latitude": 32.2148,
     "longitude": -81.1769,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 ARROW HEAD WAY",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.6625357872965777e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1179222258996345724",
@@ -14289,10 +15241,11 @@ const locations = [
     "latitude": 32.202,
     "longitude": -81.1935,
     "host_name": "Yazmin Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 BLACK CREEK RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.4895754207627175e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/562193671818283781",
@@ -14304,10 +15257,11 @@ const locations = [
     "latitude": 32.2795,
     "longitude": -81.242,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.061517838047094583
   },
   {
     "url": "https://www.airbnb.com/rooms/1617038716555688975",
@@ -14319,10 +15273,11 @@ const locations = [
     "latitude": 32.21709689597307,
     "longitude": -81.1833531353115,
     "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "COLD CREEK PASS",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.078784228886744e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1473313781711124296",
@@ -14334,10 +15289,11 @@ const locations = [
     "latitude": 32.21186,
     "longitude": -81.25357,
     "host_name": "Melissa Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "326 KELLER RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.014400776713992076
   },
   {
     "url": "https://www.airbnb.com/rooms/1371479222287501930",
@@ -14349,10 +15305,11 @@ const locations = [
     "latitude": 32.2129,
     "longitude": -81.1851,
     "host_name": "Marcus Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "264 COLD CREEK LOOP",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 4.3484502529370234e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/752928337207382209",
@@ -14364,10 +15321,11 @@ const locations = [
     "latitude": 32.2426,
     "longitude": -81.21955,
     "host_name": "Heather Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.019116516816846073
   },
   {
     "url": "https://www.airbnb.com/rooms/1510125301111020388",
@@ -14379,10 +15337,11 @@ const locations = [
     "latitude": 32.2172239802665,
     "longitude": -81.18561772493747,
     "host_name": "Eduardo Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "CEDAR CREEK LN",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003447149057478662
   },
   {
     "url": "https://www.airbnb.com/rooms/53446983",
@@ -14394,10 +15353,11 @@ const locations = [
     "latitude": 32.23027,
     "longitude": -81.19847,
     "host_name": "Julienne 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 FITZWATER RD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.213405934797756e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1624986930457358209",
@@ -14409,10 +15369,11 @@ const locations = [
     "latitude": 32.210136714417004,
     "longitude": -81.19115721730822,
     "host_name": "Fried Fish Vacation Rentals Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "220 PARKSIDE BLVD",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026707136333147126
   },
   {
     "url": "https://www.airbnb.com/rooms/1440963091391939524",
@@ -14424,10 +15385,11 @@ const locations = [
     "latitude": 32.2178,
     "longitude": -81.1833,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "220 COLD CREEK PASS",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.392140684945428e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/800134774633009748",
@@ -14439,10 +15401,11 @@ const locations = [
     "latitude": 32.1966,
     "longitude": -81.264,
     "host_name": "Brandon Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "601 HIGHLAND BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.010998487932578545
   },
   {
     "url": "https://www.airbnb.com/rooms/723302262223122340",
@@ -14454,10 +15417,11 @@ const locations = [
     "latitude": 32.18899,
     "longitude": -81.20828,
     "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "68 TILLER WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.651331742660958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1434357910671844758",
@@ -14469,10 +15433,11 @@ const locations = [
     "latitude": 32.2148,
     "longitude": -81.1941,
     "host_name": "Halton Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "125 BIRCH CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.59838101600227e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1231152230692526627",
@@ -14484,10 +15449,11 @@ const locations = [
     "latitude": 32.21272594175588,
     "longitude": -81.19179539298413,
     "host_name": "Eugenia Bolanos Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "PARKSIDE BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001819294011581308
   },
   {
     "url": "https://www.airbnb.com/rooms/957415957590533587",
@@ -14499,10 +15465,11 @@ const locations = [
     "latitude": 32.2121,
     "longitude": -81.1796,
     "host_name": "Rebeca 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "35 MOONLIGHT TRL",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7856292214226217e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1203009100643235061",
@@ -14514,10 +15481,11 @@ const locations = [
     "latitude": 32.214,
     "longitude": -81.1941,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "323 DOGWOOD CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.966693037632375e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1476717892677848378",
@@ -14529,10 +15497,11 @@ const locations = [
     "latitude": 32.2854,
     "longitude": -81.2142,
     "host_name": "Jon & Laura Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "8210 HIGHWAY 21",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.051800535648405054
   },
   {
     "url": "https://www.airbnb.com/rooms/1587156845042685471",
@@ -14544,10 +15513,11 @@ const locations = [
     "latitude": 32.2117,
     "longitude": -81.1919,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "129 CRABAPPLE CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.208614092059816e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48601245",
@@ -14559,10 +15529,11 @@ const locations = [
     "latitude": 32.2297,
     "longitude": -81.199,
     "host_name": "Tiffany Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 MILLER PARK CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.837004732119572e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1221784689991853057",
@@ -14574,10 +15545,11 @@ const locations = [
     "latitude": 32.2131,
     "longitude": -81.1806,
     "host_name": "Ivana Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "237 CLEARWATER CIR",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 8.80512201400607e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1100652819478202953",
@@ -14589,10 +15561,11 @@ const locations = [
     "latitude": 32.24481,
     "longitude": -81.22267,
     "host_name": "Laura 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.02258949718143083
   },
   {
     "url": "https://www.airbnb.com/rooms/1216720443562668626",
@@ -14604,10 +15577,11 @@ const locations = [
     "latitude": 32.2146,
     "longitude": -81.193,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "305 DOGWOOD CIR",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.798091639197181e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1116798545861547703",
@@ -14619,10 +15593,11 @@ const locations = [
     "latitude": 32.2255,
     "longitude": -81.1859,
     "host_name": "Yadelsy 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "45 WILD SILK WAY",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.855393127427245e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1456560477114158961",
@@ -14634,10 +15609,11 @@ const locations = [
     "latitude": 32.2423,
     "longitude": -81.2239,
     "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.021249158509002025
   },
   {
     "url": "https://www.airbnb.com/rooms/1262593944733924618",
@@ -14649,10 +15625,11 @@ const locations = [
     "latitude": 32.2157,
     "longitude": -81.1775,
     "host_name": "Bryan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "29 ARROW HEAD WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000128604743429253
   },
   {
     "url": "https://www.airbnb.com/rooms/826300574947804445",
@@ -14664,10 +15641,11 @@ const locations = [
     "latitude": 32.2146,
     "longitude": -81.193,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "305 DOGWOOD CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.798091639197181e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1655377395601457518",
@@ -14679,10 +15657,11 @@ const locations = [
     "latitude": 32.18923250282134,
     "longitude": -81.20848428850357,
     "host_name": "Shy Superhost \u00b7 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "70 TILLER WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026991594215707617
   },
   {
     "url": "https://www.airbnb.com/rooms/977999139203185761",
@@ -14694,10 +15673,11 @@ const locations = [
     "latitude": 32.28419986807598,
     "longitude": -81.25111363208681,
     "host_name": "Michele Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TRADE CENTER PKWY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.07114243242490113
   },
   {
     "url": "https://www.airbnb.com/rooms/1701646682615760940",
@@ -14709,10 +15689,11 @@ const locations = [
     "latitude": 32.2292,
     "longitude": -81.1997,
     "host_name": "Javonte 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 MILLER PARK CIR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 5.019462461494588e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/707055772551503570",
@@ -14724,10 +15705,11 @@ const locations = [
     "latitude": 32.21328,
     "longitude": -81.18148,
     "host_name": "Vacasa Georgia 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CLEARWATER CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018939967950375676
   },
   {
     "url": "https://www.airbnb.com/rooms/1651809504279941028",
@@ -14739,10 +15721,11 @@ const locations = [
     "latitude": 32.21680910094459,
     "longitude": -81.1837435899962,
     "host_name": "Gabriela Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 COLD CREEK PASS",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021260683112920388
   },
   {
     "url": "https://www.airbnb.com/rooms/1547335894055384164",
@@ -14754,10 +15737,11 @@ const locations = [
     "latitude": 32.223448197279275,
     "longitude": -81.18432972727857,
     "host_name": "Landing 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "22 WILD SILK WAY",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0012085368013315355
   },
   {
     "url": "https://www.airbnb.com/rooms/1341382295998978960",
@@ -14769,10 +15753,11 @@ const locations = [
     "latitude": 32.23076600169404,
     "longitude": -81.20130562693996,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "86 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005447519705703469
   },
   {
     "url": "https://www.airbnb.com/rooms/838279483430993617",
@@ -14784,10 +15769,11 @@ const locations = [
     "latitude": 32.25978,
     "longitude": -81.22048,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.032446557463667855
   },
   {
     "url": "https://www.airbnb.com/rooms/33014117",
@@ -14799,10 +15785,11 @@ const locations = [
     "latitude": 32.28257,
     "longitude": -81.21933,
     "host_name": "Joey 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8210 HIGHWAY 21",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05142683500715323
   },
   {
     "url": "https://www.airbnb.com/rooms/1469691997487022128",
@@ -14814,10 +15801,11 @@ const locations = [
     "latitude": 32.2888,
     "longitude": -81.2392,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.06683402727082736
   },
   {
     "url": "https://www.airbnb.com/rooms/1625492340891223953",
@@ -14829,10 +15817,11 @@ const locations = [
     "latitude": 32.21087,
     "longitude": -81.18967,
     "host_name": "Keenya 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "35 CYPRESS LOOP",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020525206567057893
   },
   {
     "url": "https://www.airbnb.com/rooms/1708137327986855926",
@@ -14844,10 +15833,11 @@ const locations = [
     "latitude": 32.28285061834901,
     "longitude": -81.22012684188296,
     "host_name": "Joey 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8210 HIGHWAY 21",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05205654827303847
   },
   {
     "url": "https://www.airbnb.com/rooms/660985134832871388",
@@ -14859,10 +15849,11 @@ const locations = [
     "latitude": 32.1921,
     "longitude": -81.2376,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "57 SPRINGWATER DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00026428047462125065
   },
   {
     "url": "https://www.airbnb.com/rooms/1547335899308678328",
@@ -14874,10 +15865,11 @@ const locations = [
     "latitude": 32.22362950863386,
     "longitude": -81.18337010630185,
     "host_name": "Landing 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3164 MULBERRY BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0013150662683357724
   },
   {
     "url": "https://www.airbnb.com/rooms/50595632",
@@ -14889,10 +15881,11 @@ const locations = [
     "latitude": 32.26154,
     "longitude": -81.2212,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03425853118652824
   },
   {
     "url": "https://www.airbnb.com/rooms/1049278736290752319",
@@ -14904,10 +15897,11 @@ const locations = [
     "latitude": 32.21195,
     "longitude": -81.1837,
     "host_name": "Rami 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "239 COLD CREEK LOOP",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021697887478509497
   },
   {
     "url": "https://www.airbnb.com/rooms/1353258569799949770",
@@ -14919,10 +15913,11 @@ const locations = [
     "latitude": 32.215631565304044,
     "longitude": -81.1828328927188,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "503 LAKESIDE BLVD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.125929210895615e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1703996998798016992",
@@ -14934,10 +15929,11 @@ const locations = [
     "latitude": 32.2186,
     "longitude": -81.1848,
     "host_name": "Zacker 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 CEDAR CREEK LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.547902783103228e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1443551658887915904",
@@ -14949,10 +15945,11 @@ const locations = [
     "latitude": 32.2169,
     "longitude": -81.1786,
     "host_name": "Betsy New Host",
-    "searched_full_address": "",
+    "approximate_address": "2 JOVITA DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002589281605034774
   },
   {
     "url": "https://www.airbnb.com/rooms/1355133793878208802",
@@ -14964,10 +15961,11 @@ const locations = [
     "latitude": 32.2609091407221,
     "longitude": -81.22146892163789,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03394739151788488
   },
   {
     "url": "https://www.airbnb.com/rooms/1621987940392836155",
@@ -14979,10 +15977,11 @@ const locations = [
     "latitude": 32.2776,
     "longitude": -81.2443,
     "host_name": "Kay 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 SEA OATS DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0616909877354291
   },
   {
     "url": "https://www.airbnb.com/rooms/14035018",
@@ -14994,10 +15993,11 @@ const locations = [
     "latitude": 32.18653,
     "longitude": -81.27199,
     "host_name": "Robert 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "690 HIGHLANDS BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.007592645934973406
   },
   {
     "url": "https://www.airbnb.com/rooms/1532061037699817285",
@@ -15009,10 +16009,11 @@ const locations = [
     "latitude": 32.2905,
     "longitude": -81.2142,
     "host_name": "Mike Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "8210 HIGHWAY 21",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05656189350652176
   },
   {
     "url": "https://www.airbnb.com/rooms/888180516054942823",
@@ -15024,10 +16025,11 @@ const locations = [
     "latitude": 32.19044,
     "longitude": -81.27248,
     "host_name": "India 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 30",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.010662131112833139
   },
   {
     "url": "https://www.airbnb.com/rooms/49132535",
@@ -15039,10 +16041,11 @@ const locations = [
     "latitude": 32.2262,
     "longitude": -81.20321,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "91 RICE MILL RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005402248205314848
   },
   {
     "url": "https://www.airbnb.com/rooms/850918859158691266",
@@ -15054,10 +16057,11 @@ const locations = [
     "latitude": 32.1868,
     "longitude": -81.2545,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "22 HEADLANDS CT",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.067922129852134e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1467365932380764372",
@@ -15069,10 +16073,11 @@ const locations = [
     "latitude": 32.261591434964934,
     "longitude": -81.21925707934794,
     "host_name": "Claudia Superhost \u00b7 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03310008192699537
   },
   {
     "url": "https://www.airbnb.com/rooms/1606912235726424788",
@@ -15084,10 +16089,11 @@ const locations = [
     "latitude": 32.1969,
     "longitude": -81.25065,
     "host_name": "Jacques 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "HODGEVILLE RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007351025868457465
   },
   {
     "url": "https://www.airbnb.com/rooms/1362728226970925917",
@@ -15099,10 +16105,11 @@ const locations = [
     "latitude": 32.26102214428712,
     "longitude": -81.22097189477249,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.033713977572643834
   },
   {
     "url": "https://www.airbnb.com/rooms/1348553627649835963",
@@ -15114,10 +16121,11 @@ const locations = [
     "latitude": 32.2611,
     "longitude": -81.221,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03379185467055288
   },
   {
     "url": "https://www.airbnb.com/rooms/42753591",
@@ -15129,10 +16137,11 @@ const locations = [
     "latitude": 32.2147,
     "longitude": -81.1941,
     "host_name": "Lisa 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "123 BIRCH CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.768223644747568e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1332837896675240557",
@@ -15144,10 +16153,11 @@ const locations = [
     "latitude": 32.21409623387304,
     "longitude": -81.18293269885251,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "500 FLAT ROCK TRCE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016610425849671785
   },
   {
     "url": "https://www.airbnb.com/rooms/1148810194114524713",
@@ -15159,10 +16169,11 @@ const locations = [
     "latitude": 32.2285,
     "longitude": -81.2725,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "1246 HIGHWAY 30",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.038148074619479166
   },
   {
     "url": "https://www.airbnb.com/rooms/46163149",
@@ -15174,10 +16185,11 @@ const locations = [
     "latitude": 32.23066,
     "longitude": -81.27398,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "1246 HIGHWAY 30",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04076518207677131
   },
   {
     "url": "https://www.airbnb.com/rooms/883135352103575355",
@@ -15189,10 +16201,11 @@ const locations = [
     "latitude": 32.21476,
     "longitude": -81.19271,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "303 DOGWOOD CIR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015533206316435615
   },
   {
     "url": "https://www.airbnb.com/rooms/665136537266829161",
@@ -15204,10 +16217,11 @@ const locations = [
     "latitude": 32.25983,
     "longitude": -81.2193,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03173334030436739
   },
   {
     "url": "https://www.airbnb.com/rooms/47287941",
@@ -15219,10 +16233,11 @@ const locations = [
     "latitude": 32.18506,
     "longitude": -81.22392,
     "host_name": "Michael 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "89 LAKE SHORE BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.673589965176575e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52108838",
@@ -15234,10 +16249,11 @@ const locations = [
     "latitude": 32.19474,
     "longitude": -81.20347,
     "host_name": "Clevan 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 BINNACLE LN",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001985727538791775
   },
   {
     "url": "https://www.airbnb.com/rooms/627412206088149787",
@@ -15249,10 +16265,11 @@ const locations = [
     "latitude": 32.1811,
     "longitude": -81.2517,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "133 WINSLOW CIR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.975813596563922e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1606915278497017546",
@@ -15264,10 +16281,11 @@ const locations = [
     "latitude": 32.19543,
     "longitude": -81.25046,
     "host_name": "Jacques 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1238 HIGHWAY 30",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008510771570920774
   },
   {
     "url": "https://www.airbnb.com/rooms/50360801",
@@ -15279,10 +16297,11 @@ const locations = [
     "latitude": 32.18761,
     "longitude": -81.2296,
     "host_name": "Michelle 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "9 BLACKBERRY LN",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020902727307252323
   },
   {
     "url": "https://www.airbnb.com/rooms/53015489",
@@ -15294,10 +16313,11 @@ const locations = [
     "latitude": 32.22637,
     "longitude": -81.20278,
     "host_name": "Quentin 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "87 RICE MILL RD",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00030441913637191165
   },
   {
     "url": "https://www.airbnb.com/rooms/37803201",
@@ -15309,10 +16329,11 @@ const locations = [
     "latitude": 32.17357,
     "longitude": -81.24428,
     "host_name": "James 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SPRING LAKE CIR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021978799455259562
   },
   {
     "url": "https://www.airbnb.com/rooms/1357396954816349483",
@@ -15324,10 +16345,11 @@ const locations = [
     "latitude": 32.26177872544998,
     "longitude": -81.22220924841812,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "0 MARSH SALT LN",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.035089433914491576
   },
   {
     "url": "https://www.airbnb.com/rooms/1700755535377744111",
@@ -15339,10 +16361,11 @@ const locations = [
     "latitude": 32.21331333436083,
     "longitude": -81.18392013385157,
     "host_name": "Rami 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "222 COLD CREEK LOOP",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.371909373132892e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1325427166493384607",
@@ -15354,10 +16377,11 @@ const locations = [
     "latitude": 32.1119,
     "longitude": -81.1555,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "97 LEE AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011105844978276224
   },
   {
     "url": "https://www.airbnb.com/rooms/1476381693119923367",
@@ -15369,10 +16393,11 @@ const locations = [
     "latitude": 32.11261,
     "longitude": -81.15405,
     "host_name": "Blake 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "72 LEE AVE",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0004131805321300435
   },
   {
     "url": "https://www.airbnb.com/rooms/52259580",
@@ -15384,10 +16409,11 @@ const locations = [
     "latitude": 32.11009,
     "longitude": -81.14971,
     "host_name": "Nick And Driver 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "NELSON AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00036597074926971666
   },
   {
     "url": "https://www.airbnb.com/rooms/1700964419442568877",
@@ -15399,10 +16425,11 @@ const locations = [
     "latitude": 32.08674886922247,
     "longitude": -81.12252062180572,
     "host_name": "Rebecca Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "217 BAKER ST",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.0001783968266704943
   },
   {
     "url": "https://www.airbnb.com/rooms/1711755037447416552",
@@ -15414,10 +16441,11 @@ const locations = [
     "latitude": 32.10319286928269,
     "longitude": -81.1536754552463,
     "host_name": "Hristo Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "38 HARRELL DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002109108591593625
   },
   {
     "url": "https://www.airbnb.com/rooms/1678607797256827349",
@@ -15429,10 +16457,11 @@ const locations = [
     "latitude": 32.1001,
     "longitude": -81.149,
     "host_name": "Eric Turner 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "411 OAK ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.114653961828141e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50151616",
@@ -15444,10 +16473,11 @@ const locations = [
     "latitude": 32.10837,
     "longitude": -81.14848,
     "host_name": "Joseph 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "207 MAIN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000414138168577151
   },
   {
     "url": "https://www.airbnb.com/rooms/866875071886604632",
@@ -15459,10 +16489,11 @@ const locations = [
     "latitude": 32.09179,
     "longitude": -81.13488,
     "host_name": "Kenneth Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "30 KINGMAN AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.324945836838798e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/999456628732177650",
@@ -15474,10 +16505,11 @@ const locations = [
     "latitude": 32.10466,
     "longitude": -81.14859,
     "host_name": "Crystal 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ST JOSEPH AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013127422025281492
   },
   {
     "url": "https://www.airbnb.com/rooms/1476339115417508209",
@@ -15489,10 +16521,11 @@ const locations = [
     "latitude": 32.09997,
     "longitude": -81.14966,
     "host_name": "Blake 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "32 LEON VILLAGE RD",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 7.344962513727142e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1061215177968364875",
@@ -15504,10 +16537,11 @@ const locations = [
     "latitude": 32.10644,
     "longitude": -81.14964,
     "host_name": "Brooke 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "47 BRAMPTON RD",
     "allowed_guests": 8,
     "over_occupancy": 4,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.0003711274683724498
   },
   {
     "url": "https://www.airbnb.com/rooms/1381539127330216054",
@@ -15519,10 +16553,11 @@ const locations = [
     "latitude": 32.156575804158884,
     "longitude": -81.38747990522303,
     "host_name": "Alisha Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 16",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.04807111876337372
   },
   {
     "url": "https://www.airbnb.com/rooms/1648445616177773076",
@@ -15534,10 +16569,11 @@ const locations = [
     "latitude": 32.14235812056747,
     "longitude": -81.37500194160246,
     "host_name": "Vicki Superhost \u00b7 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 16",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.029158095300258764
   },
   {
     "url": "https://www.airbnb.com/rooms/739666313558529204",
@@ -15549,10 +16585,11 @@ const locations = [
     "latitude": 32.1231,
     "longitude": -81.43744,
     "host_name": "Sarah Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "SANDHILL RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05615063370026973
   },
   {
     "url": "https://www.airbnb.com/rooms/1366994587049156229",
@@ -15564,10 +16601,11 @@ const locations = [
     "latitude": 32.1406,
     "longitude": -81.3787,
     "host_name": "Marcus 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "HIGHWAY 16",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.03062614979717415
   },
   {
     "url": "https://www.airbnb.com/rooms/1721840673821813663",
@@ -15579,10 +16617,11 @@ const locations = [
     "latitude": 32.0584,
     "longitude": -81.1381,
     "host_name": "Tybee Cottages Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3008 2ND AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020062687366112587
   },
   {
     "url": "https://www.airbnb.com/rooms/1136460873545557512",
@@ -15594,10 +16633,11 @@ const locations = [
     "latitude": 32.0715,
     "longitude": -81.12242,
     "host_name": "Oscar And Carolina Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "913 LYNAH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011576755941325178
   },
   {
     "url": "https://www.airbnb.com/rooms/1002837122125630437",
@@ -15609,10 +16649,11 @@ const locations = [
     "latitude": 32.07033,
     "longitude": -81.12345,
     "host_name": "Oscar And Carolina Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1010 PORTER ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013636503626316955
   },
   {
     "url": "https://www.airbnb.com/rooms/1695598093748636655",
@@ -15624,10 +16665,11 @@ const locations = [
     "latitude": 32.069437106295815,
     "longitude": -81.12861712116734,
     "host_name": "Eunide 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "1614 ELEANOR ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.4085913626307944e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/594190711494953381",
@@ -15639,10 +16681,11 @@ const locations = [
     "latitude": 32.05268,
     "longitude": -81.11564,
     "host_name": "Christopher Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1025 W 47TH ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001419339603293842
   },
   {
     "url": "https://www.airbnb.com/rooms/1678606288130281936",
@@ -15654,10 +16697,11 @@ const locations = [
     "latitude": 32.0628,
     "longitude": -81.1239,
     "host_name": "Eric Turner 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1437 CLAREMONT CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.804003785077817e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/578859184083621932",
@@ -15669,10 +16713,11 @@ const locations = [
     "latitude": 32.04801,
     "longitude": -81.11724,
     "host_name": "David Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3702 HOPKINS AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010000548741410646
   },
   {
     "url": "https://www.airbnb.com/rooms/825946595062684018",
@@ -15684,10 +16729,11 @@ const locations = [
     "latitude": 32.0615,
     "longitude": -81.10887,
     "host_name": "Jonathan Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "801 KLINE ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.907896065364419e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/36840418",
@@ -15699,10 +16745,11 @@ const locations = [
     "latitude": 32.05075,
     "longitude": -81.15509,
     "host_name": "Nik And Driver 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3932 OGEECHEE RD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005155819998015373
   },
   {
     "url": "https://www.airbnb.com/rooms/45505634",
@@ -15714,10 +16761,11 @@ const locations = [
     "latitude": 32.06872,
     "longitude": -81.11508,
     "host_name": "LaTecha 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1010 HEARN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011474549549846027
   },
   {
     "url": "https://www.airbnb.com/rooms/1581556086938588135",
@@ -15729,10 +16777,11 @@ const locations = [
     "latitude": 32.05977446701144,
     "longitude": -81.10910026891617,
     "host_name": "Jennifer 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W 37TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011683026419238653
   },
   {
     "url": "https://www.airbnb.com/rooms/49789075",
@@ -15744,10 +16793,11 @@ const locations = [
     "latitude": 32.06497,
     "longitude": -81.12797,
     "host_name": "Victoria 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1523 CHEVY CHASE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004626045506509889
   },
   {
     "url": "https://www.airbnb.com/rooms/1524427336764365977",
@@ -15759,10 +16809,11 @@ const locations = [
     "latitude": 32.086491235630824,
     "longitude": -81.11104970384973,
     "host_name": "Brooke 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1000 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008447124444687913
   },
   {
     "url": "https://www.airbnb.com/rooms/978956291609526253",
@@ -15774,10 +16825,11 @@ const locations = [
     "latitude": 32.07166,
     "longitude": -81.12399,
     "host_name": "Michelle 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "915 CARVER ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017803897221627062
   },
   {
     "url": "https://www.airbnb.com/rooms/1547797264250455486",
@@ -15789,10 +16841,11 @@ const locations = [
     "latitude": 32.04759,
     "longitude": -81.13549,
     "host_name": "Allison 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "COLUMBIA AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001926700410314573
   },
   {
     "url": "https://www.airbnb.com/rooms/1062480936293477349",
@@ -15804,10 +16857,11 @@ const locations = [
     "latitude": 32.04937,
     "longitude": -81.10892,
     "host_name": "Juan 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "MARTIN LUTHER KING BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.724854174717643e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1155976493101950621",
@@ -15819,10 +16873,11 @@ const locations = [
     "latitude": 32.04823,
     "longitude": -81.13587,
     "host_name": "Allison 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1802 ARCHER ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.819025780595727e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/28737553",
@@ -15834,10 +16889,11 @@ const locations = [
     "latitude": 32.04868,
     "longitude": -81.11722,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "3610 HOPKINS ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002466786324937796
   },
   {
     "url": "https://www.airbnb.com/rooms/972765132162918336",
@@ -15849,10 +16905,11 @@ const locations = [
     "latitude": 32.05021,
     "longitude": -81.11003,
     "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3209 BURROUGHS ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011502533878773017
   },
   {
     "url": "https://www.airbnb.com/rooms/914497405381811015",
@@ -15864,10 +16921,11 @@ const locations = [
     "latitude": 32.1974,
     "longitude": -81.0559,
     "host_name": "Shaakira Nia 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ARGYLE ISLAND",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.07734147717117043
   },
   {
     "url": "https://www.airbnb.com/rooms/835500809710430112",
@@ -15879,10 +16937,11 @@ const locations = [
     "latitude": 32.0321,
     "longitude": -81.1601,
     "host_name": "Charles Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5701 GARRARD AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000159595875901497
   },
   {
     "url": "https://www.airbnb.com/rooms/49797801",
@@ -15894,10 +16953,11 @@ const locations = [
     "latitude": 32.04186,
     "longitude": -81.10508,
     "host_name": "Huy Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "4118 AMSTERDAM CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024767675280667524
   },
   {
     "url": "https://www.airbnb.com/rooms/821286398833380202",
@@ -15909,10 +16969,11 @@ const locations = [
     "latitude": 32.0458,
     "longitude": -81.1383,
     "host_name": "Ebony Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1833 STUYVESANT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011425944711984406
   },
   {
     "url": "https://www.airbnb.com/rooms/1207940336680312491",
@@ -15924,10 +16985,11 @@ const locations = [
     "latitude": 32.06056,
     "longitude": -81.10461,
     "host_name": "Jay Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1812 MARTIN LUTHER KING BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003195465876994685
   },
   {
     "url": "https://www.airbnb.com/rooms/1707494150246562170",
@@ -15939,10 +17001,11 @@ const locations = [
     "latitude": 32.05280883855111,
     "longitude": -81.10526039331668,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "303 W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.492477776943431e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/732056941298565421",
@@ -15954,10 +17017,11 @@ const locations = [
     "latitude": 32.05273,
     "longitude": -81.10522,
     "host_name": "Stephen And Corinne Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 W VICTORY DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.203979779754292e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1707492554708177116",
@@ -15969,10 +17033,11 @@ const locations = [
     "latitude": 32.05421,
     "longitude": -81.10594,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2601 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.194411665798481e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1632611681075662410",
@@ -15984,10 +17049,11 @@ const locations = [
     "latitude": 32.039673738911844,
     "longitude": -81.11172032849085,
     "host_name": "Jaroslav 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "4501 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012541075647064197
   },
   {
     "url": "https://www.airbnb.com/rooms/1699732374591475522",
@@ -15999,10 +17065,11 @@ const locations = [
     "latitude": 32.04634,
     "longitude": -81.12809,
     "host_name": "Na Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "WALTON ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.5219889797416006e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1716866687306329804",
@@ -16014,10 +17081,11 @@ const locations = [
     "latitude": 32.0227,
     "longitude": -81.1068,
     "host_name": "Nicole 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "232 GROVELAND CIR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.3923374529243041e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1059423587934265105",
@@ -16029,10 +17097,11 @@ const locations = [
     "latitude": 32.06014,
     "longitude": -81.10574,
     "host_name": "Savannah Retreat Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "515 W 35TH ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.426883062599842e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/26194656",
@@ -16044,10 +17113,11 @@ const locations = [
     "latitude": 32.0557,
     "longitude": -81.1044,
     "host_name": "Michelle Superhost \u00b7 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "302 W 40TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.064325548790227e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1707491038469450144",
@@ -16059,10 +17129,11 @@ const locations = [
     "latitude": 32.05463328707497,
     "longitude": -81.10548223089327,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "W 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.1163230163644353e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1708012875887634476",
@@ -16074,10 +17145,11 @@ const locations = [
     "latitude": 32.05379321618953,
     "longitude": -81.10587820824294,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2618 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.622614721502862e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1726489118237528399",
@@ -16089,10 +17161,11 @@ const locations = [
     "latitude": 32.05309753458651,
     "longitude": -81.1058995285855,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2626 W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003853420144989551
   },
   {
     "url": "https://www.airbnb.com/rooms/1726488198774041220",
@@ -16104,10 +17177,11 @@ const locations = [
     "latitude": 32.055172065856645,
     "longitude": -81.10550648331683,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "402 W 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017777003581535004
   },
   {
     "url": "https://www.airbnb.com/rooms/42458594",
@@ -16119,10 +17193,11 @@ const locations = [
     "latitude": 32.03479,
     "longitude": -81.12925,
     "host_name": "Maria 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1226 SHERMAN AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020666388064827216
   },
   {
     "url": "https://www.airbnb.com/rooms/1726487258445511730",
@@ -16134,10 +17209,11 @@ const locations = [
     "latitude": 32.05479321289768,
     "longitude": -81.10534425267377,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "W 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016239538634142805
   },
   {
     "url": "https://www.airbnb.com/rooms/41739722",
@@ -16149,10 +17225,11 @@ const locations = [
     "latitude": 32.03491,
     "longitude": -81.10663,
     "host_name": "Corie Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 E 64TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.792375756714936e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1709550701144954572",
@@ -16164,10 +17241,11 @@ const locations = [
     "latitude": 32.05414386080603,
     "longitude": -81.1069523792644,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "422 W 43RD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002877823296357684
   },
   {
     "url": "https://www.airbnb.com/rooms/1177439212098817724",
@@ -16179,10 +17257,11 @@ const locations = [
     "latitude": 32.05436,
     "longitude": -81.10808,
     "host_name": "Yvonne 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "524 W VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.369429662493509e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1122512998995685062",
@@ -16194,10 +17273,11 @@ const locations = [
     "latitude": 32.06092,
     "longitude": -81.10798,
     "host_name": "The Hummingbird Host Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1826 FLORANCE ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002229208627367155
   },
   {
     "url": "https://www.airbnb.com/rooms/1498609839176585435",
@@ -16209,10 +17289,11 @@ const locations = [
     "latitude": 32.0539,
     "longitude": -81.1051,
     "host_name": "Max Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2605 JEFFERSON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.3187506495303513e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1925201",
@@ -16224,10 +17305,11 @@ const locations = [
     "latitude": 32.05388,
     "longitude": -81.10534,
     "host_name": "Angelina 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "313 W 42ND ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014218153117585784
   },
   {
     "url": "https://www.airbnb.com/rooms/1213238104231607111",
@@ -16239,10 +17321,11 @@ const locations = [
     "latitude": 32.0505,
     "longitude": -81.1048,
     "host_name": "Valerian Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "121 PEARL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.394888352259118e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/595193874482549793",
@@ -16254,10 +17337,11 @@ const locations = [
     "latitude": 32.0524,
     "longitude": -81.10339,
     "host_name": "Caitlin Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 W VICTORY DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.81042993721055e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1709547884444394700",
@@ -16269,10 +17353,11 @@ const locations = [
     "latitude": 32.05452386291599,
     "longitude": -81.10663980295828,
     "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "423 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001517243131314888
   },
   {
     "url": "https://www.airbnb.com/rooms/659276773021626728",
@@ -16284,10 +17369,11 @@ const locations = [
     "latitude": 32.05406,
     "longitude": -81.10331,
     "host_name": "Caitlin Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "123 W 41ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.902350666834761e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1050241112263539257",
@@ -16299,10 +17385,11 @@ const locations = [
     "latitude": 32.06013,
     "longitude": -81.10391,
     "host_name": "Jay C 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1825 MONTGOMERY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031316370412322135
   },
   {
     "url": "https://www.airbnb.com/rooms/2134617",
@@ -16314,10 +17401,11 @@ const locations = [
     "latitude": 32.05984,
     "longitude": -81.10368,
     "host_name": "Shana 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1902 MONTGOMERY ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019236842323322128
   },
   {
     "url": "https://www.airbnb.com/rooms/44596032",
@@ -16329,10 +17417,11 @@ const locations = [
     "latitude": 32.05416,
     "longitude": -81.1044,
     "host_name": "Angelina Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "220 W 42ND ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.745118397697523e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1716871305589445400",
@@ -16344,10 +17433,11 @@ const locations = [
     "latitude": 32.055173318777946,
     "longitude": -81.10567955846062,
     "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "402 W 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.425761082121576e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1719239476380470743",
@@ -16359,10 +17449,11 @@ const locations = [
     "latitude": 32.05296392834771,
     "longitude": -81.10705668707709,
     "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "2802 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022288571453236132
   },
   {
     "url": "https://www.airbnb.com/rooms/45634794",
@@ -16374,10 +17465,11 @@ const locations = [
     "latitude": 32.05492,
     "longitude": -81.10448,
     "host_name": "Angelina Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2410 JEFFERSON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.403737870484512e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/991560805531951502",
@@ -16389,10 +17481,11 @@ const locations = [
     "latitude": 32.04963,
     "longitude": -81.10771,
     "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3201 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00042983245068689313
   },
   {
     "url": "https://www.airbnb.com/rooms/43264961",
@@ -16404,10 +17497,11 @@ const locations = [
     "latitude": 32.05468,
     "longitude": -81.10588,
     "host_name": "Angelina 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "405 W 41ST ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.133067561820163e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48803669",
@@ -16419,10 +17513,11 @@ const locations = [
     "latitude": 32.05435,
     "longitude": -81.105,
     "host_name": "Angelina Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2507 JEFFERSON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.381052253350034e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/718999719672361229",
@@ -16434,10 +17529,11 @@ const locations = [
     "latitude": 32.05325,
     "longitude": -81.10661,
     "host_name": "Angelina Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W 44TH ST",
     "allowed_guests": 20,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013882067944974183
   },
   {
     "url": "https://www.airbnb.com/rooms/1709595394702474285",
@@ -16449,10 +17545,11 @@ const locations = [
     "latitude": 32.05342,
     "longitude": -81.10683,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.571860582971287e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1491391255074918662",
@@ -16464,10 +17561,11 @@ const locations = [
     "latitude": 32.05871,
     "longitude": -81.10389,
     "host_name": "Jay C 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "321 W 36TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001316241073473437
   },
   {
     "url": "https://www.airbnb.com/rooms/1699354683038963795",
@@ -16479,10 +17577,11 @@ const locations = [
     "latitude": 32.04887130890785,
     "longitude": -81.10878014390607,
     "host_name": "Yuanen 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000609987008843422
   },
   {
     "url": "https://www.airbnb.com/rooms/1709628025298936664",
@@ -16494,10 +17593,11 @@ const locations = [
     "latitude": 32.052847423548066,
     "longitude": -81.1072639316169,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2802 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010716674126719378
   },
   {
     "url": "https://www.airbnb.com/rooms/1709549492517996719",
@@ -16509,10 +17609,11 @@ const locations = [
     "latitude": 32.0531957486918,
     "longitude": -81.10594946199625,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2626 W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002919158389811948
   },
   {
     "url": "https://www.airbnb.com/rooms/1720407388119132548",
@@ -16524,10 +17625,11 @@ const locations = [
     "latitude": 32.054413503080504,
     "longitude": -81.10639227463332,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "415 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011100712475837085
   },
   {
     "url": "https://www.airbnb.com/rooms/1630560547826541431",
@@ -16539,10 +17641,11 @@ const locations = [
     "latitude": 32.05591953667521,
     "longitude": -81.10488400839301,
     "host_name": "Miya 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "316 W 40TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.624510292398456e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1709545001189955263",
@@ -16554,10 +17657,11 @@ const locations = [
     "latitude": 32.05498686775628,
     "longitude": -81.1066278537823,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "419 W 41ST ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002181968280896594
   },
   {
     "url": "https://www.airbnb.com/rooms/1102316060743634294",
@@ -16569,10 +17673,11 @@ const locations = [
     "latitude": 32.0638,
     "longitude": -81.10606,
     "host_name": "Shauna 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "640 W 31ST ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013087984922703372
   },
   {
     "url": "https://www.airbnb.com/rooms/54003354",
@@ -16584,10 +17689,11 @@ const locations = [
     "latitude": 32.04949,
     "longitude": -81.10453,
     "host_name": "Ryan And Emely Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "25 CLIFFORD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00027981618865837555
   },
   {
     "url": "https://www.airbnb.com/rooms/1720620773342843293",
@@ -16599,10 +17705,11 @@ const locations = [
     "latitude": 32.0543,
     "longitude": -81.10658,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "421 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.200605263901371e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1716225067154508196",
@@ -16614,10 +17721,11 @@ const locations = [
     "latitude": 32.05466,
     "longitude": -81.10724,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "503 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012592816274643978
   },
   {
     "url": "https://www.airbnb.com/rooms/1716872236830262708",
@@ -16629,10 +17737,11 @@ const locations = [
     "latitude": 32.05284,
     "longitude": -81.1073,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2802 MARTIN LUTHER KING BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001333638102528475
   },
   {
     "url": "https://www.airbnb.com/rooms/710940304999889347",
@@ -16644,10 +17753,11 @@ const locations = [
     "latitude": 32.05235,
     "longitude": -81.10381,
     "host_name": "Angelina 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 W VICTORY DR",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004173518665968652
   },
   {
     "url": "https://www.airbnb.com/rooms/1717002217276688437",
@@ -16659,10 +17769,11 @@ const locations = [
     "latitude": 32.05286056605374,
     "longitude": -81.10540634446302,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "303 W VICTORY DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018950457328644914
   },
   {
     "url": "https://www.airbnb.com/rooms/1719154139258092843",
@@ -16674,10 +17785,11 @@ const locations = [
     "latitude": 32.05425446504384,
     "longitude": -81.10705080789984,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2607 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021752648614691778
   },
   {
     "url": "https://www.airbnb.com/rooms/1720567787645437299",
@@ -16689,10 +17801,11 @@ const locations = [
     "latitude": 32.05334208538239,
     "longitude": -81.10736679872664,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2711 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016986075548653724
   },
   {
     "url": "https://www.airbnb.com/rooms/902125824106488013",
@@ -16704,10 +17817,11 @@ const locations = [
     "latitude": 32.04984,
     "longitude": -81.10829,
     "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3201 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018779837692692558
   },
   {
     "url": "https://www.airbnb.com/rooms/1102266138747245766",
@@ -16719,10 +17833,11 @@ const locations = [
     "latitude": 32.06197,
     "longitude": -81.10579,
     "host_name": "Shauna 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "BURROUGHS ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.663000063227355e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1035222624128644295",
@@ -16734,10 +17849,11 @@ const locations = [
     "latitude": 32.01769111051574,
     "longitude": -81.11074148742688,
     "host_name": "Ashley 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6602 ABERCORN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003319634775907389
   },
   {
     "url": "https://www.airbnb.com/rooms/1616130550406546400",
@@ -16749,10 +17865,11 @@ const locations = [
     "latitude": 32.06715,
     "longitude": -81.10324,
     "host_name": "Chuck Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "624 W GWINNETT ST",
     "allowed_guests": 18,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007614615546046759
   },
   {
     "url": "https://www.airbnb.com/rooms/1639530303458085283",
@@ -16764,10 +17881,11 @@ const locations = [
     "latitude": 32.06089,
     "longitude": -81.10663,
     "host_name": "Ray 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "628 W 35TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013556142883397216
   },
   {
     "url": "https://www.airbnb.com/rooms/1618194148759470610",
@@ -16779,10 +17897,11 @@ const locations = [
     "latitude": 32.059029155296024,
     "longitude": -81.10660003352257,
     "host_name": "Christy 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "602 W 37TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014478289827644464
   },
   {
     "url": "https://www.airbnb.com/rooms/38167342",
@@ -16794,10 +17913,11 @@ const locations = [
     "latitude": 32.0518,
     "longitude": -81.10821,
     "host_name": "Chris 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2913 MARTIN LUTHER KING BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001314365957010623
   },
   {
     "url": "https://www.airbnb.com/rooms/1640040026510288061",
@@ -16809,10 +17929,11 @@ const locations = [
     "latitude": 32.06144920234348,
     "longitude": -81.10821544939701,
     "host_name": "Jennifer 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "701 LAVINIA ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.1786453333643496e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1191649688292715219",
@@ -16824,10 +17945,11 @@ const locations = [
     "latitude": 32.0529,
     "longitude": -81.10574,
     "host_name": "Ramsey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "315 W 44TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00045700478040943803
   },
   {
     "url": "https://www.airbnb.com/rooms/1709552486917456862",
@@ -16839,10 +17961,11 @@ const locations = [
     "latitude": 32.05440876290193,
     "longitude": -81.10511060005395,
     "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "306 W 42ND ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.683150822523475e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1717003229819283239",
@@ -16854,10 +17977,11 @@ const locations = [
     "latitude": 32.05437225270678,
     "longitude": -81.10735274239842,
     "host_name": "Rhino Stays Superhost \u00b7 New Host",
-    "searched_full_address": "",
+    "approximate_address": "2607 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001284096943906599
   },
   {
     "url": "https://www.airbnb.com/rooms/726038583820678251",
@@ -16869,10 +17993,11 @@ const locations = [
     "latitude": 32.05264,
     "longitude": -81.10522,
     "host_name": "Starland 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "303 W VICTORY DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001618917189128692
   },
   {
     "url": "https://www.airbnb.com/rooms/1166610158380549574",
@@ -16884,10 +18009,11 @@ const locations = [
     "latitude": 32.0474,
     "longitude": -81.107,
     "host_name": "Belinda Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "114 W 51ST ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011554707408869611
   },
   {
     "url": "https://www.airbnb.com/rooms/1157905509508872443",
@@ -16899,10 +18025,11 @@ const locations = [
     "latitude": 32.0823,
     "longitude": -81.0938,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 W RIVER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.175304094432215e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50526047",
@@ -16914,10 +18041,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0932,
     "host_name": "Amber Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "165 W BAY ST #403W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.033410782573396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/686199599095416951",
@@ -16929,10 +18057,11 @@ const locations = [
     "latitude": 32.0785,
     "longitude": -81.0963,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "311 W YORK ST",
     "allowed_guests": 16,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.43524192737864e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/905833492800066081",
@@ -16944,10 +18073,11 @@ const locations = [
     "latitude": 32.0813,
     "longitude": -81.0931,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 W BAY ST #101W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.600104380128187e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1558411040706460019",
@@ -16959,10 +18089,11 @@ const locations = [
     "latitude": 32.08034803156283,
     "longitude": -81.09724001815212,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "424 W BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029516228476708347
   },
   {
     "url": "https://www.airbnb.com/rooms/1167484100056734676",
@@ -16974,10 +18105,11 @@ const locations = [
     "latitude": 32.0809,
     "longitude": -81.0905,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 E BAY ST ##B",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00032338218392861647
   },
   {
     "url": "https://www.airbnb.com/rooms/1331207166434265086",
@@ -16989,10 +18121,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0929,
     "host_name": "Rendezvous Property Management Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "23 W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 4,
-    "over_percent": 0.6667
+    "over_percent": 0.6667,
+    "approx_distance_meters": 5.221947304717204e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1167639715199337901",
@@ -17004,10 +18137,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0903,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 E BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.535935878061995e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1163999944439545496",
@@ -17019,10 +18153,11 @@ const locations = [
     "latitude": 32.0786,
     "longitude": -81.0929,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 W STATE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.666274860457726e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/978268371565998122",
@@ -17034,10 +18169,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/45052900",
@@ -17049,10 +18185,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0932,
     "host_name": "Sarah Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "165 W BAY ST #403W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.033410782573396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096543164577398",
@@ -17064,10 +18201,11 @@ const locations = [
     "latitude": 32.07914065179888,
     "longitude": -81.09813238679935,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 MARTIN LUTHER KING BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016263060032567899
   },
   {
     "url": "https://www.airbnb.com/rooms/1389457489196061517",
@@ -17079,10 +18217,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0932,
     "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "165 W BAY ST #403W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.033410782573396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1339959949012710847",
@@ -17094,10 +18233,11 @@ const locations = [
     "latitude": 32.07807903836479,
     "longitude": -81.09032387321781,
     "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 E STATE ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001777334961161959
   },
   {
     "url": "https://www.airbnb.com/rooms/1206000181685013062",
@@ -17109,10 +18249,11 @@ const locations = [
     "latitude": 32.0824,
     "longitude": -81.0937,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "212 W BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.871274449179146e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1456674744397176426",
@@ -17124,10 +18265,11 @@ const locations = [
     "latitude": 32.08084991506704,
     "longitude": -81.09874077300599,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "349 W BRYAN ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006938052303223241
   },
   {
     "url": "https://www.airbnb.com/rooms/1195821115483952572",
@@ -17139,10 +18281,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0942,
     "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #410",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.405229489311958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/711020711740163997",
@@ -17154,10 +18297,11 @@ const locations = [
     "latitude": 32.0803,
     "longitude": -81.0959,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #2003",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.0736906005180092e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1167568997823133885",
@@ -17169,10 +18313,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0903,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "26 E BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.535935878061995e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1213124686009610925",
@@ -17184,10 +18329,11 @@ const locations = [
     "latitude": 32.0786,
     "longitude": -81.0929,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 W STATE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.666274860457726e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1158654881879039087",
@@ -17199,10 +18345,11 @@ const locations = [
     "latitude": 32.0823,
     "longitude": -81.0938,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 W RIVER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.175304094432215e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1653088512205434880",
@@ -17214,10 +18361,11 @@ const locations = [
     "latitude": 32.08064906365454,
     "longitude": -81.09228080473676,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "10 WHITAKER ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.798147412925793e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51208898",
@@ -17229,10 +18377,11 @@ const locations = [
     "latitude": 32.0785,
     "longitude": -81.0963,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "311 W YORK ST",
     "allowed_guests": 22,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.43524192737864e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52952422",
@@ -17244,10 +18393,11 @@ const locations = [
     "latitude": 32.0795,
     "longitude": -81.0932,
     "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 W BROUGHTON ST #A",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.070435961480889e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/816728783862780882",
@@ -17259,10 +18409,11 @@ const locations = [
     "latitude": 32.0808,
     "longitude": -81.0966,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "411 W CONGRESS ST #C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.83304734476771e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50086109",
@@ -17274,10 +18425,11 @@ const locations = [
     "latitude": 32.08198,
     "longitude": -81.09432,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "300 W BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00045963729610900374
   },
   {
     "url": "https://www.airbnb.com/rooms/1331207140981574846",
@@ -17289,10 +18441,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0929,
     "host_name": "Rendezvous Property Management Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "23 W BROUGHTON ST",
     "allowed_guests": 8,
     "over_occupancy": 4,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 5.221947304717204e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/960073874131955736",
@@ -17304,10 +18457,11 @@ const locations = [
     "latitude": 32.07932,
     "longitude": -81.09422,
     "host_name": "Sharon Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #310",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011888657703659827
   },
   {
     "url": "https://www.airbnb.com/rooms/1179209411078159616",
@@ -17319,10 +18473,11 @@ const locations = [
     "latitude": 32.0806,
     "longitude": -81.0957,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "319 W CONGRESS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.787593567253517e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/8114396",
@@ -17334,10 +18489,11 @@ const locations = [
     "latitude": 32.0794,
     "longitude": -81.0939,
     "host_name": "Sarah Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #103",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.702283991292473e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1376756361241599882",
@@ -17349,10 +18505,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.09,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "42 UPPER FACTORS WALK #3",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.3173116336666741e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1456672305757184682",
@@ -17364,10 +18521,11 @@ const locations = [
     "latitude": 32.07907,
     "longitude": -81.09955,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "610 W OGLETHORPE AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004929680457819664
   },
   {
     "url": "https://www.airbnb.com/rooms/1168047000309225911",
@@ -17379,10 +18537,11 @@ const locations = [
     "latitude": 32.081,
     "longitude": -81.0906,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 E BAY ST ##B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002750074745767353
   },
   {
     "url": "https://www.airbnb.com/rooms/984883331283529778",
@@ -17394,10 +18553,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.093,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 W CONGRESS ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.268907256304223e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1168049911837370638",
@@ -17409,10 +18569,11 @@ const locations = [
     "latitude": 32.081,
     "longitude": -81.0906,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "24 E BAY ST ##B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002750074745767353
   },
   {
     "url": "https://www.airbnb.com/rooms/957337553333199967",
@@ -17424,10 +18585,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/46241171",
@@ -17439,10 +18601,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0927,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "31 W CONGRESS ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.906786461127875e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1093047448331903805",
@@ -17454,10 +18617,11 @@ const locations = [
     "latitude": 32.0793,
     "longitude": -81.094,
     "host_name": "Yu Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #212",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.4860462644729092e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/864594913117270042",
@@ -17469,10 +18633,11 @@ const locations = [
     "latitude": 32.08289,
     "longitude": -81.0929,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "RIVER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006060924901277837
   },
   {
     "url": "https://www.airbnb.com/rooms/873212084213270788",
@@ -17484,10 +18649,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0932,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "165 W BAY ST #403W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.033410782573396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/960056837871313426",
@@ -17499,10 +18665,11 @@ const locations = [
     "latitude": 32.0797,
     "longitude": -81.0927,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "31 W CONGRESS ST",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 1.7085813783797493e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/40531568",
@@ -17514,10 +18681,11 @@ const locations = [
     "latitude": 32.0793,
     "longitude": -81.0948,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "215 W BROUGHTON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001613171286218996
   },
   {
     "url": "https://www.airbnb.com/rooms/1653317023375988564",
@@ -17529,10 +18697,11 @@ const locations = [
     "latitude": 32.08062955690705,
     "longitude": -81.09236169888572,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "10 WHITAKER ST",
     "allowed_guests": 22,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.6654803267459973e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/995566123657952103",
@@ -17544,10 +18713,11 @@ const locations = [
     "latitude": 32.0809,
     "longitude": -81.09319,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 BARNARD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.0333504360332222e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47085678",
@@ -17559,10 +18729,11 @@ const locations = [
     "latitude": 32.07941,
     "longitude": -81.09593,
     "host_name": "Daniel Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W STATE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.7267352692338834e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/581203962540071328",
@@ -17574,10 +18745,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Katrina Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/691834252232889536",
@@ -17589,10 +18761,11 @@ const locations = [
     "latitude": 32.07944,
     "longitude": -81.0969,
     "host_name": "Vacasa Georgia 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "133 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001550484459265559
   },
   {
     "url": "https://www.airbnb.com/rooms/52648572",
@@ -17604,10 +18777,11 @@ const locations = [
     "latitude": 32.0796,
     "longitude": -81.0953,
     "host_name": "Jack Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "227 W BROUGHTON ST #3",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.3088956720719804e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/15208161",
@@ -17619,10 +18793,11 @@ const locations = [
     "latitude": 32.08075,
     "longitude": -81.09265,
     "host_name": "Kim Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W #405",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.5242493379004424e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/579844218879712032",
@@ -17634,10 +18809,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1653244676666391054",
@@ -17649,10 +18825,11 @@ const locations = [
     "latitude": 32.07877558865164,
     "longitude": -81.09321129741437,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "116 WHITAKER ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001378987676986493
   },
   {
     "url": "https://www.airbnb.com/rooms/1290597812377507154",
@@ -17664,10 +18841,11 @@ const locations = [
     "latitude": 32.0824,
     "longitude": -81.0936,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "210 W BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.0446274871588686e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/50716498",
@@ -17679,10 +18857,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0933,
     "host_name": "Andrew Mitchell Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST #302",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.424582539010459e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1230530880285507352",
@@ -17694,10 +18873,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.093,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 W CONGRESS ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.268907256304223e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51208895",
@@ -17709,10 +18889,11 @@ const locations = [
     "latitude": 32.0785,
     "longitude": -81.0963,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "311 W YORK ST",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 3.43524192737864e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1197973362379630413",
@@ -17724,10 +18905,11 @@ const locations = [
     "latitude": 32.0793,
     "longitude": -81.0938,
     "host_name": "Yu Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #210",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.177864963251292e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/15204714",
@@ -17739,10 +18921,11 @@ const locations = [
     "latitude": 32.08191,
     "longitude": -81.09204,
     "host_name": "Kim Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 W BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00032111398346362167
   },
   {
     "url": "https://www.airbnb.com/rooms/50909251",
@@ -17754,10 +18937,11 @@ const locations = [
     "latitude": 32.0803,
     "longitude": -81.0959,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #2003",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.0736906005180092e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1143597075952167264",
@@ -17769,10 +18953,11 @@ const locations = [
     "latitude": 32.0823,
     "longitude": -81.0938,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 W RIVER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.175304094432215e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459262",
@@ -17784,10 +18969,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1456673539706730438",
@@ -17799,10 +18985,11 @@ const locations = [
     "latitude": 32.07964,
     "longitude": -81.09737,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "133 MONTGOMERY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003652118710235964
   },
   {
     "url": "https://www.airbnb.com/rooms/51422551",
@@ -17814,10 +19001,11 @@ const locations = [
     "latitude": 32.081,
     "longitude": -81.0919,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013810368813145648
   },
   {
     "url": "https://www.airbnb.com/rooms/51322633",
@@ -17829,10 +19017,11 @@ const locations = [
     "latitude": 32.081,
     "longitude": -81.0919,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 W BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.00013810368813145648
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096060022681572",
@@ -17844,10 +19033,11 @@ const locations = [
     "latitude": 32.08119667960517,
     "longitude": -81.09736896531193,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "41 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003346324751984412
   },
   {
     "url": "https://www.airbnb.com/rooms/1518155941479325284",
@@ -17859,10 +19049,11 @@ const locations = [
     "latitude": 32.0801,
     "longitude": -81.0956,
     "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3014",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.840649977774554e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1095471167424152872",
@@ -17874,10 +19065,11 @@ const locations = [
     "latitude": 32.08145,
     "longitude": -81.09555,
     "host_name": "John 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "11 JEFFERSON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031976244431942405
   },
   {
     "url": "https://www.airbnb.com/rooms/1133292479887432394",
@@ -17889,10 +19081,11 @@ const locations = [
     "latitude": 32.0787,
     "longitude": -81.0917,
     "host_name": "Kasa 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.594990034173196e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47495288",
@@ -17904,10 +19097,11 @@ const locations = [
     "latitude": 32.0793,
     "longitude": -81.0941,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #211",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.5004775587477055e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1158776389721135127",
@@ -17919,10 +19113,11 @@ const locations = [
     "latitude": 32.0823,
     "longitude": -81.0938,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 W RIVER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.175304094432215e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1632705874279937760",
@@ -17934,10 +19129,11 @@ const locations = [
     "latitude": 32.07819,
     "longitude": -81.09224,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "WRIGHT SQUARE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023490203833215445
   },
   {
     "url": "https://www.airbnb.com/rooms/48108275",
@@ -17949,10 +19145,11 @@ const locations = [
     "latitude": 32.0793,
     "longitude": -81.0948,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "215 W BROUGHTON ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001613171286218996
   },
   {
     "url": "https://www.airbnb.com/rooms/924448946689031153",
@@ -17964,10 +19161,11 @@ const locations = [
     "latitude": 32.08039,
     "longitude": -81.09798,
     "host_name": "Aloft Savannah Historic District 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "63 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000142445223231641
   },
   {
     "url": "https://www.airbnb.com/rooms/564505838340992109",
@@ -17979,10 +19177,11 @@ const locations = [
     "latitude": 32.0812,
     "longitude": -81.0932,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "165 W BAY ST #403W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.033410782573396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/902945967919615260",
@@ -17994,10 +19193,11 @@ const locations = [
     "latitude": 32.0801,
     "longitude": -81.0957,
     "host_name": "Shannon Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3014",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.609455366198892e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/19924822",
@@ -18009,10 +19209,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0933,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST #302",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.424582539010459e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/961657498922585342",
@@ -18024,10 +19225,11 @@ const locations = [
     "latitude": 32.0795,
     "longitude": -81.0932,
     "host_name": "Kimberly Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 W BROUGHTON ST #A",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.070435961480889e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/733119799370776199",
@@ -18039,10 +19241,11 @@ const locations = [
     "latitude": 32.0784,
     "longitude": -81.0926,
     "host_name": "Christie Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016924220087847697
   },
   {
     "url": "https://www.airbnb.com/rooms/1452424269821738631",
@@ -18054,10 +19257,11 @@ const locations = [
     "latitude": 32.07902,
     "longitude": -81.09891,
     "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "512 W OGLETHORPE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016483270078831633
   },
   {
     "url": "https://www.airbnb.com/rooms/1467623902972267438",
@@ -18069,10 +19273,11 @@ const locations = [
     "latitude": 32.08226,
     "longitude": -81.09522,
     "host_name": "Hotel Indigo 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "300 W BAY ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001016448319054368
   },
   {
     "url": "https://www.airbnb.com/rooms/960058076791343888",
@@ -18084,10 +19289,11 @@ const locations = [
     "latitude": 32.0797,
     "longitude": -81.0927,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "31 W CONGRESS ST",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.7085813783797493e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/936105637384194548",
@@ -18099,10 +19305,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.093,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 W CONGRESS ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.268907256304223e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/813762191074131527",
@@ -18114,10 +19321,11 @@ const locations = [
     "latitude": 32.07958,
     "longitude": -81.09918,
     "host_name": "Aloft Savannah Historic District 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "111 ANN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003818967390168298
   },
   {
     "url": "https://www.airbnb.com/rooms/34866724",
@@ -18129,10 +19337,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1158760801073202499",
@@ -18144,10 +19353,11 @@ const locations = [
     "latitude": 32.0786,
     "longitude": -81.0929,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 W STATE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.666274860457726e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51424422",
@@ -18159,10 +19369,11 @@ const locations = [
     "latitude": 32.081,
     "longitude": -81.0919,
     "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "13 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013810368813145648
   },
   {
     "url": "https://www.airbnb.com/rooms/1653067485132362257",
@@ -18174,10 +19385,11 @@ const locations = [
     "latitude": 32.07949914282116,
     "longitude": -81.09377090344663,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 W BROUGHTON ST #401",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 7.405789367469741e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1536343397062838823",
@@ -18189,10 +19401,11 @@ const locations = [
     "latitude": 32.07905,
     "longitude": -81.09588,
     "host_name": "Amanda Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002761146572594912
   },
   {
     "url": "https://www.airbnb.com/rooms/12699019",
@@ -18204,10 +19417,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0943,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5287335604476518e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53114769",
@@ -18219,10 +19433,11 @@ const locations = [
     "latitude": 32.08032,
     "longitude": -81.09257,
     "host_name": "Chris Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "25 BULL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001927189295169376
   },
   {
     "url": "https://www.airbnb.com/rooms/16438425",
@@ -18234,10 +19449,11 @@ const locations = [
     "latitude": 32.0799,
     "longitude": -81.0942,
     "host_name": "Janet Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 W BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.421426529299365e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/801076900525632327",
@@ -18249,10 +19465,11 @@ const locations = [
     "latitude": 32.0801,
     "longitude": -81.0959,
     "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.199947122950352e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/45994163",
@@ -18264,10 +19481,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47091621",
@@ -18279,10 +19497,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0942,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.017395456038285e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/32444669",
@@ -18294,10 +19513,11 @@ const locations = [
     "latitude": 32.08077,
     "longitude": -81.09504,
     "host_name": "Cory And Barbara Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "232 W ST JULIAN ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.3980584575922855e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/18404797",
@@ -18309,10 +19529,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0952,
     "host_name": "Jack Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "227 W BROUGHTON ST #6",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000150242619673184
   },
   {
     "url": "https://www.airbnb.com/rooms/565019960660932190",
@@ -18324,10 +19545,11 @@ const locations = [
     "latitude": 32.0813,
     "longitude": -81.093,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 W BAY ST #101W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.835291680918867e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1037616847304846145",
@@ -18339,10 +19561,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47329439",
@@ -18354,10 +19577,11 @@ const locations = [
     "latitude": 32.0799,
     "longitude": -81.0942,
     "host_name": "Jack Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 W BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.421426529299365e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1583004808352473099",
@@ -18369,10 +19593,11 @@ const locations = [
     "latitude": 32.0808,
     "longitude": -81.0966,
     "host_name": "Solace Escapes Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "411 W CONGRESS ST #C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.83304734476771e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1599336468606930516",
@@ -18384,10 +19609,11 @@ const locations = [
     "latitude": 32.0803,
     "longitude": -81.0958,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #2006",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.876849408107888e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/39795000",
@@ -18399,10 +19625,11 @@ const locations = [
     "latitude": 32.0825,
     "longitude": -81.0938,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "214 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011846373705670639
   },
   {
     "url": "https://www.airbnb.com/rooms/1653169126777012501",
@@ -18414,10 +19641,11 @@ const locations = [
     "latitude": 32.07954,
     "longitude": -81.09368,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.9537266021822917e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1092291180817304935",
@@ -18429,10 +19657,11 @@ const locations = [
     "latitude": 32.0786,
     "longitude": -81.0929,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 W STATE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.666274860457726e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459298",
@@ -18444,10 +19673,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/37329214",
@@ -18459,10 +19689,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1457198521774496258",
@@ -18474,10 +19705,11 @@ const locations = [
     "latitude": 32.08256,
     "longitude": -81.09464,
     "host_name": "Hotel Indigo 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "301 W RIVER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022873635774310201
   },
   {
     "url": "https://www.airbnb.com/rooms/1696327773671634611",
@@ -18489,10 +19721,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0957,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3015A",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.0948166181218156e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1471099635987066622",
@@ -18504,10 +19737,11 @@ const locations = [
     "latitude": 32.08112,
     "longitude": -81.09722,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "32 MARTIN LUTHER KING BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004633709113272562
   },
   {
     "url": "https://www.airbnb.com/rooms/31102127",
@@ -18519,10 +19753,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0942,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #410",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.405229489311958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/567340802503120103",
@@ -18534,10 +19769,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/960058012742801522",
@@ -18549,10 +19785,11 @@ const locations = [
     "latitude": 32.0797,
     "longitude": -81.0927,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "31 W CONGRESS ST",
     "allowed_guests": 12,
     "over_occupancy": 3,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 1.7085813783797493e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459276",
@@ -18564,10 +19801,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096734209183120",
@@ -18579,10 +19817,11 @@ const locations = [
     "latitude": 32.08064,
     "longitude": -81.09866,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 ANN ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006889274135261403
   },
   {
     "url": "https://www.airbnb.com/rooms/907157155659638808",
@@ -18594,10 +19833,11 @@ const locations = [
     "latitude": 32.08207,
     "longitude": -81.09467,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "300 W BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 6,
-    "over_percent": 0.75
+    "over_percent": 0.75,
+    "approx_distance_meters": 0.00011114681025152986
   },
   {
     "url": "https://www.airbnb.com/rooms/32715472",
@@ -18609,10 +19849,11 @@ const locations = [
     "latitude": 32.0784,
     "longitude": -81.0919,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 E STATE ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.801916945082069e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631141452425347",
@@ -18624,10 +19865,11 @@ const locations = [
     "latitude": 32.07815375710662,
     "longitude": -81.09353931038535,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 BARNARD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00032284928727206334
   },
   {
     "url": "https://www.airbnb.com/rooms/20419501",
@@ -18639,10 +19881,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1653128363381975621",
@@ -18654,10 +19897,11 @@ const locations = [
     "latitude": 32.080845980591995,
     "longitude": -81.09367084895712,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "200 W BRYAN ST",
     "allowed_guests": 14,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00027219836172197987
   },
   {
     "url": "https://www.airbnb.com/rooms/1169518118012343551",
@@ -18669,10 +19913,11 @@ const locations = [
     "latitude": 32.0823,
     "longitude": -81.0938,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "213 W RIVER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.175304094432215e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/21005555",
@@ -18684,10 +19929,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0939,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #313",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.562215997465498e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/32457969",
@@ -18699,10 +19945,11 @@ const locations = [
     "latitude": 32.07917,
     "longitude": -81.09621,
     "host_name": "Paula Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021565010599684236
   },
   {
     "url": "https://www.airbnb.com/rooms/1386218004412866351",
@@ -18714,10 +19961,11 @@ const locations = [
     "latitude": 32.08087597944609,
     "longitude": -81.09718617035452,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "38 MARTIN LUTHER KING BLVD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003345739337122162
   },
   {
     "url": "https://www.airbnb.com/rooms/39190671",
@@ -18729,10 +19977,11 @@ const locations = [
     "latitude": 32.0791,
     "longitude": -81.0933,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.714197630006903e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/30767664",
@@ -18744,10 +19993,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/19011680",
@@ -18759,10 +20009,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0943,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "204 W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.5287335604476518e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42590318",
@@ -18774,10 +20025,11 @@ const locations = [
     "latitude": 32.08045,
     "longitude": -81.09527,
     "host_name": "Paula Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "301 W CONGRESS ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.456230429540286e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631232258432424",
@@ -18789,10 +20041,11 @@ const locations = [
     "latitude": 32.07861428258507,
     "longitude": -81.09355401875673,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 WHITAKER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001848984823892555
   },
   {
     "url": "https://www.airbnb.com/rooms/53459285",
@@ -18804,10 +20057,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1623342275553886331",
@@ -18819,10 +20073,11 @@ const locations = [
     "latitude": 32.078376427133314,
     "longitude": -81.09153757731752,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 E STATE ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011292482586628746
   },
   {
     "url": "https://www.airbnb.com/rooms/53459314",
@@ -18834,10 +20089,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631313945146337",
@@ -18849,10 +20105,11 @@ const locations = [
     "latitude": 32.079776449894375,
     "longitude": -81.09133927315321,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "JOHNSON SQUARE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028479548934118103
   },
   {
     "url": "https://www.airbnb.com/rooms/51664681",
@@ -18864,10 +20121,11 @@ const locations = [
     "latitude": 32.08164,
     "longitude": -81.09609,
     "host_name": "Andrew 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "W BRYAN ST",
     "allowed_guests": 6,
     "over_occupancy": 6,
-    "over_percent": 1.0
+    "over_percent": 1.0,
+    "approx_distance_meters": 2.7853914933318868e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1133289855201283812",
@@ -18879,10 +20137,11 @@ const locations = [
     "latitude": 32.0787,
     "longitude": -81.0917,
     "host_name": "Kasa 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.594990034173196e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48896295",
@@ -18894,10 +20153,11 @@ const locations = [
     "latitude": 32.0794,
     "longitude": -81.0932,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 W BROUGHTON ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.897371363702978e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1485451121466151234",
@@ -18909,10 +20169,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.094,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #412",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.753443214894257e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1082783482499537636",
@@ -18924,10 +20185,11 @@ const locations = [
     "latitude": 32.08076,
     "longitude": -81.09282,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W #301",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.400218267255612e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1116177100506504470",
@@ -18939,10 +20201,11 @@ const locations = [
     "latitude": 32.0791,
     "longitude": -81.0933,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.714197630006903e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1270257849775099732",
@@ -18954,10 +20217,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1295291693862552867",
@@ -18969,10 +20233,11 @@ const locations = [
     "latitude": 32.0785,
     "longitude": -81.0926,
     "host_name": "Christie Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "119 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011598460450239635
   },
   {
     "url": "https://www.airbnb.com/rooms/36758405",
@@ -18984,10 +20249,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/44374265",
@@ -18999,10 +20265,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0942,
     "host_name": "Ron Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #410",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.405229489311958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1219552269706092972",
@@ -19014,10 +20281,11 @@ const locations = [
     "latitude": 32.0786,
     "longitude": -81.0929,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "14 W STATE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.666274860457726e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43379531",
@@ -19029,10 +20297,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0933,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST #302",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.424582539010459e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/24797268",
@@ -19044,10 +20313,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/34356937",
@@ -19059,10 +20329,11 @@ const locations = [
     "latitude": 32.0805,
     "longitude": -81.0962,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "39 MONTGOMERY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011238590640040149
   },
   {
     "url": "https://www.airbnb.com/rooms/756518775379811023",
@@ -19074,10 +20345,11 @@ const locations = [
     "latitude": 32.08012,
     "longitude": -81.09566,
     "host_name": "Vacasa 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3014",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.140360638576081e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/12605764",
@@ -19089,10 +20361,11 @@ const locations = [
     "latitude": 32.0801,
     "longitude": -81.0956,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3014",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.840649977774554e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459308",
@@ -19104,10 +20377,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1653114792551670808",
@@ -19119,10 +20393,11 @@ const locations = [
     "latitude": 32.0792898660365,
     "longitude": -81.09336162476632,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "103 W BROUGHTON ST #103",
     "allowed_guests": 22,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012311482116858174
   },
   {
     "url": "https://www.airbnb.com/rooms/16100873",
@@ -19134,10 +20409,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0939,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #313",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.562215997465498e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/25164262",
@@ -19149,10 +20425,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0939,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #313",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.562215997465498e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1471097995220721681",
@@ -19164,10 +20441,11 @@ const locations = [
     "latitude": 32.08114,
     "longitude": -81.09874,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "349 W BRYAN ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00048282334626918586
   },
   {
     "url": "https://www.airbnb.com/rooms/53459098",
@@ -19179,10 +20457,11 @@ const locations = [
     "latitude": 32.0789,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #205B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.271412940891346e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/18461612",
@@ -19194,10 +20473,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/28950887",
@@ -19209,10 +20489,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1653766875802052482",
@@ -19224,10 +20505,11 @@ const locations = [
     "latitude": 32.08069,
     "longitude": -81.09332,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "190 W BRYAN ST #A",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.0001621599199584011
   },
   {
     "url": "https://www.airbnb.com/rooms/15093297",
@@ -19239,10 +20521,11 @@ const locations = [
     "latitude": 32.0792,
     "longitude": -81.0939,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 BARNARD ST #313",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.562215997465498e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/22707883",
@@ -19254,10 +20537,11 @@ const locations = [
     "latitude": 32.08172,
     "longitude": -81.09586,
     "host_name": "Andrew 12 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "23 MONTGOMERY ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014077311881371645
   },
   {
     "url": "https://www.airbnb.com/rooms/1391467612605306407",
@@ -19269,10 +20553,11 @@ const locations = [
     "latitude": 32.0809151268194,
     "longitude": -81.09650934875867,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 MONTGOMERY ST",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.00014313552651624729
   },
   {
     "url": "https://www.airbnb.com/rooms/25514450",
@@ -19284,10 +20569,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459289",
@@ -19299,10 +20585,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1471099317477652289",
@@ -19314,10 +20601,11 @@ const locations = [
     "latitude": 32.08041,
     "longitude": -81.09814,
     "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "63 MARTIN LUTHER KING BLVD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002530260646275352
   },
   {
     "url": "https://www.airbnb.com/rooms/22770344",
@@ -19329,10 +20617,11 @@ const locations = [
     "latitude": 32.0801,
     "longitude": -81.0956,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3014",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.840649977774554e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631202932012920",
@@ -19344,10 +20633,11 @@ const locations = [
     "latitude": 32.07849,
     "longitude": -81.0916,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "7 E BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017493500109386293
   },
   {
     "url": "https://www.airbnb.com/rooms/1133297861590905211",
@@ -19359,10 +20649,11 @@ const locations = [
     "latitude": 32.0787,
     "longitude": -81.0917,
     "host_name": "Kasa 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "100 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.594990034173196e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459304",
@@ -19374,10 +20665,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1386218027700011150",
@@ -19389,10 +20681,11 @@ const locations = [
     "latitude": 32.080891168506106,
     "longitude": -81.09575992181702,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "FRANKLIN SQUARE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002230526662459983
   },
   {
     "url": "https://www.airbnb.com/rooms/27282063",
@@ -19404,10 +20697,11 @@ const locations = [
     "latitude": 32.0784,
     "longitude": -81.0919,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 E STATE ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.801916945082069e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1521744364684171380",
@@ -19419,10 +20713,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0933,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST #302",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.424582539010459e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53459278",
@@ -19434,10 +20729,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631238888156567",
@@ -19449,10 +20745,11 @@ const locations = [
     "latitude": 32.0797,
     "longitude": -81.09124,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "32 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003649928172967043
   },
   {
     "url": "https://www.airbnb.com/rooms/1209596571926647142",
@@ -19464,10 +20761,11 @@ const locations = [
     "latitude": 32.081585427517275,
     "longitude": -81.09219795994458,
     "host_name": "Chris Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002865019816798418
   },
   {
     "url": "https://www.airbnb.com/rooms/53864174",
@@ -19479,10 +20777,11 @@ const locations = [
     "latitude": 32.07897,
     "longitude": -81.09629,
     "host_name": "Brian Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 MONTGOMERY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014734090630546317
   },
   {
     "url": "https://www.airbnb.com/rooms/1378411620649631041",
@@ -19494,10 +20793,11 @@ const locations = [
     "latitude": 32.07845526567647,
     "longitude": -81.0902578470931,
     "host_name": "Katy 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "125 E BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020230736554000567
   },
   {
     "url": "https://www.airbnb.com/rooms/1118035326917039526",
@@ -19509,10 +20809,11 @@ const locations = [
     "latitude": 32.079,
     "longitude": -81.0934,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 WHITAKER ST #304",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.916998979571665e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1417480354631852645",
@@ -19524,10 +20825,11 @@ const locations = [
     "latitude": 32.0798,
     "longitude": -81.0928,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "31 W CONGRESS ST",
     "allowed_guests": 64,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012434091070612994
   },
   {
     "url": "https://www.airbnb.com/rooms/1070383437510102795",
@@ -19539,10 +20841,11 @@ const locations = [
     "latitude": 32.0815,
     "longitude": -81.0938,
     "host_name": "Jeanna 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016492837379226957
   },
   {
     "url": "https://www.airbnb.com/rooms/53459271",
@@ -19554,10 +20857,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/46779687",
@@ -19569,10 +20873,11 @@ const locations = [
     "latitude": 32.0806,
     "longitude": -81.0928,
     "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.081693257495601e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631183416082620",
@@ -19584,10 +20889,11 @@ const locations = [
     "latitude": 32.07904271203043,
     "longitude": -81.09198385931755,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 W BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00031524970189727145
   },
   {
     "url": "https://www.airbnb.com/rooms/46780193",
@@ -19599,10 +20905,11 @@ const locations = [
     "latitude": 32.0806,
     "longitude": -81.0928,
     "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.081693257495601e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631230700010224",
@@ -19614,10 +20921,11 @@ const locations = [
     "latitude": 32.079050621031286,
     "longitude": -81.09355946751813,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 W BROUGHTON ST #202",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.474146461965892e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1070383403157989970",
@@ -19629,10 +20937,11 @@ const locations = [
     "latitude": 32.0815,
     "longitude": -81.0938,
     "host_name": "Jeanna 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016492837379226957
   },
   {
     "url": "https://www.airbnb.com/rooms/53459254",
@@ -19644,10 +20953,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/868115655437409627",
@@ -19659,10 +20969,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/25162883",
@@ -19674,10 +20985,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631167830384170",
@@ -19689,10 +21001,11 @@ const locations = [
     "latitude": 32.07924,
     "longitude": -81.09144,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "32 BULL ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013957741760483805
   },
   {
     "url": "https://www.airbnb.com/rooms/46780391",
@@ -19704,10 +21017,11 @@ const locations = [
     "latitude": 32.0806,
     "longitude": -81.0928,
     "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.081693257495601e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/44550866",
@@ -19719,10 +21033,11 @@ const locations = [
     "latitude": 32.07866,
     "longitude": -81.09424,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "114 BARNARD ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003295709085613129
   },
   {
     "url": "https://www.airbnb.com/rooms/19297789",
@@ -19734,10 +21049,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/886938599572707129",
@@ -19749,10 +21065,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/567341879389533936",
@@ -19764,10 +21081,11 @@ const locations = [
     "latitude": 32.0788,
     "longitude": -81.0924,
     "host_name": "Black Swan 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 W BROUGHTON ST #306",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.870299021821892e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631335799285577",
@@ -19779,10 +21097,11 @@ const locations = [
     "latitude": 32.07829269579303,
     "longitude": -81.09189546072356,
     "host_name": "Black Swan 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "6 E STATE ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.654561649219213e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1070383870166890453",
@@ -19794,10 +21113,11 @@ const locations = [
     "latitude": 32.0815,
     "longitude": -81.0938,
     "host_name": "Jeanna 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.00016492837379226957
   },
   {
     "url": "https://www.airbnb.com/rooms/46780093",
@@ -19809,10 +21129,11 @@ const locations = [
     "latitude": 32.0806,
     "longitude": -81.0928,
     "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 BRYAN ST W",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.081693257495601e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51781412",
@@ -19824,10 +21145,11 @@ const locations = [
     "latitude": 32.07886348402925,
     "longitude": -81.0905897605724,
     "host_name": "Hadas 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "102 E BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.3281761830695495e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/46412578",
@@ -19839,10 +21161,11 @@ const locations = [
     "latitude": 32.0795,
     "longitude": -81.09395,
     "host_name": "Maxx 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 W BROUGHTON ST #002",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012176785612107264
   },
   {
     "url": "https://www.airbnb.com/rooms/23893382",
@@ -19854,10 +21177,11 @@ const locations = [
     "latitude": 32.0802,
     "longitude": -81.0956,
     "host_name": "Sarah 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "310 W BROUGHTON ST #3010",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.4491860197287531e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1070383475465096229",
@@ -19869,10 +21193,11 @@ const locations = [
     "latitude": 32.0815,
     "longitude": -81.0938,
     "host_name": "Jeanna 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 W BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016492837379226957
   },
   {
     "url": "https://www.airbnb.com/rooms/826684977873754139",
@@ -19884,10 +21209,11 @@ const locations = [
     "latitude": 32.02588,
     "longitude": -81.09271,
     "host_name": "Diana 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1125 E 70TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010479273403241528
   },
   {
     "url": "https://www.airbnb.com/rooms/864650904652193500",
@@ -19899,10 +21225,11 @@ const locations = [
     "latitude": 32.04958,
     "longitude": -81.09505,
     "host_name": "Jill Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "317 E 44TH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011069647875530226
   },
   {
     "url": "https://www.airbnb.com/rooms/47771581",
@@ -19914,10 +21241,11 @@ const locations = [
     "latitude": 32.04978,
     "longitude": -81.07725,
     "host_name": "Stephen Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1431 E 38TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010330072012306878
   },
   {
     "url": "https://www.airbnb.com/rooms/678303101837114886",
@@ -19929,10 +21257,11 @@ const locations = [
     "latitude": 32.03243,
     "longitude": -81.08257,
     "host_name": "Harold 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1707 E 60TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024359116788694304
   },
   {
     "url": "https://www.airbnb.com/rooms/976250195651941106",
@@ -19944,10 +21273,11 @@ const locations = [
     "latitude": 32.05058,
     "longitude": -81.08153,
     "host_name": "Maple 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "1224 E 39TH ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.64769057947943e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1173136701999881371",
@@ -19959,10 +21289,11 @@ const locations = [
     "latitude": 32.0483,
     "longitude": -81.076,
     "host_name": "Courtney 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1464 E 40TH ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.9873239591775605e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43012837",
@@ -19974,10 +21305,11 @@ const locations = [
     "latitude": 32.05069,
     "longitude": -81.0743,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "1606 E 37TH ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.886574615740409e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1705328770265928963",
@@ -19989,10 +21321,11 @@ const locations = [
     "latitude": 32.05094,
     "longitude": -81.09695,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "211 E VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.987489969732557e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52611690",
@@ -20004,10 +21337,11 @@ const locations = [
     "latitude": 32.03571,
     "longitude": -81.0506,
     "host_name": "Shaunda 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2611 DOGWOOD AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014008668696001588
   },
   {
     "url": "https://www.airbnb.com/rooms/52364390",
@@ -20019,10 +21353,11 @@ const locations = [
     "latitude": 32.04445,
     "longitude": -81.05223,
     "host_name": "Anna 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "301 LAUREL OAK LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029594368370678277
   },
   {
     "url": "https://www.airbnb.com/rooms/676895130710905435",
@@ -20034,10 +21369,11 @@ const locations = [
     "latitude": 32.01775,
     "longitude": -81.06266,
     "host_name": "Samantha Lynn 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "161 BLUFFSIDE CIR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.00011079117327123906
   },
   {
     "url": "https://www.airbnb.com/rooms/51304712",
@@ -20049,10 +21385,11 @@ const locations = [
     "latitude": 32.03604,
     "longitude": -81.05179,
     "host_name": "Nick Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2520 MECHANICS AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001245501901407935
   },
   {
     "url": "https://www.airbnb.com/rooms/888481407571085869",
@@ -20064,10 +21401,11 @@ const locations = [
     "latitude": 32.03568,
     "longitude": -81.06299,
     "host_name": "Andrea 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2226 COAKLEY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002267354488793773
   },
   {
     "url": "https://www.airbnb.com/rooms/1373419446508172466",
@@ -20079,10 +21417,11 @@ const locations = [
     "latitude": 32.03948799211541,
     "longitude": -81.0592812944146,
     "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2220 E VICTORY DR #7",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023489799811566358
   },
   {
     "url": "https://www.airbnb.com/rooms/1573210437875430951",
@@ -20094,10 +21433,11 @@ const locations = [
     "latitude": 32.0321,
     "longitude": -81.05441,
     "host_name": "DangCo LLC 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "BANNON DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.00012112245390568556
   },
   {
     "url": "https://www.airbnb.com/rooms/1003546752038003006",
@@ -20109,10 +21449,11 @@ const locations = [
     "latitude": 32.0338,
     "longitude": -81.0566,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2810 WHATLEY AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.3167674114492855e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1343262173098472873",
@@ -20124,10 +21465,11 @@ const locations = [
     "latitude": 32.04434,
     "longitude": -81.06123,
     "host_name": "Kelly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2222 E 40TH ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019631671275954706
   },
   {
     "url": "https://www.airbnb.com/rooms/5709165",
@@ -20139,10 +21481,11 @@ const locations = [
     "latitude": 32.03417,
     "longitude": -81.05305,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2708 MECHANICS AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029403352911641493
   },
   {
     "url": "https://www.airbnb.com/rooms/743407498004017407",
@@ -20154,10 +21497,11 @@ const locations = [
     "latitude": 32.03046,
     "longitude": -81.05349,
     "host_name": "Bethany Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3224 BYRD AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003627942418024051
   },
   {
     "url": "https://www.airbnb.com/rooms/6612681",
@@ -20169,10 +21513,11 @@ const locations = [
     "latitude": 32.03306,
     "longitude": -81.05352,
     "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2718 MECHANICS AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022356306644106307
   },
   {
     "url": "https://www.airbnb.com/rooms/1147901541811010024",
@@ -20184,10 +21529,11 @@ const locations = [
     "latitude": 32.0364,
     "longitude": -81.0632,
     "host_name": "Brent 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2217 OLD SHELL RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.7473562575338697e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/724655809353568435",
@@ -20199,10 +21545,11 @@ const locations = [
     "latitude": 32.03243,
     "longitude": -81.05411,
     "host_name": "Bethany Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "RUSSELL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00014693207760308
   },
   {
     "url": "https://www.airbnb.com/rooms/928267112918090309",
@@ -20214,10 +21561,11 @@ const locations = [
     "latitude": 32.0371,
     "longitude": -81.03776,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "19 LAKEWOOD DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001945212599491392
   },
   {
     "url": "https://www.airbnb.com/rooms/1621201404578941195",
@@ -20229,10 +21577,11 @@ const locations = [
     "latitude": 32.02861923171693,
     "longitude": -81.06673636722252,
     "host_name": "Patti Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "48 S PARKWOOD DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.4382957004532074e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/613760565559193422",
@@ -20244,10 +21593,11 @@ const locations = [
     "latitude": 32.03732,
     "longitude": -81.05865,
     "host_name": "Georgia Victory 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2311 E VICTORY DR",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.0002982835676545063
   },
   {
     "url": "https://www.airbnb.com/rooms/655106848185336546",
@@ -20259,10 +21609,11 @@ const locations = [
     "latitude": 32.03574,
     "longitude": -81.06443,
     "host_name": "Lenny 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2204 JURGENSEN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.49581888816402e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002301274862179",
@@ -20274,10 +21625,11 @@ const locations = [
     "latitude": 32.0367,
     "longitude": -81.0512,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2601 DOGWOOD AVE",
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 4.667792782951141e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/11409852",
@@ -20289,10 +21641,11 @@ const locations = [
     "latitude": 32.0347,
     "longitude": -81.0572,
     "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3014 YOUNG AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.918576970689905e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/41238644",
@@ -20304,10 +21657,11 @@ const locations = [
     "latitude": 32.03314,
     "longitude": -81.06549,
     "host_name": "Harold 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3301 HAZEL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019888780033002065
   },
   {
     "url": "https://www.airbnb.com/rooms/1674873317546475436",
@@ -20319,10 +21673,11 @@ const locations = [
     "latitude": 32.03423028258134,
     "longitude": -81.05731858287507,
     "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3009 YOUNG ST",
     "allowed_guests": 26,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.9410502015649274e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/876150811432014104",
@@ -20334,10 +21689,11 @@ const locations = [
     "latitude": 32.0291,
     "longitude": -81.0508,
     "host_name": "Village Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2919 RIVER DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020822622523583817
   },
   {
     "url": "https://www.airbnb.com/rooms/52060666",
@@ -20349,10 +21705,11 @@ const locations = [
     "latitude": 32.03668,
     "longitude": -81.06179,
     "host_name": "Nisha 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2809 ROGER LACEY AVE #4",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017208356412029856
   },
   {
     "url": "https://www.airbnb.com/rooms/1178294044747082992",
@@ -20364,10 +21721,11 @@ const locations = [
     "latitude": 32.028,
     "longitude": -81.0662,
     "host_name": "Westley 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "39 S PARKWOOD DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.158948717574572e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1612452339205127083",
@@ -20379,10 +21737,11 @@ const locations = [
     "latitude": 32.03270785666099,
     "longitude": -81.06508346711574,
     "host_name": "Heather 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3302 HAZEL ST",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 7.85425293733668e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/23269070",
@@ -20394,10 +21753,11 @@ const locations = [
     "latitude": 32.0284,
     "longitude": -81.06555,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "29 PARKWOOD DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011760526594943822
   },
   {
     "url": "https://www.airbnb.com/rooms/38951708",
@@ -20409,10 +21769,11 @@ const locations = [
     "latitude": 32.03844,
     "longitude": -81.05388,
     "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "BONAVENTURE RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.886267918667457e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002277587036664",
@@ -20424,10 +21785,11 @@ const locations = [
     "latitude": 32.0367,
     "longitude": -81.0512,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2601 DOGWOOD AVE",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 4.667792782951141e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1456080544670930539",
@@ -20439,10 +21801,11 @@ const locations = [
     "latitude": 32.027761197233296,
     "longitude": -81.06742952289504,
     "host_name": "Westley 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "47 S PARKWOOD DR",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005506645736615384
   },
   {
     "url": "https://www.airbnb.com/rooms/37348499",
@@ -20454,10 +21817,11 @@ const locations = [
     "latitude": 32.02901,
     "longitude": -81.05999,
     "host_name": "Restful Retreats 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "HAYES ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004982546060612392
   },
   {
     "url": "https://www.airbnb.com/rooms/37321644",
@@ -20469,10 +21833,11 @@ const locations = [
     "latitude": 32.02878,
     "longitude": -81.05985,
     "host_name": "Restful Retreats 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "HAYES ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023732818968630069
   },
   {
     "url": "https://www.airbnb.com/rooms/23077545",
@@ -20484,10 +21849,11 @@ const locations = [
     "latitude": 32.0314,
     "longitude": -81.06685,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2105 N FERNWOOD DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012447047022379014
   },
   {
     "url": "https://www.airbnb.com/rooms/981699090771345457",
@@ -20499,10 +21865,11 @@ const locations = [
     "latitude": 32.0351,
     "longitude": -81.0507,
     "host_name": "Edward 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2618 RIVER DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.950224043655112e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53937029",
@@ -20514,10 +21881,11 @@ const locations = [
     "latitude": 32.01212,
     "longitude": -80.96655,
     "host_name": "Shawn Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "906 BETZ CREEK RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017174235014916393
   },
   {
     "url": "https://www.airbnb.com/rooms/39033860",
@@ -20529,10 +21897,11 @@ const locations = [
     "latitude": 32.01065,
     "longitude": -80.98288,
     "host_name": "Carter 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "108 SANTEE RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013350087525142555
   },
   {
     "url": "https://www.airbnb.com/rooms/1635129754881705876",
@@ -20544,10 +21913,11 @@ const locations = [
     "latitude": 32.02228,
     "longitude": -80.95795,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "118 RUNNER RD",
     "allowed_guests": 12,
     "over_occupancy": 2,
-    "over_percent": 0.1667
+    "over_percent": 0.1667,
+    "approx_distance_meters": 3.9496437952924864e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1473297608530008424",
@@ -20559,10 +21929,11 @@ const locations = [
     "latitude": 32.04,
     "longitude": -80.9931,
     "host_name": "Taylor Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "27 BRYAN WOOD CIR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012137394595789442
   },
   {
     "url": "https://www.airbnb.com/rooms/1396990394938090608",
@@ -20574,10 +21945,11 @@ const locations = [
     "latitude": 32.0392,
     "longitude": -80.998,
     "host_name": "Christine Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "18 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.676321234173141e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1009653716845164300",
@@ -20589,10 +21961,11 @@ const locations = [
     "latitude": 32.03834,
     "longitude": -80.99741,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 STONEBRIDGE DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018604126975403176
   },
   {
     "url": "https://www.airbnb.com/rooms/6336159",
@@ -20604,10 +21977,11 @@ const locations = [
     "latitude": 32.03339,
     "longitude": -80.97765,
     "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "637 SUNCREST BLVD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003305014802793353
   },
   {
     "url": "https://www.airbnb.com/rooms/1072919261915096855",
@@ -20619,10 +21993,11 @@ const locations = [
     "latitude": 32.01475,
     "longitude": -80.95557,
     "host_name": "Kayla & Cameron 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "540 OEMLER LOOP",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.503085918543582e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/863719260879106823",
@@ -20634,10 +22009,11 @@ const locations = [
     "latitude": 32.0398,
     "longitude": -81.0051,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "218 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.358503748275924e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1005657412638390087",
@@ -20649,10 +22025,11 @@ const locations = [
     "latitude": 32.03947,
     "longitude": -81.00729,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 TURNBUCKLE CT",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0002866243548950854
   },
   {
     "url": "https://www.airbnb.com/rooms/742234994694149508",
@@ -20664,10 +22041,11 @@ const locations = [
     "latitude": 32.0378,
     "longitude": -80.9967,
     "host_name": "Gwendolyn 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 LANDWARD WAY",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.1492279003500114e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/6333533",
@@ -20679,10 +22057,11 @@ const locations = [
     "latitude": 32.03284,
     "longitude": -80.97839,
     "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "612 SUNCREST BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003125338529328837
   },
   {
     "url": "https://www.airbnb.com/rooms/1637068172593404403",
@@ -20694,10 +22073,11 @@ const locations = [
     "latitude": 32.03818651144643,
     "longitude": -80.99557770809443,
     "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 FLAGSHIP CT",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00022327252437397396
   },
   {
     "url": "https://www.airbnb.com/rooms/793566667688912871",
@@ -20709,10 +22089,11 @@ const locations = [
     "latitude": 32.0383,
     "longitude": -81.0043,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 BOWSPRIT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.4259443536577275e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1109700607202881682",
@@ -20724,10 +22105,11 @@ const locations = [
     "latitude": 32.016,
     "longitude": -80.9582,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "511 OEMLER LOOP",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002012569692322049
   },
   {
     "url": "https://www.airbnb.com/rooms/1636401277213083025",
@@ -20739,10 +22121,11 @@ const locations = [
     "latitude": 32.03758,
     "longitude": -81.0035,
     "host_name": "Solace Escapes Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "101 FORESTAY CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002756655103631475
   },
   {
     "url": "https://www.airbnb.com/rooms/683230890940127487",
@@ -20754,10 +22137,11 @@ const locations = [
     "latitude": 32.0301,
     "longitude": -80.9854,
     "host_name": "Stacey 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "521 SUNCREST BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016763813987293776
   },
   {
     "url": "https://www.airbnb.com/rooms/552847736480586010",
@@ -20769,10 +22153,11 @@ const locations = [
     "latitude": 32.03968,
     "longitude": -80.97081,
     "host_name": "Charisse Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "126 FALLIGANT AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013398265505546467
   },
   {
     "url": "https://www.airbnb.com/rooms/1690570596948915843",
@@ -20784,10 +22169,11 @@ const locations = [
     "latitude": 32.0399,
     "longitude": -81.002,
     "host_name": "Dusty 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "104 ROPEMAKER LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.710000813024027e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979039173730234",
@@ -20799,10 +22185,11 @@ const locations = [
     "latitude": 32.0275,
     "longitude": -80.971,
     "host_name": "Andrew 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "314 QUARTERMAN DR",
     "allowed_guests": 8,
     "over_occupancy": 3,
-    "over_percent": 0.375
+    "over_percent": 0.375,
+    "approx_distance_meters": 7.245461350866273e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52201812",
@@ -20814,10 +22201,11 @@ const locations = [
     "latitude": 32.03973,
     "longitude": -81.00792,
     "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 TURNBUCKLE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00029470935639184495
   },
   {
     "url": "https://www.airbnb.com/rooms/640535792559066886",
@@ -20829,10 +22217,11 @@ const locations = [
     "latitude": 32.03784,
     "longitude": -80.99027,
     "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 BRYAN WOOD CIR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002735481074275632
   },
   {
     "url": "https://www.airbnb.com/rooms/1005701019393960890",
@@ -20844,10 +22233,11 @@ const locations = [
     "latitude": 32.03822,
     "longitude": -81.00394,
     "host_name": "Casey Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "106 BOWSPRIT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00013654872272973056
   },
   {
     "url": "https://www.airbnb.com/rooms/36590636",
@@ -20859,10 +22249,11 @@ const locations = [
     "latitude": 32.03882,
     "longitude": -80.98958,
     "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "202 WHETSTONE DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001325893689591682
   },
   {
     "url": "https://www.airbnb.com/rooms/749455205192449540",
@@ -20874,10 +22265,11 @@ const locations = [
     "latitude": 32.0356,
     "longitude": -81.00386,
     "host_name": "Hillary 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "206 BOWSPRIT LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00037293506799446365
   },
   {
     "url": "https://www.airbnb.com/rooms/620500954037272583",
@@ -20889,10 +22281,11 @@ const locations = [
     "latitude": 32.02823,
     "longitude": -80.96636,
     "host_name": "Jessy 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "136 BLUE HERON DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002444871788351027
   },
   {
     "url": "https://www.airbnb.com/rooms/44450808",
@@ -20904,10 +22297,11 @@ const locations = [
     "latitude": 32.04019,
     "longitude": -81.00632,
     "host_name": "Jay & Tia Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "118 TURNBUCKLE CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017691551078679406
   },
   {
     "url": "https://www.airbnb.com/rooms/579749675402471234",
@@ -20919,10 +22313,11 @@ const locations = [
     "latitude": 32.04829,
     "longitude": -81.04955,
     "host_name": "Chad Superhost \u00b7 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 TENNESSEE AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0025269577036312967
   },
   {
     "url": "https://www.airbnb.com/rooms/50247205",
@@ -20934,10 +22329,11 @@ const locations = [
     "latitude": 32.03945,
     "longitude": -81.00999,
     "host_name": "Jonathan And Cecil Superhost \u00b7 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "135 WHITEMARSH RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001066669914910694
   },
   {
     "url": "https://www.airbnb.com/rooms/39964240",
@@ -20949,10 +22345,11 @@ const locations = [
     "latitude": 32.04112,
     "longitude": -81.00796,
     "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "404 MAPMAKER LN",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00023775021244084693
   },
   {
     "url": "https://www.airbnb.com/rooms/1030572980642722856",
@@ -20964,10 +22361,11 @@ const locations = [
     "latitude": 32.0409,
     "longitude": -81.0195,
     "host_name": "Vinicio 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 JOHNNY MERCER BLVD",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.794079632748338e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1532950386645087038",
@@ -20979,10 +22377,11 @@ const locations = [
     "latitude": 32.06421936891709,
     "longitude": -81.03970848122167,
     "host_name": "Reid Superhost \u00b7 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "111 JOHN WESLEY WAY",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 0.00019394249024877087
   },
   {
     "url": "https://www.airbnb.com/rooms/1683689538137874507",
@@ -20994,10 +22393,11 @@ const locations = [
     "latitude": 32.06228198333733,
     "longitude": -81.0396300068106,
     "host_name": "Jake 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 RUNAWAY POINT RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005149007989995195
   },
   {
     "url": "https://www.airbnb.com/rooms/1614085992804083029",
@@ -21009,10 +22409,11 @@ const locations = [
     "latitude": 32.060681570696005,
     "longitude": -81.04176340039885,
     "host_name": "Marcus Superhost \u00b7 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 RICEMILL LN",
     "allowed_guests": 8,
     "over_occupancy": 4,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.00014694221492327135
   },
   {
     "url": "https://www.airbnb.com/rooms/1542818958939750305",
@@ -21024,10 +22425,11 @@ const locations = [
     "latitude": 32.0523,
     "longitude": -81.0179,
     "host_name": "Lacey Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "502 SANDTOWN RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.1427413037222e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/48209910",
@@ -21039,10 +22441,11 @@ const locations = [
     "latitude": 32.0582,
     "longitude": -81.0181,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "109 RIVERVIEW RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001267524157514409
   },
   {
     "url": "https://www.airbnb.com/rooms/1172723872490273140",
@@ -21054,10 +22457,11 @@ const locations = [
     "latitude": 32.06238,
     "longitude": -81.04078,
     "host_name": "Patrick Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 DELFORD CT",
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 4.4896733785418006e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/864595231983260886",
@@ -21069,10 +22473,11 @@ const locations = [
     "latitude": 32.0463,
     "longitude": -81.0029,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "370 W PENROSE DR",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008183262538292216
   },
   {
     "url": "https://www.airbnb.com/rooms/1373347598921007060",
@@ -21084,10 +22489,11 @@ const locations = [
     "latitude": 32.05988785297253,
     "longitude": -81.04457645497918,
     "host_name": "Peyton Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "361 RIVERVIEW DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 9.114014956749126e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1421719814267037444",
@@ -21099,10 +22505,11 @@ const locations = [
     "latitude": 32.06765220144021,
     "longitude": -81.05440633304468,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2111 HAWTHORNE ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.735136976655284e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53048656",
@@ -21114,10 +22521,11 @@ const locations = [
     "latitude": 32.06004,
     "longitude": -81.04591,
     "host_name": "Rosemary 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "RIVERVIEW DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00038765151501189764
   },
   {
     "url": "https://www.airbnb.com/rooms/629268132253681929",
@@ -21129,10 +22537,11 @@ const locations = [
     "latitude": 32.06527,
     "longitude": -81.03953,
     "host_name": "Lyn Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "105 JOHN WESLEY WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010212798768649799
   },
   {
     "url": "https://www.airbnb.com/rooms/1658200642013840946",
@@ -21144,10 +22553,11 @@ const locations = [
     "latitude": 32.0554,
     "longitude": -81.018,
     "host_name": "Darci Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "302 BURLINGTON RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.24191751796366e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1573463919237095900",
@@ -21159,10 +22569,11 @@ const locations = [
     "latitude": 32.0673,
     "longitude": -81.0547,
     "host_name": "David 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "2110 NEW MEXICO ST",
     "allowed_guests": 4,
     "over_occupancy": 1,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 5.500786519309908e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1043701716610945219",
@@ -21174,10 +22585,11 @@ const locations = [
     "latitude": 32.0668,
     "longitude": -81.0543,
     "host_name": "",
-    "searched_full_address": "",
+    "approximate_address": "2115 NEW MEXICO ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.883663913692394e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1329940974282837798",
@@ -21189,10 +22601,11 @@ const locations = [
     "latitude": 32.06412084650312,
     "longitude": -81.05479637252509,
     "host_name": "Chris 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2140 CAPITAL ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.621452147977306e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/53973287",
@@ -21204,10 +22617,11 @@ const locations = [
     "latitude": 32.06438,
     "longitude": -81.03994,
     "host_name": "Tanya 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "113 JOHN WESLEY WAY",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004042886152737005
   },
   {
     "url": "https://www.airbnb.com/rooms/45718974",
@@ -21219,10 +22633,11 @@ const locations = [
     "latitude": 32.06917,
     "longitude": -81.05389,
     "host_name": "Devin 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2002 E PRESIDENT ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040155120507199236
   },
   {
     "url": "https://www.airbnb.com/rooms/1090907489341197328",
@@ -21234,10 +22649,11 @@ const locations = [
     "latitude": 32.0766,
     "longitude": -81.0772,
     "host_name": "Timber Meadow Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "404 ALTAMAHA ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.2929036216303004e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1494655626852650572",
@@ -21249,10 +22665,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0757,
     "host_name": "Amber Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "401 UPPER EAST AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002470005492332612
   },
   {
     "url": "https://www.airbnb.com/rooms/1237769732648286442",
@@ -21264,10 +22681,11 @@ const locations = [
     "latitude": 32.0767,
     "longitude": -81.0764,
     "host_name": "Tess Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "449 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011349193687740269
   },
   {
     "url": "https://www.airbnb.com/rooms/1640736658415736861",
@@ -21279,10 +22697,11 @@ const locations = [
     "latitude": 32.07731,
     "longitude": -81.07637,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "436 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.469968333767298e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/839204477528549778",
@@ -21294,10 +22713,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0751,
     "host_name": "Ramble Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "503 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001570294193471538
   },
   {
     "url": "https://www.airbnb.com/rooms/1365381865714313974",
@@ -21309,10 +22729,11 @@ const locations = [
     "latitude": 32.0778,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7144331430972316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1441595831299035246",
@@ -21324,10 +22745,11 @@ const locations = [
     "latitude": 32.0767,
     "longitude": -81.0762,
     "host_name": "Swethasri Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "461 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001047816697214009
   },
   {
     "url": "https://www.airbnb.com/rooms/1029840823088812737",
@@ -21339,10 +22761,11 @@ const locations = [
     "latitude": 32.0778,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7144331430972316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1576335136173445600",
@@ -21354,10 +22777,11 @@ const locations = [
     "latitude": 32.0764,
     "longitude": -81.0748,
     "host_name": "Timber Meadow Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "512 ALTAMAHA ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.318882495591417e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1697958026198186895",
@@ -21369,10 +22793,11 @@ const locations = [
     "latitude": 32.0661,
     "longitude": -81.0828,
     "host_name": "Kettia And Marco Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "801 ROCKEFELLER ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.010813692564035e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1345820319535674054",
@@ -21384,10 +22809,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0763,
     "host_name": "Quintin 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "457 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.490935071136053e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1010400425502948005",
@@ -21399,10 +22825,11 @@ const locations = [
     "latitude": 32.0778,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7144331430972316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1012427673455037747",
@@ -21414,10 +22841,11 @@ const locations = [
     "latitude": 32.0772,
     "longitude": -81.0765,
     "host_name": "Patrick Eugene Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "432 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.3584830189303664e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1213771322978540673",
@@ -21429,10 +22857,11 @@ const locations = [
     "latitude": 32.07769,
     "longitude": -81.07688,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "420 GEO MEYER AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.3822253596281964e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1526366114630984784",
@@ -21444,10 +22873,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0757,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "401 UPPER EAST AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002470005492332612
   },
   {
     "url": "https://www.airbnb.com/rooms/1295292795480624177",
@@ -21459,10 +22889,11 @@ const locations = [
     "latitude": 32.0767,
     "longitude": -81.0747,
     "host_name": "Christie Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "515 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.1449186397218536e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/33986609",
@@ -21474,10 +22905,11 @@ const locations = [
     "latitude": 32.07624,
     "longitude": -81.08303,
     "host_name": "Gina Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 ARNOLD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.6714041420496516e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/837201771768032854",
@@ -21489,10 +22921,11 @@ const locations = [
     "latitude": 32.0779,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00012843313199453578
   },
   {
     "url": "https://www.airbnb.com/rooms/1242749206411389337",
@@ -21504,10 +22937,11 @@ const locations = [
     "latitude": 32.0776,
     "longitude": -81.0758,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "462 GEO MEYER AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.596611349717195e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/52875463",
@@ -21519,10 +22953,11 @@ const locations = [
     "latitude": 32.0772,
     "longitude": -81.0775,
     "host_name": "Kristi Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "396 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003711167955584729
   },
   {
     "url": "https://www.airbnb.com/rooms/910726269531451600",
@@ -21534,10 +22969,11 @@ const locations = [
     "latitude": 32.06107,
     "longitude": -81.06514,
     "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "430 LAWTON AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011671017657247975
   },
   {
     "url": "https://www.airbnb.com/rooms/883240193491703808",
@@ -21549,10 +22985,11 @@ const locations = [
     "latitude": 32.0765,
     "longitude": -81.0765,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "444 ALTAMAHA ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.970376391405909e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/831698060625884883",
@@ -21564,10 +23001,11 @@ const locations = [
     "latitude": 32.0778,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7144331430972316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1013867608069056097",
@@ -21579,10 +23017,11 @@ const locations = [
     "latitude": 32.06294,
     "longitude": -81.0669,
     "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "415 GOEBEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00032815636161556157
   },
   {
     "url": "https://www.airbnb.com/rooms/1362332109988136400",
@@ -21594,10 +23033,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0757,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "401 UPPER EAST AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002470005492332612
   },
   {
     "url": "https://www.airbnb.com/rooms/1016084392688688419",
@@ -21609,10 +23049,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0746,
     "host_name": "Swethasri Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 BRYAN ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016098824014712756
   },
   {
     "url": "https://www.airbnb.com/rooms/51598192",
@@ -21624,10 +23065,11 @@ const locations = [
     "latitude": 32.0768,
     "longitude": -81.0766,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "441 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.608501228121854e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/848518318904132531",
@@ -21639,10 +23081,11 @@ const locations = [
     "latitude": 32.0772,
     "longitude": -81.0761,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "452 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.850613593392713e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1559548842374230614",
@@ -21654,10 +23097,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0757,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "401 UPPER EAST AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002470005492332612
   },
   {
     "url": "https://www.airbnb.com/rooms/1199890032986508405",
@@ -21669,10 +23113,11 @@ const locations = [
     "latitude": 32.0776,
     "longitude": -81.0761,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "450 GEO MEYER AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.3350708110384805e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1426823327005199317",
@@ -21684,10 +23129,11 @@ const locations = [
     "latitude": 32.0659,
     "longitude": -81.0807,
     "host_name": "William Kennedy / Don Dutton Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "928 ROCKEFELLER ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.696757130944454e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/13221445",
@@ -21699,10 +23145,11 @@ const locations = [
     "latitude": 32.07691,
     "longitude": -81.08438,
     "host_name": "Luxury Living Savannah Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "600 E BROUGHTON ST",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000207212514630141
   },
   {
     "url": "https://www.airbnb.com/rooms/1145594413832887218",
@@ -21714,10 +23161,11 @@ const locations = [
     "latitude": 32.0769,
     "longitude": -81.0771,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "409 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.288205328823893e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1264761141389926909",
@@ -21729,10 +23177,11 @@ const locations = [
     "latitude": 32.06470117028997,
     "longitude": -81.08460553773727,
     "host_name": "Priscilla 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "761 WOLF ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00024447847224439155
   },
   {
     "url": "https://www.airbnb.com/rooms/1496482489409388919",
@@ -21744,10 +23193,11 @@ const locations = [
     "latitude": 32.07662,
     "longitude": -81.07503,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "0 BRYAN SPUR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.288384647858288e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/40482981",
@@ -21759,10 +23209,11 @@ const locations = [
     "latitude": 32.0604,
     "longitude": -81.08309,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "908 E DUFFY ST",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.350849681356396e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1019620865879073558",
@@ -21774,10 +23225,11 @@ const locations = [
     "latitude": 32.06071,
     "longitude": -81.06627,
     "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "512 GOEBEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001285455276803546
   },
   {
     "url": "https://www.airbnb.com/rooms/1497914851193868478",
@@ -21789,10 +23241,11 @@ const locations = [
     "latitude": 32.062631226108955,
     "longitude": -81.06479787900766,
     "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "321 LAWTON AVE",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018444642216283575
   },
   {
     "url": "https://www.airbnb.com/rooms/1166621166008917501",
@@ -21804,10 +23257,11 @@ const locations = [
     "latitude": 32.0772,
     "longitude": -81.0768,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "416 PORT ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.767899465789018e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1666127124184785179",
@@ -21819,10 +23273,11 @@ const locations = [
     "latitude": 32.06498605438131,
     "longitude": -81.06525916644706,
     "host_name": "Emily 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "217 GOEBEL AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0010813201367559993
   },
   {
     "url": "https://www.airbnb.com/rooms/831698193663257710",
@@ -21834,10 +23289,11 @@ const locations = [
     "latitude": 32.0778,
     "longitude": -81.0841,
     "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "34 E BROAD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.7144331430972316e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/910068516480867461",
@@ -21849,10 +23305,11 @@ const locations = [
     "latitude": 32.06087,
     "longitude": -81.06571,
     "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "501 LAWTON AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000172627245911624
   },
   {
     "url": "https://www.airbnb.com/rooms/27223488",
@@ -21864,10 +23321,11 @@ const locations = [
     "latitude": 32.0774,
     "longitude": -81.0839,
     "host_name": "Gina Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "50 E BROAD ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.00904975858201e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1242748397375346874",
@@ -21879,10 +23337,11 @@ const locations = [
     "latitude": 32.0776,
     "longitude": -81.0758,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "462 GEO MEYER AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.596611349717195e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1695691520276573581",
@@ -21894,10 +23353,11 @@ const locations = [
     "latitude": 32.07643766646589,
     "longitude": -81.07590048808586,
     "host_name": "CBTVacations Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "417 UPPER EAST AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.242045019236151e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1355717054480172939",
@@ -21909,10 +23369,11 @@ const locations = [
     "latitude": 32.0636,
     "longitude": -81.0747,
     "host_name": "RedAwning Vacation Rentals 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "115 ADAIR ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.198425677277555e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1447139316011651587",
@@ -21924,10 +23385,11 @@ const locations = [
     "latitude": 32.0765,
     "longitude": -81.0763,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "456 ALTAMAHA ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.241969651920656e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/26388964",
@@ -21939,10 +23401,11 @@ const locations = [
     "latitude": 32.07655,
     "longitude": -81.08278,
     "host_name": "Gina Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "661 E BROUGHTON ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00025931444737410425
   },
   {
     "url": "https://www.airbnb.com/rooms/1313281223215657597",
@@ -21954,10 +23417,11 @@ const locations = [
     "latitude": 32.0609,
     "longitude": -81.0831,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "905 E PARK AVE",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.547633245298488e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1689264353427510941",
@@ -21969,10 +23433,11 @@ const locations = [
     "latitude": 32.0656,
     "longitude": -81.0562,
     "host_name": "Devon 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2103 UTAH ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.20696440891157e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1199891602888595700",
@@ -21984,10 +23449,11 @@ const locations = [
     "latitude": 32.0776,
     "longitude": -81.0761,
     "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "450 GEO MEYER AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.3350708110384805e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1585072125453617362",
@@ -21999,10 +23465,11 @@ const locations = [
     "latitude": 32.0714,
     "longitude": -81.0789,
     "host_name": "Jovana 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "LAWTON AVE",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0007865288852146561
   },
   {
     "url": "https://www.airbnb.com/rooms/34331221",
@@ -22014,10 +23481,11 @@ const locations = [
     "latitude": 32.0813,
     "longitude": -81.081,
     "host_name": "Keith 14 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "99 GRAND PRIZE OF AMERICA",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0014225879327309878
   },
   {
     "url": "https://www.airbnb.com/rooms/1598013235739745031",
@@ -22029,10 +23497,11 @@ const locations = [
     "latitude": 32.06017,
     "longitude": -81.08274,
     "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "918 E DUFFY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00019380506209539173
   },
   {
     "url": "https://www.airbnb.com/rooms/1411089074379990772",
@@ -22044,10 +23513,11 @@ const locations = [
     "latitude": 31.72513,
     "longitude": -81.24585,
     "host_name": "Mindi Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.14919964892386461
   },
   {
     "url": "https://www.airbnb.com/rooms/1185511324695423066",
@@ -22059,10 +23529,11 @@ const locations = [
     "latitude": 31.9242,
     "longitude": -81.32928,
     "host_name": "Hilary Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0600148556746832
   },
   {
     "url": "https://www.airbnb.com/rooms/1548326764435066816",
@@ -22074,10 +23545,11 @@ const locations = [
     "latitude": 31.68305860991245,
     "longitude": -81.27327615317682,
     "host_name": "Lesley Superhost \u00b7 8 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.194490670065634
   },
   {
     "url": "https://www.airbnb.com/rooms/1118068202085214331",
@@ -22089,10 +23561,11 @@ const locations = [
     "latitude": 31.69937,
     "longitude": -81.27375,
     "host_name": "Elaine 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18609570183351498
   },
   {
     "url": "https://www.airbnb.com/rooms/1081160350780624759",
@@ -22104,10 +23577,11 @@ const locations = [
     "latitude": 31.7307,
     "longitude": -81.2673,
     "host_name": "Ron Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16633994038024144
   },
   {
     "url": "https://www.airbnb.com/rooms/1342187201896626741",
@@ -22119,10 +23593,11 @@ const locations = [
     "latitude": 31.823,
     "longitude": -81.3625,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1418575532527398
   },
   {
     "url": "https://www.airbnb.com/rooms/979020159820560243",
@@ -22134,10 +23609,11 @@ const locations = [
     "latitude": 31.73167,
     "longitude": -81.26851,
     "host_name": "Cookie 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16709700966081795
   },
   {
     "url": "https://www.airbnb.com/rooms/1117379194501827419",
@@ -22149,10 +23625,11 @@ const locations = [
     "latitude": 31.7305,
     "longitude": -81.2674,
     "host_name": "Ron Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16650840329461086
   },
   {
     "url": "https://www.airbnb.com/rooms/1285011797767220254",
@@ -22164,10 +23641,11 @@ const locations = [
     "latitude": 31.8219,
     "longitude": -81.3648,
     "host_name": "Sara Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.1442226595443775
   },
   {
     "url": "https://www.airbnb.com/rooms/992896021858404669",
@@ -22179,10 +23657,11 @@ const locations = [
     "latitude": 31.9214,
     "longitude": -81.3278,
     "host_name": "Mark And Kristine Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.060191196932682337
   },
   {
     "url": "https://www.airbnb.com/rooms/20253944",
@@ -22194,10 +23673,11 @@ const locations = [
     "latitude": 31.7723,
     "longitude": -81.284,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1565111474430774
   },
   {
     "url": "https://www.airbnb.com/rooms/1566236448582115154",
@@ -22209,10 +23689,11 @@ const locations = [
     "latitude": 31.819182321337173,
     "longitude": -81.3603361912693,
     "host_name": "Elizabeth 7 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 2,
-    "over_percent": 0.3333
+    "over_percent": 0.3333,
+    "approx_distance_meters": 0.143283969637874
   },
   {
     "url": "https://www.airbnb.com/rooms/799977348532570201",
@@ -22224,10 +23705,11 @@ const locations = [
     "latitude": 31.9217,
     "longitude": -81.3241,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05693775195479384
   },
   {
     "url": "https://www.airbnb.com/rooms/628189064569743397",
@@ -22239,10 +23721,11 @@ const locations = [
     "latitude": 31.77004,
     "longitude": -81.27925,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1583193302756343
   },
   {
     "url": "https://www.airbnb.com/rooms/1691649002569157979",
@@ -22254,10 +23737,11 @@ const locations = [
     "latitude": 31.839610879501947,
     "longitude": -81.32975663767706,
     "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.10831561453493445
   },
   {
     "url": "https://www.airbnb.com/rooms/947285785463122131",
@@ -22269,10 +23753,11 @@ const locations = [
     "latitude": 31.6995,
     "longitude": -81.2741,
     "host_name": "Julie 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1863315477235601
   },
   {
     "url": "https://www.airbnb.com/rooms/53241291",
@@ -22284,10 +23769,11 @@ const locations = [
     "latitude": 31.8244,
     "longitude": -81.3649,
     "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 12,
     "over_occupancy": 3,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.14246431314812197
   },
   {
     "url": "https://www.airbnb.com/rooms/1495997583673241514",
@@ -22299,10 +23785,11 @@ const locations = [
     "latitude": 31.823653562645934,
     "longitude": -81.36338650178385,
     "host_name": "Zach Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.14197545506426962
   },
   {
     "url": "https://www.airbnb.com/rooms/24492483",
@@ -22314,10 +23801,11 @@ const locations = [
     "latitude": 31.69991,
     "longitude": -81.27225,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18452939331363222
   },
   {
     "url": "https://www.airbnb.com/rooms/706727985393008664",
@@ -22329,10 +23817,11 @@ const locations = [
     "latitude": 31.9225,
     "longitude": -81.32354,
     "host_name": "Matthew Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05602533545009641
   },
   {
     "url": "https://www.airbnb.com/rooms/583537324461511431",
@@ -22344,10 +23833,11 @@ const locations = [
     "latitude": 31.92277,
     "longitude": -81.3255,
     "host_name": "Linda 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05751543850975954
   },
   {
     "url": "https://www.airbnb.com/rooms/1481011115688783590",
@@ -22359,10 +23849,11 @@ const locations = [
     "latitude": 31.92362,
     "longitude": -81.32509,
     "host_name": "Jared 2 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05671388469681555
   },
   {
     "url": "https://www.airbnb.com/rooms/1100773977672043373",
@@ -22374,10 +23865,11 @@ const locations = [
     "latitude": 31.76562,
     "longitude": -81.27897,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16270554476120738
   },
   {
     "url": "https://www.airbnb.com/rooms/1600010580925946962",
@@ -22389,10 +23881,11 @@ const locations = [
     "latitude": 31.8169,
     "longitude": -81.35787,
     "host_name": "Richard Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 4,
-    "over_percent": 0.4
+    "over_percent": 0.4,
+    "approx_distance_meters": 0.14344799966478877
   },
   {
     "url": "https://www.airbnb.com/rooms/1102223159287827361",
@@ -22404,10 +23897,11 @@ const locations = [
     "latitude": 31.73268,
     "longitude": -81.26824,
     "host_name": "Cookie 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16647291389629087
   },
   {
     "url": "https://www.airbnb.com/rooms/1699497531963688466",
@@ -22419,10 +23913,11 @@ const locations = [
     "latitude": 31.7724,
     "longitude": -81.3222,
     "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16499628100589883
   },
   {
     "url": "https://www.airbnb.com/rooms/13114566",
@@ -22434,10 +23929,11 @@ const locations = [
     "latitude": 31.73393,
     "longitude": -81.26691,
     "host_name": "Cookie 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16477822704243097
   },
   {
     "url": "https://www.airbnb.com/rooms/826295932244399472",
@@ -22449,10 +23945,11 @@ const locations = [
     "latitude": 31.9275,
     "longitude": -81.3245,
     "host_name": "Rebeca 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "CHEVIS RD",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05423160678581396
   },
   {
     "url": "https://www.airbnb.com/rooms/577583521159926214",
@@ -22464,10 +23961,11 @@ const locations = [
     "latitude": 31.82566,
     "longitude": -81.30545,
     "host_name": "Donnie Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.10922073889213893
   },
   {
     "url": "https://www.airbnb.com/rooms/654939436145045100",
@@ -22479,10 +23977,11 @@ const locations = [
     "latitude": 31.72555,
     "longitude": -81.24256,
     "host_name": "Lisa Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.14609001633696547
   },
   {
     "url": "https://www.airbnb.com/rooms/1407328676469102108",
@@ -22494,10 +23993,11 @@ const locations = [
     "latitude": 31.737,
     "longitude": -81.3282,
     "host_name": "Ron Superhost \u00b7 11 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 2,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.2004588307028167
   },
   {
     "url": "https://www.airbnb.com/rooms/628210331010261350",
@@ -22509,10 +24009,11 @@ const locations = [
     "latitude": 31.7718,
     "longitude": -81.27915,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15655687678144997
   },
   {
     "url": "https://www.airbnb.com/rooms/1307191590161625956",
@@ -22524,10 +24025,11 @@ const locations = [
     "latitude": 31.83657,
     "longitude": -81.36316,
     "host_name": "Lyne Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.13261856823837248
   },
   {
     "url": "https://www.airbnb.com/rooms/1397721779672927760",
@@ -22539,10 +24041,11 @@ const locations = [
     "latitude": 31.770845058297905,
     "longitude": -81.32248003811205,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 3,
-    "over_percent": 0.3
+    "over_percent": 0.3,
+    "approx_distance_meters": 0.16655548348717508
   },
   {
     "url": "https://www.airbnb.com/rooms/891708",
@@ -22554,10 +24057,11 @@ const locations = [
     "latitude": 31.83362,
     "longitude": -81.26122,
     "host_name": "Patricia 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.09443973793704595
   },
   {
     "url": "https://www.airbnb.com/rooms/1702825723333214358",
@@ -22569,10 +24073,11 @@ const locations = [
     "latitude": 31.6986,
     "longitude": -81.2819,
     "host_name": "Megan 1 month hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1935402996054419
   },
   {
     "url": "https://www.airbnb.com/rooms/1157954343568055191",
@@ -22584,10 +24089,11 @@ const locations = [
     "latitude": 31.91803,
     "longitude": -81.3242,
     "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.05805670150185058
   },
   {
     "url": "https://www.airbnb.com/rooms/1429142351799507010",
@@ -22599,10 +24105,11 @@ const locations = [
     "latitude": 31.696179850777472,
     "longitude": -81.27116323709298,
     "host_name": "Edward Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18553002785372566
   },
   {
     "url": "https://www.airbnb.com/rooms/1706720156198122249",
@@ -22614,10 +24121,11 @@ const locations = [
     "latitude": 31.6982,
     "longitude": -81.2719,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1851055415107131
   },
   {
     "url": "https://www.airbnb.com/rooms/975621032185308618",
@@ -22629,10 +24137,11 @@ const locations = [
     "latitude": 31.817089546839203,
     "longitude": -81.35864777469821,
     "host_name": "Nickie Bennett 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 3,
-    "over_percent": 0.375
+    "over_percent": 0.375,
+    "approx_distance_meters": 0.1437959369069872
   },
   {
     "url": "https://www.airbnb.com/rooms/1188263203057681719",
@@ -22644,10 +24153,11 @@ const locations = [
     "latitude": 31.7736,
     "longitude": -81.2842,
     "host_name": "Jason New Host",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15524096667344406
   },
   {
     "url": "https://www.airbnb.com/rooms/598576047500773676",
@@ -22659,10 +24169,11 @@ const locations = [
     "latitude": 31.77069,
     "longitude": -81.27885,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1576406821491452
   },
   {
     "url": "https://www.airbnb.com/rooms/886871145304514699",
@@ -22674,10 +24185,11 @@ const locations = [
     "latitude": 31.7716,
     "longitude": -81.3231,
     "host_name": "Evolve 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 3,
-    "over_percent": 0.3
+    "over_percent": 0.3,
+    "approx_distance_meters": 0.16605234834152438
   },
   {
     "url": "https://www.airbnb.com/rooms/671753443510755708",
@@ -22689,10 +24201,11 @@ const locations = [
     "latitude": 31.77512,
     "longitude": -81.28054,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15336372533554365
   },
   {
     "url": "https://www.airbnb.com/rooms/1102247615937609676",
@@ -22704,10 +24217,11 @@ const locations = [
     "latitude": 31.73377,
     "longitude": -81.26653,
     "host_name": "Cookie 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16448258865446103
   },
   {
     "url": "https://www.airbnb.com/rooms/929333993252254427",
@@ -22719,10 +24233,11 @@ const locations = [
     "latitude": 31.71618,
     "longitude": -81.24106,
     "host_name": "Lily 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.14941191118006641
   },
   {
     "url": "https://www.airbnb.com/rooms/1532559002378975043",
@@ -22734,10 +24249,11 @@ const locations = [
     "latitude": 31.8455,
     "longitude": -81.325,
     "host_name": "Sara Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.10076072855968927
   },
   {
     "url": "https://www.airbnb.com/rooms/44004658",
@@ -22749,10 +24265,11 @@ const locations = [
     "latitude": 31.72064,
     "longitude": -81.25564,
     "host_name": "Hope 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15995845637842862
   },
   {
     "url": "https://www.airbnb.com/rooms/849932834600498050",
@@ -22764,10 +24281,11 @@ const locations = [
     "latitude": 31.75787,
     "longitude": -81.28642,
     "host_name": "Dana 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1711207535805253
   },
   {
     "url": "https://www.airbnb.com/rooms/1038506517320133345",
@@ -22779,10 +24297,11 @@ const locations = [
     "latitude": 32.01517,
     "longitude": -80.88209,
     "host_name": "Dan Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "3 OLD US HIGHWAY 80",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005402747967123016
   },
   {
     "url": "https://www.airbnb.com/rooms/915934869315530434",
@@ -22794,10 +24313,11 @@ const locations = [
     "latitude": 32.00075,
     "longitude": -80.8659,
     "host_name": "Layne Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "132 SAN MARCO DR",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003080694350414736
   },
   {
     "url": "https://www.airbnb.com/rooms/1376943984326459431",
@@ -22809,10 +24329,11 @@ const locations = [
     "latitude": 32.01200572502912,
     "longitude": -80.88314435675427,
     "host_name": "Thomas Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "4 OLD US HIGHWAY 80",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.001170648961128302
   },
   {
     "url": "https://www.airbnb.com/rooms/1614122116333783823",
@@ -22824,10 +24345,11 @@ const locations = [
     "latitude": 32.02101,
     "longitude": -80.8611,
     "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 TERESA LN",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000119498931592816
   },
   {
     "url": "https://www.airbnb.com/rooms/1713317843228214797",
@@ -22839,10 +24361,11 @@ const locations = [
     "latitude": 32.00535015531348,
     "longitude": -80.86384974337764,
     "host_name": "Akash Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "120 CATALINA DR",
     "allowed_guests": 10,
     "over_occupancy": 2,
-    "over_percent": 0.2
+    "over_percent": 0.2,
+    "approx_distance_meters": 7.55333026474284e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/728216676133925106",
@@ -22854,10 +24377,11 @@ const locations = [
     "latitude": 32.0111,
     "longitude": -80.86607,
     "host_name": "Justin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "41 ESTILL HAMMOCK RD",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004725987524575322
   },
   {
     "url": "https://www.airbnb.com/rooms/1259296189296075471",
@@ -22869,10 +24393,11 @@ const locations = [
     "latitude": 32.02,
     "longitude": -80.8587,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1229 US HIGHWAY 80",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016538514539976736
   },
   {
     "url": "https://www.airbnb.com/rooms/791514382559311858",
@@ -22884,10 +24409,11 @@ const locations = [
     "latitude": 32.01466,
     "longitude": -80.88256,
     "host_name": "Thomas Wilson Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 OLD US HIGHWAY 80",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00028283238654957794
   },
   {
     "url": "https://www.airbnb.com/rooms/1700082368918296674",
@@ -22899,10 +24425,11 @@ const locations = [
     "latitude": 32.0139,
     "longitude": -80.865,
     "host_name": "Tybee Cottages Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "140 PELICAN DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.997572287184568e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1598686487763424773",
@@ -22914,10 +24441,11 @@ const locations = [
     "latitude": 32.0154026750704,
     "longitude": -80.86609764815182,
     "host_name": "Jana Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "126 PELICAN DR",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.0003451461010827349
   },
   {
     "url": "https://www.airbnb.com/rooms/1590699376834144368",
@@ -22929,10 +24457,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Jane Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/28666684",
@@ -22944,10 +24473,11 @@ const locations = [
     "latitude": 32.0135,
     "longitude": -80.86551,
     "host_name": "Steven 16 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "110 ANDREA DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003317965055957271
   },
   {
     "url": "https://www.airbnb.com/rooms/1384244159871819252",
@@ -22959,10 +24489,11 @@ const locations = [
     "latitude": 32.018482506319884,
     "longitude": -80.8619166635284,
     "host_name": "Carol Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1429 ESTILL AVE ##A",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008477955790841212
   },
   {
     "url": "https://www.airbnb.com/rooms/1097706941028962855",
@@ -22974,10 +24505,11 @@ const locations = [
     "latitude": 32.01355,
     "longitude": -80.87882,
     "host_name": "Sandi 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2552 CRUSOE ISLAND DR",
     "allowed_guests": 14,
     "over_occupancy": 2,
-    "over_percent": 0.1429
+    "over_percent": 0.1429,
+    "approx_distance_meters": 0.0013005217536931775
   },
   {
     "url": "https://www.airbnb.com/rooms/40838981",
@@ -22989,10 +24521,11 @@ const locations = [
     "latitude": 32.02056,
     "longitude": -80.85956,
     "host_name": "Ingrid Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "201 BYERS ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00011182683395704838
   },
   {
     "url": "https://www.airbnb.com/rooms/1626867194794659879",
@@ -23004,10 +24537,11 @@ const locations = [
     "latitude": 32.021,
     "longitude": -80.85928,
     "host_name": "Christine 4 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1316 BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.2209655080485104e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/46430538",
@@ -23019,10 +24553,11 @@ const locations = [
     "latitude": 32.0231,
     "longitude": -80.85934,
     "host_name": "Melba Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #109B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00037877251677179467
   },
   {
     "url": "https://www.airbnb.com/rooms/623966743719482641",
@@ -23034,10 +24569,11 @@ const locations = [
     "latitude": 32.01066,
     "longitude": -80.86373,
     "host_name": "Jessica 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "66 ESTILL HAMMOCK DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00045214560475678533
   },
   {
     "url": "https://www.airbnb.com/rooms/50732290",
@@ -23049,10 +24585,11 @@ const locations = [
     "latitude": 32.02343367024293,
     "longitude": -80.85966146014118,
     "host_name": "Cortney Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000811581666771976
   },
   {
     "url": "https://www.airbnb.com/rooms/1518807509285164040",
@@ -23064,10 +24601,11 @@ const locations = [
     "latitude": 32.0202,
     "longitude": -80.8588,
     "host_name": "Emily 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1229 US HIGHWAY 80",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.069387029610075e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1192858517857927526",
@@ -23079,10 +24617,11 @@ const locations = [
     "latitude": 32.02026,
     "longitude": -80.86005,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "ESTILL AVE",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010307879754725544
   },
   {
     "url": "https://www.airbnb.com/rooms/12606833",
@@ -23094,10 +24633,11 @@ const locations = [
     "latitude": 32.0191,
     "longitude": -80.8624,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1429 ESTILL AVE ##A",
     "allowed_guests": 10,
     "over_occupancy": 1,
-    "over_percent": 0.1
+    "over_percent": 0.1,
+    "approx_distance_meters": 6.457789239098911e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1422617173373406258",
@@ -23109,10 +24649,11 @@ const locations = [
     "latitude": 32.022536985306594,
     "longitude": -80.8586866782976,
     "host_name": "Jenny Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.659333783552734e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/17359816",
@@ -23124,10 +24665,11 @@ const locations = [
     "latitude": 32.02301,
     "longitude": -80.85955,
     "host_name": "Gina Poole Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #108B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040547161267865696
   },
   {
     "url": "https://www.airbnb.com/rooms/1127029325254220289",
@@ -23139,10 +24681,11 @@ const locations = [
     "latitude": 32.02271,
     "longitude": -80.85872,
     "host_name": "Melissa Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #314B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.415589686577653e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1105248226648161017",
@@ -23154,10 +24697,11 @@ const locations = [
     "latitude": 32.01326,
     "longitude": -80.86506,
     "host_name": "Christine Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "112 ANDREA DR",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00042369699260479143
   },
   {
     "url": "https://www.airbnb.com/rooms/40122957",
@@ -23169,10 +24713,11 @@ const locations = [
     "latitude": 32.0204,
     "longitude": -80.8598,
     "host_name": "Anthony 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1403 SOLOMON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.267336967497936e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1593553204301487986",
@@ -23184,10 +24729,11 @@ const locations = [
     "latitude": 32.02210721405687,
     "longitude": -80.85915385121231,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #103B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001681756277895944
   },
   {
     "url": "https://www.airbnb.com/rooms/46449721",
@@ -23199,10 +24745,11 @@ const locations = [
     "latitude": 32.02261,
     "longitude": -80.85986,
     "host_name": "Melba Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #306C",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00020783204315966605
   },
   {
     "url": "https://www.airbnb.com/rooms/19856265",
@@ -23214,10 +24761,11 @@ const locations = [
     "latitude": 32.01181,
     "longitude": -80.86447,
     "host_name": "Justin Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "122 ANDREA DR",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00017857019417298798
   },
   {
     "url": "https://www.airbnb.com/rooms/52618796",
@@ -23229,10 +24777,11 @@ const locations = [
     "latitude": 32.01875,
     "longitude": -80.8625,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1429 ESTILL AVE ##A",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003963891428744502
   },
   {
     "url": "https://www.airbnb.com/rooms/4103191",
@@ -23244,10 +24793,11 @@ const locations = [
     "latitude": 32.01608,
     "longitude": -80.86694,
     "host_name": "Beth 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "118 PELICAN DR",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00018084560842926683
   },
   {
     "url": "https://www.airbnb.com/rooms/778931479120643512",
@@ -23259,10 +24809,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Jon Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/19343931",
@@ -23274,10 +24825,11 @@ const locations = [
     "latitude": 32.02137,
     "longitude": -80.85993,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 SANCTUARY PL",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00015288327213901475
   },
   {
     "url": "https://www.airbnb.com/rooms/896880343907804963",
@@ -23289,10 +24841,11 @@ const locations = [
     "latitude": 32.0227,
     "longitude": -80.8592,
     "host_name": "Jon Superhost \u00b7 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #209B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 5.520108171159695e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1593571169022299875",
@@ -23304,10 +24857,11 @@ const locations = [
     "latitude": 32.01342,
     "longitude": -80.86661,
     "host_name": "Angelys Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "114 PELICAN CT",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00046328058052023594
   },
   {
     "url": "https://www.airbnb.com/rooms/27675225",
@@ -23319,10 +24873,11 @@ const locations = [
     "latitude": 32.02152,
     "longitude": -80.85946,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1316 BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005068331639437975
   },
   {
     "url": "https://www.airbnb.com/rooms/5505003",
@@ -23334,10 +24889,11 @@ const locations = [
     "latitude": 32.0222,
     "longitude": -80.8587,
     "host_name": "Adrianna Superhost \u00b7 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #119B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.7693559466412915e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1111437311235674906",
@@ -23349,10 +24905,11 @@ const locations = [
     "latitude": 32.0226,
     "longitude": -80.8589,
     "host_name": "Mike Superhost \u00b7 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #114B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.394791980752605e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/813666440503479591",
@@ -23364,10 +24921,11 @@ const locations = [
     "latitude": 32.02122,
     "longitude": -80.8587,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 4.811426931194358e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1541349585483802034",
@@ -23379,10 +24937,11 @@ const locations = [
     "latitude": 32.02147345911963,
     "longitude": -80.85874561218527,
     "host_name": "Lori 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002378805158567153
   },
   {
     "url": "https://www.airbnb.com/rooms/18705028",
@@ -23394,10 +24953,11 @@ const locations = [
     "latitude": 32.02193,
     "longitude": -80.85871,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #301B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001960387085729643
   },
   {
     "url": "https://www.airbnb.com/rooms/1618919350802671033",
@@ -23409,10 +24969,11 @@ const locations = [
     "latitude": 32.0226,
     "longitude": -80.8592,
     "host_name": "Wesley 3 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #308B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.8126887244945497e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/912329322279799607",
@@ -23424,10 +24985,11 @@ const locations = [
     "latitude": 32.0207,
     "longitude": -80.86,
     "host_name": "Anthony 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "5 SANCTUARY PL",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 8.898858107983137e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10268369",
@@ -23439,10 +25001,11 @@ const locations = [
     "latitude": 32.0232,
     "longitude": -80.86048,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #309C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009392750551534982
   },
   {
     "url": "https://www.airbnb.com/rooms/1694330238959971012",
@@ -23454,10 +25017,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/19855984",
@@ -23469,10 +25033,11 @@ const locations = [
     "latitude": 32.02275,
     "longitude": -80.8588,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #313B",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.1159094127091496e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/18705032",
@@ -23484,10 +25049,11 @@ const locations = [
     "latitude": 32.02248,
     "longitude": -80.85875,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #216B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.3842694327318292e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/39151124",
@@ -23499,10 +25065,11 @@ const locations = [
     "latitude": 32.02266,
     "longitude": -80.86083,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "17 SANCTUARY PL",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006697288341840965
   },
   {
     "url": "https://www.airbnb.com/rooms/1187816196033778461",
@@ -23514,10 +25081,11 @@ const locations = [
     "latitude": 32.02134,
     "longitude": -80.8591,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1312 BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0002249319520799045
   },
   {
     "url": "https://www.airbnb.com/rooms/1029698772655643963",
@@ -23529,10 +25097,11 @@ const locations = [
     "latitude": 32.0208,
     "longitude": -80.8597,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 SANCTUARY PL",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.527756581925155e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1642822499852700334",
@@ -23544,10 +25113,11 @@ const locations = [
     "latitude": 32.02349376131777,
     "longitude": -80.85984006168948,
     "host_name": "Kayla & Cameron 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #108B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009622058316315498
   },
   {
     "url": "https://www.airbnb.com/rooms/52634428",
@@ -23559,10 +25129,11 @@ const locations = [
     "latitude": 32.01984,
     "longitude": -80.86018,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1408 SOLOMON AVE",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.413782430664937e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/952130302496767251",
@@ -23574,10 +25145,11 @@ const locations = [
     "latitude": 32.0137,
     "longitude": -80.8831,
     "host_name": "Lori Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 OLD US HIGHWAY 80",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00043673485465249806
   },
   {
     "url": "https://www.airbnb.com/rooms/999261208011549514",
@@ -23589,10 +25161,11 @@ const locations = [
     "latitude": 32.0222,
     "longitude": -80.859,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #103B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 1.3408674680517522e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1720662890979282781",
@@ -23604,10 +25177,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Nicole 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 2,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1609422135033565405",
@@ -23619,10 +25193,11 @@ const locations = [
     "latitude": 32.0214,
     "longitude": -80.85875,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00016448233585694672
   },
   {
     "url": "https://www.airbnb.com/rooms/10268452",
@@ -23634,10 +25209,11 @@ const locations = [
     "latitude": 32.0231,
     "longitude": -80.85996,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #306C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0006949687582148435
   },
   {
     "url": "https://www.airbnb.com/rooms/1309118076345847938",
@@ -23649,10 +25225,11 @@ const locations = [
     "latitude": 32.021,
     "longitude": -80.8592,
     "host_name": "Lori 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1316 BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 1,
-    "over_percent": 0.125
+    "over_percent": 0.125,
+    "approx_distance_meters": 8.507700823904863e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/41859155",
@@ -23664,10 +25241,11 @@ const locations = [
     "latitude": 32.0204,
     "longitude": -80.8599,
     "host_name": "Anthony 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1403 SOLOMON AVE",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 6.652606419815049e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10267950",
@@ -23679,10 +25257,11 @@ const locations = [
     "latitude": 32.02308,
     "longitude": -80.85917,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #111B",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003000629423340507
   },
   {
     "url": "https://www.airbnb.com/rooms/19855975",
@@ -23694,10 +25273,11 @@ const locations = [
     "latitude": 32.02149,
     "longitude": -80.85906,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1312 BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00034542938672161324
   },
   {
     "url": "https://www.airbnb.com/rooms/31308568",
@@ -23709,10 +25289,11 @@ const locations = [
     "latitude": 32.02163,
     "longitude": -80.85878,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.000395925408244383
   },
   {
     "url": "https://www.airbnb.com/rooms/1554864425605696237",
@@ -23724,10 +25305,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Michael Morrison Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/18756983",
@@ -23739,10 +25321,11 @@ const locations = [
     "latitude": 32.02229,
     "longitude": -80.85928,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #301C",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.580608863038005e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/46450185",
@@ -23754,10 +25337,11 @@ const locations = [
     "latitude": 32.02091,
     "longitude": -80.85973,
     "host_name": "Melba Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1 SANCTUARY PL",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00010057082580792556
   },
   {
     "url": "https://www.airbnb.com/rooms/1618349206811777598",
@@ -23769,10 +25353,11 @@ const locations = [
     "latitude": 32.0224,
     "longitude": -80.8596,
     "host_name": "Tybee Island 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #304C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.139044909912794e-06
   },
   {
     "url": "https://www.airbnb.com/rooms/23393371",
@@ -23784,10 +25369,11 @@ const locations = [
     "latitude": 32.02313,
     "longitude": -80.85869,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #215A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.83924193019665e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/47198432",
@@ -23799,10 +25385,11 @@ const locations = [
     "latitude": 32.01978,
     "longitude": -80.86055,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "TERESA LN",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.00025699996079764137
   },
   {
     "url": "https://www.airbnb.com/rooms/43449553",
@@ -23814,10 +25401,11 @@ const locations = [
     "latitude": 32.02311,
     "longitude": -80.86047,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #309C",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0008521517986296558
   },
   {
     "url": "https://www.airbnb.com/rooms/38578135",
@@ -23829,10 +25417,11 @@ const locations = [
     "latitude": 32.02148,
     "longitude": -80.8596,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 SANCTUARY PL",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004684593835138385
   },
   {
     "url": "https://www.airbnb.com/rooms/10268414",
@@ -23844,10 +25433,11 @@ const locations = [
     "latitude": 32.02127,
     "longitude": -80.85881,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.309029637439622e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10268376",
@@ -23859,10 +25449,11 @@ const locations = [
     "latitude": 32.0215,
     "longitude": -80.85931,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1314 BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004398100253754683
   },
   {
     "url": "https://www.airbnb.com/rooms/18756995",
@@ -23874,10 +25465,11 @@ const locations = [
     "latitude": 32.02182,
     "longitude": -80.85956,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #101C",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00040306823773911173
   },
   {
     "url": "https://www.airbnb.com/rooms/41927780",
@@ -23889,10 +25481,11 @@ const locations = [
     "latitude": 32.0217,
     "longitude": -80.85923,
     "host_name": "Joe 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #101B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004555714337003687
   },
   {
     "url": "https://www.airbnb.com/rooms/32868305",
@@ -23904,10 +25497,11 @@ const locations = [
     "latitude": 32.02201,
     "longitude": -80.85884,
     "host_name": "Marc 7 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.33698514629734e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10268332",
@@ -23919,10 +25513,11 @@ const locations = [
     "latitude": 32.02261,
     "longitude": -80.85931,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #208B",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 9.22572384352288e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/10268390",
@@ -23934,10 +25529,11 @@ const locations = [
     "latitude": 32.02144,
     "longitude": -80.85995,
     "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "2 SANCTUARY PL",
     "allowed_guests": 8,
     "over_occupancy": 4,
-    "over_percent": 0.5
+    "over_percent": 0.5,
+    "approx_distance_meters": 0.00021238632159888577
   },
   {
     "url": "https://www.airbnb.com/rooms/1287811486756469811",
@@ -23949,10 +25545,11 @@ const locations = [
     "latitude": 32.02361324625138,
     "longitude": -80.85975257620868,
     "host_name": "Tybee Joy 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0009327400701707822
   },
   {
     "url": "https://www.airbnb.com/rooms/49924659",
@@ -23964,10 +25561,11 @@ const locations = [
     "latitude": 32.02137,
     "longitude": -80.85891,
     "host_name": "Lakhan 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1310 BAY ST",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00021241936349998102
   },
   {
     "url": "https://www.airbnb.com/rooms/1300662945731217581",
@@ -23979,10 +25577,11 @@ const locations = [
     "latitude": 32.0224,
     "longitude": -80.8588,
     "host_name": "Tybee Cottages Superhost \u00b7 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 2.6345668115883767e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/28303867",
@@ -23994,10 +25593,11 @@ const locations = [
     "latitude": 32.0205,
     "longitude": -80.8609,
     "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "16 TERESA LN",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 7.629193005204878e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/43421065",
@@ -24009,10 +25609,11 @@ const locations = [
     "latitude": 32.0237,
     "longitude": -80.85899,
     "host_name": "Vacasa Georgia 8 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.00035879430006064593
   },
   {
     "url": "https://www.airbnb.com/rooms/1522361583309585291",
@@ -24024,10 +25625,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Kathy 9 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/51844372",
@@ -24039,10 +25641,11 @@ const locations = [
     "latitude": 32.02249,
     "longitude": -80.8594,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #302C",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0001548313632792618
   },
   {
     "url": "https://www.airbnb.com/rooms/51844229",
@@ -24054,10 +25657,11 @@ const locations = [
     "latitude": 32.0237,
     "longitude": -80.85922,
     "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0004948610385069878
   },
   {
     "url": "https://www.airbnb.com/rooms/52258520",
@@ -24069,10 +25673,11 @@ const locations = [
     "latitude": 32.02356,
     "longitude": -80.8591,
     "host_name": "Roshan Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #316A",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0003128799497240417
   },
   {
     "url": "https://www.airbnb.com/rooms/1681194900198541389",
@@ -24084,10 +25689,11 @@ const locations = [
     "latitude": 32.0221,
     "longitude": -80.8589,
     "host_name": "Jacqueline 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "1217 BAY ST #201B",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 3.5837309420461085e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/20467753",
@@ -24099,10 +25705,11 @@ const locations = [
     "latitude": 32.04096,
     "longitude": -80.96994,
     "host_name": "Charisse Superhost \u00b7 13 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "130 FALLIGANT AVE",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.0005060520557960957
   },
   {
     "url": "https://www.airbnb.com/rooms/1595064257454159998",
@@ -24114,10 +25721,11 @@ const locations = [
     "latitude": 31.6152,
     "longitude": -81.2845,
     "host_name": "Riley 5 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.24733860606665384
   },
   {
     "url": "https://www.airbnb.com/rooms/1466197205705311487",
@@ -24129,10 +25737,11 @@ const locations = [
     "latitude": 31.7958,
     "longitude": -81.3894,
     "host_name": "Vaneta Superhost \u00b7 10 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18008708101011478
   },
   {
     "url": "https://www.airbnb.com/rooms/49918162",
@@ -24144,10 +25753,11 @@ const locations = [
     "latitude": 31.82336,
     "longitude": -81.37283,
     "host_name": "Lisa 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.1487555553608956
   },
   {
     "url": "https://www.airbnb.com/rooms/1353008836140768040",
@@ -24159,10 +25769,11 @@ const locations = [
     "latitude": 31.831980136166734,
     "longitude": -81.4013026085544,
     "host_name": "Isaac Superhost \u00b7 1 year hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16504099145432616
   },
   {
     "url": "https://www.airbnb.com/rooms/829724243038287884",
@@ -24174,10 +25785,11 @@ const locations = [
     "latitude": 31.6373,
     "longitude": -81.3798,
     "host_name": "Darlene 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.30897459241577996
   },
   {
     "url": "https://www.airbnb.com/rooms/583212232437498619",
@@ -24189,10 +25801,11 @@ const locations = [
     "latitude": 31.80755,
     "longitude": -81.3749,
     "host_name": "Jennifer Superhost \u00b7 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16163442571190081
   },
   {
     "url": "https://www.airbnb.com/rooms/1453722409406783072",
@@ -24204,10 +25817,11 @@ const locations = [
     "latitude": 31.817,
     "longitude": -81.3716,
     "host_name": "Will Superhost \u00b7 8 months hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15244454869297952
   },
   {
     "url": "https://www.airbnb.com/rooms/1074077350409691703",
@@ -24219,10 +25833,11 @@ const locations = [
     "latitude": 31.81152,
     "longitude": -81.37977,
     "host_name": "Cassie Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16205185291362098
   },
   {
     "url": "https://www.airbnb.com/rooms/1256751367496788670",
@@ -24234,10 +25849,11 @@ const locations = [
     "latitude": 31.8044,
     "longitude": -81.4047,
     "host_name": "Michelle 2 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 12,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18496878080374274
   },
   {
     "url": "https://www.airbnb.com/rooms/48867102",
@@ -24249,10 +25865,11 @@ const locations = [
     "latitude": 31.80976,
     "longitude": -81.382,
     "host_name": "Cassie Superhost \u00b7 5 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.16486810410028918
   },
   {
     "url": "https://www.airbnb.com/rooms/21484126",
@@ -24264,10 +25881,11 @@ const locations = [
     "latitude": 31.6219,
     "longitude": -81.27528,
     "host_name": "Henry Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.23613091547738588
   },
   {
     "url": "https://www.airbnb.com/rooms/1159731506947293322",
@@ -24279,10 +25897,11 @@ const locations = [
     "latitude": 31.83340216544585,
     "longitude": -81.40244925916038,
     "host_name": "Mila 4 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.16515792500682772
   },
   {
     "url": "https://www.airbnb.com/rooms/787644828895827061",
@@ -24294,10 +25913,11 @@ const locations = [
     "latitude": 31.7937,
     "longitude": -81.4039,
     "host_name": "Mark 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 2,
-    "over_percent": 0.25
+    "over_percent": 0.25,
+    "approx_distance_meters": 0.19170494354811357
   },
   {
     "url": "https://www.airbnb.com/rooms/886445666612558575",
@@ -24309,10 +25929,11 @@ const locations = [
     "latitude": 31.6241,
     "longitude": -81.2929,
     "host_name": "Judith Superhost \u00b7 6 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.24702546518279295
   },
   {
     "url": "https://www.airbnb.com/rooms/34815689",
@@ -24324,10 +25945,11 @@ const locations = [
     "latitude": 31.8172,
     "longitude": -81.3731,
     "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 8,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.15333336295942213
   },
   {
     "url": "https://www.airbnb.com/rooms/21487415",
@@ -24339,10 +25961,11 @@ const locations = [
     "latitude": 31.61991,
     "longitude": -81.2751,
     "host_name": "Henry Superhost \u00b7 9 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "OSSABAW",
     "allowed_guests": 4,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.23746094418994831
   },
   {
     "url": "https://www.airbnb.com/rooms/894291704535222670",
@@ -24354,10 +25977,11 @@ const locations = [
     "latitude": 31.79477,
     "longitude": -81.403,
     "host_name": "Mark 3 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 6,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.19031327201541612
   },
   {
     "url": "https://www.airbnb.com/rooms/1312619611332395516",
@@ -24369,9 +25993,10 @@ const locations = [
     "latitude": 31.7964536758244,
     "longitude": -81.39150530396387,
     "host_name": "Michael 10 years hosting",
-    "searched_full_address": "",
+    "approximate_address": "GREAT OGEECHEE RIVER",
     "allowed_guests": 10,
     "over_occupancy": 0,
-    "over_percent": 0.0
+    "over_percent": 0.0,
+    "approx_distance_meters": 0.18104964983659907
   }
 ];
