@@ -169,8 +169,8 @@
 
         const popupTemplate = `
           <div class="popup-title">${loc.rental_type || 'Short Term Rental'}</div>
-          <strong>Address:</strong> ${loc.searched_full_address || 'Unknown Address'}<br/>
-          <strong>Host:</strong> ${loc.host_name || 'N/A'}<hr style="margin:6px 0; border:0; border-top:1px solid #ddd;"/>
+          <strong>Approximate Address:</strong> ${loc.approximate_address || 'Unknown Address'}<br/>          <strong>Host:</strong> ${loc.host_name || 'N/A'}<hr style="margin:6px 0; border:0; border-top:1px solid #ddd;"/>
+          
           <strong>Advertised Capacity:</strong> ${totalGuests} Guests<br/>
           <strong>Stated Bedrooms:</strong> ${totalBedrooms}<br/>
           <strong>Legal Limit:</strong> Max ${maxAllowedGuests} guests
