@@ -28,17 +28,19 @@
 
     .filter-panel {
       position: absolute;
-      top: 65px;
-      right: 2px;
+      top: 60px; /* never covers title */
+      right: 10px;
       background: white;
       color: #333;
       padding: 12px;
       border-radius: 6px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      font-size: 14px;
-      line-height: 1.5;
+      font-size: 12px;
+      line-height: 1.4;
       z-index: 10;
-      width: 240px;
+      width: 180px;
+      max-height: 80vh;
+      overflow-y: auto;
     }
 
     .filter-header {
@@ -100,16 +102,42 @@
       background: #0d47a1;
     }
 
+    /* Popup improvements */
+    .maplibregl-popup-content {
+      min-width: 320px;
+      max-width: 380px;
+      width: 340px;
+      padding: 12px;
+      box-sizing: border-box;
+    }
+
     .popup-title {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: bold;
       color: #000;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
     .popup-content {
       color: #000;
       font-size: 13px;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    .popup-content {
+      color: #000;
+      font-size: 13px;
+    }
+
+    .popup-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+    }
+
+    .popup-row div {
+      width: 48%;
     }
 
     .warning-text {
@@ -118,7 +146,7 @@
       background: #ffebee;
       padding: 4px 6px;
       border-radius: 4px;
-      margin: 4px 0;
+      margin: 6px 0;
       display: inline-block;
     }
 
@@ -260,6 +288,14 @@
       }
 
       requestAnimationFrame(frame);
+    }
+
+    // Adjust center so popup never goes off bottom
+    function adjustedCenterForPopup(coord) {
+      const p = map.project(coord);
+      p.y += 120; // marker ABOVE popup
+      const adj = map.unproject(p);
+      return [adj.lng, adj.lat];
     }
 
     // Spiderfy helpers
@@ -437,35 +473,36 @@
         }
       });
 
-      // Popup + zoom for individual points (base layer)
+      // Popup + zoom/spiderfy for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
         clearSpiderfy();
 
         const loc = e.features[0].properties;
+        const clickedCoord = e.features[0].geometry.coordinates;
+
         const excessive = loc.guests - loc.maxAllowedGuests;
         const warning = excessive > 0
-          ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
+          ? `<div class="warning-text">⚠️ ${excessive} over</div>`
           : "";
 
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+
+            <strong>Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
-            <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
-            <strong>Bedrooms: </strong>${loc.bedrooms}
-            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
-            ${warning}
+
+            <div class="popup-row">
+              <div><strong>Bedrooms:</strong> ${loc.bedrooms}</div>
+              <div><strong>Legal:</strong> ${loc.maxAllowedGuests}</div>
+            </div>
+
+            <strong>Guests:</strong> ${loc.guests} ${warning}
+
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
           </div>
         `;
 
-        new maplibregl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(html)
-          .addTo(map);
-
-        const clickedCoord = e.features[0].geometry.coordinates;
         const rendered = map.queryRenderedFeatures(e.point, { layers: ["strv-circles"] });
 
         const sameSpot = rendered.filter(f => {
@@ -479,41 +516,69 @@
           (zoom >= 18 && rendered.length > 1);
 
         if (shouldSpiderfy) {
-          const centerPoint = map.project(e.lngLat);
+          const centerPoint = map.project(clickedCoord);
           spiderfyFeatures(sameSpot, centerPoint);
+          // Show popup immediately for spiderfied (no animation)
+          new maplibregl.Popup()
+            .setLngLat(clickedCoord)
+            .setHTML(html)
+            .addTo(map);
         } else {
           animateMap(clickedCoord, Math.max(zoom, 15));
+          // Show popup after animation completes + 1 second
+          map.once("moveend", () => {
+            setTimeout(() => {
+              new maplibregl.Popup()
+                .setLngLat(clickedCoord)
+                .setHTML(html)
+                .addTo(map);
+            }, 1000);
+          });
         }
       });
 
-      // Popup + zoom for spiderfied points
+      // Popup for spiderfied points
       map.on("click", "spiderfy-circles", (e) => {
         const loc = e.features[0].properties;
+        const clickedCoord = e.features[0].geometry.coordinates;
+
         const excessive = loc.guests - loc.maxAllowedGuests;
         const warning = excessive > 0
-          ? `<div class="warning-text">${excessive} GUESTS OVER LIMIT</div>`
+          ? `<div class="warning-text">⚠️ ${excessive} over</div>`
           : "";
 
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+
+            <strong>Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
-            <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
-            <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
-            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+
+            <div class="popup-row">
+              <div><strong>Bedrooms:</strong> ${loc.bedrooms}</div>
+              <div><strong>Legal:</strong> ${loc.maxAllowedGuests}</div>
+            </div>
+
+            <strong>Guests:</strong> ${loc.guests}<br/>
             ${warning}
+
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
           </div>
         `;
 
-        new maplibregl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(html)
-          .addTo(map);
+        animateMap(clickedCoord, Math.max(map.getZoom(), 15));
+        // Show popup after animation completes + 1 second
+        map.once("moveend", () => {
+          setTimeout(() => {
+            new maplibregl.Popup()
+              .setLngLat(clickedCoord)
+              .setHTML(html)
+              .addTo(map);
+          }, 1000);
+        });
       });
 
-      // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
+      // Cluster click: zoom into cluster
       map.on("click", "clusters", (e) => {
         clearSpiderfy();
 
