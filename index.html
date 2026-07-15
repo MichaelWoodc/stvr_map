@@ -63,8 +63,13 @@
     .popup-title {
       font-size: 14px;
       font-weight: bold;
-      color: #222;
+      color: #000;
       margin-bottom: 4px;
+    }
+
+    .popup-content {
+      color: #000;
+      font-size: 13px;
     }
 
     .warning-text {
@@ -111,14 +116,15 @@
     const processedLocations = locations.map(loc => {
       const latitude = Number(loc.latitude);
       const longitude = Number(loc.longitude);
-      const guests = parseInt(loc.guests) || 0;
-      const bedrooms = parseInt(loc.bedrooms) || 0;
+      const guests = Number(loc.guests) || 0;
+      const bedrooms = Number(loc.bedrooms) || 0;
 
       if (!latitude || !longitude) return null;
 
       const baselineLimit = (bedrooms * 2) + 2;
       const maxAllowedGuests = bedrooms === 0 ? 2 : baselineLimit;
       const isOverCapacity = guests > maxAllowedGuests;
+      const overAmount = isOverCapacity ? guests - maxAllowedGuests : 0;
 
       return {
         ...loc,
@@ -127,7 +133,8 @@
         guests,
         bedrooms,
         maxAllowedGuests,
-        isOverCapacity
+        isOverCapacity,
+        overAmount: Number(overAmount)
       };
     }).filter(Boolean);
 
@@ -146,13 +153,13 @@
       };
     }
 
-    // Map center
     const defaultCenter = [-81.0087, 32.0485];
 
     const map = new maplibregl.Map({
       container: "map",
       style: {
         version: 8,
+        glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
         sources: {
           "osm": {
             type: "raster",
@@ -175,12 +182,22 @@
     });
 
     map.on("load", () => {
+
+      // -----------------------------
+      // GEOJSON SOURCE (CLUSTERING COMMENTED OUT)
+      // -----------------------------
       map.addSource("strv", {
         type: "geojson",
-        data: toGeoJSON(processedLocations)
+        data: toGeoJSON(processedLocations),
+
+        // cluster: true,
+        // clusterRadius: 40,
+        // clusterMaxZoom: 14
       });
 
-      // Circle layer (GPU accelerated)
+      // -----------------------------
+      // MAIN CIRCLE LAYER
+      // -----------------------------
       map.addLayer({
         id: "strv-circles",
         type: "circle",
@@ -198,26 +215,39 @@
         }
       });
 
-      // Guest count labels (no external fonts)
+      // -----------------------------
+      // LABELS WITH COLLISION AVOIDANCE
+      // -----------------------------
       map.addLayer({
         id: "strv-labels",
         type: "symbol",
         source: "strv",
         layout: {
-          "text-field": ["get", "guests"],
+          "text-field": [
+            "case",
+            ["get", "isOverCapacity"],
+            ["to-string", ["get", "overAmount"]],
+            ""
+          ],
           "text-size": 12,
-          "text-font": ["Arial Unicode MS Regular"],
-          "text-offset": [0, 0]
+          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+          "text-anchor": "center",
+          "text-justify": "center",
+
+          // ⭐ AUTO COLLISION HANDLING
+          "text-allow-overlap": false,
+          "text-ignore-placement": false
         },
         paint: {
-          "text-color": "#fff",
-          "text-halo-color": "#000",
-          "text-halo-width": 1.5
+          "text-color": "#000",
+          "text-halo-color": "#fff",
+          "text-halo-width": 0.8
         }
       });
 
-<<<<<<< HEAD
-      // Popups
+      // -----------------------------
+      // POPUPS
+      // -----------------------------
       map.on("click", "strv-circles", (e) => {
         const loc = e.features[0].properties;
 
@@ -227,25 +257,18 @@
           : "";
 
         const html = `
-          <div class="popup-title">${loc.rental_type}</div>
-          <strong>Approximate Address:</strong> ${loc.approximate_address}<br/>
-          <strong>Host:</strong> ${loc.host_name}<hr/>
+          <div class="popup-content">
+            <div class="popup-title">${loc.rental_type}</div>
+            <strong>Approximate Address:</strong> ${loc.approximate_address}<br/>
+            <strong>Host:</strong> ${loc.host_name}<hr/>
 
-          <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
-          <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
-          <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
-          ${warning}
-=======
-        const popupTemplate = `
-          <div class="popup-title">${loc.rental_type || 'Short Term Rental'}</div>
-          <strong>Approximate Address:</strong> ${loc.approximate_address || 'Unknown Address'}<br/>          <strong>Host:</strong> ${loc.host_name || 'N/A'}<hr style="margin:6px 0; border:0; border-top:1px solid #ddd;"/>
-          
-          <strong>Advertised Capacity:</strong> ${totalGuests} Guests<br/>
-          <strong>Stated Bedrooms:</strong> ${totalBedrooms}<br/>
-          <strong>Legal Limit:</strong> Max ${maxAllowedGuests} guests
-          ${occupancyWarningHtml}
->>>>>>> 24fa8a3ed55a2f89897a41cc62c03fcbfc89e996
-          <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
+            <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
+            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+            ${warning}
+
+            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+          </div>
         `;
 
         new maplibregl.Popup()
@@ -253,9 +276,24 @@
           .setHTML(html)
           .addTo(map);
       });
+
+      // -----------------------------
+      // ⭐ ZOOM TO POINT ON CLICK (works even without clustering)
+      // -----------------------------
+      map.on("click", "strv-circles", (e) => {
+        const coords = e.features[0].geometry.coordinates;
+
+        map.easeTo({
+          center: coords,
+          zoom: Math.max(map.getZoom(), 15)
+        });
+      });
+
     });
 
-    // Filter handler
+    // -----------------------------
+    // FILTER HANDLER
+    // -----------------------------
     document.getElementById("complianceCheckbox").addEventListener("change", (e) => {
       const filtered = e.target.checked
         ? processedLocations.filter(loc => loc.isOverCapacity)
