@@ -28,8 +28,8 @@
 
     .filter-panel {
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: 65px;
+      right: 2px;
       background: white;
       color: #333;
       padding: 12px;
@@ -38,13 +38,29 @@
       font-size: 14px;
       line-height: 1.5;
       z-index: 10;
+      width: 240px;
+    }
+
+    .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
     }
 
     .filter-title {
       font-weight: bold;
-      margin-bottom: 6px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
+    }
+
+    .toggle-button {
+      background: #eee;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 12px;
+      cursor: pointer;
     }
 
     .filter-item {
@@ -52,12 +68,36 @@
       align-items: center;
       cursor: pointer;
       font-weight: bold;
+      margin-bottom: 8px;
     }
 
     .filter-item input {
       margin-right: 8px;
       transform: scale(1.2);
       cursor: pointer;
+    }
+
+    .slider-label {
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    .reset-button {
+      margin-top: 12px;
+      width: 100%;
+      padding: 8px;
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .reset-button:hover {
+      background: #0d47a1;
     }
 
     .popup-title {
@@ -100,12 +140,22 @@
   <h2>Chatham County STVR Compliance Map</h2>
   <div id="map"></div>
 
-  <div class="filter-panel">
-    <div class="filter-title">Compliance Filters</div>
+  <div class="filter-panel" id="filterPanel">
+    <div class="filter-header">
+      <div class="filter-title">Compliance Filters</div>
+      <button class="toggle-button" id="toggleFiltersBtn">Hide</button>
+    </div>
+
     <label class="filter-item">
       <input type="checkbox" id="complianceCheckbox">
       Show Violations Only
     </label>
+
+    <div class="slider-label">Min Over-Limit:</div>
+    <input type="range" id="overLimitSlider" min="0" max="20" value="0" step="1" style="width:100%;">
+    <div id="overLimitValue">0 guests over</div>
+
+    <button class="reset-button" id="resetZoomBtn">Reset Zoom</button>
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
@@ -138,7 +188,6 @@
       };
     }).filter(Boolean);
 
-    // Convert to GeoJSON
     function toGeoJSON(data) {
       return {
         type: "FeatureCollection",
@@ -154,6 +203,16 @@
     }
 
     const defaultCenter = [-81.0087, 32.0485];
+    const defaultZoom = 12;
+
+    // Global bounds for reset zoom
+    let globalMinX = Infinity, globalMinY = Infinity, globalMaxX = -Infinity, globalMaxY = -Infinity;
+    processedLocations.forEach(loc => {
+      if (loc.longitude < globalMinX) globalMinX = loc.longitude;
+      if (loc.latitude < globalMinY) globalMinY = loc.latitude;
+      if (loc.longitude > globalMaxX) globalMaxX = loc.longitude;
+      if (loc.latitude > globalMaxY) globalMaxY = loc.latitude;
+    });
 
     const map = new maplibregl.Map({
       container: "map",
@@ -178,10 +237,10 @@
         ]
       },
       center: defaultCenter,
-      zoom: 12
+      zoom: defaultZoom
     });
 
-    // ⭐ Custom smooth animation helper
+    // Smooth animation helper
     function animateMap(targetCenter, targetZoom, duration = 900) {
       const startZoom = map.getZoom();
       const startCenter = map.getCenter();
@@ -203,15 +262,55 @@
       requestAnimationFrame(frame);
     }
 
-    map.on("load", () => {
+    // Spiderfy helpers
+    const SPIDERFY_RADIUS = 70; // px
+    function clearSpiderfy() {
+      const src = map.getSource("spiderfy");
+      if (src) {
+        src.setData({ type: "FeatureCollection", features: [] });
+      }
+    }
 
-      // Source with clustering
+    function spiderfyFeatures(features, centerPoint) {
+      if (!features || features.length < 2) return;
+
+      const angleStep = (2 * Math.PI) / features.length;
+      const spiderFeatures = features.map((f, i) => {
+        const angle = i * angleStep;
+        const x = centerPoint.x + SPIDERFY_RADIUS * Math.cos(angle);
+        const y = centerPoint.y + SPIDERFY_RADIUS * Math.sin(angle);
+        const lngLat = map.unproject({ x, y });
+
+        return {
+          type: "Feature",
+          geometry: {
+            type: "Point",
+            coordinates: [lngLat.lng, lngLat.lat]
+          },
+          properties: f.properties
+        };
+      });
+
+      map.getSource("spiderfy").setData({
+        type: "FeatureCollection",
+        features: spiderFeatures
+      });
+    }
+
+    map.on("load", () => {
+      // Main source with clustering
       map.addSource("strv", {
         type: "geojson",
         data: toGeoJSON(processedLocations),
         cluster: true,
         clusterRadius: 40,
         clusterMaxZoom: 14
+      });
+
+      // Spiderfy source
+      map.addSource("spiderfy", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] }
       });
 
       // Cluster circles
@@ -267,7 +366,7 @@
         }
       });
 
-      // Labels with collision avoidance
+      // Labels for individual STVRs
       map.addLayer({
         id: "strv-labels",
         type: "symbol",
@@ -294,10 +393,55 @@
         }
       });
 
-      // Popups + smooth animated zoom for individual points
-      map.on("click", "strv-circles", (e) => {
-        const loc = e.features[0].properties;
+      // Spiderfy circles
+      map.addLayer({
+        id: "spiderfy-circles",
+        type: "circle",
+        source: "spiderfy",
+        paint: {
+          "circle-radius": 10,
+          "circle-color": [
+            "case",
+            ["get", "isOverCapacity"],
+            "#d32f2f",
+            "#388e3c"
+          ],
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#000"
+        }
+      });
 
+      // Spiderfy labels
+      map.addLayer({
+        id: "spiderfy-labels",
+        type: "symbol",
+        source: "spiderfy",
+        layout: {
+          "text-field": [
+            "case",
+            ["get", "isOverCapacity"],
+            ["to-string", ["get", "overAmount"]],
+            ""
+          ],
+          "text-size": 11,
+          "text-font": ["Noto Sans Regular"],
+          "text-anchor": "center",
+          "text-justify": "center",
+          "text-allow-overlap": false,
+          "text-ignore-placement": false
+        },
+        paint: {
+          "text-color": "#000",
+          "text-halo-color": "#fff",
+          "text-halo-width": 0.8
+        }
+      });
+
+      // Popup + zoom for individual points (base layer)
+      map.on("click", "strv-circles", (e) => {
+        clearSpiderfy();
+
+        const loc = e.features[0].properties;
         const excessive = loc.guests - loc.maxAllowedGuests;
         const warning = excessive > 0
           ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
@@ -308,12 +452,10 @@
             <div class="popup-title">${loc.rental_type}</div>
             <strong>Approximate Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
-
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
             <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
             ${warning}
-
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
           </div>
         `;
@@ -323,15 +465,58 @@
           .setHTML(html)
           .addTo(map);
 
-        // ⭐ Smooth animation
-        animateMap(
-          e.features[0].geometry.coordinates,
-          Math.max(map.getZoom(), 15)
-        );
+        const clickedCoord = e.features[0].geometry.coordinates;
+        const rendered = map.queryRenderedFeatures(e.point, { layers: ["strv-circles"] });
+
+        const sameSpot = rendered.filter(f => {
+          const c = f.geometry.coordinates;
+          return c[0] === clickedCoord[0] && c[1] === clickedCoord[1];
+        });
+
+        const zoom = map.getZoom();
+        const shouldSpiderfy =
+          sameSpot.length > 1 ||
+          (zoom >= 18 && rendered.length > 1);
+
+        if (shouldSpiderfy) {
+          const centerPoint = map.project(e.lngLat);
+          spiderfyFeatures(sameSpot, centerPoint);
+        } else {
+          animateMap(clickedCoord, Math.max(zoom, 15));
+        }
       });
 
-      // ⭐ Perfect cluster zoom — smooth animation
+      // Popup + zoom for spiderfied points
+      map.on("click", "spiderfy-circles", (e) => {
+        const loc = e.features[0].properties;
+        const excessive = loc.guests - loc.maxAllowedGuests;
+        const warning = excessive > 0
+          ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
+          : "";
+
+        const html = `
+          <div class="popup-content">
+            <div class="popup-title">${loc.rental_type}</div>
+            <strong>Approximate Address:</strong> ${loc.approximate_address}<br/>
+            <strong>Host:</strong> ${loc.host_name}<hr/>
+            <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
+            <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
+            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+            ${warning}
+            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+          </div>
+        `;
+
+        new maplibregl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(html)
+          .addTo(map);
+      });
+
+      // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
       map.on("click", "clusters", (e) => {
+        clearSpiderfy();
+
         const clusterId = e.features[0].properties.cluster_id;
         const source = map.getSource("strv");
 
@@ -349,8 +534,6 @@
           });
 
           const center = [(minX + maxX) / 2, (minY + maxY) / 2];
-
-          // Compute zoom level based on bbox size
           const dx = maxX - minX;
           const dy = maxY - minY;
           const size = Math.max(dx, dy);
@@ -362,13 +545,51 @@
 
     });
 
-    // Filter handler
-    document.getElementById("complianceCheckbox").addEventListener("change", (e) => {
-      const filtered = e.target.checked
-        ? processedLocations.filter(loc => loc.isOverCapacity)
-        : processedLocations;
+    // Filtering logic
+    function applyFilters() {
+      const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
+      const minOver = Number(document.getElementById("overLimitSlider").value);
 
+      const filtered = processedLocations.filter(loc => {
+        if (showViolationsOnly && !loc.isOverCapacity) return false;
+        if (loc.overAmount < minOver) return false;
+        return true;
+      });
+
+      clearSpiderfy();
       map.getSource("strv").setData(toGeoJSON(filtered));
+    }
+
+    document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
+
+    document.getElementById("overLimitSlider").addEventListener("input", (e) => {
+      document.getElementById("overLimitValue").innerText = `${e.target.value} guests over`;
+      applyFilters();
+    });
+
+    // Reset Zoom: fit all listings into viewport
+    document.getElementById("resetZoomBtn").addEventListener("click", () => {
+      clearSpiderfy();
+      map.fitBounds(
+        [[globalMinX, globalMinY], [globalMaxX, globalMaxY]],
+        { padding: 80, duration: 900, easing: t => t * (2 - t) }
+      );
+    });
+
+    // Collapsible filter panel
+    const filterPanel = document.getElementById("filterPanel");
+    const toggleBtn = document.getElementById("toggleFiltersBtn");
+    let filtersCollapsed = false;
+
+    toggleBtn.addEventListener("click", () => {
+      filtersCollapsed = !filtersCollapsed;
+      const children = Array.from(filterPanel.children).filter(
+        el => !el.classList.contains("filter-header")
+      );
+      children.forEach(el => {
+        el.style.display = filtersCollapsed ? "none" : "";
+      });
+      toggleBtn.textContent = filtersCollapsed ? "Show" : "Hide";
     });
   </script>
 </body>
