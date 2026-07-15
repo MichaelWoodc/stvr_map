@@ -181,27 +181,79 @@
       zoom: 12
     });
 
+    // ⭐ Custom smooth animation helper
+    function animateMap(targetCenter, targetZoom, duration = 900) {
+      const startZoom = map.getZoom();
+      const startCenter = map.getCenter();
+      const startTime = performance.now();
+
+      function frame(now) {
+        const t = Math.min((now - startTime) / duration, 1);
+        const eased = t * (2 - t);
+
+        const lng = startCenter.lng + (targetCenter[0] - startCenter.lng) * eased;
+        const lat = startCenter.lat + (targetCenter[1] - startCenter.lat) * eased;
+        const zoom = startZoom + (targetZoom - startZoom) * eased;
+
+        map.jumpTo({ center: [lng, lat], zoom });
+
+        if (t < 1) requestAnimationFrame(frame);
+      }
+
+      requestAnimationFrame(frame);
+    }
+
     map.on("load", () => {
 
-      // -----------------------------
-      // GEOJSON SOURCE (CLUSTERING COMMENTED OUT)
-      // -----------------------------
+      // Source with clustering
       map.addSource("strv", {
         type: "geojson",
         data: toGeoJSON(processedLocations),
-
-        // cluster: true,
-        // clusterRadius: 40,
-        // clusterMaxZoom: 14
+        cluster: true,
+        clusterRadius: 40,
+        clusterMaxZoom: 14
       });
 
-      // -----------------------------
-      // MAIN CIRCLE LAYER
-      // -----------------------------
+      // Cluster circles
+      map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "strv",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#444",
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            18, 10,
+            22, 25,
+            28
+          ]
+        }
+      });
+
+      // Cluster count labels
+      map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "strv",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": "{point_count}",
+          "text-size": 12,
+          "text-font": ["Noto Sans Regular"]
+        },
+        paint: {
+          "text-color": "#fff"
+        }
+      });
+
+      // Individual STVR circles
       map.addLayer({
         id: "strv-circles",
         type: "circle",
         source: "strv",
+        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-radius": 12,
           "circle-color": [
@@ -215,13 +267,12 @@
         }
       });
 
-      // -----------------------------
-      // LABELS WITH COLLISION AVOIDANCE
-      // -----------------------------
+      // Labels with collision avoidance
       map.addLayer({
         id: "strv-labels",
         type: "symbol",
         source: "strv",
+        filter: ["!", ["has", "point_count"]],
         layout: {
           "text-field": [
             "case",
@@ -230,11 +281,9 @@
             ""
           ],
           "text-size": 12,
-          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+          "text-font": ["Noto Sans Regular"],
           "text-anchor": "center",
           "text-justify": "center",
-
-          // ⭐ AUTO COLLISION HANDLING
           "text-allow-overlap": false,
           "text-ignore-placement": false
         },
@@ -245,9 +294,7 @@
         }
       });
 
-      // -----------------------------
-      // POPUPS
-      // -----------------------------
+      // Popups + smooth animated zoom for individual points
       map.on("click", "strv-circles", (e) => {
         const loc = e.features[0].properties;
 
@@ -275,25 +322,47 @@
           .setLngLat(e.lngLat)
           .setHTML(html)
           .addTo(map);
+
+        // ⭐ Smooth animation
+        animateMap(
+          e.features[0].geometry.coordinates,
+          Math.max(map.getZoom(), 15)
+        );
       });
 
-      // -----------------------------
-      // ⭐ ZOOM TO POINT ON CLICK (works even without clustering)
-      // -----------------------------
-      map.on("click", "strv-circles", (e) => {
-        const coords = e.features[0].geometry.coordinates;
+      // ⭐ Perfect cluster zoom — smooth animation
+      map.on("click", "clusters", (e) => {
+        const clusterId = e.features[0].properties.cluster_id;
+        const source = map.getSource("strv");
 
-        map.easeTo({
-          center: coords,
-          zoom: Math.max(map.getZoom(), 15)
+        source.getClusterLeaves(clusterId, Infinity, 0, (err, leaves) => {
+          if (err || !leaves.length) return;
+
+          let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+
+          leaves.forEach(f => {
+            const [x, y] = f.geometry.coordinates;
+            if (x < minX) minX = x;
+            if (y < minY) minY = y;
+            if (x > maxX) maxX = x;
+            if (y > maxY) maxY = y;
+          });
+
+          const center = [(minX + maxX) / 2, (minY + maxY) / 2];
+
+          // Compute zoom level based on bbox size
+          const dx = maxX - minX;
+          const dy = maxY - minY;
+          const size = Math.max(dx, dy);
+          const zoom = Math.min(18, map.getZoom() + (size < 0.01 ? 3 : 2));
+
+          animateMap(center, zoom);
         });
       });
 
     });
 
-    // -----------------------------
-    // FILTER HANDLER
-    // -----------------------------
+    // Filter handler
     document.getElementById("complianceCheckbox").addEventListener("change", (e) => {
       const filtered = e.target.checked
         ? processedLocations.filter(loc => loc.isOverCapacity)
