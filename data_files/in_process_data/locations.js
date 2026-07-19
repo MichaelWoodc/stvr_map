@@ -12,7 +12,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "133 AZALEA AVE",
-    "approx_distance_meters": 0.0002346162574403118
+    "approx_distance_meters": 0.0002346162574403118,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -4.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1002837122125630437",
@@ -27,7 +31,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1010 PORTER ST",
-    "approx_distance_meters": 0.00013636503626316955
+    "approx_distance_meters": 0.00013636503626316955,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1002950587602351901",
@@ -42,7 +50,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "177 MILLS RUN DR",
-    "approx_distance_meters": 3.2365578559487664e-05
+    "approx_distance_meters": 3.2365578559487664e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1003075566898464139",
@@ -57,7 +69,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "108 GUNPOWDER DR",
-    "approx_distance_meters": 0.0001418076611004498
+    "approx_distance_meters": 0.0001418076611004498,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1003546752038003006",
@@ -72,7 +88,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2810 WHATLEY AVE",
-    "approx_distance_meters": 2.3167674114492855e-05
+    "approx_distance_meters": 2.3167674114492855e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1003756622224095922",
@@ -87,7 +107,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "109 E POINT DR",
-    "approx_distance_meters": 4.2059326336397383e-05
+    "approx_distance_meters": 4.2059326336397383e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005065744233549667",
@@ -102,7 +126,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "109 E POINT DR",
-    "approx_distance_meters": 4.2059326336397383e-05
+    "approx_distance_meters": 4.2059326336397383e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005065834643174647",
@@ -117,7 +145,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "109 E POINT DR",
-    "approx_distance_meters": 4.2059326336397383e-05
+    "approx_distance_meters": 4.2059326336397383e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005093609068753712",
@@ -132,7 +164,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "126 REDAN DR",
-    "approx_distance_meters": 0.0002015951353108836
+    "approx_distance_meters": 0.0002015951353108836,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005657412638390087",
@@ -147,7 +183,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "113 TURNBUCKLE CT",
-    "approx_distance_meters": 0.0002866243548950854
+    "approx_distance_meters": 0.0002866243548950854,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005701019393960890",
@@ -162,7 +202,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "106 BOWSPRIT LN",
-    "approx_distance_meters": 0.00013654872272973056
+    "approx_distance_meters": 0.00013654872272973056,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1006582934965701215",
@@ -177,7 +221,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "512 E CHARLTON ST",
-    "approx_distance_meters": 9.953964136483355e-05
+    "approx_distance_meters": 9.953964136483355e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1009469686678735726",
@@ -192,7 +240,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "517 E HARRIS ST",
-    "approx_distance_meters": 3.148631075081831e-05
+    "approx_distance_meters": 3.148631075081831e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1009653716845164300",
@@ -207,7 +259,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "202 STONEBRIDGE DR",
-    "approx_distance_meters": 0.00018604126975403176
+    "approx_distance_meters": 0.00018604126975403176,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1010400425502948005",
@@ -222,7 +278,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 3.7144331430972316e-05
+    "approx_distance_meters": 3.7144331430972316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1012427673455037747",
@@ -237,7 +297,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "432 PORT ST",
-    "approx_distance_meters": 3.3584830189303664e-05
+    "approx_distance_meters": 3.3584830189303664e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1013867608069056097",
@@ -252,7 +316,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "415 GOEBEL AVE",
-    "approx_distance_meters": 0.00032815636161556157
+    "approx_distance_meters": 0.00032815636161556157,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1013884230354103070",
@@ -267,7 +335,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3108 WHATLEY AVE",
-    "approx_distance_meters": 1.1467312890148289e-05
+    "approx_distance_meters": 1.1467312890148289e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1013978100453102215",
@@ -282,7 +354,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "150 ROPEMAKER LN",
-    "approx_distance_meters": 0.00015836056481511774
+    "approx_distance_meters": 0.00015836056481511774,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1016721809281318383",
@@ -297,7 +373,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "519 E PERRY ST",
-    "approx_distance_meters": 1.0210963361349578e-05
+    "approx_distance_meters": 1.0210963361349578e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1018006992979043354",
@@ -312,7 +392,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1223 CRAWFORD WAY",
-    "approx_distance_meters": 7.973412175409873e-05
+    "approx_distance_meters": 7.973412175409873e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1018876891434658521",
@@ -327,7 +411,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2326 WALTHOUR RD",
-    "approx_distance_meters": 0.0005593844754333808
+    "approx_distance_meters": 0.0005593844754333808,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1019620865879073558",
@@ -342,7 +430,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "512 GOEBEL AVE",
-    "approx_distance_meters": 0.0001285455276803546
+    "approx_distance_meters": 0.0001285455276803546,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1025302570554106155",
@@ -357,7 +449,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9 LANWICK CT",
-    "approx_distance_meters": 0.000257105283829938
+    "approx_distance_meters": 0.000257105283829938,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1025347671052176616",
@@ -372,7 +468,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "118 CHAPEL DR",
-    "approx_distance_meters": 0.0001483230451160393
+    "approx_distance_meters": 0.0001483230451160393,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1025430132461051567",
@@ -387,7 +487,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1107 PLANTATION DR",
-    "approx_distance_meters": 7.391026602492414e-05
+    "approx_distance_meters": 7.391026602492414e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10267950",
@@ -402,7 +506,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #111B",
-    "approx_distance_meters": 0.0003000629423340507
+    "approx_distance_meters": 0.0003000629423340507,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10268332",
@@ -417,7 +525,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #208B",
-    "approx_distance_meters": 9.22572384352288e-05
+    "approx_distance_meters": 9.22572384352288e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10268376",
@@ -432,7 +544,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1314 BAY ST",
-    "approx_distance_meters": 0.0004398100253754683
+    "approx_distance_meters": 0.0004398100253754683,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10268390",
@@ -447,7 +563,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "2 SANCTUARY PL",
-    "approx_distance_meters": 0.00021238632159888577
+    "approx_distance_meters": 0.00021238632159888577,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 4.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10268414",
@@ -462,7 +582,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 7.309029637439622e-05
+    "approx_distance_meters": 7.309029637439622e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1026865082663070606",
@@ -477,7 +601,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "12439 LARGO DR",
-    "approx_distance_meters": 0.00013956520709807653
+    "approx_distance_meters": 0.00013956520709807653,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1027164774723228226",
@@ -492,7 +620,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1411 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.0001896367146975817
+    "approx_distance_meters": 0.0001896367146975817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1029672515032770714",
@@ -507,7 +639,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "CEDAR ST",
-    "approx_distance_meters": 5.138385976846412e-05
+    "approx_distance_meters": 5.138385976846412e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1029698772655643963",
@@ -522,7 +658,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1 SANCTUARY PL",
-    "approx_distance_meters": 1.527756581925155e-05
+    "approx_distance_meters": 1.527756581925155e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1029840823088812737",
@@ -537,7 +677,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 3.7144331430972316e-05
+    "approx_distance_meters": 3.7144331430972316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1035222624128644295",
@@ -552,7 +696,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "6602 ABERCORN ST",
-    "approx_distance_meters": 0.0003319634775907389
+    "approx_distance_meters": 0.0003319634775907389,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1037616847304846145",
@@ -567,7 +715,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1037748463133229179",
@@ -582,7 +734,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3215 PIERCE BLVD",
-    "approx_distance_meters": 3.4065827654822695e-05
+    "approx_distance_meters": 3.4065827654822695e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1038506517320133345",
@@ -597,7 +753,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "3 OLD US HIGHWAY 80",
-    "approx_distance_meters": 0.0005402747967123016
+    "approx_distance_meters": 0.0005402747967123016,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1039311687513391820",
@@ -612,7 +772,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "4923 PINELAND DR",
-    "approx_distance_meters": 6.512502926507441e-05
+    "approx_distance_meters": 6.512502926507441e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1039351255865103176",
@@ -627,7 +791,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "311 E WHATLEY ST",
-    "approx_distance_meters": 9.844781758095639e-05
+    "approx_distance_meters": 9.844781758095639e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1039981723043243595",
@@ -642,7 +810,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "41 LYNN AVE",
-    "approx_distance_meters": 0.00029192353828152355
+    "approx_distance_meters": 0.00029192353828152355,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1040871866028757408",
@@ -657,7 +829,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "613 MANDEN LN",
-    "approx_distance_meters": 0.0005213869405434891
+    "approx_distance_meters": 0.0005213869405434891,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1041923631571138642",
@@ -672,7 +848,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "203 LONGLEAF CIR",
-    "approx_distance_meters": 9.460348038320063e-05
+    "approx_distance_meters": 9.460348038320063e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1047398678982660638",
@@ -687,7 +867,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "5 BRADFORD CV",
-    "approx_distance_meters": 0.00018508939592166464
+    "approx_distance_meters": 0.00018508939592166464,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1050241112263539257",
@@ -702,7 +886,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "1825 MONTGOMERY ST",
-    "approx_distance_meters": 0.00031316370412322135
+    "approx_distance_meters": 0.00031316370412322135,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1050811506611396480",
@@ -717,14 +905,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "157 W TAHOE DR",
-    "approx_distance_meters": 0.0001031642520810653
+    "approx_distance_meters": 0.0001031642520810653,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1059423587934265105",
     "rental_type": "Entire home",
     "guests": 9.0,
     "bedrooms": 4.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 2.0,
     "latitude": 32.06014,
     "longitude": -81.10574,
@@ -732,7 +924,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "515 W 35TH ST",
-    "approx_distance_meters": 6.426883062599842e-05
+    "approx_distance_meters": 6.426883062599842e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10594915",
@@ -747,7 +943,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "540 E CHARLTON ST",
-    "approx_distance_meters": 1.182002707883197e-05
+    "approx_distance_meters": 1.182002707883197e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1061215177968364875",
@@ -762,7 +962,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "47 BRAMPTON RD",
-    "approx_distance_meters": 0.0003711274683724498
+    "approx_distance_meters": 0.0003711274683724498,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 4.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1061824254594787543",
@@ -777,7 +981,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "316 E HARRIS ST",
-    "approx_distance_meters": 0.0001031371569077303
+    "approx_distance_meters": 0.0001031371569077303,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1062480936293477349",
@@ -792,7 +1000,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 9.724854174717643e-05
+    "approx_distance_meters": 9.724854174717643e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1066817842172394156",
@@ -807,7 +1019,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "35 E DEERWOOD RD",
-    "approx_distance_meters": 8.000481294130583e-05
+    "approx_distance_meters": 8.000481294130583e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1070978616828850674",
@@ -822,7 +1038,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "123 E LIBERTY ST",
-    "approx_distance_meters": 7.573144372440617e-05
+    "approx_distance_meters": 7.573144372440617e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1071011481498897440",
@@ -837,7 +1057,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "130 BLUELAKE BLVD",
-    "approx_distance_meters": 4.036112706966676e-05
+    "approx_distance_meters": 4.036112706966676e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1072919261915096855",
@@ -852,7 +1076,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "540 OEMLER LOOP",
-    "approx_distance_meters": 6.503085918543582e-05
+    "approx_distance_meters": 6.503085918543582e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1074018054839976789",
@@ -867,7 +1095,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "123 E LIBERTY ST",
-    "approx_distance_meters": 7.573144372440617e-05
+    "approx_distance_meters": 7.573144372440617e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1077452008381370730",
@@ -882,7 +1114,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "35 KILLEARN CT",
-    "approx_distance_meters": 0.00021739626221051796
+    "approx_distance_meters": 0.00021739626221051796,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1082783482499537636",
@@ -897,7 +1133,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "120 BRYAN ST W #301",
-    "approx_distance_meters": 3.400218267255612e-05
+    "approx_distance_meters": 3.400218267255612e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1087835439988441752",
@@ -912,7 +1152,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "301 E HARRIS ST",
-    "approx_distance_meters": 1.9442316583019827e-05
+    "approx_distance_meters": 1.9442316583019827e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1087836460897881140",
@@ -927,7 +1171,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "301 E HARRIS ST",
-    "approx_distance_meters": 1.9442316583019827e-05
+    "approx_distance_meters": 1.9442316583019827e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1090907489341197328",
@@ -942,7 +1190,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "404 ALTAMAHA ST",
-    "approx_distance_meters": 2.2929036216303004e-05
+    "approx_distance_meters": 2.2929036216303004e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1092291180817304935",
@@ -957,7 +1209,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 W STATE ST",
-    "approx_distance_meters": 3.666274860457726e-05
+    "approx_distance_meters": 3.666274860457726e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1093047448331903805",
@@ -972,7 +1228,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "110 BARNARD ST #212",
-    "approx_distance_meters": 2.4860462644729092e-05
+    "approx_distance_meters": 2.4860462644729092e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1093505241588345972",
@@ -987,14 +1247,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "3130 ROBERTSON ST",
-    "approx_distance_meters": 7.663963065445568e-05
+    "approx_distance_meters": 7.663963065445568e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1095471167424152872",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
     "bedrooms": 2.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.08145,
     "longitude": -81.09555,
@@ -1002,7 +1266,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "11 JEFFERSON ST",
-    "approx_distance_meters": 0.00031976244431942405
+    "approx_distance_meters": 0.00031976244431942405,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1097706941028962855",
@@ -1017,7 +1285,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "2552 CRUSOE ISLAND DR",
-    "approx_distance_meters": 0.0013005217536931775
+    "approx_distance_meters": 0.0013005217536931775,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1102450462288152381",
@@ -1032,7 +1304,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "24 MAPMAKER LN",
-    "approx_distance_meters": 3.871483639731706e-05
+    "approx_distance_meters": 3.871483639731706e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1103568573317222985",
@@ -1047,7 +1323,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "522 E BRYAN ST",
-    "approx_distance_meters": 3.930326686878375e-05
+    "approx_distance_meters": 3.930326686878375e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1107966597827380132",
@@ -1062,7 +1342,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "123 E LIBERTY ST",
-    "approx_distance_meters": 7.573144372440617e-05
+    "approx_distance_meters": 7.573144372440617e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1109700607202881682",
@@ -1077,14 +1361,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "511 OEMLER LOOP",
-    "approx_distance_meters": 0.0002012569692322049
+    "approx_distance_meters": 0.0002012569692322049,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1111437311235674906",
     "rental_type": "Entire condo",
     "guests": 4.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0226,
     "longitude": -80.8589,
@@ -1092,7 +1380,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1217 BAY ST #114B",
-    "approx_distance_meters": 4.394791980752605e-06
+    "approx_distance_meters": 4.394791980752605e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1112371050735344648",
@@ -1107,7 +1399,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "206 HOLLY AVE",
-    "approx_distance_meters": 7.925697955896365e-05
+    "approx_distance_meters": 7.925697955896365e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/11126593",
@@ -1122,7 +1418,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "916 PENN WALLER RD",
-    "approx_distance_meters": 0.00013696282315400074
+    "approx_distance_meters": 0.00013696282315400074,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1113836232935487006",
@@ -1137,7 +1437,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "612 SUNCREST BLVD",
-    "approx_distance_meters": 0.00016805914416870583
+    "approx_distance_meters": 0.00016805914416870583,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1115959586377919929",
@@ -1152,7 +1456,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "104 QUARTERMAN DR",
-    "approx_distance_meters": 1.4749615509144228e-05
+    "approx_distance_meters": 1.4749615509144228e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1116177100506504470",
@@ -1167,7 +1475,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST",
-    "approx_distance_meters": 3.714197630006903e-05
+    "approx_distance_meters": 3.714197630006903e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1116798545861547703",
@@ -1182,7 +1494,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "45 WILD SILK WAY",
-    "approx_distance_meters": 7.855393127427245e-05
+    "approx_distance_meters": 7.855393127427245e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1118035326917039526",
@@ -1197,7 +1513,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST #304",
-    "approx_distance_meters": 7.916998979571665e-06
+    "approx_distance_meters": 7.916998979571665e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1124789260321348741",
@@ -1212,7 +1532,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "2605 DOGWOOD AVE",
-    "approx_distance_meters": 0.00020221453404995347
+    "approx_distance_meters": 0.00020221453404995347,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1126038065684347591",
@@ -1227,7 +1551,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "708 PENN WALLER RD",
-    "approx_distance_meters": 0.00025888171937369313
+    "approx_distance_meters": 0.00025888171937369313,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 4.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1126991317759056330",
@@ -1242,7 +1570,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1202 LINCOLN ST",
-    "approx_distance_meters": 3.0625776110540485e-05
+    "approx_distance_meters": 3.0625776110540485e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1127029325254220289",
@@ -1257,7 +1589,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #314B",
-    "approx_distance_meters": 7.415589686577653e-05
+    "approx_distance_meters": 7.415589686577653e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1132635263335270990",
@@ -1272,7 +1608,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "COVINGTON AVE",
-    "approx_distance_meters": 0.0003526073213853376
+    "approx_distance_meters": 0.0003526073213853376,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1133081",
@@ -1287,7 +1627,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "15",
     "approximate_address": "208 E 34TH ST",
-    "approx_distance_meters": 8.989310966150186e-05
+    "approx_distance_meters": 8.989310966150186e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1133289855201283812",
@@ -1302,7 +1646,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "100 BULL ST",
-    "approx_distance_meters": 5.594990034173196e-05
+    "approx_distance_meters": 5.594990034173196e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1133292479887432394",
@@ -1317,7 +1665,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "100 BULL ST",
-    "approx_distance_meters": 5.594990034173196e-05
+    "approx_distance_meters": 5.594990034173196e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1133297861590905211",
@@ -1332,7 +1684,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "100 BULL ST",
-    "approx_distance_meters": 5.594990034173196e-05
+    "approx_distance_meters": 5.594990034173196e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1136414519124979136",
@@ -1347,7 +1703,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "511 E LIBERTY ST",
-    "approx_distance_meters": 0.00010067785056918588
+    "approx_distance_meters": 0.00010067785056918588,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1136460873545557512",
@@ -1362,7 +1722,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "913 LYNAH ST",
-    "approx_distance_meters": 0.00011576755941325178
+    "approx_distance_meters": 0.00011576755941325178,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1136964284599709748",
@@ -1377,7 +1741,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "940 GAREY AVE",
-    "approx_distance_meters": 8.079311940781302e-05
+    "approx_distance_meters": 8.079311940781302e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/11409852",
@@ -1392,7 +1760,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "3014 YOUNG AVE",
-    "approx_distance_meters": 3.918576970689905e-05
+    "approx_distance_meters": 3.918576970689905e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1141188133002285315",
@@ -1407,7 +1779,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "525 E LIBERTY ST",
-    "approx_distance_meters": 0.00010206621817669742
+    "approx_distance_meters": 0.00010206621817669742,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1142954320044562392",
@@ -1422,7 +1798,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "212 FONTENOT DR",
-    "approx_distance_meters": 0.00012279912620882243
+    "approx_distance_meters": 0.00012279912620882243,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1143597075952167264",
@@ -1437,7 +1817,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
-    "approx_distance_meters": 7.175304094432215e-05
+    "approx_distance_meters": 7.175304094432215e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1145594413832887218",
@@ -1452,7 +1836,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "409 PORT ST",
-    "approx_distance_meters": 5.288205328823893e-05
+    "approx_distance_meters": 5.288205328823893e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1145784535506480833",
@@ -1467,7 +1855,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1117 HABERSHAM ST",
-    "approx_distance_meters": 8.463564059105674e-05
+    "approx_distance_meters": 8.463564059105674e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1147212330322085686",
@@ -1482,7 +1874,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "511 E LIBERTY ST",
-    "approx_distance_meters": 0.00010067785056918588
+    "approx_distance_meters": 0.00010067785056918588,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1147220054833840127",
@@ -1497,7 +1893,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "321 DOGWOOD CIR",
-    "approx_distance_meters": 0.00012258032935379918
+    "approx_distance_meters": 0.00012258032935379918,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1147901541811010024",
@@ -1512,14 +1912,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "2217 OLD SHELL RD",
-    "approx_distance_meters": 1.7473562575338697e-05
+    "approx_distance_meters": 1.7473562575338697e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -4.0,
+    "percent_over": -40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1148794249197564779",
     "rental_type": "Entire home",
     "guests": 4.0,
     "bedrooms": 3.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 2.0,
     "latitude": 32.1387,
     "longitude": -81.3102,
@@ -1527,7 +1931,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "90 CHEYENNE RD",
-    "approx_distance_meters": 0.0009970065276491517
+    "approx_distance_meters": 0.0009970065276491517,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -4.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1149166716093257521",
@@ -1542,7 +1950,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "513 E LIBERTY ST",
-    "approx_distance_meters": 9.626592973889416e-05
+    "approx_distance_meters": 9.626592973889416e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1149166718125260971",
@@ -1557,7 +1969,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "554 E MACON ST",
-    "approx_distance_meters": 6.52405194360427e-05
+    "approx_distance_meters": 6.52405194360427e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1149168721705462885",
@@ -1572,7 +1988,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "525 E LIBERTY ST",
-    "approx_distance_meters": 0.00010206621817669742
+    "approx_distance_meters": 0.00010206621817669742,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1149169229163090596",
@@ -1587,7 +2007,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "523 E LIBERTY ST",
-    "approx_distance_meters": 2.3363909480300908e-05
+    "approx_distance_meters": 2.3363909480300908e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1149169299169045858",
@@ -1602,7 +2026,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "525 E LIBERTY ST",
-    "approx_distance_meters": 0.00010206621817669742
+    "approx_distance_meters": 0.00010206621817669742,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 4.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1152120355292044939",
@@ -1617,7 +2045,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "6715 SAND RD",
-    "approx_distance_meters": 5.373967176885051e-05
+    "approx_distance_meters": 5.373967176885051e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 6.0,
+    "percent_over": 60.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1156020631418148610",
@@ -1632,7 +2064,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9 BLUE MARLIN CV",
-    "approx_distance_meters": 2.1345327307409857e-05
+    "approx_distance_meters": 2.1345327307409857e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1157205180469247740",
@@ -1647,7 +2083,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "519 E LIBERTY ST",
-    "approx_distance_meters": 5.2294811097351776e-05
+    "approx_distance_meters": 5.2294811097351776e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1157205181425519382",
@@ -1662,7 +2102,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "519 E LIBERTY ST",
-    "approx_distance_meters": 5.2294811097351776e-05
+    "approx_distance_meters": 5.2294811097351776e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1157205183248453331",
@@ -1677,7 +2121,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "517 E LIBERTY ST",
-    "approx_distance_meters": 7.266856488171106e-05
+    "approx_distance_meters": 7.266856488171106e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1157905509508872443",
@@ -1692,7 +2140,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
-    "approx_distance_meters": 7.175304094432215e-05
+    "approx_distance_meters": 7.175304094432215e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1158654881879039087",
@@ -1707,7 +2159,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
-    "approx_distance_meters": 7.175304094432215e-05
+    "approx_distance_meters": 7.175304094432215e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1158760801073202499",
@@ -1722,7 +2178,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 W STATE ST",
-    "approx_distance_meters": 3.666274860457726e-05
+    "approx_distance_meters": 3.666274860457726e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1158776389721135127",
@@ -1737,7 +2197,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
-    "approx_distance_meters": 7.175304094432215e-05
+    "approx_distance_meters": 7.175304094432215e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1158787454660158576",
@@ -1752,7 +2216,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2 ASHLYN RT",
-    "approx_distance_meters": 4.97237174477788e-06
+    "approx_distance_meters": 4.97237174477788e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1159844559437277448",
@@ -1767,7 +2235,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1005 LORA ST",
-    "approx_distance_meters": 0.00014511341110976327
+    "approx_distance_meters": 0.00014511341110976327,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1163999944439545496",
@@ -1782,7 +2254,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 W STATE ST",
-    "approx_distance_meters": 3.666274860457726e-05
+    "approx_distance_meters": 3.666274860457726e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1166610158380549574",
@@ -1797,7 +2273,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "114 W 51ST ST",
-    "approx_distance_meters": 0.00011554707408869611
+    "approx_distance_meters": 0.00011554707408869611,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -4.0,
+    "percent_over": -66.66666666666666
   },
   {
     "url": "https://www.airbnb.com/rooms/1166621166008917501",
@@ -1812,7 +2292,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "416 PORT ST",
-    "approx_distance_meters": 4.767899465789018e-05
+    "approx_distance_meters": 4.767899465789018e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1166770255873932040",
@@ -1827,7 +2311,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "32 ABACO CT",
-    "approx_distance_meters": 0.0004863936269579829
+    "approx_distance_meters": 0.0004863936269579829,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1167568997823133885",
@@ -1842,7 +2330,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "26 E BAY ST",
-    "approx_distance_meters": 7.535935878061995e-05
+    "approx_distance_meters": 7.535935878061995e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1167639715199337901",
@@ -1857,7 +2349,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "26 E BAY ST",
-    "approx_distance_meters": 7.535935878061995e-05
+    "approx_distance_meters": 7.535935878061995e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1169095003030419604",
@@ -1872,7 +2368,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "13 SHEFTALL CV",
-    "approx_distance_meters": 5.147434626467901e-05
+    "approx_distance_meters": 5.147434626467901e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1169518118012343551",
@@ -1887,7 +2387,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
-    "approx_distance_meters": 7.175304094432215e-05
+    "approx_distance_meters": 7.175304094432215e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1171101680461431674",
@@ -1902,7 +2406,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "227 CHIPPINGWOOD CIR",
-    "approx_distance_meters": 0.0001255731682801539
+    "approx_distance_meters": 0.0001255731682801539,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1172723872490273140",
@@ -1917,7 +2425,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1 DELFORD CT",
-    "approx_distance_meters": 4.4896733785418006e-05
+    "approx_distance_meters": 4.4896733785418006e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1173136701999881371",
@@ -1932,7 +2444,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "1464 E 40TH ST",
-    "approx_distance_meters": 2.9873239591775605e-05
+    "approx_distance_meters": 2.9873239591775605e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1173861872640536415",
@@ -1947,7 +2463,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "411 E ANDERSON ST",
-    "approx_distance_meters": 0.00015956469888294753
+    "approx_distance_meters": 0.00015956469888294753,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1174892409340063646",
@@ -1962,7 +2482,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1027 MILTON AVE",
-    "approx_distance_meters": 0.0001280365806015654
+    "approx_distance_meters": 0.0001280365806015654,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1175965553729718139",
@@ -1977,7 +2501,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "570 MENDEL AVE",
-    "approx_distance_meters": 0.00018998545563629203
+    "approx_distance_meters": 0.00018998545563629203,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1176043654186220791",
@@ -1992,14 +2520,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "132 OATLAND ISLAND RD",
-    "approx_distance_meters": 0.00016589697895476766
+    "approx_distance_meters": 0.00016589697895476766,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1177439212098817724",
     "rental_type": "Entire home",
     "guests": 6.0,
     "bedrooms": 2.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 2.0,
     "latitude": 32.05436,
     "longitude": -81.10808,
@@ -2007,7 +2539,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "524 W VICTORY DR",
-    "approx_distance_meters": 3.369429662493509e-05
+    "approx_distance_meters": 3.369429662493509e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1179209411078159616",
@@ -2022,7 +2558,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "319 W CONGRESS ST",
-    "approx_distance_meters": 9.787593567253517e-05
+    "approx_distance_meters": 9.787593567253517e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1179222258996345724",
@@ -2037,7 +2577,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "18 BLACK CREEK RD",
-    "approx_distance_meters": 4.4895754207627175e-05
+    "approx_distance_meters": 4.4895754207627175e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1182018235443567752",
@@ -2052,7 +2596,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "26 BOSTWICK DR",
-    "approx_distance_meters": 0.00010580948885403022
+    "approx_distance_meters": 0.00010580948885403022,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1182530538531842498",
@@ -2067,7 +2615,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "407 E CHARLTON ST",
-    "approx_distance_meters": 8.446661295374534e-05
+    "approx_distance_meters": 8.446661295374534e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1182532196692486353",
@@ -2082,7 +2634,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "407 E CHARLTON ST",
-    "approx_distance_meters": 8.446661295374534e-05
+    "approx_distance_meters": 8.446661295374534e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1183997705527539572",
@@ -2097,7 +2653,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "313 ABERCORN ST",
-    "approx_distance_meters": 4.5332421825563146e-05
+    "approx_distance_meters": 4.5332421825563146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1184019353782472598",
@@ -2112,7 +2672,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "407 E CHARLTON ST",
-    "approx_distance_meters": 8.446661295374534e-05
+    "approx_distance_meters": 8.446661295374534e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1184021882415725658",
@@ -2127,7 +2691,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "313 ABERCORN ST",
-    "approx_distance_meters": 4.5332421825563146e-05
+    "approx_distance_meters": 4.5332421825563146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1184021883939697482",
@@ -2142,7 +2710,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "313 ABERCORN ST",
-    "approx_distance_meters": 4.5332421825563146e-05
+    "approx_distance_meters": 4.5332421825563146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1184103480051593354",
@@ -2157,7 +2729,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "125 TIMBERLAND GAP RD",
-    "approx_distance_meters": 0.00033835289300998843
+    "approx_distance_meters": 0.00033835289300998843,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1187719192001324164",
@@ -2172,7 +2748,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "319 KATAMA WAY",
-    "approx_distance_meters": 0.0001922779591613904
+    "approx_distance_meters": 0.0001922779591613904,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1190056640601151350",
@@ -2187,7 +2767,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "16 CALIBOGUE RD",
-    "approx_distance_meters": 0.00010688028708782906
+    "approx_distance_meters": 0.00010688028708782906,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/11902581",
@@ -2202,7 +2786,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "502 E BROUGHTON ST",
-    "approx_distance_meters": 3.7848194159544434e-05
+    "approx_distance_meters": 3.7848194159544434e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1191132099001348446",
@@ -2217,7 +2805,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "164 LAKESIDE DR",
-    "approx_distance_meters": 6.585390370498095e-05
+    "approx_distance_meters": 6.585390370498095e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1191278127505459484",
@@ -2232,7 +2824,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "43 LANDWARD WAY",
-    "approx_distance_meters": 0.00020449652969095264
+    "approx_distance_meters": 0.00020449652969095264,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1192816297277825237",
@@ -2247,7 +2843,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "904 PENN WALLER RD",
-    "approx_distance_meters": 0.00010720104842795085
+    "approx_distance_meters": 0.00010720104842795085,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1192858517857927526",
@@ -2262,7 +2862,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "ESTILL AVE",
-    "approx_distance_meters": 0.00010307879754725544
+    "approx_distance_meters": 0.00010307879754725544,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/11935045",
@@ -2277,7 +2881,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "235 ABERCORN ST",
-    "approx_distance_meters": 4.563883077297989e-05
+    "approx_distance_meters": 4.563883077297989e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1194150967510094301",
@@ -2292,7 +2900,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "407 CARDINAL ST",
-    "approx_distance_meters": 0.00022697091628681485
+    "approx_distance_meters": 0.00022697091628681485,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1194857266180420053",
@@ -2307,7 +2919,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "313 ABERCORN ST",
-    "approx_distance_meters": 4.5332421825563146e-05
+    "approx_distance_meters": 4.5332421825563146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1195472885896005268",
@@ -2322,7 +2938,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "627 SUNCREST BLVD",
-    "approx_distance_meters": 0.0005329649517803993
+    "approx_distance_meters": 0.0005329649517803993,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1196629954914027512",
@@ -2337,7 +2957,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "518 POINTE NORTH DR",
-    "approx_distance_meters": 0.00010720157669426624
+    "approx_distance_meters": 0.00010720157669426624,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1197063594332589893",
@@ -2352,7 +2976,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1120 W 50TH ST",
-    "approx_distance_meters": 1.7631200542571293e-05
+    "approx_distance_meters": 1.7631200542571293e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1197344498932362098",
@@ -2367,7 +2995,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "108 WASSAW RD",
-    "approx_distance_meters": 0.00013459967211046288
+    "approx_distance_meters": 0.00013459967211046288,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1197973362379630413",
@@ -2382,7 +3014,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "110 BARNARD ST #210",
-    "approx_distance_meters": 6.177864963251292e-05
+    "approx_distance_meters": 6.177864963251292e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1199890032986508405",
@@ -2397,7 +3033,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "450 GEO MEYER AVE",
-    "approx_distance_meters": 4.3350708110384805e-05
+    "approx_distance_meters": 4.3350708110384805e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1199891602888595700",
@@ -2412,7 +3052,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "450 GEO MEYER AVE",
-    "approx_distance_meters": 4.3350708110384805e-05
+    "approx_distance_meters": 4.3350708110384805e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1203009100643235061",
@@ -2427,7 +3071,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "323 DOGWOOD CIR",
-    "approx_distance_meters": 4.966693037632375e-05
+    "approx_distance_meters": 4.966693037632375e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1206000181685013062",
@@ -2442,7 +3090,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "212 W BAY ST",
-    "approx_distance_meters": 1.871274449179146e-05
+    "approx_distance_meters": 1.871274449179146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12069311",
@@ -2457,7 +3109,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "535 E CHARLTON ST",
-    "approx_distance_meters": 3.4853973409037606e-05
+    "approx_distance_meters": 3.4853973409037606e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1207477526958698040",
@@ -2472,7 +3128,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "402 W 36TH ST",
-    "approx_distance_meters": 2.9291727374641405e-05
+    "approx_distance_meters": 2.9291727374641405e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1208931022694351940",
@@ -2487,7 +3147,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "510 E LIBERTY ST",
-    "approx_distance_meters": 0.00011764733943696303
+    "approx_distance_meters": 0.00011764733943696303,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1210187113076829810",
@@ -2502,7 +3166,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "5649 EMORY DR",
-    "approx_distance_meters": 8.287467302899123e-05
+    "approx_distance_meters": 8.287467302899123e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -4.0,
+    "percent_over": -66.66666666666666
   },
   {
     "url": "https://www.airbnb.com/rooms/1210789582920262614",
@@ -2517,7 +3185,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "11 OSSABAW RD",
-    "approx_distance_meters": 4.359118273592122e-05
+    "approx_distance_meters": 4.359118273592122e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1213106063496418934",
@@ -2532,7 +3204,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "7614 SKIDAWAY RD",
-    "approx_distance_meters": 0.00015084079828466915
+    "approx_distance_meters": 0.00015084079828466915,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1213124686009610925",
@@ -2547,7 +3223,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 W STATE ST",
-    "approx_distance_meters": 3.666274860457726e-05
+    "approx_distance_meters": 3.666274860457726e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1213238104231607111",
@@ -2562,7 +3242,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "121 PEARL ST",
-    "approx_distance_meters": 3.394888352259118e-05
+    "approx_distance_meters": 3.394888352259118e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1213771322978540673",
@@ -2577,14 +3261,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "420 GEO MEYER AVE",
-    "approx_distance_meters": 2.3822253596281964e-05
+    "approx_distance_meters": 2.3822253596281964e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1216163346212534094",
     "rental_type": "Entire rental unit",
     "guests": 8.0,
     "bedrooms": 2.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0539,
     "longitude": -81.1051,
@@ -2592,7 +3280,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "2605 JEFFERSON ST",
-    "approx_distance_meters": 2.3187506495303513e-05
+    "approx_distance_meters": 2.3187506495303513e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1216720443562668626",
@@ -2607,7 +3299,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "305 DOGWOOD CIR",
-    "approx_distance_meters": 8.798091639197181e-05
+    "approx_distance_meters": 8.798091639197181e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1219552269706092972",
@@ -2622,7 +3318,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 W STATE ST",
-    "approx_distance_meters": 3.666274860457726e-05
+    "approx_distance_meters": 3.666274860457726e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1220407512335700447",
@@ -2637,7 +3337,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1507 KINGS WAY",
-    "approx_distance_meters": 1.5478780789903282e-05
+    "approx_distance_meters": 1.5478780789903282e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1221772206946471643",
@@ -2652,7 +3356,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "112 LAURENS LN",
-    "approx_distance_meters": 5.8379332138690166e-05
+    "approx_distance_meters": 5.8379332138690166e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1221784689991853057",
@@ -2667,7 +3375,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "237 CLEARWATER CIR",
-    "approx_distance_meters": 8.80512201400607e-05
+    "approx_distance_meters": 8.80512201400607e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1223988675255933512",
@@ -2682,7 +3394,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "3 W PENROSE DR",
-    "approx_distance_meters": 3.62487937255042e-05
+    "approx_distance_meters": 3.62487937255042e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1227576278638490928",
@@ -2697,7 +3413,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "740 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.00014695665447763401
+    "approx_distance_meters": 0.00014695665447763401,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1229036067997847074",
@@ -2712,7 +3432,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "940 GAREY AVE",
-    "approx_distance_meters": 8.079311940781302e-05
+    "approx_distance_meters": 8.079311940781302e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1230530880285507352",
@@ -2727,7 +3451,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "103 W CONGRESS ST",
-    "approx_distance_meters": 2.268907256304223e-05
+    "approx_distance_meters": 2.268907256304223e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1231152230692526627",
@@ -2742,7 +3470,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "PARKSIDE BLVD",
-    "approx_distance_meters": 0.0001819294011581308
+    "approx_distance_meters": 0.0001819294011581308,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1233367512163254032",
@@ -2757,7 +3489,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "3 W PENROSE DR",
-    "approx_distance_meters": 3.62487937255042e-05
+    "approx_distance_meters": 3.62487937255042e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1233922269834222917",
@@ -2772,7 +3508,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "522 OEMLER LOOP",
-    "approx_distance_meters": 5.9137033553457965e-05
+    "approx_distance_meters": 5.9137033553457965e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1234860632104509197",
@@ -2787,7 +3527,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "324 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.00021416057714857234
+    "approx_distance_meters": 0.00021416057714857234,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1237087616150016902",
@@ -2802,7 +3546,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "728 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.0007740694056017279
+    "approx_distance_meters": 0.0007740694056017279,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1237769732648286442",
@@ -2817,7 +3565,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "449 PORT ST",
-    "approx_distance_meters": 0.00011349193687740269
+    "approx_distance_meters": 0.00011349193687740269,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1240225291979582672",
@@ -2832,7 +3584,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "2712 MECHANICS AVE",
-    "approx_distance_meters": 0.00019899660020537488
+    "approx_distance_meters": 0.00019899660020537488,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/12409455",
@@ -2847,7 +3603,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "144 FONTENOT DR",
-    "approx_distance_meters": 0.0012865696247681094
+    "approx_distance_meters": 0.0012865696247681094,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1242585505338645522",
@@ -2862,7 +3622,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1103 MILTON ST",
-    "approx_distance_meters": 0.00010152251667741377
+    "approx_distance_meters": 0.00010152251667741377,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1242748397375346874",
@@ -2877,7 +3641,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "462 GEO MEYER AVE",
-    "approx_distance_meters": 1.596611349717195e-05
+    "approx_distance_meters": 1.596611349717195e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1242749206411389337",
@@ -2892,7 +3660,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "462 GEO MEYER AVE",
-    "approx_distance_meters": 1.596611349717195e-05
+    "approx_distance_meters": 1.596611349717195e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1244298198640116422",
@@ -2907,7 +3679,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "14 ARROW HEAD WAY",
-    "approx_distance_meters": 1.6625357872965777e-05
+    "approx_distance_meters": 1.6625357872965777e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1244458403795084365",
@@ -2922,7 +3698,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "126 OLD WHALING WAY",
-    "approx_distance_meters": 8.987313598322872e-05
+    "approx_distance_meters": 8.987313598322872e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1244941815317913984",
@@ -2937,7 +3717,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "201 BATTERY WAY",
-    "approx_distance_meters": 0.00012730838323726226
+    "approx_distance_meters": 0.00012730838323726226,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1245077967913585671",
@@ -2952,7 +3736,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "750 PINE BARREN RD",
-    "approx_distance_meters": 0.0001087748385805208
+    "approx_distance_meters": 0.0001087748385805208,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1245703002681053046",
@@ -2967,7 +3755,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "336 ISLAND RD",
-    "approx_distance_meters": 7.940716359325081e-05
+    "approx_distance_meters": 7.940716359325081e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1245789335495266847",
@@ -2982,7 +3774,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "1322 E 69TH ST",
-    "approx_distance_meters": 0.00012732979466427446
+    "approx_distance_meters": 0.00012732979466427446,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1245960434565341038",
@@ -2997,7 +3793,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "102 NEVA AVE",
-    "approx_distance_meters": 6.512295849913456e-05
+    "approx_distance_meters": 6.512295849913456e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1249390264246650931",
@@ -3012,7 +3812,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "17 ROPEMAKER CT",
-    "approx_distance_meters": 0.00012729602448023443
+    "approx_distance_meters": 0.00012729602448023443,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1249401925190667358",
@@ -3027,7 +3831,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "134 ROPEMAKER LN",
-    "approx_distance_meters": 9.780127453433238e-05
+    "approx_distance_meters": 9.780127453433238e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12603978",
@@ -3042,7 +3850,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "507 E PERRY ST",
-    "approx_distance_meters": 5.2235432117674485e-05
+    "approx_distance_meters": 5.2235432117674485e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/12605764",
@@ -3057,7 +3869,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 4.840649977774554e-05
+    "approx_distance_meters": 4.840649977774554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12606833",
@@ -3072,7 +3888,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1429 ESTILL AVE ##A",
-    "approx_distance_meters": 6.457789239098911e-05
+    "approx_distance_meters": 6.457789239098911e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 1.0,
+    "percent_over": 10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1261780236668114427",
@@ -3087,7 +3907,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "218 PINECREST PL",
-    "approx_distance_meters": 0.0002165821982501077
+    "approx_distance_meters": 0.0002165821982501077,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1262262993490480039",
@@ -3102,7 +3926,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "145 ROPEMAKER LN",
-    "approx_distance_meters": 0.00010268593992975458
+    "approx_distance_meters": 0.00010268593992975458,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1262593944733924618",
@@ -3117,7 +3945,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "29 ARROW HEAD WAY",
-    "approx_distance_meters": 0.000128604743429253
+    "approx_distance_meters": 0.000128604743429253,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1263015614831330158",
@@ -3132,7 +3964,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "133 LAURELWOOD DR",
-    "approx_distance_meters": 7.590089002550528e-05
+    "approx_distance_meters": 7.590089002550528e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1263713354495392521",
@@ -3147,7 +3983,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "132 GLEN OAKS DR",
-    "approx_distance_meters": 2.073011786734748e-05
+    "approx_distance_meters": 2.073011786734748e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1263927107433075590",
@@ -3162,7 +4002,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "153 HOPECREST AVE",
-    "approx_distance_meters": 0.0001749244575571992
+    "approx_distance_meters": 0.0001749244575571992,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1268726821591298626",
@@ -3177,7 +4021,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "7 ROPEMAKER CT",
-    "approx_distance_meters": 4.556161475929165e-05
+    "approx_distance_meters": 4.556161475929165e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1268818841356176663",
@@ -3192,7 +4040,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1518 WALTHOUR RD",
-    "approx_distance_meters": 0.00019421097240222715
+    "approx_distance_meters": 0.00019421097240222715,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1269008313807364353",
@@ -3207,7 +4059,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "404 GOEBEL AVE",
-    "approx_distance_meters": 0.00013707146663652188
+    "approx_distance_meters": 0.00013707146663652188,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/12699019",
@@ -3222,14 +4078,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "204 W BROUGHTON ST",
-    "approx_distance_meters": 2.5287335604476518e-05
+    "approx_distance_meters": 2.5287335604476518e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1270219537102813016",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.05363131293293,
     "longitude": -81.1062686062072,
@@ -3237,14 +4097,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "W VICTORY DR",
-    "approx_distance_meters": 0.00019989952385120186
+    "approx_distance_meters": 0.00019989952385120186,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1270248385754965891",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.05333386955314,
     "longitude": -81.1049017514072,
@@ -3252,7 +4116,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "218 W VICTORY DR",
-    "approx_distance_meters": 6.453806158224156e-05
+    "approx_distance_meters": 6.453806158224156e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1270257849775099732",
@@ -3267,7 +4135,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12707051",
@@ -3282,7 +4154,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "507 E PERRY ST",
-    "approx_distance_meters": 4.9415649185326075e-05
+    "approx_distance_meters": 4.9415649185326075e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1270879084584160918",
@@ -3297,7 +4173,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "2709 MECHANICS AVE",
-    "approx_distance_meters": 4.8883837824234583e-05
+    "approx_distance_meters": 4.8883837824234583e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1271775941306055348",
@@ -3312,7 +4192,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "122 NORTH ST",
-    "approx_distance_meters": 0.0001772971478154352
+    "approx_distance_meters": 0.0001772971478154352,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1272591829166339366",
@@ -3327,7 +4211,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "126 HUNT CLUB CT",
-    "approx_distance_meters": 6.54448040578481e-05
+    "approx_distance_meters": 6.54448040578481e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1273968808084302262",
@@ -3342,7 +4230,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3226 RUSSELL ST",
-    "approx_distance_meters": 0.00017980051265143425
+    "approx_distance_meters": 0.00017980051265143425,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12788995",
@@ -3357,7 +4249,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "424 E CHARLTON LN",
-    "approx_distance_meters": 3.735475519566846e-05
+    "approx_distance_meters": 3.735475519566846e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1278955170773804240",
@@ -3372,7 +4268,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "421 E CONGRESS ST",
-    "approx_distance_meters": 1.2167139180638794e-05
+    "approx_distance_meters": 1.2167139180638794e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1285374865884121629",
@@ -3387,7 +4287,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "116 LONGLEAF CIR",
-    "approx_distance_meters": 0.0001341662984591494
+    "approx_distance_meters": 0.0001341662984591494,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1288897092087495881",
@@ -3402,7 +4306,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "2201 BULL ST",
-    "approx_distance_meters": 0.00014557877549094703
+    "approx_distance_meters": 0.00014557877549094703,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1289222108838117370",
@@ -3417,7 +4325,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "208 E JONES ST",
-    "approx_distance_meters": 1.8707328034470544e-05
+    "approx_distance_meters": 1.8707328034470544e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 1.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1290597812377507154",
@@ -3432,7 +4344,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "210 W BAY ST",
-    "approx_distance_meters": 2.0446274871588686e-05
+    "approx_distance_meters": 2.0446274871588686e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1291550831492901278",
@@ -3447,7 +4363,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "105 RUNAWAY POINT RD",
-    "approx_distance_meters": 0.00010085341207549869
+    "approx_distance_meters": 0.00010085341207549869,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1291594004608644268",
@@ -3462,7 +4382,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "140 AQUINNAH DR",
-    "approx_distance_meters": 0.00011868673197642336
+    "approx_distance_meters": 0.00011868673197642336,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1294569021513324277",
@@ -3477,7 +4401,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "113 MILLS RUN DR",
-    "approx_distance_meters": 0.00021136356944622702
+    "approx_distance_meters": 0.00021136356944622702,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1295291693862552867",
@@ -3492,7 +4420,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "119 BULL ST",
-    "approx_distance_meters": 0.00011598460450239635
+    "approx_distance_meters": 0.00011598460450239635,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1295292795480624177",
@@ -3507,7 +4439,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "515 PORT ST",
-    "approx_distance_meters": 2.1449186397218536e-05
+    "approx_distance_meters": 2.1449186397218536e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1295686240105191179",
@@ -3522,7 +4458,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "3 HOPELAND DR",
-    "approx_distance_meters": 8.431103289224206e-05
+    "approx_distance_meters": 8.431103289224206e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1299315426915018351",
@@ -3537,7 +4477,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2 ASHLYN RT",
-    "approx_distance_meters": 4.97237174477788e-06
+    "approx_distance_meters": 4.97237174477788e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1300662945731217581",
@@ -3552,7 +4496,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1217 BAY ST",
-    "approx_distance_meters": 2.6345668115883767e-05
+    "approx_distance_meters": 2.6345668115883767e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1300951385551209633",
@@ -3567,7 +4515,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "16 SANDY SHOALS PASS",
-    "approx_distance_meters": 9.298021139203682e-06
+    "approx_distance_meters": 9.298021139203682e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/13017628",
@@ -3582,7 +4534,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "206 DEBRA RD",
-    "approx_distance_meters": 0.00013644492366384517
+    "approx_distance_meters": 0.00013644492366384517,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1309118076345847938",
@@ -3597,7 +4553,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1316 BAY ST",
-    "approx_distance_meters": 8.507700823904863e-05
+    "approx_distance_meters": 8.507700823904863e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1310607030709957919",
@@ -3612,7 +4572,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "8 CASSIDY CT",
-    "approx_distance_meters": 6.089536792731669e-05
+    "approx_distance_meters": 6.089536792731669e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1313196737330598593",
@@ -3627,7 +4591,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2 ASHLYN RT",
-    "approx_distance_meters": 4.97237174477788e-06
+    "approx_distance_meters": 4.97237174477788e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 30.0,
+    "over_occupancy": -14.0,
+    "percent_over": -46.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1313281223215657597",
@@ -3642,7 +4610,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "905 E PARK AVE",
-    "approx_distance_meters": 7.547633245298488e-05
+    "approx_distance_meters": 7.547633245298488e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1316008017615247105",
@@ -3657,7 +4629,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "45 SKYLINE DR",
-    "approx_distance_meters": 6.046809494312892e-05
+    "approx_distance_meters": 6.046809494312892e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/13167983",
@@ -3672,7 +4648,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "234 HABERSHAM ST",
-    "approx_distance_meters": 5.121501253066403e-05
+    "approx_distance_meters": 5.121501253066403e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1319002480607155826",
@@ -3687,7 +4667,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "537 E PERRY ST",
-    "approx_distance_meters": 2.9082508483138516e-05
+    "approx_distance_meters": 2.9082508483138516e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1319004814887354558",
@@ -3702,7 +4686,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "539 E PERRY ST",
-    "approx_distance_meters": 8.874131895282948e-05
+    "approx_distance_meters": 8.874131895282948e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1319005288599474985",
@@ -3717,7 +4705,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "537 E PERRY ST",
-    "approx_distance_meters": 2.9082508483138516e-05
+    "approx_distance_meters": 2.9082508483138516e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1322760451077464978",
@@ -3732,7 +4724,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "7301 TROPICAL WAY",
-    "approx_distance_meters": 0.0001299389320738509
+    "approx_distance_meters": 0.0001299389320738509,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1325427166493384607",
@@ -3747,7 +4743,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "97 LEE AVE",
-    "approx_distance_meters": 0.00011105844978276224
+    "approx_distance_meters": 0.00011105844978276224,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1325448474406747953",
@@ -3762,7 +4762,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "317 E BROAD ST",
-    "approx_distance_meters": 5.675516773438504e-05
+    "approx_distance_meters": 5.675516773438504e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1327731151991166864",
@@ -3777,7 +4781,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "3216 CENTER ST",
-    "approx_distance_meters": 0.000159568916554611
+    "approx_distance_meters": 0.000159568916554611,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1329940974282837798",
@@ -3792,7 +4800,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "2140 CAPITAL ST",
-    "approx_distance_meters": 9.621452148326663e-05
+    "approx_distance_meters": 9.621452148326663e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1331207140981574846",
@@ -3807,7 +4819,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "23 W BROUGHTON ST",
-    "approx_distance_meters": 5.221947304717204e-05
+    "approx_distance_meters": 5.221947304717204e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 4.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1331207166434265086",
@@ -3822,7 +4838,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "23 W BROUGHTON ST",
-    "approx_distance_meters": 5.221947304717204e-05
+    "approx_distance_meters": 5.221947304717204e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 4.0,
+    "percent_over": 66.66666666666666
   },
   {
     "url": "https://www.airbnb.com/rooms/1333355951002452280",
@@ -3837,7 +4857,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "1707 KINGS WAY",
-    "approx_distance_meters": 0.000112977186636249
+    "approx_distance_meters": 0.000112977186636249,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1333480278753868842",
@@ -3852,7 +4876,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "211 E 40TH ST",
-    "approx_distance_meters": 0.0001538832629794285
+    "approx_distance_meters": 0.0001538832629794285,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1337194232550239932",
@@ -3867,7 +4895,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "308 KATAMA WAY",
-    "approx_distance_meters": 8.88737653256556e-05
+    "approx_distance_meters": 8.88737653256556e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1339149665464626100",
@@ -3882,7 +4914,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2710 MECHANICS AVE",
-    "approx_distance_meters": 8.02160941205049e-06
+    "approx_distance_meters": 8.02160941205049e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1339959949012710847",
@@ -3897,7 +4933,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "110 E STATE ST",
-    "approx_distance_meters": 0.0001777334961161959
+    "approx_distance_meters": 0.0001777334961161959,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1343771560522661791",
@@ -3912,7 +4952,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "LAKESIDE DR",
-    "approx_distance_meters": 0.0008903685073346252
+    "approx_distance_meters": 0.0008903685073346252,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1345820319535674054",
@@ -3927,7 +4971,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "457 PORT ST",
-    "approx_distance_meters": 9.490935071136053e-05
+    "approx_distance_meters": 9.490935071136053e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1346660039165557101",
@@ -3942,7 +4990,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "3212 CENTER ST",
-    "approx_distance_meters": 0.00017561007864697132
+    "approx_distance_meters": 0.00017561007864697132,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1347197201176999773",
@@ -3957,7 +5009,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1 JOYCE CT",
-    "approx_distance_meters": 7.072308118457697e-05
+    "approx_distance_meters": 7.072308118457697e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1347854349047092342",
@@ -3972,7 +5028,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "130 N SHEFTALL CIR",
-    "approx_distance_meters": 3.407300369068572e-05
+    "approx_distance_meters": 3.407300369068572e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1350154662614279306",
@@ -3987,7 +5047,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1 CARDINAL RD",
-    "approx_distance_meters": 5.628118052267817e-05
+    "approx_distance_meters": 5.628118052267817e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1350300262399915925",
@@ -4002,7 +5066,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "816 OEMLER LOOP",
-    "approx_distance_meters": 2.8247134516509862e-05
+    "approx_distance_meters": 2.8247134516509862e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1350892809038515958",
@@ -4017,7 +5085,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "13 CORNUS DR",
-    "approx_distance_meters": 0.00016809608175329864
+    "approx_distance_meters": 0.00016809608175329864,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1351139337866485412",
@@ -4032,7 +5104,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "514 TATEM ST",
-    "approx_distance_meters": 0.00012846622663363098
+    "approx_distance_meters": 0.00012846622663363098,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1353779805285849877",
@@ -4047,7 +5123,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "11 EARL CT",
-    "approx_distance_meters": 0.0001802059831611332
+    "approx_distance_meters": 0.0001802059831611332,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1353837997746135313",
@@ -4062,7 +5142,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "546 E CONGRESS ST",
-    "approx_distance_meters": 3.428792910758753e-05
+    "approx_distance_meters": 3.428792910758753e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1355717054480172939",
@@ -4077,7 +5161,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "115 ADAIR ST",
-    "approx_distance_meters": 9.198425677277555e-05
+    "approx_distance_meters": 9.198425677277555e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1355966753221376799",
@@ -4092,7 +5180,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "120 WAX MYRTLE CT",
-    "approx_distance_meters": 4.934633622994509e-05
+    "approx_distance_meters": 4.934633622994509e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1356521873573124832",
@@ -4107,7 +5199,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "124 BACK SHELL RD",
-    "approx_distance_meters": 0.00017610971411080134
+    "approx_distance_meters": 0.00017610971411080134,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1359416824336389691",
@@ -4122,7 +5218,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "7220 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 9.069056384035117e-05
+    "approx_distance_meters": 9.069056384035117e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1361104614510273229",
@@ -4137,7 +5237,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1316 WALTHOUR RD",
-    "approx_distance_meters": 0.00017304122251119146
+    "approx_distance_meters": 0.00017304122251119146,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1361201086184003908",
@@ -4152,7 +5256,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "408 SUNCREST BLVD",
-    "approx_distance_meters": 0.00016746086953344413
+    "approx_distance_meters": 0.00016746086953344413,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1362374286709102876",
@@ -4167,7 +5275,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "27 MORNINGSIDE DR",
-    "approx_distance_meters": 0.0014460769425232633
+    "approx_distance_meters": 0.0014460769425232633,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1362464914665658061",
@@ -4182,7 +5294,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "111 ROMMEL AVE",
-    "approx_distance_meters": 0.00013768817405637992
+    "approx_distance_meters": 0.00013768817405637992,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1363189978146082875",
@@ -4197,7 +5313,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "533 QUARTERMAN DR",
-    "approx_distance_meters": 0.0001169674898662348
+    "approx_distance_meters": 0.0001169674898662348,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1363804103349521503",
@@ -4212,7 +5332,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "618 E DUFFY ST",
-    "approx_distance_meters": 2.5151120062887065e-05
+    "approx_distance_meters": 2.5151120062887065e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1364587005425979843",
@@ -4227,7 +5351,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "LAROCHE AVE",
-    "approx_distance_meters": 0.00024881791342613977
+    "approx_distance_meters": 0.00024881791342613977,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1365381865714313974",
@@ -4242,7 +5370,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 3.7144331430972316e-05
+    "approx_distance_meters": 3.7144331430972316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1366604429834788025",
@@ -4257,7 +5389,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1005 BOB WHITE RD",
-    "approx_distance_meters": 0.00034303582746177195
+    "approx_distance_meters": 0.00034303582746177195,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1366633956344458459",
@@ -4272,7 +5408,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "908 2ND ST",
-    "approx_distance_meters": 0.0002960049081779192
+    "approx_distance_meters": 0.0002960049081779192,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1371198222718470800",
@@ -4287,7 +5427,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "180 BERWICK LAKES BLVD",
-    "approx_distance_meters": 8.034414070443453e-05
+    "approx_distance_meters": 8.034414070443453e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1371479222287501930",
@@ -4302,7 +5446,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "264 COLD CREEK LOOP",
-    "approx_distance_meters": 4.3484502529370234e-05
+    "approx_distance_meters": 4.3484502529370234e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1373347598921007060",
@@ -4317,7 +5465,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "361 RIVERVIEW DR",
-    "approx_distance_meters": 9.114014956749126e-05
+    "approx_distance_meters": 9.114014956749126e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1373419446508172466",
@@ -4332,7 +5484,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2220 E VICTORY DR #7",
-    "approx_distance_meters": 0.00023489799811566358
+    "approx_distance_meters": 0.00023489799811566358,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1373943746758785651",
@@ -4347,7 +5503,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1408 ABERCORN ST",
-    "approx_distance_meters": 3.073216747729497e-05
+    "approx_distance_meters": 3.073216747729497e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -3.0,
+    "percent_over": -30.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1373974536829262775",
@@ -4362,7 +5522,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "8417 LABERTA BLVD",
-    "approx_distance_meters": 0.0007167506330408981
+    "approx_distance_meters": 0.0007167506330408981,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1375126261445281578",
@@ -4377,7 +5541,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "SANDTOWN RD",
-    "approx_distance_meters": 9.320268413768774e-05
+    "approx_distance_meters": 9.320268413768774e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1376756361241599882",
@@ -4392,7 +5560,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "42 UPPER FACTORS WALK #3",
-    "approx_distance_meters": 1.3173116336666741e-05
+    "approx_distance_meters": 1.3173116336666741e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1376802007491321745",
@@ -4407,7 +5579,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1023 BRITTLEWOOD DR",
-    "approx_distance_meters": 7.408281518807552e-05
+    "approx_distance_meters": 7.408281518807552e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1378551392179055860",
@@ -4422,7 +5598,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "107 E 39TH ST",
-    "approx_distance_meters": 5.494020101276419e-05
+    "approx_distance_meters": 5.494020101276419e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1380517969389207600",
@@ -4437,7 +5617,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "109 SUNCREST BLVD",
-    "approx_distance_meters": 0.0002475392541097684
+    "approx_distance_meters": 0.0002475392541097684,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1383347930799346683",
@@ -4452,7 +5636,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "5772 WATERS AVE",
-    "approx_distance_meters": 0.00021527342555778336
+    "approx_distance_meters": 0.00021527342555778336,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1384182312798617406",
@@ -4467,7 +5655,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "270 LONGLEAF CIR",
-    "approx_distance_meters": 0.00010422393877757175
+    "approx_distance_meters": 0.00010422393877757175,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1384244159871819252",
@@ -4482,7 +5674,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "1429 ESTILL AVE ##A",
-    "approx_distance_meters": 0.0008477955790841212
+    "approx_distance_meters": 0.0008477955790841212,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1385098670881695071",
@@ -4497,7 +5693,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1829 VASSAR ST",
-    "approx_distance_meters": 0.00015423755254889845
+    "approx_distance_meters": 0.00015423755254889845,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1386256709091442741",
@@ -4512,7 +5712,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "101 HIGHTIDE LN",
-    "approx_distance_meters": 9.434391108195409e-05
+    "approx_distance_meters": 9.434391108195409e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 4.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1386391583042028888",
@@ -4527,7 +5731,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "4 BRAGG DR",
-    "approx_distance_meters": 0.00038717100817878036
+    "approx_distance_meters": 0.00038717100817878036,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1389457489196061517",
@@ -4542,7 +5750,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "165 W BAY ST #403W",
-    "approx_distance_meters": 2.033410782573396e-05
+    "approx_distance_meters": 2.033410782573396e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1389802751171880223",
@@ -4557,7 +5769,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "127 TEAKWOOD DR",
-    "approx_distance_meters": 7.807320870111783e-05
+    "approx_distance_meters": 7.807320870111783e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1389946608982585551",
@@ -4572,7 +5788,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "120 ROMMEL AVE",
-    "approx_distance_meters": 7.716872288460614e-05
+    "approx_distance_meters": 7.716872288460614e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1390062124280429955",
@@ -4587,7 +5807,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1320 W US HIGHWAY 80",
-    "approx_distance_meters": 0.0004408520325887604
+    "approx_distance_meters": 0.0004408520325887604,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1390189254896817012",
@@ -4602,7 +5826,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "533 E PERRY ST",
-    "approx_distance_meters": 3.8606998905834204e-05
+    "approx_distance_meters": 3.8606998905834204e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1391685983228049736",
@@ -4617,7 +5845,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "527 GOVERNOR TREUTLEN CIR",
-    "approx_distance_meters": 3.615898814181554e-05
+    "approx_distance_meters": 3.615898814181554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1394237111785684659",
@@ -4632,7 +5864,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "225 DURHAM PARK WAY",
-    "approx_distance_meters": 2.2038100028670193e-05
+    "approx_distance_meters": 2.2038100028670193e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -5.0,
+    "percent_over": -62.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1394622070366939267",
@@ -4647,7 +5883,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1209 E 55TH ST",
-    "approx_distance_meters": 0.00020361757836315594
+    "approx_distance_meters": 0.00020361757836315594,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1396990394938090608",
@@ -4662,7 +5902,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "18 MAPMAKER LN",
-    "approx_distance_meters": 6.676321234173141e-05
+    "approx_distance_meters": 6.676321234173141e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1397342172071921723",
@@ -4677,7 +5921,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "7212 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 1.1010905756074182e-05
+    "approx_distance_meters": 1.1010905756074182e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1398766028783954011",
@@ -4692,7 +5940,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2102 SHAW AVE ##A",
-    "approx_distance_meters": 0.00028263232480461284
+    "approx_distance_meters": 0.00028263232480461284,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1402143153899910435",
@@ -4707,7 +5959,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4926 PINELAND DR",
-    "approx_distance_meters": 0.0007283879261545963
+    "approx_distance_meters": 0.0007283879261545963,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1409656048706542257",
@@ -4722,7 +5978,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "122 ROPEMAKER LN",
-    "approx_distance_meters": 0.00014173507291005986
+    "approx_distance_meters": 0.00014173507291005986,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1410494890004445261",
@@ -4737,7 +5997,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "137 CROSSOVER LN",
-    "approx_distance_meters": 5.050436561527567e-05
+    "approx_distance_meters": 5.050436561527567e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1417504113845638769",
@@ -4752,7 +6016,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2 ASHLYN RT",
-    "approx_distance_meters": 4.97237174477788e-06
+    "approx_distance_meters": 4.97237174477788e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 54.0,
+    "over_occupancy": -38.0,
+    "percent_over": -70.37037037037037
   },
   {
     "url": "https://www.airbnb.com/rooms/1421146420496557487",
@@ -4767,7 +6035,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "12 HAYDENS CT",
-    "approx_distance_meters": 0.00011101254716428315
+    "approx_distance_meters": 0.00011101254716428315,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1421903060587949280",
@@ -4782,7 +6054,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "US HIGHWAY 80",
-    "approx_distance_meters": 0.00046121331396006333
+    "approx_distance_meters": 0.00046121331396006333,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1422617173373406258",
@@ -4797,7 +6073,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #316B",
-    "approx_distance_meters": 3.659333783552734e-05
+    "approx_distance_meters": 3.659333783552734e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1423843190766383050",
@@ -4812,7 +6092,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "408 ROTHWELL ST",
-    "approx_distance_meters": 5.202838262794064e-05
+    "approx_distance_meters": 5.202838262794064e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1426177688694690616",
@@ -4827,7 +6111,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "418 E LIBERTY ST",
-    "approx_distance_meters": 0.00010123137440390745
+    "approx_distance_meters": 0.00010123137440390745,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1426823327005199317",
@@ -4842,7 +6130,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "928 ROCKEFELLER ST",
-    "approx_distance_meters": 3.696757130944454e-05
+    "approx_distance_meters": 3.696757130944454e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1429048559219104413",
@@ -4857,7 +6149,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "13 CARDINAL CT",
-    "approx_distance_meters": 6.897616046985702e-05
+    "approx_distance_meters": 6.897616046985702e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1432851200788053373",
@@ -4872,7 +6168,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "111 CRABAPPLE CIR",
-    "approx_distance_meters": 2.61091284293428e-05
+    "approx_distance_meters": 2.61091284293428e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1433289144772039142",
@@ -4887,7 +6187,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "301 LAUREL OAK LN",
-    "approx_distance_meters": 3.916851754572086e-05
+    "approx_distance_meters": 3.916851754572086e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1433372238733894642",
@@ -4902,7 +6206,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "101 E POINT DR",
-    "approx_distance_meters": 0.00015230580351472813
+    "approx_distance_meters": 0.00015230580351472813,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1434357910671844758",
@@ -4917,7 +6225,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "125 BIRCH CIR",
-    "approx_distance_meters": 4.59838101600227e-05
+    "approx_distance_meters": 4.59838101600227e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1437876386707313111",
@@ -4932,7 +6244,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1118 E 56TH ST",
-    "approx_distance_meters": 0.00020413067349609975
+    "approx_distance_meters": 0.00020413067349609975,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1439942573704952163",
@@ -4947,7 +6263,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "418 PHILLIPS AVE",
-    "approx_distance_meters": 5.1913137931781843e-05
+    "approx_distance_meters": 5.1913137931781843e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1440157134324476567",
@@ -4962,7 +6282,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1002 PERRY CV",
-    "approx_distance_meters": 3.854692488674367e-05
+    "approx_distance_meters": 3.854692488674367e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1441595831299035246",
@@ -4977,7 +6301,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "461 PORT ST",
-    "approx_distance_meters": 0.0001047816697214009
+    "approx_distance_meters": 0.0001047816697214009,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1441631794052186637",
@@ -4992,7 +6320,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "2117 LOUISIANA AVE",
-    "approx_distance_meters": 0.00013087601702078199
+    "approx_distance_meters": 0.00013087601702078199,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1442968505831143135",
@@ -5007,7 +6339,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "529 POINTE SOUTH DR",
-    "approx_distance_meters": 2.316100678161065e-05
+    "approx_distance_meters": 2.316100678161065e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1443704520834078207",
@@ -5022,7 +6358,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1107 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.00013686636301391602
+    "approx_distance_meters": 0.00013686636301391602,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1443749632523164087",
@@ -5037,7 +6377,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "133 S SHEFTALL CIR",
-    "approx_distance_meters": 7.094185733862868e-05
+    "approx_distance_meters": 7.094185733862868e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444470035596137084",
@@ -5052,7 +6396,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "7 FALLOWFIELD DR",
-    "approx_distance_meters": 0.00013820464810619432
+    "approx_distance_meters": 0.00013820464810619432,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444850612466195190",
@@ -5067,7 +6415,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "321 W 39TH ST",
-    "approx_distance_meters": 6.253379209569557e-05
+    "approx_distance_meters": 6.253379209569557e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979039173730234",
@@ -5082,7 +6434,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "314 QUARTERMAN DR",
-    "approx_distance_meters": 7.245461350866273e-05
+    "approx_distance_meters": 7.245461350866273e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 3.0,
+    "percent_over": 37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979120980853299",
@@ -5097,7 +6453,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "4 RIVERMIST LN",
-    "approx_distance_meters": 6.292636445781801e-05
+    "approx_distance_meters": 6.292636445781801e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979146454984191",
@@ -5112,7 +6472,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "4 RIVERMIST LN",
-    "approx_distance_meters": 6.292636445781801e-05
+    "approx_distance_meters": 6.292636445781801e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979197463626075",
@@ -5127,7 +6491,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "FINN CIR",
-    "approx_distance_meters": 0.0003461599544514759
+    "approx_distance_meters": 0.0003461599544514759,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979225364060737",
@@ -5142,7 +6510,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "222 LAURELWOOD DR",
-    "approx_distance_meters": 7.923148491788829e-05
+    "approx_distance_meters": 7.923148491788829e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979338433950679",
@@ -5157,7 +6529,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2604 NOTTINGHAM DR",
-    "approx_distance_meters": 0.00014886152201240623
+    "approx_distance_meters": 0.00014886152201240623,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979453933093428",
@@ -5172,7 +6548,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2603 NOTTINGHAM DR",
-    "approx_distance_meters": 0.00024250509073148107
+    "approx_distance_meters": 0.00024250509073148107,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979501153843915",
@@ -5187,7 +6567,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2607 NOTTINGHAM DR",
-    "approx_distance_meters": 0.00016803728849222908
+    "approx_distance_meters": 0.00016803728849222908,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979596992354118",
@@ -5202,7 +6586,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2604 NOTTINGHAM DR",
-    "approx_distance_meters": 0.0004429981728507986
+    "approx_distance_meters": 0.0004429981728507986,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1444979645996015018",
@@ -5217,7 +6605,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "5603 LAROCHE AVE",
-    "approx_distance_meters": 0.00021468374710570008
+    "approx_distance_meters": 0.00021468374710570008,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002277587036664",
@@ -5232,7 +6624,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2601 DOGWOOD AVE",
-    "approx_distance_meters": 4.667792782951141e-05
+    "approx_distance_meters": 4.667792782951141e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002301274862179",
@@ -5247,7 +6643,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2601 DOGWOOD AVE",
-    "approx_distance_meters": 4.667792782951141e-05
+    "approx_distance_meters": 4.667792782951141e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002516242558154",
@@ -5262,7 +6662,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2207 WASHINGTON ST",
-    "approx_distance_meters": 1.9987465716831737e-05
+    "approx_distance_meters": 1.9987465716831737e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002540978846885",
@@ -5277,7 +6681,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "4 RIVERMIST LN",
-    "approx_distance_meters": 6.292636445781801e-05
+    "approx_distance_meters": 6.292636445781801e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 1.0,
+    "percent_over": 8.333333333333332
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002673904169052",
@@ -5292,7 +6700,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "MENDEL AVE",
-    "approx_distance_meters": 0.00018999785408341339
+    "approx_distance_meters": 0.00018999785408341339,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002786196728313",
@@ -5307,7 +6719,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "7342 LEGHORN ST",
-    "approx_distance_meters": 1.0746266773508447e-05
+    "approx_distance_meters": 1.0746266773508447e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002813066764840",
@@ -5322,7 +6738,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "129 CHATHAM VILLA DR",
-    "approx_distance_meters": 0.0006949254212051464
+    "approx_distance_meters": 0.0006949254212051464,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002838969917151",
@@ -5337,7 +6757,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "121 KINGS CT",
-    "approx_distance_meters": 2.656070544378982e-05
+    "approx_distance_meters": 2.656070544378982e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1446674568272779492",
@@ -5352,7 +6776,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "513 E CHARLTON ST",
-    "approx_distance_meters": 4.968186276558569e-05
+    "approx_distance_meters": 4.968186276558569e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1447139316011651587",
@@ -5367,7 +6795,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "456 ALTAMAHA ST",
-    "approx_distance_meters": 3.241969651920656e-05
+    "approx_distance_meters": 3.241969651920656e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1447337725978403062",
@@ -5382,7 +6814,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "11 HABERSHAM ST",
-    "approx_distance_meters": 7.439450845523963e-05
+    "approx_distance_meters": 7.439450845523963e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1447885038440611941",
@@ -5397,7 +6833,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "316 CANTYRE ST",
-    "approx_distance_meters": 5.6454070917888083e-05
+    "approx_distance_meters": 5.6454070917888083e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1450332730516799550",
@@ -5412,7 +6852,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "511 E CHARLTON ST",
-    "approx_distance_meters": 4.59289566108786e-05
+    "approx_distance_meters": 4.59289566108786e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1452424269821738631",
@@ -5427,7 +6871,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "512 W OGLETHORPE AVE",
-    "approx_distance_meters": 0.00016483270078831633
+    "approx_distance_meters": 0.00016483270078831633,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1453001658691036300",
@@ -5442,7 +6890,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "121 VICKERY LN",
-    "approx_distance_meters": 0.00023458966814698617
+    "approx_distance_meters": 0.00023458966814698617,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1456671980882907233",
@@ -5457,7 +6909,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "102 FAHM ST",
-    "approx_distance_meters": 0.0005540130124541109
+    "approx_distance_meters": 0.0005540130124541109,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1456672305757184682",
@@ -5472,7 +6928,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "610 W OGLETHORPE AVE",
-    "approx_distance_meters": 0.0004929680457819664
+    "approx_distance_meters": 0.0004929680457819664,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1456673539706730438",
@@ -5487,7 +6947,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "133 MONTGOMERY ST",
-    "approx_distance_meters": 0.0003652118710235964
+    "approx_distance_meters": 0.0003652118710235964,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1456674744397176426",
@@ -5502,7 +6966,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "349 W BRYAN ST",
-    "approx_distance_meters": 0.0006938052303223241
+    "approx_distance_meters": 0.0006938052303223241,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1460981502921060724",
@@ -5517,7 +6985,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "414 RIVERVIEW DR",
-    "approx_distance_meters": 5.252609082311847e-05
+    "approx_distance_meters": 5.252609082311847e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1461207831095530235",
@@ -5532,7 +7004,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "7244 GARFIELD ST",
-    "approx_distance_meters": 0.00010878833513439857
+    "approx_distance_meters": 0.00010878833513439857,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1461530802802503735",
@@ -5547,7 +7023,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "307 W WALDBURG ST",
-    "approx_distance_meters": 1.4424220602474447e-05
+    "approx_distance_meters": 1.4424220602474447e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1463384836758673614",
@@ -5562,7 +7042,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "128 CHORUS LOOP",
-    "approx_distance_meters": 3.4091282875698474e-05
+    "approx_distance_meters": 3.4091282875698474e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1468991842618836071",
@@ -5577,7 +7061,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "BULL ST",
-    "approx_distance_meters": 0.00012239294132203893
+    "approx_distance_meters": 0.00012239294132203893,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1470641628581509483",
@@ -5592,7 +7080,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "917 BOB WHITE RD",
-    "approx_distance_meters": 5.838318359116168e-05
+    "approx_distance_meters": 5.838318359116168e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096060022681572",
@@ -5607,7 +7099,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "41 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0003346324751984412
+    "approx_distance_meters": 0.0003346324751984412,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096543164577398",
@@ -5622,7 +7118,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "135 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.00016263060032567899
+    "approx_distance_meters": 0.00016263060032567899,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1471096734209183120",
@@ -5637,7 +7137,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "110 ANN ST",
-    "approx_distance_meters": 0.0006889274135261403
+    "approx_distance_meters": 0.0006889274135261403,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1471097995220721681",
@@ -5652,7 +7156,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "349 W BRYAN ST",
-    "approx_distance_meters": 0.00048282334626918586
+    "approx_distance_meters": 0.00048282334626918586,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1471099635987066622",
@@ -5667,7 +7175,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "32 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0004633709113272562
+    "approx_distance_meters": 0.0004633709113272562,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1472059099303469262",
@@ -5682,7 +7194,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "8 GLADEWATER DR",
-    "approx_distance_meters": 8.063776674979386e-05
+    "approx_distance_meters": 8.063776674979386e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1473297608530008424",
@@ -5697,7 +7213,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "27 BRYAN WOOD CIR",
-    "approx_distance_meters": 0.00012137394595789442
+    "approx_distance_meters": 0.00012137394595789442,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/14741537",
@@ -5712,7 +7232,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "107 VARNEDOE AVE",
-    "approx_distance_meters": 0.00026496481060650436
+    "approx_distance_meters": 0.00026496481060650436,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1474960637504030145",
@@ -5727,7 +7251,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "303 QUARTERMAN DR",
-    "approx_distance_meters": 0.00019804435921144372
+    "approx_distance_meters": 0.00019804435921144372,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1476339115417508209",
@@ -5742,7 +7270,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "32 LEON VILLAGE RD",
-    "approx_distance_meters": 7.344962513727142e-05
+    "approx_distance_meters": 7.344962513727142e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1476381693119923367",
@@ -5757,7 +7289,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "72 LEE AVE",
-    "approx_distance_meters": 0.0004131805321300435
+    "approx_distance_meters": 0.0004131805321300435,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1477572070763401867",
@@ -5772,7 +7308,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "304 CYPRESS ST",
-    "approx_distance_meters": 8.295578738745543e-05
+    "approx_distance_meters": 8.295578738745543e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1480180481985235173",
@@ -5787,7 +7327,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "87 CRYSTAL LAKE DR",
-    "approx_distance_meters": 0.0008607572653984336
+    "approx_distance_meters": 0.0008607572653984336,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1480401934842484608",
@@ -5802,7 +7346,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
-    "approx_distance_meters": 4.940398708849237e-05
+    "approx_distance_meters": 4.940398708849237e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1484729857538833989",
@@ -5817,7 +7365,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "7508 MAYER AVE",
-    "approx_distance_meters": 0.00015219861561590432
+    "approx_distance_meters": 0.00015219861561590432,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 1.0,
+    "percent_over": 10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1485451121466151234",
@@ -5832,7 +7384,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "110 BARNARD ST #412",
-    "approx_distance_meters": 2.753443214894257e-05
+    "approx_distance_meters": 2.753443214894257e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1486340419067179353",
@@ -5847,7 +7403,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "25 LEARY DR",
-    "approx_distance_meters": 0.0001983032845026357
+    "approx_distance_meters": 0.0001983032845026357,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1490900177054278838",
@@ -5862,7 +7422,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "19 SUNCREST BLVD",
-    "approx_distance_meters": 1.2099124913512899e-05
+    "approx_distance_meters": 1.2099124913512899e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1491391255074918662",
@@ -5877,7 +7441,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "321 W 36TH ST",
-    "approx_distance_meters": 0.0001316241073473437
+    "approx_distance_meters": 0.0001316241073473437,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1494428825752782867",
@@ -5892,7 +7460,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1305 JUNCTION AVE",
-    "approx_distance_meters": 6.939995691403085e-05
+    "approx_distance_meters": 6.939995691403085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1496482489409388919",
@@ -5907,7 +7479,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "0 BRYAN SPUR",
-    "approx_distance_meters": 6.288384647858288e-05
+    "approx_distance_meters": 6.288384647858288e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1497224739392505471",
@@ -5922,7 +7498,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
-    "approx_distance_meters": 4.940398708849237e-05
+    "approx_distance_meters": 4.940398708849237e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1497224771923616042",
@@ -5937,7 +7517,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
-    "approx_distance_meters": 4.940398708849237e-05
+    "approx_distance_meters": 4.940398708849237e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1497949957267156694",
@@ -5952,7 +7536,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "8836 FERGUSON AVE",
-    "approx_distance_meters": 0.0004129897683207155
+    "approx_distance_meters": 0.0004129897683207155,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1498006241934201577",
@@ -5967,14 +7555,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1105 COBB RD",
-    "approx_distance_meters": 0.0001115953766289016
+    "approx_distance_meters": 0.0001115953766289016,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1498609839176585435",
     "rental_type": "Entire home",
     "guests": 3.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0539,
     "longitude": -81.1051,
@@ -5982,7 +7574,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "2605 JEFFERSON ST",
-    "approx_distance_meters": 2.3187506495303513e-05
+    "approx_distance_meters": 2.3187506495303513e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1499529860572816028",
@@ -5997,7 +7593,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "17 E POINT DR",
-    "approx_distance_meters": 0.00011073835153137306
+    "approx_distance_meters": 0.00011073835153137306,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1501030060746906896",
@@ -6012,7 +7612,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9240 GARLAND DR",
-    "approx_distance_meters": 2.1764112283444556e-05
+    "approx_distance_meters": 2.1764112283444556e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1504302307754623244",
@@ -6027,7 +7631,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "141 WIMBLEDON DR",
-    "approx_distance_meters": 0.0001175282501460491
+    "approx_distance_meters": 0.0001175282501460491,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1508049389921225759",
@@ -6042,7 +7650,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "127 GLEN OAKS DR",
-    "approx_distance_meters": 8.634976707375691e-05
+    "approx_distance_meters": 8.634976707375691e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1508525648132721862",
@@ -6057,7 +7669,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "540 E DUFFY ST",
-    "approx_distance_meters": 8.819257237809971e-05
+    "approx_distance_meters": 8.819257237809971e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15093297",
@@ -6072,7 +7688,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "110 BARNARD ST #313",
-    "approx_distance_meters": 6.562215997465498e-06
+    "approx_distance_meters": 6.562215997465498e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1510125301111020388",
@@ -6087,7 +7707,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "CEDAR CREEK LN",
-    "approx_distance_meters": 0.0003447149057478662
+    "approx_distance_meters": 0.0003447149057478662,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1510281895888945906",
@@ -6102,7 +7726,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "116 BREVARD CT",
-    "approx_distance_meters": 2.5607017901716046e-05
+    "approx_distance_meters": 2.5607017901716046e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1511316409509577602",
@@ -6117,7 +7745,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "312 LARBRE RD",
-    "approx_distance_meters": 0.0001543928633252516
+    "approx_distance_meters": 0.0001543928633252516,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 4.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1511665113645217940",
@@ -6132,7 +7764,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3 DOE TAIL CT",
-    "approx_distance_meters": 1.659898526211113e-05
+    "approx_distance_meters": 1.659898526211113e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1511710100353100532",
@@ -6147,7 +7783,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "110 ROYAL OAK CT",
-    "approx_distance_meters": 0.00018536302479109948
+    "approx_distance_meters": 0.00018536302479109948,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1512654358078763391",
@@ -6162,7 +7802,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "301 E LIBERTY ST",
-    "approx_distance_meters": 0.00011717444311239535
+    "approx_distance_meters": 0.00011717444311239535,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1512993064713915618",
@@ -6177,7 +7821,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "506 E BROUGHTON ST",
-    "approx_distance_meters": 0.00010999369147666514
+    "approx_distance_meters": 0.00010999369147666514,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1512993141196852882",
@@ -6192,7 +7840,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "506 E BROUGHTON ST",
-    "approx_distance_meters": 0.00010999369147666514
+    "approx_distance_meters": 0.00010999369147666514,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1513203547922564299",
@@ -6207,7 +7859,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1 OLD US HIGHWAY 80",
-    "approx_distance_meters": 0.00022248831224944162
+    "approx_distance_meters": 0.00022248831224944162,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1513365945184496939",
@@ -6222,7 +7878,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
-    "approx_distance_meters": 4.940398708849237e-05
+    "approx_distance_meters": 4.940398708849237e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 20.0,
+    "over_occupancy": -4.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1513991268785829277",
@@ -6237,7 +7897,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "17 E POINT DR",
-    "approx_distance_meters": 0.00011073835153137306
+    "approx_distance_meters": 0.00011073835153137306,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1516240160979355895",
@@ -6252,7 +7916,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "101 MICHAEL CT",
-    "approx_distance_meters": 2.31509813874991e-05
+    "approx_distance_meters": 2.31509813874991e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 1.0,
+    "percent_over": 10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1516816784750356745",
@@ -6267,7 +7935,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "106 OYSTER CATCHER LN",
-    "approx_distance_meters": 0.00011332622861279165
+    "approx_distance_meters": 0.00011332622861279165,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1516923125128787364",
@@ -6282,7 +7954,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
-    "approx_distance_meters": 4.940398708849237e-05
+    "approx_distance_meters": 4.940398708849237e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1518155941479325284",
@@ -6297,7 +7973,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 4.840649977774554e-05
+    "approx_distance_meters": 4.840649977774554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1518807509285164040",
@@ -6312,7 +7992,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1229 US HIGHWAY 80",
-    "approx_distance_meters": 4.069387029610075e-05
+    "approx_distance_meters": 4.069387029610075e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1519665016204832894",
@@ -6327,7 +8011,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "7203 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 8.965190535636e-05
+    "approx_distance_meters": 8.965190535636e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1519697291452323544",
@@ -6342,7 +8030,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "509 E BROUGHTON ST",
-    "approx_distance_meters": 4.246750674348223e-05
+    "approx_distance_meters": 4.246750674348223e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15208161",
@@ -6357,7 +8049,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "120 BRYAN ST W #405",
-    "approx_distance_meters": 1.5242493379004424e-05
+    "approx_distance_meters": 1.5242493379004424e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1521744364684171380",
@@ -6372,7 +8068,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST #302",
-    "approx_distance_meters": 3.424582539010459e-05
+    "approx_distance_meters": 3.424582539010459e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1522007191039266497",
@@ -6387,7 +8087,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "0 NORWOOD AVE",
-    "approx_distance_meters": 0.00011989091791172947
+    "approx_distance_meters": 0.00011989091791172947,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1522361583309585291",
@@ -6402,7 +8106,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1217 BAY ST #201B",
-    "approx_distance_meters": 3.5837309420461085e-05
+    "approx_distance_meters": 3.5837309420461085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1522709071710502880",
@@ -6417,7 +8125,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "17 E POINT DR",
-    "approx_distance_meters": 0.00011073835153137306
+    "approx_distance_meters": 0.00011073835153137306,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1523377602268157515",
@@ -6432,7 +8144,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "539 E MACON ST",
-    "approx_distance_meters": 3.0685160796646026e-05
+    "approx_distance_meters": 3.0685160796646026e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1524427336764365977",
@@ -6447,7 +8163,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "1000 W BAY ST",
-    "approx_distance_meters": 0.0008447124444687913
+    "approx_distance_meters": 0.0008447124444687913,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1526296963313534516",
@@ -6462,7 +8182,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "116 E HENRY ST",
-    "approx_distance_meters": 0.00012774350491576473
+    "approx_distance_meters": 0.00012774350491576473,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1527908669890523241",
@@ -6477,7 +8201,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "13 TARA MANOR DR",
-    "approx_distance_meters": 2.141018013894231e-05
+    "approx_distance_meters": 2.141018013894231e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1530554435982174070",
@@ -6492,7 +8220,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "2116 VERMONT AVE",
-    "approx_distance_meters": 9.67584508684367e-05
+    "approx_distance_meters": 9.67584508684367e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1532221249596598529",
@@ -6507,7 +8239,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "227 W MONTGOMERY XR",
-    "approx_distance_meters": 0.00046839856486083055
+    "approx_distance_meters": 0.00046839856486083055,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1532950386645087038",
@@ -6522,7 +8258,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "111 JOHN WESLEY WAY",
-    "approx_distance_meters": 0.00019394249024877087
+    "approx_distance_meters": 0.00019394249024877087,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1534864446312870090",
@@ -6537,7 +8277,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "117 TIMBERLAND GAP RD",
-    "approx_distance_meters": 0.000145407477274908
+    "approx_distance_meters": 0.000145407477274908,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1536343397062838823",
@@ -6552,7 +8296,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "132 MONTGOMERY ST",
-    "approx_distance_meters": 0.0002761146572594912
+    "approx_distance_meters": 0.0002761146572594912,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1538298",
@@ -6567,7 +8315,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "14",
     "approximate_address": "107 E 35TH ST",
-    "approx_distance_meters": 2.5077142931470923e-05
+    "approx_distance_meters": 2.5077142931470923e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1539270908357418994",
@@ -6582,7 +8334,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "0 FORT ARGYLE RD",
-    "approx_distance_meters": 0.000693655171104387
+    "approx_distance_meters": 0.000693655171104387,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1540107963701573296",
@@ -6597,7 +8353,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "524 E DUFFY ST",
-    "approx_distance_meters": 0.00010371349290685162
+    "approx_distance_meters": 0.00010371349290685162,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1541538623040547368",
@@ -6612,7 +8372,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "9 WALTHOUR CV",
-    "approx_distance_meters": 0.00014028910338721972
+    "approx_distance_meters": 0.00014028910338721972,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1542739415082998147",
@@ -6627,7 +8391,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "7416 HEMLOCK AVE",
-    "approx_distance_meters": 5.6952704199836985e-05
+    "approx_distance_meters": 5.6952704199836985e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1542818958939750305",
@@ -6642,7 +8410,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "502 SANDTOWN RD",
-    "approx_distance_meters": 6.1427413037222e-05
+    "approx_distance_meters": 6.1427413037222e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1547335894055384164",
@@ -6657,7 +8429,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "22 WILD SILK WAY",
-    "approx_distance_meters": 0.0012085368013315355
+    "approx_distance_meters": 0.0012085368013315355,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1547335899308678328",
@@ -6672,7 +8448,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "3164 MULBERRY BLVD",
-    "approx_distance_meters": 0.0013150662683357724
+    "approx_distance_meters": 0.0013150662683357724,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1548573903370840491",
@@ -6687,7 +8467,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "321 W 39TH ST",
-    "approx_distance_meters": 4.693201514125968e-05
+    "approx_distance_meters": 4.693201514125968e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1549379684392691875",
@@ -6702,7 +8486,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "505 E MCDONOUGH ST",
-    "approx_distance_meters": 2.375641629514047e-05
+    "approx_distance_meters": 2.375641629514047e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15497833",
@@ -6717,7 +8505,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "122 E LIBERTY ST",
-    "approx_distance_meters": 5.4625576903138704e-05
+    "approx_distance_meters": 5.4625576903138704e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1552200143648849054",
@@ -6732,7 +8524,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "207 E POINT DR",
-    "approx_distance_meters": 0.0004273192435774741
+    "approx_distance_meters": 0.0004273192435774741,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1552277049261402015",
@@ -6747,7 +8543,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "142 W TISBURY LN",
-    "approx_distance_meters": 4.5756142922675357e-05
+    "approx_distance_meters": 4.5756142922675357e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1552396074229499841",
@@ -6762,7 +8562,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "0 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0013920789576235826
+    "approx_distance_meters": 0.0013920789576235826,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1552412728953402907",
@@ -6777,7 +8581,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "0 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0015305939136109879
+    "approx_distance_meters": 0.0015305939136109879,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 4.0,
+    "percent_over": 100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1552416447511029521",
@@ -6792,7 +8600,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "0 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0013920789576235826
+    "approx_distance_meters": 0.0013920789576235826,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 4.0,
+    "percent_over": 100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1552964594208412277",
@@ -6807,7 +8619,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "106 SILVERTON RD",
-    "approx_distance_meters": 0.00017113070111483928
+    "approx_distance_meters": 0.00017113070111483928,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1553819134643230966",
@@ -6822,7 +8638,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "TANGER OUTLETS BLVD",
-    "approx_distance_meters": 0.00035487322370214325
+    "approx_distance_meters": 0.00035487322370214325,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1556982593838436463",
@@ -6837,7 +8657,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "207 DEERWOOD RD",
-    "approx_distance_meters": 8.789410363426822e-05
+    "approx_distance_meters": 8.789410363426822e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1557647945376292850",
@@ -6852,7 +8676,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "117 RUNNER RD",
-    "approx_distance_meters": 0.0004449622873756505
+    "approx_distance_meters": 0.0004449622873756505,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1558277456302782082",
@@ -6867,7 +8695,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "410 HABERSHAM ST",
-    "approx_distance_meters": 5.2916498960417145e-05
+    "approx_distance_meters": 5.2916498960417145e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/155982",
@@ -6882,7 +8714,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "15",
     "approximate_address": "REYNOLDS SQUARE",
-    "approx_distance_meters": 0.0002766796830336864
+    "approx_distance_meters": 0.0002766796830336864,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1567565549464390894",
@@ -6897,7 +8733,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "148 BERWICK LAKES BLVD",
-    "approx_distance_meters": 0.00011248835433674419
+    "approx_distance_meters": 0.00011248835433674419,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1569926647580128655",
@@ -6912,7 +8752,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "SPRINGWATER DR",
-    "approx_distance_meters": 9.450471226144979e-05
+    "approx_distance_meters": 9.450471226144979e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1570281058394070164",
@@ -6927,7 +8771,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "5 BRANSBY DR",
-    "approx_distance_meters": 0.00018701417073047974
+    "approx_distance_meters": 0.00018701417073047974,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1571929995471443704",
@@ -6942,14 +8790,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "119 N SHEFTALL CIR",
-    "approx_distance_meters": 0.00010637392440564623
+    "approx_distance_meters": 0.00010637392440564623,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1573210437875430951",
     "rental_type": "Entire home",
     "guests": 12.0,
     "bedrooms": 4.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 3.0,
     "latitude": 32.0321,
     "longitude": -81.05441,
@@ -6957,7 +8809,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "BANNON DR",
-    "approx_distance_meters": 0.00012112245390568556
+    "approx_distance_meters": 0.00012112245390568556,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1573248466594866350",
@@ -6972,7 +8828,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "348 GARDEN ACRES WAY",
-    "approx_distance_meters": 3.7182034052768015e-05
+    "approx_distance_meters": 3.7182034052768015e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -4.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1574664898316578786",
@@ -6987,7 +8847,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "302 BENTON DR",
-    "approx_distance_meters": 0.00027290542214124377
+    "approx_distance_meters": 0.00027290542214124377,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1574829047170750388",
@@ -7002,7 +8866,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "11606 LARGO DR",
-    "approx_distance_meters": 0.00013358846107785054
+    "approx_distance_meters": 0.00013358846107785054,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1576335136173445600",
@@ -7017,7 +8885,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "512 ALTAMAHA ST",
-    "approx_distance_meters": 5.318882495591417e-05
+    "approx_distance_meters": 5.318882495591417e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1576976261359892313",
@@ -7032,7 +8904,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "WALTHOUR RD",
-    "approx_distance_meters": 0.0003941725312009182
+    "approx_distance_meters": 0.0003941725312009182,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -3.0,
+    "percent_over": -30.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1577097349989679997",
@@ -7047,7 +8923,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "0 BARROW DR",
-    "approx_distance_meters": 0.0009829204112575594
+    "approx_distance_meters": 0.0009829204112575594,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1577741583442593269",
@@ -7062,7 +8942,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "409 GREENWAY ST",
-    "approx_distance_meters": 0.00015071047318115824
+    "approx_distance_meters": 0.00015071047318115824,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1577888021944557890",
@@ -7077,7 +8961,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "305 W COLLINS ST",
-    "approx_distance_meters": 2.4263772527090053e-05
+    "approx_distance_meters": 2.4263772527090053e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1580886642509835131",
@@ -7092,7 +8980,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "408 RIVERVIEW DR",
-    "approx_distance_meters": 7.878043209190155e-05
+    "approx_distance_meters": 7.878043209190155e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1583004808352473099",
@@ -7107,7 +8999,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "411 W CONGRESS ST #C",
-    "approx_distance_meters": 5.83304734476771e-05
+    "approx_distance_meters": 5.83304734476771e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1583570111217517171",
@@ -7122,7 +9018,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "DOWD ST",
-    "approx_distance_meters": 0.00012859248651110394
+    "approx_distance_meters": 0.00012859248651110394,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1586417723482806811",
@@ -7137,7 +9037,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "705 CREGOR ST",
-    "approx_distance_meters": 8.537058137306365e-05
+    "approx_distance_meters": 8.537058137306365e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1586437148733095810",
@@ -7152,7 +9056,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "206 MAPLE ST",
-    "approx_distance_meters": 0.00013519459387990396
+    "approx_distance_meters": 0.00013519459387990396,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1586446837252706600",
@@ -7167,7 +9075,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "210 CYPRESS ST",
-    "approx_distance_meters": 0.00024646744626644583
+    "approx_distance_meters": 0.00024646744626644583,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15868429",
@@ -7182,7 +9094,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "LAFAYETTE SQUARE",
-    "approx_distance_meters": 0.0003096790123819222
+    "approx_distance_meters": 0.0003096790123819222,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1587156844089664394",
@@ -7197,7 +9113,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "44 WARREN DR",
-    "approx_distance_meters": 0.00010193376804930338
+    "approx_distance_meters": 0.00010193376804930338,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1587156845042685471",
@@ -7212,7 +9132,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "129 CRABAPPLE CIR",
-    "approx_distance_meters": 3.208614092059816e-05
+    "approx_distance_meters": 3.208614092059816e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1587732127706045559",
@@ -7227,7 +9151,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "33 BRANDLE WAY",
-    "approx_distance_meters": 5.73503012658998e-05
+    "approx_distance_meters": 5.73503012658998e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1588603029341791878",
@@ -7242,7 +9170,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "418 E LIBERTY ST",
-    "approx_distance_meters": 6.396830447153457e-05
+    "approx_distance_meters": 6.396830447153457e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1590000735458600229",
@@ -7257,7 +9189,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "6 ARBORS CIR",
-    "approx_distance_meters": 0.00028799582629769773
+    "approx_distance_meters": 0.00028799582629769773,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1590699376834144368",
@@ -7272,7 +9208,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1217 BAY ST #201B",
-    "approx_distance_meters": 3.5837309420461085e-05
+    "approx_distance_meters": 3.5837309420461085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1593553204301487986",
@@ -7287,7 +9227,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #103B",
-    "approx_distance_meters": 0.0001681756277895944
+    "approx_distance_meters": 0.0001681756277895944,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1596097849186394259",
@@ -7302,7 +9246,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1112 WALTHOUR RD",
-    "approx_distance_meters": 0.00022737652124936873
+    "approx_distance_meters": 0.00022737652124936873,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1597458309031799218",
@@ -7317,7 +9265,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "5545 ALMA ST",
-    "approx_distance_meters": 0.00025625727271506404
+    "approx_distance_meters": 0.00025625727271506404,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 8.0,
+    "percent_over": 100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1598723820806100860",
@@ -7332,7 +9284,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "117 LINCOLN ST #117-6B",
-    "approx_distance_meters": 1.0936570475111918e-05
+    "approx_distance_meters": 1.0936570475111918e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1599336468606930516",
@@ -7347,7 +9303,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #2006",
-    "approx_distance_meters": 1.876849408107888e-05
+    "approx_distance_meters": 1.876849408107888e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1599336895559554286",
@@ -7362,7 +9322,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "308 HOLLY HILL RD",
-    "approx_distance_meters": 3.5138450599497976e-05
+    "approx_distance_meters": 3.5138450599497976e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1600749684865342988",
@@ -7377,7 +9341,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "107 TEAKWOOD DR",
-    "approx_distance_meters": 5.9511248022693136e-05
+    "approx_distance_meters": 5.9511248022693136e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1602120078538874836",
@@ -7392,7 +9360,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "24 SAPELO RD",
-    "approx_distance_meters": 8.547314476147355e-05
+    "approx_distance_meters": 8.547314476147355e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1602134286905350999",
@@ -7407,7 +9379,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "151 FINN CIR",
-    "approx_distance_meters": 0.00017931406735551727
+    "approx_distance_meters": 0.00017931406735551727,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1602163090158746442",
@@ -7422,7 +9398,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1 CROSS BOW CT",
-    "approx_distance_meters": 0.0001298444757320343
+    "approx_distance_meters": 0.0001298444757320343,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1603231469099722811",
@@ -7437,7 +9417,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "135 MOORE AVE",
-    "approx_distance_meters": 6.097046196579818e-05
+    "approx_distance_meters": 6.097046196579818e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -4.0,
+    "percent_over": -40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1604578113019780865",
@@ -7452,7 +9436,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "3105 HARRIS ST",
-    "approx_distance_meters": 8.293078648984999e-05
+    "approx_distance_meters": 8.293078648984999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1604638288281397575",
@@ -7467,7 +9455,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1 SHEFTALL CV",
-    "approx_distance_meters": 0.00018308166781943403
+    "approx_distance_meters": 0.00018308166781943403,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1605392530020192808",
@@ -7482,7 +9474,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "206 S CHESTNUT ST",
-    "approx_distance_meters": 4.4790155906516934e-05
+    "approx_distance_meters": 4.4790155906516934e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1606723939839626058",
@@ -7497,7 +9493,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "315 E CONGRESS ST",
-    "approx_distance_meters": 1.3105029913171543e-05
+    "approx_distance_meters": 1.3105029913171543e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1608834203215529920",
@@ -7512,7 +9512,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4630 HERTY DR",
-    "approx_distance_meters": 7.599189396818307e-05
+    "approx_distance_meters": 7.599189396818307e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1609853086401984308",
@@ -7527,7 +9531,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": null,
-    "approx_distance_meters": 0.0003517623590532454
+    "approx_distance_meters": 0.0003517623590532454,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/16100873",
@@ -7542,7 +9550,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "110 BARNARD ST #313",
-    "approx_distance_meters": 6.562215997465498e-06
+    "approx_distance_meters": 6.562215997465498e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1610320824203124179",
@@ -7557,7 +9569,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "214 E POINT DR #A",
-    "approx_distance_meters": 0.0006563611901883685
+    "approx_distance_meters": 0.0006563611901883685,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1610414097888578929",
@@ -7572,7 +9588,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "119 TURNBUCKLE CT",
-    "approx_distance_meters": 0.00025197262210316997
+    "approx_distance_meters": 0.00025197262210316997,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1611271516437798655",
@@ -7587,7 +9607,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "615 WINDSOR RD",
-    "approx_distance_meters": 0.0002886438379024353
+    "approx_distance_meters": 0.0002886438379024353,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1612452339205127083",
@@ -7602,7 +9626,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "3302 HAZEL ST",
-    "approx_distance_meters": 7.85425293733668e-05
+    "approx_distance_meters": 7.85425293733668e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1612456265124781196",
@@ -7617,7 +9645,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4 CHESTLEY PL",
-    "approx_distance_meters": 0.00011687572544248409
+    "approx_distance_meters": 0.00011687572544248409,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1614085992804083029",
@@ -7632,7 +9664,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4 RICEMILL LN",
-    "approx_distance_meters": 0.00014694221492327135
+    "approx_distance_meters": 0.00014694221492327135,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 4.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1614122116333783823",
@@ -7647,7 +9683,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "17 TERESA LN",
-    "approx_distance_meters": 0.000119498931592816
+    "approx_distance_meters": 0.000119498931592816,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1614589782434900377",
@@ -7662,7 +9702,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3102 HARRIS ST",
-    "approx_distance_meters": 0.0001578446960096006
+    "approx_distance_meters": 0.0001578446960096006,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1615400164944175326",
@@ -7677,7 +9721,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1131 COBB RD",
-    "approx_distance_meters": 3.7380441052504846e-05
+    "approx_distance_meters": 3.7380441052504846e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1616130550406546400",
@@ -7692,7 +9740,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "624 W GWINNETT ST",
-    "approx_distance_meters": 0.0007614615546046759
+    "approx_distance_meters": 0.0007614615546046759,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/1617038716555688975",
@@ -7707,7 +9759,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "COLD CREEK PASS",
-    "approx_distance_meters": 7.078784228886744e-05
+    "approx_distance_meters": 7.078784228886744e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1618349206811777598",
@@ -7722,7 +9778,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #304C",
-    "approx_distance_meters": 9.139044909912794e-06
+    "approx_distance_meters": 9.139044909912794e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1618919350802671033",
@@ -7737,7 +9797,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1217 BAY ST #308B",
-    "approx_distance_meters": 2.8126887244945497e-05
+    "approx_distance_meters": 2.8126887244945497e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1619659831345404753",
@@ -7752,7 +9816,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "FISH BAIT TRL",
-    "approx_distance_meters": 0.00031117160022412713
+    "approx_distance_meters": 0.00031117160022412713,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1619672797957554074",
@@ -7767,7 +9835,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "3219 COLLEGE ST",
-    "approx_distance_meters": 0.00018290134109991358
+    "approx_distance_meters": 0.00018290134109991358,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1619680476404974885",
@@ -7782,14 +9854,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "N TOMPKINS RD",
-    "approx_distance_meters": 0.00014918045428648983
+    "approx_distance_meters": 0.00014918045428648983,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1620486762869915517",
     "rental_type": "Entire home",
     "guests": 4.0,
     "bedrooms": 2.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0256,
     "longitude": -81.0499,
@@ -7797,7 +9873,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "3312 FALLIGANT AVE",
-    "approx_distance_meters": 6.0595170008838575e-05
+    "approx_distance_meters": 6.0595170008838575e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631230700010224",
@@ -7812,7 +9892,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "109 W BROUGHTON ST #202",
-    "approx_distance_meters": 4.474146461965892e-05
+    "approx_distance_meters": 4.474146461965892e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631238888156567",
@@ -7827,7 +9911,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "32 BULL ST",
-    "approx_distance_meters": 0.0003649928172967043
+    "approx_distance_meters": 0.0003649928172967043,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631313945146337",
@@ -7842,7 +9930,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "JOHNSON SQUARE",
-    "approx_distance_meters": 0.00028479548934118103
+    "approx_distance_meters": 0.00028479548934118103,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631335799285577",
@@ -7857,7 +9949,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "6 E STATE ST",
-    "approx_distance_meters": 7.654561649219213e-05
+    "approx_distance_meters": 7.654561649219213e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1623342275553886331",
@@ -7872,7 +9968,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "18 E STATE ST",
-    "approx_distance_meters": 0.00011292482586628746
+    "approx_distance_meters": 0.00011292482586628746,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1624269033749912259",
@@ -7887,7 +9987,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "128 BLUE HERON DR",
-    "approx_distance_meters": 5.1028507853027223e-05
+    "approx_distance_meters": 5.1028507853027223e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1624318889887938316",
@@ -7902,7 +10006,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "17 LANDWARD WAY",
-    "approx_distance_meters": 0.00018191118141336603
+    "approx_distance_meters": 0.00018191118141336603,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1624986930457358209",
@@ -7917,7 +10025,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "220 PARKSIDE BLVD",
-    "approx_distance_meters": 0.00026707136333147126
+    "approx_distance_meters": 0.00026707136333147126,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1625593671984677304",
@@ -7932,7 +10044,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "169 SILVERTON RD",
-    "approx_distance_meters": 4.730392037352799e-05
+    "approx_distance_meters": 4.730392037352799e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1626867194794659879",
@@ -7947,7 +10063,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1316 BAY ST",
-    "approx_distance_meters": 5.2209655080485104e-05
+    "approx_distance_meters": 5.2209655080485104e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1627105111588915432",
@@ -7962,7 +10082,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "5808 LAROCHE AVE",
-    "approx_distance_meters": 0.0002030424448324016
+    "approx_distance_meters": 0.0002030424448324016,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1628625143443243535",
@@ -7977,7 +10101,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1507 WALTHOUR RD",
-    "approx_distance_meters": 0.00014225594005440705
+    "approx_distance_meters": 0.00014225594005440705,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1630560547826541431",
@@ -7992,7 +10120,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "316 W 40TH ST",
-    "approx_distance_meters": 8.624510292398456e-05
+    "approx_distance_meters": 8.624510292398456e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1630780219770090884",
@@ -8007,7 +10139,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "7 CATFISH CT",
-    "approx_distance_meters": 0.00030022982707900256
+    "approx_distance_meters": 0.00030022982707900256,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1632041409768785513",
@@ -8022,7 +10158,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "24 SAPPHIRE ISLAND RD",
-    "approx_distance_meters": 0.0006351751690049281
+    "approx_distance_meters": 0.0006351751690049281,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1632611681075662410",
@@ -8037,7 +10177,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "4501 MONTGOMERY ST",
-    "approx_distance_meters": 0.00012541075647064197
+    "approx_distance_meters": 0.00012541075647064197,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -4.0,
+    "percent_over": -66.66666666666666
   },
   {
     "url": "https://www.airbnb.com/rooms/1632705874279937760",
@@ -8052,7 +10196,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "WRIGHT SQUARE",
-    "approx_distance_meters": 0.00023490203833215445
+    "approx_distance_meters": 0.00023490203833215445,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1633450725667409559",
@@ -8067,7 +10215,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "29 POMONA CIR",
-    "approx_distance_meters": 9.249808440470277e-05
+    "approx_distance_meters": 9.249808440470277e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1635129754881705876",
@@ -8082,7 +10234,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "118 RUNNER RD",
-    "approx_distance_meters": 3.9496437952924864e-05
+    "approx_distance_meters": 3.9496437952924864e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1635159492201407822",
@@ -8097,7 +10253,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "3212 COLLEGE AVE",
-    "approx_distance_meters": 0.0005589968140720952
+    "approx_distance_meters": 0.0005589968140720952,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1637243394214512400",
@@ -8112,7 +10272,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "222 E STATE ST",
-    "approx_distance_meters": 4.822077592260589e-05
+    "approx_distance_meters": 4.822077592260589e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1637843440634199955",
@@ -8127,7 +10291,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "602 SANDHILL RD",
-    "approx_distance_meters": 0.00019062248672859183
+    "approx_distance_meters": 0.00019062248672859183,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 6.0,
+    "percent_over": 60.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1640040026510288061",
@@ -8142,7 +10310,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "701 LAVINIA ST",
-    "approx_distance_meters": 3.1786453333643496e-05
+    "approx_distance_meters": 3.1786453333643496e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1640736658415736861",
@@ -8157,7 +10329,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "436 PORT ST",
-    "approx_distance_meters": 9.469968333767298e-05
+    "approx_distance_meters": 9.469968333767298e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1642781364648218376",
@@ -8172,7 +10348,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1 WINDMILL CT",
-    "approx_distance_meters": 2.930958652756154e-05
+    "approx_distance_meters": 2.930958652756154e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1642931684048285492",
@@ -8187,7 +10367,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "124 RED FOX DR",
-    "approx_distance_meters": 7.385503173994333e-05
+    "approx_distance_meters": 7.385503173994333e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/16438425",
@@ -8202,7 +10386,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "202 W BROUGHTON ST",
-    "approx_distance_meters": 3.421426529299365e-05
+    "approx_distance_meters": 3.421426529299365e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1644571036388148904",
@@ -8217,7 +10405,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "3220 FALLIGANT AVE",
-    "approx_distance_meters": 0.0003380799164084057
+    "approx_distance_meters": 0.0003380799164084057,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1647155588743208705",
@@ -8232,7 +10424,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "9 LEE BLVD",
-    "approx_distance_meters": 0.0010391636177044079
+    "approx_distance_meters": 0.0010391636177044079,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1648526312201167883",
@@ -8247,7 +10443,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "117 BLAINE CT",
-    "approx_distance_meters": 9.255613320430337e-05
+    "approx_distance_meters": 9.255613320430337e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1649610540571460942",
@@ -8262,7 +10462,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9 HOLIDAY CV",
-    "approx_distance_meters": 0.00025199462541901374
+    "approx_distance_meters": 0.00025199462541901374,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1651022915689162415",
@@ -8277,7 +10481,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "21 FLUKE ST",
-    "approx_distance_meters": 0.00015589705344006718
+    "approx_distance_meters": 0.00015589705344006718,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1653088512205434880",
@@ -8292,7 +10500,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "10 WHITAKER ST",
-    "approx_distance_meters": 7.798147412925793e-05
+    "approx_distance_meters": 7.798147412925793e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1653110710424906883",
@@ -8307,7 +10519,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "23 E 37TH ST",
-    "approx_distance_meters": 6.452483709345538e-05
+    "approx_distance_meters": 6.452483709345538e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1653169126777012501",
@@ -8322,7 +10538,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "W BROUGHTON ST",
-    "approx_distance_meters": 1.9537266021822917e-05
+    "approx_distance_meters": 1.9537266021822917e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1653317023375988564",
@@ -8337,7 +10557,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "10 WHITAKER ST",
-    "approx_distance_meters": 2.6654803267459973e-05
+    "approx_distance_meters": 2.6654803267459973e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 22.0,
+    "over_occupancy": -6.0,
+    "percent_over": -27.27272727272727
   },
   {
     "url": "https://www.airbnb.com/rooms/1654481991204591610",
@@ -8352,7 +10576,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "3132 ROBERTSON ST",
-    "approx_distance_meters": 4.2245265629594146e-05
+    "approx_distance_meters": 4.2245265629594146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1655095017686597773",
@@ -8367,7 +10595,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "4 CYPRESS CV",
-    "approx_distance_meters": 9.40017953425978e-05
+    "approx_distance_meters": 9.40017953425978e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1655265633249023314",
@@ -8382,7 +10614,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "17 E DEERWOOD RD",
-    "approx_distance_meters": 1.2292292823417095e-05
+    "approx_distance_meters": 1.2292292823417095e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1656888459370729346",
@@ -8397,7 +10633,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "134 HOUSTON ST",
-    "approx_distance_meters": 8.89105258707161e-05
+    "approx_distance_meters": 8.89105258707161e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1658200642013840946",
@@ -8412,7 +10652,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "302 BURLINGTON RD",
-    "approx_distance_meters": 3.24191751796366e-05
+    "approx_distance_meters": 3.24191751796366e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1658962815013924864",
@@ -8427,7 +10671,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "107 BILTMORE RD",
-    "approx_distance_meters": 1.639410927086811e-05
+    "approx_distance_meters": 1.639410927086811e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1659034393253295010",
@@ -8442,7 +10690,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "8620 W CREIGHTON PL",
-    "approx_distance_meters": 0.0001665084738528046
+    "approx_distance_meters": 0.0001665084738528046,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1660291145432196952",
@@ -8457,7 +10709,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4 HORNE PL",
-    "approx_distance_meters": 0.00011220157505347098
+    "approx_distance_meters": 0.00011220157505347098,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1660859565047567167",
@@ -8472,7 +10728,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "204 RUNAWAY POINT RD",
-    "approx_distance_meters": 0.00011800300447346428
+    "approx_distance_meters": 0.00011800300447346428,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1661185732941095831",
@@ -8487,7 +10747,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2102 SHAW AVE ##A",
-    "approx_distance_meters": 0.00028263232480461284
+    "approx_distance_meters": 0.00028263232480461284,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1662657636017563487",
@@ -8502,7 +10766,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "303 MAPMAKER LN",
-    "approx_distance_meters": 7.991084975904675e-05
+    "approx_distance_meters": 7.991084975904675e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1663190508912907923",
@@ -8517,14 +10785,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "11 GOVERNMENT RD",
-    "approx_distance_meters": 2.9425301553490553e-05
+    "approx_distance_meters": 2.9425301553490553e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1663793149099777815",
     "rental_type": "Entire guesthouse",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 31.9922,
     "longitude": -81.0518,
@@ -8532,7 +10804,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "11 GOVERNMENT RD",
-    "approx_distance_meters": 7.125359980892105e-05
+    "approx_distance_meters": 7.125359980892105e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1664819526888767077",
@@ -8547,7 +10823,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2716 MECHANICS AVE",
-    "approx_distance_meters": 0.00012526682742367378
+    "approx_distance_meters": 0.00012526682742367378,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1666044673969494042",
@@ -8562,7 +10842,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3624 MACCEO DR",
-    "approx_distance_meters": 0.000907636097372415
+    "approx_distance_meters": 0.000907636097372415,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1666127124184785179",
@@ -8577,7 +10861,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "217 GOEBEL AVE",
-    "approx_distance_meters": 0.0010813201367559993
+    "approx_distance_meters": 0.0010813201367559993,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1666967529955388630",
@@ -8592,7 +10880,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "1210 E 71ST ST",
-    "approx_distance_meters": 7.149289767361204e-05
+    "approx_distance_meters": 7.149289767361204e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1668040087999941605",
@@ -8607,7 +10899,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "5104 FRANKLIN ST",
-    "approx_distance_meters": 0.00011540500119154106
+    "approx_distance_meters": 0.00011540500119154106,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1670994864646084800",
@@ -8622,7 +10918,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "102 WILLOW LAKES CT",
-    "approx_distance_meters": 0.00016972509836506787
+    "approx_distance_meters": 0.00016972509836506787,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1671259291246493333",
@@ -8637,7 +10937,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "18 CALIBOGUE RD",
-    "approx_distance_meters": 0.00014020821617174604
+    "approx_distance_meters": 0.00014020821617174604,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1673150985275356458",
@@ -8652,7 +10956,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "33 PENROSE DR",
-    "approx_distance_meters": 0.0002655947166262138
+    "approx_distance_meters": 0.0002655947166262138,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1674873317546475436",
@@ -8667,7 +10975,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3009 YOUNG ST",
-    "approx_distance_meters": 5.9410502015649274e-05
+    "approx_distance_meters": 5.9410502015649274e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 26.0,
+    "over_occupancy": -10.0,
+    "percent_over": -38.46153846153847
   },
   {
     "url": "https://www.airbnb.com/rooms/1677872441327393562",
@@ -8682,7 +10994,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "7216 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 5.061190455202467e-05
+    "approx_distance_meters": 5.061190455202467e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1677952533465112557",
@@ -8697,7 +11013,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "200 E POINT DR",
-    "approx_distance_meters": 5.484416669779149e-05
+    "approx_distance_meters": 5.484416669779149e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1678606288130281936",
@@ -8712,7 +11032,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1437 CLAREMONT CIR",
-    "approx_distance_meters": 6.804003785077817e-05
+    "approx_distance_meters": 6.804003785077817e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1678607797256827349",
@@ -8727,7 +11051,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "411 OAK ST",
-    "approx_distance_meters": 6.114653961828141e-05
+    "approx_distance_meters": 6.114653961828141e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1681194900198541389",
@@ -8742,7 +11070,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #201B",
-    "approx_distance_meters": 3.5837309420461085e-05
+    "approx_distance_meters": 3.5837309420461085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1682134897361551099",
@@ -8757,7 +11089,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "522 E CHARLTON ST",
-    "approx_distance_meters": 4.625425682861426e-05
+    "approx_distance_meters": 4.625425682861426e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1682848531642517633",
@@ -8772,7 +11108,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "419 E CHARLTON ST",
-    "approx_distance_meters": 0.00014217685712089736
+    "approx_distance_meters": 0.00014217685712089736,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1683336721436577488",
@@ -8787,7 +11127,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3222 OAKWOOD DR",
-    "approx_distance_meters": 3.546483931464905e-05
+    "approx_distance_meters": 3.546483931464905e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1683581325344197171",
@@ -8802,7 +11146,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "221 COLD CREEK PASS",
-    "approx_distance_meters": 7.744809919329834e-05
+    "approx_distance_meters": 7.744809919329834e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1683689538137874507",
@@ -8817,7 +11165,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "113 RUNAWAY POINT RD",
-    "approx_distance_meters": 0.0005149007989995195
+    "approx_distance_meters": 0.0005149007989995195,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1684142818837051244",
@@ -8832,7 +11184,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1906 STONE ST",
-    "approx_distance_meters": 0.0005468000665890441
+    "approx_distance_meters": 0.0005468000665890441,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1685070930621160904",
@@ -8847,7 +11203,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "113 COACH HOUSE SQ",
-    "approx_distance_meters": 9.234124985161129e-05
+    "approx_distance_meters": 9.234124985161129e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1687029903504286024",
@@ -8862,7 +11222,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2602 BARNARD ST",
-    "approx_distance_meters": 0.00011046723398198885
+    "approx_distance_meters": 0.00011046723398198885,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1688492923193761460",
@@ -8877,7 +11241,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "29 PENROSE DR",
-    "approx_distance_meters": 0.00030704012508123515
+    "approx_distance_meters": 0.00030704012508123515,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1689264353427510941",
@@ -8892,7 +11260,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "2103 UTAH ST",
-    "approx_distance_meters": 7.20696440891157e-05
+    "approx_distance_meters": 7.20696440891157e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1690570596948915843",
@@ -8907,7 +11279,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "104 ROPEMAKER LN",
-    "approx_distance_meters": 8.710000813024027e-05
+    "approx_distance_meters": 8.710000813024027e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -4.0,
+    "percent_over": -40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1693548177016423827",
@@ -8922,7 +11298,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "633 E 60TH ST",
-    "approx_distance_meters": 0.00041772846733638554
+    "approx_distance_meters": 0.00041772846733638554,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1694330238959971012",
@@ -8937,7 +11317,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #201B",
-    "approx_distance_meters": 3.5837309420461085e-05
+    "approx_distance_meters": 3.5837309420461085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1695598093748636655",
@@ -8952,7 +11336,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "1614 ELEANOR ST",
-    "approx_distance_meters": 5.4085913626307944e-05
+    "approx_distance_meters": 5.4085913626307944e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1695691520276573581",
@@ -8967,7 +11355,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "417 UPPER EAST AVE",
-    "approx_distance_meters": 8.242045019236151e-05
+    "approx_distance_meters": 8.242045019236151e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1696327773671634611",
@@ -8982,7 +11374,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "310 W BROUGHTON ST #3015A",
-    "approx_distance_meters": 2.0948166181218156e-05
+    "approx_distance_meters": 2.0948166181218156e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1696575747246273268",
@@ -8997,7 +11393,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "152 PENN STATION",
-    "approx_distance_meters": 3.5573880821431395e-06
+    "approx_distance_meters": 3.5573880821431395e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1696783109839497109",
@@ -9012,7 +11412,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "5 CEDAR CREEK LN",
-    "approx_distance_meters": 0.00017158770545443584
+    "approx_distance_meters": 0.00017158770545443584,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1696849666381739569",
@@ -9027,7 +11431,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1201 D J'S WAY",
-    "approx_distance_meters": 0.00016687307050716673
+    "approx_distance_meters": 0.00016687307050716673,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1697392900910491274",
@@ -9042,7 +11450,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1213 HOMER CITY WAY",
-    "approx_distance_meters": 0.00015293437303720553
+    "approx_distance_meters": 0.00015293437303720553,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -3.0,
+    "percent_over": -75.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1697958026198186895",
@@ -9057,7 +11469,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "801 ROCKEFELLER ST",
-    "approx_distance_meters": 9.010813692564035e-05
+    "approx_distance_meters": 9.010813692564035e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1699360584894659735",
@@ -9072,7 +11488,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "326 E BRYAN ST",
-    "approx_distance_meters": 5.416979609132204e-05
+    "approx_distance_meters": 5.416979609132204e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1699732374591475522",
@@ -9087,7 +11507,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "WALTON ST",
-    "approx_distance_meters": 5.5219889797416006e-05
+    "approx_distance_meters": 5.5219889797416006e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1700082368918296674",
@@ -9102,7 +11526,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "140 PELICAN DR",
-    "approx_distance_meters": 3.997572287184568e-05
+    "approx_distance_meters": 3.997572287184568e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1700237276318624659",
@@ -9117,7 +11545,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1520 WALTHOUR RD",
-    "approx_distance_meters": 0.00031305149146096503
+    "approx_distance_meters": 0.00031305149146096503,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1702546867202227872",
@@ -9132,7 +11564,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "106 CREEKSIDE DR",
-    "approx_distance_meters": 5.282457631324574e-05
+    "approx_distance_meters": 5.282457631324574e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1702998109364969067",
@@ -9147,7 +11583,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "11 GOVERNMENT RD",
-    "approx_distance_meters": 2.9425301553490553e-05
+    "approx_distance_meters": 2.9425301553490553e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1703996998798016992",
@@ -9162,7 +11602,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "27 CEDAR CREEK LN",
-    "approx_distance_meters": 6.547902783103228e-05
+    "approx_distance_meters": 6.547902783103228e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1704433462585328143",
@@ -9177,7 +11621,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "35 HOUSTON ST",
-    "approx_distance_meters": 8.077298338312889e-05
+    "approx_distance_meters": 8.077298338312889e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1704746604662906243",
@@ -9192,7 +11640,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "38 PRICE ST",
-    "approx_distance_meters": 0.00012096491830670772
+    "approx_distance_meters": 0.00012096491830670772,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1705328770265928963",
@@ -9207,7 +11659,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "211 E VICTORY DR",
-    "approx_distance_meters": 7.987489969732557e-05
+    "approx_distance_meters": 7.987489969732557e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1705856997384011474",
@@ -9222,7 +11678,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "507 E 31ST ST",
-    "approx_distance_meters": 3.9236681880689284e-05
+    "approx_distance_meters": 3.9236681880689284e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1705929673024720690",
@@ -9237,7 +11697,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "415 BONAVENTURE RD",
-    "approx_distance_meters": 0.0003218672781380681
+    "approx_distance_meters": 0.0003218672781380681,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1706923303195424455",
@@ -9252,7 +11716,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "121 LEGENDS RD",
-    "approx_distance_meters": 2.4664982299281097e-05
+    "approx_distance_meters": 2.4664982299281097e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 1.0,
+    "percent_over": 8.333333333333332
   },
   {
     "url": "https://www.airbnb.com/rooms/1707258638419759291",
@@ -9267,7 +11735,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "24 SANDY SHOALS PASS",
-    "approx_distance_meters": 6.606270356373314e-05
+    "approx_distance_meters": 6.606270356373314e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 1.0,
+    "percent_over": 10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1707491038469450144",
@@ -9282,7 +11754,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "W 41ST ST",
-    "approx_distance_meters": 5.1163230163644353e-05
+    "approx_distance_meters": 5.1163230163644353e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1707494150246562170",
@@ -9297,7 +11773,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "303 W VICTORY DR",
-    "approx_distance_meters": 3.492477776943431e-05
+    "approx_distance_meters": 3.492477776943431e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1708012875887634476",
@@ -9312,7 +11792,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2618 MONTGOMERY ST",
-    "approx_distance_meters": 7.622614721502862e-05
+    "approx_distance_meters": 7.622614721502862e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1708049214621228036",
@@ -9327,7 +11811,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "205 LEEDS GATE RD",
-    "approx_distance_meters": 2.972631657965834e-05
+    "approx_distance_meters": 2.972631657965834e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709549492517996719",
@@ -9342,7 +11830,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2626 W VICTORY DR",
-    "approx_distance_meters": 0.0002919158389811948
+    "approx_distance_meters": 0.0002919158389811948,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709552486917456862",
@@ -9357,7 +11849,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "306 W 42ND ST",
-    "approx_distance_meters": 7.683150822523475e-05
+    "approx_distance_meters": 7.683150822523475e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709588715837376027",
@@ -9372,7 +11868,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1 SAPPHIRE ISLAND RD",
-    "approx_distance_meters": 0.0001271681426133089
+    "approx_distance_meters": 0.0001271681426133089,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709595394702474285",
@@ -9387,7 +11887,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "W VICTORY DR",
-    "approx_distance_meters": 9.571860582971287e-05
+    "approx_distance_meters": 9.571860582971287e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709628025298936664",
@@ -9402,7 +11906,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2802 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.00010716674126719378
+    "approx_distance_meters": 0.00010716674126719378,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1710427914881895755",
@@ -9417,7 +11925,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "ADELINE ST",
-    "approx_distance_meters": 0.00012150214765740513
+    "approx_distance_meters": 0.00012150214765740513,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1711131548328707920",
@@ -9432,7 +11944,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "WASHINGTON SQUARE",
-    "approx_distance_meters": 0.0002256435019409891
+    "approx_distance_meters": 0.0002256435019409891,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1711755037447416552",
@@ -9447,7 +11963,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "38 HARRELL DR",
-    "approx_distance_meters": 0.0002109108591593625
+    "approx_distance_meters": 0.0002109108591593625,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1711790856248887280",
@@ -9462,7 +11982,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "3110 E VICTORY DR",
-    "approx_distance_meters": 0.000161104385090075
+    "approx_distance_meters": 0.000161104385090075,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1711790880294273196",
@@ -9477,7 +12001,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1513 BUCKINGHAM WAY",
-    "approx_distance_meters": 8.426685129736861e-05
+    "approx_distance_meters": 8.426685129736861e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1713317843228214797",
@@ -9492,7 +12020,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "120 CATALINA DR",
-    "approx_distance_meters": 7.55333026474284e-05
+    "approx_distance_meters": 7.55333026474284e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1713903140116747808",
@@ -9507,7 +12039,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "9 CROSS BOW CT",
-    "approx_distance_meters": 0.0001197739870282898
+    "approx_distance_meters": 0.0001197739870282898,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1714022375766253189",
@@ -9522,7 +12058,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2609 GOVERNOR ST",
-    "approx_distance_meters": 6.185105635378212e-05
+    "approx_distance_meters": 6.185105635378212e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1716871305589445400",
@@ -9537,7 +12077,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "402 W 41ST ST",
-    "approx_distance_meters": 2.425761082121576e-05
+    "approx_distance_meters": 2.425761082121576e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1716872236830262708",
@@ -9552,7 +12096,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2802 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0001333638102528475
+    "approx_distance_meters": 0.0001333638102528475,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1717002217276688437",
@@ -9567,7 +12115,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "303 W VICTORY DR",
-    "approx_distance_meters": 0.00018950457328644914
+    "approx_distance_meters": 0.00018950457328644914,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1718120700026544653",
@@ -9582,7 +12134,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "463 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.0002742198510967375
+    "approx_distance_meters": 0.0002742198510967375,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1719058161176381493",
@@ -9597,7 +12153,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "123 ALPINE DR",
-    "approx_distance_meters": 1.4117893459007291e-05
+    "approx_distance_meters": 1.4117893459007291e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1720407388119132548",
@@ -9612,7 +12172,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "415 W 42ND ST",
-    "approx_distance_meters": 0.00011100712475837085
+    "approx_distance_meters": 0.00011100712475837085,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1720620773342843293",
@@ -9627,7 +12191,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "421 W 42ND ST",
-    "approx_distance_meters": 5.200605263901371e-05
+    "approx_distance_meters": 5.200605263901371e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1721178951888609736",
@@ -9642,7 +12210,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "2 HIDDEN LAKE CT",
-    "approx_distance_meters": 0.0006528021399469485
+    "approx_distance_meters": 0.0006528021399469485,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1721978963600351913",
@@ -9657,7 +12229,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2207 DOWNING DR",
-    "approx_distance_meters": 3.151362199800417e-05
+    "approx_distance_meters": 3.151362199800417e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1724191467167517882",
@@ -9672,7 +12248,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2802 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 3.755013971772275e-05
+    "approx_distance_meters": 3.755013971772275e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1724945680620517848",
@@ -9687,7 +12267,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "7616 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 3.469799430642182e-05
+    "approx_distance_meters": 3.469799430642182e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1724949972769062468",
@@ -9702,7 +12286,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "7616 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 3.469799430642182e-05
+    "approx_distance_meters": 3.469799430642182e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1726489118237528399",
@@ -9717,7 +12305,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "2626 W VICTORY DR",
-    "approx_distance_meters": 0.0003853420144989551
+    "approx_distance_meters": 0.0003853420144989551,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/17359816",
@@ -9732,7 +12324,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "1217 BAY ST #108B",
-    "approx_distance_meters": 0.00040547161267865696
+    "approx_distance_meters": 0.00040547161267865696,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/17473465",
@@ -9747,7 +12343,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "542 E ST JULIAN ST",
-    "approx_distance_meters": 5.267640876195842e-05
+    "approx_distance_meters": 5.267640876195842e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/17586018",
@@ -9762,7 +12362,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "521 E CHARLTON ST",
-    "approx_distance_meters": 4.817651054236455e-05
+    "approx_distance_meters": 4.817651054236455e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/17591334",
@@ -9777,7 +12381,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "348 LINCOLN ST",
-    "approx_distance_meters": 5.055846698412638e-05
+    "approx_distance_meters": 5.055846698412638e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/17733402",
@@ -9792,7 +12400,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "521 E PERRY ST",
-    "approx_distance_meters": 5.490607371452502e-05
+    "approx_distance_meters": 5.490607371452502e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/17774091",
@@ -9807,7 +12419,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1947 COLONIAL DR",
-    "approx_distance_meters": 0.0001460478340151052
+    "approx_distance_meters": 0.0001460478340151052,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/17873602",
@@ -9822,7 +12438,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "521 E CHARLTON ST",
-    "approx_distance_meters": 3.523292395091541e-05
+    "approx_distance_meters": 3.523292395091541e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18461612",
@@ -9837,7 +12457,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18705028",
@@ -9852,7 +12476,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #301B",
-    "approx_distance_meters": 0.0001960387085729643
+    "approx_distance_meters": 0.0001960387085729643,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18705032",
@@ -9867,7 +12495,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #216B",
-    "approx_distance_meters": 1.3842694327318292e-05
+    "approx_distance_meters": 1.3842694327318292e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18731846",
@@ -9882,7 +12514,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "3313 BANNON DR",
-    "approx_distance_meters": 9.825817023627338e-05
+    "approx_distance_meters": 9.825817023627338e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/18756983",
@@ -9897,7 +12533,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #301C",
-    "approx_distance_meters": 7.580608863038005e-05
+    "approx_distance_meters": 7.580608863038005e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18756995",
@@ -9912,7 +12552,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #101C",
-    "approx_distance_meters": 0.00040306823773911173
+    "approx_distance_meters": 0.00040306823773911173,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19011680",
@@ -9927,7 +12571,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "204 W BROUGHTON ST",
-    "approx_distance_meters": 2.5287335604476518e-05
+    "approx_distance_meters": 2.5287335604476518e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19029903",
@@ -9942,7 +12590,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "417 E CONGRESS ST",
-    "approx_distance_meters": 4.6134661345040115e-05
+    "approx_distance_meters": 4.6134661345040115e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19245762",
@@ -9957,7 +12609,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "316 HABERSHAM ST",
-    "approx_distance_meters": 0.00016819018184873662
+    "approx_distance_meters": 0.00016819018184873662,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19282828",
@@ -9972,7 +12628,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "501 E MCDONOUGH ST",
-    "approx_distance_meters": 4.36321788367265e-05
+    "approx_distance_meters": 4.36321788367265e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19297789",
@@ -9987,7 +12647,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19343931",
@@ -10002,7 +12666,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "2 SANCTUARY PL",
-    "approx_distance_meters": 0.00015288327213901475
+    "approx_distance_meters": 0.00015288327213901475,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19530905",
@@ -10017,7 +12685,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "420 E LIBERTY ST",
-    "approx_distance_meters": 2.1300633590643617e-05
+    "approx_distance_meters": 2.1300633590643617e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19550066",
@@ -10032,7 +12704,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "310 E JONES ST",
-    "approx_distance_meters": 2.9269840584349743e-05
+    "approx_distance_meters": 2.9269840584349743e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/19855975",
@@ -10047,7 +12723,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1312 BAY ST",
-    "approx_distance_meters": 0.00034542938672161324
+    "approx_distance_meters": 0.00034542938672161324,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19855984",
@@ -10062,7 +12742,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #313B",
-    "approx_distance_meters": 2.1159094127091496e-05
+    "approx_distance_meters": 2.1159094127091496e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19856265",
@@ -10077,7 +12761,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "122 ANDREA DR",
-    "approx_distance_meters": 0.00017857019417298798
+    "approx_distance_meters": 0.00017857019417298798,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19924822",
@@ -10092,7 +12780,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST #302",
-    "approx_distance_meters": 3.424582539010459e-05
+    "approx_distance_meters": 3.424582539010459e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/20052704",
@@ -10107,7 +12799,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "208 E JONES ST",
-    "approx_distance_meters": 1.8707328034470544e-05
+    "approx_distance_meters": 1.8707328034470544e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/20419501",
@@ -10122,7 +12818,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/20467753",
@@ -10137,7 +12837,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "130 FALLIGANT AVE",
-    "approx_distance_meters": 0.0005060520557960957
+    "approx_distance_meters": 0.0005060520557960957,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/20756201",
@@ -10152,7 +12856,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "103 CHERRY ST",
-    "approx_distance_meters": 3.62953735351367e-05
+    "approx_distance_meters": 3.62953735351367e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/21005555",
@@ -10167,7 +12875,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "110 BARNARD ST #313",
-    "approx_distance_meters": 6.562215997465498e-06
+    "approx_distance_meters": 6.562215997465498e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21543814",
@@ -10182,7 +12894,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "117 LINCOLN ST #117-6B",
-    "approx_distance_meters": 1.0936570475111918e-05
+    "approx_distance_meters": 1.0936570475111918e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/21587149",
@@ -10197,7 +12913,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1119 HALCYON DR",
-    "approx_distance_meters": 7.960438376035855e-05
+    "approx_distance_meters": 7.960438376035855e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21610703",
@@ -10212,7 +12932,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "222 E HARRIS ST",
-    "approx_distance_meters": 0.00017904750424149057
+    "approx_distance_meters": 0.00017904750424149057,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21752684",
@@ -10227,7 +12951,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "320 E 40TH ST",
-    "approx_distance_meters": 3.668473500159634e-05
+    "approx_distance_meters": 3.668473500159634e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21837927",
@@ -10242,7 +12970,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "508 E PERRY ST",
-    "approx_distance_meters": 5.0378376722491206e-05
+    "approx_distance_meters": 5.0378376722491206e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/22203094",
@@ -10257,7 +12989,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "543 E PERRY ST",
-    "approx_distance_meters": 4.348971152146098e-05
+    "approx_distance_meters": 4.348971152146098e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22447555",
@@ -10272,7 +13008,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "556 LIBERTY ST",
-    "approx_distance_meters": 4.815953296851327e-05
+    "approx_distance_meters": 4.815953296851327e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22447614",
@@ -10287,7 +13027,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "545 E ST JULIAN ST",
-    "approx_distance_meters": 6.935808730908181e-05
+    "approx_distance_meters": 6.935808730908181e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22770344",
@@ -10302,7 +13046,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 4.840649977774554e-05
+    "approx_distance_meters": 4.840649977774554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/22908420",
@@ -10317,7 +13065,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "100 OATLAND ISLAND RD",
-    "approx_distance_meters": 0.00030049531871970337
+    "approx_distance_meters": 0.00030049531871970337,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23163705",
@@ -10332,7 +13084,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "1208 LINCOLN ST",
-    "approx_distance_meters": 4.0692410876955475e-05
+    "approx_distance_meters": 4.0692410876955475e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/23206643",
@@ -10347,7 +13103,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "324 E HARRIS ST",
-    "approx_distance_meters": 9.966237969510158e-05
+    "approx_distance_meters": 9.966237969510158e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23304184",
@@ -10362,7 +13122,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "312 E LIBERTY ST #D",
-    "approx_distance_meters": 3.156291475877581e-05
+    "approx_distance_meters": 3.156291475877581e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23328571",
@@ -10377,7 +13141,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1120 HALCYON DR",
-    "approx_distance_meters": 0.0005980006497177543
+    "approx_distance_meters": 0.0005980006497177543,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23393371",
@@ -10392,7 +13160,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #215A",
-    "approx_distance_meters": 3.83924193019665e-05
+    "approx_distance_meters": 3.83924193019665e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23467441",
@@ -10407,7 +13179,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "3121 RIVER DR",
-    "approx_distance_meters": 0.0009521901304585877
+    "approx_distance_meters": 0.0009521901304585877,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/23477293",
@@ -10422,52 +13198,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "310 E JONES ST",
-    "approx_distance_meters": 2.9269840584349743e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/23724412",
-    "rental_type": "Campsite",
-    "guests": 4.0,
-    "bedrooms": "",
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.03898,
-    "longitude": -81.3215,
-    "host_name": "Annette 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "1062 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0010716626851190614
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/23731885",
-    "rental_type": "Campsite",
-    "guests": 2.0,
-    "bedrooms": "",
-    "beds": 1.0,
-    "baths": 0.0,
-    "latitude": 32.03895,
-    "longitude": -81.32316,
-    "host_name": "Annette 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "1062 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0007755588889369463
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/23790871",
-    "rental_type": "Campsite",
-    "guests": 4.0,
-    "bedrooms": "",
-    "beds": 1.0,
-    "baths": 0.0,
-    "latitude": 32.03699,
-    "longitude": -81.32548,
-    "host_name": "Annette 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "0 FORT ARGYLE RD",
-    "approx_distance_meters": 0.0006357502002202611
+    "approx_distance_meters": 2.9269840584349743e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23893382",
@@ -10482,7 +13217,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24033428",
@@ -10497,7 +13236,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "537 E CHARLTON ST",
-    "approx_distance_meters": 4.309598162813296e-05
+    "approx_distance_meters": 4.309598162813296e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24163559",
@@ -10512,7 +13255,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "316 E JONES",
-    "approx_distance_meters": 9.217333172807999e-06
+    "approx_distance_meters": 9.217333172807999e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24249480",
@@ -10527,7 +13274,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "9137 FERGUSON AVE",
-    "approx_distance_meters": 0.0007634204993116713
+    "approx_distance_meters": 0.0007634204993116713,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24797268",
@@ -10542,7 +13293,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24803664",
@@ -10557,7 +13312,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "310 E JONES ST",
-    "approx_distance_meters": 2.9269840584349743e-05
+    "approx_distance_meters": 2.9269840584349743e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25014298",
@@ -10572,7 +13331,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "910 PENN WALLER RD",
-    "approx_distance_meters": 0.00026345629054421636
+    "approx_distance_meters": 0.00026345629054421636,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 6.0,
+    "percent_over": 100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25162883",
@@ -10587,7 +13350,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25164262",
@@ -10602,7 +13369,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "110 BARNARD ST #313",
-    "approx_distance_meters": 6.562215997465498e-06
+    "approx_distance_meters": 6.562215997465498e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25188584",
@@ -10617,7 +13388,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "321 E CONGRESS ST",
-    "approx_distance_meters": 2.9926698014346408e-05
+    "approx_distance_meters": 2.9926698014346408e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25188585",
@@ -10632,7 +13407,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "535 E LIBERTY ST",
-    "approx_distance_meters": 0.00018182851139046384
+    "approx_distance_meters": 0.00018182851139046384,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25484296",
@@ -10647,7 +13426,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "2712 MECHANICS AVE",
-    "approx_distance_meters": 3.705652476648738e-05
+    "approx_distance_meters": 3.705652476648738e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/25514450",
@@ -10662,7 +13445,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25532864",
@@ -10677,7 +13464,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "301 E HARRIS ST",
-    "approx_distance_meters": 1.9442316583019827e-05
+    "approx_distance_meters": 1.9442316583019827e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/26005354",
@@ -10692,7 +13483,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "106 BOWSPRIT LN",
-    "approx_distance_meters": 3.765022193498508e-05
+    "approx_distance_meters": 3.765022193498508e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/26194656",
@@ -10707,7 +13502,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "302 W 40TH ST",
-    "approx_distance_meters": 8.064325548790227e-05
+    "approx_distance_meters": 8.064325548790227e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/26333047",
@@ -10722,7 +13521,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "417 E CHARLTON ST",
-    "approx_distance_meters": 0.0001133429125209225
+    "approx_distance_meters": 0.0001133429125209225,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/26352199",
@@ -10737,7 +13540,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "311 LINCOLN ST",
-    "approx_distance_meters": 0.00017870597009113443
+    "approx_distance_meters": 0.00017870597009113443,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/26868109",
@@ -10752,7 +13559,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "308 E 41ST ST",
-    "approx_distance_meters": 0.00010507187363409575
+    "approx_distance_meters": 0.00010507187363409575,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27223488",
@@ -10767,7 +13578,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "50 E BROAD ST",
-    "approx_distance_meters": 6.00904975858201e-05
+    "approx_distance_meters": 6.00904975858201e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27226189",
@@ -10782,7 +13597,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "120 OKATEE DR",
-    "approx_distance_meters": 4.706272014756164e-05
+    "approx_distance_meters": 4.706272014756164e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27282063",
@@ -10797,7 +13616,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "6 E STATE ST",
-    "approx_distance_meters": 3.801916945082069e-05
+    "approx_distance_meters": 3.801916945082069e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27368094",
@@ -10812,7 +13635,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "222 E HARRIS ST",
-    "approx_distance_meters": 7.24241780858607e-05
+    "approx_distance_meters": 7.24241780858607e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27627652",
@@ -10827,7 +13654,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "3301 E VICTORY DR",
-    "approx_distance_meters": 5.4580956104779843e-05
+    "approx_distance_meters": 5.4580956104779843e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27628803",
@@ -10842,7 +13673,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "2801 RIVER DR",
-    "approx_distance_meters": 0.00014643173627282015
+    "approx_distance_meters": 0.00014643173627282015,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27675225",
@@ -10857,7 +13692,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "1316 BAY ST",
-    "approx_distance_meters": 0.0005068331639437975
+    "approx_distance_meters": 0.0005068331639437975,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/28156315",
@@ -10872,7 +13711,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1810 BULL ST",
-    "approx_distance_meters": 0.0003294575531970296
+    "approx_distance_meters": 0.0003294575531970296,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/28303867",
@@ -10887,7 +13730,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "16 TERESA LN",
-    "approx_distance_meters": 7.629193005204878e-05
+    "approx_distance_meters": 7.629193005204878e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/28439088",
@@ -10902,7 +13749,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "326 MAPMAKER LN",
-    "approx_distance_meters": 0.000610237254333294
+    "approx_distance_meters": 0.000610237254333294,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/28751615",
@@ -10917,7 +13768,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "16",
     "approximate_address": "132 JACQUELYN DR",
-    "approx_distance_meters": 9.17396213733612e-05
+    "approx_distance_meters": 9.17396213733612e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/28950887",
@@ -10932,7 +13787,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29189330",
@@ -10947,7 +13806,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "123 BLUELAKE BLVD",
-    "approx_distance_meters": 0.0002123600096095455
+    "approx_distance_meters": 0.0002123600096095455,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29236657",
@@ -10962,7 +13825,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 E JONES ST",
-    "approx_distance_meters": 0.00012926883961488124
+    "approx_distance_meters": 0.00012926883961488124,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29370183",
@@ -10977,7 +13844,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "206 STONEBRIDGE DR",
-    "approx_distance_meters": 0.00016677261652488915
+    "approx_distance_meters": 0.00016677261652488915,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29804946",
@@ -10992,7 +13863,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "308 E DUFFY ST",
-    "approx_distance_meters": 5.539296357381821e-05
+    "approx_distance_meters": 5.539296357381821e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/30767664",
@@ -11007,7 +13882,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/31308568",
@@ -11022,7 +13901,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 0.000395925408244383
+    "approx_distance_meters": 0.000395925408244383,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/31603674",
@@ -11037,7 +13920,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "401 BARNHILL DR",
-    "approx_distance_meters": 0.0001367676032857944
+    "approx_distance_meters": 0.0001367676032857944,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/31744030",
@@ -11052,7 +13939,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "1014 REITA ST",
-    "approx_distance_meters": 6.965996948136305e-05
+    "approx_distance_meters": 6.965996948136305e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32067143",
@@ -11067,7 +13958,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2612 WHATLEY RD #8B",
-    "approx_distance_meters": 4.636488235505095e-05
+    "approx_distance_meters": 4.636488235505095e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/32457969",
@@ -11082,7 +13977,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "132 MONTGOMERY ST",
-    "approx_distance_meters": 0.00021565010599684236
+    "approx_distance_meters": 0.00021565010599684236,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32569281",
@@ -11097,7 +13996,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 E JONES ST",
-    "approx_distance_meters": 0.00012926883961488124
+    "approx_distance_meters": 0.00012926883961488124,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32715472",
@@ -11112,7 +14015,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "6 E STATE ST",
-    "approx_distance_meters": 3.801916945082069e-05
+    "approx_distance_meters": 3.801916945082069e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32718350",
@@ -11127,7 +14034,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "324 E HARRIS ST",
-    "approx_distance_meters": 1.1572244061699933e-05
+    "approx_distance_meters": 1.1572244061699933e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/32810756",
@@ -11142,7 +14053,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "408 E MCDONOUGH ST",
-    "approx_distance_meters": 2.363657979019266e-05
+    "approx_distance_meters": 2.363657979019266e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/33210992",
@@ -11157,7 +14072,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "122 DRIFTON DR",
-    "approx_distance_meters": 0.0012262621443961319
+    "approx_distance_meters": 0.0012262621443961319,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/33972218",
@@ -11172,7 +14091,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "109 REESE WAY",
-    "approx_distance_meters": 4.7104651837409124e-05
+    "approx_distance_meters": 4.7104651837409124e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/33986609",
@@ -11187,7 +14110,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "110 ARNOLD ST",
-    "approx_distance_meters": 4.6714041420496516e-05
+    "approx_distance_meters": 4.6714041420496516e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/34356956",
@@ -11202,7 +14129,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "536 E LIBERTY ST",
-    "approx_distance_meters": 3.5976087906311613e-05
+    "approx_distance_meters": 3.5976087906311613e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34866724",
@@ -11217,7 +14148,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34899046",
@@ -11232,7 +14167,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "1302 WALTHOUR RD",
-    "approx_distance_meters": 0.0005851438328224833
+    "approx_distance_meters": 0.0005851438328224833,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35148789",
@@ -11247,7 +14186,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "510 E CHARLTON ST",
-    "approx_distance_meters": 0.00018770089167201596
+    "approx_distance_meters": 0.00018770089167201596,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35224050",
@@ -11262,7 +14205,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "257 SHIPYARD RD",
-    "approx_distance_meters": 0.0006257747206460604
+    "approx_distance_meters": 0.0006257747206460604,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35242331",
@@ -11277,7 +14224,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "29 MAPMAKER LN",
-    "approx_distance_meters": 0.000165010816020218
+    "approx_distance_meters": 0.000165010816020218,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35872820",
@@ -11292,7 +14243,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "9 CRAMER AVE",
-    "approx_distance_meters": 8.527234017987519e-05
+    "approx_distance_meters": 8.527234017987519e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/36590636",
@@ -11307,7 +14262,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "202 WHETSTONE DR",
-    "approx_distance_meters": 0.0001325893689591682
+    "approx_distance_meters": 0.0001325893689591682,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/36600162",
@@ -11322,7 +14281,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "131 FALLIGANT AVE",
-    "approx_distance_meters": 0.00015604185728256375
+    "approx_distance_meters": 0.00015604185728256375,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/36623069",
@@ -11337,7 +14300,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "505 E HENRY ST",
-    "approx_distance_meters": 4.7332232084156506e-05
+    "approx_distance_meters": 4.7332232084156506e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/36758405",
@@ -11352,7 +14319,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/36917618",
@@ -11367,14 +14338,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2426 EASY ST",
-    "approx_distance_meters": 2.647035059986697e-05
+    "approx_distance_meters": 2.647035059986697e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37329214",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0802,
     "longitude": -81.0956,
@@ -11382,7 +14357,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37391283",
@@ -11397,7 +14376,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2002 BONA BELLA AVE",
-    "approx_distance_meters": 0.0005860848732361229
+    "approx_distance_meters": 0.0005860848732361229,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37392324",
@@ -11412,7 +14395,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2006 BONA BELLA AVE",
-    "approx_distance_meters": 0.000997844803342497
+    "approx_distance_meters": 0.000997844803342497,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37392327",
@@ -11427,7 +14414,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "33 BROADMOOR CIR",
-    "approx_distance_meters": 0.00015347374643086118
+    "approx_distance_meters": 0.00015347374643086118,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37395624",
@@ -11442,7 +14433,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "18 BROADMOOR CIR",
-    "approx_distance_meters": 0.0001311007009695785
+    "approx_distance_meters": 0.0001311007009695785,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37417167",
@@ -11457,7 +14452,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2009 BACON PARK DR",
-    "approx_distance_meters": 0.00030995996847312765
+    "approx_distance_meters": 0.00030995996847312765,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37417642",
@@ -11472,7 +14471,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "33 BROADMOOR CIR",
-    "approx_distance_meters": 6.060690486547646e-05
+    "approx_distance_meters": 6.060690486547646e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37418837",
@@ -11487,7 +14490,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2004 BONA BELLA AVE",
-    "approx_distance_meters": 0.0007469478831872323
+    "approx_distance_meters": 0.0007469478831872323,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37452129",
@@ -11502,7 +14509,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "502 W 36TH ST",
-    "approx_distance_meters": 8.539602701756389e-05
+    "approx_distance_meters": 8.539602701756389e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37491491",
@@ -11517,7 +14528,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1201 HABERSHAM ST",
-    "approx_distance_meters": 7.662453324923167e-05
+    "approx_distance_meters": 7.662453324923167e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/37677829",
@@ -11532,7 +14547,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "25 BRANNEN DR",
-    "approx_distance_meters": 0.0005378663913951306
+    "approx_distance_meters": 0.0005378663913951306,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/37914293",
@@ -11547,7 +14566,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "13 CHERRY ST",
-    "approx_distance_meters": 2.970467910759315e-05
+    "approx_distance_meters": 2.970467910759315e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/38167342",
@@ -11562,7 +14585,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "2913 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0001314365957010623
+    "approx_distance_meters": 0.0001314365957010623,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/38295496",
@@ -11577,7 +14604,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "459 MALL BLVD #29",
-    "approx_distance_meters": 7.670649630162316e-05
+    "approx_distance_meters": 7.670649630162316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/3834052",
@@ -11592,7 +14623,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "535 E CONGRESS ST",
-    "approx_distance_meters": 5.773608130879697e-05
+    "approx_distance_meters": 5.773608130879697e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/38456700",
@@ -11607,7 +14642,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "521 E LIBERTY ST",
-    "approx_distance_meters": 8.083156535057363e-05
+    "approx_distance_meters": 8.083156535057363e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/38458563",
@@ -11622,7 +14661,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "521 E LIBERTY ST",
-    "approx_distance_meters": 8.083156535057363e-05
+    "approx_distance_meters": 8.083156535057363e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38460513",
@@ -11637,7 +14680,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "511 E LIBERTY ST",
-    "approx_distance_meters": 0.00012300505353583308
+    "approx_distance_meters": 0.00012300505353583308,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38578135",
@@ -11652,7 +14699,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "2 SANCTUARY PL",
-    "approx_distance_meters": 0.0004684593835138385
+    "approx_distance_meters": 0.0004684593835138385,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38598739",
@@ -11667,7 +14718,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "35 HOUSTON ST",
-    "approx_distance_meters": 2.6346848751143388e-05
+    "approx_distance_meters": 2.6346848751143388e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38646117",
@@ -11682,7 +14737,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "202 STONEBRIDGE LN",
-    "approx_distance_meters": 6.124052586360043e-05
+    "approx_distance_meters": 6.124052586360043e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/3866866",
@@ -11697,7 +14756,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "548 E MACON ST",
-    "approx_distance_meters": 2.3550752249354147e-05
+    "approx_distance_meters": 2.3550752249354147e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38804281",
@@ -11712,7 +14775,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "228 HOLIDAY CIR",
-    "approx_distance_meters": 0.00020023975033947944
+    "approx_distance_meters": 0.00020023975033947944,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38873563",
@@ -11727,7 +14794,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "525 E LIBERTY ST",
-    "approx_distance_meters": 6.902764389010713e-05
+    "approx_distance_meters": 6.902764389010713e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38951708",
@@ -11742,7 +14813,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "BONAVENTURE RD",
-    "approx_distance_meters": 3.886267918667457e-05
+    "approx_distance_meters": 3.886267918667457e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39151124",
@@ -11757,7 +14832,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "17 SANCTUARY PL",
-    "approx_distance_meters": 0.0006697288341840965
+    "approx_distance_meters": 0.0006697288341840965,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39190671",
@@ -11772,7 +14851,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST",
-    "approx_distance_meters": 3.714197630006903e-05
+    "approx_distance_meters": 3.714197630006903e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39216359",
@@ -11787,7 +14870,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "511 E LIBERTY ST",
-    "approx_distance_meters": 0.00012300505353583308
+    "approx_distance_meters": 0.00012300505353583308,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39223566",
@@ -11802,7 +14889,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "519 E LIBERTY ST",
-    "approx_distance_meters": 5.2294811097351776e-05
+    "approx_distance_meters": 5.2294811097351776e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39274812",
@@ -11817,7 +14908,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "110 FALLIGANT AVE",
-    "approx_distance_meters": 0.0005422103651318458
+    "approx_distance_meters": 0.0005422103651318458,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39554462",
@@ -11832,7 +14927,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "544 E HARRIS ST",
-    "approx_distance_meters": 0.00010920629836420771
+    "approx_distance_meters": 0.00010920629836420771,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39577659",
@@ -11847,7 +14946,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2006 BONA BELLA AVE",
-    "approx_distance_meters": 0.001253297924850825
+    "approx_distance_meters": 0.001253297924850825,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39795000",
@@ -11862,7 +14965,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "214 W BAY ST",
-    "approx_distance_meters": 0.00011846373705670639
+    "approx_distance_meters": 0.00011846373705670639,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39964240",
@@ -11877,7 +14984,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "404 MAPMAKER LN",
-    "approx_distance_meters": 0.00023775021244084693
+    "approx_distance_meters": 0.00023775021244084693,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/40034209",
@@ -11892,7 +15003,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "314 E HARRIS ST",
-    "approx_distance_meters": 0.00010354475029533763
+    "approx_distance_meters": 0.00010354475029533763,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40056906",
@@ -11907,7 +15022,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "102 LAKEPOINTE DR",
-    "approx_distance_meters": 8.512794571707492e-05
+    "approx_distance_meters": 8.512794571707492e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40122957",
@@ -11922,7 +15041,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "1403 SOLOMON AVE",
-    "approx_distance_meters": 8.267336967497936e-05
+    "approx_distance_meters": 8.267336967497936e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40528508",
@@ -11937,7 +15060,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "163 RED GATE FARMS TRL",
-    "approx_distance_meters": 0.0004694588561413168
+    "approx_distance_meters": 0.0004694588561413168,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40563996",
@@ -11952,7 +15079,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "555 HARRIS ST",
-    "approx_distance_meters": 4.6380169770518356e-05
+    "approx_distance_meters": 4.6380169770518356e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/40613010",
@@ -11967,7 +15098,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "333 E BROAD ST",
-    "approx_distance_meters": 2.0931552256448146e-05
+    "approx_distance_meters": 2.0931552256448146e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/40655911",
@@ -11982,7 +15117,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "2408 LINCOLN ST",
-    "approx_distance_meters": 8.063914735108153e-05
+    "approx_distance_meters": 8.063914735108153e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40759694",
@@ -11997,7 +15136,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "316 E 40TH ST",
-    "approx_distance_meters": 2.9132394138423906e-05
+    "approx_distance_meters": 2.9132394138423906e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40760885",
@@ -12012,7 +15155,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "555 HARRIS ST",
-    "approx_distance_meters": 4.6380169770518356e-05
+    "approx_distance_meters": 4.6380169770518356e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40838981",
@@ -12027,7 +15174,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "201 BYERS ST",
-    "approx_distance_meters": 0.00011182683395704838
+    "approx_distance_meters": 0.00011182683395704838,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40865697",
@@ -12042,7 +15193,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "521 E LIBERTY ST",
-    "approx_distance_meters": 8.083156535057363e-05
+    "approx_distance_meters": 8.083156535057363e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40865700",
@@ -12057,7 +15212,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "521 E LIBERTY ST",
-    "approx_distance_meters": 8.083156535057363e-05
+    "approx_distance_meters": 8.083156535057363e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40967139",
@@ -12072,7 +15231,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "511 E LIBERTY ST",
-    "approx_distance_meters": 0.00012300505353583308
+    "approx_distance_meters": 0.00012300505353583308,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/40967659",
@@ -12087,7 +15250,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "116 ROMMEL AVE",
-    "approx_distance_meters": 0.0001371807295293688
+    "approx_distance_meters": 0.0001371807295293688,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40969516",
@@ -12102,7 +15269,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "522 E HARRIS ST",
-    "approx_distance_meters": 7.796419635115529e-05
+    "approx_distance_meters": 7.796419635115529e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/41024251",
@@ -12117,7 +15288,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "520 E HARRIS ST",
-    "approx_distance_meters": 6.225936248985912e-05
+    "approx_distance_meters": 6.225936248985912e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41238644",
@@ -12132,7 +15307,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "3301 HAZEL ST",
-    "approx_distance_meters": 0.00019888780033002065
+    "approx_distance_meters": 0.00019888780033002065,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/41265700",
@@ -12147,7 +15326,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "3212 COLLEGE AVE",
-    "approx_distance_meters": 0.0004488432628977195
+    "approx_distance_meters": 0.0004488432628977195,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/41385814",
@@ -12162,7 +15345,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "130 OGLESBY AVE",
-    "approx_distance_meters": 0.00030265156351360093
+    "approx_distance_meters": 0.00030265156351360093,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/41508800",
@@ -12177,7 +15364,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "5 DOUGLAS CT",
-    "approx_distance_meters": 0.0001107719139534213
+    "approx_distance_meters": 0.0001107719139534213,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41739722",
@@ -12192,22 +15383,30 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "26 E 64TH ST",
-    "approx_distance_meters": 1.792375756714936e-05
+    "approx_distance_meters": 1.792375756714936e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41802250",
     "rental_type": "Room",
-    "guests": "",
-    "bedrooms": "",
+    "guests": 0.0,
+    "bedrooms": 0.0,
     "beds": 1.0,
-    "baths": "",
+    "baths": 0.0,
     "latitude": 32.03223,
     "longitude": -81.05557,
     "host_name": "Bethany Superhost \u00b7 6 years hosting",
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "3119 SHELL RD",
-    "approx_distance_meters": 0.00035290111547306
+    "approx_distance_meters": 0.00035290111547306,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 2.0,
+    "over_occupancy": -2.0,
+    "percent_over": -100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41859155",
@@ -12222,7 +15421,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "1403 SOLOMON AVE",
-    "approx_distance_meters": 6.652606419815049e-05
+    "approx_distance_meters": 6.652606419815049e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41927780",
@@ -12237,7 +15440,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "1217 BAY ST #101B",
-    "approx_distance_meters": 0.0004555714337003687
+    "approx_distance_meters": 0.0004555714337003687,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42505423",
@@ -12252,7 +15459,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": null,
-    "approx_distance_meters": 0.0003707192624134277
+    "approx_distance_meters": 0.0003707192624134277,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42517531",
@@ -12267,7 +15478,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "4 BRANDLE CV",
-    "approx_distance_meters": 0.00012443469833119526
+    "approx_distance_meters": 0.00012443469833119526,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42590318",
@@ -12282,7 +15497,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "301 W CONGRESS ST",
-    "approx_distance_meters": 6.456230429540286e-05
+    "approx_distance_meters": 6.456230429540286e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42621247",
@@ -12297,7 +15516,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "305 WOODBINE RD",
-    "approx_distance_meters": 0.00024826678925199294
+    "approx_distance_meters": 0.00024826678925199294,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42708351",
@@ -12312,7 +15535,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "543 E HARRIS ST",
-    "approx_distance_meters": 3.854793499619134e-05
+    "approx_distance_meters": 3.854793499619134e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42708452",
@@ -12327,7 +15554,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "543 E HARRIS ST",
-    "approx_distance_meters": 3.854793499619134e-05
+    "approx_distance_meters": 3.854793499619134e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42733232",
@@ -12342,7 +15573,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "10 BONAVENTURE RD",
-    "approx_distance_meters": 0.00013547008060217484
+    "approx_distance_meters": 0.00013547008060217484,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42753591",
@@ -12357,7 +15592,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "123 BIRCH CIR",
-    "approx_distance_meters": 8.768223644747568e-06
+    "approx_distance_meters": 8.768223644747568e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -4.0,
+    "percent_over": -40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42812611",
@@ -12372,7 +15611,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "501 E LIBERTY ST",
-    "approx_distance_meters": 0.00012423848263048312
+    "approx_distance_meters": 0.00012423848263048312,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/42813983",
@@ -12387,7 +15630,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "523 CARTWRIGHT ST",
-    "approx_distance_meters": 0.000294638027714833
+    "approx_distance_meters": 0.000294638027714833,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/43204135",
@@ -12402,7 +15649,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "12 OSSABAW RD",
-    "approx_distance_meters": 3.684211765698614e-05
+    "approx_distance_meters": 3.684211765698614e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43264961",
@@ -12417,7 +15668,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "405 W 41ST ST",
-    "approx_distance_meters": 8.133067561820163e-05
+    "approx_distance_meters": 8.133067561820163e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43379531",
@@ -12432,7 +15687,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST #302",
-    "approx_distance_meters": 3.424582539010459e-05
+    "approx_distance_meters": 3.424582539010459e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/43399498",
@@ -12447,22 +15706,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "216 W 36TH ST",
-    "approx_distance_meters": 8.925136800877524e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/43527397",
-    "rental_type": "Campsite",
-    "guests": 2.0,
-    "bedrooms": "",
-    "beds": "",
-    "baths": 0.0,
-    "latitude": 32.03863,
-    "longitude": -81.32328,
-    "host_name": "Annette 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "66 TILLMAN CARTER RD",
-    "approx_distance_meters": 0.0009378163194542908
+    "approx_distance_meters": 8.925136800877524e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43681370",
@@ -12477,7 +15725,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "BULL ST",
-    "approx_distance_meters": 0.0004191657440383144
+    "approx_distance_meters": 0.0004191657440383144,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43721871",
@@ -12492,7 +15744,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "115 CROSSOVER LN",
-    "approx_distance_meters": 5.070913150993755e-05
+    "approx_distance_meters": 5.070913150993755e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/4375519",
@@ -12507,7 +15763,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "535 E CONGRESS ST",
-    "approx_distance_meters": 5.773608130879697e-05
+    "approx_distance_meters": 5.773608130879697e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/43814647",
@@ -12522,14 +15782,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "501 E 39TH ST",
-    "approx_distance_meters": 0.00012083471112301181
+    "approx_distance_meters": 0.00012083471112301181,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43830453",
     "rental_type": "Entire townhouse",
     "guests": 12.0,
     "bedrooms": 6.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 5.0,
     "latitude": 32.07275,
     "longitude": -81.09029,
@@ -12537,7 +15801,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "301 E HARRIS ST",
-    "approx_distance_meters": 0.00014027268531485894
+    "approx_distance_meters": 0.00014027268531485894,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/44196068",
@@ -12552,7 +15820,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "128 W TISBURY LN",
-    "approx_distance_meters": 0.00015119130169928105
+    "approx_distance_meters": 0.00015119130169928105,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/44450808",
@@ -12567,7 +15839,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "118 TURNBUCKLE CT",
-    "approx_distance_meters": 0.00017691551078679406
+    "approx_distance_meters": 0.00017691551078679406,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/44534257",
@@ -12582,7 +15858,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "404 WINSKIE RD",
-    "approx_distance_meters": 9.245744675850987e-05
+    "approx_distance_meters": 9.245744675850987e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/44550866",
@@ -12597,7 +15877,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "114 BARNARD ST",
-    "approx_distance_meters": 0.0003295709085613129
+    "approx_distance_meters": 0.0003295709085613129,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/44596032",
@@ -12612,7 +15896,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "220 W 42ND ST",
-    "approx_distance_meters": 9.745118397697523e-05
+    "approx_distance_meters": 9.745118397697523e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/45052900",
@@ -12627,7 +15915,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "165 W BAY ST #403W",
-    "approx_distance_meters": 2.033410782573396e-05
+    "approx_distance_meters": 2.033410782573396e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/45097393",
@@ -12642,7 +15934,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "521 E PERRY ST",
-    "approx_distance_meters": 5.490607371452502e-05
+    "approx_distance_meters": 5.490607371452502e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45099291",
@@ -12657,7 +15953,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "18 ABERCORN ST",
-    "approx_distance_meters": 7.946662169502433e-05
+    "approx_distance_meters": 7.946662169502433e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45216179",
@@ -12672,7 +15972,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "306 MAUPAS AVE",
-    "approx_distance_meters": 3.401823180519247e-05
+    "approx_distance_meters": 3.401823180519247e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45238392",
@@ -12687,7 +15991,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "8429 LABERTA BLVD",
-    "approx_distance_meters": 2.991283689789438e-05
+    "approx_distance_meters": 2.991283689789438e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45257924",
@@ -12702,7 +16010,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "538 E LIBERTY ST",
-    "approx_distance_meters": 1.3829865730049063e-05
+    "approx_distance_meters": 1.3829865730049063e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45258698",
@@ -12717,7 +16029,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "540 E LIBERTY ST",
-    "approx_distance_meters": 0.00011454575656834172
+    "approx_distance_meters": 0.00011454575656834172,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45342940",
@@ -12732,7 +16048,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "509 E PERRY ST",
-    "approx_distance_meters": 4.4913490125455224e-05
+    "approx_distance_meters": 4.4913490125455224e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45450454",
@@ -12747,7 +16067,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "507 E PERRY ST",
-    "approx_distance_meters": 4.9415649185326075e-05
+    "approx_distance_meters": 4.9415649185326075e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/45467804",
@@ -12762,7 +16086,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "18 ABERCORN ST",
-    "approx_distance_meters": 0.00013768132616137838
+    "approx_distance_meters": 0.00013768132616137838,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45505634",
@@ -12777,7 +16105,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1010 HEARN ST",
-    "approx_distance_meters": 0.00011474549549846027
+    "approx_distance_meters": 0.00011474549549846027,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45634794",
@@ -12792,7 +16124,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "2410 JEFFERSON ST",
-    "approx_distance_meters": 9.403737870484512e-05
+    "approx_distance_meters": 9.403737870484512e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/45896777",
@@ -12807,7 +16143,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "313 MAPMAKER LN",
-    "approx_distance_meters": 0.0001546793435793028
+    "approx_distance_meters": 0.0001546793435793028,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45994163",
@@ -12822,7 +16162,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46241171",
@@ -12837,7 +16181,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "31 W CONGRESS ST",
-    "approx_distance_meters": 8.906786461127875e-05
+    "approx_distance_meters": 8.906786461127875e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46290792",
@@ -12852,7 +16200,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "8505 HEATHERWOOD DR",
-    "approx_distance_meters": 0.0001472891923707915
+    "approx_distance_meters": 0.0001472891923707915,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46414413",
@@ -12867,7 +16219,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "0 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.0012386670915085995
+    "approx_distance_meters": 0.0012386670915085995,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46430538",
@@ -12882,7 +16238,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #109B",
-    "approx_distance_meters": 0.00037877251677179467
+    "approx_distance_meters": 0.00037877251677179467,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46449721",
@@ -12897,7 +16257,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #306C",
-    "approx_distance_meters": 0.00020783204315966605
+    "approx_distance_meters": 0.00020783204315966605,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46450185",
@@ -12912,7 +16276,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1 SANCTUARY PL",
-    "approx_distance_meters": 0.00010057082580792556
+    "approx_distance_meters": 0.00010057082580792556,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46484927",
@@ -12927,7 +16295,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "39 BOSTWICK DR",
-    "approx_distance_meters": 0.00011746479325930862
+    "approx_distance_meters": 0.00011746479325930862,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/47053688",
@@ -12942,7 +16314,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "1110 E DERENNE AVE",
-    "approx_distance_meters": 0.00022860970978891764
+    "approx_distance_meters": 0.00022860970978891764,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47085678",
@@ -12957,7 +16333,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "W STATE ST",
-    "approx_distance_meters": 5.7267352692338834e-05
+    "approx_distance_meters": 5.7267352692338834e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/47121456",
@@ -12972,7 +16352,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "833 W US HIGHWAY 80",
-    "approx_distance_meters": 0.0003013281632291793
+    "approx_distance_meters": 0.0003013281632291793,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47287941",
@@ -12987,7 +16371,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "89 LAKE SHORE BLVD",
-    "approx_distance_meters": 6.673589965176575e-05
+    "approx_distance_meters": 6.673589965176575e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47314445",
@@ -13002,7 +16390,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "GENTRY ST",
-    "approx_distance_meters": 0.0003734169207556719
+    "approx_distance_meters": 0.0003734169207556719,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 1.0,
+    "percent_over": 10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47329439",
@@ -13017,7 +16409,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "202 W BROUGHTON ST",
-    "approx_distance_meters": 3.421426529299365e-05
+    "approx_distance_meters": 3.421426529299365e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47495288",
@@ -13032,7 +16428,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "110 BARNARD ST #211",
-    "approx_distance_meters": 1.5004775587477055e-05
+    "approx_distance_meters": 1.5004775587477055e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47951533",
@@ -13047,7 +16447,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1008 WELCH ST",
-    "approx_distance_meters": 0.0001360983959054094
+    "approx_distance_meters": 0.0001360983959054094,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47951598",
@@ -13062,7 +16466,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "33 MORNINGSIDE DR",
-    "approx_distance_meters": 0.0013941613969958321
+    "approx_distance_meters": 0.0013941613969958321,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47955374",
@@ -13077,7 +16485,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "33 MORNINGSIDE DR",
-    "approx_distance_meters": 0.001243095785037514
+    "approx_distance_meters": 0.001243095785037514,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47963862",
@@ -13092,7 +16504,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "17 MORNINGSIDE DR",
-    "approx_distance_meters": 0.00037072160908940534
+    "approx_distance_meters": 0.00037072160908940534,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48006524",
@@ -13107,7 +16523,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "3112 ROWLAND AVE",
-    "approx_distance_meters": 0.00026101954985560796
+    "approx_distance_meters": 0.00026101954985560796,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48124607",
@@ -13122,7 +16542,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "138 CROSS CREEK DR",
-    "approx_distance_meters": 0.00012606902096782215
+    "approx_distance_meters": 0.00012606902096782215,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48209910",
@@ -13137,7 +16561,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "109 RIVERVIEW RD",
-    "approx_distance_meters": 0.0001267524157514409
+    "approx_distance_meters": 0.0001267524157514409,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/4822349",
@@ -13152,7 +16580,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "530 E BROUGHTON ST",
-    "approx_distance_meters": 0.00011307805835982173
+    "approx_distance_meters": 0.00011307805835982173,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48225981",
@@ -13167,22 +16599,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "11 MORNINGSIDE CT",
-    "approx_distance_meters": 0.0002047667382720007
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/48318851",
-    "rental_type": "Campsite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.0309,
-    "longitude": -80.9708,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "7759 E US HIGHWAY 80",
-    "approx_distance_meters": 0.0005318652037897947
+    "approx_distance_meters": 0.0002047667382720007,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48400317",
@@ -13197,7 +16618,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "410 E CONGRESS ST",
-    "approx_distance_meters": 9.377679603371151e-05
+    "approx_distance_meters": 9.377679603371151e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48483380",
@@ -13212,7 +16637,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "111 LINCOLN ST #111-1B",
-    "approx_distance_meters": 1.757746864657166e-05
+    "approx_distance_meters": 1.757746864657166e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/48486641",
@@ -13227,7 +16656,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "11 TILLMAN CARTER RD",
-    "approx_distance_meters": 0.0008852518030184771
+    "approx_distance_meters": 0.0008852518030184771,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48584146",
@@ -13242,7 +16675,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1816 ABERCORN ST",
-    "approx_distance_meters": 4.581950053893482e-05
+    "approx_distance_meters": 4.581950053893482e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48601245",
@@ -13257,7 +16694,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "110 MILLER PARK CIR",
-    "approx_distance_meters": 3.837004732119572e-05
+    "approx_distance_meters": 3.837004732119572e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48675691",
@@ -13272,7 +16713,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1707 BULL ST",
-    "approx_distance_meters": 3.9814292376521575e-05
+    "approx_distance_meters": 3.9814292376521575e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/48803669",
@@ -13287,7 +16732,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "2507 JEFFERSON ST",
-    "approx_distance_meters": 5.381052253350034e-05
+    "approx_distance_meters": 5.381052253350034e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/48896295",
@@ -13302,7 +16751,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "104 W BROUGHTON ST",
-    "approx_distance_meters": 4.897371363702978e-05
+    "approx_distance_meters": 4.897371363702978e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/49012113",
@@ -13317,7 +16770,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "226 E BRYAN ST",
-    "approx_distance_meters": 4.434606013357255e-05
+    "approx_distance_meters": 4.434606013357255e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49369209",
@@ -13332,7 +16789,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "2806 2ND ST",
-    "approx_distance_meters": 8.66908549886257e-05
+    "approx_distance_meters": 8.66908549886257e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49789075",
@@ -13347,7 +16808,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1523 CHEVY CHASE RD",
-    "approx_distance_meters": 0.0004626045506509889
+    "approx_distance_meters": 0.0004626045506509889,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49797801",
@@ -13362,7 +16827,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "4118 AMSTERDAM CIR",
-    "approx_distance_meters": 0.00024767675280667524
+    "approx_distance_meters": 0.00024767675280667524,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50151616",
@@ -13377,7 +16846,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "207 MAIN ST",
-    "approx_distance_meters": 0.000414138168577151
+    "approx_distance_meters": 0.000414138168577151,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50155225",
@@ -13392,7 +16865,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "237 BUCKHALTER RD",
-    "approx_distance_meters": 0.0006080385327312626
+    "approx_distance_meters": 0.0006080385327312626,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50168991",
@@ -13407,7 +16884,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "108 REDAN DR",
-    "approx_distance_meters": 0.0001116756430734672
+    "approx_distance_meters": 0.0001116756430734672,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50208021",
@@ -13422,7 +16903,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "3220 OAKWOOD DR",
-    "approx_distance_meters": 8.182321859556344e-05
+    "approx_distance_meters": 8.182321859556344e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50247205",
@@ -13437,7 +16922,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "135 WHITEMARSH RD",
-    "approx_distance_meters": 0.001066669914910694
+    "approx_distance_meters": 0.001066669914910694,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50247262",
@@ -13452,7 +16941,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "102 STONEBRIDGE LN",
-    "approx_distance_meters": 0.0002927825383605701
+    "approx_distance_meters": 0.0002927825383605701,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50363769",
@@ -13467,7 +16960,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "104 EMBASSY CT",
-    "approx_distance_meters": 0.00014001375325148186
+    "approx_distance_meters": 0.00014001375325148186,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50526047",
@@ -13482,7 +16979,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "165 W BAY ST #403W",
-    "approx_distance_meters": 2.033410782573396e-05
+    "approx_distance_meters": 2.033410782573396e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/50619088",
@@ -13497,7 +16998,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "604 TIBET AVE",
-    "approx_distance_meters": 0.0005462361779159079
+    "approx_distance_meters": 0.0005462361779159079,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50625394",
@@ -13512,7 +17017,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "E MACON ST",
-    "approx_distance_meters": 1.5341164257639124e-05
+    "approx_distance_meters": 1.5341164257639124e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50716498",
@@ -13527,22 +17036,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "105 WHITAKER ST #302",
-    "approx_distance_meters": 3.424582539010459e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/50770843",
-    "rental_type": "Campsite",
-    "guests": 2.0,
-    "bedrooms": "",
-    "beds": 1.0,
-    "baths": 0.0,
-    "latitude": 32.03713,
-    "longitude": -81.32566,
-    "host_name": "Annette 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "1082 FORT ARGYLE RD",
-    "approx_distance_meters": 0.00041878894817849185
+    "approx_distance_meters": 3.424582539010459e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50909251",
@@ -13557,7 +17055,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #2003",
-    "approx_distance_meters": 2.0736906005180092e-05
+    "approx_distance_meters": 2.0736906005180092e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/50917062",
@@ -13572,7 +17074,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1414 WALTHOUR RD",
-    "approx_distance_meters": 0.000605615763231301
+    "approx_distance_meters": 0.000605615763231301,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50942595",
@@ -13587,7 +17093,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1414 WALTHOUR RD",
-    "approx_distance_meters": 8.13700800430755e-05
+    "approx_distance_meters": 8.13700800430755e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50979138",
@@ -13602,7 +17112,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "100 BLUE HERON DR",
-    "approx_distance_meters": 0.00014761591575505108
+    "approx_distance_meters": 0.00014761591575505108,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/50998560",
@@ -13617,7 +17131,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1518 WALTHOUR RD",
-    "approx_distance_meters": 0.00040621723827179867
+    "approx_distance_meters": 0.00040621723827179867,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51208895",
@@ -13632,7 +17150,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "311 W YORK ST",
-    "approx_distance_meters": 3.43524192737864e-05
+    "approx_distance_meters": 3.43524192737864e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51208898",
@@ -13647,7 +17169,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "311 W YORK ST",
-    "approx_distance_meters": 3.43524192737864e-05
+    "approx_distance_meters": 3.43524192737864e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 22.0,
+    "over_occupancy": -6.0,
+    "percent_over": -27.27272727272727
   },
   {
     "url": "https://www.airbnb.com/rooms/51288429",
@@ -13662,7 +17188,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1012 WILMA AVE",
-    "approx_distance_meters": 2.1450369313213714e-05
+    "approx_distance_meters": 2.1450369313213714e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51304712",
@@ -13677,7 +17207,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "2520 MECHANICS AVE",
-    "approx_distance_meters": 0.0001245501901407935
+    "approx_distance_meters": 0.0001245501901407935,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51490258",
@@ -13692,7 +17226,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "722 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.000933928009501532
+    "approx_distance_meters": 0.000933928009501532,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51598192",
@@ -13707,7 +17245,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "441 PORT ST",
-    "approx_distance_meters": 3.608501228121854e-05
+    "approx_distance_meters": 3.608501228121854e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51620291",
@@ -13722,7 +17264,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "421 2ND ST",
-    "approx_distance_meters": 0.0001186127639866574
+    "approx_distance_meters": 0.0001186127639866574,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51664681",
@@ -13737,7 +17283,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "12",
     "approximate_address": "W BRYAN ST",
-    "approx_distance_meters": 2.7853914933318868e-05
+    "approx_distance_meters": 2.7853914933318868e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 6.0,
+    "percent_over": 100.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51781412",
@@ -13752,7 +17302,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "102 E BROUGHTON ST",
-    "approx_distance_meters": 3.3281761830695495e-05
+    "approx_distance_meters": 3.3281761830695495e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51844372",
@@ -13767,7 +17321,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #302C",
-    "approx_distance_meters": 0.0001548313632792618
+    "approx_distance_meters": 0.0001548313632792618,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51849799",
@@ -13782,7 +17340,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "9110 FERGUSON AVE",
-    "approx_distance_meters": 0.00010705600437325892
+    "approx_distance_meters": 0.00010705600437325892,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52002336",
@@ -13797,7 +17359,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "117 E BAY ST",
-    "approx_distance_meters": 4.82211532363188e-05
+    "approx_distance_meters": 4.82211532363188e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52002403",
@@ -13812,7 +17378,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "117 E BAY ST",
-    "approx_distance_meters": 4.82211532363188e-05
+    "approx_distance_meters": 4.82211532363188e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52002423",
@@ -13827,7 +17397,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "117 E BAY ST",
-    "approx_distance_meters": 4.82211532363188e-05
+    "approx_distance_meters": 4.82211532363188e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52002440",
@@ -13842,7 +17416,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "117 E BAY ST",
-    "approx_distance_meters": 4.82211532363188e-05
+    "approx_distance_meters": 4.82211532363188e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52033104",
@@ -13857,7 +17435,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "517 E HARRIS ST",
-    "approx_distance_meters": 6.445141050713735e-05
+    "approx_distance_meters": 6.445141050713735e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/52060666",
@@ -13872,7 +17454,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "2809 ROGER LACEY AVE #4",
-    "approx_distance_meters": 0.00017208356412029856
+    "approx_distance_meters": 0.00017208356412029856,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52201812",
@@ -13887,7 +17473,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "105 TURNBUCKLE CT",
-    "approx_distance_meters": 0.00029470935639184495
+    "approx_distance_meters": 0.00029470935639184495,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52364390",
@@ -13902,7 +17492,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "301 LAUREL OAK LN",
-    "approx_distance_meters": 0.00029594368370678277
+    "approx_distance_meters": 0.00029594368370678277,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52443515",
@@ -13917,7 +17511,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "409 E CHARLTON ST",
-    "approx_distance_meters": 0.00011187134441840459
+    "approx_distance_meters": 0.00011187134441840459,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52526713",
@@ -13932,7 +17530,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1509 ABERCORN ST",
-    "approx_distance_meters": 4.898877391153571e-05
+    "approx_distance_meters": 4.898877391153571e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52611690",
@@ -13947,7 +17549,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "2611 DOGWOOD AVE",
-    "approx_distance_meters": 0.00014008668696001588
+    "approx_distance_meters": 0.00014008668696001588,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52634428",
@@ -13962,7 +17568,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1408 SOLOMON AVE",
-    "approx_distance_meters": 6.413782430664937e-05
+    "approx_distance_meters": 6.413782430664937e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52648572",
@@ -13977,7 +17587,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "227 W BROUGHTON ST #3",
-    "approx_distance_meters": 1.3088956720719804e-05
+    "approx_distance_meters": 1.3088956720719804e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/52826129",
@@ -13992,7 +17606,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "201 E BAY ST",
-    "approx_distance_meters": 4.8940136584349864e-05
+    "approx_distance_meters": 4.8940136584349864e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/52875463",
@@ -14007,7 +17625,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "396 PORT ST",
-    "approx_distance_meters": 0.0003711167955584729
+    "approx_distance_meters": 0.0003711167955584729,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52952422",
@@ -14022,7 +17644,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "104 W BROUGHTON ST #A",
-    "approx_distance_meters": 3.070435961480889e-05
+    "approx_distance_meters": 3.070435961480889e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53021108",
@@ -14037,7 +17663,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "501 E 34TH ST",
-    "approx_distance_meters": 7.739028354895541e-05
+    "approx_distance_meters": 7.739028354895541e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53048656",
@@ -14052,7 +17682,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "RIVERVIEW DR",
-    "approx_distance_meters": 0.00038765151501189764
+    "approx_distance_meters": 0.00038765151501189764,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53114769",
@@ -14067,7 +17701,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "25 BULL ST",
-    "approx_distance_meters": 0.0001927189295169376
+    "approx_distance_meters": 0.0001927189295169376,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53132667",
@@ -14082,7 +17720,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "213 E CHARLTON LN",
-    "approx_distance_meters": 3.072872467172155e-05
+    "approx_distance_meters": 3.072872467172155e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53147581",
@@ -14097,7 +17739,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "6 LITTLE RIVER DR",
-    "approx_distance_meters": 0.00010075741867781746
+    "approx_distance_meters": 0.00010075741867781746,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53239342",
@@ -14112,7 +17758,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "118 COTTONVALE RD",
-    "approx_distance_meters": 0.00023711473078642754
+    "approx_distance_meters": 0.00023711473078642754,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53446983",
@@ -14127,7 +17777,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "2 FITZWATER RD",
-    "approx_distance_meters": 4.213405934797756e-05
+    "approx_distance_meters": 4.213405934797756e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/53459098",
@@ -14142,7 +17796,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #205B",
-    "approx_distance_meters": 4.271412940891346e-05
+    "approx_distance_meters": 4.271412940891346e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459254",
@@ -14157,7 +17815,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459262",
@@ -14172,7 +17834,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459271",
@@ -14187,7 +17853,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459276",
@@ -14202,7 +17872,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459278",
@@ -14217,7 +17891,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459285",
@@ -14232,7 +17910,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459289",
@@ -14247,7 +17929,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459298",
@@ -14262,7 +17948,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459304",
@@ -14277,7 +17967,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53459308",
@@ -14292,7 +17986,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53459314",
@@ -14307,7 +18005,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53644603",
@@ -14322,7 +18024,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "504 W 36TH ST",
-    "approx_distance_meters": 0.00010560737248140444
+    "approx_distance_meters": 0.00010560737248140444,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53864174",
@@ -14337,7 +18043,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "132 MONTGOMERY ST",
-    "approx_distance_meters": 0.00014734090630546317
+    "approx_distance_meters": 0.00014734090630546317,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53937029",
@@ -14352,7 +18062,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "906 BETZ CREEK RD",
-    "approx_distance_meters": 0.00017174235014916393
+    "approx_distance_meters": 0.00017174235014916393,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/54003354",
@@ -14367,7 +18081,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "25 CLIFFORD ST",
-    "approx_distance_meters": 0.00027981618865837555
+    "approx_distance_meters": 0.00027981618865837555,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/54008190",
@@ -14382,7 +18100,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "SMITH AVE",
-    "approx_distance_meters": 0.0006063578586838674
+    "approx_distance_meters": 0.0006063578586838674,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/54063814",
@@ -14397,7 +18119,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "15",
     "approximate_address": "705 WHITAKER ST",
-    "approx_distance_meters": 4.212907561631434e-05
+    "approx_distance_meters": 4.212907561631434e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/54092251",
@@ -14412,7 +18138,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "213 NEWTON ST",
-    "approx_distance_meters": 0.00010312502796030153
+    "approx_distance_meters": 0.00010312502796030153,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/54248685",
@@ -14427,7 +18157,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "535 WINDSOR RD",
-    "approx_distance_meters": 0.00012759685911532137
+    "approx_distance_meters": 0.00012759685911532137,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/54262679",
@@ -14442,7 +18176,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "8 S LAKE DR",
-    "approx_distance_meters": 4.927325805487212e-05
+    "approx_distance_meters": 4.927325805487212e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/54294015",
@@ -14457,7 +18195,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "204 E JONES ST",
-    "approx_distance_meters": 0.00019087561045536631
+    "approx_distance_meters": 0.00019087561045536631,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/5505003",
@@ -14472,7 +18214,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #119B",
-    "approx_distance_meters": 2.7693559466412915e-05
+    "approx_distance_meters": 2.7693559466412915e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/551547827448933544",
@@ -14487,7 +18233,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "409 WINSKIE RD",
-    "approx_distance_meters": 7.548900911013327e-05
+    "approx_distance_meters": 7.548900911013327e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/552349251563372733",
@@ -14502,7 +18252,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "46 BLUELAKE BLVD",
-    "approx_distance_meters": 0.00014028001429752804
+    "approx_distance_meters": 0.00014028001429752804,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/552847736480586010",
@@ -14517,7 +18271,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "126 FALLIGANT AVE",
-    "approx_distance_meters": 0.00013398265505546467
+    "approx_distance_meters": 0.00013398265505546467,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/554391218195608270",
@@ -14532,7 +18290,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "WATERS AVE",
-    "approx_distance_meters": 0.0013983083097554969
+    "approx_distance_meters": 0.0013983083097554969,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/554919757078767047",
@@ -14547,7 +18309,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "202 TREASURE LOOP",
-    "approx_distance_meters": 3.138968769229707e-05
+    "approx_distance_meters": 3.138968769229707e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/559389786453716248",
@@ -14562,7 +18328,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "14 WILLOW LAKES DR",
-    "approx_distance_meters": 4.725199214402703e-05
+    "approx_distance_meters": 4.725199214402703e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/561650527310734546",
@@ -14577,7 +18347,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "222 E STATE ST",
-    "approx_distance_meters": 4.822077592260589e-05
+    "approx_distance_meters": 4.822077592260589e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/564505838340992109",
@@ -14592,7 +18366,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "165 W BAY ST #403W",
-    "approx_distance_meters": 2.033410782573396e-05
+    "approx_distance_meters": 2.033410782573396e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/567340802503120103",
@@ -14607,7 +18385,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/567341879389533936",
@@ -14622,7 +18404,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/569325174256314434",
@@ -14637,7 +18423,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "170 PENROSE DR",
-    "approx_distance_meters": 0.00011298926444110002
+    "approx_distance_meters": 0.00011298926444110002,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/569578158295985685",
@@ -14652,7 +18442,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "38 PINEY POINT RD",
-    "approx_distance_meters": 0.0003459450879283371
+    "approx_distance_meters": 0.0003459450879283371,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/573202024620269659",
@@ -14667,7 +18461,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "139 CROSSOVER LN",
-    "approx_distance_meters": 0.00020417058817781748
+    "approx_distance_meters": 0.00020417058817781748,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/573957514797550315",
@@ -14682,7 +18480,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "10710 EGMONT RD #16",
-    "approx_distance_meters": 2.2386962640284894e-05
+    "approx_distance_meters": 2.2386962640284894e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/573988479004796279",
@@ -14697,7 +18499,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "513 E LIBERTY ST",
-    "approx_distance_meters": 2.665476980172025e-05
+    "approx_distance_meters": 2.665476980172025e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/574698670219459414",
@@ -14712,7 +18518,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "111 BINNACLE CT",
-    "approx_distance_meters": 0.0001852662188787893
+    "approx_distance_meters": 0.0001852662188787893,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/576386940173412138",
@@ -14727,7 +18537,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "34 MAPMAKER LN",
-    "approx_distance_meters": 3.5864066587033116e-05
+    "approx_distance_meters": 3.5864066587033116e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/578160533950414742",
@@ -14742,7 +18556,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "5306 SILK HOPE RD",
-    "approx_distance_meters": 0.00021283866616018157
+    "approx_distance_meters": 0.00021283866616018157,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/578277623305606163",
@@ -14757,7 +18575,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "505 E MCDONOUGH ST",
-    "approx_distance_meters": 2.375641629514047e-05
+    "approx_distance_meters": 2.375641629514047e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/578380061902675213",
@@ -14772,7 +18594,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "JUANITA AVE",
-    "approx_distance_meters": 0.0002583804959132497
+    "approx_distance_meters": 0.0002583804959132497,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/579844218879712032",
@@ -14787,7 +18613,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/581203962540071328",
@@ -14802,7 +18632,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/587633562795200453",
@@ -14817,7 +18651,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "2510 EASY ST",
-    "approx_distance_meters": 8.120564424789888e-05
+    "approx_distance_meters": 8.120564424789888e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/595193874482549793",
@@ -14832,7 +18670,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1 W VICTORY DR",
-    "approx_distance_meters": 6.81042993721055e-05
+    "approx_distance_meters": 6.81042993721055e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/596590113878015820",
@@ -14847,7 +18689,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "234 SONOMA DR",
-    "approx_distance_meters": 8.103411827864885e-05
+    "approx_distance_meters": 8.103411827864885e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/601388152942161990",
@@ -14862,7 +18708,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "522 POINTE SOUTH DR",
-    "approx_distance_meters": 5.9823456898082546e-05
+    "approx_distance_meters": 5.9823456898082546e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/605047436783749331",
@@ -14877,7 +18727,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "408 MAPMAKER LN",
-    "approx_distance_meters": 6.330972127235816e-05
+    "approx_distance_meters": 6.330972127235816e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/606777325040139105",
@@ -14892,7 +18746,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "316 W 41ST ST",
-    "approx_distance_meters": 0.0001305030387496797
+    "approx_distance_meters": 0.0001305030387496797,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/608936987178844598",
@@ -14907,7 +18765,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "125 W 40TH ST",
-    "approx_distance_meters": 0.0001581033938262597
+    "approx_distance_meters": 0.0001581033938262597,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/609170506823659366",
@@ -14922,7 +18784,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "318 W 41ST ST",
-    "approx_distance_meters": 0.00010371129020579476
+    "approx_distance_meters": 0.00010371129020579476,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/613760565559193422",
@@ -14937,7 +18803,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "2311 E VICTORY DR",
-    "approx_distance_meters": 0.0002982835676545063
+    "approx_distance_meters": 0.0002982835676545063,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/6208163",
@@ -14952,7 +18822,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "224 E HENRY ST",
-    "approx_distance_meters": 0.00014182676441480007
+    "approx_distance_meters": 0.00014182676441480007,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/620905214260647136",
@@ -14967,7 +18841,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "569 MENDEL AVE",
-    "approx_distance_meters": 4.388789506205004e-05
+    "approx_distance_meters": 4.388789506205004e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/621740827844821134",
@@ -14982,7 +18860,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "144 AZALEA AVE",
-    "approx_distance_meters": 0.00011586685609458231
+    "approx_distance_meters": 0.00011586685609458231,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/621952874502511847",
@@ -14997,7 +18879,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "179 RICE MILL DR",
-    "approx_distance_meters": 0.00017683277099599104
+    "approx_distance_meters": 0.00017683277099599104,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/623108258582047150",
@@ -15012,7 +18898,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1318 WALTHOUR RD",
-    "approx_distance_meters": 0.00020432907591477853
+    "approx_distance_meters": 0.00020432907591477853,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/625477086735441303",
@@ -15027,7 +18917,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3403 BANNON DR",
-    "approx_distance_meters": 9.298056812771017e-05
+    "approx_distance_meters": 9.298056812771017e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/6336159",
@@ -15042,7 +18936,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "637 SUNCREST BLVD",
-    "approx_distance_meters": 0.0003305014802793353
+    "approx_distance_meters": 0.0003305014802793353,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/638982199945207777",
@@ -15057,7 +18955,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "108 DAVIDSON AVE",
-    "approx_distance_meters": 0.0001808449886214644
+    "approx_distance_meters": 0.0001808449886214644,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/639198406449105039",
@@ -15072,7 +18974,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "633 WHIPPOORWILL RD",
-    "approx_distance_meters": 6.95044397098308e-05
+    "approx_distance_meters": 6.95044397098308e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/641346425520854756",
@@ -15087,7 +18993,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "155 HAMPSHIRE RD",
-    "approx_distance_meters": 0.00014264023897789184
+    "approx_distance_meters": 0.00014264023897789184,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/642083688123089044",
@@ -15102,7 +19012,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2 LEEHALL DR",
-    "approx_distance_meters": 8.57701072498288e-05
+    "approx_distance_meters": 8.57701072498288e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/645532275079012693",
@@ -15117,7 +19031,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "528 QUARTERMAN DR",
-    "approx_distance_meters": 0.00024445916483372754
+    "approx_distance_meters": 0.00024445916483372754,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/645616782077682801",
@@ -15132,7 +19050,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "208 E LIBERTY ST",
-    "approx_distance_meters": 2.4172721161272502e-05
+    "approx_distance_meters": 2.4172721161272502e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/646530526816078803",
@@ -15147,7 +19069,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "109 SUNCREST BLVD",
-    "approx_distance_meters": 0.00040543270039434794
+    "approx_distance_meters": 0.00040543270039434794,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/651554671571141680",
@@ -15162,7 +19088,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "2218 CINDER LANDING CT",
-    "approx_distance_meters": 8.114432756939944e-05
+    "approx_distance_meters": 8.114432756939944e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/651646981278913031",
@@ -15177,7 +19107,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "105 LARCHMONT DR",
-    "approx_distance_meters": 0.00017959898107927996
+    "approx_distance_meters": 0.00017959898107927996,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/653068899651663334",
@@ -15192,7 +19126,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "107 OAK ST",
-    "approx_distance_meters": 0.00024700761049822656
+    "approx_distance_meters": 0.00024700761049822656,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/653791049652365727",
@@ -15207,7 +19145,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "176 SILVERTON RD",
-    "approx_distance_meters": 0.00017874006576877615
+    "approx_distance_meters": 0.00017874006576877615,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/655106848185336546",
@@ -15222,22 +19164,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "2204 JURGENSEN ST",
-    "approx_distance_meters": 4.49581888816402e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/655190650427758480",
-    "rental_type": "Campsite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0516,
-    "longitude": -81.0084,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "188 OATLAND ISLAND RD",
-    "approx_distance_meters": 0.0003201141660402419
+    "approx_distance_meters": 4.49581888816402e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/655222155351021425",
@@ -15252,7 +19183,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "2 FORT BARTOW DR",
-    "approx_distance_meters": 0.00022586691806547558
+    "approx_distance_meters": 0.00022586691806547558,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/6555991",
@@ -15267,7 +19202,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "235 ABERCORN ST",
-    "approx_distance_meters": 4.563883077297989e-05
+    "approx_distance_meters": 4.563883077297989e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/656994219153161854",
@@ -15282,7 +19221,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1226 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.00017974859181674806
+    "approx_distance_meters": 0.00017974859181674806,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/658644911194583191",
@@ -15297,7 +19240,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "208 E LIBERTY ST",
-    "approx_distance_meters": 2.4172721161272502e-05
+    "approx_distance_meters": 2.4172721161272502e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/659276773021626728",
@@ -15312,7 +19259,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "123 W 41ST ST",
-    "approx_distance_meters": 7.902350666834761e-05
+    "approx_distance_meters": 7.902350666834761e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/659642859644408670",
@@ -15327,7 +19278,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1718 BULL ST",
-    "approx_distance_meters": 9.155497842896259e-05
+    "approx_distance_meters": 9.155497842896259e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/665819609408396651",
@@ -15342,7 +19297,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1034 FISHER ST",
-    "approx_distance_meters": 0.0002663832763780648
+    "approx_distance_meters": 0.0002663832763780648,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/669557993111942110",
@@ -15357,7 +19316,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "3 CALIBOGUE RD",
-    "approx_distance_meters": 0.00018198066024435324
+    "approx_distance_meters": 0.00018198066024435324,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/669669625893180157",
@@ -15372,7 +19335,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "204 E LIBERTY ST",
-    "approx_distance_meters": 0.000462666154824013
+    "approx_distance_meters": 0.000462666154824013,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/671795538517213675",
@@ -15387,7 +19354,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "113 LAKE HOUSE RD",
-    "approx_distance_meters": 4.0592364292265435e-05
+    "approx_distance_meters": 4.0592364292265435e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/671903177438607752",
@@ -15402,7 +19373,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "309 E 41ST ST",
-    "approx_distance_meters": 8.866657902749265e-05
+    "approx_distance_meters": 8.866657902749265e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/671909691140922052",
@@ -15417,7 +19392,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "310 E 41ST ST",
-    "approx_distance_meters": 3.85087824195347e-05
+    "approx_distance_meters": 3.85087824195347e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/673012493353711055",
@@ -15432,7 +19411,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "3 SAPELO RD",
-    "approx_distance_meters": 6.925969563744647e-05
+    "approx_distance_meters": 6.925969563744647e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/673797282318689373",
@@ -15447,7 +19430,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "410 E CHARLTON ST",
-    "approx_distance_meters": 0.0002283257709704459
+    "approx_distance_meters": 0.0002283257709704459,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/673866830350270344",
@@ -15462,7 +19449,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "158 PENROSE DR",
-    "approx_distance_meters": 0.00012577828610381488
+    "approx_distance_meters": 0.00012577828610381488,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/675919486105912125",
@@ -15477,7 +19468,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "9943 WHITEFIELD AVE",
-    "approx_distance_meters": 0.00023166351918957301
+    "approx_distance_meters": 0.00023166351918957301,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/676072205551648398",
@@ -15492,7 +19487,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "916 DEBBIE AVE",
-    "approx_distance_meters": 5.1225914760774776e-05
+    "approx_distance_meters": 5.1225914760774776e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/676895130710905435",
@@ -15507,7 +19506,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "161 BLUFFSIDE CIR",
-    "approx_distance_meters": 0.00011079117327123906
+    "approx_distance_meters": 0.00011079117327123906,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/680421328729132855",
@@ -15522,7 +19525,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1228 CRAWFORD WAY",
-    "approx_distance_meters": 0.00019290882188468817
+    "approx_distance_meters": 0.00019290882188468817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/683230890940127487",
@@ -15537,7 +19544,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "521 SUNCREST BLVD",
-    "approx_distance_meters": 0.00016763813987293776
+    "approx_distance_meters": 0.00016763813987293776,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/686199599095416951",
@@ -15552,7 +19563,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "311 W YORK ST",
-    "approx_distance_meters": 3.43524192737864e-05
+    "approx_distance_meters": 3.43524192737864e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/687522",
@@ -15567,7 +19582,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "15",
     "approximate_address": "501 E 39TH ST",
-    "approx_distance_meters": 9.701248725072272e-05
+    "approx_distance_meters": 9.701248725072272e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/688225391528276519",
@@ -15582,7 +19601,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "104 HICKORY ST",
-    "approx_distance_meters": 0.00021357604244263718
+    "approx_distance_meters": 0.00021357604244263718,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/689300872038099807",
@@ -15597,7 +19620,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "16 E 41ST ST",
-    "approx_distance_meters": 4.946033089448116e-05
+    "approx_distance_meters": 4.946033089448116e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/689886009976821667",
@@ -15612,7 +19639,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "480 PINE BARREN RD",
-    "approx_distance_meters": 0.00010302329050316011
+    "approx_distance_meters": 0.00010302329050316011,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/691150561098446704",
@@ -15627,7 +19658,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "31 E BROAD ST",
-    "approx_distance_meters": 7.421530160083053e-05
+    "approx_distance_meters": 7.421530160083053e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/691834252232889536",
@@ -15642,7 +19677,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "133 MONTGOMERY ST",
-    "approx_distance_meters": 0.0001550484459265559
+    "approx_distance_meters": 0.0001550484459265559,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/694265439939338815",
@@ -15657,7 +19696,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "31 E BROAD ST",
-    "approx_distance_meters": 7.421530160083053e-05
+    "approx_distance_meters": 7.421530160083053e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/694847171741342144",
@@ -15672,7 +19715,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "312 E LIBERTY ST #F",
-    "approx_distance_meters": 0.00034088173700860987
+    "approx_distance_meters": 0.00034088173700860987,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/695550406897286691",
@@ -15687,7 +19734,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "178 PENROSE DR",
-    "approx_distance_meters": 0.0002851493211708868
+    "approx_distance_meters": 0.0002851493211708868,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/697125879399214362",
@@ -15702,7 +19753,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1512 WHITAKER ST",
-    "approx_distance_meters": 3.3901126205109425e-05
+    "approx_distance_meters": 3.3901126205109425e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/702257097388921497",
@@ -15717,7 +19772,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "108 N SHEFTALL CIR",
-    "approx_distance_meters": 2.31408213824117e-05
+    "approx_distance_meters": 2.31408213824117e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/703737188815386289",
@@ -15732,7 +19791,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "COMMERCE CT",
-    "approx_distance_meters": 0.00030236952559826037
+    "approx_distance_meters": 0.00030236952559826037,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/706598502774942158",
@@ -15747,7 +19810,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "OATLAND ISLAND RD",
-    "approx_distance_meters": 0.0003917256137065915
+    "approx_distance_meters": 0.0003917256137065915,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/706704077706632830",
@@ -15762,7 +19829,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "610 SUGAR BUSH CIR",
-    "approx_distance_meters": 7.116697002767287e-05
+    "approx_distance_meters": 7.116697002767287e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/706704340911048946",
@@ -15777,7 +19848,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "4 BRIARWOOD DR",
-    "approx_distance_meters": 0.00011931620527685567
+    "approx_distance_meters": 0.00011931620527685567,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/707055772551503570",
@@ -15792,7 +19867,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "CLEARWATER CIR",
-    "approx_distance_meters": 0.00018939967950375676
+    "approx_distance_meters": 0.00018939967950375676,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/710768096084926791",
@@ -15807,7 +19886,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "232 E BROUGHTON ST",
-    "approx_distance_meters": 5.893509268298989e-05
+    "approx_distance_meters": 5.893509268298989e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/710940304999889347",
@@ -15822,7 +19905,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "13",
     "approximate_address": "1 W VICTORY DR",
-    "approx_distance_meters": 0.0004173518665968652
+    "approx_distance_meters": 0.0004173518665968652,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/711020711740163997",
@@ -15837,7 +19924,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #2003",
-    "approx_distance_meters": 2.0736906005180092e-05
+    "approx_distance_meters": 2.0736906005180092e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/715639852437623868",
@@ -15852,7 +19943,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "402 SYMONS ST",
-    "approx_distance_meters": 9.924035557993707e-05
+    "approx_distance_meters": 9.924035557993707e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/718999719672361229",
@@ -15867,7 +19962,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "W 44TH ST",
-    "approx_distance_meters": 0.00013882067944974183
+    "approx_distance_meters": 0.00013882067944974183,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 20.0,
+    "over_occupancy": -4.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/721775028383264517",
@@ -15882,7 +19981,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "301 E RIVER ST",
-    "approx_distance_meters": 0.0005421829485193013
+    "approx_distance_meters": 0.0005421829485193013,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/722610469447990892",
@@ -15897,7 +20000,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "113 NORTH ST",
-    "approx_distance_meters": 0.00012727126030993144
+    "approx_distance_meters": 0.00012727126030993144,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/723302262223122340",
@@ -15912,13 +20019,17 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "68 TILLER WAY",
-    "approx_distance_meters": 7.651331742660958e-05
+    "approx_distance_meters": 7.651331742660958e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/724061295600091778",
     "rental_type": "Entire place",
     "guests": 2.0,
-    "bedrooms": "",
+    "bedrooms": 0.0,
     "beds": 1.0,
     "baths": 1.0,
     "latitude": 32.00906,
@@ -15927,7 +20038,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "124 OKATEE DR",
-    "approx_distance_meters": 0.00012788476750036118
+    "approx_distance_meters": 0.00012788476750036118,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 2.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/724554925831356219",
@@ -15942,7 +20057,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "16 TIMBERS WAY",
-    "approx_distance_meters": 0.000167558421963846
+    "approx_distance_meters": 0.000167558421963846,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/726038583820678251",
@@ -15957,7 +20076,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "303 W VICTORY DR",
-    "approx_distance_meters": 0.0001618917189128692
+    "approx_distance_meters": 0.0001618917189128692,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/726757260921196980",
@@ -15972,7 +20095,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "108 LONGLEAF CIR",
-    "approx_distance_meters": 9.897145570917379e-05
+    "approx_distance_meters": 9.897145570917379e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/726817892484751684",
@@ -15987,7 +20114,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "111 LINCOLN ST #111-1B",
-    "approx_distance_meters": 1.757746864657166e-05
+    "approx_distance_meters": 1.757746864657166e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/728216676133925106",
@@ -16002,7 +20133,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "41 ESTILL HAMMOCK RD",
-    "approx_distance_meters": 0.0004725987524575322
+    "approx_distance_meters": 0.0004725987524575322,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/729785390948342007",
@@ -16017,7 +20152,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "506 POINTE NORTH DR",
-    "approx_distance_meters": 0.00023203927965519336
+    "approx_distance_meters": 0.00023203927965519336,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/730336617510666551",
@@ -16032,7 +20171,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "310 PENROSE DR",
-    "approx_distance_meters": 0.00015571060540892914
+    "approx_distance_meters": 0.00015571060540892914,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/730411902784605095",
@@ -16047,7 +20190,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "510 E DUFFY ST",
-    "approx_distance_meters": 4.590489173917214e-05
+    "approx_distance_meters": 4.590489173917214e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/730590509836861903",
@@ -16062,7 +20209,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "8845 FERGUSON AVE",
-    "approx_distance_meters": 0.0007651704005778248
+    "approx_distance_meters": 0.0007651704005778248,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/731767479731401828",
@@ -16077,7 +20228,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "229 HOUSTON ST",
-    "approx_distance_meters": 5.0872289332603305e-06
+    "approx_distance_meters": 5.0872289332603305e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/731768827034040943",
@@ -16092,7 +20247,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "312 E LIBERTY ST #E",
-    "approx_distance_meters": 1.658215175640831e-05
+    "approx_distance_meters": 1.658215175640831e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/732056941298565421",
@@ -16107,7 +20266,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "303 W VICTORY DR",
-    "approx_distance_meters": 7.203979779754292e-05
+    "approx_distance_meters": 7.203979779754292e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/739264524612926963",
@@ -16122,7 +20285,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "7 BLOCKADE CT",
-    "approx_distance_meters": 0.0001440391365726499
+    "approx_distance_meters": 0.0001440391365726499,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/739651787894205434",
@@ -16137,7 +20304,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "11 BLACK FOREST DR",
-    "approx_distance_meters": 0.00013190814371195022
+    "approx_distance_meters": 0.00013190814371195022,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/742234994694149508",
@@ -16152,7 +20323,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "101 LANDWARD WAY",
-    "approx_distance_meters": 5.1492279003500114e-05
+    "approx_distance_meters": 5.1492279003500114e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/743407498004017407",
@@ -16167,7 +20342,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "3224 BYRD AVE",
-    "approx_distance_meters": 0.0003627942418024051
+    "approx_distance_meters": 0.0003627942418024051,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/745888920267194745",
@@ -16182,7 +20361,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "2821 GRANT ST",
-    "approx_distance_meters": 0.00010873110466327045
+    "approx_distance_meters": 0.00010873110466327045,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/749455205192449540",
@@ -16197,7 +20380,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "206 BOWSPRIT LN",
-    "approx_distance_meters": 0.00037293506799446365
+    "approx_distance_meters": 0.00037293506799446365,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/755271617425833932",
@@ -16212,7 +20399,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1419 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.00017049581677108731
+    "approx_distance_meters": 0.00017049581677108731,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/756518775379811023",
@@ -16227,7 +20418,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 3.140360638576081e-05
+    "approx_distance_meters": 3.140360638576081e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/772619174250830470",
@@ -16242,7 +20437,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "217 HOLLY AVE",
-    "approx_distance_meters": 0.00010683550698499632
+    "approx_distance_meters": 0.00010683550698499632,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/774660357541973639",
@@ -16257,7 +20456,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "29 ANGEL OAKS DR",
-    "approx_distance_meters": 0.00021934267570351872
+    "approx_distance_meters": 0.00021934267570351872,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/778931479120643512",
@@ -16272,7 +20475,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1217 BAY ST #201B",
-    "approx_distance_meters": 3.5837309420461085e-05
+    "approx_distance_meters": 3.5837309420461085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/791514382559311858",
@@ -16287,7 +20494,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1 OLD US HIGHWAY 80",
-    "approx_distance_meters": 0.00028283238654957794
+    "approx_distance_meters": 0.00028283238654957794,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -4.0,
+    "percent_over": -66.66666666666666
   },
   {
     "url": "https://www.airbnb.com/rooms/793566667688912871",
@@ -16302,7 +20513,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "105 BOWSPRIT LN",
-    "approx_distance_meters": 5.4259443536577275e-05
+    "approx_distance_meters": 5.4259443536577275e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/801076900525632327",
@@ -16317,7 +20532,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "W BROUGHTON ST",
-    "approx_distance_meters": 7.199947122950352e-05
+    "approx_distance_meters": 7.199947122950352e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/804490532151701704",
@@ -16332,7 +20551,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "420 S SKINNER AVE",
-    "approx_distance_meters": 0.0004234002111588508
+    "approx_distance_meters": 0.0004234002111588508,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/805935580366879261",
@@ -16347,7 +20570,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1327 GRACE DR",
-    "approx_distance_meters": 0.00013784224267289006
+    "approx_distance_meters": 0.00013784224267289006,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/808666360392852411",
@@ -16362,7 +20589,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "306 S NEWTON ST",
-    "approx_distance_meters": 0.00018087859665481083
+    "approx_distance_meters": 0.00018087859665481083,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/809305443330999414",
@@ -16377,7 +20608,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "27 MORNINGSIDE DR",
-    "approx_distance_meters": 0.00011290060932063244
+    "approx_distance_meters": 0.00011290060932063244,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/810480834085835319",
@@ -16392,7 +20627,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "313 MANDEN RD",
-    "approx_distance_meters": 3.472311836195375e-05
+    "approx_distance_meters": 3.472311836195375e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/810977554621709428",
@@ -16407,7 +20646,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "68 CHEYENNE RD",
-    "approx_distance_meters": 0.00015925644076193057
+    "approx_distance_meters": 0.00015925644076193057,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/812223504376628087",
@@ -16422,7 +20665,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "215 BATTERY CRES",
-    "approx_distance_meters": 3.835430295657619e-05
+    "approx_distance_meters": 3.835430295657619e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/812402910015645334",
@@ -16437,7 +20684,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "11 REESE WAY",
-    "approx_distance_meters": 0.00017182352557660287
+    "approx_distance_meters": 0.00017182352557660287,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/813666440503479591",
@@ -16452,7 +20703,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 4.811426931194358e-05
+    "approx_distance_meters": 4.811426931194358e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/816728783862780882",
@@ -16467,7 +20722,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "411 W CONGRESS ST #C",
-    "approx_distance_meters": 5.83304734476771e-05
+    "approx_distance_meters": 5.83304734476771e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/818766652327133507",
@@ -16482,7 +20741,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "520 E HARRIS ST",
-    "approx_distance_meters": 4.516196474347903e-05
+    "approx_distance_meters": 4.516196474347903e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/821286398833380202",
@@ -16497,7 +20760,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1833 STUYVESANT ST",
-    "approx_distance_meters": 0.00011425944711984406
+    "approx_distance_meters": 0.00011425944711984406,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/821957279411239289",
@@ -16512,7 +20779,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "7833 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.0002444312089697024
+    "approx_distance_meters": 0.0002444312089697024,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/822639668084638767",
@@ -16527,7 +20798,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "217 SONOMA DR",
-    "approx_distance_meters": 0.00010340756531349164
+    "approx_distance_meters": 0.00010340756531349164,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/825946595062684018",
@@ -16542,7 +20817,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "801 KLINE ST",
-    "approx_distance_meters": 7.907896065364419e-05
+    "approx_distance_meters": 7.907896065364419e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/826300574947804445",
@@ -16557,7 +20836,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "305 DOGWOOD CIR",
-    "approx_distance_meters": 8.798091639197181e-05
+    "approx_distance_meters": 8.798091639197181e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/826684977873754139",
@@ -16572,7 +20855,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "1125 E 70TH ST",
-    "approx_distance_meters": 0.00010479273403241528
+    "approx_distance_meters": 0.00010479273403241528,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/827414062587251355",
@@ -16587,7 +20874,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "208 ABERFELDY ST",
-    "approx_distance_meters": 0.0001342301272949558
+    "approx_distance_meters": 0.0001342301272949558,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/831698060625884883",
@@ -16602,7 +20893,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 3.7144331430972316e-05
+    "approx_distance_meters": 3.7144331430972316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/831698193663257710",
@@ -16617,7 +20912,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 3.7144331430972316e-05
+    "approx_distance_meters": 3.7144331430972316e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/831929544693462080",
@@ -16632,7 +20931,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2805 MECHANICS AVE",
-    "approx_distance_meters": 8.887134610403704e-05
+    "approx_distance_meters": 8.887134610403704e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/831997964610928009",
@@ -16647,7 +20950,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1342 PINE RIDGE DR",
-    "approx_distance_meters": 0.0001277218752596507
+    "approx_distance_meters": 0.0001277218752596507,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/835500809710430112",
@@ -16662,7 +20969,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "5701 GARRARD AVE",
-    "approx_distance_meters": 0.000159595875901497
+    "approx_distance_meters": 0.000159595875901497,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/836838326002480258",
@@ -16677,7 +20988,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "229 BUCKHALTER RD",
-    "approx_distance_meters": 0.0004489507242232243
+    "approx_distance_meters": 0.0004489507242232243,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/837201771768032854",
@@ -16692,7 +21007,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
-    "approx_distance_meters": 0.00012843313199453578
+    "approx_distance_meters": 0.00012843313199453578,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/838560656838480911",
@@ -16707,7 +21026,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "197 AQUINNAH DR",
-    "approx_distance_meters": 3.361179664950124e-05
+    "approx_distance_meters": 3.361179664950124e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/842019462265056394",
@@ -16722,7 +21045,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2170 E VICTORY DR",
-    "approx_distance_meters": 0.0001882580180438164
+    "approx_distance_meters": 0.0001882580180438164,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/842874763491717567",
@@ -16737,7 +21064,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "313 MAPMAKER LN",
-    "approx_distance_meters": 7.796327495844452e-05
+    "approx_distance_meters": 7.796327495844452e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/848518318904132531",
@@ -16752,7 +21083,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "452 PORT ST",
-    "approx_distance_meters": 1.850613593392713e-05
+    "approx_distance_meters": 1.850613593392713e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/852785616761953142",
@@ -16767,7 +21102,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "548 SUNCREST BLVD",
-    "approx_distance_meters": 0.00018030391714922393
+    "approx_distance_meters": 0.00018030391714922393,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/853262275520347270",
@@ -16782,7 +21121,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "27 STALWICK DR",
-    "approx_distance_meters": 8.09601797388523e-05
+    "approx_distance_meters": 8.09601797388523e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/856000218328094076",
@@ -16797,7 +21140,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "915 QUACCO RD",
-    "approx_distance_meters": 0.0007465232300982632
+    "approx_distance_meters": 0.0007465232300982632,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/857793162043772861",
@@ -16812,7 +21159,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "520 POINTE NORTH DR",
-    "approx_distance_meters": 2.493103811200162e-05
+    "approx_distance_meters": 2.493103811200162e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/861663410335419102",
@@ -16827,7 +21178,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "3228 BANNON DR",
-    "approx_distance_meters": 3.203555331017788e-05
+    "approx_distance_meters": 3.203555331017788e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/863719260879106823",
@@ -16842,7 +21197,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "218 MAPMAKER LN",
-    "approx_distance_meters": 5.358503748275924e-05
+    "approx_distance_meters": 5.358503748275924e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/864504585116410261",
@@ -16857,7 +21216,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "167 LAURELWOOD DR",
-    "approx_distance_meters": 0.00010377586342573303
+    "approx_distance_meters": 0.00010377586342573303,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/864595231983260886",
@@ -16872,7 +21235,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "370 W PENROSE DR",
-    "approx_distance_meters": 0.0008183262538292216
+    "approx_distance_meters": 0.0008183262538292216,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/864650904652193500",
@@ -16887,7 +21254,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "317 E 44TH ST",
-    "approx_distance_meters": 0.00011069647875530226
+    "approx_distance_meters": 0.00011069647875530226,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/866536940012514104",
@@ -16902,7 +21273,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "17 W 48TH ST",
-    "approx_distance_meters": 8.796261796843429e-05
+    "approx_distance_meters": 8.796261796843429e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/866875071886604632",
@@ -16917,7 +21292,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "30 KINGMAN AVE",
-    "approx_distance_meters": 9.324945836838798e-05
+    "approx_distance_meters": 9.324945836838798e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/868115655437409627",
@@ -16932,7 +21311,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/869009632387349139",
@@ -16947,7 +21330,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1216 E DERENNE AVE",
-    "approx_distance_meters": 0.0002590853109617269
+    "approx_distance_meters": 0.0002590853109617269,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/871047953743104659",
@@ -16962,7 +21349,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/871048696818199616",
@@ -16977,7 +21368,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/872556836676754358",
@@ -16992,7 +21387,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "137 STRACHAN AVE",
-    "approx_distance_meters": 0.00045503693328476953
+    "approx_distance_meters": 0.00045503693328476953,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/873212084213270788",
@@ -17007,7 +21406,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "165 W BAY ST #403W",
-    "approx_distance_meters": 2.033410782573396e-05
+    "approx_distance_meters": 2.033410782573396e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/876098809139937188",
@@ -17022,7 +21425,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876123536025719684",
@@ -17037,7 +21444,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876150811432014104",
@@ -17052,7 +21463,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876201541599000459",
@@ -17067,7 +21482,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3001 RIVER DR",
-    "approx_distance_meters": 0.0002490004988295634
+    "approx_distance_meters": 0.0002490004988295634,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876268272566610190",
@@ -17082,7 +21501,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "342 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.00019220757674546802
+    "approx_distance_meters": 0.00019220757674546802,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876274709036363871",
@@ -17097,7 +21520,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876302024127731447",
@@ -17112,7 +21539,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/876313781858557642",
@@ -17127,7 +21558,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
-    "approx_distance_meters": 0.00020822622523583817
+    "approx_distance_meters": 0.00020822622523583817,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/877437059911410981",
@@ -17142,7 +21577,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9219 WHITEFIELD AVE",
-    "approx_distance_meters": 0.0001077511312549259
+    "approx_distance_meters": 0.0001077511312549259,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/879157498134844448",
@@ -17157,7 +21596,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "STONEBRIDGE LN",
-    "approx_distance_meters": 0.0005903609476905693
+    "approx_distance_meters": 0.0005903609476905693,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/883240193491703808",
@@ -17172,7 +21615,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "444 ALTAMAHA ST",
-    "approx_distance_meters": 3.970376391405909e-05
+    "approx_distance_meters": 3.970376391405909e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/886938599572707129",
@@ -17187,7 +21634,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "5 W BROUGHTON ST #306",
-    "approx_distance_meters": 6.870299021821892e-06
+    "approx_distance_meters": 6.870299021821892e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/889880369418848626",
@@ -17202,7 +21653,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "117 CROSSOVER LN",
-    "approx_distance_meters": 9.299296216700786e-05
+    "approx_distance_meters": 9.299296216700786e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/892549282506767509",
@@ -17217,7 +21672,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "16 CHIPPEWA DR",
-    "approx_distance_meters": 0.00011926082981048434
+    "approx_distance_meters": 0.00011926082981048434,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/893172135033173394",
@@ -17232,7 +21691,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "7617 CENTRAL AVE",
-    "approx_distance_meters": 0.00028822546663583905
+    "approx_distance_meters": 0.00028822546663583905,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/895577613821653123",
@@ -17247,7 +21710,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "182 AQUINNAH DR",
-    "approx_distance_meters": 6.474283787248569e-06
+    "approx_distance_meters": 6.474283787248569e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/896880343907804963",
@@ -17262,7 +21729,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1217 BAY ST #209B",
-    "approx_distance_meters": 5.520108171159695e-05
+    "approx_distance_meters": 5.520108171159695e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/897775383449349974",
@@ -17277,7 +21748,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "41 MONTERO DR",
-    "approx_distance_meters": 8.419496198749738e-05
+    "approx_distance_meters": 8.419496198749738e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/899526598556111144",
@@ -17292,7 +21767,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "22 BLUELAKE BLVD",
-    "approx_distance_meters": 0.0004477420328410105
+    "approx_distance_meters": 0.0004477420328410105,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/902125824106488013",
@@ -17307,7 +21786,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "3201 MONTGOMERY ST",
-    "approx_distance_meters": 0.00018779837692692558
+    "approx_distance_meters": 0.00018779837692692558,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/902945967919615260",
@@ -17322,7 +21805,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 7.609455366198892e-05
+    "approx_distance_meters": 7.609455366198892e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/905747194064468414",
@@ -17337,7 +21824,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "510 E 33RD ST",
-    "approx_distance_meters": 0.00010055671568059105
+    "approx_distance_meters": 0.00010055671568059105,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/905833492800066081",
@@ -17352,7 +21843,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "135 W BAY ST #101W",
-    "approx_distance_meters": 5.600104380128187e-05
+    "approx_distance_meters": 5.600104380128187e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/907157155659638808",
@@ -17367,7 +21862,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "300 W BAY ST",
-    "approx_distance_meters": 0.00011114681025152986
+    "approx_distance_meters": 0.00011114681025152986,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 6.0,
+    "percent_over": 75.0
   },
   {
     "url": "https://www.airbnb.com/rooms/908763689853733767",
@@ -17382,7 +21881,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "7024 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 9.177336848949662e-05
+    "approx_distance_meters": 9.177336848949662e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/909762443633618544",
@@ -17397,7 +21900,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "417 MAPMAKER LN",
-    "approx_distance_meters": 5.6658243363103465e-05
+    "approx_distance_meters": 5.6658243363103465e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/910726269531451600",
@@ -17412,7 +21919,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "430 LAWTON AVE",
-    "approx_distance_meters": 0.00011671017657247975
+    "approx_distance_meters": 0.00011671017657247975,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/912329322279799607",
@@ -17427,7 +21938,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "5 SANCTUARY PL",
-    "approx_distance_meters": 8.898858107983137e-05
+    "approx_distance_meters": 8.898858107983137e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/915455160718001309",
@@ -17442,7 +21957,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "8508 LABERTA BLVD",
-    "approx_distance_meters": 9.932952853123929e-05
+    "approx_distance_meters": 9.932952853123929e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/915934869315530434",
@@ -17457,7 +21976,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "132 SAN MARCO DR",
-    "approx_distance_meters": 0.0003080694350414736
+    "approx_distance_meters": 0.0003080694350414736,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/916148287801341255",
@@ -17472,7 +21995,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "103 N CROMWELL RD",
-    "approx_distance_meters": 0.0001849382615336179
+    "approx_distance_meters": 0.0001849382615336179,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 5.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/916633683073198617",
@@ -17487,7 +22014,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1119 HABERSHAM ST",
-    "approx_distance_meters": 8.390046660079462e-05
+    "approx_distance_meters": 8.390046660079462e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/917455033873540278",
@@ -17502,7 +22033,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "127 BACK SHELL RD",
-    "approx_distance_meters": 4.551431127885399e-05
+    "approx_distance_meters": 4.551431127885399e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/917504843455292638",
@@ -17517,7 +22052,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "119 MARIAN CIR",
-    "approx_distance_meters": 9.698121667916848e-05
+    "approx_distance_meters": 9.698121667916848e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/918136785026378634",
@@ -17532,7 +22071,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "1700 STALEY AVE #1/2",
-    "approx_distance_meters": 0.00010739399341487516
+    "approx_distance_meters": 0.00010739399341487516,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/920470079693526816",
@@ -17547,7 +22090,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "6 LAKE DR",
-    "approx_distance_meters": 8.61914441534181e-05
+    "approx_distance_meters": 8.61914441534181e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/920484828285657462",
@@ -17562,7 +22109,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "210 W 39TH ST",
-    "approx_distance_meters": 6.779127501859653e-05
+    "approx_distance_meters": 6.779127501859653e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/922304739942461640",
@@ -17577,7 +22128,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1030 FISHER ST",
-    "approx_distance_meters": 0.0004148206093833236
+    "approx_distance_meters": 0.0004148206093833236,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/923175890779102031",
@@ -17592,7 +22147,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "308 SANDY SPRINGS RD",
-    "approx_distance_meters": 0.00019475173894906804
+    "approx_distance_meters": 0.00019475173894906804,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/928267112918090309",
@@ -17607,7 +22166,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "19 LAKEWOOD DR",
-    "approx_distance_meters": 0.0001945212599491392
+    "approx_distance_meters": 0.0001945212599491392,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/931067419890308247",
@@ -17622,7 +22185,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "214 PRESERVATION DR",
-    "approx_distance_meters": 4.904382452223425e-05
+    "approx_distance_meters": 4.904382452223425e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/932543197727282340",
@@ -17637,7 +22204,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "98 CHEYENNE RD",
-    "approx_distance_meters": 0.0008538802003351391
+    "approx_distance_meters": 0.0008538802003351391,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/936105637384194548",
@@ -17652,7 +22223,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "103 W CONGRESS ST",
-    "approx_distance_meters": 2.268907256304223e-05
+    "approx_distance_meters": 2.268907256304223e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/937094147509988486",
@@ -17667,7 +22242,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "312 MANDEN RD",
-    "approx_distance_meters": 8.045789665409641e-05
+    "approx_distance_meters": 8.045789665409641e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/940625498246642908",
@@ -17682,7 +22261,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "305 W COLLINS ST",
-    "approx_distance_meters": 0.00017898316620953742
+    "approx_distance_meters": 0.00017898316620953742,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/945593470525999930",
@@ -17697,7 +22280,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "307 E 41ST ST",
-    "approx_distance_meters": 6.614283455106686e-05
+    "approx_distance_meters": 6.614283455106686e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/945600683169907452",
@@ -17712,7 +22299,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "805 BETZ CREEK RD",
-    "approx_distance_meters": 3.211765386288997e-05
+    "approx_distance_meters": 3.211765386288997e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/945735448761090387",
@@ -17727,7 +22318,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3202 BARNARD ST",
-    "approx_distance_meters": 0.00042686986340063123
+    "approx_distance_meters": 0.00042686986340063123,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/948199060925065758",
@@ -17742,7 +22337,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3109 FURBER AVE",
-    "approx_distance_meters": 7.690974703002576e-05
+    "approx_distance_meters": 7.690974703002576e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/952130302496767251",
@@ -17757,7 +22356,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1 OLD US HIGHWAY 80",
-    "approx_distance_meters": 0.00043673485465249806
+    "approx_distance_meters": 0.00043673485465249806,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/952417003695039227",
@@ -17772,7 +22375,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "209 VENTURA PL",
-    "approx_distance_meters": 4.0470483868972285e-05
+    "approx_distance_meters": 4.0470483868972285e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/957337553333199967",
@@ -17787,7 +22394,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/957415957590533587",
@@ -17802,7 +22413,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "35 MOONLIGHT TRL",
-    "approx_distance_meters": 3.7856292214226217e-05
+    "approx_distance_meters": 3.7856292214226217e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/958302222162394139",
@@ -17817,7 +22432,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "26 SAPELO RD",
-    "approx_distance_meters": 0.00038837943027100524
+    "approx_distance_meters": 0.00038837943027100524,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/960056837871313426",
@@ -17832,7 +22451,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "31 W CONGRESS ST",
-    "approx_distance_meters": 1.7085813783797493e-05
+    "approx_distance_meters": 1.7085813783797493e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/960058012742801522",
@@ -17847,7 +22470,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "31 W CONGRESS ST",
-    "approx_distance_meters": 1.7085813783797493e-05
+    "approx_distance_meters": 1.7085813783797493e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 3.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/960058076791343888",
@@ -17862,7 +22489,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "31 W CONGRESS ST",
-    "approx_distance_meters": 1.7085813783797493e-05
+    "approx_distance_meters": 1.7085813783797493e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -1.0,
+    "percent_over": -7.142857142857142
   },
   {
     "url": "https://www.airbnb.com/rooms/960084066503262413",
@@ -17877,7 +22508,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "108 TRELLIS WAY",
-    "approx_distance_meters": 0.0001744135086010372
+    "approx_distance_meters": 0.0001744135086010372,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/960084067923349247",
@@ -17892,7 +22527,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "110 TRELLIS WAY",
-    "approx_distance_meters": 0.00011489007079058126
+    "approx_distance_meters": 0.00011489007079058126,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/961657498922585342",
@@ -17907,7 +22546,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "104 W BROUGHTON ST #A",
-    "approx_distance_meters": 3.070435961480889e-05
+    "approx_distance_meters": 3.070435961480889e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/963063546089473037",
@@ -17922,7 +22565,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "2478 QUACCO RD",
-    "approx_distance_meters": 0.0001708758013769188
+    "approx_distance_meters": 0.0001708758013769188,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/963251823602809512",
@@ -17937,7 +22584,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "110 HOLIDAY CIR",
-    "approx_distance_meters": 0.00022521925234905729
+    "approx_distance_meters": 0.00022521925234905729,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/969602097220089994",
@@ -17952,7 +22603,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "109 TWELVE OAKS LN",
-    "approx_distance_meters": 0.00013416432046840622
+    "approx_distance_meters": 0.00013416432046840622,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 18.0,
+    "over_occupancy": -2.0,
+    "percent_over": -11.11111111111111
   },
   {
     "url": "https://www.airbnb.com/rooms/972765132162918336",
@@ -17967,7 +22622,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "3209 BURROUGHS ST",
-    "approx_distance_meters": 0.00011502533878773017
+    "approx_distance_meters": 0.00011502533878773017,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/976250195651941106",
@@ -17982,7 +22641,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1224 E 39TH ST",
-    "approx_distance_meters": 8.64769057947943e-05
+    "approx_distance_meters": 8.64769057947943e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/978268371565998122",
@@ -17997,7 +22660,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "310 W BROUGHTON ST #3010",
-    "approx_distance_meters": 1.4491860197287531e-05
+    "approx_distance_meters": 1.4491860197287531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/980313733702904639",
@@ -18012,7 +22679,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "2404 NORWOOD AVE",
-    "approx_distance_meters": 0.0002526443131821029
+    "approx_distance_meters": 0.0002526443131821029,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/981093396885118743",
@@ -18027,7 +22698,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "505 E MCDONOUGH ST",
-    "approx_distance_meters": 2.375641629514047e-05
+    "approx_distance_meters": 2.375641629514047e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/981699090771345457",
@@ -18042,7 +22717,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "2618 RIVER DR",
-    "approx_distance_meters": 4.950224043655112e-05
+    "approx_distance_meters": 4.950224043655112e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/983219595917762790",
@@ -18057,7 +22736,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "100 BLUE FIN CIR #A-10",
-    "approx_distance_meters": 0.00029244273435666723
+    "approx_distance_meters": 0.00029244273435666723,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/984883331283529778",
@@ -18072,7 +22755,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "103 W CONGRESS ST",
-    "approx_distance_meters": 2.268907256304223e-05
+    "approx_distance_meters": 2.268907256304223e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/985455284754852431",
@@ -18087,7 +22774,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "512 E 33RD ST",
-    "approx_distance_meters": 7.947946060830595e-05
+    "approx_distance_meters": 7.947946060830595e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/986200177859846330",
@@ -18102,7 +22793,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1947 BROGDON ST",
-    "approx_distance_meters": 2.00409102836446e-06
+    "approx_distance_meters": 2.00409102836446e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/991955619073726293",
@@ -18117,7 +22812,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "166 CHERRY LAURAL LN",
-    "approx_distance_meters": 0.00013179418496124035
+    "approx_distance_meters": 0.00013179418496124035,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/992747380441567693",
@@ -18132,7 +22831,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "6101 LAROCHE AVE",
-    "approx_distance_meters": 0.0002721020858617933
+    "approx_distance_meters": 0.0002721020858617933,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/993713608422781543",
@@ -18147,7 +22850,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "7903 E US HIGHWAY 80",
-    "approx_distance_meters": 9.785864870192673e-05
+    "approx_distance_meters": 9.785864870192673e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 2.0,
+    "percent_over": 14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/995566123657952103",
@@ -18162,7 +22869,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "16 BARNARD ST",
-    "approx_distance_meters": 1.0333504360332222e-05
+    "approx_distance_meters": 1.0333504360332222e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/996988096603711031",
@@ -18177,7 +22888,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "116 WILD HERON RD",
-    "approx_distance_meters": 0.00032048513872525315
+    "approx_distance_meters": 0.00032048513872525315,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/999261208011549514",
@@ -18192,7 +22907,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #103B",
-    "approx_distance_meters": 1.3408674680517522e-05
+    "approx_distance_meters": 1.3408674680517522e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/999456628732177650",
@@ -18207,7 +22926,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "ST JOSEPH AVE",
-    "approx_distance_meters": 0.00013127422025281492
+    "approx_distance_meters": 0.00013127422025281492,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1729024450019663987",
@@ -18222,7 +22945,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3014",
-    "approx_distance_meters": 4.840649977774554e-05
+    "approx_distance_meters": 4.840649977774554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/18756993",
@@ -18237,7 +22964,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "411 E RIVER ST",
-    "approx_distance_meters": 0.00034912417964628664
+    "approx_distance_meters": 0.00034912417964628664,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/19054225",
@@ -18252,7 +22983,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "411 E RIVER ST",
-    "approx_distance_meters": 0.00040896370208463363
+    "approx_distance_meters": 0.00040896370208463363,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": -2.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/531083692184336509",
@@ -18267,7 +23002,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "105 W OGLETHORPE AVE #304",
-    "approx_distance_meters": 2.3614878071130845e-05
+    "approx_distance_meters": 2.3614878071130845e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/889255125701407274",
@@ -18282,7 +23021,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "139 BULL ST #1B",
-    "approx_distance_meters": 3.6917662494355225e-05
+    "approx_distance_meters": 3.6917662494355225e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1440673208792533240",
@@ -18297,7 +23040,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "221 E YORK ST",
-    "approx_distance_meters": 4.1119588036822656e-05
+    "approx_distance_meters": 4.1119588036822656e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1283499371934518799",
@@ -18312,7 +23059,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "116 E OGLETHORPE AVE",
-    "approx_distance_meters": 8.220193374338474e-05
+    "approx_distance_meters": 8.220193374338474e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1575709795588721156",
@@ -18327,7 +23078,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "302 E PRESIDENT ST",
-    "approx_distance_meters": 3.698494502716662e-05
+    "approx_distance_meters": 3.698494502716662e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/47955247",
@@ -18342,7 +23097,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "216 E STATE ST #2C",
-    "approx_distance_meters": 7.764452076783778e-06
+    "approx_distance_meters": 7.764452076783778e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1339971380284343828",
@@ -18357,7 +23116,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "230 E OGLETHORPE AVE",
-    "approx_distance_meters": 0.0005937440000649307
+    "approx_distance_meters": 0.0005937440000649307,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51117307",
@@ -18372,7 +23135,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "210 E STATE ST #10",
-    "approx_distance_meters": 2.436474656633578e-05
+    "approx_distance_meters": 2.436474656633578e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/749894325945281657",
@@ -18387,7 +23154,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "306 E PRESIDENT ST",
-    "approx_distance_meters": 2.5247226573061772e-05
+    "approx_distance_meters": 2.5247226573061772e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1657657169141396957",
@@ -18402,7 +23173,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "201 E BROUGHTON ST",
-    "approx_distance_meters": 0.00021488795896419056
+    "approx_distance_meters": 0.00021488795896419056,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/10431337",
@@ -18417,7 +23192,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "322 E OGLETHORPE AVE",
-    "approx_distance_meters": 0.00011679470530707607
+    "approx_distance_meters": 0.00011679470530707607,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1283499372103579661",
@@ -18432,7 +23211,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "116 E OGLETHORPE AVE",
-    "approx_distance_meters": 8.220193374338474e-05
+    "approx_distance_meters": 8.220193374338474e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/8987074",
@@ -18447,7 +23230,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "131 HOUSTON ST",
-    "approx_distance_meters": 3.3102498555642194e-05
+    "approx_distance_meters": 3.3102498555642194e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/23899905",
@@ -18462,7 +23249,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "309 ALICE ST",
-    "approx_distance_meters": 4.6205489373552446e-05
+    "approx_distance_meters": 4.6205489373552446e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1654368096553110261",
@@ -18477,7 +23268,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
-    "approx_distance_meters": 4.298177803755999e-05
+    "approx_distance_meters": 4.298177803755999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1691573974216056936",
@@ -18492,7 +23287,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
-    "approx_distance_meters": 4.298177803755999e-05
+    "approx_distance_meters": 4.298177803755999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/888659341230947368",
@@ -18507,7 +23306,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "307 ALICE ST",
-    "approx_distance_meters": 9.734224801922724e-05
+    "approx_distance_meters": 9.734224801922724e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1634423844913383084",
@@ -18522,7 +23325,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
-    "approx_distance_meters": 4.298177803755999e-05
+    "approx_distance_meters": 4.298177803755999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1638731326191361987",
@@ -18537,7 +23344,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "539 W CHARLTON ST",
-    "approx_distance_meters": 7.827826479601243e-05
+    "approx_distance_meters": 7.827826479601243e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1563160857001838237",
@@ -18552,7 +23363,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
-    "approx_distance_meters": 4.298177803755999e-05
+    "approx_distance_meters": 4.298177803755999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/865281910744106683",
@@ -18567,7 +23382,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "305 ALICE ST",
-    "approx_distance_meters": 3.2787529141308416e-05
+    "approx_distance_meters": 3.2787529141308416e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/846563029384531088",
@@ -18582,7 +23401,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "303 ALICE ST",
-    "approx_distance_meters": 7.719407498720585e-05
+    "approx_distance_meters": 7.719407498720585e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1580664549820573032",
@@ -18597,7 +23420,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "322 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 4.894484837023352e-05
+    "approx_distance_meters": 4.894484837023352e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/884707312671251380",
@@ -18612,7 +23439,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "305 ALICE ST",
-    "approx_distance_meters": 3.2787529141308416e-05
+    "approx_distance_meters": 3.2787529141308416e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1700160305152740836",
@@ -18627,7 +23458,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
-    "approx_distance_meters": 4.298177803755999e-05
+    "approx_distance_meters": 4.298177803755999e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25148356",
@@ -18642,7 +23477,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "12 W TAYLOR ST",
-    "approx_distance_meters": 0.00014325639519867736
+    "approx_distance_meters": 0.00014325639519867736,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/25864023",
@@ -18657,7 +23496,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "MONTEREY SQUARE",
-    "approx_distance_meters": 3.2415219900861376e-05
+    "approx_distance_meters": 3.2415219900861376e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52168043",
@@ -18672,7 +23515,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "109 W JONES ST",
-    "approx_distance_meters": 7.96650464968657e-05
+    "approx_distance_meters": 7.96650464968657e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1498552406027460375",
@@ -18687,7 +23534,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2 E PERRY LN",
-    "approx_distance_meters": 4.296194492157541e-05
+    "approx_distance_meters": 4.296194492157541e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1108736298348335657",
@@ -18702,7 +23553,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "107 W GORDON ST",
-    "approx_distance_meters": 9.972340109593792e-05
+    "approx_distance_meters": 9.972340109593792e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1547846412847996505",
@@ -18717,7 +23572,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "326 BULL ST",
-    "approx_distance_meters": 5.014674502162982e-05
+    "approx_distance_meters": 5.014674502162982e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 3.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/998754815789955540",
@@ -18732,7 +23591,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "339 WHITAKER ST #4",
-    "approx_distance_meters": 1.155030399512438e-05
+    "approx_distance_meters": 1.155030399512438e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/47701246",
@@ -18747,7 +23610,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "PULASKI SQUARE",
-    "approx_distance_meters": 0.00022651361003113232
+    "approx_distance_meters": 0.00022651361003113232,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1614542259214377428",
@@ -18762,7 +23629,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "341 BULL ST",
-    "approx_distance_meters": 0.00010839709307619024
+    "approx_distance_meters": 0.00010839709307619024,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22832030",
@@ -18777,7 +23648,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "207 W TAYLOR ST",
-    "approx_distance_meters": 8.758982582154603e-05
+    "approx_distance_meters": 8.758982582154603e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1109525189093111378",
@@ -18792,7 +23667,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "107 W GORDON ST",
-    "approx_distance_meters": 9.972340109593792e-05
+    "approx_distance_meters": 9.972340109593792e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1642384057734805370",
@@ -18807,7 +23686,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2 E TAYLOR ST",
-    "approx_distance_meters": 0.00010378309724828373
+    "approx_distance_meters": 0.00010378309724828373,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/25864321",
@@ -18822,7 +23705,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "12 W TAYLOR ST",
-    "approx_distance_meters": 0.00014325639519867736
+    "approx_distance_meters": 0.00014325639519867736,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1356656082462973293",
@@ -18837,7 +23724,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "347 TATTNALL ST",
-    "approx_distance_meters": 1.979170871750071e-05
+    "approx_distance_meters": 1.979170871750071e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50438130",
@@ -18852,7 +23743,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "206 E TAYLOR ST",
-    "approx_distance_meters": 9.678205935139996e-05
+    "approx_distance_meters": 9.678205935139996e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1575684344169401798",
@@ -18867,7 +23762,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "217 ABERCORN ST #A-2",
-    "approx_distance_meters": 0.0005224567738364429
+    "approx_distance_meters": 0.0005224567738364429,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/51846278",
@@ -18882,7 +23781,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "550 E MCDONOUGH ST",
-    "approx_distance_meters": 3.3120767061124635e-05
+    "approx_distance_meters": 3.3120767061124635e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/729600065257860169",
@@ -18897,7 +23800,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "243 E BROAD ST",
-    "approx_distance_meters": 7.303594614893328e-05
+    "approx_distance_meters": 7.303594614893328e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/925325757640839665",
@@ -18912,7 +23819,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "249 E BROAD ST",
-    "approx_distance_meters": 0.0007980979979206944
+    "approx_distance_meters": 0.0007980979979206944,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1086221078479626607",
@@ -18927,7 +23838,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "LIBERTY ST",
-    "approx_distance_meters": 0.0002606304057922001
+    "approx_distance_meters": 0.0002606304057922001,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53917799",
@@ -18942,7 +23857,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "601 TATTNALL ST",
-    "approx_distance_meters": 3.750289502997557e-05
+    "approx_distance_meters": 3.750289502997557e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1510306776349012090",
@@ -18957,7 +23876,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "212 W HALL ST",
-    "approx_distance_meters": 2.9500907064275537e-05
+    "approx_distance_meters": 2.9500907064275537e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/20194881",
@@ -18972,7 +23895,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "311 W HUNTINGDON ST",
-    "approx_distance_meters": 6.991392228330514e-05
+    "approx_distance_meters": 6.991392228330514e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 2.0,
+    "percent_over": 50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1663857790950364019",
@@ -18987,7 +23914,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "205 W GWINNETT ST",
-    "approx_distance_meters": 2.65545860387571e-05
+    "approx_distance_meters": 2.65545860387571e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/845786408893609466",
@@ -19002,7 +23933,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "414 W HUNTINGDON ST",
-    "approx_distance_meters": 0.00011043808915111709
+    "approx_distance_meters": 0.00011043808915111709,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48527750",
@@ -19017,7 +23952,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "211 W HALL ST",
-    "approx_distance_meters": 0.00013457724044545032
+    "approx_distance_meters": 0.00013457724044545032,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/863769329473498693",
@@ -19032,7 +23971,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "414 W HUNTINGDON ST",
-    "approx_distance_meters": 0.00011043808915111709
+    "approx_distance_meters": 0.00011043808915111709,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/11094644",
@@ -19047,7 +23990,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "413 W BOLTON ST",
-    "approx_distance_meters": 2.4572664104952777e-05
+    "approx_distance_meters": 2.4572664104952777e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1724159603348078036",
@@ -19062,7 +24009,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "301 W HALL ST",
-    "approx_distance_meters": 8.628812987996656e-05
+    "approx_distance_meters": 8.628812987996656e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48145961",
@@ -19077,7 +24028,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "210 W HALL ST",
-    "approx_distance_meters": 8.465234905368551e-05
+    "approx_distance_meters": 8.465234905368551e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/579037546343249577",
@@ -19092,7 +24047,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "723 BARNARD ST",
-    "approx_distance_meters": 4.850697717740595e-05
+    "approx_distance_meters": 4.850697717740595e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22412416",
@@ -19107,7 +24066,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "303 W GWINNETT ST",
-    "approx_distance_meters": 0.0001637348542209148
+    "approx_distance_meters": 0.0001637348542209148,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1558309754968872944",
@@ -19122,7 +24085,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "116 W GASTON ST",
-    "approx_distance_meters": 0.00014854174245884874
+    "approx_distance_meters": 0.00014854174245884874,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -3.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/52837945",
@@ -19137,7 +24104,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "15",
     "approximate_address": "106 W GWINNETT ST #3C",
-    "approx_distance_meters": 0.0002129163714298296
+    "approx_distance_meters": 0.0002129163714298296,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1598737627755710239",
@@ -19152,7 +24123,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "603 WHITAKER ST",
-    "approx_distance_meters": 8.138703044994516e-05
+    "approx_distance_meters": 8.138703044994516e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1071964847638294261",
@@ -19167,7 +24142,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "123 W GORDON ST",
-    "approx_distance_meters": 7.072199353501956e-05
+    "approx_distance_meters": 7.072199353501956e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1582722034243091606",
@@ -19182,7 +24161,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "507 BARNARD ST",
-    "approx_distance_meters": 7.330744346700275e-05
+    "approx_distance_meters": 7.330744346700275e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/43079945",
@@ -19197,7 +24180,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "111 W GWINNETT ST",
-    "approx_distance_meters": 7.910914101677732e-05
+    "approx_distance_meters": 7.910914101677732e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49254506",
@@ -19212,7 +24199,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "605 BARNARD ST",
-    "approx_distance_meters": 0.00010411492547572012
+    "approx_distance_meters": 0.00010411492547572012,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/947941337621179877",
@@ -19227,7 +24218,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "541 E TAYLOR ST",
-    "approx_distance_meters": 2.080663892355509e-05
+    "approx_distance_meters": 2.080663892355509e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/918205589006964055",
@@ -19242,7 +24237,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "606 LINCOLN ST",
-    "approx_distance_meters": 8.153547591513968e-05
+    "approx_distance_meters": 8.153547591513968e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53008764",
@@ -19257,7 +24256,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "610 PRICE ST",
-    "approx_distance_meters": 8.374136762828029e-05
+    "approx_distance_meters": 8.374136762828029e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/18034534",
@@ -19272,7 +24275,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "408 E GASTON ST",
-    "approx_distance_meters": 0.00014861742660830226
+    "approx_distance_meters": 0.00014861742660830226,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1506666057269319109",
@@ -19287,7 +24294,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "210 E TAYLOR ST",
-    "approx_distance_meters": 7.764317846335568e-05
+    "approx_distance_meters": 7.764317846335568e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1685603433623842079",
@@ -19302,7 +24313,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "349 E BROAD ST",
-    "approx_distance_meters": 5.4517293301160675e-05
+    "approx_distance_meters": 5.4517293301160675e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/42141391",
@@ -19317,7 +24332,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "401 E JONES ST",
-    "approx_distance_meters": 8.515636230103566e-05
+    "approx_distance_meters": 8.515636230103566e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/604156677457194890",
@@ -19332,7 +24351,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "608 LINCOLN ST",
-    "approx_distance_meters": 1.467835035087084e-05
+    "approx_distance_meters": 1.467835035087084e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1498749082025797825",
@@ -19347,7 +24370,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "210 E TAYLOR ST",
-    "approx_distance_meters": 7.764317846335568e-05
+    "approx_distance_meters": 7.764317846335568e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/851361399925580935",
@@ -19362,7 +24389,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "554 E TAYLOR ST",
-    "approx_distance_meters": 4.91595329311727e-05
+    "approx_distance_meters": 4.91595329311727e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38132457",
@@ -19377,7 +24408,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "401 E JONES ST",
-    "approx_distance_meters": 8.515636230103566e-05
+    "approx_distance_meters": 8.515636230103566e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1711713308839539972",
@@ -19392,7 +24427,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "524 E GORDON LN",
-    "approx_distance_meters": 7.526450237682814e-06
+    "approx_distance_meters": 7.526450237682814e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53191450",
@@ -19407,7 +24446,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "527 E CHARLTON ST",
-    "approx_distance_meters": 0.00011197565944348223
+    "approx_distance_meters": 0.00011197565944348223,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1278314451709939082",
@@ -19422,7 +24465,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "125 W DUFFY ST",
-    "approx_distance_meters": 0.00010890920826284785
+    "approx_distance_meters": 0.00010890920826284785,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1556889643317405028",
@@ -19437,7 +24484,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "1117 JEFFERSON ST",
-    "approx_distance_meters": 4.4048149210111696e-05
+    "approx_distance_meters": 4.4048149210111696e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/36699311",
@@ -19452,7 +24503,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "219 W WALDBURG ST",
-    "approx_distance_meters": 6.684997361446983e-05
+    "approx_distance_meters": 6.684997361446983e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1556837970166553256",
@@ -19467,7 +24522,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "315 W WALDBURG ST",
-    "approx_distance_meters": 6.689164949510691e-05
+    "approx_distance_meters": 6.689164949510691e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/515087371391458793",
@@ -19482,7 +24541,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "913 HOWARD ST",
-    "approx_distance_meters": 4.347694088342471e-05
+    "approx_distance_meters": 4.347694088342471e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -4.0,
+    "percent_over": -40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34171608",
@@ -19497,7 +24560,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "302 W PARK AVE",
-    "approx_distance_meters": 4.936848550430435e-05
+    "approx_distance_meters": 4.936848550430435e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/43316095",
@@ -19512,7 +24579,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "216 W PARK AVE",
-    "approx_distance_meters": 4.2585052697893426e-05
+    "approx_distance_meters": 4.2585052697893426e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/978329689456516306",
@@ -19527,7 +24598,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1321 JEFFERSON ST",
-    "approx_distance_meters": 6.922405419046785e-05
+    "approx_distance_meters": 6.922405419046785e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15340714",
@@ -19542,7 +24617,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1006 DRAYTON ST",
-    "approx_distance_meters": 0.00045728673448720467
+    "approx_distance_meters": 0.00045728673448720467,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/16453922",
@@ -19557,7 +24636,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "905 ABERCORN ST",
-    "approx_distance_meters": 9.632343836032537e-05
+    "approx_distance_meters": 9.632343836032537e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/24731566",
@@ -19572,7 +24655,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "107 E PARK AVE",
-    "approx_distance_meters": 2.6604858229416792e-05
+    "approx_distance_meters": 2.6604858229416792e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1105795478383155768",
@@ -19587,7 +24674,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "215 E GWINNETT ST",
-    "approx_distance_meters": 7.375045702115328e-05
+    "approx_distance_meters": 7.375045702115328e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/39754936",
@@ -19602,7 +24693,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1201 BULL ST",
-    "approx_distance_meters": 9.580942263315717e-05
+    "approx_distance_meters": 9.580942263315717e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1375693280919891963",
@@ -19617,7 +24712,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "321 E BOLTON ST",
-    "approx_distance_meters": 9.300111784497386e-05
+    "approx_distance_meters": 9.300111784497386e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21987084",
@@ -19632,7 +24731,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "311 E PARK AVE",
-    "approx_distance_meters": 4.789598138455637e-05
+    "approx_distance_meters": 4.789598138455637e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/979635267296744939",
@@ -19647,7 +24750,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "302 E PARK AVE",
-    "approx_distance_meters": 4.649222629566021e-05
+    "approx_distance_meters": 4.649222629566021e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1099319306611679417",
@@ -19662,7 +24769,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "203 E GWINNETT ST",
-    "approx_distance_meters": 0.00017499404084456255
+    "approx_distance_meters": 0.00017499404084456255,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1664217219363310909",
@@ -19677,7 +24788,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "103 E PARK AVE",
-    "approx_distance_meters": 0.00011159587821342179
+    "approx_distance_meters": 0.00011159587821342179,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1605112210255280917",
@@ -19692,7 +24807,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "544 E WALDBURG ST",
-    "approx_distance_meters": 0.00012274549676791142
+    "approx_distance_meters": 0.00012274549676791142,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1276412050635814888",
@@ -19707,7 +24826,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "506 E BOLTON ST",
-    "approx_distance_meters": 5.594603084489511e-05
+    "approx_distance_meters": 5.594603084489511e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/48184109",
@@ -19722,7 +24845,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "528 E BOLTON ST",
-    "approx_distance_meters": 0.0001421503644011804
+    "approx_distance_meters": 0.0001421503644011804,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/13466272",
@@ -19737,7 +24864,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "416 E WALDBURG ST",
-    "approx_distance_meters": 5.4985447459970026e-05
+    "approx_distance_meters": 5.4985447459970026e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/712122877638406301",
@@ -19752,7 +24883,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "515 E BOLTON ST",
-    "approx_distance_meters": 7.46860324810719e-05
+    "approx_distance_meters": 7.46860324810719e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1000743963474861515",
@@ -19767,7 +24902,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "509 E WALDBURG ST",
-    "approx_distance_meters": 0.00010295825333426879
+    "approx_distance_meters": 0.00010295825333426879,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1365504745817753228",
@@ -19782,7 +24921,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "501 E BOLTON ST",
-    "approx_distance_meters": 0.0001129818856616714
+    "approx_distance_meters": 0.0001129818856616714,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34820677",
@@ -19797,7 +24940,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "526 E WALDBURG ST",
-    "approx_distance_meters": 0.00011277671175014132
+    "approx_distance_meters": 0.00011277671175014132,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/954458785132344963",
@@ -19812,7 +24959,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "511 E WALDBURG LN",
-    "approx_distance_meters": 1.67093066736526e-05
+    "approx_distance_meters": 1.67093066736526e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1708137853181800785",
@@ -19827,7 +24978,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "409 E HALL ST",
-    "approx_distance_meters": 3.3809862200387096e-05
+    "approx_distance_meters": 3.3809862200387096e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1524633218462584167",
@@ -19842,7 +24997,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "515 E BOLTON ST",
-    "approx_distance_meters": 9.969200335859154e-05
+    "approx_distance_meters": 9.969200335859154e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/54145969",
@@ -19857,7 +25016,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "14",
     "approximate_address": "507 E HALL ST",
-    "approx_distance_meters": 5.084680203673504e-05
+    "approx_distance_meters": 5.084680203673504e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40475021",
@@ -19872,7 +25035,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "538 E BOLTON ST",
-    "approx_distance_meters": 0.00014707522806370126
+    "approx_distance_meters": 0.00014707522806370126,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/757418330506233936",
@@ -19887,7 +25054,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "2127 UTAH ST",
-    "approx_distance_meters": 8.425324834418035e-05
+    "approx_distance_meters": 8.425324834418035e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48284703",
@@ -19902,7 +25073,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "210 W 35TH ST",
-    "approx_distance_meters": 0.00010414412247486608
+    "approx_distance_meters": 0.00010414412247486608,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1112950766403768618",
@@ -19917,7 +25092,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "W HENRY LN",
-    "approx_distance_meters": 0.00012066297317065794
+    "approx_distance_meters": 0.00012066297317065794,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1627618189017014301",
@@ -19932,7 +25111,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1404 BARNARD ST",
-    "approx_distance_meters": 8.381707094902088e-05
+    "approx_distance_meters": 8.381707094902088e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1345423347644762845",
@@ -19947,7 +25130,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "10 W 31ST ST",
-    "approx_distance_meters": 0.00017975916116002522
+    "approx_distance_meters": 0.00017975916116002522,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/605832634043566264",
@@ -19962,7 +25149,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "415 E DUFFY ST",
-    "approx_distance_meters": 1.4388210164772043e-05
+    "approx_distance_meters": 1.4388210164772043e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50538606",
@@ -19977,7 +25168,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "221 E DUFFY ST",
-    "approx_distance_meters": 0.00011237136652996979
+    "approx_distance_meters": 0.00011237136652996979,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1592716030246875509",
@@ -19992,7 +25187,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1216 ABERCORN ST",
-    "approx_distance_meters": 9.143080464086554e-05
+    "approx_distance_meters": 9.143080464086554e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1128917088060803808",
@@ -20007,7 +25206,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "220 E 31ST ST",
-    "approx_distance_meters": 6.562309336488079e-05
+    "approx_distance_meters": 6.562309336488079e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/5874358",
@@ -20022,7 +25225,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "1201 ABERCORN ST",
-    "approx_distance_meters": 2.7818639844398477e-05
+    "approx_distance_meters": 2.7818639844398477e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48563252",
@@ -20037,7 +25244,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "210 E DUFFY ST",
-    "approx_distance_meters": 0.00011432070982660131
+    "approx_distance_meters": 0.00011432070982660131,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/730977584770818016",
@@ -20052,7 +25263,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "514 E ANDERSON ST",
-    "approx_distance_meters": 0.0001044356486648597
+    "approx_distance_meters": 0.0001044356486648597,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1626158740516749363",
@@ -20067,7 +25282,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "519 E 32ND ST",
-    "approx_distance_meters": 8.383077231352982e-05
+    "approx_distance_meters": 8.383077231352982e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34756764",
@@ -20082,7 +25301,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "409 E PARK AVE",
-    "approx_distance_meters": 3.548114978267421e-05
+    "approx_distance_meters": 3.548114978267421e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1211556693365198960",
@@ -20097,7 +25320,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "408 E HENRY ST",
-    "approx_distance_meters": 8.359355648800873e-05
+    "approx_distance_meters": 8.359355648800873e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/755243306409981310",
@@ -20112,7 +25339,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "416 E DUFFY ST",
-    "approx_distance_meters": 8.389627961831387e-05
+    "approx_distance_meters": 8.389627961831387e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22849610",
@@ -20127,7 +25358,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "525 E HENRY ST",
-    "approx_distance_meters": 0.0001428867648265927
+    "approx_distance_meters": 0.0001428867648265927,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -4.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1421355822599266211",
@@ -20142,7 +25377,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1134 E BOLTON ST",
-    "approx_distance_meters": 9.215981338294507e-05
+    "approx_distance_meters": 9.215981338294507e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/741998343199626014",
@@ -20157,7 +25396,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1216 E DUFFY ST",
-    "approx_distance_meters": 0.00012382456129594099
+    "approx_distance_meters": 0.00012382456129594099,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/43528111",
@@ -20172,7 +25415,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "1822 HALE ST",
-    "approx_distance_meters": 8.716968368629527e-05
+    "approx_distance_meters": 8.716968368629527e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 3.0,
+    "percent_over": 37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1729228517438538042",
@@ -20187,7 +25434,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "316 W 41ST ST",
-    "approx_distance_meters": 0.0001608359219419147
+    "approx_distance_meters": 0.0001608359219419147,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/33005699",
@@ -20202,7 +25453,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "23 E 37TH ST",
-    "approx_distance_meters": 0.00012123819675268465
+    "approx_distance_meters": 0.00012123819675268465,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/5975811",
@@ -20217,7 +25472,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "24 E 37TH ST",
-    "approx_distance_meters": 2.9209727540468755e-05
+    "approx_distance_meters": 2.9209727540468755e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/658821399649347489",
@@ -20232,7 +25491,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1900 ABERCORN ST",
-    "approx_distance_meters": 0.00033977569552345974
+    "approx_distance_meters": 0.00033977569552345974,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1558317335523388604",
@@ -20247,7 +25510,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "101 E 35TH ST",
-    "approx_distance_meters": 2.583612116547062e-05
+    "approx_distance_meters": 2.583612116547062e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/658700323648580919",
@@ -20262,14 +25529,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1810 BULL ST",
-    "approx_distance_meters": 0.0002855602249217482
+    "approx_distance_meters": 0.0002855602249217482,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1618196986842791976",
     "rental_type": "Entire condo",
     "guests": 6.0,
     "bedrooms": 2.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 2.0,
     "latitude": 32.05769,
     "longitude": -81.09564,
@@ -20277,7 +25548,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1900 LINCOLN ST",
-    "approx_distance_meters": 0.00025912031830973415
+    "approx_distance_meters": 0.00025912031830973415,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1588627004557342759",
@@ -20292,7 +25567,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "625 E 34TH ST",
-    "approx_distance_meters": 7.044383574536227e-05
+    "approx_distance_meters": 7.044383574536227e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1077094170626447919",
@@ -20307,7 +25586,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "661 E 32ND ST",
-    "approx_distance_meters": 0.00010717864978008192
+    "approx_distance_meters": 0.00010717864978008192,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/729167969429098075",
@@ -20322,7 +25605,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "738 E 35TH ST",
-    "approx_distance_meters": 0.00011771842114629794
+    "approx_distance_meters": 0.00011771842114629794,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/811835135584111956",
@@ -20337,7 +25624,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "532 E 35TH ST",
-    "approx_distance_meters": 0.0002304540831578224
+    "approx_distance_meters": 0.0002304540831578224,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1690089032446377060",
@@ -20352,7 +25643,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "1117 E ANDERSON ST",
-    "approx_distance_meters": 5.15053641016559e-05
+    "approx_distance_meters": 5.15053641016559e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1610978458939482563",
@@ -20367,7 +25662,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1514 E DUFFY ST",
-    "approx_distance_meters": 0.00020787711866568535
+    "approx_distance_meters": 0.00020787711866568535,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/28070523",
@@ -20382,7 +25681,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "24 E 41ST ST",
-    "approx_distance_meters": 3.6117599409221314e-05
+    "approx_distance_meters": 3.6117599409221314e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/42069583",
@@ -20397,7 +25700,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "12 E 42ND ST",
-    "approx_distance_meters": 0.0001433312111489406
+    "approx_distance_meters": 0.0001433312111489406,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/22528638",
@@ -20412,7 +25719,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "24 E 41ST ST",
-    "approx_distance_meters": 3.6117599409221314e-05
+    "approx_distance_meters": 3.6117599409221314e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1561173901992471692",
@@ -20427,7 +25738,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "529 SEILER AVE",
-    "approx_distance_meters": 0.0001398172511172857
+    "approx_distance_meters": 0.0001398172511172857,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1561252578668941678",
@@ -20442,7 +25757,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "536 SEILER AVE",
-    "approx_distance_meters": 4.401362277391444e-05
+    "approx_distance_meters": 4.401362277391444e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1461005763185741760",
@@ -20457,7 +25776,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "628 SEILER AVE",
-    "approx_distance_meters": 0.00010339330273902961
+    "approx_distance_meters": 0.00010339330273902961,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1492168962243857728",
@@ -20472,7 +25795,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "809 SEILER AVE",
-    "approx_distance_meters": 8.613804153950353e-05
+    "approx_distance_meters": 8.613804153950353e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/924201783628555097",
@@ -20487,14 +25814,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "710 SEILER AVE",
-    "approx_distance_meters": 7.616058015317191e-05
+    "approx_distance_meters": 7.616058015317191e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/724625801390917080",
     "rental_type": "Entire bungalow",
     "guests": 6.0,
     "bedrooms": 3.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 2.0,
     "latitude": 32.05464,
     "longitude": -81.0844,
@@ -20502,7 +25833,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "919 E 35TH ST",
-    "approx_distance_meters": 8.984442446783233e-05
+    "approx_distance_meters": 8.984442446783233e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1184149758220902236",
@@ -20517,7 +25852,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "1119 E 34TH ST",
-    "approx_distance_meters": 0.0001236044917052179
+    "approx_distance_meters": 0.0001236044917052179,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/54093988",
@@ -20532,7 +25871,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "1014 E 37TH ST",
-    "approx_distance_meters": 6.771599126311376e-05
+    "approx_distance_meters": 6.771599126311376e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 3.0,
+    "percent_over": 37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1388679238594308101",
@@ -20547,7 +25890,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "905 E 37TH ST",
-    "approx_distance_meters": 0.00012416457968252815
+    "approx_distance_meters": 0.00012416457968252815,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1688779163112964043",
@@ -20562,7 +25909,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "1120 E 38TH ST",
-    "approx_distance_meters": 2.263377575017919e-05
+    "approx_distance_meters": 2.263377575017919e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/23020496",
@@ -20577,7 +25928,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1413 SE 36TH ST",
-    "approx_distance_meters": 0.00011653086861063825
+    "approx_distance_meters": 0.00011653086861063825,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1254352018488073469",
@@ -20592,7 +25947,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1527 NE 36TH ST",
-    "approx_distance_meters": 5.535740980650904e-05
+    "approx_distance_meters": 5.535740980650904e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1254362246644601422",
@@ -20607,7 +25966,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "2001 RICHTER ST",
-    "approx_distance_meters": 6.926341726028717e-05
+    "approx_distance_meters": 6.926341726028717e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1348641593852042392",
@@ -20622,7 +25985,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1803 CEDAR ST",
-    "approx_distance_meters": 4.016474439461417e-06
+    "approx_distance_meters": 4.016474439461417e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1167875139346251618",
@@ -20637,7 +26004,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "2146 MISSISSIPPI AVE",
-    "approx_distance_meters": 1.7621654814702003e-05
+    "approx_distance_meters": 1.7621654814702003e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1586041069023156803",
@@ -20652,7 +26023,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "2120 NEW YORK AVE",
-    "approx_distance_meters": 5.508256778043866e-05
+    "approx_distance_meters": 5.508256778043866e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/14486219",
@@ -20667,7 +26042,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2819 BULL ST",
-    "approx_distance_meters": 0.0002901792314098154
+    "approx_distance_meters": 0.0002901792314098154,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1709798577630091202",
@@ -20682,7 +26061,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4504 KIM ST",
-    "approx_distance_meters": 3.747287406584906e-05
+    "approx_distance_meters": 3.747287406584906e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/949353799383086745",
@@ -20697,7 +26080,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "33 PENROSE DR",
-    "approx_distance_meters": 0.0005307197109421089
+    "approx_distance_meters": 0.0005307197109421089,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1410405169928696547",
@@ -20712,7 +26099,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "1428 E 52ND ST",
-    "approx_distance_meters": 0.00011887572602049064
+    "approx_distance_meters": 0.00011887572602049064,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -3.0,
+    "percent_over": -75.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47031347",
@@ -20727,7 +26118,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "105 BINNACLE CT",
-    "approx_distance_meters": 3.8146298217397476e-05
+    "approx_distance_meters": 3.8146298217397476e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1051607149591036262",
@@ -20742,7 +26137,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "101 DRY DOCK CT",
-    "approx_distance_meters": 0.00013192892095006487
+    "approx_distance_meters": 0.00013192892095006487,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19162688",
@@ -20757,7 +26156,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "140 ROPEMAKER LN",
-    "approx_distance_meters": 5.816917550873045e-05
+    "approx_distance_meters": 5.816917550873045e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/883258603419076093",
@@ -20772,7 +26175,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "142 ROPEMAKER LN",
-    "approx_distance_meters": 3.363049244307027e-05
+    "approx_distance_meters": 3.363049244307027e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1005047621950063603",
@@ -20787,7 +26194,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "14 CROSSOVER LN",
-    "approx_distance_meters": 0.00013887030241291543
+    "approx_distance_meters": 0.00013887030241291543,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 6.0,
+    "percent_over": 60.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1573076930933040166",
@@ -20802,7 +26213,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "414 EMMIT ST",
-    "approx_distance_meters": 0.00010222947300357655
+    "approx_distance_meters": 0.00010222947300357655,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1731191182661879974",
@@ -20817,7 +26232,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "717 E 56TH ST",
-    "approx_distance_meters": 2.2134775361576646e-05
+    "approx_distance_meters": 2.2134775361576646e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1558235540751176696",
@@ -20832,7 +26251,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "7835 E US HIGHWAY 80",
-    "approx_distance_meters": 0.0004723309353099976
+    "approx_distance_meters": 0.0004723309353099976,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1608233942925425556",
@@ -20847,7 +26270,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": null,
-    "approx_distance_meters": 0.0003578995552051502
+    "approx_distance_meters": 0.0003578995552051502,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27679082",
@@ -20862,7 +26289,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1217 BAY ST #210A",
-    "approx_distance_meters": 7.043738959728872e-06
+    "approx_distance_meters": 7.043738959728872e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/989226520966005312",
@@ -20877,7 +26308,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1217 BAY ST #308A",
-    "approx_distance_meters": 6.988870840549309e-05
+    "approx_distance_meters": 6.988870840549309e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1201402222372945863",
@@ -20892,7 +26327,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1201 BAY ST #A",
-    "approx_distance_meters": 0.0001885142488514656
+    "approx_distance_meters": 0.0001885142488514656,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34716731",
@@ -20907,14 +26346,18 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "1213 BAY ST",
-    "approx_distance_meters": 0.00011099621931438557
+    "approx_distance_meters": 0.00011099621931438557,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1069551125842310430",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.0232,
     "longitude": -80.8569,
@@ -20922,7 +26365,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1201 BAY ST",
-    "approx_distance_meters": 0.00019298379480362193
+    "approx_distance_meters": 0.00019298379480362193,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/700705714259462801",
@@ -20937,7 +26384,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1103 BAY ST ##D",
-    "approx_distance_meters": 5.857537156765059e-05
+    "approx_distance_meters": 5.857537156765059e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/806388359312149170",
@@ -20952,7 +26403,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1203 BAY ST",
-    "approx_distance_meters": 0.0002326221454343542
+    "approx_distance_meters": 0.0002326221454343542,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/45533767",
@@ -20967,7 +26422,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "1213 BAY ST",
-    "approx_distance_meters": 0.00015850470967088964
+    "approx_distance_meters": 0.00015850470967088964,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/555144291313764980",
@@ -20982,7 +26441,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "52 CAPTAINS VIEW",
-    "approx_distance_meters": 6.742392944873263e-05
+    "approx_distance_meters": 6.742392944873263e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/39810503",
@@ -20997,7 +26460,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "CAPTAINS VIEW",
-    "approx_distance_meters": 7.874482014365129e-05
+    "approx_distance_meters": 7.874482014365129e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29828184",
@@ -21012,7 +26479,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "5 CAPTAINS VIEW",
-    "approx_distance_meters": 4.4998148897370404e-05
+    "approx_distance_meters": 4.4998148897370404e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50769170",
@@ -21027,7 +26498,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "4 SEA BREEZE LN ##B",
-    "approx_distance_meters": 5.60454614385369e-05
+    "approx_distance_meters": 5.60454614385369e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1487054474009570125",
@@ -21042,7 +26517,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 8.515951288519932e-05
+    "approx_distance_meters": 8.515951288519932e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/43044691",
@@ -21057,7 +26536,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "14 CAPTAINS VIEW",
-    "approx_distance_meters": 8.431890002568483e-05
+    "approx_distance_meters": 8.431890002568483e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/564353916607517535",
@@ -21072,7 +26555,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.00012628331406201466
+    "approx_distance_meters": 0.00012628331406201466,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1357289872054839941",
@@ -21087,7 +26574,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "12 SEA BREEZE LN",
-    "approx_distance_meters": 4.406980495632343e-05
+    "approx_distance_meters": 4.406980495632343e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/565065028537045686",
@@ -21102,7 +26593,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "59 CAPTAINS VIEW",
-    "approx_distance_meters": 7.724380907016578e-05
+    "approx_distance_meters": 7.724380907016578e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/716583220841426797",
@@ -21117,7 +26612,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 1.9299388417368716e-05
+    "approx_distance_meters": 1.9299388417368716e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1437788072097141264",
@@ -21132,7 +26631,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "85 VAN HORN #4C",
-    "approx_distance_meters": 0.0001059612936424672
+    "approx_distance_meters": 0.0001059612936424672,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1597136683097006883",
@@ -21147,7 +26650,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.0002124170741824183
+    "approx_distance_meters": 0.0002124170741824183,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/30266071",
@@ -21162,7 +26669,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 1.4842852261726464e-05
+    "approx_distance_meters": 1.4842852261726464e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/34255932",
@@ -21177,7 +26688,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "VAN HORN",
-    "approx_distance_meters": 7.270856838822469e-05
+    "approx_distance_meters": 7.270856838822469e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29533531",
@@ -21192,7 +26707,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "VAN HORN",
-    "approx_distance_meters": 4.082167944742344e-05
+    "approx_distance_meters": 4.082167944742344e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1108124082343673909",
@@ -21207,7 +26726,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 4.69543352956865e-05
+    "approx_distance_meters": 4.69543352956865e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/46413872",
@@ -21222,7 +26745,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "3 NORTHSHORE DR",
-    "approx_distance_meters": 9.543159624823502e-05
+    "approx_distance_meters": 9.543159624823502e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1284895135284281601",
@@ -21237,7 +26764,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 9.624799154887811e-05
+    "approx_distance_meters": 9.624799154887811e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49468125",
@@ -21252,7 +26783,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.00026127337341725417
+    "approx_distance_meters": 0.00026127337341725417,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/10267560",
@@ -21267,7 +26802,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "75 VAN HORN ST",
-    "approx_distance_meters": 6.489911779503699e-05
+    "approx_distance_meters": 6.489911779503699e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10267476",
@@ -21282,7 +26821,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "85 VAN HORN #26C",
-    "approx_distance_meters": 0.0003814951459467837
+    "approx_distance_meters": 0.0003814951459467837,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1516031796698915559",
@@ -21297,7 +26840,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 2.6959774834590424e-05
+    "approx_distance_meters": 2.6959774834590424e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42331210",
@@ -21312,7 +26859,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 4.5423161654668704e-05
+    "approx_distance_meters": 4.5423161654668704e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38580635",
@@ -21327,7 +26878,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 2.837487825745769e-05
+    "approx_distance_meters": 2.837487825745769e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/770918454777961189",
@@ -21342,7 +26897,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "4",
     "approximate_address": "1217 BAY ST #301A",
-    "approx_distance_meters": 0.00014160887790840232
+    "approx_distance_meters": 0.00014160887790840232,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1727144692104291479",
@@ -21357,7 +26916,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1217 BAY ST #301A",
-    "approx_distance_meters": 0.00014160887790840232
+    "approx_distance_meters": 0.00014160887790840232,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/869013431727955710",
@@ -21372,7 +26935,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1217 BAY ST #318B",
-    "approx_distance_meters": 5.5011457959675226e-05
+    "approx_distance_meters": 5.5011457959675226e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/946983536333995980",
@@ -21387,7 +26954,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1230 SOLOMON AVE",
-    "approx_distance_meters": 0.00012008189213201636
+    "approx_distance_meters": 0.00012008189213201636,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1146349119622467334",
@@ -21402,7 +26973,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1213 ESTILL AVE",
-    "approx_distance_meters": 3.8423125476501085e-05
+    "approx_distance_meters": 3.8423125476501085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/656571547391952454",
@@ -21417,7 +26992,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1202 BAY ST",
-    "approx_distance_meters": 4.758633725591007e-05
+    "approx_distance_meters": 4.758633725591007e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/806578609476868497",
@@ -21432,7 +27011,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1230 SOLOMON AVE",
-    "approx_distance_meters": 7.311310168613707e-05
+    "approx_distance_meters": 7.311310168613707e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1571920370866952482",
@@ -21447,7 +27030,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1 LIGHTHOUSE LN",
-    "approx_distance_meters": 0.00035709230031114367
+    "approx_distance_meters": 0.00035709230031114367,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1548917350953182076",
@@ -21462,7 +27049,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "5 LIGHTHOUSE LN ##A",
-    "approx_distance_meters": 5.2633273312556915e-05
+    "approx_distance_meters": 5.2633273312556915e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1431453098427984678",
@@ -21477,7 +27068,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "1108 LAUREL AVE",
-    "approx_distance_meters": 2.1801094941044352e-05
+    "approx_distance_meters": 2.1801094941044352e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15204738",
@@ -21492,7 +27087,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1110 LAUREL AVE",
-    "approx_distance_meters": 9.212048173633482e-05
+    "approx_distance_meters": 9.212048173633482e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/651185348465393821",
@@ -21507,7 +27106,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "70 SOLOMON AVE",
-    "approx_distance_meters": 0.0001687092742063127
+    "approx_distance_meters": 0.0001687092742063127,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/29035201",
@@ -21522,7 +27125,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1006 US HIGHWAY 80",
-    "approx_distance_meters": 4.0987279342077124e-05
+    "approx_distance_meters": 4.0987279342077124e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/741008820566178467",
@@ -21537,7 +27144,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "6 BREWER'S LANDING",
-    "approx_distance_meters": 7.332931721512677e-05
+    "approx_distance_meters": 7.332931721512677e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1615327888481280151",
@@ -21552,7 +27163,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1010 US HIGHWAY 80",
-    "approx_distance_meters": 4.6513410781526145e-05
+    "approx_distance_meters": 4.6513410781526145e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1187650819082747065",
@@ -21567,7 +27182,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1101 LAUREL AVE",
-    "approx_distance_meters": 0.00011718560337744443
+    "approx_distance_meters": 0.00011718560337744443,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/700765480976363155",
@@ -21582,7 +27201,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "ESTILL AVE",
-    "approx_distance_meters": 6.575957419969817e-05
+    "approx_distance_meters": 6.575957419969817e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1457161465082479369",
@@ -21597,7 +27220,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1107 LAUREL AVE",
-    "approx_distance_meters": 9.554606660580133e-05
+    "approx_distance_meters": 9.554606660580133e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/25895744",
@@ -21612,7 +27239,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "POLK ST",
-    "approx_distance_meters": 0.00040095945129674265
+    "approx_distance_meters": 0.00040095945129674265,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/592769662273856632",
@@ -21627,7 +27258,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1016 E US HIGHWAY 80",
-    "approx_distance_meters": 0.00013763275801686455
+    "approx_distance_meters": 0.00013763275801686455,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/848409145623111453",
@@ -21642,7 +27277,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "101 MCKENZIE ST",
-    "approx_distance_meters": 5.616256289921949e-05
+    "approx_distance_meters": 5.616256289921949e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50148939",
@@ -21657,7 +27296,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "307 POLK ST",
-    "approx_distance_meters": 0.00013214306066001581
+    "approx_distance_meters": 0.00013214306066001581,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/12917910",
@@ -21672,7 +27315,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "5 PALMWOOD ST",
-    "approx_distance_meters": 8.375569560498214e-05
+    "approx_distance_meters": 8.375569560498214e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/936209759838466080",
@@ -21687,7 +27334,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "13 NAYLOR AVE",
-    "approx_distance_meters": 5.2102257864632516e-05
+    "approx_distance_meters": 5.2102257864632516e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/33214892",
@@ -21702,7 +27353,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "5 MEDDIN DR",
-    "approx_distance_meters": 0.00010781277324483871
+    "approx_distance_meters": 0.00010781277324483871,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/30911077",
@@ -21717,7 +27372,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "MORTAR AVE",
-    "approx_distance_meters": 2.1992909081982037e-05
+    "approx_distance_meters": 2.1992909081982037e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/666543920439753899",
@@ -21732,7 +27391,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "5 CEDARWOOD DR",
-    "approx_distance_meters": 1.583830189505336e-05
+    "approx_distance_meters": 1.583830189505336e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -4.0,
+    "percent_over": -28.57142857142857
   },
   {
     "url": "https://www.airbnb.com/rooms/36038482",
@@ -21747,7 +27410,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "117 CEDARWOOD DR",
-    "approx_distance_meters": 0.00036615671424400267
+    "approx_distance_meters": 0.00036615671424400267,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/33213393",
@@ -21762,7 +27429,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "28 NAYLOR AVE",
-    "approx_distance_meters": 0.00016295085547401238
+    "approx_distance_meters": 0.00016295085547401238,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1127554203600293232",
@@ -21777,7 +27448,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "4 MEDDIN DR",
-    "approx_distance_meters": 7.887460967132469e-05
+    "approx_distance_meters": 7.887460967132469e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/899491928609165154",
@@ -21792,7 +27467,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "VETERANS DR",
-    "approx_distance_meters": 2.1879247387810488e-05
+    "approx_distance_meters": 2.1879247387810488e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/843386924411680906",
@@ -21807,7 +27486,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "15 ROBINSON AVE",
-    "approx_distance_meters": 0.00011160361692813955
+    "approx_distance_meters": 0.00011160361692813955,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/685375693367184249",
@@ -21822,7 +27505,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "3 CEDARWOOD DR",
-    "approx_distance_meters": 2.837263154030761e-05
+    "approx_distance_meters": 2.837263154030761e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/845532755635209827",
@@ -21837,7 +27524,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "0 MEDDIN DR",
-    "approx_distance_meters": 0.00015203707106390703
+    "approx_distance_meters": 0.00015203707106390703,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/899481030577249570",
@@ -21852,7 +27543,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "0 MEDDIN DR",
-    "approx_distance_meters": 0.0007515324388605259
+    "approx_distance_meters": 0.0007515324388605259,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1268191992901666988",
@@ -21867,7 +27562,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "VETERANS DR",
-    "approx_distance_meters": 9.778684393892772e-05
+    "approx_distance_meters": 9.778684393892772e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1311064035555718795",
@@ -21882,7 +27581,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "4 DRIFTWOOD CT",
-    "approx_distance_meters": 0.0009849568250008265
+    "approx_distance_meters": 0.0009849568250008265,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1590831823514824769",
@@ -21897,7 +27600,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "707 RAILWOOD LN",
-    "approx_distance_meters": 0.00012415355759110846
+    "approx_distance_meters": 0.00012415355759110846,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1719609816058266371",
@@ -21912,7 +27619,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "21 GULICK ST",
-    "approx_distance_meters": 4.2140686023742486e-05
+    "approx_distance_meters": 4.2140686023742486e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1385520802606337374",
@@ -21927,7 +27638,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "8 DRIFTWOOD CT",
-    "approx_distance_meters": 4.2871296217200884e-05
+    "approx_distance_meters": 4.2871296217200884e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1309564710039750739",
@@ -21942,7 +27657,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "5 DRIFTWOOD CT",
-    "approx_distance_meters": 3.162775498416982e-05
+    "approx_distance_meters": 3.162775498416982e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1263029575792508215",
@@ -21957,7 +27676,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "25 GULICK ST",
-    "approx_distance_meters": 0.00012160482207505588
+    "approx_distance_meters": 0.00012160482207505588,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1260168425667047992",
@@ -21972,7 +27695,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "8 SANDLEWOOD CT",
-    "approx_distance_meters": 2.839067116002107e-05
+    "approx_distance_meters": 2.839067116002107e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1534156912070210429",
@@ -21987,7 +27714,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "3 PALMWOOD ST",
-    "approx_distance_meters": 6.055347982590728e-05
+    "approx_distance_meters": 6.055347982590728e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/22829197",
@@ -22002,7 +27733,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1126 US HIGHWAY 80",
-    "approx_distance_meters": 0.00018985944305925797
+    "approx_distance_meters": 0.00018985944305925797,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1432515801769227492",
@@ -22017,7 +27752,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "307 POLK ST",
-    "approx_distance_meters": 0.0006327826856198268
+    "approx_distance_meters": 0.0006327826856198268,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/975169295697576457",
@@ -22032,7 +27771,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "827 FIRST ST",
-    "approx_distance_meters": 7.232491246377531e-05
+    "approx_distance_meters": 7.232491246377531e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1542402543791470024",
@@ -22047,7 +27790,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "4 HOSTI ST",
-    "approx_distance_meters": 7.900592675990994e-05
+    "approx_distance_meters": 7.900592675990994e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1416064113571611662",
@@ -22062,7 +27809,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "18 LOGAN ST",
-    "approx_distance_meters": 0.00011274223783712703
+    "approx_distance_meters": 0.00011274223783712703,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1342226568786860484",
@@ -22077,7 +27828,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "20 NAYLOR AVE",
-    "approx_distance_meters": 0.00011856637889258194
+    "approx_distance_meters": 0.00011856637889258194,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/17772640",
@@ -22092,7 +27847,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "LOGAN ST",
-    "approx_distance_meters": 1.0484860834810485e-05
+    "approx_distance_meters": 1.0484860834810485e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1132860056835373584",
@@ -22107,7 +27866,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "4 LULLWATER RD",
-    "approx_distance_meters": 0.00011644267625079525
+    "approx_distance_meters": 0.00011644267625079525,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1364209613724432289",
@@ -22122,7 +27885,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "817 FIRST ST #C-2",
-    "approx_distance_meters": 0.0001032766276763973
+    "approx_distance_meters": 0.0001032766276763973,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1616950512562918908",
@@ -22137,7 +27904,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1 MILLER AVE",
-    "approx_distance_meters": 0.00015117561094417248
+    "approx_distance_meters": 0.00015117561094417248,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/36824675",
@@ -22152,7 +27923,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "11 OCEAN VIEW CT",
-    "approx_distance_meters": 2.585612231199261e-05
+    "approx_distance_meters": 2.585612231199261e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42293206",
@@ -22167,7 +27942,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "OFFICERS ROW",
-    "approx_distance_meters": 0.000249168391802585
+    "approx_distance_meters": 0.000249168391802585,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1348874565843412926",
@@ -22182,7 +27961,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "9 ROSEWOOD AVE",
-    "approx_distance_meters": 0.000132896573124854
+    "approx_distance_meters": 0.000132896573124854,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48379948",
@@ -22197,7 +27980,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "12 VAN HORN",
-    "approx_distance_meters": 2.519691234803983e-05
+    "approx_distance_meters": 2.519691234803983e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/40289053",
@@ -22212,7 +27999,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "9 OCEAN VIEW CT #B",
-    "approx_distance_meters": 0.00038380559515124245
+    "approx_distance_meters": 0.00038380559515124245,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/21981002",
@@ -22227,7 +28018,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "12 VAN HORN",
-    "approx_distance_meters": 0.000154075092129464
+    "approx_distance_meters": 0.000154075092129464,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1019548241498927725",
@@ -22242,7 +28037,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "3 OFFICERS ROW",
-    "approx_distance_meters": 1.884232106123739e-05
+    "approx_distance_meters": 1.884232106123739e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1526299820459157667",
@@ -22257,7 +28056,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "VAN HORN",
-    "approx_distance_meters": 0.00010195211880162792
+    "approx_distance_meters": 0.00010195211880162792,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53062864",
@@ -22272,7 +28075,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "1 VAN HORN",
-    "approx_distance_meters": 0.00026046950687918645
+    "approx_distance_meters": 0.00026046950687918645,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/649999129525387679",
@@ -22287,7 +28094,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "18 VAN HORN",
-    "approx_distance_meters": 3.153700050331394e-05
+    "approx_distance_meters": 3.153700050331394e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1105720265559339319",
@@ -22302,7 +28113,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "135 S CAMPBELL AVE",
-    "approx_distance_meters": 0.00018042681668500553
+    "approx_distance_meters": 0.00018042681668500553,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": -2.0,
+    "percent_over": -14.285714285714285
   },
   {
     "url": "https://www.airbnb.com/rooms/1009371873646961265",
@@ -22317,7 +28132,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "138 S CAMPBELL AVE",
-    "approx_distance_meters": 9.896235070817301e-05
+    "approx_distance_meters": 9.896235070817301e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1554494877730755760",
@@ -22332,7 +28151,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "153 S CAMPBELL AVE",
-    "approx_distance_meters": 0.0004676203739394051
+    "approx_distance_meters": 0.0004676203739394051,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1554548018188270041",
@@ -22347,7 +28170,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "",
     "approximate_address": "150 S CAMPBELL AVE",
-    "approx_distance_meters": 1.2657619292066653e-05
+    "approx_distance_meters": 1.2657619292066653e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -1.0,
+    "percent_over": -8.333333333333332
   },
   {
     "url": "https://www.airbnb.com/rooms/1263029320898756112",
@@ -22362,7 +28189,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "148 S CAMPBELL AVE",
-    "approx_distance_meters": 6.51182518234757e-05
+    "approx_distance_meters": 6.51182518234757e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47596707",
@@ -22377,7 +28208,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "17 6TH AVE",
-    "approx_distance_meters": 0.00013241315024341594
+    "approx_distance_meters": 0.00013241315024341594,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/886158916944910855",
@@ -22392,14 +28227,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": null,
-    "approx_distance_meters": 0.00017169793220323494
+    "approx_distance_meters": 0.00017169793220323494,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1092741683761972505",
     "rental_type": "Entire home",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.01266370945549,
     "longitude": -80.84367097561828,
@@ -22407,7 +28246,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "105 JONES AVE",
-    "approx_distance_meters": 8.27768972542277e-05
+    "approx_distance_meters": 8.27768972542277e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1461679987008438580",
@@ -22422,7 +28265,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "704 FIRST ST",
-    "approx_distance_meters": 6.49424561478027e-05
+    "approx_distance_meters": 6.49424561478027e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1665461610993766117",
@@ -22437,7 +28284,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "12 VILLAGE PL #B",
-    "approx_distance_meters": 7.69001039715433e-05
+    "approx_distance_meters": 7.69001039715433e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23979780",
@@ -22452,7 +28303,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "103 JONES AVE",
-    "approx_distance_meters": 0.00011021176995995683
+    "approx_distance_meters": 0.00011021176995995683,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1644460191455611284",
@@ -22467,7 +28322,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "22 6TH AVE",
-    "approx_distance_meters": 2.0422515847529008e-05
+    "approx_distance_meters": 2.0422515847529008e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/42643378",
@@ -22482,7 +28341,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "406 US HIGHWAY 80",
-    "approx_distance_meters": 0.00013870790549372876
+    "approx_distance_meters": 0.00013870790549372876,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/35153772",
@@ -22497,7 +28360,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "141 LEWIS AVE",
-    "approx_distance_meters": 0.0003513483985994646
+    "approx_distance_meters": 0.0003513483985994646,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1137192477441437758",
@@ -22512,7 +28379,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "5 HODGES ST",
-    "approx_distance_meters": 0.00012100325302653997
+    "approx_distance_meters": 0.00012100325302653997,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1374540756867932198",
@@ -22527,7 +28398,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "103 JONES AVE",
-    "approx_distance_meters": 0.00018182384729857433
+    "approx_distance_meters": 0.00018182384729857433,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19195598",
@@ -22542,7 +28417,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "103 JONES AVE",
-    "approx_distance_meters": 0.00011021176995995683
+    "approx_distance_meters": 0.00011021176995995683,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/939966405729662429",
@@ -22557,7 +28436,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "5TH AVE",
-    "approx_distance_meters": 0.00015620040452975673
+    "approx_distance_meters": 0.00015620040452975673,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1716961093202092251",
@@ -22572,7 +28455,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "LOVELL AVE",
-    "approx_distance_meters": 0.00014188644532841605
+    "approx_distance_meters": 0.00014188644532841605,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12915362",
@@ -22587,7 +28474,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "10 2ND AVE",
-    "approx_distance_meters": 8.305734109622904e-05
+    "approx_distance_meters": 8.305734109622904e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/13020779",
@@ -22602,14 +28493,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "4 MILLER AVE",
-    "approx_distance_meters": 4.0918214088501765e-05
+    "approx_distance_meters": 4.0918214088501765e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1097051012062514660",
     "rental_type": "Entire home",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.01219,
     "longitude": -80.84314,
@@ -22617,7 +28512,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "108 JONES AVE",
-    "approx_distance_meters": 0.00013972577975526084
+    "approx_distance_meters": 0.00013972577975526084,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/13020451",
@@ -22632,7 +28531,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "12 2ND AVE",
-    "approx_distance_meters": 4.958249529669718e-05
+    "approx_distance_meters": 4.958249529669718e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/53062863",
@@ -22647,7 +28550,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "0 BUTLER AVE",
-    "approx_distance_meters": 0.0006501302970194598
+    "approx_distance_meters": 0.0006501302970194598,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/774529323867508388",
@@ -22662,7 +28569,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "6 LOVELL AVE",
-    "approx_distance_meters": 0.0001160989473737167
+    "approx_distance_meters": 0.0001160989473737167,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/882765252479750290",
@@ -22677,7 +28588,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "203 LOVELL AVE",
-    "approx_distance_meters": 2.4358028748942757e-05
+    "approx_distance_meters": 2.4358028748942757e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1128249431150153374",
@@ -22692,7 +28607,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "16 SHAD RIVER RD",
-    "approx_distance_meters": 4.220531341344051e-05
+    "approx_distance_meters": 4.220531341344051e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/53326412",
@@ -22707,7 +28626,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "164 S CAMPBELL AVE",
-    "approx_distance_meters": 0.0001209235325270423
+    "approx_distance_meters": 0.0001209235325270423,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/659466224796727241",
@@ -22722,7 +28645,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "173 LEWIS AVE",
-    "approx_distance_meters": 5.9333940607117025e-05
+    "approx_distance_meters": 5.9333940607117025e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 3.0,
+    "percent_over": 37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/663260613521083403",
@@ -22737,7 +28664,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "173 LEWIS AVE",
-    "approx_distance_meters": 5.9333940607117025e-05
+    "approx_distance_meters": 5.9333940607117025e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/669765930134312469",
@@ -22752,7 +28683,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "615 6TH ST",
-    "approx_distance_meters": 0.00023723633909006063
+    "approx_distance_meters": 0.00023723633909006063,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 4.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/660134984174429912",
@@ -22767,7 +28702,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "172 S CAMPBELL AVE",
-    "approx_distance_meters": 0.0006733064688097748
+    "approx_distance_meters": 0.0006733064688097748,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1263029862737006343",
@@ -22782,7 +28721,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "169 LEWIS AVE",
-    "approx_distance_meters": 0.00031361739255003374
+    "approx_distance_meters": 0.00031361739255003374,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1229155319871386152",
@@ -22797,7 +28740,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "613 6TH ST",
-    "approx_distance_meters": 0.0005066174768966305
+    "approx_distance_meters": 0.0005066174768966305,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38579566",
@@ -22812,7 +28759,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "506 JONES AVE",
-    "approx_distance_meters": 0.00035821034761686
+    "approx_distance_meters": 0.00035821034761686,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1124594519201402540",
@@ -22827,7 +28778,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "209 MILLER AVE",
-    "approx_distance_meters": 8.902499062228851e-05
+    "approx_distance_meters": 8.902499062228851e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/41324486",
@@ -22842,7 +28797,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "411 BUTLER AVE",
-    "approx_distance_meters": 6.875347125287845e-05
+    "approx_distance_meters": 6.875347125287845e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1498822194883248689",
@@ -22857,7 +28816,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "5TH ST",
-    "approx_distance_meters": 0.00043103618286703644
+    "approx_distance_meters": 0.00043103618286703644,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49875971",
@@ -22872,7 +28835,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "210 MILLER AVE",
-    "approx_distance_meters": 9.546086429531884e-05
+    "approx_distance_meters": 9.546086429531884e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/16924630",
@@ -22887,7 +28854,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "501 MILLER LN ##A",
-    "approx_distance_meters": 6.756008311459218e-05
+    "approx_distance_meters": 6.756008311459218e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/592774111142061389",
@@ -22902,7 +28873,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "7TH ST",
-    "approx_distance_meters": 0.0001674264757199385
+    "approx_distance_meters": 0.0001674264757199385,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/598525940250562786",
@@ -22917,7 +28892,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "506 JONES AVE",
-    "approx_distance_meters": 0.0006876890784462663
+    "approx_distance_meters": 0.0006876890784462663,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/49875968",
@@ -22932,7 +28911,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "403 JONES AVE",
-    "approx_distance_meters": 0.0003914264989663202
+    "approx_distance_meters": 0.0003914264989663202,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/31711637",
@@ -22947,7 +28930,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "507 MILLER AVE",
-    "approx_distance_meters": 8.681849672976295e-06
+    "approx_distance_meters": 8.681849672976295e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/730027743541349198",
@@ -22962,7 +28949,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "103 5TH ST",
-    "approx_distance_meters": 7.29015406862802e-05
+    "approx_distance_meters": 7.29015406862802e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/965235042323677854",
@@ -22977,7 +28968,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "207 2ND AVE",
-    "approx_distance_meters": 6.74493244808716e-05
+    "approx_distance_meters": 6.74493244808716e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/47909226",
@@ -22992,14 +28987,18 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "4 2ND TER",
-    "approx_distance_meters": 0.00013627980550508822
+    "approx_distance_meters": 0.00013627980550508822,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1094892125234239721",
     "rental_type": "Entire home",
     "guests": 2.0,
     "bedrooms": 1.0,
-    "beds": "",
+    "beds": 0.0,
     "baths": 1.0,
     "latitude": 32.01070008455103,
     "longitude": -80.84231523068352,
@@ -23007,7 +29006,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "204 LOVELL AVE",
-    "approx_distance_meters": 0.00011975351316315599
+    "approx_distance_meters": 0.00011975351316315599,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1598567608457206309",
@@ -23022,7 +29025,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "404 BUTLER AVE #443",
-    "approx_distance_meters": 0.00034266646544766483
+    "approx_distance_meters": 0.00034266646544766483,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 1.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1686269201258231505",
@@ -23037,7 +29044,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "404 BUTLER AVE #613",
-    "approx_distance_meters": 6.194131391090085e-05
+    "approx_distance_meters": 6.194131391090085e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1687084330323290613",
@@ -23052,7 +29063,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "6",
     "approximate_address": "5 2ND TER",
-    "approx_distance_meters": 8.320276479541325e-05
+    "approx_distance_meters": 8.320276479541325e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/29980652",
@@ -23067,7 +29082,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "404 BUTLER AVE #229",
-    "approx_distance_meters": 2.0887189883983823e-05
+    "approx_distance_meters": 2.0887189883983823e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53062623",
@@ -23082,7 +29101,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "208 BUTLER AVE",
-    "approx_distance_meters": 3.4764880541451265e-05
+    "approx_distance_meters": 3.4764880541451265e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53062833",
@@ -23097,7 +29120,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "3RD ST",
-    "approx_distance_meters": 0.000261779192589077
+    "approx_distance_meters": 0.000261779192589077,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/900702864120977298",
@@ -23112,7 +29139,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "214 BUTLER AVE #205",
-    "approx_distance_meters": 8.269308619245793e-05
+    "approx_distance_meters": 8.269308619245793e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1721283802717550738",
@@ -23127,7 +29158,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "712 2ND AVE",
-    "approx_distance_meters": 4.974117854934785e-05
+    "approx_distance_meters": 4.974117854934785e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53720412",
@@ -23142,7 +29177,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "813 2ND AVE",
-    "approx_distance_meters": 0.0001965057683686816
+    "approx_distance_meters": 0.0001965057683686816,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32549495",
@@ -23157,7 +29196,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "204 7TH ST",
-    "approx_distance_meters": 0.00016857692045365905
+    "approx_distance_meters": 0.00016857692045365905,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1594273387242750325",
@@ -23172,7 +29215,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "812 2ND AVE",
-    "approx_distance_meters": 2.95533733637809e-05
+    "approx_distance_meters": 2.95533733637809e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -3.0,
+    "percent_over": -37.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1542229648050077943",
@@ -23187,7 +29234,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "7",
     "approximate_address": "706 LOVELL AVE",
-    "approx_distance_meters": 6.487546951677063e-05
+    "approx_distance_meters": 6.487546951677063e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1183960954239501679",
@@ -23202,7 +29253,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "104 7TH ST",
-    "approx_distance_meters": 0.0002785044428998538
+    "approx_distance_meters": 0.0002785044428998538,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/53145446",
@@ -23217,7 +29272,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "806 JONES AVE",
-    "approx_distance_meters": 0.00013351281348938576
+    "approx_distance_meters": 0.00013351281348938576,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1640602202468755534",
@@ -23232,7 +29291,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "712 2ND AVE",
-    "approx_distance_meters": 4.974117854934785e-05
+    "approx_distance_meters": 4.974117854934785e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48024470",
@@ -23247,7 +29310,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "605 LOVELL AVE",
-    "approx_distance_meters": 7.027180315657219e-05
+    "approx_distance_meters": 7.027180315657219e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/19176427",
@@ -23262,7 +29329,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "706 LOVELL AVE",
-    "approx_distance_meters": 9.674870884009189e-05
+    "approx_distance_meters": 9.674870884009189e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1554691467057782297",
@@ -23277,7 +29348,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "704 2ND AVE",
-    "approx_distance_meters": 5.152950898392648e-05
+    "approx_distance_meters": 5.152950898392648e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/701311423754832417",
@@ -23292,7 +29367,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "601 LOVELL AVE",
-    "approx_distance_meters": 0.0004358119671660488
+    "approx_distance_meters": 0.0004358119671660488,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/702208002569424726",
@@ -23307,7 +29386,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "813 2ND AVE",
-    "approx_distance_meters": 8.999650268834532e-05
+    "approx_distance_meters": 8.999650268834532e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1582744621016051495",
@@ -23322,7 +29405,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "607 LOVELL AVE",
-    "approx_distance_meters": 1.762514762998699e-05
+    "approx_distance_meters": 1.762514762998699e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 14.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/50172251",
@@ -23337,7 +29424,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "2 OCEAN DR",
-    "approx_distance_meters": 0.0002766450551844724
+    "approx_distance_meters": 0.0002766450551844724,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/747851490508201464",
@@ -23352,7 +29443,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "2 7TH ST ##C",
-    "approx_distance_meters": 6.1752987639420496e-06
+    "approx_distance_meters": 6.1752987639420496e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1677862195256843020",
@@ -23367,7 +29462,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "8 7TH ST",
-    "approx_distance_meters": 3.9972635622937086e-05
+    "approx_distance_meters": 3.9972635622937086e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/649295630343075780",
@@ -23382,7 +29481,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "7 6TH TER",
-    "approx_distance_meters": 7.419714800759421e-05
+    "approx_distance_meters": 7.419714800759421e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1224592597040491056",
@@ -23397,7 +29500,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "15 6TH ST",
-    "approx_distance_meters": 5.7442343908370535e-05
+    "approx_distance_meters": 5.7442343908370535e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1300660283175920366",
@@ -23412,7 +29519,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "14 7TH ST",
-    "approx_distance_meters": 4.07573645421579e-05
+    "approx_distance_meters": 4.07573645421579e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48028830",
@@ -23427,7 +29538,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "7 7TH LN",
-    "approx_distance_meters": 0.00011236924256260015
+    "approx_distance_meters": 0.00011236924256260015,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 2.0,
+    "percent_over": 20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1158161056717226116",
@@ -23442,7 +29557,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9 6TH ST #A",
-    "approx_distance_meters": 8.727228457259944e-06
+    "approx_distance_meters": 8.727228457259944e-06,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/44030160",
@@ -23457,7 +29576,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "5 6TH PL",
-    "approx_distance_meters": 4.562120557624622e-05
+    "approx_distance_meters": 4.562120557624622e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/704185825899530172",
@@ -23472,7 +29595,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "OCEAN DR",
-    "approx_distance_meters": 0.00013782208865508225
+    "approx_distance_meters": 0.00013782208865508225,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1629234207090107811",
@@ -23487,7 +29614,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "2 7TH ST",
-    "approx_distance_meters": 0.00015465007032697058
+    "approx_distance_meters": 0.00015465007032697058,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1674775551598006965",
@@ -23502,7 +29633,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "8 8TH TER",
-    "approx_distance_meters": 4.3805510402488664e-05
+    "approx_distance_meters": 4.3805510402488664e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/929126914068002938",
@@ -23517,7 +29652,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "6 6TH ST",
-    "approx_distance_meters": 0.0001066659091835848
+    "approx_distance_meters": 0.0001066659091835848,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/894538700807562928",
@@ -23532,7 +29671,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "7 CHIPPEWA DR",
-    "approx_distance_meters": 9.62545826577549e-05
+    "approx_distance_meters": 9.62545826577549e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1154421674659972035",
@@ -23547,7 +29690,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "24 HORSEPEN POINT DR",
-    "approx_distance_meters": 0.00020058534350858397
+    "approx_distance_meters": 0.00020058534350858397,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/649751102787337610",
@@ -23562,7 +29709,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "1206 VENETIAN DR",
-    "approx_distance_meters": 6.953963887755367e-05
+    "approx_distance_meters": 6.953963887755367e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1232191716493572057",
@@ -23577,7 +29728,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1209 5TH AVE",
-    "approx_distance_meters": 4.642326183783487e-05
+    "approx_distance_meters": 4.642326183783487e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/19855996",
@@ -23592,7 +29747,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "1210 VENETIAN DR",
-    "approx_distance_meters": 0.00034990315300613086
+    "approx_distance_meters": 0.00034990315300613086,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1161511347304361674",
@@ -23607,7 +29766,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "VENETIAN DR",
-    "approx_distance_meters": 0.000400288483407683
+    "approx_distance_meters": 0.000400288483407683,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48580800",
@@ -23622,7 +29785,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1206 5TH AVE",
-    "approx_distance_meters": 6.828998919604336e-05
+    "approx_distance_meters": 6.828998919604336e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/28512427",
@@ -23637,7 +29804,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2ND AVE",
-    "approx_distance_meters": 7.95495003195931e-05
+    "approx_distance_meters": 7.95495003195931e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/995021588065401257",
@@ -23652,7 +29823,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "16",
     "approximate_address": "912 LOVELL AVE",
-    "approx_distance_meters": 0.00013312033267500644
+    "approx_distance_meters": 0.00013312033267500644,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1199408687441568528",
@@ -23667,7 +29842,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "JONES ST",
-    "approx_distance_meters": 5.266578849883938e-05
+    "approx_distance_meters": 5.266578849883938e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/922242502575213531",
@@ -23682,7 +29861,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "11 10TH ST",
-    "approx_distance_meters": 1.816375159363454e-05
+    "approx_distance_meters": 1.816375159363454e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 1.0,
+    "percent_over": 12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/43034934",
@@ -23697,7 +29880,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "1102 LOVELL AVE",
-    "approx_distance_meters": 6.425616023213018e-05
+    "approx_distance_meters": 6.425616023213018e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/2391738",
@@ -23712,7 +29899,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "12",
     "approximate_address": "JONES AVE",
-    "approx_distance_meters": 0.0001259873471532609
+    "approx_distance_meters": 0.0001259873471532609,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35865129",
@@ -23727,7 +29918,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "3 10TH TER",
-    "approx_distance_meters": 2.666904662384765e-05
+    "approx_distance_meters": 2.666904662384765e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/10263400",
@@ -23742,7 +29937,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "11",
     "approximate_address": "7 10TH CT",
-    "approx_distance_meters": 0.00011567945433334252
+    "approx_distance_meters": 0.00011567945433334252,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/12591776",
@@ -23757,7 +29956,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "8 11TH ST",
-    "approx_distance_meters": 2.4099493730749286e-05
+    "approx_distance_meters": 2.4099493730749286e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/35168298",
@@ -23772,7 +29975,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1106 2ND AVE",
-    "approx_distance_meters": 0.0001167449627751468
+    "approx_distance_meters": 0.0001167449627751468,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/614361018743828602",
@@ -23787,7 +29994,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "10 10TH PL",
-    "approx_distance_meters": 0.00010739337026190232
+    "approx_distance_meters": 0.00010739337026190232,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48602516",
@@ -23802,7 +30013,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "14 11TH ST",
-    "approx_distance_meters": 6.121903107945323e-05
+    "approx_distance_meters": 6.121903107945323e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1371060164232777646",
@@ -23817,7 +30032,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "909 JONES AVE",
-    "approx_distance_meters": 8.543203536958164e-05
+    "approx_distance_meters": 8.543203536958164e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1478346229221408106",
@@ -23832,7 +30051,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1 9TH ST",
-    "approx_distance_meters": 6.912203954736107e-05
+    "approx_distance_meters": 6.912203954736107e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 16.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/577874888979157144",
@@ -23847,7 +30070,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1 10TH ST",
-    "approx_distance_meters": 0.00012707304013381517
+    "approx_distance_meters": 0.00012707304013381517,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/705168746031295252",
@@ -23862,7 +30089,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "9",
     "approximate_address": "7 8TH PL",
-    "approx_distance_meters": 0.00017146895816895667
+    "approx_distance_meters": 0.00017146895816895667,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/15594923",
@@ -23877,7 +30108,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "9",
     "approximate_address": "1221 MILLER AVE",
-    "approx_distance_meters": 0.00016549256889213253
+    "approx_distance_meters": 0.00016549256889213253,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1048594461878773571",
@@ -23892,7 +30127,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1411 2ND AVE",
-    "approx_distance_meters": 6.786629442617973e-05
+    "approx_distance_meters": 6.786629442617973e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1000604010385207645",
@@ -23907,7 +30146,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1312 JONES AVE",
-    "approx_distance_meters": 8.122435282152806e-05
+    "approx_distance_meters": 8.122435282152806e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1553767487309363103",
@@ -23922,7 +30165,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "502 14TH ST",
-    "approx_distance_meters": 4.3323393929852936e-05
+    "approx_distance_meters": 4.3323393929852936e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/30809495",
@@ -23937,7 +30184,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "1402 JONES AVE",
-    "approx_distance_meters": 8.139553755647094e-05
+    "approx_distance_meters": 8.139553755647094e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1048063027627805639",
@@ -23952,7 +30203,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1413 2ND AVE",
-    "approx_distance_meters": 5.8712791727254594e-05
+    "approx_distance_meters": 5.8712791727254594e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1696727653022158433",
@@ -23967,7 +30222,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1412 5TH AVE",
-    "approx_distance_meters": 0.00017525872791574097
+    "approx_distance_meters": 0.00017525872791574097,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1713899170573830718",
@@ -23982,7 +30241,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1409 JONES AVE",
-    "approx_distance_meters": 1.490311531045935e-05
+    "approx_distance_meters": 1.490311531045935e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/38998507",
@@ -23997,7 +30260,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "1407 MILLER AVE",
-    "approx_distance_meters": 2.4506294729544564e-05
+    "approx_distance_meters": 2.4506294729544564e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/47720997",
@@ -24012,7 +30279,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1305 MILLER AVE",
-    "approx_distance_meters": 2.7115551038491424e-05
+    "approx_distance_meters": 2.7115551038491424e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1553776417154816217",
@@ -24027,7 +30298,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "502 14TH ST",
-    "approx_distance_meters": 4.3323393929852936e-05
+    "approx_distance_meters": 4.3323393929852936e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/33661419",
@@ -24042,7 +30317,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1315 5TH AVE",
-    "approx_distance_meters": 8.415692440147857e-05
+    "approx_distance_meters": 8.415692440147857e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1485644833311627953",
@@ -24057,7 +30336,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1313 6TH AVE",
-    "approx_distance_meters": 2.3837589667495617e-05
+    "approx_distance_meters": 2.3837589667495617e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1645105843491632363",
@@ -24072,7 +30355,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1213 LOVELL AVE",
-    "approx_distance_meters": 8.470145503921433e-05
+    "approx_distance_meters": 8.470145503921433e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/27433925",
@@ -24087,7 +30374,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "304 13TH ST",
-    "approx_distance_meters": 4.345977876220032e-05
+    "approx_distance_meters": 4.345977876220032e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/628286113044019620",
@@ -24102,7 +30393,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1408 2ND AVE",
-    "approx_distance_meters": 1.958031358518114e-05
+    "approx_distance_meters": 1.958031358518114e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1231516902662306968",
@@ -24117,7 +30412,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1413 LOVELL AVE",
-    "approx_distance_meters": 6.795820154545622e-05
+    "approx_distance_meters": 6.795820154545622e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/40938580",
@@ -24132,7 +30431,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1313 2ND AVE",
-    "approx_distance_meters": 0.00011690176894071896
+    "approx_distance_meters": 0.00011690176894071896,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1507962551505561571",
@@ -24147,7 +30450,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "16 13TH LN",
-    "approx_distance_meters": 4.273583445306219e-05
+    "approx_distance_meters": 4.273583445306219e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1687961230192683225",
@@ -24162,7 +30469,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1402 BUTLER AVE",
-    "approx_distance_meters": 0.00024768855391801777
+    "approx_distance_meters": 0.00024768855391801777,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/14993445",
@@ -24177,7 +30488,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1309 STRAND AVE",
-    "approx_distance_meters": 3.005066023598844e-05
+    "approx_distance_meters": 3.005066023598844e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/600075407005099958",
@@ -24192,7 +30507,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "1128 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 7.156187468985143e-05
+    "approx_distance_meters": 7.156187468985143e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48279486",
@@ -24207,7 +30526,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "5",
     "approximate_address": "1603 LOVELL AVE",
-    "approx_distance_meters": 0.00019334672319811587
+    "approx_distance_meters": 0.00019334672319811587,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1713899109912053847",
@@ -24222,7 +30545,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "10",
     "approximate_address": "1607 2ND AVE",
-    "approx_distance_meters": 9.609843201448506e-05
+    "approx_distance_meters": 9.609843201448506e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/912980683255638786",
@@ -24237,7 +30564,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "408 TYBRISA ST",
-    "approx_distance_meters": 3.8493646879267775e-05
+    "approx_distance_meters": 3.8493646879267775e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -1.0,
+    "percent_over": -12.5
   },
   {
     "url": "https://www.airbnb.com/rooms/1604751154002131148",
@@ -24252,7 +30583,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1514 JONES AVE",
-    "approx_distance_meters": 0.00011414936314170984
+    "approx_distance_meters": 0.00011414936314170984,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1066921688609854122",
@@ -24267,7 +30602,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "4",
     "approximate_address": "5 FISHERMAN'S WALK",
-    "approx_distance_meters": 0.00011477081864028222
+    "approx_distance_meters": 0.00011477081864028222,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1604751154564834500",
@@ -24282,7 +30621,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1604 2ND AVE",
-    "approx_distance_meters": 0.00013373955239713686
+    "approx_distance_meters": 0.00013373955239713686,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/26014175",
@@ -24297,7 +30640,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1702 LOVELL AVE",
-    "approx_distance_meters": 4.628442737447084e-05
+    "approx_distance_meters": 4.628442737447084e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -1.0,
+    "percent_over": -10.0
   },
   {
     "url": "https://www.airbnb.com/rooms/32655917",
@@ -24312,7 +30659,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "1603 LOVELL AVE",
-    "approx_distance_meters": 6.512079972976033e-05
+    "approx_distance_meters": 6.512079972976033e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/857379294857422300",
@@ -24327,7 +30678,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1416 2ND AVE",
-    "approx_distance_meters": 0.00011612453379648534
+    "approx_distance_meters": 0.00011612453379648534,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/49675074",
@@ -24342,7 +30697,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "6",
     "approximate_address": "204 17TH ST",
-    "approx_distance_meters": 7.696504369030618e-05
+    "approx_distance_meters": 7.696504369030618e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/48271376",
@@ -24357,7 +30716,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "1610 JONES AVE",
-    "approx_distance_meters": 2.8578002254637178e-05
+    "approx_distance_meters": 2.8578002254637178e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1348094905512799464",
@@ -24372,7 +30735,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "",
     "approximate_address": "17 IZLAR AVE #A",
-    "approx_distance_meters": 4.4343434300275503e-05
+    "approx_distance_meters": 4.4343434300275503e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/25916429",
@@ -24387,7 +30754,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "13 TYBRISA ST",
-    "approx_distance_meters": 7.154109152292586e-05
+    "approx_distance_meters": 7.154109152292586e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/33896675",
@@ -24402,7 +30773,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "8",
     "approximate_address": "1508 BUTLER AVE #218",
-    "approx_distance_meters": 3.090659015748884e-05
+    "approx_distance_meters": 3.090659015748884e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1228219119310915671",
@@ -24417,7 +30792,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "15 15TH ST",
-    "approx_distance_meters": 5.2033516957857145e-05
+    "approx_distance_meters": 5.2033516957857145e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1613298484159103153",
@@ -24432,7 +30811,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1509 BUTLER AVE",
-    "approx_distance_meters": 9.186265880154145e-05
+    "approx_distance_meters": 9.186265880154145e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1197003046410221498",
@@ -24447,7 +30830,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "11 IZLAR",
-    "approx_distance_meters": 2.8109914969825482e-05
+    "approx_distance_meters": 2.8109914969825482e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1197004547213268171",
@@ -24462,7 +30849,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "TYBRISA ST",
-    "approx_distance_meters": 7.197481349175504e-05
+    "approx_distance_meters": 7.197481349175504e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1668516306551157707",
@@ -24477,7 +30868,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "8 IZLAR ST",
-    "approx_distance_meters": 2.4762509877063067e-05
+    "approx_distance_meters": 2.4762509877063067e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": -2.0,
+    "percent_over": -20.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1367431335805425980",
@@ -24492,7 +30887,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "8 T S CHU TER",
-    "approx_distance_meters": 4.834380971362808e-05
+    "approx_distance_meters": 4.834380971362808e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1308876630156547894",
@@ -24507,7 +30906,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "1226 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.0004522078771154831
+    "approx_distance_meters": 0.0004522078771154831,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -1.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1227717505028818661",
@@ -24522,7 +30925,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "1804 CHATHAM AVE",
-    "approx_distance_meters": 2.084643330617126e-05
+    "approx_distance_meters": 2.084643330617126e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": -2.0,
+    "percent_over": -25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1161603644234608003",
@@ -24537,7 +30944,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": null,
-    "approx_distance_meters": 0.00017122000635170066
+    "approx_distance_meters": 0.00017122000635170066,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1613299980079402423",
@@ -24552,7 +30963,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "1813 CHATHAM AVE",
-    "approx_distance_meters": 0.00010679337293368031
+    "approx_distance_meters": 0.00010679337293368031,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": -2.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/1471099353886204683",
@@ -24567,7 +30982,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1711 BUTLER AVE",
-    "approx_distance_meters": 0.00019828035151723885
+    "approx_distance_meters": 0.00019828035151723885,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1326785288723257410",
@@ -24582,7 +31001,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "1813 BUTLER AVE",
-    "approx_distance_meters": 8.149872801295015e-05
+    "approx_distance_meters": 8.149872801295015e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23609036",
@@ -24597,7 +31020,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "12",
     "approximate_address": "1804 BUTLER AVE",
-    "approx_distance_meters": 5.052370344644913e-05
+    "approx_distance_meters": 5.052370344644913e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1389111943008974192",
@@ -24612,7 +31039,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "3",
     "approximate_address": "17 18TH TER",
-    "approx_distance_meters": 0.00010307712656201242
+    "approx_distance_meters": 0.00010307712656201242,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -1.0,
+    "percent_over": -16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/741384282856195280",
@@ -24627,7 +31058,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "107 18TH ST",
-    "approx_distance_meters": 0.00044443163545956785
+    "approx_distance_meters": 0.00044443163545956785,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/23643432",
@@ -24642,7 +31077,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "12 18TH TER",
-    "approx_distance_meters": 1.3702344637612189e-05
+    "approx_distance_meters": 1.3702344637612189e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 2.0,
+    "percent_over": 25.0
   },
   {
     "url": "https://www.airbnb.com/rooms/9714253",
@@ -24657,7 +31096,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "12",
     "approximate_address": "1803 BUTLER AVE",
-    "approx_distance_meters": 1.3892187396323853e-05
+    "approx_distance_meters": 1.3892187396323853e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/986924109136795447",
@@ -24672,7 +31115,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11",
     "approximate_address": "5 19TH ST",
-    "approx_distance_meters": 5.689970294969588e-05
+    "approx_distance_meters": 5.689970294969588e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/887201987223635446",
@@ -24687,7 +31134,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "14 18TH LN #B",
-    "approx_distance_meters": 1.4664958646133147e-05
+    "approx_distance_meters": 1.4664958646133147e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 4.0,
+    "percent_over": 40.0
   },
   {
     "url": "https://www.airbnb.com/rooms/42688694",
@@ -24702,7 +31153,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "1706 BUTLER AVE",
-    "approx_distance_meters": 0.00011829871185597298
+    "approx_distance_meters": 0.00011829871185597298,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1182711733520687618",
@@ -24717,7 +31172,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "0 17TH PL",
-    "approx_distance_meters": 7.229039667553358e-05
+    "approx_distance_meters": 7.229039667553358e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 12.0,
+    "over_occupancy": 2.0,
+    "percent_over": 16.666666666666664
   },
   {
     "url": "https://www.airbnb.com/rooms/25188587",
@@ -24732,7 +31191,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "8",
     "approximate_address": "6 19TH ST",
-    "approx_distance_meters": 4.308653926711478e-05
+    "approx_distance_meters": 4.308653926711478e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/37445358",
@@ -24747,7 +31210,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "9 17TH PL",
-    "approx_distance_meters": 3.561280333718559e-05
+    "approx_distance_meters": 3.561280333718559e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1681261499541680045",
@@ -24762,7 +31229,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "15 T S CHU TER",
-    "approx_distance_meters": 2.7260737916772086e-05
+    "approx_distance_meters": 2.7260737916772086e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1367452800512840238",
@@ -24777,7 +31248,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "2",
     "approximate_address": "3 17TH PL",
-    "approx_distance_meters": 3.8067047237948857e-05
+    "approx_distance_meters": 3.8067047237948857e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 4.0,
+    "over_occupancy": -2.0,
+    "percent_over": -50.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1401684187891153225",
@@ -24792,7 +31267,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "13",
     "approximate_address": "1705 STRAND",
-    "approx_distance_meters": 0.0001516877542380568
+    "approx_distance_meters": 0.0001516877542380568,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 8.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1681321049103419439",
@@ -24807,7 +31286,11 @@ const locations = [
     "superhost": "",
     "years_hosting": "5",
     "approximate_address": "15 T S CHU TER",
-    "approx_distance_meters": 6.815223317391974e-05
+    "approx_distance_meters": 6.815223317391974e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/979562445917891949",
@@ -24822,7 +31305,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "7",
     "approximate_address": "9 17TH PL",
-    "approx_distance_meters": 3.0800298755850574e-05
+    "approx_distance_meters": 3.0800298755850574e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": -2.0,
+    "percent_over": -33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1229096231093941615",
@@ -24837,7 +31324,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "2",
     "approximate_address": "10 T S CHU TER",
-    "approx_distance_meters": 6.884797477863205e-05
+    "approx_distance_meters": 6.884797477863205e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 10.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1044969183216201335",
@@ -24852,7 +31343,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "3",
     "approximate_address": "9 17TH PL",
-    "approx_distance_meters": 3.0800298755850574e-05
+    "approx_distance_meters": 3.0800298755850574e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/1526087137168749966",
@@ -24867,7 +31362,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "2 17TH ST #F",
-    "approx_distance_meters": 2.543037114059555e-05
+    "approx_distance_meters": 2.543037114059555e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 0.0,
+    "percent_over": 0.0
   },
   {
     "url": "https://www.airbnb.com/rooms/644927195510024164",
@@ -24882,7 +31381,11 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "10",
     "approximate_address": "18TH ST",
-    "approx_distance_meters": 0.0001021138621449396
+    "approx_distance_meters": 0.0001021138621449396,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   },
   {
     "url": "https://www.airbnb.com/rooms/1728674178874969797 ",
@@ -24897,6 +31400,10 @@ const locations = [
     "superhost": "Superhost",
     "years_hosting": "11 months hosting",
     "approximate_address": "1018 SHAWNEE ST",
-    "approx_distance_meters": 3.149205581771934e-05
+    "approx_distance_meters": 3.149205581771934e-05,
+    "municipality": "UNINCORPORATED",
+    "allowed_guests": 6.0,
+    "over_occupancy": 2.0,
+    "percent_over": 33.33333333333333
   }
 ];
