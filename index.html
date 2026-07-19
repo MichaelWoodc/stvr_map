@@ -54,6 +54,14 @@
       font-weight: bold;
     }
 
+    .filter-section-title {
+      font-size: 12px;
+      margin: 12px 0 6px;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
     .toggle-button {
       background: #eee;
       border: 1px solid #ccc;
@@ -142,14 +150,18 @@
 
   <div class="filter-panel" id="filterPanel">
     <div class="filter-header">
-      <div class="filter-title">Compliance Filters</div>
+      <div class="filter-title">Filters</div>
       <button class="toggle-button" id="toggleFiltersBtn">Hide</button>
     </div>
 
+    <div class="filter-section-title">Compliance</div>
     <label class="filter-item">
       <input type="checkbox" id="complianceCheckbox">
       Show Violations Only
     </label>
+
+    <div class="filter-section-title">Municipalities</div>
+    <div id="municipalityCheckboxes"></div>
 
     <div class="slider-label">Min Over-Limit:</div>
     <input type="range" id="overLimitSlider" min="0" max="6" value="0" step="1" style="width:100%;">
@@ -204,6 +216,10 @@
 
     const defaultCenter = [-81.0087, 32.0485];
     const defaultZoom = 12;
+    const municipalityGeojsonUrl = "data_files/municipality/Municipality.geojson";
+    let municipalityNames = [];
+    const municipalityColors = {};
+    const activeMunicipalities = new Set();
 
     // Global bounds for reset zoom
     let globalMinX = Infinity, globalMinY = Infinity, globalMaxX = -Infinity, globalMaxY = -Infinity;
@@ -297,6 +313,97 @@
       });
     }
 
+    function normalizeMunicipalityName(name) {
+      return String(name || "").trim().toUpperCase();
+    }
+
+    function getRandomColor(seed) {
+      const hash = seed.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
+      const hue = hash % 360;
+      return `hsl(${hue}, 65%, 55%)`;
+    }
+
+    function updateMunicipalityCheckboxes(names) {
+      const container = document.getElementById("municipalityCheckboxes");
+      container.innerHTML = "";
+      activeMunicipalities.clear();
+
+      names.forEach(name => {
+        const label = document.createElement("label");
+        label.className = "filter-item";
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = name;
+        checkbox.checked = true;
+        checkbox.addEventListener("change", () => {
+          if (checkbox.checked) {
+            activeMunicipalities.add(name);
+          } else {
+            activeMunicipalities.delete(name);
+          }
+          applyFilters();
+        });
+
+        const colorSwatch = document.createElement("span");
+        colorSwatch.style.display = "inline-block";
+        colorSwatch.style.width = "12px";
+        colorSwatch.style.height = "12px";
+        colorSwatch.style.marginRight = "8px";
+        colorSwatch.style.borderRadius = "2px";
+        colorSwatch.style.backgroundColor = municipalityColors[name];
+
+        const text = document.createTextNode(name);
+
+        label.appendChild(checkbox);
+        label.appendChild(colorSwatch);
+        label.appendChild(text);
+        container.appendChild(label);
+
+        activeMunicipalities.add(name);
+      });
+    }
+
+    function assignMunicipalities(municipalityGeojson) {
+      const polygonFeatures = municipalityGeojson.features.map(feature => ({
+        name: normalizeMunicipalityName(feature.properties.NAME),
+        polygon: feature
+      }));
+
+      processedLocations.forEach(loc => {
+        const lon = loc.longitude;
+        const lat = loc.latitude;
+        loc.municipality = "UNINCORPORATED";
+
+        for (const poly of polygonFeatures) {
+          const coordinates = poly.polygon.geometry.coordinates;
+          const inside = poly.polygon.geometry.type === "Polygon"
+            ? pointInPolygon([lon, lat], coordinates[0])
+            : coordinates.some(polygon => polygon.some(ring => pointInPolygon([lon, lat], ring)));
+
+          if (inside) {
+            loc.municipality = poly.name;
+            loc.municipalityColor = municipalityColors[poly.name] || "#000";
+            break;
+          }
+        }
+      });
+    }
+
+    function pointInPolygon(point, vs) {
+      const x = point[0];
+      const y = point[1];
+      let inside = false;
+      for (let i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+        const xi = vs[i][0], yi = vs[i][1];
+        const xj = vs[j][0], yj = vs[j][1];
+        const intersect = ((yi > y) !== (yj > y)) &&
+          (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+        if (intersect) inside = !inside;
+      }
+      return inside;
+    }
+
     map.on("load", () => {
       // Main source with clustering
       map.addSource("strv", {
@@ -312,6 +419,66 @@
         type: "geojson",
         data: { type: "FeatureCollection", features: [] }
       });
+
+      // Municipality boundaries
+      fetch(municipalityGeojsonUrl)
+        .then(response => response.json())
+        .then(data => {
+          data.features.forEach(feature => {
+            const name = normalizeMunicipalityName(feature.properties.NAME);
+            const color = getRandomColor(name);
+            municipalityColors[name] = color;
+            municipalityNames.push(name);
+          });
+
+          municipalityNames.sort();
+          updateMunicipalityCheckboxes(municipalityNames);
+          assignMunicipalities(data);
+
+          map.addSource("municipalities", {
+            type: "geojson",
+            data
+          });
+
+          map.addLayer({
+            id: "municipality-fill",
+            type: "fill",
+            source: "municipalities",
+            paint: {
+              "fill-color": [
+                "match",
+                ["to-upper", ["get", "NAME"]],
+                ...municipalityNames.flatMap(name => [name, municipalityColors[name]]),
+                "rgba(0,0,0,0)"
+              ],
+              "fill-opacity": 0.12,
+              "fill-outline-color": "rgba(0,0,0,0)"
+            },
+            layout: {
+              visibility: "visible"
+            }
+          });
+
+          map.addLayer({
+            id: "municipality-outline",
+            type: "line",
+            source: "municipalities",
+            paint: {
+              "line-color": [
+                "match",
+                ["to-upper", ["get", "NAME"]],
+                ...municipalityNames.flatMap(name => [name, municipalityColors[name]]),
+                "#888"
+              ],
+              "line-width": 3,
+              "line-opacity": 0.9
+            },
+            layout: {
+              visibility: "visible"
+            }
+          });
+        })
+        .catch(error => console.error("Failed to load municipality GeoJSON:", error));
 
       // Cluster circles
       map.addLayer({
@@ -362,7 +529,11 @@
             "#388e3c"
           ],
           "circle-stroke-width": 2,
-          "circle-stroke-color": "#fff"
+          "circle-stroke-color": [
+            "coalesce",
+            ["get", "municipalityColor"],
+            "#000"
+          ]
         }
       });
 
@@ -549,15 +720,30 @@
     function applyFilters() {
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
+      const selectedMunicipalities = Array.from(activeMunicipalities.values());
 
       const filtered = processedLocations.filter(loc => {
+        if (!selectedMunicipalities.includes(loc.municipality)) return false;
         if (showViolationsOnly && !loc.isOverCapacity) return false;
         if (loc.overAmount < minOver) return false;
         return true;
       });
 
+      // Update listing source
       clearSpiderfy();
       map.getSource("strv").setData(toGeoJSON(filtered));
+
+      // Update municipality visibility to only selected names
+      const filterExpression = selectedMunicipalities.length > 0
+        ? ["in", ["get", "NAME"], ["literal", selectedMunicipalities]]
+        : ["==", ["get", "NAME"], "__NONE__"];
+
+      if (map.getLayer("municipality-fill")) {
+        map.setFilter("municipality-fill", filterExpression);
+      }
+      if (map.getLayer("municipality-outline")) {
+        map.setFilter("municipality-outline", filterExpression);
+      }
     }
 
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
