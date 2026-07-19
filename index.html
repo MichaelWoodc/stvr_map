@@ -317,10 +317,16 @@
       return String(name || "").trim().toUpperCase();
     }
 
-    function getRandomColor(seed) {
-      const hash = seed.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    function getMunicipalityColor(name) {
+      const normalized = normalizeMunicipalityName(name);
+      if (!normalized) return "#888";
+      if (normalized === "TYBEE ISLAND") return "#ff9800";
+      if (normalized === "THUNDERBOLT") return "#1976d2";
+      if (normalized === "UNINCORPORATED") return "#888888";
+
+      const hash = normalized.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
       const hue = hash % 360;
-      return `hsl(${hue}, 65%, 55%)`;
+      return `hsl(${hue}, 70%, 55%)`;
     }
 
     function updateMunicipalityCheckboxes(names) {
@@ -426,8 +432,10 @@
         .then(data => {
           data.features.forEach(feature => {
             const name = normalizeMunicipalityName(feature.properties.NAME);
-            const color = getRandomColor(name);
+            const color = getMunicipalityColor(name);
             municipalityColors[name] = color;
+            feature.properties._fillColor = color;
+            feature.properties._lineColor = color;
             municipalityNames.push(name);
           });
 
@@ -440,43 +448,37 @@
             data
           });
 
+          const insertBefore = map.getLayer("clusters") ? "clusters" : undefined;
+
           map.addLayer({
             id: "municipality-fill",
             type: "fill",
             source: "municipalities",
             paint: {
-              "fill-color": [
-                "match",
-                ["to-upper", ["get", "NAME"]],
-                ...municipalityNames.flatMap(name => [name, municipalityColors[name]]),
-                "rgba(0,0,0,0)"
-              ],
-              "fill-opacity": 0.12,
-              "fill-outline-color": "rgba(0,0,0,0)"
+              "fill-color": ["get", "_fillColor"],
+              "fill-opacity": 0.18,
+              "fill-antialias": true
             },
             layout: {
               visibility: "visible"
             }
-          });
+          }, insertBefore);
 
           map.addLayer({
             id: "municipality-outline",
             type: "line",
             source: "municipalities",
             paint: {
-              "line-color": [
-                "match",
-                ["to-upper", ["get", "NAME"]],
-                ...municipalityNames.flatMap(name => [name, municipalityColors[name]]),
-                "#888"
-              ],
+              "line-color": ["get", "_lineColor"],
               "line-width": 3,
-              "line-opacity": 0.9
+              "line-opacity": 0.9,
+              "line-join": "round",
+              "line-cap": "round"
             },
             layout: {
               visibility: "visible"
             }
-          });
+          }, insertBefore);
         })
         .catch(error => console.error("Failed to load municipality GeoJSON:", error));
 
