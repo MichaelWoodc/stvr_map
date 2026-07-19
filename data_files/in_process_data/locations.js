@@ -180,36 +180,6 @@ const locations = [
     "approx_distance_meters": 9.953964136483355e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1008583598206861190",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.02286,
-    "longitude": -80.95819,
-    "host_name": "Joshua Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "1 FISH HAWK RD",
-    "approx_distance_meters": 0.00016801080013262678
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1008981874308980074",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.99492,
-    "longitude": -81.07518,
-    "host_name": "Elizabeth 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "7203 ALBERT ST",
-    "approx_distance_meters": 0.0002407468221061389
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1009469686678735726",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -313,21 +283,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "150 ROPEMAKER LN",
     "approx_distance_meters": 0.00015836056481511774
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1016084392688688419",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0746,
-    "host_name": "Swethasri Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "0 BRYAN ST",
-    "approx_distance_meters": 0.00016098824014712756
   },
   {
     "url": "https://www.airbnb.com/rooms/1016721809281318383",
@@ -435,21 +390,6 @@ const locations = [
     "approx_distance_meters": 7.391026602492414e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1026016050416342166",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.93151,
-    "longitude": -81.30665,
-    "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.03703489131564395
-  },
-  {
     "url": "https://www.airbnb.com/rooms/10267950",
     "rental_type": "Entire condo",
     "guests": 6.0,
@@ -478,21 +418,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #208B",
     "approx_distance_meters": 9.22572384352288e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/10268369",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0232,
-    "longitude": -80.86048,
-    "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "1217 BAY ST #309C",
-    "approx_distance_meters": 0.0009392750551534982
   },
   {
     "url": "https://www.airbnb.com/rooms/10268376",
@@ -540,21 +465,6 @@ const locations = [
     "approx_distance_meters": 7.309029637439622e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/10268452",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0231,
-    "longitude": -80.85996,
-    "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "1217 BAY ST #306C",
-    "approx_distance_meters": 0.0006949687582148435
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1026865082663070606",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -583,21 +493,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "1411 WILMINGTON ISLAND RD",
     "approx_distance_meters": 0.0001896367146975817
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1027872466170914117",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.18466,
-    "longitude": -81.22497,
-    "host_name": "Eugenia Bolanos Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "5 BROWN THRASHER CT",
-    "approx_distance_meters": 0.0002328343673552106
   },
   {
     "url": "https://www.airbnb.com/rooms/1029672515032770714",
@@ -643,21 +538,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "34 E BROAD ST",
     "approx_distance_meters": 3.7144331430972316e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1034767204037703626",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.14551,
-    "longitude": -81.159,
-    "host_name": "Chip Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "HIGHWAY 17",
-    "approx_distance_meters": 0.00024421825827580736
   },
   {
     "url": "https://www.airbnb.com/rooms/1035222624128644295",
@@ -795,81 +675,6 @@ const locations = [
     "approx_distance_meters": 9.460348038320063e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1044814103644540047",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.04077,
-    "longitude": -81.0065,
-    "host_name": "Morgan Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "318 MAPMAKER LN",
-    "approx_distance_meters": 0.0002338339173398764
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1045774141190855625",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.02499,
-    "longitude": -81.09168,
-    "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1206 E 71ST ST",
-    "approx_distance_meters": 0.0002067571699137274
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1045960760418208185",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.02555,
-    "longitude": -81.09109,
-    "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1210 E 70TH ST",
-    "approx_distance_meters": 0.00018712891989152493
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1046502724086075619",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.1324,
-    "longitude": -81.299,
-    "host_name": "Lorie 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "102 E US HIGHWAY 80",
-    "approx_distance_meters": 0.0001863738255124023
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1047360707611645002",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.96326,
-    "longitude": -81.13929,
-    "host_name": "Cairo Walters 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "250 BORDEAUX LN",
-    "approx_distance_meters": 0.00018531318142290295
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1047398678982660638",
     "rental_type": "Entire home",
     "guests": 14.0,
@@ -990,21 +795,6 @@ const locations = [
     "approx_distance_meters": 9.724854174717643e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1066067919344181051",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.8983,
-    "longitude": -81.2735,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.03029233309550018
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1066817842172394156",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -1080,21 +870,6 @@ const locations = [
     "approx_distance_meters": 7.573144372440617e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1074077350409691703",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.81152,
-    "longitude": -81.37977,
-    "host_name": "Cassie Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16205185291362098
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1077452008381370730",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -1110,36 +885,6 @@ const locations = [
     "approx_distance_meters": 0.00021739626221051796
   },
   {
-    "url": "https://www.airbnb.com/rooms/1079049365743748142",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.14757,
-    "longitude": -81.1594,
-    "host_name": "Arneja 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "301 COMMONWEALTH AVE",
-    "approx_distance_meters": 0.0001648631451694943
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1081160350780624759",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.7307,
-    "longitude": -81.2673,
-    "host_name": "Ron Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16633994038024144
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1082783482499537636",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -1153,36 +898,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "120 BRYAN ST W #301",
     "approx_distance_meters": 3.400218267255612e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1085067613506171624",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.0466,
-    "longitude": -81.06574,
-    "host_name": "Chad Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "2001 E 38TH ST",
-    "approx_distance_meters": 0.00018982728213934593
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1085743948191451484",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.0231,
-    "longitude": -81.24027,
-    "host_name": "Sharleen And Billy Ryan Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "8 LOCH WAY",
-    "approx_distance_meters": 0.000306679128410198
   },
   {
     "url": "https://www.airbnb.com/rooms/1087835439988441752",
@@ -1305,66 +1020,6 @@ const locations = [
     "approx_distance_meters": 0.0013005217536931775
   },
   {
-    "url": "https://www.airbnb.com/rooms/1100652819478202953",
-    "rental_type": "Tiny home",
-    "guests": 2.0,
-    "bedrooms": "",
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.24481,
-    "longitude": -81.22267,
-    "host_name": "Laura 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.02258949718143083
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1100773977672043373",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.76562,
-    "longitude": -81.27897,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16270554476120738
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1102223159287827361",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.73268,
-    "longitude": -81.26824,
-    "host_name": "Cookie 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16647291389629087
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1102247615937609676",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.73377,
-    "longitude": -81.26653,
-    "host_name": "Cookie 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16448258865446103
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1102450462288152381",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -1393,21 +1048,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "522 E BRYAN ST",
     "approx_distance_meters": 3.930326686878375e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1105248226648161017",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.01326,
-    "longitude": -80.86506,
-    "host_name": "Christine Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "112 ANDREA DR",
-    "approx_distance_meters": 0.00042369699260479143
   },
   {
     "url": "https://www.airbnb.com/rooms/1107966597827380132",
@@ -1500,21 +1140,6 @@ const locations = [
     "approx_distance_meters": 0.00016805914416870583
   },
   {
-    "url": "https://www.airbnb.com/rooms/1113849451276424776",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.01708,
-    "longitude": -80.96151,
-    "host_name": "Kathee Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "420 WALTHOUR RD",
-    "approx_distance_meters": 0.0005454269124440498
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1115959586377919929",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -1560,21 +1185,6 @@ const locations = [
     "approx_distance_meters": 7.855393127427245e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1117379194501827419",
-    "rental_type": "Entire cabin",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.7305,
-    "longitude": -81.2674,
-    "host_name": "Ron Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16650840329461086
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1118035326917039526",
     "rental_type": "Entire condo",
     "guests": 6.0,
@@ -1588,36 +1198,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "105 WHITAKER ST #304",
     "approx_distance_meters": 7.916998979571665e-06
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1118068202085214331",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.69937,
-    "longitude": -81.27375,
-    "host_name": "Elaine 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.18609570183351498
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1122512998995685062",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06092,
-    "longitude": -81.10798,
-    "host_name": "The Hummingbird Host Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "1826 FLORANCE ST",
-    "approx_distance_meters": 0.0002229208627367155
   },
   {
     "url": "https://www.airbnb.com/rooms/1124789260321348741",
@@ -1648,21 +1228,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "708 PENN WALLER RD",
     "approx_distance_meters": 0.00025888171937369313
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1126929535859919554",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 4.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.945,
-    "longitude": -81.322,
-    "host_name": "Jorge 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.04578416840563776
   },
   {
     "url": "https://www.airbnb.com/rooms/1126991317759056330",
@@ -1845,21 +1410,6 @@ const locations = [
     "approx_distance_meters": 0.00010206621817669742
   },
   {
-    "url": "https://www.airbnb.com/rooms/1141405035943655752",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.18556,
-    "longitude": -81.22263,
-    "host_name": "Zena Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "FOX GLEN CT",
-    "approx_distance_meters": 2.2261647234637185e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1142954320044562392",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -1920,21 +1470,6 @@ const locations = [
     "approx_distance_meters": 8.463564059105674e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1147071899759295272",
-    "rental_type": "Entire guesthouse",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07324,
-    "longitude": -81.0883,
-    "host_name": "Sam Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "413 E LIBERTY ST",
-    "approx_distance_meters": 0.00031392142663613716
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1147212330322085686",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -1963,21 +1498,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "321 DOGWOOD CIR",
     "approx_distance_meters": 0.00012258032935379918
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1147817335109913101",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.08551,
-    "longitude": -81.25124,
-    "host_name": "Dr Tommy Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "5 CASSIDY CT",
-    "approx_distance_meters": 0.00024833069518689297
   },
   {
     "url": "https://www.airbnb.com/rooms/1147901541811010024",
@@ -2160,21 +1680,6 @@ const locations = [
     "approx_distance_meters": 7.266856488171106e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1157205183479086541",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 4.0,
-    "latitude": 32.073,
-    "longitude": -81.0877,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "517 E LIBERTY ST",
-    "approx_distance_meters": 0.00015101995677826045
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1157905509508872443",
     "rental_type": "Entire condo",
     "guests": 5.0,
@@ -2188,21 +1693,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "213 W RIVER ST",
     "approx_distance_meters": 7.175304094432215e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1157954343568055191",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.91803,
-    "longitude": -81.3242,
-    "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.05805670150185058
   },
   {
     "url": "https://www.airbnb.com/rooms/1158654881879039087",
@@ -2265,36 +1755,6 @@ const locations = [
     "approx_distance_meters": 4.97237174477788e-06
   },
   {
-    "url": "https://www.airbnb.com/rooms/1159501632699043017",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.07825,
-    "longitude": -81.08632,
-    "host_name": "Donna Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "501 E ST JULIAN ST",
-    "approx_distance_meters": 0.00010108508871111128
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1159731506947293322",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": "",
-    "baths": 3.0,
-    "latitude": 31.833402165445854,
-    "longitude": -81.40244925916038,
-    "host_name": "Mila 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1651579250068257
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1159844559437277448",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -2308,21 +1768,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1005 LORA ST",
     "approx_distance_meters": 0.00014511341110976327
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1163100600376479007",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.10376,
-    "longitude": -81.2459,
-    "host_name": "Marcel Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "1202 ROBERTS WAY",
-    "approx_distance_meters": 0.0002731259443886673
   },
   {
     "url": "https://www.airbnb.com/rooms/1163999944439545496",
@@ -2385,21 +1830,6 @@ const locations = [
     "approx_distance_meters": 0.0004863936269579829
   },
   {
-    "url": "https://www.airbnb.com/rooms/1167484100056734676",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0809,
-    "longitude": -81.0905,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "24 E BAY ST ##B",
-    "approx_distance_meters": 0.00032338218392861647
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1167568997823133885",
     "rental_type": "Entire rental unit",
     "guests": 3.0,
@@ -2428,36 +1858,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "26 E BAY ST",
     "approx_distance_meters": 7.535935878061995e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1168047000309225911",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.081,
-    "longitude": -81.0906,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "24 E BAY ST ##B",
-    "approx_distance_meters": 0.0002750074745767353
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1168049911837370638",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.081,
-    "longitude": -81.0906,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "24 E BAY ST ##B",
-    "approx_distance_meters": 0.0002750074745767353
   },
   {
     "url": "https://www.airbnb.com/rooms/1169095003030419604",
@@ -2685,21 +2085,6 @@ const locations = [
     "approx_distance_meters": 8.446661295374534e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1183441043262678472",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 4.0,
-    "latitude": 32.0736,
-    "longitude": -81.0916,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "313 ABERCORN ST",
-    "approx_distance_meters": 6.893393625323915e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1183997705527539572",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -2775,36 +2160,6 @@ const locations = [
     "approx_distance_meters": 0.00033835289300998843
   },
   {
-    "url": "https://www.airbnb.com/rooms/1185511324695423066",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.9242,
-    "longitude": -81.32928,
-    "host_name": "Hilary Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.0600148556746832
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1187115144421861524",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07336,
-    "longitude": -81.08734,
-    "host_name": "Vacasa Georgia 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "530 E LIBERTY ST",
-    "approx_distance_meters": 0.00011760876464412236
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1187719192001324164",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -2818,36 +2173,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "319 KATAMA WAY",
     "approx_distance_meters": 0.0001922779591613904
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1187816196033778461",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.02134,
-    "longitude": -80.8591,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1312 BAY ST",
-    "approx_distance_meters": 0.0002249319520799045
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1188263203057681719",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.7736,
-    "longitude": -81.2842,
-    "host_name": "Jason New Host",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.15524096667344406
   },
   {
     "url": "https://www.airbnb.com/rooms/1190056640601151350",
@@ -3000,21 +2325,6 @@ const locations = [
     "approx_distance_meters": 0.0005329649517803993
   },
   {
-    "url": "https://www.airbnb.com/rooms/1195821115483952572",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0792,
-    "longitude": -81.0942,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "110 BARNARD ST #410",
-    "approx_distance_meters": 6.405229489311958e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1196629954914027512",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -3060,21 +2370,6 @@ const locations = [
     "approx_distance_meters": 0.00013459967211046288
   },
   {
-    "url": "https://www.airbnb.com/rooms/1197757188101454439",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03684,
-    "longitude": -81.0017,
-    "host_name": "Melissa Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "201 REDAN DR",
-    "approx_distance_meters": 0.00021397523422704497
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1197973362379630413",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -3088,21 +2383,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "110 BARNARD ST #210",
     "approx_distance_meters": 6.177864963251292e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1199303620365015031",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.11608,
-    "longitude": -81.26426,
-    "host_name": "Denise Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "BRIGHTON WOODS DR",
-    "approx_distance_meters": 0.00029504677576483777
   },
   {
     "url": "https://www.airbnb.com/rooms/1199890032986508405",
@@ -3195,21 +2475,6 @@ const locations = [
     "approx_distance_meters": 2.9291727374641405e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1207940336680312491",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.06056,
-    "longitude": -81.10461,
-    "host_name": "Jay Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "1812 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0003195465876994685
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1208931022694351940",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -3223,21 +2488,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "510 E LIBERTY ST",
     "approx_distance_meters": 0.00011764733943696303
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1209596571926647142",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.081585427517275,
-    "longitude": -81.09219795994458,
-    "host_name": "Chris Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "102 W BAY ST",
-    "approx_distance_meters": 0.0002865019816798418
   },
   {
     "url": "https://www.airbnb.com/rooms/1210187113076829810",
@@ -3360,36 +2610,6 @@ const locations = [
     "approx_distance_meters": 8.798091639197181e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1217409900188124842",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.93466,
-    "longitude": -81.30509,
-    "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.03393032806786984
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1217511716201313797",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.93488,
-    "longitude": -81.3046,
-    "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.033401736167315996
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1219552269706092972",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -3418,21 +2638,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "1507 KINGS WAY",
     "approx_distance_meters": 1.5478780789903282e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1221137185888375219",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07349,
-    "longitude": -81.08722,
-    "host_name": "Nicolas 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "536 E LIBERTY ST",
-    "approx_distance_meters": 0.00021708426951920227
   },
   {
     "url": "https://www.airbnb.com/rooms/1221772206946471643",
@@ -3480,21 +2685,6 @@ const locations = [
     "approx_distance_meters": 3.62487937255042e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1224017725242067278",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.04747,
-    "longitude": -81.00799,
-    "host_name": "Jill And Jordan Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "ISLANDS EXPY",
-    "approx_distance_meters": 0.0004534691359613251
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1227576278638490928",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -3540,21 +2730,6 @@ const locations = [
     "approx_distance_meters": 2.268907256304223e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1230549445779036383",
-    "rental_type": "Entire place",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.08066,
-    "longitude": -81.08987,
-    "host_name": "Rebecca 12 years hosting",
-    "superhost": "",
-    "years_hosting": "12",
-    "approximate_address": "101 E BAY ST",
-    "approx_distance_meters": 0.00032825755566948345
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1231152230692526627",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -3570,21 +2745,6 @@ const locations = [
     "approx_distance_meters": 0.0001819294011581308
   },
   {
-    "url": "https://www.airbnb.com/rooms/1231890600422761094",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07464,
-    "longitude": -81.08835,
-    "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "408 E MCDONOUGH ST",
-    "approx_distance_meters": 5.5712186239910075e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1233367512163254032",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -3598,21 +2758,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "3 W PENROSE DR",
     "approx_distance_meters": 3.62487937255042e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1233422420675430990",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07463,
-    "longitude": -81.09144,
-    "host_name": "Kasa 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "239 ABERCORN ST",
-    "approx_distance_meters": 0.00011685337909192952
   },
   {
     "url": "https://www.airbnb.com/rooms/1233922269834222917",
@@ -3810,21 +2955,6 @@ const locations = [
     "approx_distance_meters": 0.0001087748385805208
   },
   {
-    "url": "https://www.airbnb.com/rooms/1245372176042056528",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.05569,
-    "longitude": -81.10303,
-    "host_name": "Cairo Walters 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "2311 BARNARD ST",
-    "approx_distance_meters": 0.00024313552208919177
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1245703002681053046",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -3898,36 +3028,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "134 ROPEMAKER LN",
     "approx_distance_meters": 9.780127453433238e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1256751367496788670",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 5.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.8044,
-    "longitude": -81.4047,
-    "host_name": "Michelle 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.18496878080374274
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1259296189296075471",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.02,
-    "longitude": -80.8587,
-    "host_name": "Emily 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "1229 US HIGHWAY 80",
-    "approx_distance_meters": 0.00016538514539976736
   },
   {
     "url": "https://www.airbnb.com/rooms/12603978",
@@ -4063,36 +3163,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "153 HOPECREST AVE",
     "approx_distance_meters": 0.0001749244575571992
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1264761141389926909",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06470117028997,
-    "longitude": -81.08460553773727,
-    "host_name": "Priscilla 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "761 WOLF ST",
-    "approx_distance_meters": 0.00024447847224439155
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1267383853089562691",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.03588887780371,
-    "longitude": -81.08859053822381,
-    "host_name": "Chang Kai 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1203 DELESSEPS AVE",
-    "approx_distance_meters": 0.0001855882124832632
   },
   {
     "url": "https://www.airbnb.com/rooms/1268726821591298626",
@@ -4275,36 +3345,6 @@ const locations = [
     "approx_distance_meters": 0.00017980051265143425
   },
   {
-    "url": "https://www.airbnb.com/rooms/1277611330348777510",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.05506874998824,
-    "longitude": -81.09920446938723,
-    "host_name": "Carla Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "107 E 39TH ST",
-    "approx_distance_meters": 0.0001752501124376139
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1278881301029693711",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.2836843776618,
-    "longitude": -81.25084100392982,
-    "host_name": "Jason Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.07056338712703147
-  },
-  {
     "url": "https://www.airbnb.com/rooms/12788995",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -4335,21 +3375,6 @@ const locations = [
     "approx_distance_meters": 1.2167139180638794e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1285011797767220254",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 7.0,
-    "baths": 2.0,
-    "latitude": 31.8219,
-    "longitude": -81.3648,
-    "host_name": "Sara Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1442226595443775
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1285374865884121629",
     "rental_type": "Entire home",
     "guests": 2.0,
@@ -4363,36 +3388,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "116 LONGLEAF CIR",
     "approx_distance_meters": 0.0001341662984591494
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1286551966944745716",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.91900808254397,
-    "longitude": -81.31259317046734,
-    "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.04646315658210711
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1287811486756469811",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.02361324625138,
-    "longitude": -80.85975257620868,
-    "host_name": "Tybee Joy 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "1217 BAY ST #316A",
-    "approx_distance_meters": 0.0009327400701707822
   },
   {
     "url": "https://www.airbnb.com/rooms/1288897092087495881",
@@ -4470,21 +3465,6 @@ const locations = [
     "approx_distance_meters": 0.00011868673197642336
   },
   {
-    "url": "https://www.airbnb.com/rooms/1293688468208208135",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.991758384686126,
-    "longitude": -81.11584776665886,
-    "host_name": "Robin 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "411 INGLEWOOD DR",
-    "approx_distance_meters": 0.00020204018583507203
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1294569021513324277",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -4543,21 +3523,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "3 HOPELAND DR",
     "approx_distance_meters": 8.431103289224206e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1299231801509783824",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 6.0,
-    "beds": 12.0,
-    "baths": 5.0,
-    "latitude": 32.01016,
-    "longitude": -80.9572,
-    "host_name": "Lesley Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "6 BREVARD CT",
-    "approx_distance_meters": 0.00024110359820998383
   },
   {
     "url": "https://www.airbnb.com/rooms/1299315426915018351",
@@ -4620,21 +3585,6 @@ const locations = [
     "approx_distance_meters": 0.00013644492366384517
   },
   {
-    "url": "https://www.airbnb.com/rooms/1307191590161625956",
-    "rental_type": "Entire place",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.83657,
-    "longitude": -81.36316,
-    "host_name": "Lyne Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.13261856823837248
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1309118076345847938",
     "rental_type": "Entire cottage",
     "guests": 9.0,
@@ -4650,21 +3600,6 @@ const locations = [
     "approx_distance_meters": 8.507700823904863e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/13097551",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 32.0781,
-    "longitude": -81.0861,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "509 CONGRESS ST",
-    "approx_distance_meters": 0.00010002827544682453
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1310607030709957919",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -4678,36 +3613,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "8 CASSIDY CT",
     "approx_distance_meters": 6.089536792731669e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/13114566",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.73393,
-    "longitude": -81.26691,
-    "host_name": "Cookie 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16477822704243097
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1312619611332395516",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.7964536758244,
-    "longitude": -81.39150530396387,
-    "host_name": "Michael 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.18104964983659907
   },
   {
     "url": "https://www.airbnb.com/rooms/1313196737330598593",
@@ -4770,36 +3675,6 @@ const locations = [
     "approx_distance_meters": 5.121501253066403e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1317540076889892710",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.05964,
-    "longitude": -81.26375,
-    "host_name": "Debby Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "146 W TISBURY LN",
-    "approx_distance_meters": 0.0002739323577711726
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1318115174369941430",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07731656475072,
-    "longitude": -81.0878286586992,
-    "host_name": "Naomi\u2019s Luxury Homes Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "402 E STATE ST",
-    "approx_distance_meters": 0.00020503214330997702
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1319002480607155826",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -4843,21 +3718,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "537 E PERRY ST",
     "approx_distance_meters": 2.9082508483138516e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/13221445",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 4.0,
-    "latitude": 32.07691,
-    "longitude": -81.08438,
-    "host_name": "Luxury Living Savannah Superhost \u00b7 11 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "11",
-    "approximate_address": "600 E BROUGHTON ST",
-    "approx_distance_meters": 0.000207212514630141
   },
   {
     "url": "https://www.airbnb.com/rooms/1322760451077464978",
@@ -4935,21 +3795,6 @@ const locations = [
     "approx_distance_meters": 9.621452148326663e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1330439348893176781",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.958200735336447,
-    "longitude": -81.32408316566016,
-    "host_name": "Rhonda Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "6811 CHIEF O F LOVE RD",
-    "approx_distance_meters": 0.04160581900563112
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1331207140981574846",
     "rental_type": "Entire townhouse",
     "guests": 12.0,
@@ -5025,21 +3870,6 @@ const locations = [
     "approx_distance_meters": 8.88737653256556e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1337679872814382387",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.053125836974246,
-    "longitude": -81.01889571527549,
-    "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "716 SANDTOWN RD",
-    "approx_distance_meters": 0.00024150061043162142
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1339149665464626100",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -5068,36 +3898,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "110 E STATE ST",
     "approx_distance_meters": 0.0001777334961161959
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1342187201896626741",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.823,
-    "longitude": -81.3625,
-    "host_name": "Evolve 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1418575532527398
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1343262173098472873",
-    "rental_type": "Entire guesthouse",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.04434,
-    "longitude": -81.06123,
-    "host_name": "Kelly Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2222 E 40TH ST",
-    "approx_distance_meters": 0.00019631671275954706
   },
   {
     "url": "https://www.airbnb.com/rooms/1343771560522661791",
@@ -5143,21 +3943,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "3212 CENTER ST",
     "approx_distance_meters": 0.00017561007864697132
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1347178180631106349",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 3.0,
-    "latitude": 32.2761,
-    "longitude": -81.2706,
-    "host_name": "Veronica Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "HIGHWAY 30",
-    "approx_distance_meters": 0.07614822632732371
   },
   {
     "url": "https://www.airbnb.com/rooms/1347197201176999773",
@@ -5248,21 +4033,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "514 TATEM ST",
     "approx_distance_meters": 0.00012846622663363098
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1353008836140768040",
-    "rental_type": "Casa particular",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 31.831980136166738,
-    "longitude": -81.4013026085544,
-    "host_name": "Isaac Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16504099145432408
   },
   {
     "url": "https://www.airbnb.com/rooms/1353779805285849877",
@@ -5385,21 +4155,6 @@ const locations = [
     "approx_distance_meters": 0.00016746086953344413
   },
   {
-    "url": "https://www.airbnb.com/rooms/1362332109988136400",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0757,
-    "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "401 UPPER EAST AVE",
-    "approx_distance_meters": 0.0002470005492332612
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1362374286709102876",
     "rental_type": "Entire guest suite",
     "guests": 2.0,
@@ -5460,36 +4215,6 @@ const locations = [
     "approx_distance_meters": 2.5151120062887065e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1363872509496143235",
-    "rental_type": "Entire guest suite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.04583891433963,
-    "longitude": -81.15631189867078,
-    "host_name": "Kirsten Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "4810 GARRARD AVE",
-    "approx_distance_meters": 0.0004993704435944064
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1364567041799428374",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.91801257100801,
-    "longitude": -81.32045100758302,
-    "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.05436898570748178
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1364587005425979843",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -5520,21 +4245,6 @@ const locations = [
     "approx_distance_meters": 3.7144331430972316e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1366314649758598329",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0220284318202,
-    "longitude": -81.06942421760508,
-    "host_name": "Oscar And Carolina Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "2133 GLYNNWOOD DR",
-    "approx_distance_meters": 0.00027383041851907836
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1366604429834788025",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -5563,21 +4273,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "908 2ND ST",
     "approx_distance_meters": 0.0002960049081779192
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1366994587049156229",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.1406,
-    "longitude": -81.3787,
-    "host_name": "Marcus 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "HIGHWAY 16",
-    "approx_distance_meters": 0.03062614979717415
   },
   {
     "url": "https://www.airbnb.com/rooms/1371198222718470800",
@@ -5670,21 +4365,6 @@ const locations = [
     "approx_distance_meters": 0.0007167506330408981
   },
   {
-    "url": "https://www.airbnb.com/rooms/1374006724012699538",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.04572107822351,
-    "longitude": -81.23930490555826,
-    "host_name": "Dee 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "6 BELLADONA WAY",
-    "approx_distance_meters": 0.0002211484646211102
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1375126261445281578",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -5730,36 +4410,6 @@ const locations = [
     "approx_distance_meters": 7.408281518807552e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1376943984326459431",
-    "rental_type": "Boat",
-    "guests": 2.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.01200572502912,
-    "longitude": -80.88314435675427,
-    "host_name": "Thomas Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "4 OLD US HIGHWAY 80",
-    "approx_distance_meters": 0.001170648961128302
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1378411620649631041",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07845526567647,
-    "longitude": -81.0902578470931,
-    "host_name": "Katy 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "125 E BROUGHTON ST",
-    "approx_distance_meters": 0.00020230736554000567
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1378551392179055860",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -5788,21 +4438,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "109 SUNCREST BLVD",
     "approx_distance_meters": 0.0002475392541097684
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1381539127330216054",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.156575804158884,
-    "longitude": -81.38747990522303,
-    "host_name": "Alisha Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "HIGHWAY 16",
-    "approx_distance_meters": 0.04807111876337372
   },
   {
     "url": "https://www.airbnb.com/rooms/1383347930799346683",
@@ -5865,51 +4500,6 @@ const locations = [
     "approx_distance_meters": 0.00015423755254889845
   },
   {
-    "url": "https://www.airbnb.com/rooms/1385488027503178719",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.060646823145326,
-    "longitude": -81.09611740465067,
-    "host_name": "Paul Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "1520 ABERCORN ST",
-    "approx_distance_meters": 8.973688896082609e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1386218004412866351",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.08087597944609,
-    "longitude": -81.09718617035452,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "38 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0003345739337122162
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1386218027700011150",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.080891168506106,
-    "longitude": -81.09575992181702,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "FRANKLIN SQUARE",
-    "approx_distance_meters": 0.0002230526662459983
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1386256709091442741",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -5938,66 +4528,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "4 BRAGG DR",
     "approx_distance_meters": 0.00038717100817878036
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1386397660736946942",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 6.0,
-    "beds": 10.0,
-    "baths": 4.0,
-    "latitude": 32.12938685320788,
-    "longitude": -81.27981852334682,
-    "host_name": "Caleb 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "19 CONAWAY RD",
-    "approx_distance_meters": 0.00040567191379346036
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1389225554876912886",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.932054103126685,
-    "longitude": -81.30460791674223,
-    "host_name": "Sid 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.03508537940118573
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1389261973774714056",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.12155413490131,
-    "longitude": -81.25018989541356,
-    "host_name": "Sid 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "316 GLEASON AVE",
-    "approx_distance_meters": 0.0002840233623408856
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1389297779363113257",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.059346979252744,
-    "longitude": -81.09930180689929,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1809 BULL ST",
-    "approx_distance_meters": 0.00036552937902204803
   },
   {
     "url": "https://www.airbnb.com/rooms/1389457489196061517",
@@ -6030,21 +4560,6 @@ const locations = [
     "approx_distance_meters": 7.807320870111783e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/13898256",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.9807,
-    "longitude": -80.9966,
-    "host_name": "John Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1954 STONE ST",
-    "approx_distance_meters": 0.00038178566692009726
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1389946608982585551",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -6075,36 +4590,6 @@ const locations = [
     "approx_distance_meters": 0.0004408520325887604
   },
   {
-    "url": "https://www.airbnb.com/rooms/1390098549434040908",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0725,
-    "longitude": -81.087,
-    "host_name": "Alyssa Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "542 E HARRIS ST",
-    "approx_distance_meters": 0.00018325725317363823
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1390159949564054423",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07219188460122,
-    "longitude": -81.08903228284163,
-    "host_name": "Alyssa Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "420 E CHARLTON ST",
-    "approx_distance_meters": 0.00010327669485318833
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1390189254896817012",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -6120,21 +4605,6 @@ const locations = [
     "approx_distance_meters": 3.8606998905834204e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1391467612605306407",
-    "rental_type": "Entire condo",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 4.0,
-    "latitude": 32.0809151268194,
-    "longitude": -81.09650934875867,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "27 MONTGOMERY ST",
-    "approx_distance_meters": 0.00014313552651624729
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1391685983228049736",
     "rental_type": "Entire townhouse",
     "guests": 7.0,
@@ -6148,21 +4618,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "527 GOVERNOR TREUTLEN CIR",
     "approx_distance_meters": 3.615898814181554e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1394198618005715876",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07172,
-    "longitude": -81.08689,
-    "host_name": "Kevin Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "333 E BROAD ST",
-    "approx_distance_meters": 0.0001442470102197798
   },
   {
     "url": "https://www.airbnb.com/rooms/1394237111785684659",
@@ -6195,36 +4650,6 @@ const locations = [
     "approx_distance_meters": 0.00020361757836315594
   },
   {
-    "url": "https://www.airbnb.com/rooms/1396654340540709942",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.11625179799713,
-    "longitude": -81.25337384490115,
-    "host_name": "Labi Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "107 SHEFTALL ST",
-    "approx_distance_meters": 0.0005134488209660916
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/13969250",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 4.0,
-    "latitude": 32.0781,
-    "longitude": -81.0861,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "509 CONGRESS ST",
-    "approx_distance_meters": 0.00010002827544682453
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1396990394938090608",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -6255,21 +4680,6 @@ const locations = [
     "approx_distance_meters": 1.1010905756074182e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1397721779672927760",
-    "rental_type": "Entire home",
-    "guests": 13.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 4.0,
-    "latitude": 31.770845058297905,
-    "longitude": -81.32248003811205,
-    "host_name": "Emily 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16655548348717508
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1398766028783954011",
     "rental_type": "Entire guest suite",
     "guests": 7.0,
@@ -6285,21 +4695,6 @@ const locations = [
     "approx_distance_meters": 0.00028263232480461284
   },
   {
-    "url": "https://www.airbnb.com/rooms/1401462518313396760",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0738,
-    "longitude": -81.0866,
-    "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "230 HOUSTON ST",
-    "approx_distance_meters": 5.63028077847321e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1402143153899910435",
     "rental_type": "Entire home",
     "guests": 5.0,
@@ -6313,36 +4708,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "4926 PINELAND DR",
     "approx_distance_meters": 0.0007283879261545963
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/14035018",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.18653,
-    "longitude": -81.27199,
-    "host_name": "Robert 13 years hosting",
-    "superhost": "",
-    "years_hosting": "13",
-    "approximate_address": "690 HIGHLANDS BLVD",
-    "approx_distance_meters": 0.007592645934973406
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1405144018648835570",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0257,
-    "longitude": -81.2446,
-    "host_name": "Francis Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "106 HOLIDAY CIR",
-    "approx_distance_meters": 0.0002396276894687521
   },
   {
     "url": "https://www.airbnb.com/rooms/1409656048706542257",
@@ -6375,51 +4740,6 @@ const locations = [
     "approx_distance_meters": 5.050436561527567e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1411089074379990772",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.72513,
-    "longitude": -81.24585,
-    "host_name": "Mindi Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.14919964892386461
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1416756623979761911",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 5.0,
-    "beds": 11.0,
-    "baths": 4.0,
-    "latitude": 32.03424081170273,
-    "longitude": -81.0568686488491,
-    "host_name": "Traci Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "3018 YOUNG AVE",
-    "approx_distance_meters": 0.0001894940333496568
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1417480354631852645",
-    "rental_type": "Entire condo",
-    "guests": 16.0,
-    "bedrooms": 31.0,
-    "beds": 42.0,
-    "baths": 18.0,
-    "latitude": 32.0798,
-    "longitude": -81.0928,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "31 W CONGRESS ST",
-    "approx_distance_meters": 0.00012434091070612994
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1417504113845638769",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -6433,21 +4753,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "2 ASHLYN RT",
     "approx_distance_meters": 4.97237174477788e-06
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1420537606859167656",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.10911,
-    "longitude": -80.88197,
-    "host_name": "Haley 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "OYSTER BED ISLAND",
-    "approx_distance_meters": 0.0705725123689619
   },
   {
     "url": "https://www.airbnb.com/rooms/1421146420496557487",
@@ -6540,21 +4845,6 @@ const locations = [
     "approx_distance_meters": 3.696757130944454e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1428159307476828479",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.067776763421875,
-    "longitude": -81.05035251634486,
-    "host_name": "Racy Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "2219 BEECH ST",
-    "approx_distance_meters": 0.0008836994009177546
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1429048559219104413",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -6568,21 +4858,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "13 CARDINAL CT",
     "approx_distance_meters": 6.897616046985702e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1429142351799507010",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.696179850777472,
-    "longitude": -81.27116323709298,
-    "host_name": "Edward Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.18553002785372566
   },
   {
     "url": "https://www.airbnb.com/rooms/1432851200788053373",
@@ -6643,36 +4918,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "125 BIRCH CIR",
     "approx_distance_meters": 4.59838101600227e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1435024503068139662",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0585,
-    "longitude": -81.1033,
-    "host_name": "Shannon 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "303 W 36TH ST",
-    "approx_distance_meters": 0.00022176374993485224
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/14352979",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.83606,
-    "longitude": -81.3604,
-    "host_name": "Jeff Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.13098786012543823
   },
   {
     "url": "https://www.airbnb.com/rooms/1437876386707313111",
@@ -6763,21 +5008,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "529 POINTE SOUTH DR",
     "approx_distance_meters": 2.316100678161065e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1443551658887915904",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.2169,
-    "longitude": -81.1786,
-    "host_name": "Betsy New Host",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "2 JOVITA DR",
-    "approx_distance_meters": 0.0002589281605034774
   },
   {
     "url": "https://www.airbnb.com/rooms/1443704520834078207",
@@ -6930,36 +5160,6 @@ const locations = [
     "approx_distance_meters": 0.00014886152201240623
   },
   {
-    "url": "https://www.airbnb.com/rooms/1444979405993187895",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 9.0,
-    "beds": 20.0,
-    "baths": 5.0,
-    "latitude": 31.99965,
-    "longitude": -81.06439,
-    "host_name": "Andrew 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "2636 LANSING AVE",
-    "approx_distance_meters": 0.0003874056250378045
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1444979430689308423",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.99982,
-    "longitude": -81.06321,
-    "host_name": "Andrew 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "7010 LAROCHE AVE",
-    "approx_distance_meters": 0.0003030479731950333
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1444979453933093428",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -7078,21 +5278,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "4 RIVERMIST LN",
     "approx_distance_meters": 6.292636445781801e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1445002592648041413",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 2.0,
-    "latitude": 32.057729869968966,
-    "longitude": -81.2583208743275,
-    "host_name": "Andrew 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "187 BERWICK LAKES BLVD",
-    "approx_distance_meters": 0.0001999206238530299
   },
   {
     "url": "https://www.airbnb.com/rooms/1445002673904169052",
@@ -7215,21 +5400,6 @@ const locations = [
     "approx_distance_meters": 5.6454070917888083e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1449412592725449852",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.93176,
-    "longitude": -81.3069,
-    "host_name": "Sid 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.03708582298183429
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1450332730516799550",
     "rental_type": "Entire cottage",
     "guests": 6.0,
@@ -7273,66 +5443,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "121 VICKERY LN",
     "approx_distance_meters": 0.00023458966814698617
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1453722409406783072",
-    "rental_type": "Island",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.817,
-    "longitude": -81.3716,
-    "host_name": "Will Superhost \u00b7 9 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.15244454869297952
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1454514349310089931",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 6.0,
-    "beds": 11.0,
-    "baths": 3.0,
-    "latitude": 31.8446,
-    "longitude": -81.323,
-    "host_name": "Shula Superhost \u00b7 11 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1003681585821987
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1456103016924929540",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03439860504373,
-    "longitude": -81.07593316357185,
-    "host_name": "Harriet Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2020 E 57TH ST",
-    "approx_distance_meters": 0.00011808421193547879
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1456560477114158961",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.2423,
-    "longitude": -81.2239,
-    "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.021249158509002025
   },
   {
     "url": "https://www.airbnb.com/rooms/1456671980882907233",
@@ -7455,51 +5565,6 @@ const locations = [
     "approx_distance_meters": 3.4091282875698474e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1466067497779364200",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.99625,
-    "longitude": -81.06498,
-    "host_name": "Carlos Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "1 MULBERRY CT",
-    "approx_distance_meters": 0.00026704437370598264
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1467365932380764372",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.261591434964934,
-    "longitude": -81.21925707934794,
-    "host_name": "Claudia Superhost \u00b7 12 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "12",
-    "approximate_address": "0 MARSH SALT LN",
-    "approx_distance_meters": 0.03310008192699537
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1468378309039478927",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07776,
-    "longitude": -81.089,
-    "host_name": "Jonathan Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "111 LINCOLN ST #111-1A",
-    "approx_distance_meters": 7.406339221025627e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1468991842618836071",
     "rental_type": "Entire home",
     "guests": 14.0,
@@ -7513,21 +5578,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "BULL ST",
     "approx_distance_meters": 0.00012239294132203893
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1469691997487022128",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.2888,
-    "longitude": -81.2392,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "0 MARSH SALT LN",
-    "approx_distance_meters": 0.06683402727082736
   },
   {
     "url": "https://www.airbnb.com/rooms/1470641628581509483",
@@ -7605,21 +5655,6 @@ const locations = [
     "approx_distance_meters": 0.00048282334626918586
   },
   {
-    "url": "https://www.airbnb.com/rooms/1471099317477652289",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.08041,
-    "longitude": -81.09814,
-    "host_name": "The Ann Savannah Apartments Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "63 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0002530260646275352
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1471099635987066622",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -7663,21 +5698,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "27 BRYAN WOOD CIR",
     "approx_distance_meters": 0.00012137394595789442
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1473313781711124296",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 3.0,
-    "latitude": 32.21186,
-    "longitude": -81.25357,
-    "host_name": "Melissa Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "326 KELLER RD",
-    "approx_distance_meters": 0.014400776713992076
   },
   {
     "url": "https://www.airbnb.com/rooms/14741537",
@@ -7740,21 +5760,6 @@ const locations = [
     "approx_distance_meters": 0.0004131805321300435
   },
   {
-    "url": "https://www.airbnb.com/rooms/1476717892677848378",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.2854,
-    "longitude": -81.2142,
-    "host_name": "Jon & Laura Superhost \u00b7 9 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "8210 HIGHWAY 21",
-    "approx_distance_meters": 0.051800535648405054
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1477572070763401867",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -7768,21 +5773,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "304 CYPRESS ST",
     "approx_distance_meters": 8.295578738745543e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1479473925241136698",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.96027,
-    "longitude": -81.32436,
-    "host_name": "Cecilia Superhost \u00b7 6 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "6811 CHIEF O F LOVE RD",
-    "approx_distance_meters": 0.040760839038407326
   },
   {
     "url": "https://www.airbnb.com/rooms/1480180481985235173",
@@ -7813,21 +5803,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "340 ABERCORN ST",
     "approx_distance_meters": 4.940398708849237e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1481011115688783590",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.92362,
-    "longitude": -81.32509,
-    "host_name": "Jared 3 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05671388469681555
   },
   {
     "url": "https://www.airbnb.com/rooms/1484729857538833989",
@@ -7918,36 +5893,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "1305 JUNCTION AVE",
     "approx_distance_meters": 6.939995691403085e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1494655626852650572",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0757,
-    "host_name": "Amber Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "401 UPPER EAST AVE",
-    "approx_distance_meters": 0.0002470005492332612
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1495997583673241514",
-    "rental_type": "Shipping container",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.823653562645934,
-    "longitude": -81.36338650178385,
-    "host_name": "Zach Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.14197545506426962
   },
   {
     "url": "https://www.airbnb.com/rooms/1496482489409388919",
@@ -8068,21 +6013,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "9240 GARLAND DR",
     "approx_distance_meters": 2.1764112283444556e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1503089280701821273",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.98715,
-    "longitude": -81.09944,
-    "host_name": "Hannah Superhost \u00b7 8 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "1513 CRESTHILL AVE",
-    "approx_distance_meters": 0.0002264004500726782
   },
   {
     "url": "https://www.airbnb.com/rooms/1504302307754623244",
@@ -8355,21 +6285,6 @@ const locations = [
     "approx_distance_meters": 4.940398708849237e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1517626017322149420",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.062466025141134,
-    "longitude": -81.09152914554394,
-    "host_name": "Megan Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "515 E DUFFY ST",
-    "approx_distance_meters": 0.00023147711792558938
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1518155941479325284",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -8428,21 +6343,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "509 E BROUGHTON ST",
     "approx_distance_meters": 4.246750674348223e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/15204714",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.08191,
-    "longitude": -81.09204,
-    "host_name": "Kim Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "102 W BAY ST",
-    "approx_distance_meters": 0.00032111398346362167
   },
   {
     "url": "https://www.airbnb.com/rooms/15208161",
@@ -8550,36 +6450,6 @@ const locations = [
     "approx_distance_meters": 0.0008447124444687913
   },
   {
-    "url": "https://www.airbnb.com/rooms/1525653997682038566",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.944507695789536,
-    "longitude": -81.3189153507883,
-    "host_name": "Oscar Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.042864958034179786
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1525985",
-    "rental_type": "Entire guesthouse",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0774,
-    "longitude": -81.0876,
-    "host_name": "Janet Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "106 HABERSHAM ST",
-    "approx_distance_meters": 0.00011057409986169941
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1526296963313534516",
     "rental_type": "Entire home",
     "guests": 5.0,
@@ -8593,21 +6463,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "116 E HENRY ST",
     "approx_distance_meters": 0.00012774350491576473
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1526366114630984784",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0757,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "401 UPPER EAST AVE",
-    "approx_distance_meters": 0.0002470005492332612
   },
   {
     "url": "https://www.airbnb.com/rooms/1527908669890523241",
@@ -8638,21 +6493,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "2116 VERMONT AVE",
     "approx_distance_meters": 9.67584508684367e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1532061037699817285",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 1.0,
-    "baths": 2.0,
-    "latitude": 32.2905,
-    "longitude": -81.2142,
-    "host_name": "Mike Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "8210 HIGHWAY 21",
-    "approx_distance_meters": 0.05656189350652176
   },
   {
     "url": "https://www.airbnb.com/rooms/1532221249596598529",
@@ -8760,21 +6600,6 @@ const locations = [
     "approx_distance_meters": 0.00010371349290685162
   },
   {
-    "url": "https://www.airbnb.com/rooms/1541349585483802034",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.02147345911963,
-    "longitude": -80.85874561218527,
-    "host_name": "Lori 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 0.0002378805158567153
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1541538623040547368",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -8788,21 +6613,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "9 WALTHOUR CV",
     "approx_distance_meters": 0.00014028910338721972
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1541681301616189432",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03221982767884,
-    "longitude": -81.0976829536995,
-    "host_name": "SaBreen Superhost \u00b7 7 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "501 E 64TH ST",
-    "approx_distance_meters": 0.00028371030219886197
   },
   {
     "url": "https://www.airbnb.com/rooms/1542739415082998147",
@@ -8863,21 +6673,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "3164 MULBERRY BLVD",
     "approx_distance_meters": 0.0013150662683357724
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1548326764435066816",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.68305860991245,
-    "longitude": -81.27327615317682,
-    "host_name": "Lesley Superhost \u00b7 8 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.194490670065634
   },
   {
     "url": "https://www.airbnb.com/rooms/1548573903370840491",
@@ -9075,51 +6870,6 @@ const locations = [
     "approx_distance_meters": 5.2916498960417145e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1558411040706460019",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.08034803156283,
-    "longitude": -81.09724001815212,
-    "host_name": "The Ann Savannah Apartments 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "424 W BROUGHTON ST",
-    "approx_distance_meters": 0.00029516228476708347
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1558627952414032870",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.19102,
-    "longitude": -81.32209,
-    "host_name": "Derek Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "107 GODLEY RD",
-    "approx_distance_meters": 0.036566465701522145
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1559548842374230614",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0757,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "401 UPPER EAST AVE",
-    "approx_distance_meters": 0.0002470005492332612
-  },
-  {
     "url": "https://www.airbnb.com/rooms/155982",
     "rental_type": "Entire cottage",
     "guests": 4.0,
@@ -9135,36 +6885,6 @@ const locations = [
     "approx_distance_meters": 0.0002766796830336864
   },
   {
-    "url": "https://www.airbnb.com/rooms/1563508872099417910",
-    "rental_type": "Entire home",
-    "guests": 15.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.02623,
-    "longitude": -81.08931,
-    "host_name": "Lelly Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1313 E 68TH ST",
-    "approx_distance_meters": 0.00019754727155738304
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1566236448582115154",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.819182321337173,
-    "longitude": -81.3603361912693,
-    "host_name": "Elizabeth 7 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.143283969637874
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1567565549464390894",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -9178,36 +6898,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "148 BERWICK LAKES BLVD",
     "approx_distance_meters": 0.00011248835433674419
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1568406203760849656",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.02424,
-    "longitude": -81.05854,
-    "host_name": "Caitlin Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "2204 TOMPKINS RD",
-    "approx_distance_meters": 0.0002283628122279995
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1568976176728015002",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 1.0,
-    "latitude": 32.14887,
-    "longitude": -81.161,
-    "host_name": "Caleb 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "205 TURNBERRY ST",
-    "approx_distance_meters": 0.00031379793041047847
   },
   {
     "url": "https://www.airbnb.com/rooms/1569926647580128655",
@@ -9253,21 +6943,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "119 N SHEFTALL CIR",
     "approx_distance_meters": 0.00010637392440564623
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1572078400357706537",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.992797640396116,
-    "longitude": -81.07307226815607,
-    "host_name": "Liz Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "7319 GARFIELD ST",
-    "approx_distance_meters": 0.0002269606272285706
   },
   {
     "url": "https://www.airbnb.com/rooms/1573210437875430951",
@@ -9420,36 +7095,6 @@ const locations = [
     "approx_distance_meters": 7.878043209190155e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1582878754832767886",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.14933,
-    "longitude": -81.16208,
-    "host_name": "Savannah Brown 10 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "ABERFELDY ST",
-    "approx_distance_meters": 0.0003605537091905626
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1582919859224405682",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 2.0,
-    "latitude": 32.14954,
-    "longitude": -81.16088,
-    "host_name": "Savannah Brown 10 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "122 TURNBERRY ST",
-    "approx_distance_meters": 0.00016651175376334096
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1583004808352473099",
     "rental_type": "Entire loft",
     "guests": 6.0,
@@ -9478,21 +7123,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "DOWD ST",
     "approx_distance_meters": 0.00012859248651110394
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1585072125453617362",
-    "rental_type": "Entire rental unit",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0714,
-    "longitude": -81.0789,
-    "host_name": "Jovana 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "LAWTON AVE",
-    "approx_distance_meters": 0.0007865288852146561
   },
   {
     "url": "https://www.airbnb.com/rooms/1586417723482806811",
@@ -9538,21 +7168,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "210 CYPRESS ST",
     "approx_distance_meters": 0.00024646744626644583
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1586492262628500178",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.09168,
-    "longitude": -81.28307,
-    "host_name": "Ashton And Chris Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "346 CASEY DR",
-    "approx_distance_meters": 0.00018563039968426393
   },
   {
     "url": "https://www.airbnb.com/rooms/15868429",
@@ -9675,51 +7290,6 @@ const locations = [
     "approx_distance_meters": 0.0001681756277895944
   },
   {
-    "url": "https://www.airbnb.com/rooms/1593571169022299875",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.01342,
-    "longitude": -80.86661,
-    "host_name": "Angelys Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "114 PELICAN CT",
-    "approx_distance_meters": 0.00046328058052023594
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1594489443895091467",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.05884999156032,
-    "longitude": -81.10196457116811,
-    "host_name": "Charles Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "202 W 36TH ST",
-    "approx_distance_meters": 0.0001657040533076892
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1595064257454159998",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.6152,
-    "longitude": -81.2845,
-    "host_name": "Riley 5 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.24733860606665384
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1596097849186394259",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -9748,36 +7318,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "5545 ALMA ST",
     "approx_distance_meters": 0.00025625727271506404
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1598013235739745031",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.06017,
-    "longitude": -81.08274,
-    "host_name": "Ling Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "918 E DUFFY ST",
-    "approx_distance_meters": 0.00019380506209539173
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1598686487763424773",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0154026750704,
-    "longitude": -80.86609764815182,
-    "host_name": "Jana Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "126 PELICAN DR",
-    "approx_distance_meters": 0.0003451461010827349
   },
   {
     "url": "https://www.airbnb.com/rooms/1598723820806100860",
@@ -9823,21 +7363,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "308 HOLLY HILL RD",
     "approx_distance_meters": 3.5138450599497976e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1600010580925946962",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 31.8169,
-    "longitude": -81.35787,
-    "host_name": "Richard Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.14344799966478877
   },
   {
     "url": "https://www.airbnb.com/rooms/1600749684865342988",
@@ -9975,21 +7500,6 @@ const locations = [
     "approx_distance_meters": 1.3105029913171543e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1608157189896154984",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.07777,
-    "longitude": -81.08664,
-    "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "420 E BROUGHTON ST",
-    "approx_distance_meters": 0.000122165508451858
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1608834203215529920",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -10003,21 +7513,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "4630 HERTY DR",
     "approx_distance_meters": 7.599189396818307e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1609422135033565405",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0214,
-    "longitude": -80.85875,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 0.00016448233585694672
   },
   {
     "url": "https://www.airbnb.com/rooms/1609853086401984308",
@@ -10170,21 +7665,6 @@ const locations = [
     "approx_distance_meters": 0.0001578446960096006
   },
   {
-    "url": "https://www.airbnb.com/rooms/1614590383355671752",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 6.0,
-    "beds": 12.0,
-    "baths": 4.0,
-    "latitude": 32.03249,
-    "longitude": -81.05553,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "3118 SHELL RD",
-    "approx_distance_meters": 0.00029763235799479997
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1615400164944175326",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -10320,81 +7800,6 @@ const locations = [
     "approx_distance_meters": 6.0595170008838575e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1620594065041400852",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.99814,
-    "longitude": -81.06744,
-    "host_name": "Miya 5 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "113 GILLIAM AVE",
-    "approx_distance_meters": 0.0002318981422603372
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1621987940392836155",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.2776,
-    "longitude": -81.2443,
-    "host_name": "Kay 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "26 SEA OATS DR",
-    "approx_distance_meters": 0.0616909877354291
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1622631141452425347",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07815375710662,
-    "longitude": -81.09353931038535,
-    "host_name": "Black Swan 4 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "122 BARNARD ST",
-    "approx_distance_meters": 0.00032284928727206334
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1622631167830384170",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07924,
-    "longitude": -81.09144,
-    "host_name": "Black Swan 4 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "32 BULL ST",
-    "approx_distance_meters": 0.00013957741760483805
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1622631183416082620",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07904271203043,
-    "longitude": -81.09198385931755,
-    "host_name": "Black Swan 4 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "2 W BROUGHTON ST",
-    "approx_distance_meters": 0.00031524970189727145
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1622631230700010224",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -10408,21 +7813,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "109 W BROUGHTON ST #202",
     "approx_distance_meters": 4.474146461965892e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1622631232258432424",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.07861428258507,
-    "longitude": -81.09355401875673,
-    "host_name": "Black Swan 4 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "109 WHITAKER ST",
-    "approx_distance_meters": 0.0001848984823892555
   },
   {
     "url": "https://www.airbnb.com/rooms/1622631238888156567",
@@ -10468,21 +7858,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "6 E STATE ST",
     "approx_distance_meters": 7.654561649219213e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1623273875495311901",
-    "rental_type": "Entire rental unit",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.11726,
-    "longitude": -81.24402,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "139 READ ST",
-    "approx_distance_meters": 0.00019100045532179045
   },
   {
     "url": "https://www.airbnb.com/rooms/1623342275553886331",
@@ -10543,21 +7918,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "220 PARKSIDE BLVD",
     "approx_distance_meters": 0.00026707136333147126
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1625492340891223953",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.21087,
-    "longitude": -81.18967,
-    "host_name": "Keenya 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "35 CYPRESS LOOP",
-    "approx_distance_meters": 0.00020525206567057893
   },
   {
     "url": "https://www.airbnb.com/rooms/1625593671984677304",
@@ -10665,21 +8025,6 @@ const locations = [
     "approx_distance_meters": 0.0006351751690049281
   },
   {
-    "url": "https://www.airbnb.com/rooms/1632147438511514448",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05905838749175,
-    "longitude": -81.10194573172602,
-    "host_name": "Katie Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "1909 BARNARD ST",
-    "approx_distance_meters": 0.00011318927204588093
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1632611681075662410",
     "rental_type": "Entire home",
     "guests": 2.0,
@@ -10755,36 +8100,6 @@ const locations = [
     "approx_distance_meters": 0.0005589968140720952
   },
   {
-    "url": "https://www.airbnb.com/rooms/1636401277213083025",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.03758,
-    "longitude": -81.0035,
-    "host_name": "Solace Escapes Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "101 FORESTAY CT",
-    "approx_distance_meters": 0.0002756655103631475
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1637068172593404403",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.03818651144643,
-    "longitude": -80.99557770809443,
-    "host_name": "Southern Grace Stays Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2 FLAGSHIP CT",
-    "approx_distance_meters": 0.00022327252437397396
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1637243394214512400",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -10813,21 +8128,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "602 SANDHILL RD",
     "approx_distance_meters": 0.00019062248672859183
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1638552776586763946",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.10044842281869,
-    "longitude": -81.28461135992391,
-    "host_name": "Ishmail 4 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "119 MORGAN PINES DR",
-    "approx_distance_meters": 0.0005805318306443905
   },
   {
     "url": "https://www.airbnb.com/rooms/1640040026510288061",
@@ -10873,21 +8173,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "1 WINDMILL CT",
     "approx_distance_meters": 2.930958652756154e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1642822499852700334",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.02349376131777,
-    "longitude": -80.85984006168948,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1217 BAY ST #108B",
-    "approx_distance_meters": 0.0009622058316315498
   },
   {
     "url": "https://www.airbnb.com/rooms/1642931684048285492",
@@ -10950,21 +8235,6 @@ const locations = [
     "approx_distance_meters": 0.0010391636177044079
   },
   {
-    "url": "https://www.airbnb.com/rooms/1648445616177773076",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.14235812056747,
-    "longitude": -81.37500194160246,
-    "host_name": "Vicki Superhost \u00b7 9 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "HIGHWAY 16",
-    "approx_distance_meters": 0.029158095300258764
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1648526312201167883",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -11010,21 +8280,6 @@ const locations = [
     "approx_distance_meters": 0.00015589705344006718
   },
   {
-    "url": "https://www.airbnb.com/rooms/1653067485132362257",
-    "rental_type": "Entire condo",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.079499142821156,
-    "longitude": -81.09377090344663,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "120 W BROUGHTON ST #401",
-    "approx_distance_meters": 7.405789368121018e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1653088512205434880",
     "rental_type": "Entire condo",
     "guests": 8.0,
@@ -11055,36 +8310,6 @@ const locations = [
     "approx_distance_meters": 6.452483709345538e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1653114792551670808",
-    "rental_type": "Entire condo",
-    "guests": 16.0,
-    "bedrooms": 10.0,
-    "beds": 14.0,
-    "baths": 5.0,
-    "latitude": 32.0792898660365,
-    "longitude": -81.09336162476632,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "103 W BROUGHTON ST #103",
-    "approx_distance_meters": 0.00012311482116858174
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1653128363381975621",
-    "rental_type": "Entire condo",
-    "guests": 13.0,
-    "bedrooms": 6.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 32.080845980591995,
-    "longitude": -81.09367084895712,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "200 W BRYAN ST",
-    "approx_distance_meters": 0.00027219836172197987
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1653169126777012501",
     "rental_type": "Entire condo",
     "guests": 6.0,
@@ -11100,21 +8325,6 @@ const locations = [
     "approx_distance_meters": 1.9537266021822917e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1653244676666391054",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.07877558865164,
-    "longitude": -81.09321129741437,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "116 WHITAKER ST",
-    "approx_distance_meters": 0.0001378987676986493
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1653317023375988564",
     "rental_type": "Entire condo",
     "guests": 16.0,
@@ -11128,21 +8338,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "10 WHITAKER ST",
     "approx_distance_meters": 2.6654803267459973e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1653766875802052482",
-    "rental_type": "Entire condo",
-    "guests": 16.0,
-    "bedrooms": 6.0,
-    "beds": 8.0,
-    "baths": 4.0,
-    "latitude": 32.08069,
-    "longitude": -81.09332,
-    "host_name": "Heirloom Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "190 W BRYAN ST #A",
-    "approx_distance_meters": 0.0001621599199584011
   },
   {
     "url": "https://www.airbnb.com/rooms/1654481991204591610",
@@ -11188,36 +8383,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "17 E DEERWOOD RD",
     "approx_distance_meters": 1.2292292823417095e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1655335896944843984",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 32.01428758587195,
-    "longitude": -80.97095311726405,
-    "host_name": "Antoinette Superhost \u00b7 14 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "14",
-    "approximate_address": null,
-    "approx_distance_meters": 0.00017059834131604148
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1655377395601457518",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.18923250282134,
-    "longitude": -81.20848428850357,
-    "host_name": "Shy Superhost \u00b7 3 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "70 TILLER WAY",
-    "approx_distance_meters": 0.00026991594215707617
   },
   {
     "url": "https://www.airbnb.com/rooms/1656888459370729346",
@@ -11338,21 +8503,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "303 MAPMAKER LN",
     "approx_distance_meters": 7.991084975904675e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/16631717",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.9803,
-    "longitude": -80.9936,
-    "host_name": "John Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "STONE ST",
-    "approx_distance_meters": 0.000263906330682753
   },
   {
     "url": "https://www.airbnb.com/rooms/1663190508912907923",
@@ -11505,21 +8655,6 @@ const locations = [
     "approx_distance_meters": 0.0002655947166262138
   },
   {
-    "url": "https://www.airbnb.com/rooms/1673981415894323877",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.24337,
-    "longitude": -81.22224,
-    "host_name": "Sherry 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.021144788283919348
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1674873317546475436",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -11533,36 +8668,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "3009 YOUNG ST",
     "approx_distance_meters": 5.9410502015649274e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1676217180666550882",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07273,
-    "longitude": -81.08951,
-    "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "324 E HARRIS ST",
-    "approx_distance_meters": 0.00028751598630766365
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1676217886486404060",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07195952288494,
-    "longitude": -81.09073194318034,
-    "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "346 LINCOLN ST",
-    "approx_distance_meters": 7.727145245298495e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1677872441327393562",
@@ -11805,51 +8910,6 @@ const locations = [
     "approx_distance_meters": 8.710000813024027e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1691649002569157979",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.839610879501947,
-    "longitude": -81.32975663767706,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.10831561453493445
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1691980679527172170",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.1015,
-    "longitude": -81.2493,
-    "host_name": "Emily 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "1254 HOMER CITY WAY",
-    "approx_distance_meters": 0.00024101457638493293
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1693113930783863629",
-    "rental_type": "Entire guest suite",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.040621786878305,
-    "longitude": -81.10144797641485,
-    "host_name": "Randy 1 month hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "140 E 57TH ST",
-    "approx_distance_meters": 0.0001820092243692384
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1693548177016423827",
     "rental_type": "Entire guesthouse",
     "guests": 2.0,
@@ -12015,21 +9075,6 @@ const locations = [
     "approx_distance_meters": 5.416979609132204e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1699497531963688466",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 4.0,
-    "latitude": 31.7724,
-    "longitude": -81.3222,
-    "host_name": "Fairly Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16499628100589883
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1699732374591475522",
     "rental_type": "Entire home",
     "guests": 9.0,
@@ -12075,21 +9120,6 @@ const locations = [
     "approx_distance_meters": 0.00031305149146096503
   },
   {
-    "url": "https://www.airbnb.com/rooms/1700964419442568877",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.08674886922247,
-    "longitude": -81.12252062180572,
-    "host_name": "Rebecca Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "217 BAKER ST",
-    "approx_distance_meters": 0.0001783968266704943
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1702546867202227872",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -12105,21 +9135,6 @@ const locations = [
     "approx_distance_meters": 5.282457631324574e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1702825723333214358",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 31.6986,
-    "longitude": -81.2819,
-    "host_name": "Megan 1 month hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.1935402996054419
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1702998109364969067",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -12133,21 +9148,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "11 GOVERNMENT RD",
     "approx_distance_meters": 2.9425301553490553e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1703121385884277094",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.99017290199702,
-    "longitude": -81.22585280444041,
-    "host_name": "Gerald Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "102 PINE GROVE DR",
-    "approx_distance_meters": 0.0006308510820569835
   },
   {
     "url": "https://www.airbnb.com/rooms/1703996998798016992",
@@ -12225,21 +9225,6 @@ const locations = [
     "approx_distance_meters": 3.9236681880689284e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1705857023267791954",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.06187,
-    "longitude": -81.09264,
-    "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "416 E HENRY ST",
-    "approx_distance_meters": 0.0002799899563446727
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1705929673024720690",
     "rental_type": "Entire townhouse",
     "guests": 8.0,
@@ -12253,36 +9238,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "415 BONAVENTURE RD",
     "approx_distance_meters": 0.0003218672781380681
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1705997854711264311",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.059164210710556,
-    "longitude": -81.10122933526976,
-    "host_name": "Daniel Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "113 W 35TH ST",
-    "approx_distance_meters": 5.6783187011497097e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1706720156198122249",
-    "rental_type": "Entire guesthouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.6982,
-    "longitude": -81.2719,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.1851055415107131
   },
   {
     "url": "https://www.airbnb.com/rooms/1706923303195424455",
@@ -12330,21 +9285,6 @@ const locations = [
     "approx_distance_meters": 5.1163230163644353e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1707492554708177116",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.05421,
-    "longitude": -81.10594,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2601 MONTGOMERY ST",
-    "approx_distance_meters": 8.194411665798481e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1707494150246562170",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -12390,36 +9330,6 @@ const locations = [
     "approx_distance_meters": 2.972631657965834e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1709545001189955263",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05498686775628,
-    "longitude": -81.1066278537823,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "419 W 41ST ST",
-    "approx_distance_meters": 0.0002181968280896594
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1709547884444394700",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05452386291599,
-    "longitude": -81.10663980295828,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "423 W 42ND ST",
-    "approx_distance_meters": 0.0001517243131314888
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1709549492517996719",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -12433,21 +9343,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "2626 W VICTORY DR",
     "approx_distance_meters": 0.0002919158389811948
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1709550701144954572",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.05414386080603,
-    "longitude": -81.1069523792644,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "422 W 43RD ST",
-    "approx_distance_meters": 0.0002877823296357684
   },
   {
     "url": "https://www.airbnb.com/rooms/1709552486917456862",
@@ -12585,36 +9480,6 @@ const locations = [
     "approx_distance_meters": 8.426685129736861e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1711790903965459935",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.03408,
-    "longitude": -81.04991,
-    "host_name": "Laura W/Southern Grace Stays Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "2701 RIVER DR",
-    "approx_distance_meters": 0.0003135575601742557
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1711860483453506764",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.05446,
-    "longitude": -81.10644,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "415 W 42ND ST",
-    "approx_distance_meters": 0.0001447421035895354
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1713317843228214797",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -12658,21 +9523,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "2609 GOVERNOR ST",
     "approx_distance_meters": 6.185105635378212e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1716225067154508196",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05466,
-    "longitude": -81.10724,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "503 W 42ND ST",
-    "approx_distance_meters": 0.00012592816274643978
   },
   {
     "url": "https://www.airbnb.com/rooms/1716871305589445400",
@@ -12720,21 +9570,6 @@ const locations = [
     "approx_distance_meters": 0.00018950457328644914
   },
   {
-    "url": "https://www.airbnb.com/rooms/1717003229819283239",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05437225270678,
-    "longitude": -81.10735274239842,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2607 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.0001284096943906599
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1718120700026544653",
     "rental_type": "Entire home",
     "guests": 9.0,
@@ -12765,36 +9600,6 @@ const locations = [
     "approx_distance_meters": 1.4117893459007291e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1719154139258092843",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05425446504384,
-    "longitude": -81.10705080789984,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2607 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.00021752648614691778
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1719239476380470743",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05296392834771,
-    "longitude": -81.10705668707709,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2802 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.00022288571453236132
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1720407388119132548",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -12808,21 +9613,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "415 W 42ND ST",
     "approx_distance_meters": 0.00011100712475837085
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1720567787645437299",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05334208538239,
-    "longitude": -81.10736679872664,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "2711 MARTIN LUTHER KING BLVD",
-    "approx_distance_meters": 0.00016986075548653724
   },
   {
     "url": "https://www.airbnb.com/rooms/1720620773342843293",
@@ -12853,21 +9643,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "2 HIDDEN LAKE CT",
     "approx_distance_meters": 0.0006528021399469485
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1721840673821813663",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0584,
-    "longitude": -81.1381,
-    "host_name": "Tybee Cottages Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "3008 2ND AVE",
-    "approx_distance_meters": 0.00020062687366112587
   },
   {
     "url": "https://www.airbnb.com/rooms/1721978963600351913",
@@ -12930,51 +9705,6 @@ const locations = [
     "approx_distance_meters": 3.469799430642182e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1725558621062152879",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.0243,
-    "longitude": -81.0694,
-    "host_name": "Sherri 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "4815 LAROCHE AVE",
-    "approx_distance_meters": 0.0005808064811531912
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1726487258445511730",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05479321289768,
-    "longitude": -81.10534425267377,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "W 41ST ST",
-    "approx_distance_meters": 0.00016239538634142805
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1726488198774041220",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.055172065856645,
-    "longitude": -81.10550648331683,
-    "host_name": "Rhino Stays Superhost \u00b7 1 month hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "402 W 41ST ST",
-    "approx_distance_meters": 0.00017777003581535004
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1726489118237528399",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -13005,21 +9735,6 @@ const locations = [
     "approx_distance_meters": 0.00040547161267865696
   },
   {
-    "url": "https://www.airbnb.com/rooms/17418220",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.074,
-    "longitude": -81.0874,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "231 HOUSTON ST",
-    "approx_distance_meters": 5.4035285017480415e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/17473465",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -13033,21 +9748,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "542 E ST JULIAN ST",
     "approx_distance_meters": 5.267640876195842e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/17527106",
-    "rental_type": "Entire home",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.04037,
-    "longitude": -80.99098,
-    "host_name": "Kimberly Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "170 PENROSE DR",
-    "approx_distance_meters": 0.0003834903672273077
   },
   {
     "url": "https://www.airbnb.com/rooms/17586018",
@@ -13078,21 +9778,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "348 LINCOLN ST",
     "approx_distance_meters": 5.055846698412638e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/17607155",
-    "rental_type": "Entire guest suite",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.8893,
-    "longitude": -81.20304,
-    "host_name": "Phil Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05266282682675807
   },
   {
     "url": "https://www.airbnb.com/rooms/17733402",
@@ -13138,21 +9823,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "521 E CHARLTON ST",
     "approx_distance_meters": 3.523292395091541e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/18404797",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0798,
-    "longitude": -81.0952,
-    "host_name": "Jack Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "227 W BROUGHTON ST #6",
-    "approx_distance_meters": 0.000150242619673184
   },
   {
     "url": "https://www.airbnb.com/rooms/18461612",
@@ -13230,21 +9900,6 @@ const locations = [
     "approx_distance_meters": 7.580608863038005e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/18756991",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.08003,
-    "longitude": -81.08805,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "225 E BAY ST",
-    "approx_distance_meters": 0.00019533465565301566
-  },
-  {
     "url": "https://www.airbnb.com/rooms/18756995",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -13305,21 +9960,6 @@ const locations = [
     "approx_distance_meters": 0.00016819018184873662
   },
   {
-    "url": "https://www.airbnb.com/rooms/1925201",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.05388,
-    "longitude": -81.10534,
-    "host_name": "Angelina 13 years hosting",
-    "superhost": "",
-    "years_hosting": "13",
-    "approximate_address": "313 W 42ND ST",
-    "approx_distance_meters": 0.00014218153117585784
-  },
-  {
     "url": "https://www.airbnb.com/rooms/19282828",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -13365,21 +10005,6 @@ const locations = [
     "approx_distance_meters": 0.00015288327213901475
   },
   {
-    "url": "https://www.airbnb.com/rooms/19469150",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0734,
-    "longitude": -81.0868,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "544 E LIBERTY ST",
-    "approx_distance_meters": 0.00014122389192353175
-  },
-  {
     "url": "https://www.airbnb.com/rooms/19530905",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -13393,21 +10018,6 @@ const locations = [
     "years_hosting": "13",
     "approximate_address": "420 E LIBERTY ST",
     "approx_distance_meters": 2.1300633590643617e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/19531594",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": "",
-    "baths": 1.0,
-    "latitude": 32.0739,
-    "longitude": -81.0886,
-    "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "412 E LIBERTY ST",
-    "approx_distance_meters": 0.00016440226182747942
   },
   {
     "url": "https://www.airbnb.com/rooms/19550066",
@@ -13485,21 +10095,6 @@ const locations = [
     "approx_distance_meters": 3.424582539010459e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/19979086",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.08035,
-    "longitude": -81.08835,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "207 E RIVER ST",
-    "approx_distance_meters": 0.0004260620332681203
-  },
-  {
     "url": "https://www.airbnb.com/rooms/20052704",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -13513,21 +10108,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "208 E JONES ST",
     "approx_distance_meters": 1.8707328034470544e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/20253944",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.7723,
-    "longitude": -81.284,
-    "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1565111474430774
   },
   {
     "url": "https://www.airbnb.com/rooms/20419501",
@@ -13575,21 +10155,6 @@ const locations = [
     "approx_distance_meters": 3.62953735351367e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/20819055",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 1.0,
-    "latitude": 31.88088,
-    "longitude": -81.24313,
-    "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.047894953337048525
-  },
-  {
     "url": "https://www.airbnb.com/rooms/21005555",
     "rental_type": "Entire rental unit",
     "guests": 6.0,
@@ -13603,51 +10168,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "110 BARNARD ST #313",
     "approx_distance_meters": 6.562215997465498e-06
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/2134617",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.05984,
-    "longitude": -81.10368,
-    "host_name": "Shana 13 years hosting",
-    "superhost": "",
-    "years_hosting": "13",
-    "approximate_address": "1902 MONTGOMERY ST",
-    "approx_distance_meters": 0.00019236842323322128
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/21484126",
-    "rental_type": "Entire guest suite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.6219,
-    "longitude": -81.27528,
-    "host_name": "Henry Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.23613091547738588
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/21487415",
-    "rental_type": "Entire guest suite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.61991,
-    "longitude": -81.2751,
-    "host_name": "Henry Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.23746094418994831
   },
   {
     "url": "https://www.airbnb.com/rooms/21543814",
@@ -13740,21 +10260,6 @@ const locations = [
     "approx_distance_meters": 4.348971152146098e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/22251992",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.989320779387093,
-    "longitude": -81.09858004810044,
-    "host_name": "Harrison 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "8508 LABERTA BLVD",
-    "approx_distance_meters": 0.00025391292205993374
-  },
-  {
     "url": "https://www.airbnb.com/rooms/22447555",
     "rental_type": "Entire rental unit",
     "guests": 8.0,
@@ -13785,36 +10290,6 @@ const locations = [
     "approx_distance_meters": 6.935808730908181e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/22447744",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0718,
-    "longitude": -81.0919,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "207 E JONES ST",
-    "approx_distance_meters": 0.0002694240834148027
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/22707883",
-    "rental_type": "Entire rental unit",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.08172,
-    "longitude": -81.09586,
-    "host_name": "Andrew 12 years hosting",
-    "superhost": "",
-    "years_hosting": "12",
-    "approximate_address": "23 MONTGOMERY ST",
-    "approx_distance_meters": 0.00014077311881371645
-  },
-  {
     "url": "https://www.airbnb.com/rooms/22770344",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -13828,21 +10303,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "310 W BROUGHTON ST #3014",
     "approx_distance_meters": 4.840649977774554e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/22889268",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.0323,
-    "longitude": -81.0569,
-    "host_name": "Jimmy Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "3104 HARRIS ST",
-    "approx_distance_meters": 0.00015596460789985274
   },
   {
     "url": "https://www.airbnb.com/rooms/22908420",
@@ -14040,21 +10500,6 @@ const locations = [
     "approx_distance_meters": 4.309598162813296e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/24033433",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0718,
-    "longitude": -81.0919,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "207 E JONES ST",
-    "approx_distance_meters": 0.0002694240834148027
-  },
-  {
     "url": "https://www.airbnb.com/rooms/24163559",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -14085,21 +10530,6 @@ const locations = [
     "approx_distance_meters": 0.0007634204993116713
   },
   {
-    "url": "https://www.airbnb.com/rooms/24492483",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.69991,
-    "longitude": -81.27225,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.18452939331363222
-  },
-  {
     "url": "https://www.airbnb.com/rooms/24797268",
     "rental_type": "Entire villa",
     "guests": 6.0,
@@ -14128,21 +10558,6 @@ const locations = [
     "years_hosting": "13",
     "approximate_address": "310 E JONES ST",
     "approx_distance_meters": 2.9269840584349743e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/24818962",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 4.0,
-    "latitude": 32.002586309704824,
-    "longitude": -80.96970376645238,
-    "host_name": "Peggy 13 years hosting",
-    "superhost": "",
-    "years_hosting": "13",
-    "approximate_address": "908 PENN WALLER RD",
-    "approx_distance_meters": 0.0005861265984640088
   },
   {
     "url": "https://www.airbnb.com/rooms/25014298",
@@ -14218,36 +10633,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "535 E LIBERTY ST",
     "approx_distance_meters": 0.00018182851139046384
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/25325973",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.73241,
-    "longitude": -81.23671,
-    "host_name": "Jackson Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.13775303017671392
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/25380285",
-    "rental_type": "Entire guest suite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07297,
-    "longitude": -81.08882,
-    "host_name": "Simona Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "312 E HARRIS ST",
-    "approx_distance_meters": 0.00012226210480191928
   },
   {
     "url": "https://www.airbnb.com/rooms/25484296",
@@ -14355,36 +10740,6 @@ const locations = [
     "approx_distance_meters": 0.00017870597009113443
   },
   {
-    "url": "https://www.airbnb.com/rooms/26388964",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07655,
-    "longitude": -81.08278,
-    "host_name": "Gina Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "661 E BROUGHTON ST",
-    "approx_distance_meters": 0.00025931444737410425
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/26805434",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0718,
-    "longitude": -81.0919,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "207 E JONES ST",
-    "approx_distance_meters": 0.0002694240834148027
-  },
-  {
     "url": "https://www.airbnb.com/rooms/26868109",
     "rental_type": "Entire guest suite",
     "guests": 2.0,
@@ -14398,21 +10753,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "308 E 41ST ST",
     "approx_distance_meters": 0.00010507187363409575
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/27057499",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0802,
-    "longitude": -81.0881,
-    "host_name": "Sarah Ashley Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "225 E BAY ST",
-    "approx_distance_meters": 0.0003300091251239587
   },
   {
     "url": "https://www.airbnb.com/rooms/27223488",
@@ -14460,51 +10800,6 @@ const locations = [
     "approx_distance_meters": 3.801916945082069e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/27310899",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0806,
-    "longitude": -81.0881,
-    "host_name": "Sarah Ashley Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "215 E RIVER ST",
-    "approx_distance_meters": 0.00014674785233759907
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/27311671",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0805,
-    "longitude": -81.0879,
-    "host_name": "Sarah Ashley Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "228 E BAY ST #5",
-    "approx_distance_meters": 0.00017765287805310615
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/27343301",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03408,
-    "longitude": -81.04823,
-    "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "VICTORY DR",
-    "approx_distance_meters": 0.0007508704140572738
-  },
-  {
     "url": "https://www.airbnb.com/rooms/27368094",
     "rental_type": "Entire rental unit",
     "guests": 3.0,
@@ -14518,21 +10813,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "222 E HARRIS ST",
     "approx_distance_meters": 7.24241780858607e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/27466922",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 32.0622,
-    "longitude": -81.0955,
-    "host_name": "Jay Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "1312 ABERCORN ST",
-    "approx_distance_meters": 6.82389645659535e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/27627652",
@@ -14623,21 +10903,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "326 MAPMAKER LN",
     "approx_distance_meters": 0.000610237254333294
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/28666684",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.0135,
-    "longitude": -80.86551,
-    "host_name": "Steven 16 years hosting",
-    "superhost": "",
-    "years_hosting": "16",
-    "approximate_address": "110 ANDREA DR",
-    "approx_distance_meters": 0.0003317965055957271
   },
   {
     "url": "https://www.airbnb.com/rooms/28751615",
@@ -14745,36 +11010,6 @@ const locations = [
     "approx_distance_meters": 1.4491860197287531e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/30979336",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.02479,
-    "longitude": -80.97156,
-    "host_name": "Mark 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "212 OVERLOOK RD",
-    "approx_distance_meters": 0.00031672251756816733
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/31102127",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0792,
-    "longitude": -81.0942,
-    "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "110 BARNARD ST #410",
-    "approx_distance_meters": 6.405229489311958e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/31308568",
     "rental_type": "Entire condo",
     "guests": 8.0,
@@ -14820,21 +11055,6 @@ const locations = [
     "approx_distance_meters": 6.965996948136305e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/31952682",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0339,
-    "longitude": -81.04826,
-    "host_name": "Mary Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "VICTORY DR",
-    "approx_distance_meters": 0.0005927084662532825
-  },
-  {
     "url": "https://www.airbnb.com/rooms/32067143",
     "rental_type": "Entire townhouse",
     "guests": 7.0,
@@ -14848,51 +11068,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "2612 WHATLEY RD #8B",
     "approx_distance_meters": 4.636488235505095e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/32067563",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.07245,
-    "longitude": -81.08683,
-    "host_name": "Gallery Stays 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "541 E LIBERTY ST",
-    "approx_distance_meters": 0.0001697319448142803
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/32067841",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.07185,
-    "longitude": -81.08875,
-    "host_name": "Gallery Stays 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "501 E CHARLTON ST",
-    "approx_distance_meters": 0.00012398598485225543
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/32444669",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.08077,
-    "longitude": -81.09504,
-    "host_name": "Cory And Barbara Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "232 W ST JULIAN ST",
-    "approx_distance_meters": 3.3980584575922855e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/32457969",
@@ -14923,21 +11098,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "310 E JONES ST",
     "approx_distance_meters": 0.00012926883961488124
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/32637961",
-    "rental_type": "Entire townhouse",
-    "guests": 16.0,
-    "bedrooms": 6.0,
-    "beds": 12.0,
-    "baths": 4.0,
-    "latitude": 32.07294,
-    "longitude": -81.08835,
-    "host_name": "Gallery Stays 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "501 E LIBERTY ST",
-    "approx_distance_meters": 0.00020280604642402924
   },
   {
     "url": "https://www.airbnb.com/rooms/32715472",
@@ -15030,36 +11190,6 @@ const locations = [
     "approx_distance_meters": 4.6714041420496516e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/34331221",
-    "rental_type": "Entire serviced apartment",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0813,
-    "longitude": -81.081,
-    "host_name": "Keith 14 years hosting",
-    "superhost": "",
-    "years_hosting": "14",
-    "approximate_address": "99 GRAND PRIZE OF AMERICA",
-    "approx_distance_meters": 0.0014225879327309878
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/34356937",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.0805,
-    "longitude": -81.0962,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "39 MONTGOMERY ST",
-    "approx_distance_meters": 0.00011238590640040149
-  },
-  {
     "url": "https://www.airbnb.com/rooms/34356956",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -15073,21 +11203,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "536 E LIBERTY ST",
     "approx_distance_meters": 3.5976087906311613e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/34815689",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.8172,
-    "longitude": -81.3731,
-    "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.15333336295942213
   },
   {
     "url": "https://www.airbnb.com/rooms/34866724",
@@ -15135,21 +11250,6 @@ const locations = [
     "approx_distance_meters": 0.00018770089167201596
   },
   {
-    "url": "https://www.airbnb.com/rooms/35159954",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0804,
-    "longitude": -81.0881,
-    "host_name": "Sarah Ashley Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "215 E RIVER ST",
-    "approx_distance_meters": 0.00032542331922258226
-  },
-  {
     "url": "https://www.airbnb.com/rooms/35224050",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -15178,36 +11278,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "29 MAPMAKER LN",
     "approx_distance_meters": 0.000165010816020218
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/35377787",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.05975,
-    "longitude": -81.09424,
-    "host_name": "Jewell Superhost \u00b7 12 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "12",
-    "approximate_address": "402 32ND ST #E",
-    "approx_distance_meters": 0.0002104785960826818
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/35842280",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05861,
-    "longitude": -81.10075,
-    "host_name": "Rob Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "20 W 36TH ST",
-    "approx_distance_meters": 0.00020067846012446626
   },
   {
     "url": "https://www.airbnb.com/rooms/35872820",
@@ -15360,21 +11430,6 @@ const locations = [
     "approx_distance_meters": 0.00015347374643086118
   },
   {
-    "url": "https://www.airbnb.com/rooms/37392385",
-    "rental_type": "Entire cottage",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01333,
-    "longitude": -81.08061,
-    "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "25 BROADMOOR CIR",
-    "approx_distance_meters": 0.00019955037045128832
-  },
-  {
     "url": "https://www.airbnb.com/rooms/37395624",
     "rental_type": "Entire cottage",
     "guests": 2.0,
@@ -15403,21 +11458,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "2009 BACON PARK DR",
     "approx_distance_meters": 0.00030995996847312765
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/37417637",
-    "rental_type": "Entire cottage",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01183,
-    "longitude": -81.07872,
-    "host_name": "Anna Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "2100 BONA BELLA AVE",
-    "approx_distance_meters": 0.0012233109459503582
   },
   {
     "url": "https://www.airbnb.com/rooms/37417642",
@@ -15493,21 +11533,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "25 BRANNEN DR",
     "approx_distance_meters": 0.0005378663913951306
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/37803201",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.17357,
-    "longitude": -81.24428,
-    "host_name": "James 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "SPRING LAKE CIR",
-    "approx_distance_meters": 0.00021978799455259562
   },
   {
     "url": "https://www.airbnb.com/rooms/37914293",
@@ -15780,21 +11805,6 @@ const locations = [
     "approx_distance_meters": 5.2294811097351776e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/39230330",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.07216,
-    "longitude": -81.08743,
-    "host_name": "Mary Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "537 E HARRIS ST",
-    "approx_distance_meters": 0.00015781881031316856
-  },
-  {
     "url": "https://www.airbnb.com/rooms/39274812",
     "rental_type": "Entire cottage",
     "guests": 2.0,
@@ -15930,21 +11940,6 @@ const locations = [
     "approx_distance_meters": 0.0004694588561413168
   },
   {
-    "url": "https://www.airbnb.com/rooms/40531568",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0793,
-    "longitude": -81.0948,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "215 W BROUGHTON ST",
-    "approx_distance_meters": 0.0001613171286218996
-  },
-  {
     "url": "https://www.airbnb.com/rooms/40563996",
     "rental_type": "Entire cottage",
     "guests": 4.0,
@@ -16035,21 +12030,6 @@ const locations = [
     "approx_distance_meters": 0.00011182683395704838
   },
   {
-    "url": "https://www.airbnb.com/rooms/40865696",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0726,
-    "longitude": -81.0875,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "530 E HARRIS ST",
-    "approx_distance_meters": 0.0001534456704244318
-  },
-  {
     "url": "https://www.airbnb.com/rooms/40865697",
     "rental_type": "Entire townhouse",
     "guests": 8.0,
@@ -16138,21 +12118,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "520 E HARRIS ST",
     "approx_distance_meters": 6.225936248985912e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/4103191",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.01608,
-    "longitude": -80.86694,
-    "host_name": "Beth 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "118 PELICAN DR",
-    "approx_distance_meters": 0.00018084560842926683
   },
   {
     "url": "https://www.airbnb.com/rooms/41238644",
@@ -16273,51 +12238,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "1217 BAY ST #101B",
     "approx_distance_meters": 0.0004555714337003687
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/42112006",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 3.0,
-    "latitude": 32.0773,
-    "longitude": -81.0889,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "123 LINCOLN ST",
-    "approx_distance_meters": 9.7022655280425e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/42112021",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0788,
-    "longitude": -81.0859,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "508 E BRYAN ST",
-    "approx_distance_meters": 0.00014825445374110717
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/42458594",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.03479,
-    "longitude": -81.12925,
-    "host_name": "Maria 6 years hosting",
-    "superhost": "",
-    "years_hosting": "6",
-    "approximate_address": "1226 SHERMAN AVE",
-    "approx_distance_meters": 0.00020666388064827216
   },
   {
     "url": "https://www.airbnb.com/rooms/42505423",
@@ -16530,36 +12450,6 @@ const locations = [
     "approx_distance_meters": 8.925136800877524e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/43421065",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.0237,
-    "longitude": -80.85899,
-    "host_name": "Vacasa Georgia 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "1217 BAY ST #316A",
-    "approx_distance_meters": 0.00035879430006064593
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/43449553",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.02311,
-    "longitude": -80.86047,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1217 BAY ST #309C",
-    "approx_distance_meters": 0.0008521517986296558
-  },
-  {
     "url": "https://www.airbnb.com/rooms/43527397",
     "rental_type": "Campsite",
     "guests": 2.0,
@@ -16650,36 +12540,6 @@ const locations = [
     "approx_distance_meters": 0.00014027268531485894
   },
   {
-    "url": "https://www.airbnb.com/rooms/4399980",
-    "rental_type": "Entire townhouse",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0718,
-    "longitude": -81.0918,
-    "host_name": "Powell Superhost \u00b7 12 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "12",
-    "approximate_address": "208 E JONES ST",
-    "approx_distance_meters": 0.00025388244284977284
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/44004658",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.72064,
-    "longitude": -81.25564,
-    "host_name": "Hope 6 years hosting",
-    "superhost": "",
-    "years_hosting": "6",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.15995845637842862
-  },
-  {
     "url": "https://www.airbnb.com/rooms/44196068",
     "rental_type": "Entire home",
     "guests": 7.0,
@@ -16693,21 +12553,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "128 W TISBURY LN",
     "approx_distance_meters": 0.00015119130169928105
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/44374265",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0792,
-    "longitude": -81.0942,
-    "host_name": "Ron Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "110 BARNARD ST #410",
-    "approx_distance_meters": 6.405229489311958e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/44450808",
@@ -16770,36 +12615,6 @@ const locations = [
     "approx_distance_meters": 9.745118397697523e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/44790258",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07433,
-    "longitude": -81.08748,
-    "host_name": "Kelly Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "509 E MCDONOUGH ST",
-    "approx_distance_meters": 0.00015619806245977896
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/44791148",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0806,
-    "longitude": -81.0885,
-    "host_name": "Sarah Ashley Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "201 E RIVER ST",
-    "approx_distance_meters": 0.00020862817349702361
-  },
-  {
     "url": "https://www.airbnb.com/rooms/45052900",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -16845,21 +12660,6 @@ const locations = [
     "approx_distance_meters": 7.946662169502433e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/45159393",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07947,
-    "longitude": -81.08862,
-    "host_name": "Gregory Earl Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "200 E ST JULIAN ST",
-    "approx_distance_meters": 0.0002036898107201351
-  },
-  {
     "url": "https://www.airbnb.com/rooms/45216179",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -16873,21 +12673,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "306 MAUPAS AVE",
     "approx_distance_meters": 3.401823180519247e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/45225076",
-    "rental_type": "Entire home",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.05138,
-    "longitude": -81.09718,
-    "host_name": "Angelique Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "402 E VICTORY DR",
-    "approx_distance_meters": 0.00023456332269849395
   },
   {
     "url": "https://www.airbnb.com/rooms/45238392",
@@ -16950,36 +12735,6 @@ const locations = [
     "approx_distance_meters": 4.4913490125455224e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/45398819",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.99034,
-    "longitude": -81.076,
-    "host_name": "Sylvia Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "SKIDAWAY RD",
-    "approx_distance_meters": 0.0001812740410528116
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/45435531",
-    "rental_type": "Entire cottage",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 1.0,
-    "latitude": 32.04471,
-    "longitude": -81.00418,
-    "host_name": "Kamann Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "ISLANDS EXPY",
-    "approx_distance_meters": 0.0008646102267956258
-  },
-  {
     "url": "https://www.airbnb.com/rooms/45450454",
     "rental_type": "Entire townhouse",
     "guests": 4.0,
@@ -17008,21 +12763,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "18 ABERCORN ST",
     "approx_distance_meters": 0.00013768132616137838
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/45486310",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01539,
-    "longitude": -80.97622,
-    "host_name": "Christina Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "124 WASSAW RD",
-    "approx_distance_meters": 0.0002362010185081025
   },
   {
     "url": "https://www.airbnb.com/rooms/45505634",
@@ -17055,21 +12795,6 @@ const locations = [
     "approx_distance_meters": 9.403737870484512e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/45718974",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06917,
-    "longitude": -81.05389,
-    "host_name": "Devin 6 years hosting",
-    "superhost": "",
-    "years_hosting": "6",
-    "approximate_address": "2002 E PRESIDENT ST",
-    "approx_distance_meters": 0.00040155120507199236
-  },
-  {
     "url": "https://www.airbnb.com/rooms/45896777",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -17083,36 +12808,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "313 MAPMAKER LN",
     "approx_distance_meters": 0.0001546793435793028
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/45954785",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 5.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.938,
-    "longitude": -81.31609,
-    "host_name": "Debra Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.04209640799427981
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/45990540",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.07369,
-    "longitude": -81.09026,
-    "host_name": "Jenny Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "301 E LIBERTY ST",
-    "approx_distance_meters": 0.0002246158902105201
   },
   {
     "url": "https://www.airbnb.com/rooms/45994163",
@@ -17158,21 +12853,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "8505 HEATHERWOOD DR",
     "approx_distance_meters": 0.0001472891923707915
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/46412578",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0795,
-    "longitude": -81.09395,
-    "host_name": "Maxx 6 years hosting",
-    "superhost": "",
-    "years_hosting": "6",
-    "approximate_address": "122 W BROUGHTON ST #002",
-    "approx_distance_meters": 0.00012176785612107264
   },
   {
     "url": "https://www.airbnb.com/rooms/46414413",
@@ -17250,81 +12930,6 @@ const locations = [
     "approx_distance_meters": 0.00011746479325930862
   },
   {
-    "url": "https://www.airbnb.com/rooms/46727566",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 6.0,
-    "beds": 9.0,
-    "baths": 2.0,
-    "latitude": 31.98531,
-    "longitude": -81.12816,
-    "host_name": "Monica 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "15 SUMMIT DR",
-    "approx_distance_meters": 0.00020871646361502423
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/46779687",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0806,
-    "longitude": -81.0928,
-    "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "120 BRYAN ST W",
-    "approx_distance_meters": 6.081693257495601e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/46780093",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0806,
-    "longitude": -81.0928,
-    "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "120 BRYAN ST W",
-    "approx_distance_meters": 6.081693257495601e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/46780193",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0806,
-    "longitude": -81.0928,
-    "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "120 BRYAN ST W",
-    "approx_distance_meters": 6.081693257495601e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/46780391",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0806,
-    "longitude": -81.0928,
-    "host_name": "Dalton Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "120 BRYAN ST W",
-    "approx_distance_meters": 6.081693257495601e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/47053688",
     "rental_type": "Entire guesthouse",
     "guests": 4.0,
@@ -17355,21 +12960,6 @@ const locations = [
     "approx_distance_meters": 5.7267352692338834e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/47091621",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.0798,
-    "longitude": -81.0942,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "202 W BROUGHTON ST",
-    "approx_distance_meters": 6.017395456038285e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/47121456",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -17383,21 +12973,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "833 W US HIGHWAY 80",
     "approx_distance_meters": 0.0003013281632291793
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/47198432",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01978,
-    "longitude": -80.86055,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "TERESA LN",
-    "approx_distance_meters": 0.00025699996079764137
   },
   {
     "url": "https://www.airbnb.com/rooms/47287941",
@@ -17458,21 +13033,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "110 BARNARD ST #211",
     "approx_distance_meters": 1.5004775587477055e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/47824566",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 4.0,
-    "latitude": 32.0288,
-    "longitude": -80.9661,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "204 BLUE HERON DR",
-    "approx_distance_meters": 0.0002498490955520443
   },
   {
     "url": "https://www.airbnb.com/rooms/47951533",
@@ -17548,21 +13108,6 @@ const locations = [
     "years_hosting": "13",
     "approximate_address": "3112 ROWLAND AVE",
     "approx_distance_meters": 0.00026101954985560796
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/48108275",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0793,
-    "longitude": -81.0948,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "215 W BROUGHTON ST",
-    "approx_distance_meters": 0.0001613171286218996
   },
   {
     "url": "https://www.airbnb.com/rooms/48124607",
@@ -17745,21 +13290,6 @@ const locations = [
     "approx_distance_meters": 5.381052253350034e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/48867102",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.80976,
-    "longitude": -81.382,
-    "host_name": "Cassie Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16486810410028918
-  },
-  {
     "url": "https://www.airbnb.com/rooms/48896295",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -17790,21 +13320,6 @@ const locations = [
     "approx_distance_meters": 4.434606013357255e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/49132085",
-    "rental_type": "Campsite",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0288,
-    "longitude": -80.965,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "7610 JOHNNY MERCER BLVD",
-    "approx_distance_meters": 0.0003124874830304555
-  },
-  {
     "url": "https://www.airbnb.com/rooms/49369209",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -17818,21 +13333,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "2806 2ND ST",
     "approx_distance_meters": 8.66908549886257e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/4954188",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07218,
-    "longitude": -81.08727,
-    "host_name": "Richards Superhost \u00b7 12 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "12",
-    "approximate_address": "543 E HARRIS ST",
-    "approx_distance_meters": 0.00019283032317677626
   },
   {
     "url": "https://www.airbnb.com/rooms/49789075",
@@ -17863,66 +13363,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "4118 AMSTERDAM CIR",
     "approx_distance_meters": 0.00024767675280667524
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/49918162",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.82336,
-    "longitude": -81.37283,
-    "host_name": "Lisa 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1487555553608956
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/49924659",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.02137,
-    "longitude": -80.85891,
-    "host_name": "Lakhan 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1310 BAY ST",
-    "approx_distance_meters": 0.00021241936349998102
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/50024796",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0736,
-    "longitude": -81.0886,
-    "host_name": "Steve Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "414 E LIBERTY ST",
-    "approx_distance_meters": 0.0001294248402430752
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/50086109",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 3.0,
-    "latitude": 32.08198,
-    "longitude": -81.09432,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "300 W BAY ST",
-    "approx_distance_meters": 0.00045963729610900374
   },
   {
     "url": "https://www.airbnb.com/rooms/50151616",
@@ -17970,21 +13410,6 @@ const locations = [
     "approx_distance_meters": 0.0001116756430734672
   },
   {
-    "url": "https://www.airbnb.com/rooms/50191155",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.06133,
-    "longitude": -81.09282,
-    "host_name": "Charles Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "1316 PRICE ST",
-    "approx_distance_meters": 0.00019670264804736869
-  },
-  {
     "url": "https://www.airbnb.com/rooms/50208021",
     "rental_type": "Entire bungalow",
     "guests": 6.0,
@@ -18028,21 +13453,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "102 STONEBRIDGE LN",
     "approx_distance_meters": 0.0002927825383605701
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/50312910",
-    "rental_type": "Entire home",
-    "guests": 11.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.98214,
-    "longitude": -81.22954,
-    "host_name": "Carlos Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "1 BRANDY LN",
-    "approx_distance_meters": 0.0003112676987526748
   },
   {
     "url": "https://www.airbnb.com/rooms/50363769",
@@ -18120,21 +13530,6 @@ const locations = [
     "approx_distance_meters": 3.424582539010459e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/50732290",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.02343367024293,
-    "longitude": -80.85966146014118,
-    "host_name": "Cortney Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "1217 BAY ST #316A",
-    "approx_distance_meters": 0.000811581666771976
-  },
-  {
     "url": "https://www.airbnb.com/rooms/50770843",
     "rental_type": "Campsite",
     "guests": 2.0,
@@ -18193,21 +13588,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1414 WALTHOUR RD",
     "approx_distance_meters": 8.13700800430755e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/50942774",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.99817,
-    "longitude": -80.97236,
-    "host_name": "Ginger And Ryan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "1402 WALTHOUR RD",
-    "approx_distance_meters": 0.0002798398993918371
   },
   {
     "url": "https://www.airbnb.com/rooms/50979138",
@@ -18300,66 +13680,6 @@ const locations = [
     "approx_distance_meters": 0.0001245501901407935
   },
   {
-    "url": "https://www.airbnb.com/rooms/51322633",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.081,
-    "longitude": -81.0919,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "13 W BAY ST",
-    "approx_distance_meters": 0.00013810368813145648
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/51422551",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.081,
-    "longitude": -81.0919,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "13 W BAY ST",
-    "approx_distance_meters": 0.00013810368813145648
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/51424422",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.081,
-    "longitude": -81.0919,
-    "host_name": "Mike And Sarah Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "13 W BAY ST",
-    "approx_distance_meters": 0.00013810368813145648
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/51449255",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 5.0,
-    "latitude": 32.07819,
-    "longitude": -81.08737,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "34 HABERSHAM ST",
-    "approx_distance_meters": 0.0001911289367687105
-  },
-  {
     "url": "https://www.airbnb.com/rooms/51490258",
     "rental_type": "Entire cottage",
     "guests": 6.0,
@@ -18433,21 +13753,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "102 E BROUGHTON ST",
     "approx_distance_meters": 3.3281761830695495e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/51844229",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0237,
-    "longitude": -80.85922,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1217 BAY ST #316A",
-    "approx_distance_meters": 0.0004948610385069878
   },
   {
     "url": "https://www.airbnb.com/rooms/51844372",
@@ -18540,21 +13845,6 @@ const locations = [
     "approx_distance_meters": 4.82211532363188e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/52029955",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.05814,
-    "longitude": -81.09262,
-    "host_name": "Coleby 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "524 E 34TH ST",
-    "approx_distance_meters": 0.0001590611727005673
-  },
-  {
     "url": "https://www.airbnb.com/rooms/52033104",
     "rental_type": "Entire townhouse",
     "guests": 8.0,
@@ -18585,21 +13875,6 @@ const locations = [
     "approx_distance_meters": 0.00017208356412029856
   },
   {
-    "url": "https://www.airbnb.com/rooms/52108838",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.19474,
-    "longitude": -81.20347,
-    "host_name": "Clevan 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "14 BINNACLE LN",
-    "approx_distance_meters": 0.0001985727538791775
-  },
-  {
     "url": "https://www.airbnb.com/rooms/52201812",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -18613,21 +13888,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "105 TURNBUCKLE CT",
     "approx_distance_meters": 0.00029470935639184495
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/52258520",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.02356,
-    "longitude": -80.8591,
-    "host_name": "Roshan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "1217 BAY ST #316A",
-    "approx_distance_meters": 0.0003128799497240417
   },
   {
     "url": "https://www.airbnb.com/rooms/52364390",
@@ -18690,36 +13950,6 @@ const locations = [
     "approx_distance_meters": 0.00014008668696001588
   },
   {
-    "url": "https://www.airbnb.com/rooms/52618796",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01875,
-    "longitude": -80.8625,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1429 ESTILL AVE ##A",
-    "approx_distance_meters": 0.0003963891428744502
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/52634400",
-    "rental_type": "Entire cottage",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.02701,
-    "longitude": -81.05219,
-    "host_name": "Molly Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "3122 ROBERTSON ST",
-    "approx_distance_meters": 0.00028773521577077756
-  },
-  {
     "url": "https://www.airbnb.com/rooms/52634428",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -18750,51 +13980,6 @@ const locations = [
     "approx_distance_meters": 1.3088956720719804e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/52652241",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06196,
-    "longitude": -81.09465,
-    "host_name": "Charles Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "1311 LINCOLN ST",
-    "approx_distance_meters": 0.0001671639465612809
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/52653119",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07842,
-    "longitude": -81.08468,
-    "host_name": "Gina Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "21 E BROAD ST",
-    "approx_distance_meters": 0.0001363102900794283
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/52697193",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.05197,
-    "longitude": -81.0929,
-    "host_name": "Eric Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "619 MAUPAS AVE",
-    "approx_distance_meters": 0.0001683167381799306
-  },
-  {
     "url": "https://www.airbnb.com/rooms/52826129",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -18823,21 +14008,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "396 PORT ST",
     "approx_distance_meters": 0.0003711167955584729
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/528948",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0583,
-    "longitude": -81.0959,
-    "host_name": "Richard Superhost \u00b7 15 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "15",
-    "approximate_address": "302 E 35TH ST",
-    "approx_distance_meters": 0.00010768883015190641
   },
   {
     "url": "https://www.airbnb.com/rooms/52952422",
@@ -18943,21 +14113,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "118 COTTONVALE RD",
     "approx_distance_meters": 0.00023711473078642754
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/53241291",
-    "rental_type": "Entire home",
-    "guests": 15.0,
-    "bedrooms": 5.0,
-    "beds": 9.0,
-    "baths": 4.0,
-    "latitude": 31.8244,
-    "longitude": -81.3649,
-    "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.14246431314812197
   },
   {
     "url": "https://www.airbnb.com/rooms/53446983",
@@ -19155,21 +14310,6 @@ const locations = [
     "approx_distance_meters": 6.870299021821892e-06
   },
   {
-    "url": "https://www.airbnb.com/rooms/53586509",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07417,
-    "longitude": -81.09155,
-    "host_name": "Kenny 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "123 E LIBERTY ST",
-    "approx_distance_meters": 0.0002516259400596255
-  },
-  {
     "url": "https://www.airbnb.com/rooms/53644603",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -19320,21 +14460,6 @@ const locations = [
     "approx_distance_meters": 0.00019087561045536631
   },
   {
-    "url": "https://www.airbnb.com/rooms/550033020854105258",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.99424,
-    "longitude": -81.14842,
-    "host_name": "Hristina Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "10902 JAMESTOWN RD",
-    "approx_distance_meters": 0.0002277080316041971
-  },
-  {
     "url": "https://www.airbnb.com/rooms/5505003",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -19348,21 +14473,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "1217 BAY ST #119B",
     "approx_distance_meters": 2.7693559466412915e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/550772505969020234",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 31.97915,
-    "longitude": -81.07989,
-    "host_name": "Andy Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "8841 FERGUSON AVE",
-    "approx_distance_meters": 0.000272890180092699
   },
   {
     "url": "https://www.airbnb.com/rooms/551547827448933544",
@@ -19470,21 +14580,6 @@ const locations = [
     "approx_distance_meters": 4.822077592260589e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/562193671818283781",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.2795,
-    "longitude": -81.242,
-    "host_name": "Evolve Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "0 MARSH SALT LN",
-    "approx_distance_meters": 0.061517838047094583
-  },
-  {
     "url": "https://www.airbnb.com/rooms/564505838340992109",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -19498,36 +14593,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "165 W BAY ST #403W",
     "approx_distance_meters": 2.033410782573396e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/564689476551742564",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.03787,
-    "longitude": -81.05464,
-    "host_name": "Charles Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "2605 WHATLEY AVE",
-    "approx_distance_meters": 0.000332643918492826
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/565019960660932190",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0813,
-    "longitude": -81.093,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "135 W BAY ST #101W",
-    "approx_distance_meters": 5.835291680918867e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/567340802503120103",
@@ -19560,21 +14625,6 @@ const locations = [
     "approx_distance_meters": 6.870299021821892e-06
   },
   {
-    "url": "https://www.airbnb.com/rooms/567948076088329077",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.23055,
-    "longitude": -80.98123,
-    "host_name": "Heidi Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1 ELBA ISLAND RD",
-    "approx_distance_meters": 0.14260161828715517
-  },
-  {
     "url": "https://www.airbnb.com/rooms/569325174256314434",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -19603,21 +14653,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "38 PINEY POINT RD",
     "approx_distance_meters": 0.0003459450879283371
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/572450542537195282",
-    "rental_type": "Entire guesthouse",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.16252,
-    "longitude": -81.32792,
-    "host_name": "Ina Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "STAGECOACH RD",
-    "approx_distance_meters": 0.01881336183686795
   },
   {
     "url": "https://www.airbnb.com/rooms/573202024620269659",
@@ -19770,36 +14805,6 @@ const locations = [
     "approx_distance_meters": 1.4491860197287531e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/583212232437498619",
-    "rental_type": "Entire cottage",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.80755,
-    "longitude": -81.3749,
-    "host_name": "Jennifer Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16163442571190081
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/583537324461511431",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.92277,
-    "longitude": -81.3255,
-    "host_name": "Linda 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05751543850975954
-  },
-  {
     "url": "https://www.airbnb.com/rooms/587633562795200453",
     "rental_type": "Entire guesthouse",
     "guests": 2.0,
@@ -19813,36 +14818,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "2510 EASY ST",
     "approx_distance_meters": 8.120564424789888e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/592640716286395680",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07366,
-    "longitude": -81.08769,
-    "host_name": "Lisa Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "514 E PERRY LN",
-    "approx_distance_meters": 0.00011981401752328144
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/594190711494953381",
-    "rental_type": "Entire bungalow",
-    "guests": 9.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.05268,
-    "longitude": -81.11564,
-    "host_name": "Christopher Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1025 W 47TH ST",
-    "approx_distance_meters": 0.0001419339603293842
   },
   {
     "url": "https://www.airbnb.com/rooms/595193874482549793",
@@ -19873,21 +14848,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "234 SONOMA DR",
     "approx_distance_meters": 8.103411827864885e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/598576047500773676",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.77069,
-    "longitude": -81.27885,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1576406821491452
   },
   {
     "url": "https://www.airbnb.com/rooms/601388152942161990",
@@ -19980,36 +14940,6 @@ const locations = [
     "approx_distance_meters": 0.0002982835676545063
   },
   {
-    "url": "https://www.airbnb.com/rooms/616887263750949740",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06552,
-    "longitude": -81.27033,
-    "host_name": "Tanya 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "27 HAMILTON GROVE DR",
-    "approx_distance_meters": 0.0002623083350378687
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/620500954037272583",
-    "rental_type": "Entire rental unit",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.02823,
-    "longitude": -80.96636,
-    "host_name": "Jessy 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "136 BLUE HERON DR",
-    "approx_distance_meters": 0.0002444871788351027
-  },
-  {
     "url": "https://www.airbnb.com/rooms/6208163",
     "rental_type": "Entire place",
     "guests": 2.0,
@@ -20085,21 +15015,6 @@ const locations = [
     "approx_distance_meters": 0.00020432907591477853
   },
   {
-    "url": "https://www.airbnb.com/rooms/623966743719482641",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 2.0,
-    "latitude": 32.01066,
-    "longitude": -80.86373,
-    "host_name": "Jessica 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "66 ESTILL HAMMOCK DR",
-    "approx_distance_meters": 0.00045214560475678533
-  },
-  {
     "url": "https://www.airbnb.com/rooms/625477086735441303",
     "rental_type": "Entire bungalow",
     "guests": 6.0,
@@ -20113,81 +15028,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "3403 BANNON DR",
     "approx_distance_meters": 9.298056812771017e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/628189064569743397",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.77004,
-    "longitude": -81.27925,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1583193302756343
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/628210331010261350",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.7718,
-    "longitude": -81.27915,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.15655687678144997
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/629268132253681929",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06527,
-    "longitude": -81.03953,
-    "host_name": "Lyn Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "105 JOHN WESLEY WAY",
-    "approx_distance_meters": 0.0010212798768649799
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/630197397184597220",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 5.0,
-    "beds": 9.0,
-    "baths": 3.0,
-    "latitude": 32.0472,
-    "longitude": -81.0076,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "290 OATLAND ISLAND RD",
-    "approx_distance_meters": 0.0005421648973996763
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/6333533",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.03284,
-    "longitude": -80.97839,
-    "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "14",
-    "approximate_address": "612 SUNCREST BLVD",
-    "approx_distance_meters": 0.0003125338529328837
   },
   {
     "url": "https://www.airbnb.com/rooms/6336159",
@@ -20233,21 +15073,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "633 WHIPPOORWILL RD",
     "approx_distance_meters": 6.95044397098308e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/640535792559066886",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.03784,
-    "longitude": -80.99027,
-    "host_name": "Steve Superhost \u00b7 14 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "14",
-    "approximate_address": "1 BRYAN WOOD CIR",
-    "approx_distance_meters": 0.0002735481074275632
   },
   {
     "url": "https://www.airbnb.com/rooms/641346425520854756",
@@ -20385,21 +15210,6 @@ const locations = [
     "approx_distance_meters": 0.00017874006576877615
   },
   {
-    "url": "https://www.airbnb.com/rooms/654939436145045100",
-    "rental_type": "Barn",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.72555,
-    "longitude": -81.24256,
-    "host_name": "Lisa Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.14609001633696547
-  },
-  {
     "url": "https://www.airbnb.com/rooms/655106848185336546",
     "rental_type": "Entire bungalow",
     "guests": 6.0,
@@ -20505,21 +15315,6 @@ const locations = [
     "approx_distance_meters": 7.902350666834761e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/659358073607959345",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.97574,
-    "longitude": -81.00037,
-    "host_name": "Ann 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "1721 WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.000391150925835575
-  },
-  {
     "url": "https://www.airbnb.com/rooms/659642859644408670",
     "rental_type": "Entire home",
     "guests": 16.0,
@@ -20578,21 +15373,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "204 E LIBERTY ST",
     "approx_distance_meters": 0.000462666154824013
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/671753443510755708",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.77512,
-    "longitude": -81.28054,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.15336372533554365
   },
   {
     "url": "https://www.airbnb.com/rooms/671795538517213675",
@@ -20685,21 +15465,6 @@ const locations = [
     "approx_distance_meters": 0.00012577828610381488
   },
   {
-    "url": "https://www.airbnb.com/rooms/674698125818886796",
-    "rental_type": "Entire home",
-    "guests": 13.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.2148,
-    "longitude": -81.1925,
-    "host_name": "Marcus Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "303 DOGWOOD CIR",
-    "approx_distance_meters": 0.000315838214260423
-  },
-  {
     "url": "https://www.airbnb.com/rooms/675919486105912125",
     "rental_type": "Entire loft",
     "guests": 4.0,
@@ -20743,21 +15508,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "161 BLUFFSIDE CIR",
     "approx_distance_meters": 0.00011079117327123906
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/678303101837114886",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03243,
-    "longitude": -81.08257,
-    "host_name": "Harold 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "1707 E 60TH ST",
-    "approx_distance_meters": 0.00024359116788694304
   },
   {
     "url": "https://www.airbnb.com/rooms/680421328729132855",
@@ -20833,21 +15583,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "104 HICKORY ST",
     "approx_distance_meters": 0.00021357604244263718
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/688225955764900451",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.11252,
-    "longitude": -81.15886,
-    "host_name": "Linda Superhost \u00b7 11 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "11",
-    "approximate_address": "121 ROMMEL AVE",
-    "approx_distance_meters": 0.00048575335542487005
   },
   {
     "url": "https://www.airbnb.com/rooms/689300872038099807",
@@ -21045,21 +15780,6 @@ const locations = [
     "approx_distance_meters": 0.00011931620527685567
   },
   {
-    "url": "https://www.airbnb.com/rooms/706727985393008664",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.9225,
-    "longitude": -81.32354,
-    "host_name": "Matthew Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05602533545009641
-  },
-  {
     "url": "https://www.airbnb.com/rooms/707055772551503570",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -21073,21 +15793,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "CLEARWATER CIR",
     "approx_distance_meters": 0.00018939967950375676
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/710730558111244991",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": "",
-    "baths": 2.0,
-    "latitude": 32.07975,
-    "longitude": -81.26736,
-    "host_name": "Brenda 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "204 SONATA CIR",
-    "approx_distance_meters": 0.0005455677231645141
   },
   {
     "url": "https://www.airbnb.com/rooms/710768096084926791",
@@ -21150,21 +15855,6 @@ const locations = [
     "approx_distance_meters": 9.924035557993707e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/718700616714031653",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0477,
-    "longitude": -81.01404,
-    "host_name": "Katya Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "908 TARA AVE",
-    "approx_distance_meters": 0.0002524418240418005
-  },
-  {
     "url": "https://www.airbnb.com/rooms/718999719672361229",
     "rental_type": "Entire townhouse",
     "guests": 16.0,
@@ -21178,21 +15868,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "W 44TH ST",
     "approx_distance_meters": 0.00013882067944974183
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/719534675928986814",
-    "rental_type": "Entire place",
-    "guests": 5.0,
-    "bedrooms": "",
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.14596,
-    "longitude": -81.16239,
-    "host_name": "Jason Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "311 BIRKENHEAD ST",
-    "approx_distance_meters": 0.0002395573339927289
   },
   {
     "url": "https://www.airbnb.com/rooms/721775028383264517",
@@ -21435,21 +16110,6 @@ const locations = [
     "approx_distance_meters": 7.203979779754292e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/733119799370776199",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0784,
-    "longitude": -81.0926,
-    "host_name": "Christie Superhost \u00b7 11 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "11",
-    "approximate_address": "119 BULL ST",
-    "approx_distance_meters": 0.00016924220087847697
-  },
-  {
     "url": "https://www.airbnb.com/rooms/739264524612926963",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -21478,21 +16138,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "11 BLACK FOREST DR",
     "approx_distance_meters": 0.00013190814371195022
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/739666313558529204",
-    "rental_type": "Treehouse",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.1231,
-    "longitude": -81.43744,
-    "host_name": "Sarah Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "SANDHILL RD",
-    "approx_distance_meters": 0.05615063370026973
   },
   {
     "url": "https://www.airbnb.com/rooms/742234994694149508",
@@ -21540,21 +16185,6 @@ const locations = [
     "approx_distance_meters": 0.00010873110466327045
   },
   {
-    "url": "https://www.airbnb.com/rooms/746997138849675412",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.11351,
-    "longitude": -81.25114,
-    "host_name": "Caleb 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "204 WHATLEY ST",
-    "approx_distance_meters": 0.0002266619717834155
-  },
-  {
     "url": "https://www.airbnb.com/rooms/749455205192449540",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -21568,36 +16198,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "206 BOWSPRIT LN",
     "approx_distance_meters": 0.00037293506799446365
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/752928337207382209",
-    "rental_type": "Entire guesthouse",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.2426,
-    "longitude": -81.21955,
-    "host_name": "Heather Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.019116516816846073
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/753435124583526211",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.98699,
-    "longitude": -80.9949,
-    "host_name": "Eric & Danielle Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "WILMINGTON ISLAND RD",
-    "approx_distance_meters": 0.00045844106343229584
   },
   {
     "url": "https://www.airbnb.com/rooms/755271617425833932",
@@ -21630,21 +16230,6 @@ const locations = [
     "approx_distance_meters": 3.140360638576081e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/766806947333977454",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.0309,
-    "longitude": -80.973,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "8 SUNCREST BLVD",
-    "approx_distance_meters": 0.00036183188303191426
-  },
-  {
     "url": "https://www.airbnb.com/rooms/772619174250830470",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -21675,36 +16260,6 @@ const locations = [
     "approx_distance_meters": 0.00021934267570351872
   },
   {
-    "url": "https://www.airbnb.com/rooms/775617601208217877",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 5.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.043,
-    "longitude": -81.0168,
-    "host_name": "Carlos & Marci Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "1159 MOBLEY DR",
-    "approx_distance_meters": 0.0003980533962867419
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/778318952725936457",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.18398,
-    "longitude": -81.21884,
-    "host_name": "Trinh Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "14 BRAXTON MANOR DR",
-    "approx_distance_meters": 0.0002186120332191695
-  },
-  {
     "url": "https://www.airbnb.com/rooms/778931479120643512",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -21718,21 +16273,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "1217 BAY ST #201B",
     "approx_distance_meters": 3.5837309420461085e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/787644828895827061",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.7937,
-    "longitude": -81.4039,
-    "host_name": "Mark 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.19170494354811357
   },
   {
     "url": "https://www.airbnb.com/rooms/791514382559311858",
@@ -21765,36 +16305,6 @@ const locations = [
     "approx_distance_meters": 5.4259443536577275e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/799977348532570201",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.9217,
-    "longitude": -81.3241,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05693775195479384
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/800134774633009748",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.1966,
-    "longitude": -81.264,
-    "host_name": "Brandon Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "601 HIGHLAND BLVD",
-    "approx_distance_meters": 0.010998487932578545
-  },
-  {
     "url": "https://www.airbnb.com/rooms/801076900525632327",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -21808,21 +16318,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "W BROUGHTON ST",
     "approx_distance_meters": 7.199947122950352e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/802192031681350863",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.01564,
-    "longitude": -80.9725,
-    "host_name": "Chris Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "12 ANGEL OAKS DR",
-    "approx_distance_meters": 0.00031952840007610345
   },
   {
     "url": "https://www.airbnb.com/rooms/804490532151701704",
@@ -21915,36 +16410,6 @@ const locations = [
     "approx_distance_meters": 0.00015925644076193057
   },
   {
-    "url": "https://www.airbnb.com/rooms/811041301840525497",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 2.0,
-    "latitude": 32.12096,
-    "longitude": -81.16517,
-    "host_name": "Montisha Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "DANIEL AVE",
-    "approx_distance_meters": 0.00023278609880211196
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/8114396",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0794,
-    "longitude": -81.0939,
-    "host_name": "Sarah Superhost \u00b7 11 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "11",
-    "approximate_address": "110 BARNARD ST #103",
-    "approx_distance_meters": 7.702283991292473e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/812223504376628087",
     "rental_type": "Entire cottage",
     "guests": 6.0,
@@ -21990,21 +16455,6 @@ const locations = [
     "approx_distance_meters": 4.811426931194358e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/816536146055859026",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 2.0,
-    "latitude": 32.14531,
-    "longitude": -81.33086,
-    "host_name": "Irene Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "LOUISVILLE RD",
-    "approx_distance_meters": 0.004750014124854616
-  },
-  {
     "url": "https://www.airbnb.com/rooms/816728783862780882",
     "rental_type": "Entire loft",
     "guests": 6.0,
@@ -22033,21 +16483,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "520 E HARRIS ST",
     "approx_distance_meters": 4.516196474347903e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/818903605728094194",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.9796,
-    "longitude": -81.1012,
-    "host_name": "Wendy Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "2 QUEENS CT",
-    "approx_distance_meters": 0.00023802470197032988
   },
   {
     "url": "https://www.airbnb.com/rooms/821286398833380202",
@@ -22110,21 +16545,6 @@ const locations = [
     "approx_distance_meters": 7.907896065364419e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/826295932244399472",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.9275,
-    "longitude": -81.3245,
-    "host_name": "Rebeca 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.05423160678581396
-  },
-  {
     "url": "https://www.airbnb.com/rooms/826300574947804445",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -22168,36 +16588,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "208 ABERFELDY ST",
     "approx_distance_meters": 0.0001342301272949558
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/829724243038287884",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.6373,
-    "longitude": -81.3798,
-    "host_name": "Darlene 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.30897459241577996
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/830297128684319163",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05781,
-    "longitude": -81.09186,
-    "host_name": "Julie Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "602 E 34TH ST",
-    "approx_distance_meters": 0.00014120806472762951
   },
   {
     "url": "https://www.airbnb.com/rooms/831698060625884883",
@@ -22260,21 +16650,6 @@ const locations = [
     "approx_distance_meters": 0.0001277218752596507
   },
   {
-    "url": "https://www.airbnb.com/rooms/833294669754989711",
-    "rental_type": "Entire townhouse",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.21468,
-    "longitude": -81.19491,
-    "host_name": "Shay Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "140 BIRCH CIR",
-    "approx_distance_meters": 0.00013814290968581247
-  },
-  {
     "url": "https://www.airbnb.com/rooms/835500809710430112",
     "rental_type": "Entire place",
     "guests": 4.0,
@@ -22335,36 +16710,6 @@ const locations = [
     "approx_distance_meters": 3.361179664950124e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/839204477528549778",
-    "rental_type": "Entire townhouse",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0769,
-    "longitude": -81.0751,
-    "host_name": "Ramble Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "503 PORT ST",
-    "approx_distance_meters": 0.0001570294193471538
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/841306060528762005",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.9188,
-    "longitude": -81.3206,
-    "host_name": "Mark Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.05437844515997395
-  },
-  {
     "url": "https://www.airbnb.com/rooms/842019462265056394",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -22408,21 +16753,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "452 PORT ST",
     "approx_distance_meters": 1.850613593392713e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/849932834600498050",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.75787,
-    "longitude": -81.28642,
-    "host_name": "Dana 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1711207535805253
   },
   {
     "url": "https://www.airbnb.com/rooms/852785616761953142",
@@ -22500,21 +16830,6 @@ const locations = [
     "approx_distance_meters": 3.203555331017788e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/863034671652150540",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.98482,
-    "longitude": -81.06092,
-    "host_name": "Joel Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "7621 PERIDOT LN",
-    "approx_distance_meters": 0.00023580700140160094
-  },
-  {
     "url": "https://www.airbnb.com/rooms/863719260879106823",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -22543,21 +16858,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "167 LAURELWOOD DR",
     "approx_distance_meters": 0.00010377586342573303
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/864594913117270042",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.08289,
-    "longitude": -81.0929,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "RIVER ST",
-    "approx_distance_meters": 0.0006060924901277837
   },
   {
     "url": "https://www.airbnb.com/rooms/864595231983260886",
@@ -22678,21 +16978,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "2919 RIVER DR",
     "approx_distance_meters": 0.00020822622523583817
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/871329548481445130",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.03711,
-    "longitude": -81.14646,
-    "host_name": "Noah 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "2043 WESTLAKE AVE",
-    "approx_distance_meters": 0.00019910132672092766
   },
   {
     "url": "https://www.airbnb.com/rooms/872556836676754358",
@@ -22890,51 +17175,6 @@ const locations = [
     "approx_distance_meters": 3.970376391405909e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/886445666612558575",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.6241,
-    "longitude": -81.2929,
-    "host_name": "Judith Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.24702546518279295
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/886719195138905024",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.1062,
-    "longitude": -81.2519,
-    "host_name": "Joseph 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "1108 S ROGERS ST",
-    "approx_distance_meters": 0.00029770492572610746
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/886871145304514699",
-    "rental_type": "Entire cottage",
-    "guests": 13.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 4.0,
-    "latitude": 31.7716,
-    "longitude": -81.3231,
-    "host_name": "Evolve 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.16605234834152438
-  },
-  {
     "url": "https://www.airbnb.com/rooms/886938599572707129",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -22950,36 +17190,6 @@ const locations = [
     "approx_distance_meters": 6.870299021821892e-06
   },
   {
-    "url": "https://www.airbnb.com/rooms/888180516054942823",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.19044,
-    "longitude": -81.27248,
-    "host_name": "India 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "HIGHWAY 30",
-    "approx_distance_meters": 0.010662131112833139
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/888481407571085869",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 3.0,
-    "beds": "",
-    "baths": 1.0,
-    "latitude": 32.03568,
-    "longitude": -81.06299,
-    "host_name": "Andrea 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "2226 COAKLEY ST",
-    "approx_distance_meters": 0.0002267354488793773
-  },
-  {
     "url": "https://www.airbnb.com/rooms/889880369418848626",
     "rental_type": "Entire home",
     "guests": 7.0,
@@ -22993,21 +17203,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "117 CROSSOVER LN",
     "approx_distance_meters": 9.299296216700786e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/891708",
-    "rental_type": "Entire cottage",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.83362,
-    "longitude": -81.26122,
-    "host_name": "Patricia 14 years hosting",
-    "superhost": "",
-    "years_hosting": "14",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.09443973793704595
   },
   {
     "url": "https://www.airbnb.com/rooms/892549282506767509",
@@ -23038,21 +17233,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "7617 CENTRAL AVE",
     "approx_distance_meters": 0.00028822546663583905
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/894291704535222670",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.79477,
-    "longitude": -81.403,
-    "host_name": "Mark 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.19031327201541612
   },
   {
     "url": "https://www.airbnb.com/rooms/895577613821653123",
@@ -23190,21 +17370,6 @@ const locations = [
     "approx_distance_meters": 0.00011114681025152986
   },
   {
-    "url": "https://www.airbnb.com/rooms/907219330455225727",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.12069,
-    "longitude": -81.25009,
-    "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "216 HOLLY AVE",
-    "approx_distance_meters": 0.0002467668079501784
-  },
-  {
     "url": "https://www.airbnb.com/rooms/908763689853733767",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -23235,21 +17400,6 @@ const locations = [
     "approx_distance_meters": 5.6658243363103465e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/910068516480867461",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.06087,
-    "longitude": -81.06571,
-    "host_name": "Jonathan Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "501 LAWTON AVE",
-    "approx_distance_meters": 0.000172627245911624
-  },
-  {
     "url": "https://www.airbnb.com/rooms/910726269531451600",
     "rental_type": "Entire rental unit",
     "guests": 2.0,
@@ -23278,36 +17428,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "5 SANCTUARY PL",
     "approx_distance_meters": 8.898858107983137e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/913101837406997841",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0741,
-    "longitude": -81.0878,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "232 PRICE ST",
-    "approx_distance_meters": 5.3510262779176675e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/914497405381811015",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 7.0,
-    "beds": 8.0,
-    "baths": 6.0,
-    "latitude": 32.1974,
-    "longitude": -81.0559,
-    "host_name": "Shaakira Nia 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "ARGYLE ISLAND",
-    "approx_distance_meters": 0.07734147717117043
   },
   {
     "url": "https://www.airbnb.com/rooms/915455160718001309",
@@ -23475,21 +17595,6 @@ const locations = [
     "approx_distance_meters": 0.00019475173894906804
   },
   {
-    "url": "https://www.airbnb.com/rooms/925893911779829101",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.1891,
-    "longitude": -81.2659,
-    "host_name": "Evolve 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "HIGHWAY 30",
-    "approx_distance_meters": 0.006104455755463396
-  },
-  {
     "url": "https://www.airbnb.com/rooms/928267112918090309",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -23503,21 +17608,6 @@ const locations = [
     "years_hosting": "13",
     "approximate_address": "19 LAKEWOOD DR",
     "approx_distance_meters": 0.0001945212599491392
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/929333993252254427",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.71618,
-    "longitude": -81.24106,
-    "host_name": "Lily 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.14941191118006641
   },
   {
     "url": "https://www.airbnb.com/rooms/931067419890308247",
@@ -23595,21 +17685,6 @@ const locations = [
     "approx_distance_meters": 0.00017898316620953742
   },
   {
-    "url": "https://www.airbnb.com/rooms/942640738769154937",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0487,
-    "longitude": -81.05844,
-    "host_name": "Courtney Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "40 ALTMAN CIR",
-    "approx_distance_meters": 0.00024738909544512233
-  },
-  {
     "url": "https://www.airbnb.com/rooms/945593470525999930",
     "rental_type": "Entire loft",
     "guests": 3.0,
@@ -23653,21 +17728,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "3202 BARNARD ST",
     "approx_distance_meters": 0.00042686986340063123
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/947285785463122131",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.6995,
-    "longitude": -81.2741,
-    "host_name": "Julie 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.1863315477235601
   },
   {
     "url": "https://www.airbnb.com/rooms/948199060925065758",
@@ -23805,21 +17865,6 @@ const locations = [
     "approx_distance_meters": 1.7085813783797493e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/960073874131955736",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.07932,
-    "longitude": -81.09422,
-    "host_name": "Sharon Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "110 BARNARD ST #310",
-    "approx_distance_meters": 0.00011888657703659827
-  },
-  {
     "url": "https://www.airbnb.com/rooms/960084066503262413",
     "rental_type": "Entire townhouse",
     "guests": 8.0,
@@ -23863,21 +17908,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "104 W BROUGHTON ST #A",
     "approx_distance_meters": 3.070435961480889e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/962555818770026832",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.98238,
-    "longitude": -81.22421,
-    "host_name": "BE Cole 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "1211 KING GEORGE BLVD",
-    "approx_distance_meters": 0.000792897369795952
   },
   {
     "url": "https://www.airbnb.com/rooms/963063546089473037",
@@ -23940,21 +17970,6 @@ const locations = [
     "approx_distance_meters": 0.00011502533878773017
   },
   {
-    "url": "https://www.airbnb.com/rooms/975621032185308618",
-    "rental_type": "Entire home",
-    "guests": 11.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.817089546839203,
-    "longitude": -81.35864777469821,
-    "host_name": "Nickie Bennett 2 years hosting",
-    "superhost": "",
-    "years_hosting": "2",
-    "approximate_address": "GREAT OGEECHEE RIVER",
-    "approx_distance_meters": 0.1437959369069872
-  },
-  {
     "url": "https://www.airbnb.com/rooms/976250195651941106",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -23970,21 +17985,6 @@ const locations = [
     "approx_distance_meters": 8.64769057947943e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/977999139203185761",
-    "rental_type": "Entire rental unit",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.28419986807598,
-    "longitude": -81.25111363208681,
-    "host_name": "Michele Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "TRADE CENTER PKWY",
-    "approx_distance_meters": 0.07114243242490113
-  },
-  {
     "url": "https://www.airbnb.com/rooms/978268371565998122",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -23998,36 +17998,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "310 W BROUGHTON ST #3010",
     "approx_distance_meters": 1.4491860197287531e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/978956291609526253",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.07166,
-    "longitude": -81.12399,
-    "host_name": "Michelle 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "915 CARVER ST",
-    "approx_distance_meters": 0.00017803897221627062
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/979020159820560243",
-    "rental_type": "Entire home",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.73167,
-    "longitude": -81.26851,
-    "host_name": "Cookie 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "OSSABAW",
-    "approx_distance_meters": 0.16709700966081795
   },
   {
     "url": "https://www.airbnb.com/rooms/980313733702904639",
@@ -24135,21 +18105,6 @@ const locations = [
     "approx_distance_meters": 2.00409102836446e-06
   },
   {
-    "url": "https://www.airbnb.com/rooms/991560805531951502",
-    "rental_type": "Entire rental unit",
-    "guests": 3.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.04963,
-    "longitude": -81.10771,
-    "host_name": "Julia Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "3201 MONTGOMERY ST",
-    "approx_distance_meters": 0.00042983245068689313
-  },
-  {
     "url": "https://www.airbnb.com/rooms/991955619073726293",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -24178,21 +18133,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "6101 LAROCHE AVE",
     "approx_distance_meters": 0.0002721020858617933
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/992896021858404669",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.9214,
-    "longitude": -81.3278,
-    "host_name": "Mark And Kristine Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "CHEVIS RD",
-    "approx_distance_meters": 0.060191196932682337
   },
   {
     "url": "https://www.airbnb.com/rooms/993713608422781543",
@@ -24238,21 +18178,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "116 WILD HERON RD",
     "approx_distance_meters": 0.00032048513872525315
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/999165310076209712",
-    "rental_type": "Entire guesthouse",
-    "guests": 5.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.10712,
-    "longitude": -81.49981,
-    "host_name": "Dayle Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "SANDHILL RD",
-    "approx_distance_meters": 0.112614447390111
   },
   {
     "url": "https://www.airbnb.com/rooms/999261208011549514",
@@ -24480,21 +18405,6 @@ const locations = [
     "approx_distance_meters": 0.00021488795896419056
   },
   {
-    "url": "https://www.airbnb.com/rooms/1339966719579171301",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.07588,
-    "longitude": -81.09059,
-    "host_name": "Sid Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "217 ABERCORN ST #A-2",
-    "approx_distance_meters": 0.00024273262111951645
-  },
-  {
     "url": "https://www.airbnb.com/rooms/10431337",
     "rental_type": "Entire cottage",
     "guests": 4.0,
@@ -24523,36 +18433,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "116 E OGLETHORPE AVE",
     "approx_distance_meters": 8.220193374338474e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1690810250667682293",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.07725737562725,
-    "longitude": -81.08577144582603,
-    "host_name": "Alyssa Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "527 E BROUGHTON ST",
-    "approx_distance_meters": 0.0002292496354808907
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1504389380624108808",
-    "rental_type": "Entire loft",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.0762,
-    "longitude": -81.0855,
-    "host_name": "Robert Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "125 E BROAD ST #A",
-    "approx_distance_meters": 0.00011589357795206976
   },
   {
     "url": "https://www.airbnb.com/rooms/8987074",
@@ -24598,21 +18478,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
     "approx_distance_meters": 4.298177803755999e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/846468339359263149",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0726,
-    "longitude": -81.0997,
-    "host_name": "Brandon & Chase Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "420 W WAYNE ST",
-    "approx_distance_meters": 0.00014974042150595583
   },
   {
     "url": "https://www.airbnb.com/rooms/1691573974216056936",
@@ -24720,51 +18585,6 @@ const locations = [
     "approx_distance_meters": 7.719407498720585e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1580663903765748461",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07354700659159,
-    "longitude": -81.1004761250848,
-    "host_name": "Allan Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "545 BERRIEN ST",
-    "approx_distance_meters": 7.53028454668507e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1541441702416475464",
-    "rental_type": "Entire rental unit",
-    "guests": 14.0,
-    "bedrooms": 3.0,
-    "beds": "",
-    "baths": 2.0,
-    "latitude": 32.071395690875924,
-    "longitude": -81.09941970143862,
-    "host_name": "Michael 5 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "466 MONTGOMERY ST",
-    "approx_distance_meters": 0.00011261584859943297
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/52585003",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0713,
-    "longitude": -81.0996,
-    "host_name": "Christine Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "501 MONTGOMERY ST",
-    "approx_distance_meters": 0.0002178267990297105
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1580664549820573032",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -24808,36 +18628,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "455 MONTGOMERY ST",
     "approx_distance_meters": 4.298177803755999e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/26831490",
-    "rental_type": "Entire home",
-    "guests": 9.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.0732,
-    "longitude": -81.0992,
-    "host_name": "Lucky Savannah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "419 MONTGOMERY ST",
-    "approx_distance_meters": 0.0001126066087970629
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/18756992",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.07391,
-    "longitude": -81.10171,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1 BERRIEN ST",
-    "approx_distance_meters": 0.0001433014196303516
   },
   {
     "url": "https://www.airbnb.com/rooms/25148356",
@@ -24990,21 +18780,6 @@ const locations = [
     "approx_distance_meters": 8.758982582154603e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1287635611768191242",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0714,
-    "longitude": -81.0978,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "442 TATTNALL ST",
-    "approx_distance_meters": 0.00011437067532421996
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1109525189093111378",
     "rental_type": "Entire rental unit",
     "guests": 3.0,
@@ -25110,21 +18885,6 @@ const locations = [
     "approx_distance_meters": 3.3120767061124635e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/697142273009747870",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.07404,
-    "longitude": -81.08587,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "554 E MCDONOUGH ST",
-    "approx_distance_meters": 0.00019815519414318305
-  },
-  {
     "url": "https://www.airbnb.com/rooms/729600065257860169",
     "rental_type": "Entire townhouse",
     "guests": 6.0,
@@ -25138,36 +18898,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "243 E BROAD ST",
     "approx_distance_meters": 7.303594614893328e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/697142046701180376",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.07458,
-    "longitude": -81.08566,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "209 BROAD ST E",
-    "approx_distance_meters": 0.0002703247077888728
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/20000084",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.07502,
-    "longitude": -81.08664,
-    "host_name": "Jacquelyn Superhost \u00b7 11 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "11",
-    "approximate_address": "513 E OGLETHORPE AVE #A",
-    "approx_distance_meters": 0.00022436174812031872
   },
   {
     "url": "https://www.airbnb.com/rooms/925325757640839665",
@@ -25200,21 +18930,6 @@ const locations = [
     "approx_distance_meters": 0.0002606304057922001
   },
   {
-    "url": "https://www.airbnb.com/rooms/925325777921307500",
-    "rental_type": "Entire townhouse",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 32.07336,
-    "longitude": -81.086,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "241 E BROAD ST",
-    "approx_distance_meters": 0.0003651635889419969
-  },
-  {
     "url": "https://www.airbnb.com/rooms/53917799",
     "rental_type": "Entire townhouse",
     "guests": 8.0,
@@ -25245,21 +18960,6 @@ const locations = [
     "approx_distance_meters": 2.9500907064275537e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/48540229",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0685,
-    "longitude": -81.0991,
-    "host_name": "Sarah Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "215 W HALL ST",
-    "approx_distance_meters": 0.00016422075121129114
-  },
-  {
     "url": "https://www.airbnb.com/rooms/20194881",
     "rental_type": "Entire rental unit",
     "guests": 6.0,
@@ -25273,21 +18973,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "311 W HUNTINGDON ST",
     "approx_distance_meters": 6.991392228330514e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1598707336222396958",
-    "rental_type": "Entire rental unit",
-    "guests": 9.0,
-    "bedrooms": 2.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.06783841624245,
-    "longitude": -81.09888515633278,
-    "host_name": "Rob Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "203 W GWINNETT ST",
-    "approx_distance_meters": 0.00020261527402913482
   },
   {
     "url": "https://www.airbnb.com/rooms/1663857790950364019",
@@ -25350,21 +19035,6 @@ const locations = [
     "approx_distance_meters": 0.00011043808915111709
   },
   {
-    "url": "https://www.airbnb.com/rooms/30401567",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.069,
-    "longitude": -81.0988,
-    "host_name": "Holly Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "212 W HALL ST",
-    "approx_distance_meters": 0.0002118692781111406
-  },
-  {
     "url": "https://www.airbnb.com/rooms/11094644",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -25408,21 +19078,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "210 W HALL ST",
     "approx_distance_meters": 8.465234905368551e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/49253549",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.06862,
-    "longitude": -81.09911,
-    "host_name": "Amanda & Drew Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "215 W HALL ST",
-    "approx_distance_meters": 0.00013010235721514133
   },
   {
     "url": "https://www.airbnb.com/rooms/579037546343249577",
@@ -25500,21 +19155,6 @@ const locations = [
     "approx_distance_meters": 8.138703044994516e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1647908031396364754",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.06767951828295,
-    "longitude": -81.09414039191336,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "700 DRAYTON ST",
-    "approx_distance_meters": 0.0005456252561582018
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1071964847638294261",
     "rental_type": "Entire townhouse",
     "guests": 2.0,
@@ -25543,21 +19183,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "507 BARNARD ST",
     "approx_distance_meters": 7.330744346700275e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1634858566878268700",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0712,
-    "longitude": -81.0971,
-    "host_name": "Sarah Superhost \u00b7 4 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "129 W GORDON ST",
-    "approx_distance_meters": 0.00017910894742783948
   },
   {
     "url": "https://www.airbnb.com/rooms/43079945",
@@ -25635,21 +19260,6 @@ const locations = [
     "approx_distance_meters": 8.374136762828029e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1540773451571429726",
-    "rental_type": "Entire home",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.07014,
-    "longitude": -81.08954,
-    "host_name": "Ebru Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "419 E TAYLOR ST",
-    "approx_distance_meters": 8.363407914697915e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/18034534",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -25693,21 +19303,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "349 E BROAD ST",
     "approx_distance_meters": 5.4517293301160675e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/15561062",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.06982,
-    "longitude": -81.08989,
-    "host_name": "Mark Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "416 E GORDON ST",
-    "approx_distance_meters": 8.747641062144983e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/42141391",
@@ -25830,21 +19425,6 @@ const locations = [
     "approx_distance_meters": 0.00010890920826284785
   },
   {
-    "url": "https://www.airbnb.com/rooms/20517710",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.06636,
-    "longitude": -81.09989,
-    "host_name": "Celine Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "211 W WALDBURG ST",
-    "approx_distance_meters": 0.00017866317848829036
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1556889643317405028",
     "rental_type": "Entire home",
     "guests": 2.0,
@@ -25875,21 +19455,6 @@ const locations = [
     "approx_distance_meters": 6.684997361446983e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1638637113797643405",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.06384,
-    "longitude": -81.10245,
-    "host_name": "Chaz Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "1313 MONTGOMERY ST",
-    "approx_distance_meters": 0.00013788693256083082
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1556837970166553256",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -25903,21 +19468,6 @@ const locations = [
     "years_hosting": "4",
     "approximate_address": "315 W WALDBURG ST",
     "approx_distance_meters": 6.689164949510691e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/20998681",
-    "rental_type": "Entire rental unit",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.06702,
-    "longitude": -81.09869,
-    "host_name": "Jessica 12 years hosting",
-    "superhost": "",
-    "years_hosting": "12",
-    "approximate_address": "820 BARNARD ST",
-    "approx_distance_meters": 8.268378405622802e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/515087371391458793",
@@ -25935,36 +19485,6 @@ const locations = [
     "approx_distance_meters": 4.347694088342471e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/573195498327199695",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0653,
-    "longitude": -81.0988,
-    "host_name": "Joseph Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "117 W PARK AVE",
-    "approx_distance_meters": 0.0002506940294949306
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1663835036610337785",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.06629778165003,
-    "longitude": -81.09904443839721,
-    "host_name": "Kaelin Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "120 W WALDBURG ST",
-    "approx_distance_meters": 0.00016003363615154132
-  },
-  {
     "url": "https://www.airbnb.com/rooms/34171608",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -25978,21 +19498,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "302 W PARK AVE",
     "approx_distance_meters": 4.936848550430435e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/716087269783004561",
-    "rental_type": "Entire townhouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0643,
-    "longitude": -81.0987,
-    "host_name": "Marcus Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "23 W DUFFY ST",
-    "approx_distance_meters": 0.0002085370538090262
   },
   {
     "url": "https://www.airbnb.com/rooms/43316095",
@@ -26010,21 +19515,6 @@ const locations = [
     "approx_distance_meters": 4.2585052697893426e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/17746404",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.06609,
-    "longitude": -81.10208,
-    "host_name": "Celine Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "409 W PARK AVE",
-    "approx_distance_meters": 0.0002195494323368505
-  },
-  {
     "url": "https://www.airbnb.com/rooms/978329689456516306",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -26038,36 +19528,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "1321 JEFFERSON ST",
     "approx_distance_meters": 6.922405419046785e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1481884803615680939",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0637,
-    "longitude": -81.0992,
-    "host_name": "Paul Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "106 W HENRY ST",
-    "approx_distance_meters": 9.574568099469606e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1220978200108275596",
-    "rental_type": "Entire home",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.06599,
-    "longitude": -81.09484,
-    "host_name": "Joey Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "114 E BOLTON ST",
-    "approx_distance_meters": 0.00023085844523354788
   },
   {
     "url": "https://www.airbnb.com/rooms/15340714",
@@ -26143,21 +19603,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "1201 BULL ST",
     "approx_distance_meters": 9.580942263315717e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/11514708",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.066,
-    "longitude": -81.0934,
-    "host_name": "Christen Superhost \u00b7 15 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "15",
-    "approximate_address": "811 LINCOLN ST",
-    "approx_distance_meters": 0.00014251605884075635
   },
   {
     "url": "https://www.airbnb.com/rooms/1375693280919891963",
@@ -26265,36 +19710,6 @@ const locations = [
     "approx_distance_meters": 5.594603084489511e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/27700826",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.06524,
-    "longitude": -81.09199,
-    "host_name": "Beth And David Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "406 E BOLTON ST",
-    "approx_distance_meters": 0.00021922886303146186
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1474044399645806179",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.06539127706836,
-    "longitude": -81.08927370446047,
-    "host_name": "David Superhost \u00b7 14 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "14",
-    "approximate_address": "553 E GWINNETT ST",
-    "approx_distance_meters": 0.00025436549179067014
-  },
-  {
     "url": "https://www.airbnb.com/rooms/48184109",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -26323,21 +19738,6 @@ const locations = [
     "years_hosting": "13",
     "approximate_address": "416 E WALDBURG ST",
     "approx_distance_meters": 5.4985447459970026e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/991370907977134731",
-    "rental_type": "Tiny home",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0646,
-    "longitude": -81.0916,
-    "host_name": "Sarah And Michael Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "420 E WALDBURG ST",
-    "approx_distance_meters": 0.00014787915095413844
   },
   {
     "url": "https://www.airbnb.com/rooms/712122877638406301",
@@ -26505,36 +19905,6 @@ const locations = [
     "approx_distance_meters": 0.00010414412247486608
   },
   {
-    "url": "https://www.airbnb.com/rooms/1345307853074582311",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0611,
-    "longitude": -81.0986,
-    "host_name": "Sylvia And Chris Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "1518 BULL ST",
-    "approx_distance_meters": 4.580033777571006e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1568125933988708260",
-    "rental_type": "Entire rental unit",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.063473372232224,
-    "longitude": -81.10011253520406,
-    "host_name": "Cora E Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "124 W ANDERSON ST",
-    "approx_distance_meters": 0.00025361816442296455
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1112950766403768618",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -26608,21 +19978,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "221 E DUFFY ST",
     "approx_distance_meters": 0.00011237136652996979
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1237218493475350584",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.06088,
-    "longitude": -81.09386,
-    "host_name": "Robby With BRB Properties Inc Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "1418 HABERSHAM ST",
-    "approx_distance_meters": 0.00011885971796848352
   },
   {
     "url": "https://www.airbnb.com/rooms/1592716030246875509",
@@ -26700,21 +20055,6 @@ const locations = [
     "approx_distance_meters": 0.0001044356486648597
   },
   {
-    "url": "https://www.airbnb.com/rooms/34820455",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.0634,
-    "longitude": -81.09191,
-    "host_name": "Jonathan And Cecil Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "501 E PARK AVE",
-    "approx_distance_meters": 0.00022979660112655022
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1626158740516749363",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -26790,21 +20130,6 @@ const locations = [
     "approx_distance_meters": 0.0001428867648265927
   },
   {
-    "url": "https://www.airbnb.com/rooms/1376915081585059540",
-    "rental_type": "Entire home",
-    "guests": 16.0,
-    "bedrooms": 7.0,
-    "beds": 15.0,
-    "baths": 3.0,
-    "latitude": 32.060370652471185,
-    "longitude": -81.09204140882741,
-    "host_name": "Robby With BRB Properties Inc Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "537 E ANDERSON LN",
-    "approx_distance_meters": 0.00021694023677343348
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1421355822599266211",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -26850,21 +20175,6 @@ const locations = [
     "approx_distance_meters": 8.716968368629527e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1640321569342920646",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.05679358579965,
-    "longitude": -81.26638127557031,
-    "host_name": "Leslie Superhost \u00b7 4 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "106 W TISBURY LN",
-    "approx_distance_meters": 0.00022881945020371364
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1729228517438538042",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -26908,21 +20218,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "24 E 37TH ST",
     "approx_distance_meters": 2.9209727540468755e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/715953215168325118",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05762,
-    "longitude": -81.09757,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1909 ABERCORN ST",
-    "approx_distance_meters": 0.00014296270608974495
   },
   {
     "url": "https://www.airbnb.com/rooms/658821399649347489",
@@ -27045,21 +20340,6 @@ const locations = [
     "approx_distance_meters": 0.0002304540831578224
   },
   {
-    "url": "https://www.airbnb.com/rooms/740639846626845262",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05598,
-    "longitude": -81.08581,
-    "host_name": "Celine Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "823 E 34TH ST",
-    "approx_distance_meters": 0.00018872598121628923
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1690089032446377060",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -27073,36 +20353,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "1117 E ANDERSON ST",
     "approx_distance_meters": 5.15053641016559e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1391633393094260130",
-    "rental_type": "Entire guesthouse",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.05758,
-    "longitude": -81.08329,
-    "host_name": "LaTeresa 7 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "1501 OTT ST",
-    "approx_distance_meters": 0.0002700038709776673
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1080353260717793886",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 2.0,
-    "latitude": 32.05868,
-    "longitude": -81.07747,
-    "host_name": "Trent Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "1301 E DUFFY ST",
-    "approx_distance_meters": 0.00023008046226816238
   },
   {
     "url": "https://www.airbnb.com/rooms/1610978458939482563",
@@ -27150,21 +20400,6 @@ const locations = [
     "approx_distance_meters": 0.0001433312111489406
   },
   {
-    "url": "https://www.airbnb.com/rooms/731987792439581306",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.05254,
-    "longitude": -81.09976,
-    "host_name": "Heidi Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "2517 ABERCORN ST",
-    "approx_distance_meters": 0.0001014471258937364
-  },
-  {
     "url": "https://www.airbnb.com/rooms/22528638",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -27208,21 +20443,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "536 SEILER AVE",
     "approx_distance_meters": 4.401362277391444e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/837224251559186207",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.05447,
-    "longitude": -81.09454,
-    "host_name": "Lionel 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "511 E 38TH ST",
-    "approx_distance_meters": 0.0002041378998655034
   },
   {
     "url": "https://www.airbnb.com/rooms/1461005763185741760",
@@ -27343,21 +20563,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "1120 E 38TH ST",
     "approx_distance_meters": 2.263377575017919e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/49388626",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.05252,
-    "longitude": -81.07614,
-    "host_name": "Lenny 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1501 E 35TH ST",
-    "approx_distance_meters": 0.0001348002288773181
   },
   {
     "url": "https://www.airbnb.com/rooms/23020496",
@@ -27585,21 +20790,6 @@ const locations = [
     "approx_distance_meters": 0.00013887030241291543
   },
   {
-    "url": "https://www.airbnb.com/rooms/1008100177153545345",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.0406,
-    "longitude": -80.98724,
-    "host_name": "Timothy 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "262 BATTERY WAY",
-    "approx_distance_meters": 0.0001830629144174705
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1573076930933040166",
     "rental_type": "Entire home",
     "guests": 4.0,
@@ -27795,21 +20985,6 @@ const locations = [
     "approx_distance_meters": 6.742392944873263e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1487478564015727366",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 2.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.02648102738789,
-    "longitude": -80.85028832125626,
-    "host_name": "Deborah Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.0009006227624623794
-  },
-  {
     "url": "https://www.airbnb.com/rooms/39810503",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -27823,21 +20998,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "CAPTAINS VIEW",
     "approx_distance_meters": 7.874482014365129e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/772652577483688012",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.02534,
-    "longitude": -80.85519,
-    "host_name": "Aj 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "9 SHIPWATCH LN",
-    "approx_distance_meters": 0.000741163507398744
   },
   {
     "url": "https://www.airbnb.com/rooms/29828184",
@@ -27883,21 +21043,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "85 VAN HORN",
     "approx_distance_meters": 8.515951288519932e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/21025506",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.02266,
-    "longitude": -80.85512,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1102 BAY ST",
-    "approx_distance_meters": 0.00027485762913705445
   },
   {
     "url": "https://www.airbnb.com/rooms/43044691",
@@ -27960,21 +21105,6 @@ const locations = [
     "approx_distance_meters": 7.724380907016578e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/53062839",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.02574,
-    "longitude": -80.85085,
-    "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.0004727611750104173
-  },
-  {
     "url": "https://www.airbnb.com/rooms/716583220841426797",
     "rental_type": "Entire condo",
     "guests": 6.0,
@@ -27988,36 +21118,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "85 VAN HORN",
     "approx_distance_meters": 1.9299388417368716e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/999935599390213161",
-    "rental_type": "Entire townhouse",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0252,
-    "longitude": -80.8521,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "54 CAPTAINS VIEW",
-    "approx_distance_meters": 0.00016412350095019115
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1092899949775297175",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.02454,
-    "longitude": -80.85054,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "5 CAPTAINS VIEW",
-    "approx_distance_meters": 0.0002109975256966299
   },
   {
     "url": "https://www.airbnb.com/rooms/1437788072097141264",
@@ -28138,21 +21238,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "85 VAN HORN",
     "approx_distance_meters": 9.624799154887811e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1462560625035613454",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0247,
-    "longitude": -80.8496,
-    "host_name": "Christopher Superhost \u00b7 11 months hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "85 VAN HORN",
-    "approx_distance_meters": 0.00022938416458858236
   },
   {
     "url": "https://www.airbnb.com/rooms/49468125",
@@ -28288,36 +21373,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "1217 BAY ST #318B",
     "approx_distance_meters": 5.5011457959675226e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1624185445214030043",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.022008895600855,
-    "longitude": -80.85736724235055,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1209 BAY ST",
-    "approx_distance_meters": 0.00022646971577671264
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1667376586612965212",
-    "rental_type": "Entire rental unit",
-    "guests": 6.0,
-    "bedrooms": 1.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.02091,
-    "longitude": -80.85804,
-    "host_name": "Paula Superhost \u00b7 1 year hosting",
-    "superhost": "Superhost",
-    "years_hosting": "",
-    "approximate_address": "1307 SOLOMON ST",
-    "approx_distance_meters": 0.0003144260854042686
   },
   {
     "url": "https://www.airbnb.com/rooms/946983536333995980",
@@ -28590,21 +21645,6 @@ const locations = [
     "approx_distance_meters": 5.616256289921949e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/54106151",
-    "rental_type": "Entire vacation home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 13.0,
-    "baths": 0.0,
-    "latitude": 32.02039,
-    "longitude": -80.85578,
-    "host_name": "Valentina Superhost \u00b7 4 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "4",
-    "approximate_address": "202 MCKENZIE AVE",
-    "approx_distance_meters": 0.00020925021091017864
-  },
-  {
     "url": "https://www.airbnb.com/rooms/50148939",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -28680,21 +21720,6 @@ const locations = [
     "approx_distance_meters": 2.1992909081982037e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/53352331",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01971,
-    "longitude": -80.84873,
-    "host_name": "Peggy 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "4 CARPENTER RD",
-    "approx_distance_meters": 0.00022285035980000513
-  },
-  {
     "url": "https://www.airbnb.com/rooms/666543920439753899",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -28768,21 +21793,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "VETERANS DR",
     "approx_distance_meters": 2.1879247387810488e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/36038488",
-    "rental_type": "Entire condo",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 9.0,
-    "baths": 3.0,
-    "latitude": 32.0197,
-    "longitude": -80.84613,
-    "host_name": "Rendezvous Property Management Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "17 MEDDIN DR",
-    "approx_distance_meters": 0.00016443958686770667
   },
   {
     "url": "https://www.airbnb.com/rooms/843386924411680906",
@@ -28920,21 +21930,6 @@ const locations = [
     "approx_distance_meters": 4.2871296217200884e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/848408661303501396",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 6.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.01863,
-    "longitude": -80.84175,
-    "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "8 PALMWOOD CT",
-    "approx_distance_meters": 0.0006144638935044509
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1309564710039750739",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -28995,21 +21990,6 @@ const locations = [
     "approx_distance_meters": 6.055347982590728e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/5433282",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01458,
-    "longitude": -80.86794,
-    "host_name": "Randi 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "12 ESTILL HAMMOCK RD",
-    "approx_distance_meters": 0.0003276711164284294
-  },
-  {
     "url": "https://www.airbnb.com/rooms/22829197",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -29040,21 +22020,6 @@ const locations = [
     "approx_distance_meters": 0.0006327826856198268
   },
   {
-    "url": "https://www.airbnb.com/rooms/1500892772383553949",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.016613025603675,
-    "longitude": -80.85012384880869,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "106 EAGLES NEST DR",
-    "approx_distance_meters": 0.0002948888664607436
-  },
-  {
     "url": "https://www.airbnb.com/rooms/975169295697576457",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -29070,36 +22035,6 @@ const locations = [
     "approx_distance_meters": 7.232491246377531e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/43883914",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01751,
-    "longitude": -80.84616,
-    "host_name": "Stephen Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "32 SOLOMON AVE",
-    "approx_distance_meters": 0.00041618144087880406
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1408992",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01821,
-    "longitude": -80.84955,
-    "host_name": "Gina Poole Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "6 LULLWATER RD",
-    "approx_distance_meters": 0.00020843615737570732
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1542402543791470024",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -29113,21 +22048,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "4 HOSTI ST",
     "approx_distance_meters": 7.900592675990994e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/38820463",
-    "rental_type": "Entire cottage",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01599,
-    "longitude": -80.84856,
-    "host_name": "Stuart And Kelli Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "801 1ST ST",
-    "approx_distance_meters": 0.0003804628630099267
   },
   {
     "url": "https://www.airbnb.com/rooms/1416064113571611662",
@@ -29175,21 +22095,6 @@ const locations = [
     "approx_distance_meters": 1.0484860834810485e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/30556637",
-    "rental_type": "Entire cottage",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.0174,
-    "longitude": -80.8472,
-    "host_name": "Lisa Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "15 N CAMPBELL AVE",
-    "approx_distance_meters": 0.00022168205544692926
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1132860056835373584",
     "rental_type": "Entire cottage",
     "guests": 2.0,
@@ -29203,21 +22108,6 @@ const locations = [
     "years_hosting": "8",
     "approximate_address": "4 LULLWATER RD",
     "approx_distance_meters": 0.00011644267625079525
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/51603459",
-    "rental_type": "Entire townhouse",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.01742,
-    "longitude": -80.84976,
-    "host_name": "Maria Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "3 LULLWATER RD",
-    "approx_distance_meters": 0.00015354617710809458
   },
   {
     "url": "https://www.airbnb.com/rooms/1364209613724432289",
@@ -29235,21 +22125,6 @@ const locations = [
     "approx_distance_meters": 0.0001032766276763973
   },
   {
-    "url": "https://www.airbnb.com/rooms/13769243",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01838,
-    "longitude": -80.84964,
-    "host_name": "Linda Superhost \u00b7 9 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "9",
-    "approximate_address": "9 LIGHTHOUSE LN",
-    "approx_distance_meters": 0.0001587899264777619
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1616950512562918908",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -29265,36 +22140,6 @@ const locations = [
     "approx_distance_meters": 0.00015117561094417248
   },
   {
-    "url": "https://www.airbnb.com/rooms/52535732",
-    "rental_type": "Entire guest suite",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.01627,
-    "longitude": -80.84161,
-    "host_name": "Ann Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "9 OCEAN VIEW CT #A",
-    "approx_distance_meters": 0.0005027756997305777
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1086334294176829781",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0168,
-    "longitude": -80.8424,
-    "host_name": "Ann Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "20 OCEAN VIEW CT",
-    "approx_distance_meters": 0.0002182020347092378
-  },
-  {
     "url": "https://www.airbnb.com/rooms/36824675",
     "rental_type": "Entire guest suite",
     "guests": 4.0,
@@ -29308,51 +22153,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "11 OCEAN VIEW CT",
     "approx_distance_meters": 2.585612231199261e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/43384023",
-    "rental_type": "Entire condo",
-    "guests": 10.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.01703,
-    "longitude": -80.84159,
-    "host_name": "Terese Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "OFFICERS ROW",
-    "approx_distance_meters": 0.00041460600921860947
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/848408970104939070",
-    "rental_type": "Entire townhouse",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 5.0,
-    "baths": 4.0,
-    "latitude": 32.0167,
-    "longitude": -80.84281,
-    "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "9 ROSEWOOD AVE",
-    "approx_distance_meters": 0.0001904720248218686
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1674139217540175291",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 8.0,
-    "baths": 3.0,
-    "latitude": 32.01753750366501,
-    "longitude": -80.84265559588256,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "3 BEACHWOOD CT",
-    "approx_distance_meters": 0.00023902113444154396
   },
   {
     "url": "https://www.airbnb.com/rooms/42293206",
@@ -29383,21 +22183,6 @@ const locations = [
     "years_hosting": "",
     "approximate_address": "9 ROSEWOOD AVE",
     "approx_distance_meters": 0.000132896573124854
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1355829945700545465",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 3.0,
-    "latitude": 32.01815535112477,
-    "longitude": -80.84154393217953,
-    "host_name": "Ann Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "7 PALMWOOD CT",
-    "approx_distance_meters": 0.0007916376437759235
   },
   {
     "url": "https://www.airbnb.com/rooms/48379948",
@@ -29443,21 +22228,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "12 VAN HORN",
     "approx_distance_meters": 0.000154075092129464
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/952265440704361412",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 5.0,
-    "latitude": 32.0155,
-    "longitude": -80.8429,
-    "host_name": "Mark 3 years hosting",
-    "superhost": "",
-    "years_hosting": "3",
-    "approximate_address": "1 OCEAN VIEW CT",
-    "approx_distance_meters": 0.00023511102801158137
   },
   {
     "url": "https://www.airbnb.com/rooms/1019548241498927725",
@@ -29610,21 +22380,6 @@ const locations = [
     "approx_distance_meters": 0.00013241315024341594
   },
   {
-    "url": "https://www.airbnb.com/rooms/33898983",
-    "rental_type": "Entire home",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.01119,
-    "longitude": -80.84584,
-    "host_name": "Christine 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "207 5TH AVE",
-    "approx_distance_meters": 0.00026174085728214897
-  },
-  {
     "url": "https://www.airbnb.com/rooms/886158916944910855",
     "rental_type": "Entire rental unit",
     "guests": 4.0,
@@ -29638,21 +22393,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": null,
     "approx_distance_meters": 0.00017169793220323494
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/877528103282352952",
-    "rental_type": "Tiny home",
-    "guests": 3.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.01225,
-    "longitude": -80.84621,
-    "host_name": "Jason Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "5TH AVE",
-    "approx_distance_meters": 0.0004428802210437811
   },
   {
     "url": "https://www.airbnb.com/rooms/1092741683761972505",
@@ -29745,36 +22485,6 @@ const locations = [
     "approx_distance_meters": 0.00013870790549372876
   },
   {
-    "url": "https://www.airbnb.com/rooms/40822290",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.01326,
-    "longitude": -80.84444,
-    "host_name": "Thomas Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "502 1ST ST",
-    "approx_distance_meters": 0.0001931696390328636
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/871726324312677124",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": "",
-    "baths": 1.0,
-    "latitude": 32.0111977206298,
-    "longitude": -80.84391714105577,
-    "host_name": "Greg Superhost \u00b7 3 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "3",
-    "approximate_address": "204 JONES AVE",
-    "approx_distance_meters": 0.00020806033221723577
-  },
-  {
     "url": "https://www.airbnb.com/rooms/35153772",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -29788,21 +22498,6 @@ const locations = [
     "years_hosting": "12",
     "approximate_address": "141 LEWIS AVE",
     "approx_distance_meters": 0.0003513483985994646
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1228889631794478538",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.012696937930066,
-    "longitude": -80.84530184542358,
-    "host_name": "Tybnb Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "105 5TH AVE",
-    "approx_distance_meters": 0.00023712636119597877
   },
   {
     "url": "https://www.airbnb.com/rooms/1137192477441437758",
@@ -29910,51 +22605,6 @@ const locations = [
     "approx_distance_meters": 4.0918214088501765e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/12562459",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.0124,
-    "longitude": -80.8414,
-    "host_name": "Matthew Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "101 BUTLER AVE #A",
-    "approx_distance_meters": 0.0002769015426205811
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1340052095977966500",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 32.0114,
-    "longitude": -80.841,
-    "host_name": "Lauren Superhost \u00b7 16 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "16",
-    "approximate_address": "114 BUTLER AVE",
-    "approx_distance_meters": 6.192332001138036e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/939291521771202103",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.0113,
-    "longitude": -80.8411,
-    "host_name": "Rob Superhost \u00b7 13 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "13",
-    "approximate_address": "116 BUTLER AVE",
-    "approx_distance_meters": 5.317007912046905e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1097051012062514660",
     "rental_type": "Entire home",
     "guests": 2.0,
@@ -29968,21 +22618,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "108 JONES AVE",
     "approx_distance_meters": 0.00013972577975526084
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1231138004504170847",
-    "rental_type": "Entire townhouse",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 4.0,
-    "latitude": 32.01407,
-    "longitude": -80.84087,
-    "host_name": "VasVista Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "LOVELL AVE",
-    "approx_distance_meters": 0.0006598877833849634
   },
   {
     "url": "https://www.airbnb.com/rooms/13020451",
@@ -30043,21 +22678,6 @@ const locations = [
     "years_hosting": "12",
     "approximate_address": "203 LOVELL AVE",
     "approx_distance_meters": 2.4358028748942757e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/21025736",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 32.01187,
-    "longitude": -80.84045,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "0 BUTLER AVE",
-    "approx_distance_meters": 8.284785118509967e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1128249431150153374",
@@ -30165,21 +22785,6 @@ const locations = [
     "approx_distance_meters": 0.00031361739255003374
   },
   {
-    "url": "https://www.airbnb.com/rooms/573095817835987546",
-    "rental_type": "Entire cottage",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 32.00999,
-    "longitude": -80.84442,
-    "host_name": "Terese Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "303 3RD ST",
-    "approx_distance_meters": 0.00025302295807432484
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1229155319871386152",
     "rental_type": "Entire home",
     "guests": 12.0,
@@ -30268,36 +22873,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "210 MILLER AVE",
     "approx_distance_meters": 9.546086429531884e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1227633060121500069",
-    "rental_type": "Entire home",
-    "guests": 13.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 4.0,
-    "latitude": 32.00806258657264,
-    "longitude": -80.84893872077853,
-    "host_name": "Tybnb Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "613 6TH ST",
-    "approx_distance_meters": 0.00026722482615321554
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1065461726781335531",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.0096,
-    "longitude": -80.8456,
-    "host_name": "Jamie Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "401 MILLER AVE",
-    "approx_distance_meters": 0.00018741230628413643
   },
   {
     "url": "https://www.airbnb.com/rooms/16924630",
@@ -30390,21 +22965,6 @@ const locations = [
     "approx_distance_meters": 7.29015406862802e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/971784535540378165",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 32.01064,
-    "longitude": -80.84502,
-    "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "214 MILLER AVE",
-    "approx_distance_meters": 0.00018406296420281012
-  },
-  {
     "url": "https://www.airbnb.com/rooms/965235042323677854",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -30450,21 +23010,6 @@ const locations = [
     "approx_distance_meters": 0.00011975351316315599
   },
   {
-    "url": "https://www.airbnb.com/rooms/1182702173995788555",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.00882,
-    "longitude": -80.84057,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "3RD ST",
-    "approx_distance_meters": 0.0010312141255997655
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1598567608457206309",
     "rental_type": "Entire condo",
     "guests": 7.0,
@@ -30478,51 +23023,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "404 BUTLER AVE #443",
     "approx_distance_meters": 0.00034266646544766483
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/29705421",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 0.0,
-    "latitude": 32.0094,
-    "longitude": -80.84192,
-    "host_name": "Micheal 8 years hosting",
-    "superhost": "",
-    "years_hosting": "8",
-    "approximate_address": "3 3RD ST #511",
-    "approx_distance_meters": 0.00017342631625868855
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/4917939",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.01007,
-    "longitude": -80.84095,
-    "host_name": "Pat 12 years hosting",
-    "superhost": "",
-    "years_hosting": "12",
-    "approximate_address": "0 BUTLER AVE",
-    "approx_distance_meters": 0.00022169449406695438
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1511694018116576382",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 32.00739,
-    "longitude": -80.84093,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "2 CENTER TER",
-    "approx_distance_meters": 0.0008110384468992227
   },
   {
     "url": "https://www.airbnb.com/rooms/1686269201258231505",
@@ -30585,21 +23085,6 @@ const locations = [
     "approx_distance_meters": 3.4764880541451265e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1002957922657077094",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.00758,
-    "longitude": -80.8413,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "404 BUTLER AVE #445",
-    "approx_distance_meters": 0.00045897339396587907
-  },
-  {
     "url": "https://www.airbnb.com/rooms/53062833",
     "rental_type": "Entire condo",
     "guests": 8.0,
@@ -30658,21 +23143,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "813 2ND AVE",
     "approx_distance_meters": 0.0001965057683686816
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/34828974",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 4.0,
-    "beds": 8.0,
-    "baths": 3.0,
-    "latitude": 32.00458,
-    "longitude": -80.84659,
-    "host_name": "Lindsay Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "716 JONES AVE",
-    "approx_distance_meters": 0.00021944729329746032
   },
   {
     "url": "https://www.airbnb.com/rooms/32549495",
@@ -30780,21 +23250,6 @@ const locations = [
     "approx_distance_meters": 7.027180315657219e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/13668691",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 32.0037,
-    "longitude": -80.84785,
-    "host_name": "Tybee Vacation Rentals 11 years hosting",
-    "superhost": "",
-    "years_hosting": "11",
-    "approximate_address": "807 JONES AVE",
-    "approx_distance_meters": 0.0001521340445019787
-  },
-  {
     "url": "https://www.airbnb.com/rooms/19176427",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -30823,21 +23278,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "704 2ND AVE",
     "approx_distance_meters": 5.152950898392648e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/558701103954887610",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.00329,
-    "longitude": -80.84635,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "810 2ND AVE",
-    "approx_distance_meters": 0.000186590231923683
   },
   {
     "url": "https://www.airbnb.com/rooms/701311423754832417",
@@ -30885,21 +23325,6 @@ const locations = [
     "approx_distance_meters": 1.762514762998699e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1562436915753087253",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 32.00305,
-    "longitude": -80.84648,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "814 2ND AVE",
-    "approx_distance_meters": 0.00021432872973956526
-  },
-  {
     "url": "https://www.airbnb.com/rooms/50172251",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -30943,21 +23368,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "8 7TH ST",
     "approx_distance_meters": 3.9972635622937086e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/43449558",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 32.00681,
-    "longitude": -80.84354,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "515 BUTLER AVE",
-    "approx_distance_meters": 0.0001705402742319606
   },
   {
     "url": "https://www.airbnb.com/rooms/649295630343075780",
@@ -31005,21 +23415,6 @@ const locations = [
     "approx_distance_meters": 4.07573645421579e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/592635926147958046",
-    "rental_type": "Entire condo",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 32.00683,
-    "longitude": -80.84097,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "2 CENTER TER",
-    "approx_distance_meters": 0.0007977041643069696
-  },
-  {
     "url": "https://www.airbnb.com/rooms/48028830",
     "rental_type": "Entire townhouse",
     "guests": 12.0,
@@ -31033,21 +23428,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "7 7TH LN",
     "approx_distance_meters": 0.00011236924256260015
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/53062808",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 32.00656,
-    "longitude": -80.84352,
-    "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "517 BUTLER AVE",
-    "approx_distance_meters": 0.00028418670856855145
   },
   {
     "url": "https://www.airbnb.com/rooms/1158161056717226116",
@@ -31185,21 +23565,6 @@ const locations = [
     "approx_distance_meters": 6.953963887755367e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1484245739235244685",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 31.9992,
-    "longitude": -80.851,
-    "host_name": "Leslie 11 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "1202 6TH AVE",
-    "approx_distance_meters": 0.00012705042141591673
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1232191716493572057",
     "rental_type": "Entire rental unit",
     "guests": 5.0,
@@ -31213,21 +23578,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1209 5TH AVE",
     "approx_distance_meters": 4.642326183783487e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1338436116589219127",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.99859740581932,
-    "longitude": -80.85095816294134,
-    "host_name": "Mermaid Cottages Superhost \u00b7 12 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "12",
-    "approximate_address": "1207 5TH AVE",
-    "approx_distance_meters": 0.00024773006041356606
   },
   {
     "url": "https://www.airbnb.com/rooms/19855996",
@@ -31258,21 +23608,6 @@ const locations = [
     "years_hosting": "9",
     "approximate_address": "VENETIAN DR",
     "approx_distance_meters": 0.000400288483407683
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/41876706",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 8.0,
-    "baths": 3.0,
-    "latitude": 31.99872,
-    "longitude": -80.84995,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1201 MILLER AVE",
-    "approx_distance_meters": 0.00026455854402149915
   },
   {
     "url": "https://www.airbnb.com/rooms/48580800",
@@ -31365,21 +23700,6 @@ const locations = [
     "approx_distance_meters": 6.425616023213018e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1511609696502214504",
-    "rental_type": "Entire home",
-    "guests": 12.0,
-    "bedrooms": 5.0,
-    "beds": 8.0,
-    "baths": 2.0,
-    "latitude": 31.99973311605541,
-    "longitude": -80.84381690073461,
-    "host_name": "Rendezvous Property Management Superhost \u00b7 8 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "8",
-    "approximate_address": "1 10TH CT ##B",
-    "approx_distance_meters": 0.00043391012985486354
-  },
-  {
     "url": "https://www.airbnb.com/rooms/2391738",
     "rental_type": "Entire rental unit",
     "guests": 6.0,
@@ -31410,21 +23730,6 @@ const locations = [
     "approx_distance_meters": 2.666904662384765e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1163087896159969093",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": "",
-    "baths": 2.0,
-    "latitude": 32.0002,
-    "longitude": -80.84598,
-    "host_name": "Melissa Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "14 10TH TER",
-    "approx_distance_meters": 0.00014422895477343863
-  },
-  {
     "url": "https://www.airbnb.com/rooms/10263400",
     "rental_type": "Entire home",
     "guests": 8.0,
@@ -31438,21 +23743,6 @@ const locations = [
     "years_hosting": "11",
     "approximate_address": "7 10TH CT",
     "approx_distance_meters": 0.00011567945433334252
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1005677693614593262",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.99956,
-    "longitude": -80.84794,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1103 2ND AVE",
-    "approx_distance_meters": 0.00018233835070996713
   },
   {
     "url": "https://www.airbnb.com/rooms/12591776",
@@ -31528,81 +23818,6 @@ const locations = [
     "years_hosting": "12",
     "approximate_address": "909 JONES AVE",
     "approx_distance_meters": 8.543203536958164e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/984869890217249656",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 32.00101,
-    "longitude": -80.84577,
-    "host_name": "Marlyn Superhost \u00b7 5 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "5",
-    "approximate_address": "18 10TH ST",
-    "approx_distance_meters": 0.0002518190559578316
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1579070749213948790",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 5.0,
-    "baths": 3.0,
-    "latitude": 31.99963444275578,
-    "longitude": -80.84627012783828,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "18 11TH ST",
-    "approx_distance_meters": 0.00015215229593255937
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/577874902660840187",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.99971,
-    "longitude": -80.84389,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1 10TH CT ##B",
-    "approx_distance_meters": 0.00037968182203265845
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/700704175627733138",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 3.0,
-    "latitude": 31.99905,
-    "longitude": -80.8435,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1 10TH TER",
-    "approx_distance_meters": 0.0009534639164245063
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/701499875920202633",
-    "rental_type": "Entire home",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 3.0,
-    "latitude": 31.99939,
-    "longitude": -80.84412,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1 10TH TER",
-    "approx_distance_meters": 0.0002483355303376544
   },
   {
     "url": "https://www.airbnb.com/rooms/1478346229221408106",
@@ -31800,36 +24015,6 @@ const locations = [
     "approx_distance_meters": 2.7115551038491424e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1186471505307964957",
-    "rental_type": "Entire home",
-    "guests": 14.0,
-    "bedrooms": 6.0,
-    "beds": 8.0,
-    "baths": 4.0,
-    "latitude": 31.99448,
-    "longitude": -80.85112,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "15TH AVE",
-    "approx_distance_meters": 0.00015785641178372973
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/636348694636542980",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 3.0,
-    "baths": 1.0,
-    "latitude": 31.99643,
-    "longitude": -80.84989,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1310 JONES AVE",
-    "approx_distance_meters": 0.00021172663887874797
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1553776417154816217",
     "rental_type": "Entire home",
     "guests": 10.0,
@@ -31845,21 +24030,6 @@ const locations = [
     "approx_distance_meters": 4.3323393929852936e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/38039993",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.9943,
-    "longitude": -80.85043,
-    "host_name": "Nicole Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "1502 JONES AVE",
-    "approx_distance_meters": 0.00016410369801896966
-  },
-  {
     "url": "https://www.airbnb.com/rooms/33661419",
     "rental_type": "Entire guesthouse",
     "guests": 2.0,
@@ -31873,21 +24043,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "1315 5TH AVE",
     "approx_distance_meters": 8.415692440147857e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/44362287",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.99526,
-    "longitude": -80.85132,
-    "host_name": "Cheryl Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "1412 MILLER AVE",
-    "approx_distance_meters": 0.0002618458016268898
   },
   {
     "url": "https://www.airbnb.com/rooms/1485644833311627953",
@@ -31965,21 +24120,6 @@ const locations = [
     "approx_distance_meters": 6.795820154545622e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/39154354",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.99509,
-    "longitude": -80.84742,
-    "host_name": "Halen Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "9 14TH ST",
-    "approx_distance_meters": 0.000216767441165803
-  },
-  {
     "url": "https://www.airbnb.com/rooms/40938580",
     "rental_type": "Entire cottage",
     "guests": 5.0,
@@ -31993,21 +24133,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "1313 2ND AVE",
     "approx_distance_meters": 0.00011690176894071896
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1445002468067912940",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 2.0,
-    "beds": 5.0,
-    "baths": 2.0,
-    "latitude": 31.99789,
-    "longitude": -80.84701,
-    "host_name": "Andrew 1 year hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "15 12TH ST",
-    "approx_distance_meters": 0.0002783382836692406
   },
   {
     "url": "https://www.airbnb.com/rooms/1507962551505561571",
@@ -32038,21 +24163,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1402 BUTLER AVE",
     "approx_distance_meters": 0.00024768855391801777
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1274715478994312924",
-    "rental_type": "Entire home",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.996998856386117,
-    "longitude": -80.84743957741344,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1213 BUTLER AVE",
-    "approx_distance_meters": 0.00023506370610457803
   },
   {
     "url": "https://www.airbnb.com/rooms/14993445",
@@ -32098,21 +24208,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1603 LOVELL AVE",
     "approx_distance_meters": 0.00019334672319811587
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/16687540",
-    "rental_type": "Entire condo",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.99412,
-    "longitude": -80.85425,
-    "host_name": "Malinda Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1513 CHATHAM AVE",
-    "approx_distance_meters": 0.0003600761733551774
   },
   {
     "url": "https://www.airbnb.com/rooms/1713899109912053847",
@@ -32205,21 +24300,6 @@ const locations = [
     "approx_distance_meters": 4.628442737447084e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1639168526858730707",
-    "rental_type": "Entire home",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.992794191594342,
-    "longitude": -80.85147650196015,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "1601 3RD AVE",
-    "approx_distance_meters": 0.0001303934001263536
-  },
-  {
     "url": "https://www.airbnb.com/rooms/32655917",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -32250,21 +24330,6 @@ const locations = [
     "approx_distance_meters": 0.00011612453379648534
   },
   {
-    "url": "https://www.airbnb.com/rooms/813305099610003632",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.99329,
-    "longitude": -80.85233,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "409 TYBRISA ST",
-    "approx_distance_meters": 0.0001436485534846214
-  },
-  {
     "url": "https://www.airbnb.com/rooms/49675074",
     "rental_type": "Entire townhouse",
     "guests": 10.0,
@@ -32278,21 +24343,6 @@ const locations = [
     "years_hosting": "6",
     "approximate_address": "204 17TH ST",
     "approx_distance_meters": 7.696504369030618e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1385681611402741653",
-    "rental_type": "Entire condo",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.990902198464923,
-    "longitude": -80.85000577521924,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1701 BUTLER AVE",
-    "approx_distance_meters": 0.000194968535424846
   },
   {
     "url": "https://www.airbnb.com/rooms/48271376",
@@ -32355,66 +24405,6 @@ const locations = [
     "approx_distance_meters": 3.090659015748884e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/35792491",
-    "rental_type": "Entire rental unit",
-    "guests": 2.0,
-    "bedrooms": 1.0,
-    "beds": 1.0,
-    "baths": 1.0,
-    "latitude": 31.99056,
-    "longitude": -80.84705,
-    "host_name": "Jennifer Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "2 17TH ST #F",
-    "approx_distance_meters": 0.0007159324822253051
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/44279857",
-    "rental_type": "Entire rental unit",
-    "guests": 5.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.99419,
-    "longitude": -80.84974,
-    "host_name": "Cheryl Superhost \u00b7 6 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "6",
-    "approximate_address": "204 15TH ST",
-    "approx_distance_meters": 0.000140364481425006
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/16312436",
-    "rental_type": "Entire cottage",
-    "guests": 10.0,
-    "bedrooms": 4.0,
-    "beds": 6.0,
-    "baths": 2.0,
-    "latitude": 31.99032,
-    "longitude": -80.84756,
-    "host_name": "Terese Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1615 STRAND",
-    "approx_distance_meters": 0.00033048261238359945
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1681342471492134445",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.992,
-    "longitude": -80.84772,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1 15TH ST",
-    "approx_distance_meters": 0.00025055120674534443
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1228219119310915671",
     "rental_type": "Entire home",
     "guests": 6.0,
@@ -32428,21 +24418,6 @@ const locations = [
     "years_hosting": "2",
     "approximate_address": "15 15TH ST",
     "approx_distance_meters": 5.2033516957857145e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/35872171 ",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.99057,
-    "longitude": -80.84716,
-    "host_name": "Jennifer Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "2 17TH ST #F",
-    "approx_distance_meters": 0.00060594717508776
   },
   {
     "url": "https://www.airbnb.com/rooms/1613298484159103153",
@@ -32520,36 +24495,6 @@ const locations = [
     "approx_distance_meters": 4.834380971362808e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/48286141",
-    "rental_type": "Entire home",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.99326,
-    "longitude": -80.84961,
-    "host_name": "Emily Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "1509 BUTLER AVE",
-    "approx_distance_meters": 0.0002889270022151948
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1597865860844111593",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.986709663673423,
-    "longitude": -81.16706448859927,
-    "host_name": "Properties By Preston 4 years hosting",
-    "superhost": "",
-    "years_hosting": "4",
-    "approximate_address": "11915 APACHE AVE",
-    "approx_distance_meters": 0.00043847481314056265
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1308876630156547894",
     "rental_type": "Entire rental unit",
     "guests": 3.0,
@@ -32608,36 +24553,6 @@ const locations = [
     "years_hosting": "5",
     "approximate_address": "1813 CHATHAM AVE",
     "approx_distance_meters": 0.00010679337293368031
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/600712235366686432",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 2.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.98762,
-    "longitude": -80.85109,
-    "host_name": "Oceanfront Cottage Rentals 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "1904 CHATHAM AVE",
-    "approx_distance_meters": 0.00022837930488585565
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/19054230",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 4.0,
-    "baths": 1.0,
-    "latitude": 31.98785,
-    "longitude": -80.84997,
-    "host_name": "Tybee Vacation Rentals 9 years hosting",
-    "superhost": "",
-    "years_hosting": "9",
-    "approximate_address": "3 19TH ST",
-    "approx_distance_meters": 0.00015039906625558707
   },
   {
     "url": "https://www.airbnb.com/rooms/1471099353886204683",
@@ -32713,21 +24628,6 @@ const locations = [
     "years_hosting": "10",
     "approximate_address": "107 18TH ST",
     "approx_distance_meters": 0.00044443163545956785
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/715953190849393030",
-    "rental_type": "Entire home",
-    "guests": 7.0,
-    "bedrooms": 3.0,
-    "beds": 4.0,
-    "baths": 2.0,
-    "latitude": 31.99051,
-    "longitude": -80.85092,
-    "host_name": "Southern Belle Vacation Rentals Superhost \u00b7 10 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "10",
-    "approximate_address": "1709 LOVELL AVE",
-    "approx_distance_meters": 0.00013242769649497797
   },
   {
     "url": "https://www.airbnb.com/rooms/23643432",
@@ -32880,36 +24780,6 @@ const locations = [
     "approx_distance_meters": 3.8067047237948857e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/1646318806104268090",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.98918,
-    "longitude": -80.84902,
-    "host_name": "Ken 2 months hosting",
-    "superhost": "",
-    "years_hosting": "",
-    "approximate_address": "18TH ST",
-    "approx_distance_meters": 0.00018012313218737497
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1681320992464390668",
-    "rental_type": "Entire rental unit",
-    "guests": 8.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 31.99052,
-    "longitude": -80.84776,
-    "host_name": "Kayla & Cameron 5 years hosting",
-    "superhost": "",
-    "years_hosting": "5",
-    "approximate_address": "1615 STRAND",
-    "approx_distance_meters": 5.702407471809914e-05
-  },
-  {
     "url": "https://www.airbnb.com/rooms/1401684187891153225",
     "rental_type": "Entire condo",
     "guests": 8.0,
@@ -32940,21 +24810,6 @@ const locations = [
     "approx_distance_meters": 6.815223317391974e-05
   },
   {
-    "url": "https://www.airbnb.com/rooms/16029839",
-    "rental_type": "Entire condo",
-    "guests": 4.0,
-    "bedrooms": 2.0,
-    "beds": 2.0,
-    "baths": 2.0,
-    "latitude": 31.98901,
-    "longitude": -80.84838,
-    "host_name": "James 10 years hosting",
-    "superhost": "",
-    "years_hosting": "10",
-    "approximate_address": "1711 STRAND ST",
-    "approx_distance_meters": 0.00019465064699082101
-  },
-  {
     "url": "https://www.airbnb.com/rooms/979562445917891949",
     "rental_type": "Entire condo",
     "guests": 4.0,
@@ -32968,21 +24823,6 @@ const locations = [
     "years_hosting": "7",
     "approximate_address": "9 17TH PL",
     "approx_distance_meters": 3.0800298755850574e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1153073639096596281",
-    "rental_type": "Entire rental unit",
-    "guests": 4.0,
-    "bedrooms": 1.0,
-    "beds": 2.0,
-    "baths": 1.0,
-    "latitude": 31.9905,
-    "longitude": -80.8482,
-    "host_name": "Emily Superhost \u00b7 7 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "7",
-    "approximate_address": "3 17TH ST",
-    "approx_distance_meters": 9.793434109743251e-05
   },
   {
     "url": "https://www.airbnb.com/rooms/1229096231093941615",
@@ -33013,21 +24853,6 @@ const locations = [
     "years_hosting": "3",
     "approximate_address": "9 17TH PL",
     "approx_distance_meters": 3.0800298755850574e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1613278052081018832",
-    "rental_type": "Entire townhouse",
-    "guests": 15.0,
-    "bedrooms": 4.0,
-    "beds": 7.0,
-    "baths": 3.0,
-    "latitude": 31.98989,
-    "longitude": -80.84792,
-    "host_name": "Evie 7 years hosting",
-    "superhost": "",
-    "years_hosting": "7",
-    "approximate_address": "1701 STRAND AVE #12",
-    "approx_distance_meters": 0.00016711628446818686
   },
   {
     "url": "https://www.airbnb.com/rooms/1526087137168749966",
@@ -33073,20 +24898,5 @@ const locations = [
     "years_hosting": "11 months hosting",
     "approximate_address": "1018 SHAWNEE ST",
     "approx_distance_meters": 3.149205581771934e-05
-  },
-  {
-    "url": "https://www.airbnb.com/rooms/1079940094337567673",
-    "rental_type": "Entire home",
-    "guests": 6.0,
-    "bedrooms": 3.0,
-    "beds": 3.0,
-    "baths": 2.0,
-    "latitude": 32.0385,
-    "longitude": "",
-    "host_name": "Erica Superhost \u00b7 2 years hosting",
-    "superhost": "Superhost",
-    "years_hosting": "2",
-    "approximate_address": "",
-    "approx_distance_meters": null
   }
 ];
