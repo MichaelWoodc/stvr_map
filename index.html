@@ -161,6 +161,7 @@
     </label>
 
     <div class="filter-section-title">Municipalities</div>
+    <div id="totalCount" style="font-weight:bold;margin-bottom:6px">Total: 0</div>
     <div id="municipalityCheckboxes"></div>
 
     <div class="slider-label">Min Over-Limit:</div>
@@ -180,13 +181,16 @@
       const longitude = Number(loc.longitude);
       const guests = Number(loc.guests) || 0;
       const bedrooms = Number(loc.bedrooms) || 0;
+      const allowedGuests = Number(loc.allowed_guests);
+      const overOccupancy = Number(loc.over_occupancy);
 
       if (!latitude || !longitude) return null;
 
-      const baselineLimit = (bedrooms * 2) + 2;
-      const maxAllowedGuests = bedrooms === 0 ? 2 : baselineLimit;
-      const isOverCapacity = guests > maxAllowedGuests;
-      const overAmount = isOverCapacity ? guests - maxAllowedGuests : 0;
+      const fallbackAllowedGuests = bedrooms === 0 ? 2 : (bedrooms * 2) + 2;
+      const maxAllowedGuests = Number.isFinite(allowedGuests) ? allowedGuests : fallbackAllowedGuests;
+      const computedOverAmount = Number.isFinite(overOccupancy) ? overOccupancy : Math.max(0, guests - maxAllowedGuests);
+      const isOverCapacity = computedOverAmount > 0;
+      const overAmount = isOverCapacity ? computedOverAmount : 0;
 
       return {
         ...loc,
@@ -195,8 +199,10 @@
         guests,
         bedrooms,
         maxAllowedGuests,
+        allowedGuests: maxAllowedGuests,
+        overOccupancy: computedOverAmount,
         isOverCapacity,
-        overAmount: Number(overAmount)
+        overAmount
       };
     }).filter(Boolean);
 
@@ -334,6 +340,13 @@
       container.innerHTML = "";
       activeMunicipalities.clear();
 
+      // Compute counts from processedLocations
+      const counts = processedLocations.reduce((acc, loc) => {
+        const key = normalizeMunicipalityName(loc.municipality) || "UNINCORPORATED";
+        acc[key] = (acc[key] || 0) + 1;
+        return acc;
+      }, {});
+
       names.forEach(name => {
         const label = document.createElement("label");
         label.className = "filter-item";
@@ -343,11 +356,8 @@
         checkbox.value = name;
         checkbox.checked = true;
         checkbox.addEventListener("change", () => {
-          if (checkbox.checked) {
-            activeMunicipalities.add(name);
-          } else {
-            activeMunicipalities.delete(name);
-          }
+          if (checkbox.checked) activeMunicipalities.add(name);
+          else activeMunicipalities.delete(name);
           applyFilters();
         });
 
@@ -359,14 +369,67 @@
         colorSwatch.style.borderRadius = "2px";
         colorSwatch.style.backgroundColor = municipalityColors[name];
 
-        const text = document.createTextNode(name);
+        const count = counts[normalizeMunicipalityName(name)] || 0;
+        const nameNode = document.createTextNode(name);
+        const countSpan = document.createElement("span");
+        countSpan.className = "mun-count";
+        countSpan.style.marginLeft = "6px";
+        countSpan.textContent = ` (${count})`;
 
         label.appendChild(checkbox);
         label.appendChild(colorSwatch);
-        label.appendChild(text);
+        label.appendChild(nameNode);
+        label.appendChild(countSpan);
         container.appendChild(label);
 
         activeMunicipalities.add(name);
+      });
+    }
+
+    function updateMunicipalityCounts(filtered) {
+      // For checkbox counts we want them to reflect the current
+      // compliance and slider filters only (not municipality selections).
+      // Use the same effectiveMin logic as applyFilters so behavior matches.
+      const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
+      const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
+
+      let effectiveMin = null;
+      if (showViolationsOnly) {
+        effectiveMin = Math.max(1, minOver);
+      } else if (minOver > 0) {
+        effectiveMin = minOver;
+      } else {
+        effectiveMin = null; // no over-occupancy filter
+      }
+
+      const base = processedLocations.filter(loc => {
+        if (!loc) return false;
+        if (effectiveMin !== null) {
+          const overVal = Number(loc.overOccupancy || 0);
+          if (overVal < effectiveMin) return false;
+        }
+        return true;
+      });
+
+      const counts = base.reduce((acc, loc) => {
+        const key = normalizeMunicipalityName(loc.municipality) || "UNINCORPORATED";
+        acc[key] = (acc[key] || 0) + 1;
+        return acc;
+      }, {});
+
+      // Update total count display: show matching / grand total
+      const totalEl = document.getElementById('totalCount');
+      if (totalEl) totalEl.textContent = `Total: ${base.length} / ${processedLocations.length}`;
+
+      const container = document.getElementById("municipalityCheckboxes");
+      const labels = container.querySelectorAll(".filter-item");
+      labels.forEach(label => {
+        const checkbox = label.querySelector("input[type='checkbox']");
+        if (!checkbox) return;
+        const name = checkbox.value;
+        const countSpan = label.querySelector('.mun-count');
+        const c = counts[normalizeMunicipalityName(name)] || 0;
+        if (countSpan) countSpan.textContent = ` (${c})`;
       });
     }
 
@@ -442,6 +505,8 @@
           municipalityNames.sort();
           updateMunicipalityCheckboxes(municipalityNames);
           assignMunicipalities(data);
+          // Initialize counts (matching / grand total) on load
+          updateMunicipalityCounts(processedLocations);
 
           map.addSource("municipalities", {
             type: "geojson",
@@ -615,7 +680,7 @@
         clearSpiderfy();
 
         const loc = e.features[0].properties;
-        const excessive = loc.guests - loc.maxAllowedGuests;
+        const excessive = loc.overOccupancy;
         const warning = excessive > 0
           ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
           : "";
@@ -626,8 +691,8 @@
             <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
-            <strong>Bedrooms: </strong>${loc.bedrooms}
-            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+            <strong>Bedrooms: </strong>${loc.bedrooms}<br/>
+            <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
             ${warning}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
           </div>
@@ -662,7 +727,7 @@
       // Popup + zoom for spiderfied points
       map.on("click", "spiderfy-circles", (e) => {
         const loc = e.features[0].properties;
-        const excessive = loc.guests - loc.maxAllowedGuests;
+        const excessive = loc.overOccupancy;
         const warning = excessive > 0
           ? `<div class="warning-text">${excessive} GUESTS OVER LIMIT</div>`
           : "";
@@ -674,7 +739,7 @@
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
-            <strong>Legal Limit:</strong> ${loc.maxAllowedGuests}<br/>
+            <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
             ${warning}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
           </div>
@@ -724,16 +789,34 @@
       const minOver = Number(document.getElementById("overLimitSlider").value);
       const selectedMunicipalities = Array.from(activeMunicipalities.values());
 
+      // Effective minimum over-occupancy logic:
+      // - If "Show Violations Only" is checked, require at least 1 guest over (minimum 1).
+      // - If not checked and slider is 0, do not filter by over-occupancy (show all listings).
+      // - If not checked and slider > 0, apply the slider threshold.
+      let effectiveMin = null;
+      if (showViolationsOnly) {
+        effectiveMin = Math.max(1, minOver);
+      } else if (minOver > 0) {
+        effectiveMin = minOver;
+      } else {
+        effectiveMin = null; // no over-occupancy filter
+      }
+
       const filtered = processedLocations.filter(loc => {
         if (!selectedMunicipalities.includes(loc.municipality)) return false;
-        if (showViolationsOnly && !loc.isOverCapacity) return false;
-        if (loc.overAmount < minOver) return false;
+        if (effectiveMin !== null) {
+          const overVal = Number(loc.overOccupancy || 0);
+          if (overVal < effectiveMin) return false;
+        }
         return true;
       });
 
       // Update listing source
       clearSpiderfy();
       map.getSource("strv").setData(toGeoJSON(filtered));
+
+      // Update municipality counts based on filtered results
+      updateMunicipalityCounts(filtered);
 
       // Update municipality visibility to only selected names
       const filterExpression = selectedMunicipalities.length > 0
