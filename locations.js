@@ -96607,3 +96607,26 @@ const locations = [
         "percent_over": 0.0
     }
 ];
+
+// A Savannah listing may cover multiple permitted units.  For those listings,
+// the legal occupancy is the total of every matched permit, not the usual
+// bedroom-based limit.
+locations.forEach((location) => {
+    if (String(location.municipality || "").trim().toUpperCase() !== "SAVANNAH" ||
+        !Array.isArray(location.verified_licenses)) {
+        return;
+    }
+
+    const permitOccupancy = location.verified_licenses.reduce((total, permit) => {
+        const occupancy = Number(permit && permit.max_occupancy);
+        return total + (Number.isFinite(occupancy) && occupancy > 0 ? occupancy : 0);
+    }, 0);
+
+    if (permitOccupancy <= 0) return;
+
+    const guests = Number(location.guests) || 0;
+    const overOccupancy = guests - permitOccupancy;
+    location.allowed_guests = permitOccupancy;
+    location.over_occupancy = overOccupancy;
+    location.percent_over = (overOccupancy / permitOccupancy) * 100;
+});

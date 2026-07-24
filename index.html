@@ -365,11 +365,24 @@
         }
       }
 
+      const isSavannah = String(loc.municipality || '').trim().toUpperCase() === 'SAVANNAH';
+      const permitOccupancy = isSavannah
+        ? verifiedLicenseItems.reduce((total, permit) => {
+            const occupancy = Number(permit && permit.max_occupancy);
+            return total + (Number.isFinite(occupancy) && occupancy > 0 ? occupancy : 0);
+          }, 0)
+        : 0;
+      const hasPermitOccupancy = permitOccupancy > 0;
+
       if (!latitude || !longitude) return null;
 
       const fallbackAllowedGuests = bedrooms === 0 ? 2 : (bedrooms * 2) + 2;
-      const maxAllowedGuests = Number.isFinite(allowedGuests) ? allowedGuests : fallbackAllowedGuests;
-      const computedOverAmount = Number.isFinite(overOccupancy) ? overOccupancy : Math.max(0, guests - maxAllowedGuests);
+      const maxAllowedGuests = hasPermitOccupancy
+        ? permitOccupancy
+        : (Number.isFinite(allowedGuests) ? allowedGuests : fallbackAllowedGuests);
+      const computedOverAmount = hasPermitOccupancy
+        ? guests - maxAllowedGuests
+        : (Number.isFinite(overOccupancy) ? overOccupancy : Math.max(0, guests - maxAllowedGuests));
       const isOverCapacity = computedOverAmount > 0;
       const overAmount = isOverCapacity ? computedOverAmount : 0;
 
@@ -402,7 +415,9 @@
         bedrooms,
         maxAllowedGuests,
         allowedGuests: maxAllowedGuests,
+        allowed_guests: maxAllowedGuests,
         overOccupancy: computedOverAmount,
+        over_occupancy: computedOverAmount,
         isOverCapacity,
         overAmount,
         hasVerifiedLicense,
