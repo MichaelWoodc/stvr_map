@@ -453,6 +453,31 @@
       };
     }).filter(Boolean);
 
+    // Separate listings that share an exact coordinate so every listing can
+    // be clicked directly, without opening a spiderfy view.
+    const coordinateGroups = new Map();
+    processedLocations.forEach(loc => {
+      const key = `${loc.longitude.toFixed(7)},${loc.latitude.toFixed(7)}`;
+      if (!coordinateGroups.has(key)) coordinateGroups.set(key, []);
+      coordinateGroups.get(key).push(loc);
+    });
+    coordinateGroups.forEach(group => {
+      const separationMeters = 8;
+      group.forEach((loc, index) => {
+        if (group.length === 1) {
+          loc.displayLongitude = loc.longitude;
+          loc.displayLatitude = loc.latitude;
+          return;
+        }
+        const angle = (2 * Math.PI * index) / group.length;
+        const latitudeOffset = (separationMeters * Math.sin(angle)) / 111320;
+        const longitudeOffset = (separationMeters * Math.cos(angle)) /
+          (111320 * Math.cos(loc.latitude * Math.PI / 180));
+        loc.displayLongitude = loc.longitude + longitudeOffset;
+        loc.displayLatitude = loc.latitude + latitudeOffset;
+      });
+    });
+
     function normalizePropertyKey(address, unit, municipality) {
       const raw = [address, unit, municipality].filter(Boolean).map(v => String(v).trim()).join(' | ');
       return raw.toLowerCase()
@@ -505,7 +530,7 @@
           type: "Feature",
           geometry: {
             type: "Point",
-            coordinates: [loc.longitude, loc.latitude]
+            coordinates: [loc.displayLongitude ?? loc.longitude, loc.displayLatitude ?? loc.latitude]
           },
           properties: loc
         }))
@@ -1064,32 +1089,10 @@
         if (window.innerWidth <= 768) {
           openMobilePopup(html);
         } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth: '320px' })
+          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
             .setLngLat(e.lngLat)
             .setHTML(html)
             .addTo(map);
-        }
-
-
-
-        const clickedCoord = e.features[0].geometry.coordinates;
-        const rendered = map.queryRenderedFeatures(e.point, { layers: ["strv-circles"] });
-
-        const sameSpot = rendered.filter(f => {
-          const c = f.geometry.coordinates;
-          return c[0] === clickedCoord[0] && c[1] === clickedCoord[1];
-        });
-
-        const zoom = map.getZoom();
-        const shouldSpiderfy =
-          sameSpot.length > 1 ||
-          (zoom >= 18 && rendered.length > 1);
-
-        if (shouldSpiderfy) {
-          const centerPoint = map.project(e.lngLat);
-          spiderfyFeatures(sameSpot, centerPoint);
-        } else {
-          animateMap(clickedCoord, Math.max(zoom, 15));
         }
       });
 
@@ -1151,7 +1154,7 @@
         if (window.innerWidth <= 768) {
           openMobilePopup(html);
         } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth: '320px' })
+          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
             .setLngLat(e.lngLat)
             .setHTML(html)
             .addTo(map);
