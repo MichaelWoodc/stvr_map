@@ -166,6 +166,29 @@
       font-size: 13px;
     }
 
+    .verified-section {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed #ccc;
+    }
+
+    .license-list {
+      max-height: 220px;
+      margin-top: 6px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .license-card {
+      padding: 7px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .license-card:last-child {
+      border-bottom: 0;
+    }
+
     .warning-text {
       color: #d32f2f;
       font-weight: bold;
@@ -388,15 +411,9 @@
 
       const hasVerifiedLicense = Array.isArray(verifiedLicenseItems) && verifiedLicenseItems.length > 0;
       const licenseCount = Array.isArray(verifiedLicenseItems) ? verifiedLicenseItems.length : 0;
-      const searchText = [
-        loc.host_name,
-        loc.municipality,
-        loc.approximate_address,
-        loc.rental_type,
-        loc.url,
-        verifiedLicenseItems.map(v => (v && v.permit_number) || "").join(" "),
-        verifiedLicenseItems.map(v => (v && v.agent_name) || "").join(" ")
-      ].filter(Boolean).join(" ").toLowerCase();
+      // Search the complete source record, including every verified permit
+      // field (address, unit, permit number, agent, etc.).
+      const searchText = JSON.stringify(loc).toLowerCase().replace(/\s+/g, ' ');
 
       const complaintAddress = verifiedLicenseItems.length > 0 && verifiedLicenseItems[0].address
         ? `${verifiedLicenseItems[0].address}${verifiedLicenseItems[0].unit ? ' Unit ' + verifiedLicenseItems[0].unit : ''}`.trim()
@@ -663,7 +680,7 @@
       const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
-      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase();
+      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
 
       let effectiveMin = null;
       if (showViolationsOnly) {
@@ -989,11 +1006,20 @@
           }
 
           licenseHtml = `
-            <div class="verified-section" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #ccc;">
-              <strong>✅ Verified License:</strong> ${v.permit_number}<br/>
-              <strong>Owner Occupied:</strong> ${v.owner_occupied || 'N/A'}<br/>
-              <strong>Historic District:</strong> ${v.historic_district || 'N/A'}<br/>
-              <strong>Agent Name:</strong> ${v.agent_name || 'N/A'}
+            <div class="verified-section">
+              <strong>✅ Verified Licenses (${verifiedLicenses.length}):</strong>
+              <div class="license-list">
+                ${verifiedLicenses.map((license, index) => `
+                  <div class="license-card">
+                    <strong>License ${index + 1}:</strong> ${license.permit_number || 'N/A'}<br/>
+                    <strong>Address:</strong> ${license.address || 'N/A'}${license.unit ? ` Unit ${license.unit}` : ''}<br/>
+                    <strong>Legal Limit:</strong> ${license.max_occupancy || 'N/A'}<br/>
+                    <strong>Owner Occupied:</strong> ${license.owner_occupied || 'N/A'}<br/>
+                    <strong>Historic District:</strong> ${license.historic_district || 'N/A'}<br/>
+                    <strong>Agent Name:</strong> ${license.agent_name || 'N/A'}
+                  </div>
+                `).join('')}
+              </div>
             </div>
           `;
         }
@@ -1068,6 +1094,32 @@
           ? `<div class="warning-text">${excessive} GUESTS OVER LIMIT</div>`
           : "";
 
+        let verifiedLicenses = [];
+        try {
+          verifiedLicenses = typeof loc.verified_licenses === 'string'
+            ? JSON.parse(loc.verified_licenses)
+            : (Array.isArray(loc.verified_licenses) ? loc.verified_licenses : []);
+        } catch (err) {
+          console.error("Error parsing verified_licenses:", err);
+        }
+        const licenseHtml = verifiedLicenses.length > 0 ? `
+          <div class="verified-section">
+            <strong>✅ Verified Licenses (${verifiedLicenses.length}):</strong>
+            <div class="license-list">
+              ${verifiedLicenses.map((license, index) => `
+                <div class="license-card">
+                  <strong>License ${index + 1}:</strong> ${license.permit_number || 'N/A'}<br/>
+                  <strong>Address:</strong> ${license.address || 'N/A'}${license.unit ? ` Unit ${license.unit}` : ''}<br/>
+                  <strong>Legal Limit:</strong> ${license.max_occupancy || 'N/A'}<br/>
+                  <strong>Owner Occupied:</strong> ${license.owner_occupied || 'N/A'}<br/>
+                  <strong>Historic District:</strong> ${license.historic_district || 'N/A'}<br/>
+                  <strong>Agent Name:</strong> ${license.agent_name || 'N/A'}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : '';
+
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
 
@@ -1082,6 +1134,7 @@
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
             <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
             ${warning}
+            ${licenseHtml}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
             <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
             <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
@@ -1137,7 +1190,7 @@
       const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
-      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase();
+      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
       const selectedMunicipalities = Array.from(activeMunicipalities.values());
 
       // Effective minimum over-occupancy logic:
