@@ -675,26 +675,68 @@
         }
       });
 
-      // Popup + zoom for individual points (base layer)
+// Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
         clearSpiderfy();
 
         const loc = e.features[0].properties;
-        const excessive = loc.overOccupancy;
+        const excessive = loc.over_occupancy;
         const warning = excessive > 0
           ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
           : "";
 
+        // Parse verified licenses if available
+        let verifiedLicenses = [];
+        try {
+          if (loc.verified_licenses) {
+            verifiedLicenses = JSON.parse(loc.verified_licenses);
+          }
+        } catch (err) {
+          console.error("Error parsing verified_licenses:", err);
+        }
+
+        // Build HTML for verified license details and address handling
+        let licenseHtml = "";
+        let addressHtml = "";
+
+        if (verifiedLicenses.length > 0) {
+          const v = verifiedLicenses[0];
+          // Construct full verified address including street and unit if present
+          const fullVerifiedAddress = `${v.address || ''}${v.unit ? ' Unit ' + v.unit : ''}`.trim();
+          
+          if (fullVerifiedAddress) {
+            addressHtml = `<strong>Address:</strong> ${fullVerifiedAddress}<br/>`;
+          }
+
+          licenseHtml = `
+            <div class="verified-section" style="margin-top: 8px; padding-top: 6px; border-top: 1px dashed #ccc;">
+              <strong>✅ Verified License:</strong> ${v.permit_number}<br/>
+              <strong>Owner Occupied:</strong> ${v.owner_occupied || 'N/A'}<br/>
+              <strong>Historic District:</strong> ${v.historic_district || 'N/A'}<br/>
+              <strong>Agent Name:</strong> ${v.agent_name || 'N/A'}
+            </div>
+          `;
+        }
+
+        // Fall back to approx address only if there's no verified address available
+        if (!addressHtml && loc.approximate_address) {
+          addressHtml = `<strong>Approx Address:</strong> ${loc.approximate_address}<br/>`;
+        }
+
         const html = `
           <div class="popup-content">
-            <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
-            <strong>Host:</strong> ${loc.host_name}<hr/>
-            <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
-            <strong>Bedrooms: </strong>${loc.bedrooms}<br/>
-            <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
+            <div class="popup-title">${loc.rental_type || 'Listing'}</div>
+            ${addressHtml}
+            <strong>Host:</strong> ${loc.host_name || 'N/A'}<br/>
+            ${loc.years_hosting ? `<small>(${loc.years_hosting} years hosting)</small><br/>` : ''}
+            <hr/>
+            <strong>Advertised Capacity:</strong> ${loc.guests || 'N/A'}<br/>
+            <strong>Bedrooms: </strong>${loc.bedrooms || 'N/A'}<br/>
+            <strong>Legal Limit:</strong> ${loc.allowed_guests || 'N/A'}<br/>
             ${warning}
-            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            ${licenseHtml}
+            <hr/>
+            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a><br/>
             <strong>Submit a complaint:</strong> <a href="https://www.chathamcounty.org/DocumentCenter/View/1030/STVR-Complaint-Form-PDF" target="_blank">Here</a>
           </div>
         `;
@@ -703,6 +745,8 @@
           .setLngLat(e.lngLat)
           .setHTML(html)
           .addTo(map);
+
+
 
         const clickedCoord = e.features[0].geometry.coordinates;
         const rendered = map.queryRenderedFeatures(e.point, { layers: ["strv-circles"] });
