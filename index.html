@@ -29,7 +29,7 @@
     .filter-panel {
       position: absolute;
       top: 65px;
-      right: 2px;
+      left: 2px;
       background: white;
       color: #333;
       padding: 12px;
@@ -38,7 +38,49 @@
       font-size: 14px;
       line-height: 1.5;
       z-index: 10;
-      width: 240px;
+      width: 260px;
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+      transition: max-height 0.25s ease, transform 0.25s ease;
+    }
+
+    .filter-panel.collapsed {
+      max-height: 46px;
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      .filter-panel {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        max-height: 72vh;
+        border-radius: 14px 14px 0 0;
+        margin: 0;
+        box-shadow: 0 -10px 32px rgba(0,0,0,0.3);
+      }
+      .filter-header {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .filter-title {
+        flex: 1 1 100%;
+      }
+      .filter-section-title {
+        margin-top: 10px;
+      }
+      .toggle-button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 14px;
+        border-radius: 8px;
+      }
+      .filter-panel.collapsed {
+        max-height: 56px;
+      }
     }
 
     .filter-header {
@@ -66,9 +108,13 @@
       background: #eee;
       border: 1px solid #ccc;
       border-radius: 4px;
-      padding: 2px 6px;
-      font-size: 12px;
+      padding: 6px 10px;
+      font-size: 13px;
       cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .toggle-button:hover {
+      background: #ddd;
     }
 
     .filter-item {
@@ -141,12 +187,119 @@
       font-weight: bold;
       text-align: center;
     }
+
+    .action-link {
+      display: inline-block;
+      margin-top: 8px;
+      margin-right: 8px;
+      padding: 8px 12px;
+      background-color: #1976d2;
+      color: white !important;
+      text-decoration: none !important;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .action-link.secondary {
+      background-color: #555;
+    }
+
+    .mobile-popup-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+    .mobile-popup-overlay.active {
+      display: flex;
+    }
+    .mobile-popup-card {
+      width: 100%;
+      max-width: 540px;
+      max-height: 94vh;
+      overflow: hidden;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      padding: 18px;
+      position: relative;
+    }
+    .mobile-popup-card .close-button {
+      position: absolute;
+      right: 14px;
+      top: 14px;
+      border: none;
+      background: rgba(255,255,255,0.95);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      color: #333;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    }
+    .mobile-popup-card .count-badge {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #1976d2;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .mobile-popup-card {
+        width: calc(100% - 32px);
+        max-width: 100%;
+        max-height: 85vh;
+        height: auto;
+        border-radius: 16px;
+        padding: 18px 16px 22px;
+        margin: 0;
+        overflow: auto;
+      }
+      .mobile-popup-overlay {
+        align-items: center;
+        padding: 16px;
+      }
+      .mobile-popup-card .close-button {
+        right: 12px;
+        top: 12px;
+        width: 44px;
+        height: 44px;
+        font-size: 26px;
+      }
+    }
+
+    .filter-search {
+      width: 100%;
+      margin-top: 6px;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
 
   <h2>Chatham County STVR Compliance Map</h2>
   <div id="map"></div>
+  <div id="mobilePopupOverlay" class="mobile-popup-overlay" role="dialog" aria-modal="true">
+    <div class="mobile-popup-card">
+      <button class="close-button" id="mobilePopupClose">×</button>
+      <div id="mobilePopupContent"></div>
+    </div>
+  </div>
 
   <div class="filter-panel" id="filterPanel">
     <div class="filter-header">
@@ -159,6 +312,17 @@
       <input type="checkbox" id="complianceCheckbox">
       Show Violations Only
     </label>
+    <label class="filter-item">
+      <input type="checkbox" id="verifiedLicenseCheckbox">
+      Verified license found
+    </label>
+    <label class="filter-item">
+      <input type="checkbox" id="hasComplaintsCheckbox">
+      Has complaints
+    </label>
+
+    <div class="filter-section-title">Search</div>
+    <input id="propertySearchInput" class="filter-search" type="search" placeholder="Host name, license number, address">
 
     <div class="filter-section-title">Municipalities</div>
     <div id="totalCount" style="font-weight:bold;margin-bottom:6px">Total: 0</div>
@@ -168,11 +332,15 @@
     <input type="range" id="overLimitSlider" min="0" max="6" value="0" step="1" style="width:100%;">
     <div id="overLimitValue">0 guests over</div>
 
+    <div class="slider-label">Min License Count:</div>
+    <input type="range" id="licenseCountSlider" min="1" max="3" value="1" step="1" style="width:100%;">
+    <div id="licenseCountValue">1 or more</div>
+
     <button class="reset-button" id="resetZoomBtn">Reset Zoom</button>
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
-  <script src="data_files/in_process_data/locations.js"></script>
+  <script src="locations.js"></script>
 
   <script>
     // Precompute metrics
@@ -184,6 +352,19 @@
       const allowedGuests = Number(loc.allowed_guests);
       const overOccupancy = Number(loc.over_occupancy);
 
+      let verifiedLicenseItems = [];
+      if (loc.verified_licenses) {
+        if (typeof loc.verified_licenses === "string") {
+          try {
+            verifiedLicenseItems = JSON.parse(loc.verified_licenses);
+          } catch (err) {
+            verifiedLicenseItems = [];
+          }
+        } else if (Array.isArray(loc.verified_licenses)) {
+          verifiedLicenseItems = loc.verified_licenses;
+        }
+      }
+
       if (!latitude || !longitude) return null;
 
       const fallbackAllowedGuests = bedrooms === 0 ? 2 : (bedrooms * 2) + 2;
@@ -191,6 +372,27 @@
       const computedOverAmount = Number.isFinite(overOccupancy) ? overOccupancy : Math.max(0, guests - maxAllowedGuests);
       const isOverCapacity = computedOverAmount > 0;
       const overAmount = isOverCapacity ? computedOverAmount : 0;
+
+      const hasVerifiedLicense = Array.isArray(verifiedLicenseItems) && verifiedLicenseItems.length > 0;
+      const licenseCount = Array.isArray(verifiedLicenseItems) ? verifiedLicenseItems.length : 0;
+      const searchText = [
+        loc.host_name,
+        loc.municipality,
+        loc.approximate_address,
+        loc.rental_type,
+        loc.url,
+        verifiedLicenseItems.map(v => (v && v.permit_number) || "").join(" "),
+        verifiedLicenseItems.map(v => (v && v.agent_name) || "").join(" ")
+      ].filter(Boolean).join(" ").toLowerCase();
+
+      const complaintAddress = verifiedLicenseItems.length > 0 && verifiedLicenseItems[0].address
+        ? `${verifiedLicenseItems[0].address}${verifiedLicenseItems[0].unit ? ' Unit ' + verifiedLicenseItems[0].unit : ''}`.trim()
+        : (loc.approximate_address || loc.address || '');
+
+      const complaintKeyCandidates = [
+        normalizePropertyKey(complaintAddress, loc.unit || '', loc.municipality || ''),
+        normalizePropertyKey(loc.approximate_address || loc.address || '', loc.unit || '', loc.municipality || '')
+      ];
 
       return {
         ...loc,
@@ -202,9 +404,60 @@
         allowedGuests: maxAllowedGuests,
         overOccupancy: computedOverAmount,
         isOverCapacity,
-        overAmount
+        overAmount,
+        hasVerifiedLicense,
+        licenseCount,
+        verifiedLicenseItems,
+        searchText,
+        complaintKeys: complaintKeyCandidates,
+        hasComplaints: false
       };
     }).filter(Boolean);
+
+    function normalizePropertyKey(address, unit, municipality) {
+      const raw = [address, unit, municipality].filter(Boolean).map(v => String(v).trim()).join(' | ');
+      return raw.toLowerCase()
+        .replace(/[^a-z0-9\s\-_\.]/g, '-')
+        .replace(/[\s_]+/g, '-')
+        .replace(/^-+|-+$/g, '') || 'unknown-property';
+    }
+
+    function openMobilePopup(html) {
+      const overlay = document.getElementById('mobilePopupOverlay');
+      const content = document.getElementById('mobilePopupContent');
+      if (!overlay || !content) return;
+      content.innerHTML = html;
+      overlay.classList.add('active');
+    }
+
+    function closeMobilePopup() {
+      const overlay = document.getElementById('mobilePopupOverlay');
+      const content = document.getElementById('mobilePopupContent');
+      if (!overlay || !content) return;
+      overlay.classList.remove('active');
+      content.innerHTML = '';
+    }
+
+    async function loadComplaintIndex() {
+      try {
+        const response = await fetch('complaints_index.php');
+        if (!response.ok) return;
+        const complaintCounts = await response.json();
+        processedLocations.forEach(loc => {
+          let count = 0;
+          loc.complaintKeys.forEach(key => {
+            if (complaintCounts[key]) {
+              count = Math.max(count, Number(complaintCounts[key]));
+            }
+          });
+          loc.complaintCount = count;
+          loc.hasComplaints = count > 0;
+        });
+        applyFilters();
+      } catch (err) {
+        console.warn('Could not load complaint index', err);
+      }
+    }
 
     function toGeoJSON(data) {
       return {
@@ -222,7 +475,7 @@
 
     const defaultCenter = [-81.0087, 32.0485];
     const defaultZoom = 12;
-    const municipalityGeojsonUrl = "data_files/municipality/Municipality.geojson";
+    const municipalityGeojsonUrl = "Municipality.geojson";
     let municipalityNames = [];
     const municipalityColors = {};
     const activeMunicipalities = new Set();
@@ -285,7 +538,7 @@
     }
 
     // Spiderfy helpers
-    const SPIDERFY_RADIUS = 70; // px
+    const SPIDERFY_RADIUS = 7; // px
     function clearSpiderfy() {
       const src = map.getSource("spiderfy");
       if (src) {
@@ -391,7 +644,11 @@
       // compliance and slider filters only (not municipality selections).
       // Use the same effectiveMin logic as applyFilters so behavior matches.
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
+      const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
+      const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
+      const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
+      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase();
 
       let effectiveMin = null;
       if (showViolationsOnly) {
@@ -408,6 +665,9 @@
           const overVal = Number(loc.overOccupancy || 0);
           if (overVal < effectiveMin) return false;
         }
+        if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
+        if (verifiedOnly && !loc.hasVerifiedLicense) return false;
+        if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
       });
 
@@ -687,9 +947,14 @@
 
         // Parse verified licenses if available
         let verifiedLicenses = [];
+        let fullVerifiedAddress = "";
         try {
           if (loc.verified_licenses) {
-            verifiedLicenses = JSON.parse(loc.verified_licenses);
+            if (typeof loc.verified_licenses === "string") {
+              verifiedLicenses = JSON.parse(loc.verified_licenses);
+            } else if (Array.isArray(loc.verified_licenses)) {
+              verifiedLicenses = loc.verified_licenses;
+            }
           }
         } catch (err) {
           console.error("Error parsing verified_licenses:", err);
@@ -702,7 +967,7 @@
         if (verifiedLicenses.length > 0) {
           const v = verifiedLicenses[0];
           // Construct full verified address including street and unit if present
-          const fullVerifiedAddress = `${v.address || ''}${v.unit ? ' Unit ' + v.unit : ''}`.trim();
+          fullVerifiedAddress = `${v.address || ''}${v.unit ? ' Unit ' + v.unit : ''}`.trim();
           
           if (fullVerifiedAddress) {
             addressHtml = `<strong>Address:</strong> ${fullVerifiedAddress}<br/>`;
@@ -723,9 +988,15 @@
           addressHtml = `<strong>Approx Address:</strong> ${loc.approximate_address}<br/>`;
         }
 
+        const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
+        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
+        const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
+
+        const countBadge = loc.complaintCount > 0 ? `<span class="count-badge">${loc.complaintCount} complaint${loc.complaintCount === 1 ? '' : 's'}</span>` : '';
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type || 'Listing'}</div>
+            ${countBadge}
             ${addressHtml}
             <strong>Host:</strong> ${loc.host_name || 'N/A'}<br/>
             ${loc.years_hosting ? `<small>(${loc.years_hosting} years hosting)</small><br/>` : ''}
@@ -736,15 +1007,20 @@
             ${warning}
             ${licenseHtml}
             <hr/>
-            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a><br/>
-            <strong>Submit a complaint:</strong> <a href="https://www.chathamcounty.org/DocumentCenter/View/1030/STVR-Complaint-Form-PDF" target="_blank">Here</a>
+            <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
+            <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
         `;
 
-        new maplibregl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(html)
-          .addTo(map);
+        if (window.innerWidth <= 768) {
+          openMobilePopup(html);
+        } else {
+          new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth: '320px' })
+            .setLngLat(e.lngLat)
+            .setHTML(html)
+            .addTo(map);
+        }
 
 
 
@@ -777,9 +1053,14 @@
           ? `<div class="warning-text">${excessive} GUESTS OVER LIMIT</div>`
           : "";
 
+        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
+        const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
+
+        const complaintBadge = loc.complaintCount > 0 ? `<span class="count-badge">${loc.complaintCount} complaint${loc.complaintCount === 1 ? '' : 's'}</span>` : '';
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
+            ${complaintBadge}
             <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
@@ -787,13 +1068,19 @@
             <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
             ${warning}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
+            <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
         `;
 
-        new maplibregl.Popup()
-          .setLngLat(e.lngLat)
-          .setHTML(html)
-          .addTo(map);
+        if (window.innerWidth <= 768) {
+          openMobilePopup(html);
+        } else {
+          new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth: '320px' })
+            .setLngLat(e.lngLat)
+            .setHTML(html)
+            .addTo(map);
+        }
       });
 
       // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
@@ -831,7 +1118,11 @@
     // Filtering logic
     function applyFilters() {
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
+      const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
+      const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
+      const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
+      const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase();
       const selectedMunicipalities = Array.from(activeMunicipalities.values());
 
       // Effective minimum over-occupancy logic:
@@ -853,6 +1144,10 @@
           const overVal = Number(loc.overOccupancy || 0);
           if (overVal < effectiveMin) return false;
         }
+        if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
+        if (verifiedOnly && !loc.hasVerifiedLicense) return false;
+        if (hasComplaintsOnly && !loc.hasComplaints) return false;
+        if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
       });
 
@@ -877,9 +1172,18 @@
     }
 
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
+    document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
+    document.getElementById("hasComplaintsCheckbox").addEventListener("change", applyFilters);
+    document.getElementById("propertySearchInput").addEventListener("input", applyFilters);
 
     document.getElementById("overLimitSlider").addEventListener("input", (e) => {
       document.getElementById("overLimitValue").innerText = `${e.target.value} guests over`;
+      applyFilters();
+    });
+
+    document.getElementById("licenseCountSlider").addEventListener("input", (e) => {
+      const value = Number(e.target.value) || 1;
+      document.getElementById("licenseCountValue").innerText = `${value} or more`;
       applyFilters();
     });
 
@@ -892,21 +1196,34 @@
       );
     });
 
-    // Collapsible filter panel
-    const filterPanel = document.getElementById("filterPanel");
-    const toggleBtn = document.getElementById("toggleFiltersBtn");
-    let filtersCollapsed = false;
+    const mobileClose = document.getElementById('mobilePopupClose');
+    if (mobileClose) {
+      mobileClose.addEventListener('click', closeMobilePopup);
+    }
 
-    toggleBtn.addEventListener("click", () => {
-      filtersCollapsed = !filtersCollapsed;
-      const children = Array.from(filterPanel.children).filter(
-        el => !el.classList.contains("filter-header")
-      );
-      children.forEach(el => {
-        el.style.display = filtersCollapsed ? "none" : "";
+    const mobileOverlay = document.getElementById('mobilePopupOverlay');
+    if (mobileOverlay) {
+      mobileOverlay.addEventListener('click', (event) => {
+        if (event.target === mobileOverlay) {
+          closeMobilePopup();
+        }
       });
-      toggleBtn.textContent = filtersCollapsed ? "Show" : "Hide";
-    });
+    }
+
+    const toggleBtn = document.getElementById('toggleFiltersBtn');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        const panel = document.getElementById('filterPanel');
+        if (!panel) return;
+        const collapsed = panel.classList.toggle('collapsed');
+        toggleBtn.textContent = collapsed ? 'Show' : 'Hide';
+        if (!collapsed) {
+          panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    loadComplaintIndex();
   </script>
 </body>
 </html>
