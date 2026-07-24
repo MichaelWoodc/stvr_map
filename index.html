@@ -384,6 +384,16 @@
     <input type="range" id="licenseCountSlider" min="1" max="3" value="1" step="1" style="width:100%;">
     <div id="licenseCountValue">1 or more</div>
 
+    <button class="toggle-button advanced-toggle" id="advancedFiltersBtn" type="button" aria-expanded="false">
+      Advanced Filters ▸
+    </button>
+    <div class="advanced-filter-content" id="advancedFiltersContent">
+      <div class="slider-label">License Type</div>
+      <div id="licenseTypeCheckboxes"></div>
+      <div class="slider-label">Rental Type</div>
+      <div id="rentalTypeCheckboxes"></div>
+    </div>
+
     <button class="reset-button" id="resetZoomBtn">Reset Zoom</button>
   </div>
 
@@ -558,9 +568,14 @@
     const defaultCenter = [-81.0087, 32.0485];
     const defaultZoom = 12;
     const municipalityGeojsonUrl = "Municipality.geojson";
+    const excludedMunicipalities = new Set(["VERNONBURG"]);
     let municipalityNames = [];
     const municipalityColors = {};
     const activeMunicipalities = new Set();
+    const activeLicenseTypes = new Set();
+    const activeRentalTypes = new Set();
+    let availableLicenseTypes = [];
+    let availableRentalTypes = [];
 
     // Global bounds for reset zoom
     let globalMinX = Infinity, globalMinY = Infinity, globalMaxX = -Infinity, globalMaxY = -Infinity;
@@ -721,6 +736,61 @@
       });
     }
 
+    function updateAdvancedFilterCheckboxes() {
+      availableLicenseTypes = [...new Set(processedLocations.flatMap(loc =>
+        loc.verifiedLicenseItems
+          .map(license => license && license.owner_occupied)
+          .filter(Boolean)
+      ))].sort();
+      availableRentalTypes = [...new Set(processedLocations
+        .map(loc => loc.rental_type)
+        .filter(Boolean))].sort();
+
+      activeLicenseTypes.clear();
+      activeRentalTypes.clear();
+      availableLicenseTypes.forEach(type => activeLicenseTypes.add(type));
+      availableRentalTypes.forEach(type => activeRentalTypes.add(type));
+
+      const renderCheckboxes = (containerId, values, activeValues) => {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+        values.forEach(value => {
+          const label = document.createElement('label');
+          label.className = 'filter-item';
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.value = value;
+          checkbox.checked = true;
+          checkbox.addEventListener('change', () => {
+            if (checkbox.checked) activeValues.add(value);
+            else activeValues.delete(value);
+            applyFilters();
+          });
+          label.appendChild(checkbox);
+          label.appendChild(document.createTextNode(value));
+          container.appendChild(label);
+        });
+      };
+
+      renderCheckboxes('licenseTypeCheckboxes', availableLicenseTypes, activeLicenseTypes);
+      renderCheckboxes('rentalTypeCheckboxes', availableRentalTypes, activeRentalTypes);
+    }
+
+    function matchesAdvancedFilters(loc) {
+      // All boxes checked means no constraint, so unverified listings remain visible.
+      if (activeLicenseTypes.size !== availableLicenseTypes.length) {
+        const matchesLicenseType = loc.verifiedLicenseItems.some(license =>
+          license && activeLicenseTypes.has(license.owner_occupied)
+        );
+        if (!matchesLicenseType) return false;
+      }
+      if (activeRentalTypes.size !== availableRentalTypes.length &&
+          !activeRentalTypes.has(loc.rental_type)) {
+        return false;
+      }
+      return true;
+    }
+
     function updateMunicipalityCounts(filtered) {
       // For checkbox counts we want them to reflect the current
       // compliance and slider filters only (not municipality selections).
@@ -749,6 +819,7 @@
         }
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (verifiedOnly && !loc.hasVerifiedLicense) return false;
+        if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
       });
@@ -837,6 +908,7 @@
         .then(data => {
           data.features.forEach(feature => {
             const name = normalizeMunicipalityName(feature.properties.NAME);
+            if (excludedMunicipalities.has(name)) return;
             const color = getMunicipalityColor(name);
             municipalityColors[name] = color;
             feature.properties._fillColor = color;
@@ -844,9 +916,16 @@
             municipalityNames.push(name);
           });
 
+          assignMunicipalities(data);
+          for (let i = processedLocations.length - 1; i >= 0; i--) {
+            if (excludedMunicipalities.has(normalizeMunicipalityName(processedLocations[i].municipality))) {
+              processedLocations.splice(i, 1);
+            }
+          }
           municipalityNames.sort();
           updateMunicipalityCheckboxes(municipalityNames);
-          assignMunicipalities(data);
+          updateAdvancedFilterCheckboxes();
+          map.getSource("strv").setData(toGeoJSON(processedLocations));
           // Initialize counts (matching / grand total) on load
           updateMunicipalityCounts(processedLocations);
 
@@ -1243,6 +1322,7 @@
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (verifiedOnly && !loc.hasVerifiedLicense) return false;
         if (hasComplaintsOnly && !loc.hasComplaints) return false;
+        if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
       });
@@ -1271,6 +1351,14 @@
     document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
     document.getElementById("hasComplaintsCheckbox").addEventListener("change", applyFilters);
     document.getElementById("propertySearchInput").addEventListener("input", applyFilters);
+
+    document.getElementById("advancedFiltersBtn").addEventListener("click", () => {
+      const button = document.getElementById("advancedFiltersBtn");
+      const content = document.getElementById("advancedFiltersContent");
+      const expanded = content.classList.toggle("expanded");
+      button.setAttribute("aria-expanded", String(expanded));
+      button.textContent = `Advanced Filters ${expanded ? '▾' : '▸'}`;
+    });
 
     document.getElementById("overLimitSlider").addEventListener("input", (e) => {
       document.getElementById("overLimitValue").innerText = `${e.target.value} guests over`;
