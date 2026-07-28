@@ -336,6 +336,41 @@
       border: 1px solid #ccc;
       font-size: 14px;
     }
+
+    .property-search-wrapper {
+      position: relative;
+    }
+
+    .property-autocomplete-list {
+      position: absolute;
+      top: calc(100% - 10px);
+      left: 0;
+      right: 0;
+      z-index: 30;
+      display: none;
+      max-height: 240px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .property-autocomplete-item {
+      padding: 8px;
+      color: #222;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+    }
+
+    .property-autocomplete-item:hover {
+      background: #f2f6fc;
+    }
+
+    .property-autocomplete-item.listing-match {
+      color: #1557a0;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -370,7 +405,10 @@
     </label>
 
     <div class="filter-section-title">Search</div>
-    <input id="propertySearchInput" class="filter-search" type="search" placeholder="Host name, license number, address">
+    <div class="property-search-wrapper">
+      <input id="propertySearchInput" class="filter-search" type="search" placeholder="Listing, license, or any Chatham County address" autocomplete="off">
+      <div id="propertyAutocompleteList" class="property-autocomplete-list"></div>
+    </div>
 
     <div class="filter-section-title">Municipalities</div>
     <div id="totalCount" style="font-weight:bold;margin-bottom:6px">Total: 0</div>
@@ -565,8 +603,95 @@
       };
     }
 
+    function getGeometryCentroid(geometry) {
+      if (!geometry || !geometry.coordinates) return null;
+      const ring = geometry.type === 'Polygon'
+        ? geometry.coordinates[0]
+        : (geometry.type === 'MultiPolygon' ? geometry.coordinates[0][0] : null);
+      if (!ring || !ring.length) return null;
+      const totals = ring.reduce((sum, coordinate) => ({
+        longitude: sum.longitude + coordinate[0],
+        latitude: sum.latitude + coordinate[1]
+      }), { longitude: 0, latitude: 0 });
+      return { lng: totals.longitude / ring.length, lat: totals.latitude / ring.length };
+    }
+
+    function hidePropertyAutocomplete() {
+      const list = document.getElementById('propertyAutocompleteList');
+      list.innerHTML = '';
+      list.style.display = 'none';
+    }
+
+    function showParcelSearchResult(parcel) {
+      const centroid = getGeometryCentroid(parcel.geometry);
+      if (!centroid) return;
+      if (parcelSearchMarker) parcelSearchMarker.remove();
+      parcelSearchMarker = new maplibregl.Marker({ color: '#1976d2' })
+        .setLngLat(centroid)
+        .setPopup(new maplibregl.Popup({ closeButton: true, closeOnClick: true })
+          .setHTML(`<strong>Property address</strong><br/>${parcel.address}`))
+        .addTo(map);
+      map.flyTo({ center: centroid, zoom: 17, essential: true });
+      parcelSearchMarker.togglePopup();
+    }
+
+    function selectPropertySearchResult(result) {
+      document.getElementById('propertySearchInput').value = result.address;
+      hidePropertyAutocomplete();
+      applyFilters();
+      if (result.type === 'listing') {
+        map.flyTo({
+          center: [result.item.displayLongitude ?? result.item.longitude, result.item.displayLatitude ?? result.item.latitude],
+          zoom: 17,
+          essential: true
+        });
+      } else {
+        showParcelSearchResult(result.item);
+      }
+    }
+
+    function updatePropertyAutocomplete() {
+      const input = document.getElementById('propertySearchInput');
+      const list = document.getElementById('propertyAutocompleteList');
+      const query = input.value.trim().toLowerCase().replace(/\s+/g, ' ');
+      list.innerHTML = '';
+      if (query.length < 3) return hidePropertyAutocomplete();
+
+      const results = [
+        ...processedLocations.filter(loc => loc.searchText.includes(query)).slice(0, 6).map(item => ({
+          type: 'listing', item, address: item.address || item.approximate_address || 'Listing'
+        })),
+        ...parcelIndexCache.filter(parcel => parcel.searchAddress.includes(query)).slice(0, 6).map(item => ({
+          type: 'parcel', item, address: item.address
+        }))
+      ];
+
+      results.forEach(result => {
+        const option = document.createElement('div');
+        option.className = `property-autocomplete-item${result.type === 'listing' ? ' listing-match' : ''}`;
+        option.textContent = result.type === 'listing' ? `★ Listing: ${result.address}` : result.address;
+        option.addEventListener('click', () => selectPropertySearchResult(result));
+        list.appendChild(option);
+      });
+      list.style.display = results.length ? 'block' : 'none';
+    }
+
+    function performPropertySearch() {
+      const query = document.getElementById('propertySearchInput').value.trim().toLowerCase().replace(/\s+/g, ' ');
+      if (!query) return;
+      const listing = processedLocations.find(loc => loc.searchText.includes(query));
+      if (listing) return selectPropertySearchResult({
+        type: 'listing', item: listing, address: listing.address || listing.approximate_address || 'Listing'
+      });
+      const parcel = parcelIndexCache.find(item => item.searchAddress.includes(query));
+      if (parcel) selectPropertySearchResult({ type: 'parcel', item: parcel, address: parcel.address });
+    }
+
     const defaultCenter = [-81.0087, 32.0485];
     const defaultZoom = 12;
+    const TOTAL_PARCEL_PARTS = 9;
+    const parcelIndexCache = [];
+    let parcelSearchMarker = null;
     const municipalityGeojsonUrl = "Municipality.geojson";
     const excludedMunicipalities = new Set(["VERNONBURG"]);
     let municipalityNames = [];
@@ -887,6 +1012,53 @@
     }
 
     map.on("load", () => {
+      // Load the same split property files used by map_example.html.  They
+      // provide address suggestions and a parcel centroid for unmatched searches.
+      for (let i = 1; i <= TOTAL_PARCEL_PARTS; i++) {
+        const partUrl = `media/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
+        const sourceId = `parcel-addresses-${i}`;
+        map.addSource(sourceId, { type: 'geojson', data: partUrl });
+        map.addLayer({
+          id: `parcel-fills-${i}`,
+          type: 'fill',
+          source: sourceId,
+          minzoom: 14,
+          paint: {
+            'fill-color': '#3b82f6',
+            'fill-opacity': 0.035
+          }
+        });
+        map.addLayer({
+          id: `parcel-outlines-${i}`,
+          type: 'line',
+          source: sourceId,
+          minzoom: 14,
+          paint: {
+            'line-color': '#2563eb',
+            'line-width': 0.75,
+            'line-opacity': 0.28
+          }
+        });
+        fetch(partUrl)
+          .then(response => response.json())
+          .then(geojson => {
+            (geojson.features || []).forEach(feature => {
+              const properties = feature.properties;
+              if (!properties || !properties.PropAddress_Full) return;
+              const address = `${properties.PropAddress_Full}, ${properties.PropAddress_City || 'SAVANNAH'}, ${properties.PropAddress_State || 'GA'} ${properties.PropAddress_Zip || ''}`.trim();
+              parcelIndexCache.push({
+                address,
+                searchAddress: address.toLowerCase().replace(/\s+/g, ' '),
+                geometry: feature.geometry
+              });
+            });
+            if (document.getElementById('propertySearchInput').value.trim().length >= 3) {
+              updatePropertyAutocomplete();
+            }
+          })
+          .catch(error => console.error(`Failed to load parcel address index part ${i}:`, error));
+      }
+
       // Main source with clustering
       map.addSource("strv", {
         type: "geojson",
@@ -1350,7 +1522,19 @@
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
     document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
     document.getElementById("hasComplaintsCheckbox").addEventListener("change", applyFilters);
-    document.getElementById("propertySearchInput").addEventListener("input", applyFilters);
+    document.getElementById("propertySearchInput").addEventListener("input", () => {
+      applyFilters();
+      updatePropertyAutocomplete();
+    });
+    document.getElementById("propertySearchInput").addEventListener("keydown", event => {
+      if (event.key !== 'Enter') return;
+      event.preventDefault();
+      hidePropertyAutocomplete();
+      performPropertySearch();
+    });
+    document.addEventListener('click', event => {
+      if (!event.target.closest('.property-search-wrapper')) hidePropertyAutocomplete();
+    });
 
     document.getElementById("advancedFiltersBtn").addEventListener("click", () => {
       const button = document.getElementById("advancedFiltersBtn");
