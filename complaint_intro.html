@@ -65,7 +65,7 @@
     if (rentalType) details.push(`<div><strong>Type:</strong> ${rentalType}</div>`);
     if (hostName) details.push(`<div><strong>Host:</strong> ${hostName}</div>`);
     if (municipality) details.push(`<div><strong>Municipality:</strong> ${municipality}</div>`);
-    if (address) details.push(`<div><strong>Address:</strong> ${address}${unit ? ' · Unit ' + unit : ''}</div>`);
+    if (address) details.push(`<div><strong>Address(approximate):</strong> ${address}${unit ? ' · Unit ' + unit : ''}</div>`);
     if (listingUrl) details.push(`<div><strong>Listing:</strong> <a href="${listingUrl}" target="_blank" rel="noreferrer">${listingUrl}</a></div>`);
 
     const propertyDetails = document.getElementById('propertyDetails');
