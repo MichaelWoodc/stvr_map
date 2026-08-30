@@ -32216,7 +32216,7 @@ const locations = [
         "approx_distance_meters": 0.000598000857280128,
         "municipality": "SAVANNAH",
         "allowed_guests": 8.0,
-        "over_occupancy": 4.0,
+        "over_occupancy": 0.0,
         "percent_over": 50.0
     },
     {
