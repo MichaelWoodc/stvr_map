@@ -16076,7 +16076,7 @@ const locations = [
   {
     "url": "https://www.airbnb.com/rooms/23328571",
     "rental_type": "Entire home",
-    "guests": 12.0,
+    "guests": 8.0,
     "bedrooms": 4.0,
     "beds": 6.0,
     "baths": 3.0,
