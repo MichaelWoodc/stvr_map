@@ -399,11 +399,6 @@
       <input type="checkbox" id="verifiedLicenseCheckbox">
       Verified license found (City of Savannah only)
     </label>
-    <label class="filter-item">
-      <input type="checkbox" id="hasComplaintsCheckbox">
-      Has complaints
-    </label>
-
     <div class="filter-section-title">Search</div>
     <div class="property-search-wrapper">
       <input id="propertySearchInput" class="filter-search" type="search" placeholder="Listing, license, or any Chatham County address" autocomplete="off">
@@ -488,15 +483,6 @@
       // field (address, unit, permit number, agent, etc.).
       const searchText = JSON.stringify(loc).toLowerCase().replace(/\s+/g, ' ');
 
-      const complaintAddress = verifiedLicenseItems.length > 0 && verifiedLicenseItems[0].address
-        ? `${verifiedLicenseItems[0].address}${verifiedLicenseItems[0].unit ? ' Unit ' + verifiedLicenseItems[0].unit : ''}`.trim()
-        : (loc.approximate_address || loc.address || '');
-
-      const complaintKeyCandidates = [
-        normalizePropertyKey(complaintAddress, loc.unit || '', loc.municipality || ''),
-        normalizePropertyKey(loc.approximate_address || loc.address || '', loc.unit || '', loc.municipality || '')
-      ];
-
       return {
         ...loc,
         latitude,
@@ -513,9 +499,7 @@
         hasVerifiedLicense,
         licenseCount,
         verifiedLicenseItems,
-        searchText,
-        complaintKeys: complaintKeyCandidates,
-        hasComplaints: false
+        searchText
       };
     }).filter(Boolean);
 
@@ -544,14 +528,6 @@
       });
     });
 
-    function normalizePropertyKey(address, unit, municipality) {
-      const raw = [address, unit, municipality].filter(Boolean).map(v => String(v).trim()).join(' | ');
-      return raw.toLowerCase()
-        .replace(/[^a-z0-9\s\-_\.]/g, '-')
-        .replace(/[\s_]+/g, '-')
-        .replace(/^-+|-+$/g, '') || 'unknown-property';
-    }
-
     function openMobilePopup(html) {
       const overlay = document.getElementById('mobilePopupOverlay');
       const content = document.getElementById('mobilePopupContent');
@@ -566,27 +542,6 @@
       if (!overlay || !content) return;
       overlay.classList.remove('active');
       content.innerHTML = '';
-    }
-
-    async function loadComplaintIndex() {
-      try {
-        const response = await fetch('complaints_index.php');
-        if (!response.ok) return;
-        const complaintCounts = await response.json();
-        processedLocations.forEach(loc => {
-          let count = 0;
-          loc.complaintKeys.forEach(key => {
-            if (complaintCounts[key]) {
-              count = Math.max(count, Number(complaintCounts[key]));
-            }
-          });
-          loc.complaintCount = count;
-          loc.hasComplaints = count > 0;
-        });
-        applyFilters();
-      } catch (err) {
-        console.warn('Could not load complaint index', err);
-      }
     }
 
     function toGeoJSON(data) {
@@ -922,7 +877,6 @@
       // Use the same effectiveMin logic as applyFilters so behavior matches.
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
-      const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
       const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
@@ -1076,11 +1030,21 @@
 
       // Municipality boundaries
       fetch(municipalityGeojsonUrl)
-        .then(response => response.json())
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Municipality GeoJSON request failed (${response.status})`);
+          }
+          return response.json();
+        })
         .then(data => {
+          // Remove excluded features before the source is rendered. Otherwise
+          // they have no assigned color and MapLibre tries to parse null.
+          data.features = data.features.filter(feature =>
+            !excludedMunicipalities.has(normalizeMunicipalityName(feature.properties?.NAME))
+          );
+
           data.features.forEach(feature => {
             const name = normalizeMunicipalityName(feature.properties.NAME);
-            if (excludedMunicipalities.has(name)) return;
             const color = getMunicipalityColor(name);
             municipalityColors[name] = color;
             feature.properties._fillColor = color;
@@ -1113,7 +1077,7 @@
             type: "fill",
             source: "municipalities",
             paint: {
-              "fill-color": ["get", "_fillColor"],
+              "fill-color": ["coalesce", ["get", "_fillColor"], "#888"],
               "fill-opacity": 0.48,
               "fill-antialias": true
             },
@@ -1127,14 +1091,14 @@
             type: "line",
             source: "municipalities",
             paint: {
-              "line-color": ["get", "_lineColor"],
+              "line-color": ["coalesce", ["get", "_lineColor"], "#555"],
               "line-width": 3,
-              "line-opacity": 0.9,
-              "line-join": "round",
-              "line-cap": "round"
+              "line-opacity": 0.9
             },
             layout: {
-              visibility: "visible"
+              visibility: "visible",
+              "line-join": "round",
+              "line-cap": "round"
             }
           }, insertBefore);
         })
@@ -1334,11 +1298,9 @@
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
 
-        const countBadge = loc.complaintCount > 0 ? `<span class="count-badge">${loc.complaintCount} complaint${loc.complaintCount === 1 ? '' : 's'}</span>` : '';
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type || 'Listing'}</div>
-            ${countBadge}
             ${addressHtml}
             <strong>Host:</strong> ${loc.host_name || 'N/A'}<br/>
             ${loc.years_hosting ? `<small>(${loc.years_hosting} years hosting)</small><br/>` : ''}
@@ -1402,11 +1364,9 @@
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
 
-        const complaintBadge = loc.complaintCount > 0 ? `<span class="count-badge">${loc.complaintCount} complaint${loc.complaintCount === 1 ? '' : 's'}</span>` : '';
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            ${complaintBadge}
             <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
@@ -1466,7 +1426,6 @@
     function applyFilters() {
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
-      const hasComplaintsOnly = document.getElementById("hasComplaintsCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
       const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
@@ -1493,7 +1452,6 @@
         }
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (verifiedOnly && !loc.hasVerifiedLicense) return false;
-        if (hasComplaintsOnly && !loc.hasComplaints) return false;
         if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
@@ -1501,7 +1459,8 @@
 
       // Update listing source
       clearSpiderfy();
-      map.getSource("strv").setData(toGeoJSON(filtered));
+      const listingSource = map.getSource("strv");
+      if (listingSource) listingSource.setData(toGeoJSON(filtered));
 
       // Update municipality counts based on filtered results
       updateMunicipalityCounts(filtered);
@@ -1521,7 +1480,6 @@
 
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
     document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
-    document.getElementById("hasComplaintsCheckbox").addEventListener("change", applyFilters);
     document.getElementById("propertySearchInput").addEventListener("input", () => {
       applyFilters();
       updatePropertyAutocomplete();
@@ -1591,7 +1549,6 @@
       });
     }
 
-    loadComplaintIndex();
   </script>
 </body>
 </html>

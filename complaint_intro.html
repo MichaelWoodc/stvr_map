@@ -27,7 +27,7 @@
     <div class="card">
       <h1>Submit a Complaint</h1>
       <p>This website is not affiliated with the City of Savannah, Chatham County, or any government organization.</p>
-      <p>We can still help collect your complaint details here, keep them public for transparency, and try to submit the complaint on your behalf.</p>
+      <p>We can still help collect your complaint details here, keep them public for transparency, and try to submit the complaint on your behalf.  When the property is within the City of Savannah limits, please use the official complaint portal.</p>
 
       <div id="propertyDetails" class="property-meta" aria-live="polite"></div>
       <div id="message" class="info-box"></div>
@@ -45,7 +45,7 @@
         <ul class="contact-list">
           <li>Chatham County Building Safety: <a href="tel:9122014300">(912) 201-4300</a></li>
           <li>Non-emergency police number: <a href="tel:9126526500">(912) 652-6500</a></li>
-          <li>Email (Laurie Albert): <a href="mailto:laalbert@chathamcounty.org">laalbert@chathamcounty.org</a></li>
+          <!-- <li>Email (Laurie Albert): <a href="mailto:laalbert@chathamcounty.org">laalbert@chathamcounty.org</a></li> -->
           <li>Emergency: Dial <strong>911</strong></li>
         </ul>
       </div>
@@ -65,7 +65,7 @@
     if (rentalType) details.push(`<div><strong>Type:</strong> ${rentalType}</div>`);
     if (hostName) details.push(`<div><strong>Host:</strong> ${hostName}</div>`);
     if (municipality) details.push(`<div><strong>Municipality:</strong> ${municipality}</div>`);
-    if (address) details.push(`<div><strong>Address:</strong> ${address}${unit ? ' · Unit ' + unit : ''}</div>`);
+    if (address) details.push(`<div><strong>Address(approximate):</strong> ${address}${unit ? ' · Unit ' + unit : ''}</div>`);
     if (listingUrl) details.push(`<div><strong>Listing:</strong> <a href="${listingUrl}" target="_blank" rel="noreferrer">${listingUrl}</a></div>`);
 
     const propertyDetails = document.getElementById('propertyDetails');
