@@ -406,7 +406,7 @@
 
   <div class="host-panel collapsed" id="hostPanel">
     <div class="filter-header">
-      <div class="filter-title">Unlicensed hosts</div>
+      <div class="filter-title">Unlicensed hosts (<span id="unlicensedListingTotal">0</span>)</div>
       <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
     </div>
     <div class="host-list" id="unlicensedHostList"></div>
@@ -726,6 +726,8 @@
       });
       const list = document.getElementById('unlicensedHostList');
       list.innerHTML = '';
+      document.getElementById('unlicensedListingTotal').textContent = [...groups.values()]
+        .reduce((total, listings) => total + listings.length, 0);
       [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([hostName, listings]) => {
         const group = document.createElement('div');
         group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}`;
@@ -1279,7 +1281,7 @@
       map.getSource('licensed-locations')?.setData(points);
       map.getSource('license-coverage')?.setData(coverage);
       const visibility = document.getElementById('licenseCoverageCheckbox').checked ? 'visible' : 'none';
-      ['license-coverage-fill', 'license-coverage-outline', 'licensed-location-points'].forEach(id => {
+      ['license-coverage-fill', 'license-coverage-outline', 'licensed-location-clusters', 'licensed-location-cluster-count', 'licensed-location-points'].forEach(id => {
         if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility);
       });
     }
@@ -1362,7 +1364,13 @@
         .catch(error => console.error('Failed to load county research CSVs:', error));
 
       map.addSource('license-coverage', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-      map.addSource('licensed-locations', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addSource('licensed-locations', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+        cluster: true,
+        clusterRadius: 46,
+        clusterMaxZoom: 14
+      });
       map.addSource('license-connections', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addSource('license-balance-heatmap', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addLayer({
@@ -1378,7 +1386,34 @@
         paint: { 'line-color': '#2563eb', 'line-width': 3, 'line-opacity': 0.9, 'line-dasharray': [2, 1] }
       });
       map.addLayer({
+        id: 'licensed-location-clusters', type: 'circle', source: 'licensed-locations',
+        filter: ['has', 'point_count'],
+        paint: {
+          'circle-color': '#16a34a',
+          'circle-radius': ['step', ['get', 'point_count'], 16, 20, 21, 75, 27],
+          'circle-opacity': 0.92,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#dcfce7',
+          'circle-translate': [30, 0],
+          'circle-translate-anchor': 'viewport'
+        }
+      });
+      map.addLayer({
+        id: 'licensed-location-cluster-count', type: 'symbol', source: 'licensed-locations',
+        filter: ['has', 'point_count'],
+        layout: {
+          'text-field': ['get', 'point_count_abbreviated'],
+          'text-size': 12
+        },
+        paint: {
+          'text-color': '#ffffff',
+          'text-translate': [30, 0],
+          'text-translate-anchor': 'viewport'
+        }
+      });
+      map.addLayer({
         id: 'licensed-location-points', type: 'circle', source: 'licensed-locations',
+        filter: ['!', ['has', 'point_count']],
         paint: { 'circle-radius': 5, 'circle-color': '#16a34a', 'circle-opacity': 0.9, 'circle-stroke-width': 1.5, 'circle-stroke-color': '#ffffff' }
       });
       map.addLayer({
@@ -1574,7 +1609,9 @@
             18, 10,
             22, 25,
             28
-          ]
+          ],
+          "circle-translate": [-30, 0],
+          "circle-translate-anchor": "viewport"
         }
       });
 
@@ -1590,7 +1627,9 @@
           "text-font": ["Noto Sans Regular"]
         },
         paint: {
-          "text-color": "#fff"
+          "text-color": "#fff",
+          "text-translate": [-30, 0],
+          "text-translate-anchor": "viewport"
         }
       });
 
@@ -1696,7 +1735,9 @@
         }
       });
 
-      // Keep license points above the listing circles when locations overlap.
+      // Keep green license clusters and points above the black listing clusters.
+      map.moveLayer('licensed-location-clusters');
+      map.moveLayer('licensed-location-cluster-count');
       map.moveLayer('licensed-location-points');
 
       function researchStatusHtml(loc) {
@@ -1828,8 +1869,18 @@
         const matchCount = drawLicenseConnectionsForLicense(license);
         showSelectionPopup(event.lngLat, licensePopupHtml(license, matchCount), '360px');
       });
+      map.on('click', 'licensed-location-clusters', event => {
+        const feature = event.features[0];
+        const source = map.getSource('licensed-locations');
+        source.getClusterExpansionZoom(feature.properties.cluster_id, (error, zoom) => {
+          if (error) return;
+          map.easeTo({ center: feature.geometry.coordinates, zoom, duration: 650 });
+        });
+      });
       map.on('mouseenter', 'licensed-location-points', () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', 'licensed-location-points', () => { map.getCanvas().style.cursor = ''; });
+      map.on('mouseenter', 'licensed-location-clusters', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'licensed-location-clusters', () => { map.getCanvas().style.cursor = ''; });
 
       Promise.all([licensedRowsReady, countyResearchReady]).then(drawAllMatchedLicenseConnections);
       map.on('moveend', () => requestAnimationFrame(drawAllMatchedLicenseConnections));
