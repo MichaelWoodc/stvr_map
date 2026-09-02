@@ -401,7 +401,7 @@
     </label>
     <label class="filter-item">
       <input type="checkbox" id="confirmedUnlicensedCheckbox">
-      Likely Unlicensed
+      No license found for verified address in open records as of 8-1-2026
     </label>
     <div class="filter-section-title">Search</div>
     <div class="property-search-wrapper">
@@ -414,8 +414,8 @@
 
     <div class="filter-section-title">Unincorporated County Scope</div>
     <div class="slider-label">Municipal-edge buffer</div>
-    <input type="range" id="boundaryBufferSlider" min="-.7" max=".7" value="0" step="0.01" style="width:100%;">
-    <div id="boundaryBufferValue">0.00 mi (0.00 km)</div>
+      <input type="range" id="boundaryBufferSlider" min="-.7" max=".7" value="0.0124" step="0.0001" style="width:100%;">
+      <div id="boundaryBufferValue">0.01 mi (0.02 km)</div>
 
     <div class="filter-section-title">Licensed Location Coverage</div>
     <label class="filter-item">
@@ -682,6 +682,8 @@
     const TOTAL_PARCEL_PARTS = 0;
     const parcelIndexCache = [];
     let parcelSearchMarker = null;
+    let activeMapPopup = null;
+    let refreshLicenseConnectionLines = null;
     const municipalityGeojsonUrl = "Municipality.geojson";
     const excludedMunicipalities = new Set();
     let municipalityNames = [];
@@ -1165,9 +1167,31 @@
       return coordinates;
     }
 
+    function hasMatchedListingForLicense(license) {
+      const number = String(license.licenseNumber || license['Business License Number'] || '');
+      if (!number) return false;
+      return processedLocations.some(listing => {
+        const value = listing.matched_license_numbers;
+        if (Array.isArray(value)) return value.includes(number);
+        if (typeof value !== 'string') return false;
+        try { return JSON.parse(value).includes(number); } catch { return false; }
+      });
+    }
+
+    // Compatibility alias for any existing layer-refresh callbacks.
+    function isLicenseMatchedToListing(license) {
+      return hasMatchedListingForLicense(license);
+    }
+
     function updateLicensedLocationLayers() {
       // Rings remain visible even when the listing privacy scope is narrowed.
-      const visibleLicenses = [...licensedLocations.values()];
+      // The verified-only compliance filter also narrows license dots to the
+      // licenses that actually have a matched listing.
+      const verifiedOnly = document.getElementById('verifiedLicenseCheckbox').checked;
+      const visibleLicenses = [...licensedLocations.values()].filter(license =>
+        !verifiedOnly || hasMatchedListingForLicense(license)
+      );
+      const licensesWithoutMatchedListings = visibleLicenses.filter(license => !hasMatchedListingForLicense(license));
       const radiusMeters = Number(document.getElementById('licenseRadiusSlider').value) * 1609.344;
       const points = {
         type: 'FeatureCollection',
@@ -1175,7 +1199,7 @@
       };
       const coverage = {
         type: 'FeatureCollection',
-        features: radiusMeters > 0 ? visibleLicenses.map(license => ({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [coordinatesForRadius(license.longitude, license.latitude, radiusMeters)] }, properties: license })) : []
+        features: radiusMeters > 0 ? licensesWithoutMatchedListings.map(license => ({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [coordinatesForRadius(license.longitude, license.latitude, radiusMeters)] }, properties: license })) : []
       };
       map.getSource('licensed-locations')?.setData(points);
       map.getSource('license-coverage')?.setData(coverage);
@@ -1264,6 +1288,7 @@
 
       map.addSource('license-coverage', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addSource('licensed-locations', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addSource('license-connections', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addSource('license-balance-heatmap', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addLayer({
         id: 'license-coverage-fill', type: 'fill', source: 'license-coverage',
@@ -1272,6 +1297,10 @@
       map.addLayer({
         id: 'license-coverage-outline', type: 'line', source: 'license-coverage',
         paint: { 'line-color': '#16a34a', 'line-width': 1.25, 'line-opacity': 0.7 }
+      });
+      map.addLayer({
+        id: 'license-connection-line', type: 'line', source: 'license-connections',
+        paint: { 'line-color': '#2563eb', 'line-width': 3, 'line-opacity': 0.9, 'line-dasharray': [2, 1] }
       });
       map.addLayer({
         id: 'licensed-location-points', type: 'circle', source: 'licensed-locations',
@@ -1502,10 +1531,14 @@
             "case",
             ["get", "isConfirmedUnlicensed"],
             "#dc2626",
-            ["get", "isLikelyUnlicensed"],
-            "#dc2626",
             ["get", "isOverCapacity"],
             "#d32f2f",
+            // A confirmed match overrides only the proximity estimate, never
+            // an actual capacity violation or confirmed unlicensed status.
+            ["get", "hasMatchedLicense"],
+            "#388e3c",
+            ["get", "isLikelyUnlicensed"],
+            "#dc2626",
             "#388e3c"
           ],
           "circle-stroke-width": 2,
@@ -1588,6 +1621,9 @@
         }
       });
 
+      // Keep license points above the listing circles when locations overlap.
+      map.moveLayer('licensed-location-points');
+
       function researchStatusHtml(loc) {
         const status = loc.license_status;
         if (!status) return '';
@@ -1615,11 +1651,120 @@
           encodeURIComponent(listingUrl || '');
       }
 
+      function showSelectionPopup(lngLat, html, maxWidth = '320px') {
+        if (activeMapPopup) activeMapPopup.remove();
+        activeMapPopup = null;
+        if (window.innerWidth <= 768) {
+          openMobilePopup(html);
+          return;
+        }
+        // Keep the selected point slightly below center so its card remains in view.
+        map.easeTo({ center: lngLat, offset: [0, 170], duration: 350, essential: true });
+        // A popup is replaced explicitly when another map feature is selected.  Do not
+        // close it for ordinary map clicks, pans, or drags.
+        const popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth })
+          .setLngLat(lngLat)
+          .setHTML(html)
+          .addTo(map);
+        activeMapPopup = popup;
+        popup.on('close', () => { if (activeMapPopup === popup) activeMapPopup = null; });
+      }
+
+      function asArray(value) {
+        if (Array.isArray(value)) return value;
+        if (typeof value !== 'string') return [];
+        try { return JSON.parse(value); } catch { return []; }
+      }
+
+      function escapePopupHtml(value) {
+        return String(value ?? '').replace(/[&<>'"]/g, character => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+        })[character]);
+      }
+
+      function licenseNumberFor(license) {
+        return String(license.licenseNumber || license['Business License Number'] || '');
+      }
+
+      function setLicenseConnection(features) {
+        map.getSource('license-connections')?.setData({ type: 'FeatureCollection', features });
+      }
+
+      function drawLicenseConnectionsForListing(listing) {
+        // Matched connections are a persistent reference layer.  Clicking an
+        // unmatched listing must not erase every other matched connection.
+        drawAllMatchedLicenseConnections();
+      }
+
+      function drawLicenseConnectionsForLicense(license) {
+        const number = licenseNumberFor(license);
+        const matchCount = number
+          ? processedLocations.filter(listing => asArray(listing.matched_license_numbers).includes(number)).length
+          : 0;
+        // Preserve all default connections after directly selecting a license too.
+        drawAllMatchedLicenseConnections();
+        return matchCount;
+      }
+
+      function isLicenseMatchedToListing(license) {
+        const number = licenseNumberFor(license);
+        return Boolean(number && processedLocations.some(listing => asArray(listing.matched_license_numbers).includes(number)));
+      }
+
+      function drawAllMatchedLicenseConnections() {
+        // A clustered listing has no individual on-map dot yet.  Only draw a
+        // connection once its circle (or a spiderfied circle) is rendered.
+        const visibleListingUrls = new Set(
+          map.queryRenderedFeatures({ layers: ['strv-circles', 'spiderfy-circles'] })
+            .map(feature => String(feature.properties?.url || ''))
+            .filter(Boolean)
+        );
+        const features = processedLocations
+          .filter(listing => visibleListingUrls.has(String(listing.url || '')))
+          .flatMap(listing => asArray(listing.matched_license_numbers)
+          .map(number => licensedLocations.get(String(number)))
+          .filter(Boolean)
+          .map(license => ({
+            type: 'Feature',
+            geometry: { type: 'LineString', coordinates: [[Number(listing.longitude), Number(listing.latitude)], [Number(license.longitude), Number(license.latitude)]] },
+            properties: { licenseNumber: licenseNumberFor(license) }
+          })));
+        setLicenseConnection(features);
+      }
+      refreshLicenseConnectionLines = drawAllMatchedLicenseConnections;
+
+      function licensePopupHtml(license, matchCount) {
+        const fields = [
+          'Business License Number', 'Business Name', 'DBA', 'Business Status', 'Business License Type',
+          'Business License Classification', 'Business License Status', 'Business License Year',
+          'Business License Issued Date', 'Business License Expiration Date', 'Parcel_Matched_Address',
+          'Parcel_PIN', 'Parcel_Match_Method'
+        ];
+        const details = fields.filter(field => license[field]).map(field =>
+          `<strong>${escapePopupHtml(field)}:</strong> ${escapePopupHtml(license[field])}<br/>`
+        ).join('');
+        return `<div class="popup-content"><div class="popup-title">Verified County License</div>${details || 'No license details available.'}` +
+          (matchCount ? `<hr/><strong>Matched Airbnb listing${matchCount === 1 ? '' : 's'}:</strong> ${matchCount}` : '') +
+          '</div>';
+      }
+
+      map.on('click', 'licensed-location-points', event => {
+        const license = event.features[0].properties;
+        const matchCount = drawLicenseConnectionsForLicense(license);
+        showSelectionPopup(event.lngLat, licensePopupHtml(license, matchCount), '360px');
+      });
+      map.on('mouseenter', 'licensed-location-points', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'licensed-location-points', () => { map.getCanvas().style.cursor = ''; });
+
+      Promise.all([licensedRowsReady, countyResearchReady]).then(drawAllMatchedLicenseConnections);
+      map.on('moveend', () => requestAnimationFrame(drawAllMatchedLicenseConnections));
+
 // Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
         clearSpiderfy();
 
         const loc = e.features[0].properties;
+        drawLicenseConnectionsForListing(loc);
         const excessive = loc.over_occupancy;
         const warning = excessive > 0
           ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>`
@@ -1704,19 +1849,15 @@
           </div>
         `;
 
-        if (window.innerWidth <= 768) {
-          openMobilePopup(html);
-        } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
-            .setLngLat(e.lngLat)
-            .setHTML(html)
-            .addTo(map);
-        }
+        showSelectionPopup(e.lngLat, html);
       });
+      map.on('mouseenter', 'strv-circles', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'strv-circles', () => { map.getCanvas().style.cursor = ''; });
 
       // Popup + zoom for spiderfied points
       map.on("click", "spiderfy-circles", (e) => {
         const loc = e.features[0].properties;
+        drawLicenseConnectionsForListing(loc);
         const excessive = loc.overOccupancy;
         const warning = excessive > 0
           ? `<div class="warning-text">${excessive} GUESTS OVER LIMIT</div>`
@@ -1771,15 +1912,10 @@
           </div>
         `;
 
-        if (window.innerWidth <= 768) {
-          openMobilePopup(html);
-        } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
-            .setLngLat(e.lngLat)
-            .setHTML(html)
-            .addTo(map);
-        }
+        showSelectionPopup(e.lngLat, html);
       });
+      map.on('mouseenter', 'spiderfy-circles', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'spiderfy-circles', () => { map.getCanvas().style.cursor = ''; });
 
       // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
       map.on("click", "clusters", (e) => {
@@ -1864,6 +2000,9 @@
       const listingSource = map.getSource("strv");
       if (listingSource) listingSource.setData(toGeoJSON(filtered));
       updateLicensedLocationLayers();
+      // Wait until the newly filtered source has rendered before testing which
+      // individual listing dots are visible for connection lines.
+      map.once('idle', () => refreshLicenseConnectionLines?.());
 
       // Update municipality counts based on filtered results
       updateMunicipalityCounts(filtered);
@@ -1887,8 +2026,16 @@
     }
 
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
-    document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
-    document.getElementById("confirmedUnlicensedCheckbox").addEventListener("change", applyFilters);
+    const verifiedLicenseCheckbox = document.getElementById("verifiedLicenseCheckbox");
+    const confirmedUnlicensedCheckbox = document.getElementById("confirmedUnlicensedCheckbox");
+    verifiedLicenseCheckbox.addEventListener("change", () => {
+      if (verifiedLicenseCheckbox.checked) confirmedUnlicensedCheckbox.checked = false;
+      applyFilters();
+    });
+    confirmedUnlicensedCheckbox.addEventListener("change", () => {
+      if (confirmedUnlicensedCheckbox.checked) verifiedLicenseCheckbox.checked = false;
+      applyFilters();
+    });
     document.getElementById("propertySearchInput").addEventListener("input", () => {
       applyFilters();
       updatePropertyAutocomplete();
