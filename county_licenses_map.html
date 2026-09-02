@@ -1260,16 +1260,19 @@
       return hasMatchedListingForLicense(license);
     }
 
-    function updateLicensedLocationLayers() {
+    function updateLicensedLocationLayers(nearbyListings = null) {
       // Rings remain visible even when the listing privacy scope is narrowed.
       // The verified-only compliance filter also narrows license dots to the
       // licenses that actually have a matched listing.
       const verifiedOnly = document.getElementById('verifiedLicenseCheckbox').checked;
-      const visibleLicenses = [...licensedLocations.values()].filter(license =>
-        !verifiedOnly || hasMatchedListingForLicense(license)
-      );
-      const licensesWithoutMatchedListings = visibleLicenses.filter(license => !hasMatchedListingForLicense(license));
       const radiusMeters = Number(document.getElementById('licenseRadiusSlider').value) * 1609.344;
+      const radiusSquared = radiusMeters ** 2;
+      const visibleLicenses = [...licensedLocations.values()].filter(license => {
+        if (verifiedOnly && !hasMatchedListingForLicense(license)) return false;
+        if (Array.isArray(nearbyListings) && !nearbyListings.some(listing => squaredDistanceMeters(listing, license) <= radiusSquared)) return false;
+        return true;
+      });
+      const licensesWithoutMatchedListings = visibleLicenses.filter(license => !hasMatchedListingForLicense(license));
       const points = {
         type: 'FeatureCollection',
         features: visibleLicenses.map(license => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [license.longitude, license.latitude] }, properties: license }))
@@ -1403,7 +1406,9 @@
         filter: ['has', 'point_count'],
         layout: {
           'text-field': ['get', 'point_count_abbreviated'],
-          'text-size': 12
+          'text-size': 12,
+          'text-allow-overlap': true,
+          'text-ignore-placement': true
         },
         paint: {
           'text-color': '#ffffff',
@@ -1624,7 +1629,9 @@
         layout: {
           "text-field": "{point_count}",
           "text-size": 12,
-          "text-font": ["Noto Sans Regular"]
+          "text-font": ["Noto Sans Regular"],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true
         },
         paint: {
           "text-color": "#fff",
@@ -2125,7 +2132,6 @@
       clearSpiderfy();
       const listingSource = map.getSource("strv");
       if (listingSource) listingSource.setData(toGeoJSON(filtered));
-      updateLicensedLocationLayers();
       // Wait until the newly filtered source has rendered before testing which
       // individual listing dots are visible for connection lines.
       map.once('idle', () => refreshLicenseConnectionLines?.());
@@ -2133,6 +2139,14 @@
       // Update municipality counts based on filtered results
       updateMunicipalityCounts(filtered);
       updateUnlicensedHostList();
+
+      const hasActivePropertyFilters = Boolean(
+        searchTerm || showViolationsOnly || verifiedOnly || confirmedUnlicensedOnly || likelyUnlicensedOnly ||
+        minOver > 0 || minLicenseCount > 1 || selectedMunicipalities.length < 2 ||
+        activeLicenseTypes.size !== availableLicenseTypes.length ||
+        activeRentalTypes.size !== availableRentalTypes.length
+      );
+      updateLicensedLocationLayers(hasActivePropertyFilters ? filtered : null);
 
       // Update municipality visibility to only selected names
       const visibleMunicipalityNames = municipalityNames.filter(name =>
@@ -2213,11 +2227,10 @@
 
     document.getElementById("licenseRadiusSlider").addEventListener("input", (e) => {
       document.getElementById("licenseRadiusValue").innerText = milesToKmLabel(Number(e.target.value));
-      updateLicensedLocationLayers();
       applyFilters();
     });
 
-    document.getElementById("licenseCoverageCheckbox").addEventListener("change", updateLicensedLocationLayers);
+    document.getElementById("licenseCoverageCheckbox").addEventListener("change", applyFilters);
     document.getElementById("likelyUnlicensedCheckbox").addEventListener("change", applyFilters);
     document.getElementById("licenseBalanceHeatmapCheckbox").addEventListener("change", () => {
       updateLicenseComparison();
