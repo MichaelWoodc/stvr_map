@@ -391,6 +391,21 @@
       color: #1557a0;
       font-weight: bold;
     }
+
+    .site-footer {
+      position: fixed;
+      right: 12px;
+      bottom: 10px;
+      z-index: 3;
+      padding: 7px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      font-size: 13px;
+    }
+
+    .site-footer a { color: #1557a0; font-weight: bold; text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -490,6 +505,10 @@
 
     <button class="reset-button" id="resetZoomBtn">Reset Zoom</button>
   </div>
+
+  <footer class="site-footer">
+    <a href="about_data.html">Info about this data: open records letter and CSV response</a>
+  </footer>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
   <script src="unincorporated_locations.js"></script>
