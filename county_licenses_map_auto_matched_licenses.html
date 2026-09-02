@@ -473,6 +473,9 @@
       <input type="checkbox" id="complianceCheckbox">
       Show Violations Only (Beta, results may be inaccurate, some properties are grandfathered in at higher occupancy)
     </label>
+    <div class="slider-label">Min Over-Limit: (beta, some properties grandfathered in at higher rates)</div>
+    <input type="range" id="overLimitSlider" min="0" max="6" value="0" step="1" style="width:100%;">
+    <div id="overLimitValue">0 guests over</div>
 
     <div class="filter-section-title">License Matches</div>
     <div class="filter-group">
@@ -531,10 +534,6 @@
     <div class="slider-label">License Coverage Radius</div>
     <input type="range" id="licenseRadiusSlider" min="0" max="1.24" value="0.0932" step="0.0001" style="width:100%;">
     <div id="licenseRadiusValue">0.09 mi (0.15 km)</div>
-
-    <div class="slider-label">Min Over-Limit: (beta, some properties grandfatered in at higher rates)</div>
-    <input type="range" id="overLimitSlider" min="0" max="6" value="0" step="1" style="width:100%;">
-    <div id="overLimitValue">0 guests over</div>
 
     <div class="slider-label">Min License Count:</div>
     <input type="range" id="licenseCountSlider" min="1" max="3" value="1" step="1" style="width:100%;">
