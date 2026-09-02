@@ -60,6 +60,8 @@
     const hostName = params.get('host_name') || '';
     const listingUrl = params.get('url') || '';
     const rentalType = params.get('rental_type') || '';
+    const latitude = params.get('lat') || '';
+    const longitude = params.get('lng') || '';
 
     const details = [];
     if (rentalType) details.push(`<div><strong>Type:</strong> ${rentalType}</div>`);
@@ -85,7 +87,17 @@
     if (listingUrl) queryString.set('url', listingUrl);
     if (rentalType) queryString.set('rental_type', rentalType);
 
-    continueButton.href = 'complaint_form.php?' + queryString.toString();
+    // Use the same Google Form field mapping as the main map complaint button.
+    const complaintFormQuery = new URLSearchParams({ usp: 'pp_url' });
+    const now = new Date();
+    complaintFormQuery.set('entry.231361985', now.toISOString().slice(0, 10));
+    complaintFormQuery.set('entry.386457368', now.toTimeString().slice(0, 5));
+    if (address) complaintFormQuery.set('entry.743148639', address);
+    if (Number.isFinite(Number(latitude))) complaintFormQuery.set('entry.1753077861', Number(latitude).toFixed(7));
+    if (Number.isFinite(Number(longitude))) complaintFormQuery.set('entry.1569813902', Number(longitude).toFixed(7));
+    if (listingUrl) complaintFormQuery.set('entry.1841045190', listingUrl);
+    if (unit) complaintFormQuery.set('entry.1837968116', unit);
+    continueButton.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfltlpYbYXLVyUJ7CwaIoTTaiGmAeuB2uA4mTYHwqwaIJki3w/viewform?' + complaintFormQuery.toString();
     viewComplaints.href = 'complaints.php?' + queryString.toString();
 
     // --- MUNICIPALITY CLASSIFICATION ---

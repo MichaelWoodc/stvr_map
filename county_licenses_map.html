@@ -397,7 +397,11 @@
     </label>
     <label class="filter-item">
       <input type="checkbox" id="verifiedLicenseCheckbox">
-      Verified license found (City of Savannah only)
+      Verified license found and matched
+    </label>
+    <label class="filter-item">
+      <input type="checkbox" id="confirmedUnlicensedCheckbox">
+      Likely Unlicensed
     </label>
     <div class="filter-section-title">Search</div>
     <div class="property-search-wrapper">
@@ -405,14 +409,13 @@
       <div id="propertyAutocompleteList" class="property-autocomplete-list"></div>
     </div>
 
-    <div class="filter-section-title">Municipalities</div>
-    <div id="totalCount" style="font-weight:bold;margin-bottom:6px">Total: 0</div>
+    <div class="filter-section-title">Jurisdiction</div>
     <div id="municipalityCheckboxes"></div>
 
     <div class="filter-section-title">Unincorporated County Scope</div>
     <div class="slider-label">Municipal-edge buffer</div>
-    <input type="range" id="boundaryBufferSlider" min="0" max="1.24" value="0.62" step="0.01" style="width:100%;">
-    <div id="boundaryBufferValue">0.62 mi (1.0 km)</div>
+    <input type="range" id="boundaryBufferSlider" min="-.7" max=".7" value="0" step="0.01" style="width:100%;">
+    <div id="boundaryBufferValue">0.00 mi (0.00 km)</div>
 
     <div class="filter-section-title">Licensed Location Coverage</div>
     <label class="filter-item">
@@ -421,7 +424,7 @@
     </label>
     <label class="filter-item">
       <input type="checkbox" id="likelyUnlicensedCheckbox">
-      Show likely unlicensed properties only
+      Show likely unlicensed properties only (adjust coverage radius to see more/less)
     </label>
     <label class="filter-item">
       <input type="checkbox" id="licenseBalanceHeatmapCheckbox">
@@ -431,9 +434,9 @@
       <input type="checkbox" id="unincorporatedHeatmapCheckbox">
       Limit heatmap to unincorporated areas
     </label>
-    <div class="slider-label">Coverage radius</div>
-    <input type="range" id="licenseRadiusSlider" min="0" max="1.24" value="0.62" step="0.01" style="width:100%;">
-    <div id="licenseRadiusValue">0.62 mi (1.0 km)</div>
+    <div class="slider-label">License Coverage Radius</div>
+    <input type="range" id="licenseRadiusSlider" min="0" max="1.24" value="0.0932" step="0.0001" style="width:100%;">
+    <div id="licenseRadiusValue">0.09 mi (0.15 km)</div>
 
     <div class="slider-label">Min Over-Limit: (beta, some properties grandfatered in at higher rates)</div>
     <input type="range" id="overLimitSlider" min="0" max="6" value="0" step="1" style="width:100%;">
@@ -505,6 +508,8 @@
 
       const hasVerifiedLicense = Array.isArray(verifiedLicenseItems) && verifiedLicenseItems.length > 0;
       const licenseCount = Array.isArray(verifiedLicenseItems) ? verifiedLicenseItems.length : 0;
+      const hasMatchedLicense = loc.license_status === 'verified_license_found_and_matched';
+      const isConfirmedUnlicensed = loc.license_status === 'unlicensed';
       // Search the complete source record, including every verified permit
       // field (address, unit, permit number, agent, etc.).
       const searchText = JSON.stringify(loc).toLowerCase().replace(/\s+/g, ' ');
@@ -523,6 +528,8 @@
         isOverCapacity,
         overAmount,
         hasVerifiedLicense,
+        hasMatchedLicense,
+        isConfirmedUnlicensed,
         licenseCount,
         verifiedLicenseItems,
         searchText
@@ -670,7 +677,9 @@
 
     const defaultCenter = [-81.0087, 32.0485];
     const defaultZoom = 12;
-    const TOTAL_PARCEL_PARTS = 9;
+    // License points are precomputed in a compact file; do not load the nine
+    // large parcel datasets during page startup.
+    const TOTAL_PARCEL_PARTS = 0;
     const parcelIndexCache = [];
     let parcelSearchMarker = null;
     const municipalityGeojsonUrl = "Municipality.geojson";
@@ -683,9 +692,11 @@
     let availableLicenseTypes = [];
     let availableRentalTypes = [];
     let unincorporatedGeometry = null;
+    let tybeeIslandGeometry = null;
     const licensedRowsByPin = new Map();
     const licensedLocations = new Map();
     let licensedRowsReady;
+    let countyResearchReady;
 
     // Global bounds for reset zoom
     let globalMinX = Infinity, globalMinY = Infinity, globalMaxX = -Infinity, globalMaxY = -Infinity;
@@ -800,41 +811,33 @@
       container.innerHTML = "";
       activeMunicipalities.clear();
 
-      // Compute counts from processedLocations
-      const counts = processedLocations.reduce((acc, loc) => {
-        const key = normalizeMunicipalityName(loc.municipality) || "UNINCORPORATED";
-        acc[key] = (acc[key] || 0) + 1;
-        return acc;
-      }, {});
-
-      names.forEach(name => {
+      [
+        { key: 'UNINCORPORATED', label: 'CHATHAM COUNTY (UNINCORPORATED)', checked: true },
+        { key: 'OTHER_JURISDICTIONS', label: 'All other jurisdictions within edge buffer', checked: true }
+      ].forEach(option => {
         const label = document.createElement("label");
         label.className = "filter-item";
-
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
-        checkbox.value = name;
-        checkbox.checked = true;
+        checkbox.value = option.key;
+        checkbox.checked = option.checked;
         checkbox.addEventListener("change", () => {
-          if (checkbox.checked) activeMunicipalities.add(name);
-          else activeMunicipalities.delete(name);
+          if (checkbox.checked) activeMunicipalities.add(option.key);
+          else activeMunicipalities.delete(option.key);
           applyFilters();
         });
-
         const colorSwatch = document.createElement("span");
         colorSwatch.style.display = "inline-block";
         colorSwatch.style.width = "12px";
         colorSwatch.style.height = "12px";
         colorSwatch.style.marginRight = "8px";
         colorSwatch.style.borderRadius = "2px";
-        colorSwatch.style.backgroundColor = municipalityColors[name];
-
-        const count = counts[normalizeMunicipalityName(name)] || 0;
-        const nameNode = document.createTextNode(name);
+        colorSwatch.style.backgroundColor = option.key === 'UNINCORPORATED' ? municipalityColors.UNINCORPORATED : '#64748b';
+        const nameNode = document.createTextNode(option.label);
         const countSpan = document.createElement("span");
         countSpan.className = "mun-count";
         countSpan.style.marginLeft = "6px";
-        countSpan.textContent = ` (${count})`;
+        countSpan.textContent = '';
 
         label.appendChild(checkbox);
         label.appendChild(colorSwatch);
@@ -842,7 +845,7 @@
         label.appendChild(countSpan);
         container.appendChild(label);
 
-        activeMunicipalities.add(name);
+        if (checkbox.checked) activeMunicipalities.add(option.key);
       });
     }
 
@@ -907,6 +910,7 @@
       // Use the same effectiveMin logic as applyFilters so behavior matches.
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
+      const confirmedUnlicensedOnly = document.getElementById("confirmedUnlicensedCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
       const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
@@ -922,6 +926,7 @@
 
       const base = processedLocations.filter(loc => {
         if (!loc) return false;
+        if (confirmedUnlicensedOnly && !loc.isConfirmedUnlicensed) return false;
         if (document.getElementById("likelyUnlicensedCheckbox").checked && !loc.isLikelyUnlicensed) return false;
         if (!isWithinCountyScope(loc)) return false;
         if (effectiveMin !== null) {
@@ -929,21 +934,21 @@
           if (overVal < effectiveMin) return false;
         }
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
-        if (verifiedOnly && !loc.hasVerifiedLicense) return false;
+        if (verifiedOnly && !loc.hasMatchedLicense) return false;
         if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
       });
 
       const counts = base.reduce((acc, loc) => {
-        const key = normalizeMunicipalityName(loc.municipality) || "UNINCORPORATED";
+        const key = loc.insideUnincorporated ? 'UNINCORPORATED' : 'OTHER_JURISDICTIONS';
         acc[key] = (acc[key] || 0) + 1;
         return acc;
       }, {});
 
       // Update total count display: show matching / grand total
       const totalEl = document.getElementById('totalCount');
-      if (totalEl) totalEl.textContent = `Total: ${base.length} / ${processedLocations.length}`;
+      if (totalEl) totalEl.textContent = `Total: ${base.length}`;
 
       const container = document.getElementById("municipalityCheckboxes");
       const labels = container.querySelectorAll(".filter-item");
@@ -952,8 +957,8 @@
         if (!checkbox) return;
         const name = checkbox.value;
         const countSpan = label.querySelector('.mun-count');
-        const c = counts[normalizeMunicipalityName(name)] || 0;
-        if (countSpan) countSpan.textContent = ` (${c})`;
+        const c = counts[name] || 0;
+        if (countSpan) countSpan.textContent = checkbox.checked ? ` (${c})` : '';
       });
     }
 
@@ -1031,12 +1036,17 @@
       items.forEach(item => {
         const point = [Number(item.longitude), Number(item.latitude)];
         item.insideUnincorporated = pointInGeometry(point, unincorporatedGeometry);
-        item.distanceToUnincorporatedMeters = item.insideUnincorporated ? 0 : distanceToUnincorporatedBoundaryMeters(point);
+        item.distanceToUnincorporatedMeters = distanceToUnincorporatedBoundaryMeters(point);
+        // Negative values are inside unincorporated Chatham; positive values are outside.
+        item.signedDistanceToUnincorporatedBoundaryMeters = item.insideUnincorporated
+          ? -item.distanceToUnincorporatedMeters
+          : item.distanceToUnincorporatedMeters;
       });
     }
 
     function milesToKmLabel(miles) {
-      return `${miles.toFixed(2)} mi (${(miles * 1.609344).toFixed(1)} km)`;
+      const sign = miles > 0 ? '+' : '';
+      return `${sign}${miles.toFixed(2)} mi (${sign}${(miles * 1.609344).toFixed(2)} km)`;
     }
 
     function getBoundaryBufferMeters() {
@@ -1044,7 +1054,7 @@
     }
 
     function isWithinCountyScope(item) {
-      return item.insideUnincorporated || Number(item.distanceToUnincorporatedMeters) <= getBoundaryBufferMeters();
+      return Number(item.signedDistanceToUnincorporatedBoundaryMeters) <= getBoundaryBufferMeters();
     }
 
     function parseCsv(text) {
@@ -1074,14 +1084,69 @@
       return String(pin || '').toUpperCase().replace(/\s+/g, '');
     }
 
+    function listingIdFromUrl(url) {
+      return String(url || '').match(/rooms\/(\d+)/)?.[1] || '';
+    }
+
+    function applyCountyResearchRows(licensedRows, unlicensedRows) {
+      const researchByListingId = new Map();
+      licensedRows.forEach(row => {
+        const id = listingIdFromUrl(row.airbnb_url);
+        if (!id) return;
+        researchByListingId.set(id, {
+          license_status: 'verified_license_found_and_matched',
+          matched_license_numbers: String(row.license || '').split(';').filter(Boolean),
+          matched_license_address: row.address || '',
+          license_proof_links: Object.keys(row).filter(key => key.startsWith('proof_') && row[key]).map((key, index) => ({ label: `Supporting evidence ${index + 1}`, url: row[key] }))
+        });
+      });
+      unlicensedRows.forEach(row => {
+        const id = listingIdFromUrl(row.airbnb_url);
+        if (!id) return;
+        researchByListingId.set(id, {
+          license_status: 'unlicensed',
+          research_address: row.address || '',
+          license_proof_links: Object.keys(row).filter(key => key.startsWith('proof_') && row[key]).map((key, index) => ({ label: `Supporting evidence ${index + 1}`, url: row[key] }))
+        });
+      });
+      const refresh = item => {
+        delete item.license_status;
+        delete item.matched_license_numbers;
+        delete item.matched_license_address;
+        delete item.research_address;
+        delete item.license_proof_links;
+        const research = researchByListingId.get(listingIdFromUrl(item.url));
+        if (research) Object.assign(item, research);
+        item.hasMatchedLicense = item.license_status === 'verified_license_found_and_matched';
+        item.isConfirmedUnlicensed = item.license_status === 'unlicensed';
+        item.searchText = JSON.stringify(item).toLowerCase().replace(/\s+/g, ' ');
+      };
+      locations.forEach(refresh);
+      processedLocations.forEach(refresh);
+    }
+
+    async function loadCountyLicenseResearch() {
+      const [licensedResponse, unlicensedResponse] = await Promise.all([
+        fetch('county_licensed_airbnbs.csv'),
+        fetch('county_unlicensed_airbnbs.csv')
+      ]);
+      if (!licensedResponse.ok || !unlicensedResponse.ok) throw new Error('County research CSV request failed');
+      applyCountyResearchRows(
+        parseCsv(await licensedResponse.text()),
+        parseCsv(await unlicensedResponse.text())
+      );
+    }
+
     async function loadLicensedRows() {
-      const response = await fetch('STR Renewal List.ChathamCounty.2026.matched.csv');
-      if (!response.ok) throw new Error(`License CSV request failed (${response.status})`);
-      parseCsv(await response.text()).forEach(row => {
-        const pin = normalizePin(row.Parcel_PIN);
-        if (!pin) return;
-        if (!licensedRowsByPin.has(pin)) licensedRowsByPin.set(pin, []);
-        licensedRowsByPin.get(pin).push(row);
+      const response = await fetch('county_licensed_locations.geojson');
+      if (!response.ok) throw new Error(`License location request failed (${response.status})`);
+      const data = await response.json();
+      (data.features || []).forEach(feature => {
+        const license = feature.properties || {};
+        const [longitude, latitude] = feature.geometry?.coordinates || [];
+        if (!Number.isFinite(longitude) || !Number.isFinite(latitude)) return;
+        const key = license.licenseNumber || license['Business License Number'] || `${longitude},${latitude}`;
+        licensedLocations.set(key, { ...license, longitude, latitude });
       });
     }
 
@@ -1101,7 +1166,8 @@
     }
 
     function updateLicensedLocationLayers() {
-      const visibleLicenses = [...licensedLocations.values()].filter(isWithinCountyScope);
+      // Rings remain visible even when the listing privacy scope is narrowed.
+      const visibleLicenses = [...licensedLocations.values()];
       const radiusMeters = Number(document.getElementById('licenseRadiusSlider').value) * 1609.344;
       const points = {
         type: 'FeatureCollection',
@@ -1138,8 +1204,11 @@
         if (!cells.has(key)) cells.set(key, { x, y, listings: 0, licenses: 0 });
         cells.get(key)[field]++;
       };
-      const heatmapListings = unincorporatedOnly ? scopedListings.filter(item => item.insideUnincorporated) : scopedListings;
-      const heatmapLicenses = unincorporatedOnly ? scopedLicenses.filter(item => item.insideUnincorporated) : scopedLicenses;
+      const isTybeeIsland = item => tybeeIslandGeometry && pointInGeometry([item.longitude, item.latitude], tybeeIslandGeometry);
+      const nonTybeeListings = scopedListings.filter(item => !isTybeeIsland(item));
+      const nonTybeeLicenses = scopedLicenses.filter(item => !isTybeeIsland(item));
+      const heatmapListings = unincorporatedOnly ? nonTybeeListings.filter(item => item.insideUnincorporated) : nonTybeeListings;
+      const heatmapLicenses = unincorporatedOnly ? nonTybeeLicenses.filter(item => item.insideUnincorporated) : nonTybeeLicenses;
       heatmapListings.forEach(item => addToCell(item, 'listings'));
       heatmapLicenses.forEach(item => addToCell(item, 'licenses'));
       const features = [...cells.values()].map(cell => {
@@ -1182,9 +1251,16 @@
     }
 
     map.on("load", () => {
-      licensedRowsReady = loadLicensedRows().catch(error => {
-        console.error('Failed to load licensed locations:', error);
-      });
+      licensedRowsReady = loadLicensedRows()
+        .then(() => {
+          setScopeMetadata([...licensedLocations.values()]);
+          updateLicensedLocationLayers();
+          if (unincorporatedGeometry) applyFilters();
+        })
+        .catch(error => console.error('Failed to load licensed locations:', error));
+      countyResearchReady = loadCountyLicenseResearch()
+        .then(() => { if (unincorporatedGeometry) applyFilters(); })
+        .catch(error => console.error('Failed to load county research CSVs:', error));
 
       map.addSource('license-coverage', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addSource('licensed-locations', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
@@ -1213,7 +1289,7 @@
       // Load the same split property files used by map_example.html.  They
       // provide address suggestions and a parcel centroid for unmatched searches.
       for (let i = 1; i <= TOTAL_PARCEL_PARTS; i++) {
-        const partUrl = `media/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
+        const partUrl = `data/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
         const sourceId = `parcel-addresses-${i}`;
         map.addSource(sourceId, { type: 'geojson', data: partUrl });
         map.addLayer({
@@ -1320,6 +1396,9 @@
           unincorporatedGeometry = data.features.find(feature =>
             normalizeMunicipalityName(feature.properties?.NAME) === 'UNINCORPORATED'
           )?.geometry || null;
+          tybeeIslandGeometry = data.features.find(feature =>
+            normalizeMunicipalityName(feature.properties?.NAME) === 'TYBEE ISLAND'
+          )?.geometry || null;
           assignMunicipalities(data);
           setScopeMetadata(processedLocations);
           setScopeMetadata([...licensedLocations.values()]);
@@ -1335,7 +1414,7 @@
           updateLicensedLocationLayers();
           // Initialize counts (matching / grand total) on load
           updateMunicipalityCounts(processedLocations);
-          // Apply the default 1 km county-edge buffer as soon as boundary data is ready.
+          // Apply the configured county-edge privacy radius as soon as boundary data is ready.
           applyFilters();
 
           map.addSource("municipalities", {
@@ -1421,6 +1500,8 @@
           "circle-radius": 12,
           "circle-color": [
             "case",
+            ["get", "isConfirmedUnlicensed"],
+            "#dc2626",
             ["get", "isLikelyUnlicensed"],
             "#dc2626",
             ["get", "isOverCapacity"],
@@ -1507,6 +1588,33 @@
         }
       });
 
+      function researchStatusHtml(loc) {
+        const status = loc.license_status;
+        if (!status) return '';
+        const proofLinks = typeof loc.license_proof_links === 'string'
+          ? JSON.parse(loc.license_proof_links || '[]')
+          : (Array.isArray(loc.license_proof_links) ? loc.license_proof_links : []);
+        const proofHtml = proofLinks.length ? `<div><strong>Address proof:</strong><br/>${proofLinks.map(link =>
+          `<a class="action-link secondary" href="${link.url}" target="_blank" rel="noopener">${link.label}</a>`
+        ).join('')}</div>` : '';
+        if (status === 'unlicensed') {
+          return `<div class="verified-section"><strong>⚠️ Likely Unlicensed </strong><br/>` +
+            `${loc.research_address ? `<strong>Research address:</strong> ${loc.research_address}<br/>` : ''}` +
+            `<small>In the Chatham County research list.</small>${proofHtml}</div>`;
+        }
+        const numbers = typeof loc.matched_license_numbers === 'string'
+          ? JSON.parse(loc.matched_license_numbers || '[]')
+          : (Array.isArray(loc.matched_license_numbers) ? loc.matched_license_numbers : []);
+        return `<div class="verified-section"><strong>✅ Verified license found and matched</strong><br/>` +
+          `${loc.matched_license_address ? `<strong>Matched address:</strong> ${loc.matched_license_address}<br/>` : ''}` +
+          `<strong>License number${numbers.length === 1 ? '' : 's'}:</strong> ${numbers.join(', ') || 'N/A'}${proofHtml}</div>`;
+      }
+
+      function reportLicenseInfoUrl(listingUrl) {
+        return 'https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform?usp=pp_url&entry.1013247072=' +
+          encodeURIComponent(listingUrl || '');
+      }
+
 // Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
         clearSpiderfy();
@@ -1570,8 +1678,10 @@
         }
 
         const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
-        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
+        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
+        const licenseReportUrl = reportLicenseInfoUrl(loc.url);
+        const researchHtml = researchStatusHtml(loc);
 
         const html = `
           <div class="popup-content">
@@ -1584,9 +1694,11 @@
             <strong>Bedrooms: </strong>${loc.bedrooms || 'N/A'}<br/>
             <strong>Legal Limit:</strong> ${loc.allowed_guests || 'N/A'}<br/>
             ${warning}
+            ${researchHtml}
             ${licenseHtml}
             <hr/>
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            <a class="action-link secondary" href="${licenseReportUrl}" target="_blank" rel="noopener">Report address or license info</a>
             <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
             <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
@@ -1636,8 +1748,10 @@
           </div>
         ` : '';
 
-        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
+        const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
+        const licenseReportUrl = reportLicenseInfoUrl(loc.url);
+        const researchHtml = researchStatusHtml(loc);
 
         const html = `
           <div class="popup-content">
@@ -1648,8 +1762,10 @@
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
             <strong>Legal Limit:</strong> ${loc.allowedGuests}<br/>
             ${warning}
+            ${researchHtml}
             ${licenseHtml}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
+            <a class="action-link secondary" href="${licenseReportUrl}" target="_blank" rel="noopener">Report address or license info</a>
             <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
             <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
@@ -1701,6 +1817,7 @@
     function applyFilters() {
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
+      const confirmedUnlicensedOnly = document.getElementById("confirmedUnlicensedCheckbox").checked;
       const likelyUnlicensedOnly = document.getElementById("likelyUnlicensedCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
       const minLicenseCount = Number(document.getElementById("licenseCountSlider").value) || 1;
@@ -1724,14 +1841,19 @@
 
       const filtered = processedLocations.filter(loc => {
         if (!isWithinCountyScope(loc)) return false;
-        if (!selectedMunicipalities.includes(loc.municipality)) return false;
+        if (loc.insideUnincorporated) {
+          if (!selectedMunicipalities.includes('UNINCORPORATED')) return false;
+        } else if (!selectedMunicipalities.includes('OTHER_JURISDICTIONS')) {
+          return false;
+        }
+        if (confirmedUnlicensedOnly && !loc.isConfirmedUnlicensed) return false;
         if (document.getElementById("likelyUnlicensedCheckbox").checked && !loc.isLikelyUnlicensed) return false;
         if (effectiveMin !== null) {
           const overVal = Number(loc.overOccupancy || 0);
           if (overVal < effectiveMin) return false;
         }
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
-        if (verifiedOnly && !loc.hasVerifiedLicense) return false;
+        if (verifiedOnly && !loc.hasMatchedLicense) return false;
         if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
         return true;
@@ -1747,8 +1869,13 @@
       updateMunicipalityCounts(filtered);
 
       // Update municipality visibility to only selected names
-      const filterExpression = selectedMunicipalities.length > 0
-        ? ["in", ["get", "NAME"], ["literal", selectedMunicipalities]]
+      const visibleMunicipalityNames = municipalityNames.filter(name =>
+        name === 'UNINCORPORATED'
+          ? selectedMunicipalities.includes('UNINCORPORATED')
+          : selectedMunicipalities.includes('OTHER_JURISDICTIONS')
+      );
+      const filterExpression = visibleMunicipalityNames.length > 0
+        ? ["in", ["get", "NAME"], ["literal", visibleMunicipalityNames]]
         : ["==", ["get", "NAME"], "__NONE__"];
 
       if (map.getLayer("municipality-fill")) {
@@ -1761,6 +1888,7 @@
 
     document.getElementById("complianceCheckbox").addEventListener("change", applyFilters);
     document.getElementById("verifiedLicenseCheckbox").addEventListener("change", applyFilters);
+    document.getElementById("confirmedUnlicensedCheckbox").addEventListener("change", applyFilters);
     document.getElementById("propertySearchInput").addEventListener("input", () => {
       applyFilters();
       updatePropertyAutocomplete();
