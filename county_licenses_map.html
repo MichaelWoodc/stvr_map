@@ -49,6 +49,25 @@
       overflow: hidden;
     }
 
+    .host-panel {
+      position: absolute; top: 65px; right: 10px; width: 250px;
+      max-height: calc(100vh - 90px); overflow-y: auto; z-index: 10;
+      padding: 12px; border-radius: 6px; background: white; color: #333;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 14px;
+    }
+    .host-panel.collapsed { max-height: 46px; overflow: hidden; }
+    .host-list { display: grid; gap: 5px; margin-top: 8px; }
+    .host-group { border-radius: 4px; background: #f1f5f9; overflow: hidden; }
+    .host-row, .host-address {
+      display: flex; justify-content: space-between; gap: 8px; width: 100%;
+      padding: 7px 8px; border: 0; background: transparent; color: #1e293b;
+      cursor: pointer; text-align: left;
+    }
+    .host-row:hover, .host-address:hover { background: #dbeafe; }
+    .host-addresses { display: none; border-top: 1px solid #cbd5e1; }
+    .host-group.expanded .host-addresses { display: block; }
+    .host-address { padding-left: 18px; font-size: 12px; border-bottom: 1px solid #e2e8f0; }
+
     @media (max-width: 768px) {
       .filter-panel {
         position: fixed;
@@ -81,6 +100,7 @@
       .filter-panel.collapsed {
         max-height: 56px;
       }
+      .host-panel { top: 56px; right: 8px; width: min(250px, calc(100vw - 16px)); max-height: 55vh; }
     }
 
     .filter-header {
@@ -384,6 +404,14 @@
     </div>
   </div>
 
+  <div class="host-panel collapsed" id="hostPanel">
+    <div class="filter-header">
+      <div class="filter-title">Unlicensed hosts</div>
+      <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
+    </div>
+    <div class="host-list" id="unlicensedHostList"></div>
+  </div>
+
   <div class="filter-panel" id="filterPanel">
     <div class="filter-header">
       <div class="filter-title">Filters</div>
@@ -405,7 +433,7 @@
     </label>
     <div class="filter-section-title">Search</div>
     <div class="property-search-wrapper">
-      <input id="propertySearchInput" class="filter-search" type="search" placeholder="Listing, license, or any Chatham County address" autocomplete="off">
+      <input id="propertySearchInput" class="filter-search" type="search" placeholder="Search visible listings or hosts" autocomplete="off">
       <div id="propertyAutocompleteList" class="property-autocomplete-list"></div>
     </div>
 
@@ -623,8 +651,12 @@
       parcelSearchMarker.togglePopup();
     }
 
+    let selectedHostName = null;
+    let expandedHostName = null;
+
     function selectPropertySearchResult(result) {
-      document.getElementById('propertySearchInput').value = result.address;
+      document.getElementById('propertySearchInput').value = result.type === 'host' ? result.hostName : result.address;
+      selectedHostName = result.type === 'host' ? result.hostName : null;
       hidePropertyAutocomplete();
       applyFilters();
       if (result.type === 'listing') {
@@ -633,9 +665,28 @@
           zoom: 17,
           essential: true
         });
-      } else {
+      } else if (result.type === 'parcel') {
         showParcelSearchResult(result.item);
       }
+    }
+
+    function matchesActiveMarkerFilters(loc, includeSearch = false) {
+      if (!isWithinCountyScope(loc)) return false;
+      if (loc.insideUnincorporated) {
+        if (!activeMunicipalities.has('UNINCORPORATED')) return false;
+      } else if (!activeMunicipalities.has('OTHER_JURISDICTIONS')) return false;
+      if (document.getElementById('confirmedUnlicensedCheckbox').checked && !loc.isConfirmedUnlicensed) return false;
+      if (document.getElementById('likelyUnlicensedCheckbox').checked && !loc.isLikelyUnlicensed) return false;
+      if (document.getElementById('verifiedLicenseCheckbox').checked && !loc.hasMatchedLicense) return false;
+      const minOver = Number(document.getElementById('overLimitSlider').value) || 0;
+      const effectiveMin = document.getElementById('complianceCheckbox').checked ? Math.max(1, minOver) : (minOver || null);
+      if (effectiveMin !== null && Number(loc.overOccupancy || 0) < effectiveMin) return false;
+      const minLicenseCount = Number(document.getElementById('licenseCountSlider').value) || 1;
+      if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
+      if (!matchesAdvancedFilters(loc)) return false;
+      const query = document.getElementById('propertySearchInput').value.trim().toLowerCase().replace(/\s+/g, ' ');
+      if (includeSearch && query && !(selectedHostName ? loc.host_name === selectedHostName : loc.searchText.includes(query))) return false;
+      return true;
     }
 
     function updatePropertyAutocomplete() {
@@ -645,34 +696,58 @@
       list.innerHTML = '';
       if (query.length < 3) return hidePropertyAutocomplete();
 
+      const visibleListings = processedLocations.filter(loc => matchesActiveMarkerFilters(loc, false));
+      const hostNames = [...new Set(visibleListings.map(loc => loc.host_name).filter(Boolean))]
+        .filter(hostName => hostName.toLowerCase().includes(query));
       const results = [
-        ...processedLocations.filter(loc => loc.searchText.includes(query)).slice(0, 6).map(item => ({
+        ...hostNames.slice(0, 6).map(hostName => ({ type: 'host', hostName })),
+        ...visibleListings.filter(loc => loc.searchText.includes(query)).slice(0, 6).map(item => ({
           type: 'listing', item, address: item.address || item.approximate_address || 'Listing'
-        })),
-        ...parcelIndexCache.filter(parcel => parcel.searchAddress.includes(query)).slice(0, 6).map(item => ({
-          type: 'parcel', item, address: item.address
         }))
       ];
 
       results.forEach(result => {
         const option = document.createElement('div');
         option.className = `property-autocomplete-item${result.type === 'listing' ? ' listing-match' : ''}`;
-        option.textContent = result.type === 'listing' ? `★ Listing: ${result.address}` : result.address;
+        option.textContent = result.type === 'host' ? `Host: ${result.hostName}` : `★ Listing: ${result.address}`;
         option.addEventListener('click', () => selectPropertySearchResult(result));
         list.appendChild(option);
       });
       list.style.display = results.length ? 'block' : 'none';
     }
 
-    function performPropertySearch() {
-      const query = document.getElementById('propertySearchInput').value.trim().toLowerCase().replace(/\s+/g, ' ');
-      if (!query) return;
-      const listing = processedLocations.find(loc => loc.searchText.includes(query));
-      if (listing) return selectPropertySearchResult({
-        type: 'listing', item: listing, address: listing.address || listing.approximate_address || 'Listing'
+    function updateUnlicensedHostList() {
+      const groups = new Map();
+      processedLocations.filter(loc => loc.isConfirmedUnlicensed && matchesActiveMarkerFilters(loc, false)).forEach(loc => {
+        const hostName = (loc.host_name || '').trim();
+        if (!hostName) return;
+        if (!groups.has(hostName)) groups.set(hostName, []);
+        groups.get(hostName).push(loc);
       });
-      const parcel = parcelIndexCache.find(item => item.searchAddress.includes(query));
-      if (parcel) selectPropertySearchResult({ type: 'parcel', item: parcel, address: parcel.address });
+      const list = document.getElementById('unlicensedHostList');
+      list.innerHTML = '';
+      [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([hostName, listings]) => {
+        const group = document.createElement('div');
+        group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}`;
+        const row = document.createElement('button');
+        row.type = 'button'; row.className = 'host-row';
+        row.innerHTML = `<span>${hostName}</span><strong>${listings.length}</strong>`;
+        const addresses = document.createElement('div');
+        addresses.className = 'host-addresses';
+        listings.sort((a, b) => (a.address || a.approximate_address || '').localeCompare(b.address || b.approximate_address || '')).forEach(item => {
+          const address = item.address || item.approximate_address || 'Listing';
+          const button = document.createElement('button');
+          button.type = 'button'; button.className = 'host-address'; button.textContent = address;
+          button.addEventListener('click', event => { event.stopPropagation(); selectPropertySearchResult({ type: 'listing', item, address }); });
+          addresses.appendChild(button);
+        });
+        row.addEventListener('click', () => {
+          expandedHostName = expandedHostName === hostName ? null : hostName;
+          selectPropertySearchResult({ type: 'host', hostName });
+        });
+        group.append(row, addresses); list.appendChild(group);
+      });
+      if (!list.children.length) list.textContent = 'No unlicensed hosts match the current map filters.';
     }
 
     const defaultCenter = [-81.0087, 32.0485];
@@ -938,7 +1013,7 @@
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (verifiedOnly && !loc.hasMatchedLicense) return false;
         if (!matchesAdvancedFilters(loc)) return false;
-        if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
+        if (searchTerm && !(selectedHostName ? loc.host_name === selectedHostName : loc.searchText.includes(searchTerm))) return false;
         return true;
       });
 
@@ -1991,7 +2066,7 @@
         if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (verifiedOnly && !loc.hasMatchedLicense) return false;
         if (!matchesAdvancedFilters(loc)) return false;
-        if (searchTerm && !loc.searchText.includes(searchTerm)) return false;
+        if (searchTerm && !(selectedHostName ? loc.host_name === selectedHostName : loc.searchText.includes(searchTerm))) return false;
         return true;
       });
 
@@ -2006,6 +2081,7 @@
 
       // Update municipality counts based on filtered results
       updateMunicipalityCounts(filtered);
+      updateUnlicensedHostList();
 
       // Update municipality visibility to only selected names
       const visibleMunicipalityNames = municipalityNames.filter(name =>
@@ -2037,6 +2113,8 @@
       applyFilters();
     });
     document.getElementById("propertySearchInput").addEventListener("input", () => {
+      selectedHostName = null;
+      expandedHostName = null;
       applyFilters();
       updatePropertyAutocomplete();
     });
@@ -2044,7 +2122,15 @@
       if (event.key !== 'Enter') return;
       event.preventDefault();
       hidePropertyAutocomplete();
-      performPropertySearch();
+      applyFilters();
+    });
+    document.getElementById('toggleHostsBtn').addEventListener('click', () => {
+      const panel = document.getElementById('hostPanel');
+      const expanded = !panel.classList.toggle('collapsed');
+      const button = document.getElementById('toggleHostsBtn');
+      button.textContent = expanded ? 'Hide' : 'Show';
+      button.setAttribute('aria-expanded', String(expanded));
+      if (expanded) updateUnlicensedHostList();
     });
     document.addEventListener('click', event => {
       if (!event.target.closest('.property-search-wrapper')) hidePropertyAutocomplete();
