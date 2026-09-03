@@ -66,7 +66,14 @@
     .host-row:hover, .host-address:hover { background: #dbeafe; }
     .host-addresses { display: none; border-top: 1px solid #cbd5e1; }
     .host-group.expanded .host-addresses { display: block; }
-    .host-address { padding-left: 18px; font-size: 12px; border-bottom: 1px solid #e2e8f0; }
+    .host-address {
+      display: block;
+      padding-left: 18px;
+      font-size: 12px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .host-research-address { display: block; font-weight: bold; color: #0f172a; }
+    .host-listing-address { display: block; padding: 3px 0 0 13px; color: #64748b; font-size: 11px; }
 
     @media (max-width: 768px) {
       .filter-panel {
@@ -934,11 +941,29 @@
         row.innerHTML = `<span>${hostName}</span><strong>${listings.length}</strong>`;
         const addresses = document.createElement('div');
         addresses.className = 'host-addresses';
-        listings.sort((a, b) => (a.address || a.approximate_address || '').localeCompare(b.address || b.approximate_address || '')).forEach(item => {
-          const address = item.address || item.approximate_address || 'Listing';
+        listings.sort((a, b) => {
+          const first = a.research_address || a.address || a.approximate_address || '';
+          const second = b.research_address || b.address || b.approximate_address || '';
+          return first.localeCompare(second);
+        }).forEach(item => {
+          const listingAddress = item.address || item.approximate_address || 'Listing';
+          const researchAddress = item.research_address || '';
           const button = document.createElement('button');
-          button.type = 'button'; button.className = 'host-address'; button.textContent = address;
-          button.addEventListener('click', event => { event.stopPropagation(); selectPropertySearchResult({ type: 'listing', item, address }); });
+          button.type = 'button'; button.className = 'host-address';
+          const primary = document.createElement('span');
+          primary.className = 'host-research-address';
+          primary.textContent = researchAddress || listingAddress;
+          button.appendChild(primary);
+          if (researchAddress && listingAddress.toUpperCase() !== researchAddress.toUpperCase()) {
+            const secondary = document.createElement('span');
+            secondary.className = 'host-listing-address';
+            secondary.textContent = `Airbnb: ${listingAddress}`;
+            button.appendChild(secondary);
+          }
+          button.addEventListener('click', event => {
+            event.stopPropagation();
+            selectPropertySearchResult({ type: 'listing', item, address: researchAddress || listingAddress });
+          });
           addresses.appendChild(button);
         });
         row.addEventListener('click', () => {
