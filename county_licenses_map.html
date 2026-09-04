@@ -55,7 +55,8 @@
       padding: 12px; border-radius: 6px; background: white; color: #333;
       box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 14px;
     }
-    .host-panel.collapsed { max-height: 46px; overflow: hidden; }
+    .host-panel.collapsed { max-height: none; overflow: visible; }
+    .host-panel.collapsed .host-list { display: none; }
     .host-list { display: grid; gap: 5px; margin-top: 8px; }
     .host-group { border-radius: 4px; background: #f1f5f9; overflow: hidden; }
     .host-row, .host-address {
@@ -64,6 +65,9 @@
       cursor: pointer; text-align: left;
     }
     .host-row:hover, .host-address:hover { background: #dbeafe; }
+    .host-group.selected > .host-row { background: #dc2626; color: #fff; }
+    .host-group.selected > .host-row:hover { background: #b91c1c; }
+    .host-address.selected { background: #fecaca; color: #991b1b; font-weight: 700; }
     .host-addresses { display: none; border-top: 1px solid #cbd5e1; }
     .host-group.expanded .host-addresses { display: block; }
     .host-address { padding-left: 18px; font-size: 12px; border-bottom: 1px solid #e2e8f0; }
@@ -114,7 +118,7 @@
 
     .host-panel .filter-header { flex-wrap: wrap; gap: 4px; }
     .host-panel .filter-title { flex: 1 1 100%; }
-    .host-panel .toggle-button { flex: 1 1 auto; }
+    .host-panel .toggle-button { flex: 1 1 0; width: auto; min-width: 0; }
 
     .filter-title {
       font-weight: bold;
@@ -355,7 +359,7 @@
       width: 100%;
       margin-top: 6px;
       margin-bottom: 10px;
-      padding: 8px;
+      padding: 8px 40px 8px 8px;
       border-radius: 4px;
       border: 1px solid #ccc;
       font-size: 14px;
@@ -364,6 +368,24 @@
     .property-search-wrapper {
       position: relative;
     }
+
+    .filter-search::-webkit-search-cancel-button { display: none; }
+    .search-clear-button {
+      position: absolute;
+      top: 10px;
+      right: 4px;
+      width: 30px;
+      height: 30px;
+      border: 0;
+      border-radius: 5px;
+      background: #e5e7eb;
+      color: #475569;
+      font-size: 21px;
+      line-height: 28px;
+      cursor: pointer;
+    }
+    .search-clear-button.active { background: #fecaca; color: #991b1b; }
+    .search-clear-button.active:hover { background: #fca5a5; }
 
     .property-autocomplete-list {
       position: absolute;
@@ -456,6 +478,13 @@
       <button class="toggle-button" id="toggleFiltersBtn">Hide</button>
     </div>
 
+    <div class="filter-section-title">Search</div>
+    <div class="property-search-wrapper">
+      <input id="propertySearchInput" class="filter-search" type="search" placeholder="Search visible listings or hosts" autocomplete="off">
+      <button id="clearPropertySearchBtn" class="search-clear-button" type="button" title="Clear active search or host filter" aria-label="Clear active search or host filter">×</button>
+      <div id="propertyAutocompleteList" class="property-autocomplete-list"></div>
+    </div>
+
     <div class="filter-section-title">Compliance</div>
     <label class="filter-item">
       <input type="checkbox" id="complianceCheckbox">
@@ -473,12 +502,6 @@
       <input type="checkbox" id="undeterminedLicenseCheckbox">
       Show only undetermined
     </label>
-    <div class="filter-section-title">Search</div>
-    <div class="property-search-wrapper">
-      <input id="propertySearchInput" class="filter-search" type="search" placeholder="Search visible listings or hosts" autocomplete="off">
-      <div id="propertyAutocompleteList" class="property-autocomplete-list"></div>
-    </div>
-
     <div class="filter-section-title">Jurisdiction</div>
     <div id="municipalityCheckboxes"></div>
     <label class="filter-item">
@@ -766,6 +789,11 @@
       list.style.display = 'none';
     }
 
+    function updateSearchClearButton() {
+      const active = Boolean(selectedHostName || document.getElementById('propertySearchInput').value.trim());
+      document.getElementById('clearPropertySearchBtn').classList.toggle('active', active);
+    }
+
     function showParcelSearchResult(parcel) {
       const centroid = getGeometryCentroid(parcel.geometry);
       if (!centroid) return;
@@ -781,10 +809,18 @@
 
     let selectedHostName = null;
     let expandedHostName = null;
+    let selectedHostProperty = null;
+
+    function setSelectedHostProperty(item = null) {
+      selectedHostProperty = item;
+      processedLocations.forEach(loc => { loc.isSelectedHostProperty = loc === item; });
+    }
 
     function selectPropertySearchResult(result) {
-      document.getElementById('propertySearchInput').value = result.type === 'host' ? result.hostName : result.address;
-      selectedHostName = result.type === 'host' ? result.hostName : null;
+      const isHostSelection = result.type === 'host' || result.type === 'host-listing';
+      document.getElementById('propertySearchInput').value = isHostSelection ? result.hostName : result.address;
+      selectedHostName = isHostSelection ? result.hostName : null;
+      setSelectedHostProperty(result.type === 'host-listing' ? result.item : null);
       hidePropertyAutocomplete();
       if (result.type === 'license') {
         map.flyTo({
@@ -795,7 +831,7 @@
         return;
       }
       applyFilters();
-      if (result.type === 'listing') {
+      if (result.type === 'listing' || result.type === 'host-listing') {
         map.flyTo({
           center: [result.item.displayLongitude ?? result.item.longitude, result.item.displayLatitude ?? result.item.latitude],
           zoom: 17,
@@ -880,7 +916,7 @@
         .reduce((total, listings) => total + listings.length, 0);
       [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([hostName, listings]) => {
         const group = document.createElement('div');
-        group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}`;
+        group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}${selectedHostName === hostName ? ' selected' : ''}`;
         const row = document.createElement('button');
         row.type = 'button'; row.className = 'host-row';
         row.innerHTML = `<span>${hostName}</span><strong>${listings.length}</strong>`;
@@ -889,12 +925,21 @@
         listings.sort((a, b) => (a.address || a.approximate_address || '').localeCompare(b.address || b.approximate_address || '')).forEach(item => {
           const address = item.address || item.approximate_address || 'Listing';
           const button = document.createElement('button');
-          button.type = 'button'; button.className = 'host-address'; button.textContent = address;
-          button.addEventListener('click', event => { event.stopPropagation(); selectPropertySearchResult({ type: 'listing', item, address }); });
+          button.type = 'button'; button.className = `host-address${selectedHostProperty === item ? ' selected' : ''}`; button.textContent = address;
+          button.addEventListener('click', event => { event.stopPropagation(); selectPropertySearchResult({ type: 'host-listing', item, address, hostName }); });
           addresses.appendChild(button);
         });
         row.addEventListener('click', () => {
-          expandedHostName = expandedHostName === hostName ? null : hostName;
+          const collapsingSelectedHost = expandedHostName === hostName && selectedHostName === hostName;
+          if (collapsingSelectedHost) {
+            expandedHostName = null;
+            selectedHostName = null;
+            document.getElementById('propertySearchInput').value = '';
+            hidePropertyAutocomplete();
+            applyFilters();
+            return;
+          }
+          expandedHostName = hostName;
           selectPropertySearchResult({ type: 'host', hostName });
         });
         group.append(row, addresses); list.appendChild(group);
@@ -1949,6 +1994,8 @@
           "circle-radius": 12,
           "circle-color": [
             "case",
+            ["get", "isSelectedHostProperty"],
+            "#ff0000",
             ["get", "inOverlappingZip"],
             "#ef4444",
             ["get", "isConfirmedUnlicensed"],
@@ -2192,6 +2239,12 @@
 
       Promise.all([licensedRowsReady, countyResearchReady]).then(drawAllMatchedLicenseConnections);
       map.on('moveend', () => requestAnimationFrame(drawAllMatchedLicenseConnections));
+      map.on('dragstart', () => {
+        if (!selectedHostProperty) return;
+        setSelectedHostProperty(null);
+        updateUnlicensedHostList();
+        applyFilters();
+      });
 
 // Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
@@ -2385,6 +2438,8 @@
 
     // Filtering logic
     function applyFilters() {
+      if (!selectedHostName) setSelectedHostProperty(null);
+      updateSearchClearButton();
       const showViolationsOnly = document.getElementById("complianceCheckbox").checked;
       const verifiedOnly = document.getElementById("verifiedLicenseCheckbox").checked;
       const confirmedUnlicensedOnly = document.getElementById("confirmedUnlicensedCheckbox").checked;
@@ -2497,13 +2552,32 @@
       hidePropertyAutocomplete();
       applyFilters();
     });
+    document.getElementById('clearPropertySearchBtn').addEventListener('click', () => {
+      selectedHostName = null;
+      expandedHostName = null;
+      document.getElementById('propertySearchInput').value = '';
+      if (parcelSearchMarker) {
+        parcelSearchMarker.remove();
+        parcelSearchMarker = null;
+      }
+      hidePropertyAutocomplete();
+      applyFilters();
+    });
     document.getElementById('toggleHostsBtn').addEventListener('click', () => {
       const panel = document.getElementById('hostPanel');
       const expanded = !panel.classList.toggle('collapsed');
       const button = document.getElementById('toggleHostsBtn');
       button.textContent = expanded ? 'Hide' : 'Show';
       button.setAttribute('aria-expanded', String(expanded));
-      if (expanded) updateUnlicensedHostList();
+      if (expanded) {
+        updateUnlicensedHostList();
+      } else if (selectedHostName) {
+        selectedHostName = null;
+        expandedHostName = null;
+        document.getElementById('propertySearchInput').value = '';
+        hidePropertyAutocomplete();
+        applyFilters();
+      }
     });
     document.getElementById('clearHostFilterBtn').addEventListener('click', () => {
       selectedHostName = null;
