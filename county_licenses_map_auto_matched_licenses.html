@@ -126,6 +126,8 @@
     .host-panel .filter-header { flex-wrap: wrap; gap: 4px; }
     .host-panel .filter-title { flex: 1 1 100%; }
     .host-panel .toggle-button { flex: 1 1 0; width: auto; min-width: 0; }
+    .selected-host-indicator { display: none; flex: 1 1 100%; border: 1px solid #dc2626; border-radius: 5px; padding: 6px 8px; background: #fee2e2; color: #991b1b; font-weight: bold; text-align: left; cursor: pointer; }
+    .selected-host-indicator.active { display: block; }
 
     .filter-title {
       font-weight: bold;
@@ -294,12 +296,14 @@
     .report-workflow-card { width: min(620px, calc(100vw - 36px)); max-height: 86vh; overflow: auto; box-sizing: border-box; padding: 20px; border-radius: 10px; background: #fff; color: #1f2937; box-shadow: 0 18px 55px rgba(0,0,0,.4); }
     .report-workflow-card h3 { margin: 0 0 8px; }
     .report-workflow-card input { width: 100%; box-sizing: border-box; margin: 8px 0; padding: 9px; }
-    .report-license-list { display: grid; gap: 7px; margin: 10px 0; }
+    .report-license-list { display: grid; gap: 7px; margin: 10px 0; max-height: max(90px, calc(86vh - 250px)); overflow-y: auto; overscroll-behavior: contain; }
     .report-license-option { width: 100%; padding: 9px; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; text-align: left; cursor: pointer; }
     .report-license-option.selected { border-color: #dc2626; background: #fee2e2; }
-    .report-workflow-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .report-workflow-actions { display: flex; flex: 0 0 auto; flex-wrap: wrap; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px solid #e2e8f0; background: #fff; }
     .report-action-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; margin-top: 8px; }
     .report-action-pair .action-link { width: 100%; min-width: 0; margin: 0; padding: 8px 6px; box-sizing: border-box; }
+    .listing-action-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-top: 8px; }
+    .listing-action-grid .action-link { width: 100%; min-width: 0; margin: 0; padding: 8px 6px; box-sizing: border-box; }
 
     .mobile-popup-overlay {
       display: none;
@@ -509,6 +513,7 @@
   <div class="host-panel collapsed" id="hostPanel">
     <div class="filter-header">
       <div class="filter-title">Likely unlicensed properties by host (<span id="unlicensedListingTotal">0</span>)</div>
+      <button class="selected-host-indicator" id="selectedHostIndicator" type="button" title="Clear selected host"></button>
       <button class="toggle-button" id="clearHostFilterBtn" type="button">Clear</button>
       <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
     </div>
@@ -581,8 +586,10 @@
       <div class="slider-label">License Coverage Radius</div>
       <input type="range" id="licenseRadiusSlider" min="0" max="0.621371" value="0.0932" step="0.0001" style="width:100%; background:linear-gradient(to right, #d1d5db 0%, #d1d5db 55%, #dc2626 55%, #dc2626 100%);">
       <div id="licenseRadiusValue">0.09 mi (0.15 km)</div>
+      <!-- County license-type filters are intentionally retired for now.
       <div class="slider-label">License Type</div>
       <div id="licenseTypeCheckboxes"></div>
+      -->
     </div>
     <div class="filter-section-title">Jurisdiction &amp; ZIPs</div>
     <div class="filter-group">
@@ -915,6 +922,9 @@
     function updateSearchClearButton() {
       const active = Boolean(selectedHostName || document.getElementById('propertySearchInput').value.trim());
       document.getElementById('clearPropertySearchBtn').classList.toggle('active', active);
+      const indicator = document.getElementById('selectedHostIndicator');
+      indicator.textContent = selectedHostName ? `Selected host: ${selectedHostName} — click to clear` : '';
+      indicator.classList.toggle('active', Boolean(selectedHostName));
     }
 
     function showParcelSearchResult(parcel) {
@@ -975,8 +985,6 @@
       const minOver = Number(document.getElementById('overLimitSlider').value) || 0;
       const effectiveMin = document.getElementById('complianceCheckbox').checked ? Math.max(1, minOver) : (minOver || null);
       if (effectiveMin !== null && Number(loc.overOccupancy || 0) < effectiveMin) return false;
-      const minLicenseCount = 1;
-      if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
       if (!matchesAdvancedFilters(loc)) return false;
       const query = document.getElementById('propertySearchInput').value.trim().toLowerCase().replace(/\s+/g, ' ');
       if (includeSearch && query && !(selectedHostName ? loc.host_name === selectedHostName : matchesListingSearch(loc, query))) return false;
@@ -1170,7 +1178,14 @@
     function buildPrefilledReportUrl(address = '', licenseNumber = '') { const url = new URL('https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform'); url.searchParams.set('usp', 'pp_url'); url.searchParams.set('entry.1013247072', String(reportContextListing?.url || '').trim()); url.searchParams.set('entry.1545663527', address); url.searchParams.set('entry.1993836701', licenseNumber); return url.toString(); }
 
     function hasVerifiedListingStatus(item) {
-      return item?.license_status === 'verified_license_found_and_matched' || item?.hasMatchedLicense === true || item?.hasMatchedLicense === 'true';
+      let verifiedLicenses = item?.verified_licenses;
+      if (typeof verifiedLicenses === 'string') {
+        try { verifiedLicenses = JSON.parse(verifiedLicenses); } catch { verifiedLicenses = []; }
+      }
+      return item?.license_status === 'verified_license_found_and_matched' ||
+        item?.hasMatchedLicense === true || item?.hasMatchedLicense === 'true' ||
+        item?.hasVerifiedLicense === true || item?.hasVerifiedLicense === 'true' ||
+        (Array.isArray(verifiedLicenses) && verifiedLicenses.length > 0);
     }
 
     function deadListingReportButton(item) {
@@ -1197,7 +1212,14 @@
       choices.slice(0, 75).forEach(license => { const button = document.createElement('button'); button.type = 'button'; button.className = `report-license-option${selectedReportLicense === license ? ' selected' : ''}`; const distance = Math.sqrt(squaredDistanceMeters(reportContextListing, license)); const businessName = String(license['Business Name'] || '').trim(); const dba = String(license.DBA || '').trim(); const names = [...new Set([businessName, dba].filter(Boolean))].join(' / '); button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` — ${names}` : ''} — ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`; button.addEventListener('click', () => { selectedReportLicense = license; renderLicenseReportChoices(query); }); list.appendChild(button); });
       if (!choices.length) list.textContent = 'No licenses match this search.';
       const manualButton = document.createElement('button'); manualButton.type = 'button'; manualButton.className = `report-license-option${selectedReportLicense?.manualEntry ? ' selected' : ''}`; manualButton.textContent = "License not listed — I'll enter it manually"; manualButton.addEventListener('click', () => { selectedReportLicense = { manualEntry: true }; renderLicenseReportChoices(query); }); list.appendChild(manualButton);
-      document.getElementById('reportLicenseSearch').addEventListener('input', event => renderLicenseReportChoices(event.target.value));
+      document.getElementById('reportLicenseSearch').addEventListener('input', event => {
+        const nextQuery = event.target.value;
+        const cursorPosition = event.target.selectionStart ?? nextQuery.length;
+        renderLicenseReportChoices(nextQuery);
+        const replacement = document.getElementById('reportLicenseSearch');
+        replacement.focus({ preventScroll: true });
+        replacement.setSelectionRange(cursorPosition, cursorPosition);
+      });
       document.getElementById('cancelReportWorkflow').addEventListener('click', closeReportWorkflow);
       document.getElementById('submitLicenseReport').addEventListener('click', () => { if (selectedReportLicense) { const manualEntry = selectedReportLicense.manualEntry; window.open(buildPrefilledReportUrl(manualEntry ? reportAddressFor(reportContextListing) : reportAddressFor(selectedReportLicense), manualEntry ? '' : reportLicenseNumberFor(selectedReportLicense)), '_blank', 'noopener'); } });
     }
@@ -1359,18 +1381,21 @@
         });
       };
 
-      renderCheckboxes('licenseTypeCheckboxes', availableLicenseTypes, activeLicenseTypes);
+      // County license-type filters are intentionally retired for now.
+      // renderCheckboxes('licenseTypeCheckboxes', availableLicenseTypes, activeLicenseTypes);
       renderCheckboxes('rentalTypeCheckboxes', availableRentalTypes, activeRentalTypes);
     }
 
     function matchesAdvancedFilters(loc) {
       // All boxes checked means no constraint, so unverified listings remain visible.
+      /* County license-type filtering is intentionally retired for now.
       if (activeLicenseTypes.size !== availableLicenseTypes.length) {
         const matchesLicenseType = loc.verifiedLicenseItems.some(license =>
           license && activeLicenseTypes.has(license.owner_occupied)
         );
         if (!matchesLicenseType) return false;
       }
+      */
       if (activeRentalTypes.size !== availableRentalTypes.length &&
           !activeRentalTypes.has(loc.rental_type)) {
         return false;
@@ -1390,7 +1415,6 @@
       const visitorLicenseMatchOnly = document.getElementById("visitorLicenseMatchCheckbox").checked;
       const visitorAddressNoLicenseOnly = document.getElementById("visitorAddressNoLicenseCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value) || 0;
-      const minLicenseCount = 1;
       const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
 
       let effectiveMin = null;
@@ -1411,7 +1435,6 @@
           const overVal = Number(loc.overOccupancy || 0);
           if (overVal < effectiveMin) return false;
         }
-        if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !(selectedHostName ? loc.host_name === selectedHostName : matchesListingSearch(loc, searchTerm))) return false;
         return true;
@@ -1435,7 +1458,7 @@
         const name = checkbox.value;
         const countSpan = label.querySelector('.mun-count');
         const c = counts[name] || 0;
-        if (countSpan) countSpan.textContent = checkbox.checked ? ` (${c})` : '';
+        if (countSpan) countSpan.textContent = ` (${c})`;
       });
     }
 
@@ -1684,6 +1707,37 @@
       });
     }
 
+    function updateFilterCheckboxCounts() {
+      const scoped = processedLocations.filter(item => !unincorporatedGeometry || isWithinCountyScope(item));
+      const setCount = (id, predicate) => {
+        const input = document.getElementById(id);
+        const label = input?.closest('label');
+        if (!label) return;
+        let count = label.querySelector('.filter-count');
+        if (!count) {
+          count = document.createElement('span');
+          count.className = 'filter-count';
+          count.style.marginLeft = '5px';
+          label.appendChild(count);
+        }
+        count.textContent = `(${scoped.filter(predicate).length})`;
+      };
+      setCount('confirmedUnlicensedCheckbox', item => item.isConfirmedUnlicensed);
+      setCount('undeterminedLicenseCheckbox', item => !item.hasMatchedLicense && !item.isConfirmedUnlicensed);
+      setCount('verifiedLicenseCheckbox', item => item.hasMatchedLicense);
+      setCount('visitorLicenseMatchCheckbox', item => item.hasVisitorLicenseMatch);
+      setCount('visitorAddressNoLicenseCheckbox', item => item.hasVisitorAddressNoLicense);
+      setCount('automaticHostMatchCheckbox', item => hasAutomaticHostMatch(item));
+      setCount('likelyUnlicensedCheckbox', item => item.isLikelyUnlicensed);
+      setCount('complianceCheckbox', item => Number(item.overOccupancy || 0) > 0);
+      document.querySelectorAll('#rentalTypeCheckboxes label').forEach(label => {
+        const value = label.querySelector('input')?.value;
+        let count = label.querySelector('.filter-count');
+        if (!count) { count = document.createElement('span'); count.className = 'filter-count'; count.style.marginLeft = '5px'; label.appendChild(count); }
+        count.textContent = `(${scoped.filter(item => item.rental_type === value).length})`;
+      });
+    }
+
     async function applyVisitorSheetRows(rows) {
       const submissionsByListingId = new Map();
       rows.forEach(row => {
@@ -1755,8 +1809,11 @@
       items.forEach(item => {
         const listingCoordinates = [Number(item.displayLongitude ?? item.longitude), Number(item.displayLatitude ?? item.latitude)];
         const submissions = visitorSubmissionsFor(item).filter(submission => !submission.licenseNumber);
+        const showNoLicenseWarning = item.isConfirmedUnlicensed || item.license_status === 'unlicensed' || item.hasVisitorAddressNoLicense;
+        if (showNoLicenseWarning) {
+          features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: listingCoordinates }, properties: { kind: 'warning' } });
+        }
         if (!item.hasVisitorAddressNoLicense || !submissions.length) return;
-        features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: listingCoordinates }, properties: { kind: 'warning' } });
         submissions.forEach(submission => {
           if (!Array.isArray(submission.addressCoordinates)) return;
           const addressCoordinates = submission.addressCoordinates.map(Number);
@@ -2153,7 +2210,7 @@
       });
       map.addLayer({ id: 'visitor-address-line', type: 'line', source: 'visitor-address-overlays', filter: ['==', ['geometry-type'], 'LineString'], paint: { 'line-color': '#dc2626', 'line-width': 3, 'line-opacity': 0.9, 'line-dasharray': [2, 1] } });
       map.addLayer({ id: 'visitor-address-point', type: 'circle', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'submitted_address'], paint: { 'circle-radius': 7, 'circle-color': '#dc2626', 'circle-stroke-color': '#fff', 'circle-stroke-width': 2 } });
-      map.addLayer({ id: 'visitor-unlicensed-warning', type: 'symbol', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'warning'], layout: { 'text-field': '⚠️', 'text-size': 24, 'text-offset': [0, -1.1], 'text-allow-overlap': true, 'text-ignore-placement': true } });
+      map.addLayer({ id: 'visitor-unlicensed-warning', type: 'symbol', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'warning'], layout: { 'text-field': '⚠️', 'text-size': 22, 'text-offset': [1.15, -1.15], 'text-allow-overlap': true, 'text-ignore-placement': true } });
 
       map.addSource('parcel-address-labels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addLayer({
@@ -2761,7 +2818,6 @@
 
         const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
-        const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
         reportContextListing = loc;
         const researchHtml = researchStatusHtml(loc);
         const automaticMatchHtml = automaticHostMatchHtml(loc);
@@ -2782,10 +2838,7 @@
             ${licenseHtml}
             <hr/>
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
-            <div class="report-action-pair"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button></div>
-            ${deadListingReportButton(loc)}
-            <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
-            <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
+            <div class="listing-action-grid"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button>${deadListingReportButton(loc)}<a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a></div>
           </div>
         `;
 
@@ -2831,7 +2884,6 @@
         ` : '';
 
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
-        const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
         reportContextListing = loc;
         const researchHtml = researchStatusHtml(loc);
         const automaticMatchHtml = automaticHostMatchHtml(loc);
@@ -2849,10 +2901,7 @@
             ${automaticMatchHtml}
             ${licenseHtml}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
-            <div class="report-action-pair"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button></div>
-            ${deadListingReportButton(loc)}
-            <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
-            <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
+            <div class="listing-action-grid"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button>${deadListingReportButton(loc)}<a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a></div>
           </div>
         `;
 
@@ -2907,7 +2956,6 @@
       const visitorAddressNoLicenseOnly = document.getElementById("visitorAddressNoLicenseCheckbox").checked;
       const likelyUnlicensedOnly = document.getElementById("likelyUnlicensedCheckbox").checked;
       const minOver = Number(document.getElementById("overLimitSlider").value);
-      const minLicenseCount = 1;
       const searchTerm = document.getElementById("propertySearchInput").value.trim().toLowerCase().replace(/\s+/g, ' ');
       const selectedMunicipalities = Array.from(activeMunicipalities.values());
 
@@ -2939,7 +2987,6 @@
           const overVal = Number(loc.overOccupancy || 0);
           if (overVal < effectiveMin) return false;
         }
-        if (minLicenseCount > 1 && Number(loc.licenseCount || 0) < minLicenseCount) return false;
         if (!matchesAdvancedFilters(loc)) return false;
         if (searchTerm && !(selectedHostName ? loc.host_name === selectedHostName : matchesListingSearch(loc, searchTerm))) return false;
         return true;
@@ -2960,12 +3007,12 @@
 
       // Update municipality counts based on filtered results
       updateMunicipalityCounts(filtered);
+      updateFilterCheckboxCounts();
       updateUnlicensedHostList();
 
       const hasActivePropertyFilters = Boolean(
         searchTerm || showViolationsOnly || verifiedOnly || confirmedUnlicensedOnly || undeterminedOnly || automaticHostMatchOnly || visitorLicenseMatchOnly || visitorAddressNoLicenseOnly || likelyUnlicensedOnly ||
-        minOver > 0 || minLicenseCount > 1 || selectedMunicipalities.length < 2 ||
-        activeLicenseTypes.size !== availableLicenseTypes.length ||
+        minOver > 0 || selectedMunicipalities.length < 2 ||
         activeRentalTypes.size !== availableRentalTypes.length
       );
       updateLicensedLocationLayers(hasActivePropertyFilters ? filtered : null);
@@ -3048,15 +3095,7 @@
       const button = document.getElementById('toggleHostsBtn');
       button.textContent = expanded ? 'Hide' : 'Show';
       button.setAttribute('aria-expanded', String(expanded));
-      if (expanded) {
-        updateUnlicensedHostList();
-      } else if (selectedHostName) {
-        selectedHostName = null;
-        expandedHostName = null;
-        document.getElementById('propertySearchInput').value = '';
-        hidePropertyAutocomplete();
-        applyFilters();
-      }
+      if (expanded) updateUnlicensedHostList();
     });
     document.getElementById('clearHostFilterBtn').addEventListener('click', () => {
       selectedHostName = null;
@@ -3065,6 +3104,7 @@
       hidePropertyAutocomplete();
       applyFilters();
     });
+    document.getElementById('selectedHostIndicator').addEventListener('click', () => document.getElementById('clearHostFilterBtn').click());
     document.addEventListener('click', event => {
       if (!event.target.closest('.property-search-wrapper')) hidePropertyAutocomplete();
     });
