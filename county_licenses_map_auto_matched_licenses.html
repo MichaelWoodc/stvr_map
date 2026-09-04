@@ -128,6 +128,7 @@
     .host-panel .toggle-button { flex: 1 1 0; width: auto; min-width: 0; }
     .selected-host-indicator { display: none; flex: 1 1 100%; border: 1px solid #dc2626; border-radius: 5px; padding: 6px 8px; background: #fee2e2; color: #991b1b; font-weight: bold; text-align: left; cursor: pointer; }
     .selected-host-indicator.active { display: block; }
+    .revenue-shortfall-button { width: 100%; border: 1px solid #b45309; border-radius: 5px; padding: 7px 9px; background: #fffbeb; color: #92400e; font-weight: bold; text-align: left; cursor: pointer; }
 
     .filter-title {
       font-weight: bold;
@@ -304,6 +305,12 @@
     .report-action-pair .action-link { width: 100%; min-width: 0; margin: 0; padding: 8px 6px; box-sizing: border-box; }
     .listing-action-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-top: 8px; }
     .listing-action-grid .action-link { width: 100%; min-width: 0; margin: 0; padding: 8px 6px; box-sizing: border-box; }
+    .data-disclaimer-overlay { position: fixed; inset: 0; z-index: 20000; display: flex; align-items: center; justify-content: center; padding: 18px; background: rgba(15, 23, 42, .78); }
+    .data-disclaimer-overlay.dismissed { display: none; }
+    .data-disclaimer-card { width: min(570px, calc(100vw - 36px)); max-height: calc(100dvh - 36px); overflow-y: auto; box-sizing: border-box; padding: 22px; border-radius: 12px; background: #fff; color: #1f2937; box-shadow: 0 20px 60px rgba(0, 0, 0, .45); }
+    .data-disclaimer-card h2 { margin: 0 0 12px; }
+    .data-disclaimer-card p { line-height: 1.45; }
+    .data-disclaimer-card button { width: 100%; margin-top: 8px; padding: 11px; border: 0; border-radius: 6px; background: #1976d2; color: #fff; font-weight: bold; cursor: pointer; }
 
     .mobile-popup-overlay {
       display: none;
@@ -494,6 +501,15 @@
   </style>
 </head>
 <body>
+  <div id="dataDisclaimerOverlay" class="data-disclaimer-overlay" role="dialog" aria-modal="true" aria-labelledby="dataDisclaimerTitle">
+    <div class="data-disclaimer-card">
+      <h2 id="dataDisclaimerTitle">Important data disclaimer</h2>
+      <p>This is an independent research map. It is not affiliated with, endorsed by, or verified by Chatham County, any municipality, or any other government agency.</p>
+      <p>Collecting listing data from Airbnb can take me several weeks of free-time. Listings may change or become unavailable before collection and review are finished, so some links may already be inactive.</p>
+      <p>Addresses, license matches, research statuses, and other conclusions shown here are speculative, may be incomplete or inaccurate, and should not be treated as official findings. Please use the reporting and correction options on listing cards to submit updated information.</p>
+      <button type="button" onclick="document.getElementById('dataDisclaimerOverlay').classList.add('dismissed')">I understand - view the map</button>
+    </div>
+  </div>
 
   <h2>Chatham County STVR Auto-Matched License Map</h2>
   <div id="map"></div>
@@ -509,11 +525,22 @@
       <div id="reportWorkflowContent"></div>
     </div>
   </div>
+  <div id="revenueEstimateOverlay" class="data-disclaimer-overlay dismissed" role="dialog" aria-modal="true" aria-labelledby="revenueEstimateTitle">
+    <div class="data-disclaimer-card">
+      <h2 id="revenueEstimateTitle">Potential revenue shortfall estimate</h2>
+      <p id="revenueEstimateExplanation"></p>
+      <p>This is only an estimate based on listings currently categorized as having no license found. It does not establish that a license was legally required, that a fee was unpaid, or that the listing was operating.</p>
+      <p>Tax revenue is also uncertain. Without complete, property-level tracking, taxes could be remitted to an incorrect agency, and this independent project has no way to verify whether taxes were collected, owed, or distributed correctly.</p>
+      <p><a href="https://cms.chathamcountyga.gov/api/assets/buildingsafety/35d420d1-28d8-4770-ab27-956b26492d68?download=0" target="_blank" rel="noopener noreferrer">View the Chatham County fee information</a></p>
+      <button type="button" onclick="document.getElementById('revenueEstimateOverlay').classList.add('dismissed')">Close</button>
+    </div>
+  </div>
 
   <div class="host-panel collapsed" id="hostPanel">
     <div class="filter-header">
       <div class="filter-title">Likely unlicensed properties by host (<span id="unlicensedListingTotal">0</span>)</div>
       <button class="selected-host-indicator" id="selectedHostIndicator" type="button" title="Clear selected host"></button>
+      <button class="revenue-shortfall-button" id="revenueShortfallButton" type="button">Potential license-fee revenue shortfall: $0</button>
       <button class="toggle-button" id="clearHostFilterBtn" type="button">Clear</button>
       <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
     </div>
@@ -923,7 +950,7 @@
       const active = Boolean(selectedHostName || document.getElementById('propertySearchInput').value.trim());
       document.getElementById('clearPropertySearchBtn').classList.toggle('active', active);
       const indicator = document.getElementById('selectedHostIndicator');
-      indicator.textContent = selectedHostName ? `Selected host: ${selectedHostName} — click to clear` : '';
+      indicator.textContent = selectedHostName ? `Selected host: ${selectedHostName} - click to clear` : '';
       indicator.classList.toggle('active', Boolean(selectedHostName));
     }
 
@@ -1041,8 +1068,10 @@
       });
       const list = document.getElementById('unlicensedHostList');
       list.innerHTML = '';
-      document.getElementById('unlicensedListingTotal').textContent = [...groups.values()]
-        .reduce((total, listings) => total + listings.length, 0);
+      const unlicensedCount = [...groups.values()].reduce((total, listings) => total + listings.length, 0);
+      document.getElementById('unlicensedListingTotal').textContent = unlicensedCount;
+      document.getElementById('revenueShortfallButton').textContent = `Potential license-fee revenue shortfall: $${(unlicensedCount * 350).toLocaleString()}`;
+      document.getElementById('revenueEstimateExplanation').textContent = `${unlicensedCount.toLocaleString()} currently displayed properties × $350 per license = $${(unlicensedCount * 350).toLocaleString()} in potential license-fee revenue.`;
       [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([hostName, listings]) => {
         const group = document.createElement('div');
         group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}${selectedHostName === hostName ? ' selected' : ''}`;
@@ -1209,9 +1238,9 @@
       const choices = normalizedQuery ? allLicenses.filter(license => JSON.stringify(license).toLowerCase().includes(normalizedQuery)) : nearby;
       content.innerHTML = `<p>${nearby.length} license${nearby.length === 1 ? '' : 's'} found within 0.6 km. Search to find licenses outside that radius.</p><input id="reportLicenseSearch" type="search" placeholder="Search license number, name, or address" value="${escapeReportHtml(query)}"><div id="reportLicenseList" class="report-license-list"></div><div class="report-workflow-actions"><button id="submitLicenseReport" class="action-link" type="button" ${selectedReportLicense ? '' : 'disabled'}>Continue to report form</button><button id="cancelReportWorkflow" class="action-link secondary" type="button">Cancel</button></div>`;
       const list = document.getElementById('reportLicenseList');
-      choices.slice(0, 75).forEach(license => { const button = document.createElement('button'); button.type = 'button'; button.className = `report-license-option${selectedReportLicense === license ? ' selected' : ''}`; const distance = Math.sqrt(squaredDistanceMeters(reportContextListing, license)); const businessName = String(license['Business Name'] || '').trim(); const dba = String(license.DBA || '').trim(); const names = [...new Set([businessName, dba].filter(Boolean))].join(' / '); button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` — ${names}` : ''} — ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`; button.addEventListener('click', () => { selectedReportLicense = license; renderLicenseReportChoices(query); }); list.appendChild(button); });
+      choices.slice(0, 75).forEach(license => { const button = document.createElement('button'); button.type = 'button'; button.className = `report-license-option${selectedReportLicense === license ? ' selected' : ''}`; const distance = Math.sqrt(squaredDistanceMeters(reportContextListing, license)); const businessName = String(license['Business Name'] || '').trim(); const dba = String(license.DBA || '').trim(); const names = [...new Set([businessName, dba].filter(Boolean))].join(' / '); button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` - ${names}` : ''} - ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`; button.addEventListener('click', () => { selectedReportLicense = license; renderLicenseReportChoices(query); }); list.appendChild(button); });
       if (!choices.length) list.textContent = 'No licenses match this search.';
-      const manualButton = document.createElement('button'); manualButton.type = 'button'; manualButton.className = `report-license-option${selectedReportLicense?.manualEntry ? ' selected' : ''}`; manualButton.textContent = "License not listed — I'll enter it manually"; manualButton.addEventListener('click', () => { selectedReportLicense = { manualEntry: true }; renderLicenseReportChoices(query); }); list.appendChild(manualButton);
+      const manualButton = document.createElement('button'); manualButton.type = 'button'; manualButton.className = `report-license-option${selectedReportLicense?.manualEntry ? ' selected' : ''}`; manualButton.textContent = "License not listed - I'll enter it manually"; manualButton.addEventListener('click', () => { selectedReportLicense = { manualEntry: true }; renderLicenseReportChoices(query); }); list.appendChild(manualButton);
       document.getElementById('reportLicenseSearch').addEventListener('input', event => {
         const nextQuery = event.target.value;
         const cursorPosition = event.target.selectionStart ?? nextQuery.length;
@@ -3105,6 +3134,7 @@
       applyFilters();
     });
     document.getElementById('selectedHostIndicator').addEventListener('click', () => document.getElementById('clearHostFilterBtn').click());
+    document.getElementById('revenueShortfallButton').addEventListener('click', () => document.getElementById('revenueEstimateOverlay').classList.remove('dismissed'));
     document.addEventListener('click', event => {
       if (!event.target.closest('.property-search-wrapper')) hidePropertyAutocomplete();
     });
