@@ -119,6 +119,10 @@
       padding-bottom: 4px;
     }
 
+    .host-panel .filter-header { flex-wrap: wrap; gap: 4px; }
+    .host-panel .filter-title { flex: 1 1 100%; }
+    .host-panel .toggle-button { flex: 1 1 auto; }
+
     .filter-title {
       font-weight: bold;
     }
@@ -463,7 +467,8 @@
 
   <div class="host-panel collapsed" id="hostPanel">
     <div class="filter-header">
-      <div class="filter-title">Unlicensed hosts (<span id="unlicensedListingTotal">0</span>)</div>
+      <div class="filter-title">Likely unlicensed properties by host (<span id="unlicensedListingTotal">0</span>)</div>
+      <button class="toggle-button" id="clearHostFilterBtn" type="button">Clear</button>
       <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
     </div>
     <div class="host-list" id="unlicensedHostList"></div>
@@ -506,6 +511,9 @@
       <div class="slider-label">Minimum automatic-match strength</div>
       <input type="range" id="automaticMatchStrengthSlider" min="66" max="100" value="66" step="1" style="width:100%;">
       <div id="automaticMatchStrengthValue">66% (include all accepted matches)</div>
+      <div class="slider-label">Maximum host auto-match distance</div>
+      <input type="range" id="automaticMatchDistanceSlider" min="0" max="550" value="550" step="5" style="width:100%;">
+      <div id="automaticMatchDistanceValue">550 m maximum</div>
     </div>
     <div class="filter-section-title">Search</div>
     <div class="property-search-wrapper">
@@ -515,10 +523,21 @@
 
     <div class="filter-section-title">Jurisdiction</div>
     <div id="municipalityCheckboxes"></div>
+    <label class="filter-item">
+      <input type="checkbox" id="zipCodesCheckbox">
+      Show ZIP code boundaries
+    </label>
+    <label class="filter-item">
+      <input type="checkbox" id="overlappingZipsCheckbox">
+      Highlight multi-jurisdiction ZIPs and properties
+    </label>
+    <div class="slider-label">ZIP boundary leeway</div>
+    <input type="range" id="zipToleranceSlider" min="0" max="601.49" value="5" step="0.01" style="width:100%;">
+    <div id="zipToleranceValue">5 yards (4.6 m)</div>
 
     <div class="filter-section-title">Unincorporated County Scope</div>
     <div class="slider-label">Municipal-edge buffer</div>
-      <input type="range" id="boundaryBufferSlider" min="-0.7" max="0.7" value="0.0124" step="0.0001" style="width:100%;">
+      <input type="range" id="boundaryBufferSlider" min="-0.621371" max="0.621371" value="0.0124" step="0.0001" style="width:100%; background:linear-gradient(to right, #dc2626 0%, #dc2626 22.5%, #d1d5db 22.5%, #d1d5db 77.5%, #dc2626 77.5%, #dc2626 100%);">
       <div id="boundaryBufferValue">0.01 mi (0.02 km)</div>
 
     <div class="filter-section-title">License Locations &amp; Proximity</div>
@@ -539,7 +558,7 @@
       Limit heatmap to unincorporated areas
     </label>
     <div class="slider-label">License Coverage Radius</div>
-    <input type="range" id="licenseRadiusSlider" min="0" max="1.24" value="0.0932" step="0.0001" style="width:100%;">
+    <input type="range" id="licenseRadiusSlider" min="0" max="0.621371" value="0.0932" step="0.0001" style="width:100%; background:linear-gradient(to right, #d1d5db 0%, #d1d5db 55%, #dc2626 55%, #dc2626 100%);">
     <div id="licenseRadiusValue">0.09 mi (0.15 km)</div>
 
     <div class="slider-label">Min License Count:</div>
@@ -740,16 +759,30 @@
       return Number(document.getElementById('automaticMatchStrengthSlider')?.value || 66) / 100;
     }
 
+    function automaticMatchMaximumDistanceMeters() {
+      return Number(document.getElementById('automaticMatchDistanceSlider')?.value ?? 550);
+    }
+
     function hasAutomaticHostMatch(loc) {
       if (loc.isConfirmedUnlicensed || loc.license_status === 'unlicensed') return false;
       const match = automaticHostMatchData(loc);
-      return Boolean(match && Number(match.name_similarity_score || 0) >= automaticMatchMinimumScore());
+      const distance = Number(match?.distance_meters);
+      return Boolean(
+        match &&
+        Number(match.name_similarity_score || 0) >= automaticMatchMinimumScore() &&
+        Number.isFinite(distance) &&
+        distance <= automaticMatchMaximumDistanceMeters()
+      );
     }
 
     function automaticMatchedLicenseNumber(loc) {
       if (loc.isConfirmedUnlicensed || loc.license_status === 'unlicensed') return '';
       const match = automaticHostMatchData(loc);
-      return match && Number(match.name_similarity_score || 0) >= automaticMatchMinimumScore()
+      const distance = Number(match?.distance_meters);
+      return match &&
+        Number(match.name_similarity_score || 0) >= automaticMatchMinimumScore() &&
+        Number.isFinite(distance) &&
+        distance <= automaticMatchMaximumDistanceMeters()
         ? String(match.license_number || '')
         : '';
     }
@@ -972,7 +1005,7 @@
         });
         group.append(row, addresses); list.appendChild(group);
       });
-      if (!list.children.length) list.textContent = 'No unlicensed hosts match the current map filters.';
+      if (!list.children.length) list.textContent = 'No likely unlicensed properties match the current map filters.';
     }
 
     const defaultCenter = [-81.0087, 32.0485];
@@ -988,6 +1021,9 @@
     let connectionListingUrlsAtZoom = new Set();
     let connectionZoom = null;
     const municipalityGeojsonUrl = "Municipality.geojson";
+    const zipCodesGeojsonUrl = "georgia-zip-codes.geojson";
+    let zipCodesGeojson = null;
+    let overlappingZipCodes = new Set();
     const excludedMunicipalities = new Set();
     let municipalityNames = [];
     const municipalityColors = {};
@@ -1314,6 +1350,71 @@
       return geometry.coordinates.some(polygon => pointInPolygon(point, polygon[0]));
     }
 
+    function updateOverlappingZipHighlights() {
+      if (!zipCodesGeojson || !map.getSource("zip-codes")) return;
+      const toleranceYards = Number(document.getElementById("zipToleranceSlider").value) || 0;
+      const enabled = document.getElementById("overlappingZipsCheckbox").checked;
+      overlappingZipCodes = new Set();
+
+      zipCodesGeojson.features.forEach(feature => {
+        let depths = feature.properties.jurisdiction_depth_yards || "{}";
+        if (typeof depths === "string") {
+          try { depths = JSON.parse(depths); } catch { depths = {}; }
+        }
+        const jurisdictions = Object.entries(depths)
+          .filter(([, depth]) => Number(depth) > toleranceYards)
+          .map(([name]) => name);
+        feature.properties._overlapping = jurisdictions.length > 1;
+        feature.properties._jurisdictions = jurisdictions.join(", ");
+        if (feature.properties._overlapping) overlappingZipCodes.add(String(feature.properties.code));
+      });
+
+      processedLocations.forEach(loc => {
+        const containingZip = zipCodesGeojson.features.find(feature =>
+          pointInGeometry([loc.longitude, loc.latitude], feature.geometry)
+        );
+        loc.zipCode = containingZip ? String(containingZip.properties.code) : "";
+        loc.inOverlappingZip = enabled && overlappingZipCodes.has(loc.zipCode);
+      });
+
+      map.getSource("zip-codes").setData(zipCodesGeojson);
+      map.setLayoutProperty("overlapping-zip-fill", "visibility", enabled ? "visible" : "none");
+      map.setLayoutProperty("overlapping-zip-hatch", "visibility", enabled ? "visible" : "none");
+      applyFilters();
+    }
+
+    function installZipCrosshatchPatterns(features) {
+      const colors = ["#7f1d1d", "#1d4ed8", "#047857", "#7e22ce", "#c2410c", "#0f766e"];
+      const angles = [22, 35, 48, 62, 75];
+      const patternNames = [];
+      features.forEach(feature => {
+        const zip = String(feature.properties.code);
+        const hash = [...zip].reduce((total, character) => total + character.charCodeAt(0), 0);
+        const patternName = `zip-hatch-${zip}`;
+        patternNames.push([zip, patternName]);
+        if (map.hasImage(patternName)) return;
+        const size = 24;
+        const canvas = document.createElement("canvas");
+        canvas.width = size;
+        canvas.height = size;
+        const context = canvas.getContext("2d");
+        context.strokeStyle = colors[hash % colors.length];
+        context.lineWidth = 2;
+        context.globalAlpha = 0.9;
+        context.translate(size / 2, size / 2);
+        context.rotate(angles[hash % angles.length] * Math.PI / 180);
+        for (let offset = -size * 2; offset <= size * 2; offset += 8) {
+          context.beginPath(); context.moveTo(offset, -size * 2); context.lineTo(offset, size * 2); context.stroke();
+          context.beginPath(); context.moveTo(-size * 2, offset); context.lineTo(size * 2, offset); context.stroke();
+        }
+        map.addImage(patternName, context.getImageData(0, 0, size, size), { pixelRatio: 2 });
+      });
+      const expression = ["match", ["to-string", ["get", "code"]]];
+      patternNames.forEach(([zip, patternName]) => expression.push(zip, patternName));
+      expression.push(patternNames[0][1]);
+      map.setPaintProperty("overlapping-zip-hatch", "fill-pattern", expression);
+    }
+
     function distanceToUnincorporatedBoundaryMeters(point) {
       if (!unincorporatedGeometry) return Infinity;
       const rings = unincorporatedGeometry.type === "Polygon"
@@ -1353,6 +1454,15 @@
     function milesToKmLabel(miles) {
       const sign = miles > 0 ? '+' : '';
       return `${sign}${miles.toFixed(2)} mi (${sign}${(miles * 1.609344).toFixed(2)} km)`;
+    }
+
+    function warnPastAirbnbPrivacyRadius(slider) {
+      const meters = Math.abs(Number(slider.value) * 1609.344);
+      const wasOver = slider.dataset.wasOverPrivacyRadius === "true";
+      if (meters > 500 && !wasOver) {
+        alert("The visible privacy radius from Airbnb.com has a maximum of 500 m. You are choosing a value above that amount.");
+      }
+      slider.dataset.wasOverPrivacyRadius = String(meters > 500);
     }
 
     function getBoundaryBufferMeters() {
@@ -1433,8 +1543,8 @@
 
     async function loadCountyLicenseResearch() {
       const [licensedResponse, unlicensedResponse] = await Promise.all([
-        fetch('county_licensed_airbnbs.csv'),
-        fetch('county_unlicensed_airbnbs.csv')
+        fetch(`county_licensed_airbnbs.csv?v=${Date.now()}`, { cache: 'no-store' }),
+        fetch(`county_unlicensed_airbnbs.csv?v=${Date.now()}`, { cache: 'no-store' })
       ]);
       if (!licensedResponse.ok || !unlicensedResponse.ok) throw new Error('County research CSV request failed');
       applyCountyResearchRows(
@@ -1444,7 +1554,7 @@
     }
 
     async function loadLicensedRows() {
-      const response = await fetch('county_licensed_locations.geojson');
+      const response = await fetch(`county_licensed_locations.geojson?v=${Date.now()}`, { cache: 'no-store' });
       if (!response.ok) throw new Error(`License location request failed (${response.status})`);
       const data = await response.json();
       (data.features || []).forEach(feature => {
@@ -1770,6 +1880,61 @@
       });
 
       // Municipality boundaries
+      map.addSource("zip-codes", { type: "geojson", data: zipCodesGeojsonUrl });
+      map.addLayer({
+        id: "zip-code-fill",
+        type: "fill",
+        source: "zip-codes",
+        layout: { visibility: "none" },
+        paint: { "fill-color": "#f59e0b", "fill-opacity": 0.06 }
+      });
+      map.addLayer({
+        id: "overlapping-zip-fill",
+        type: "fill",
+        source: "zip-codes",
+        filter: ["==", ["get", "_overlapping"], true],
+        layout: { visibility: "none" },
+        paint: { "fill-color": "#dc2626", "fill-opacity": 0.32 }
+      });
+      map.addLayer({
+        id: "overlapping-zip-hatch",
+        type: "fill",
+        source: "zip-codes",
+        filter: ["==", ["get", "_overlapping"], true],
+        layout: { visibility: "none" },
+        paint: { "fill-opacity": 0.9 }
+      });
+      map.addLayer({
+        id: "zip-code-outline",
+        type: "line",
+        source: "zip-codes",
+        layout: { visibility: "none" },
+        paint: { "line-color": "#000000", "line-width": 3.5, "line-opacity": 1 }
+      });
+      map.addLayer({
+        id: "zip-code-labels",
+        type: "symbol",
+        source: "zip-codes",
+        layout: {
+          visibility: "none",
+          "text-field": ["get", "code"],
+          "text-size": 13
+        },
+        paint: {
+          "text-color": "#78350f",
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 2
+        }
+      });
+      fetch(zipCodesGeojsonUrl)
+        .then(response => response.json())
+        .then(data => {
+          zipCodesGeojson = data;
+          installZipCrosshatchPatterns(data.features);
+          updateOverlappingZipHighlights();
+        })
+        .catch(error => console.error("Failed to load ZIP code GeoJSON:", error));
+
       fetch(municipalityGeojsonUrl)
         .then(response => {
           if (!response.ok) {
@@ -1906,6 +2071,8 @@
           "circle-radius": 12,
           "circle-color": [
             "case",
+            ["get", "inOverlappingZip"],
+            "#ef4444",
             ["get", "isConfirmedUnlicensed"],
             "#dc2626",
             ["get", "isOverCapacity"],
@@ -2031,12 +2198,13 @@
         if (typeof match === 'string') {
           try { match = JSON.parse(match); } catch { match = null; }
         }
-        if (!match || !match.matched) {
-          return '<div class="verified-section"><strong>Automatic nearby host-name match:</strong> None found within 1.1 km.</div>';
+        const maximumDistance = automaticMatchMaximumDistanceMeters();
+        const distance = Number(match?.distance_meters);
+        if (!match || !match.matched || !Number.isFinite(distance) || distance > maximumDistance) {
+          return `<div class="verified-section"><strong>Automatic nearby host-name match:</strong> None found within the selected ${maximumDistance.toFixed(0)} m maximum.</div>`;
         }
         const confidence = String(match.confidence || 'unknown');
         const matchType = String(match.match_type || 'unspecified').replace(/_/g, ' ');
-        const distance = Number(match.distance_meters);
         return `<div class="verified-section"><strong>🔎 Automatic nearby host-name match</strong><br/>` +
           `<strong>Match type:</strong> ${escapePopupHtml(matchType)}<br/>` +
           `<strong>Confidence:</strong> ${escapePopupHtml(confidence)}<br/>` +
@@ -2510,6 +2678,11 @@
       document.getElementById("automaticMatchStrengthValue").textContent = `${value}% (${description})`;
       applyFilters();
     });
+    document.getElementById("automaticMatchDistanceSlider").addEventListener("input", event => {
+      const meters = Number(event.target.value);
+      document.getElementById("automaticMatchDistanceValue").textContent = `${meters.toFixed(0)} m maximum`;
+      applyFilters();
+    });
     document.getElementById("propertySearchInput").addEventListener("input", () => {
       selectedHostName = null;
       expandedHostName = null;
@@ -2529,6 +2702,13 @@
       button.textContent = expanded ? 'Hide' : 'Show';
       button.setAttribute('aria-expanded', String(expanded));
       if (expanded) updateUnlicensedHostList();
+    });
+    document.getElementById('clearHostFilterBtn').addEventListener('click', () => {
+      selectedHostName = null;
+      expandedHostName = null;
+      document.getElementById('propertySearchInput').value = '';
+      hidePropertyAutocomplete();
+      applyFilters();
     });
     document.addEventListener('click', event => {
       if (!event.target.closest('.property-search-wrapper')) hidePropertyAutocomplete();
@@ -2555,15 +2735,30 @@
 
     document.getElementById("boundaryBufferSlider").addEventListener("input", (e) => {
       document.getElementById("boundaryBufferValue").innerText = milesToKmLabel(Number(e.target.value));
+      warnPastAirbnbPrivacyRadius(e.target);
       applyFilters();
     });
 
     document.getElementById("licenseRadiusSlider").addEventListener("input", (e) => {
       document.getElementById("licenseRadiusValue").innerText = milesToKmLabel(Number(e.target.value));
+      warnPastAirbnbPrivacyRadius(e.target);
       applyFilters();
     });
 
     document.getElementById("licenseCoverageCheckbox").addEventListener("change", applyFilters);
+    document.getElementById("zipCodesCheckbox").addEventListener("change", (event) => {
+      const visibility = event.target.checked ? "visible" : "none";
+      map.setLayoutProperty("zip-code-fill", "visibility", visibility);
+      map.setLayoutProperty("zip-code-outline", "visibility", visibility);
+      map.setLayoutProperty("zip-code-labels", "visibility", visibility);
+    });
+    document.getElementById("overlappingZipsCheckbox").addEventListener("change", updateOverlappingZipHighlights);
+    document.getElementById("zipToleranceSlider").addEventListener("input", (event) => {
+      const yards = Number(event.target.value);
+      const meters = yards * 0.9144;
+      document.getElementById("zipToleranceValue").textContent = `${yards} yard${yards === 1 ? "" : "s"} (${meters.toFixed(1)} m)`;
+      updateOverlappingZipHighlights();
+    });
     document.getElementById("likelyUnlicensedCheckbox").addEventListener("change", applyFilters);
     document.getElementById("licenseBalanceHeatmapCheckbox").addEventListener("change", () => {
       updateLicenseComparison();
