@@ -288,6 +288,19 @@
       background-color: #555;
     }
 
+    button.action-link { border: 0; cursor: pointer; font-size: 13px; }
+    .report-workflow-overlay { display: none; position: fixed; inset: 0; z-index: 10000; padding: 18px; background: rgba(0,0,0,.72); align-items: center; justify-content: center; }
+    .report-workflow-overlay.active { display: flex; }
+    .report-workflow-card { width: min(620px, calc(100vw - 36px)); max-height: 86vh; overflow: auto; box-sizing: border-box; padding: 20px; border-radius: 10px; background: #fff; color: #1f2937; box-shadow: 0 18px 55px rgba(0,0,0,.4); }
+    .report-workflow-card h3 { margin: 0 0 8px; }
+    .report-workflow-card input { width: 100%; box-sizing: border-box; margin: 8px 0; padding: 9px; }
+    .report-license-list { display: grid; gap: 7px; margin: 10px 0; }
+    .report-license-option { width: 100%; padding: 9px; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; text-align: left; cursor: pointer; }
+    .report-license-option.selected { border-color: #dc2626; background: #fee2e2; }
+    .report-workflow-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .report-action-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; margin-top: 8px; }
+    .report-action-pair .action-link { width: 100%; min-width: 0; margin: 0; padding: 8px 6px; box-sizing: border-box; }
+
     .mobile-popup-overlay {
       display: none;
       position: fixed;
@@ -486,6 +499,12 @@
       <div id="mobilePopupContent"></div>
     </div>
   </div>
+  <div id="reportWorkflowOverlay" class="report-workflow-overlay" role="dialog" aria-modal="true" aria-labelledby="reportWorkflowTitle">
+    <div class="report-workflow-card">
+      <h3 id="reportWorkflowTitle">Report information</h3>
+      <div id="reportWorkflowContent"></div>
+    </div>
+  </div>
 
   <div class="host-panel collapsed" id="hostPanel">
     <div class="filter-header">
@@ -569,10 +588,14 @@
       <input type="checkbox" id="zipCodesCheckbox">
       Show ZIP code boundaries
     </label>
-    <label class="filter-item">
-      <input type="checkbox" id="overlappingZipsCheckbox">
-      Highlight multi-jurisdiction ZIPs and properties
-    </label>
+      <label class="filter-item">
+        <input type="checkbox" id="overlappingZipsCheckbox">
+        Highlight multi-jurisdiction ZIPs and properties
+      </label>
+      <label class="filter-item">
+        <input type="checkbox" id="parcelAddressesCheckbox">
+        Show parcel addresses when zoomed in
+      </label>
     <div class="slider-label">ZIP boundary leeway</div>
     <input type="range" id="zipToleranceSlider" min="0" max="601.49" value="5" step="0.01" style="width:100%;">
     <div id="zipToleranceValue">5 yards (4.6 m)</div>
@@ -1116,6 +1139,45 @@
       center: defaultCenter,
       zoom: defaultZoom
     });
+
+    let reportContextListing = null;
+    let selectedReportLicense = null;
+    let addressSelectionMode = false;
+    let parcelTileManifest = null;
+    let parcelTileManifestPromise = null;
+    const parcelTileCache = new Map();
+    function loadParcelTileManifest() { if (!parcelTileManifestPromise) parcelTileManifestPromise = fetch('data/geography_files/parcel_address_tiles/manifest.json').then(response => { if (!response.ok) throw new Error(`Parcel tile manifest request failed (${response.status})`); return response.json(); }).then(manifest => (parcelTileManifest = manifest)); return parcelTileManifestPromise; }
+    async function loadParcelAddressesNear(lng, lat) { await loadParcelTileManifest(); const radiusMeters = 804.672; const latitudeDelta = radiusMeters / 111132; const longitudeDelta = radiusMeters / (111320 * Math.cos(lat * Math.PI / 180)); const grid = parcelTileManifest.grid_degrees; const columns = [Math.floor((lng - longitudeDelta + 180) / grid), Math.floor((lng + longitudeDelta + 180) / grid)]; const rows = [Math.floor((lat - latitudeDelta + 90) / grid), Math.floor((lat + latitudeDelta + 90) / grid)]; const requests = []; for (let column = columns[0]; column <= columns[1]; column++) for (let row = rows[0]; row <= rows[1]; row++) { const key = `${column}_${row}`; const filename = parcelTileManifest.tiles[key]; if (!filename) continue; if (!parcelTileCache.has(key)) parcelTileCache.set(key, fetch(`data/geography_files/parcel_address_tiles/${filename}`).then(response => response.json())); requests.push(parcelTileCache.get(key)); } return (await Promise.all(requests)).flat(); }
+    function nearestParcelAddress(records, lng, lat) { if (!records.length) return ''; const longitudeScale = 111320 * Math.cos(lat * Math.PI / 180); let bestAddress = ''; let bestDistanceSquared = Infinity; records.forEach(([parcelLng, parcelLat, address]) => { const distanceSquared = ((parcelLng - lng) * longitudeScale) ** 2 + ((parcelLat - lat) * 111132) ** 2; if (distanceSquared < bestDistanceSquared) { bestDistanceSquared = distanceSquared; bestAddress = address; } }); return bestDistanceSquared <= 804.672 ** 2 ? bestAddress : ''; }
+    let parcelAddressViewportRequest = 0;
+    async function updateVisibleParcelAddresses() { const source = map.getSource('parcel-address-labels'); if (!source) return; const enabled = document.getElementById('parcelAddressesCheckbox').checked; const visible = enabled && map.getZoom() >= 16; map.setLayoutProperty('parcel-address-labels', 'visibility', visible ? 'visible' : 'none'); if (!visible) { source.setData({ type: 'FeatureCollection', features: [] }); return; } const requestId = ++parcelAddressViewportRequest; await loadParcelTileManifest(); const bounds = map.getBounds(); const grid = parcelTileManifest.grid_degrees; const padding = grid / 2; const firstColumn = Math.floor((bounds.getWest() - padding + 180) / grid); const lastColumn = Math.floor((bounds.getEast() + padding + 180) / grid); const firstRow = Math.floor((bounds.getSouth() - padding + 90) / grid); const lastRow = Math.floor((bounds.getNorth() + padding + 90) / grid); const requests = []; for (let column = firstColumn; column <= lastColumn; column++) for (let row = firstRow; row <= lastRow; row++) { const key = `${column}_${row}`; const filename = parcelTileManifest.tiles[key]; if (!filename) continue; if (!parcelTileCache.has(key)) parcelTileCache.set(key, fetch(`data/geography_files/parcel_address_tiles/${filename}`).then(response => response.json()).catch(() => [])); requests.push(parcelTileCache.get(key)); } const records = (await Promise.all(requests)).flat(); if (requestId !== parcelAddressViewportRequest || !document.getElementById('parcelAddressesCheckbox').checked) return; source.setData({ type: 'FeatureCollection', features: records.map(([longitude, latitude, address]) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [longitude, latitude] }, properties: { address } })) }); }
+
+    function reportAddressFor(item) { return String(item?.research_address || item?.matched_license_address || item?.matchedAddress || item?.Parcel_Matched_Address || item?.address || item?.approximate_address || item?.DBA || '').trim(); }
+    function reportLicenseNumberFor(item) { return String(item?.licenseNumber || item?.['Business License Number'] || item?.permit_number || '').trim(); }
+    function buildPrefilledReportUrl(address = '', licenseNumber = '') { const url = new URL('https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform'); url.searchParams.set('usp', 'pp_url'); url.searchParams.set('entry.1013247072', String(reportContextListing?.url || '').trim()); url.searchParams.set('entry.1545663527', address); url.searchParams.set('entry.1993836701', licenseNumber); return url.toString(); }
+    function escapeReportHtml(value) { return String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]); }
+    function closeReportWorkflow() { document.getElementById('reportWorkflowOverlay').classList.remove('active'); }
+
+    function renderLicenseReportChoices(query = '') {
+      const content = document.getElementById('reportWorkflowContent');
+      const normalizedQuery = query.trim().toLowerCase();
+      const allLicenses = [...licensedLocations.values()];
+      const nearby = allLicenses.filter(license => squaredDistanceMeters(reportContextListing, license) <= 600 ** 2).sort((a, b) => squaredDistanceMeters(reportContextListing, a) - squaredDistanceMeters(reportContextListing, b));
+      const choices = normalizedQuery ? allLicenses.filter(license => JSON.stringify(license).toLowerCase().includes(normalizedQuery)) : nearby;
+      content.innerHTML = `<p>${nearby.length} license${nearby.length === 1 ? '' : 's'} found within 0.6 km. Search to find licenses outside that radius.</p><input id="reportLicenseSearch" type="search" placeholder="Search license number, name, or address" value="${escapeReportHtml(query)}"><div id="reportLicenseList" class="report-license-list"></div><div class="report-workflow-actions"><button id="submitLicenseReport" class="action-link" type="button" ${selectedReportLicense ? '' : 'disabled'}>Continue to report form</button><button id="cancelReportWorkflow" class="action-link secondary" type="button">Cancel</button></div>`;
+      const list = document.getElementById('reportLicenseList');
+      choices.slice(0, 75).forEach(license => { const button = document.createElement('button'); button.type = 'button'; button.className = `report-license-option${selectedReportLicense === license ? ' selected' : ''}`; const distance = Math.sqrt(squaredDistanceMeters(reportContextListing, license)); const businessName = String(license['Business Name'] || '').trim(); const dba = String(license.DBA || '').trim(); const names = [...new Set([businessName, dba].filter(Boolean))].join(' / '); button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` — ${names}` : ''} — ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`; button.addEventListener('click', () => { selectedReportLicense = license; renderLicenseReportChoices(query); }); list.appendChild(button); });
+      if (!choices.length) list.textContent = 'No licenses match this search.';
+      const manualButton = document.createElement('button'); manualButton.type = 'button'; manualButton.className = `report-license-option${selectedReportLicense?.manualEntry ? ' selected' : ''}`; manualButton.textContent = "License not listed — I'll enter it manually"; manualButton.addEventListener('click', () => { selectedReportLicense = { manualEntry: true }; renderLicenseReportChoices(query); }); list.appendChild(manualButton);
+      document.getElementById('reportLicenseSearch').addEventListener('input', event => renderLicenseReportChoices(event.target.value));
+      document.getElementById('cancelReportWorkflow').addEventListener('click', closeReportWorkflow);
+      document.getElementById('submitLicenseReport').addEventListener('click', () => { if (selectedReportLicense) { const manualEntry = selectedReportLicense.manualEntry; window.open(buildPrefilledReportUrl(manualEntry ? reportAddressFor(reportContextListing) : reportAddressFor(selectedReportLicense), manualEntry ? '' : reportLicenseNumberFor(selectedReportLicense)), '_blank', 'noopener'); } });
+    }
+
+    function startLicenseReportWorkflow() { selectedReportLicense = null; if (activeMapPopup) activeMapPopup.remove(); closeMobilePopup(); document.getElementById('reportWorkflowTitle').textContent = 'Select a license to report'; document.getElementById('reportWorkflowOverlay').classList.add('active'); Promise.resolve(licensedRowsReady).then(() => renderLicenseReportChoices()); }
+    function renderAddressReportConfirmation(address = reportAddressFor(reportContextListing)) { document.getElementById('reportWorkflowTitle').textContent = 'Confirm address information'; document.getElementById('reportWorkflowContent').innerHTML = `<p>Click “Select location on map,” then click the property location. Confirm or edit the actual street address before continuing.</p><input id="reportAddressInput" value="${escapeReportHtml(address)}" placeholder="Actual street address"><div class="report-workflow-actions"><button id="selectAddressOnMap" class="action-link secondary" type="button">Select location on map</button><button id="submitAddressReport" class="action-link" type="button">Continue to report form</button><button id="cancelReportWorkflow" class="action-link secondary" type="button">Cancel</button></div>`; document.getElementById('reportWorkflowOverlay').classList.add('active'); document.getElementById('selectAddressOnMap').addEventListener('click', async event => { event.currentTarget.disabled = true; event.currentTarget.textContent = 'Loading address map…'; await loadParcelTileManifest(); addressSelectionMode = true; closeReportWorkflow(); map.getCanvas().style.cursor = 'crosshair'; }); document.getElementById('submitAddressReport').addEventListener('click', () => window.open(buildPrefilledReportUrl(document.getElementById('reportAddressInput').value.trim(), ''), '_blank', 'noopener')); document.getElementById('cancelReportWorkflow').addEventListener('click', closeReportWorkflow); }
+    function startAddressReportWorkflow() { if (activeMapPopup) activeMapPopup.remove(); closeMobilePopup(); renderAddressReportConfirmation(); }
+    map.on('click', event => { if (!addressSelectionMode) return; const features = map.queryRenderedFeatures(event.point, { layers: ['licensed-location-points', 'strv-circles', 'spiderfy-circles'].filter(id => map.getLayer(id)) }); const renderedAddress = features.map(feature => reportAddressFor(feature.properties)).find(Boolean); setTimeout(async () => { addressSelectionMode = false; map.getCanvas().style.cursor = 'wait'; const nearbyParcels = await loadParcelAddressesNear(event.lngLat.lng, event.lngLat.lat); const selectedAddress = nearestParcelAddress(nearbyParcels, event.lngLat.lng, event.lngLat.lat) || renderedAddress || reportAddressFor(reportContextListing); map.getCanvas().style.cursor = ''; renderAddressReportConfirmation(selectedAddress); }, 0); });
 
     // Smooth animation helper
     function animateMap(targetCenter, targetZoom, duration = 900) {
@@ -1922,6 +1984,24 @@
         data: { type: "FeatureCollection", features: [] }
       });
 
+      map.addSource('parcel-address-labels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({
+        id: 'parcel-address-labels',
+        type: 'symbol',
+        source: 'parcel-address-labels',
+        minzoom: 16,
+        layout: {
+          visibility: 'none',
+          'text-field': ['get', 'address'],
+          'text-size': ['interpolate', ['linear'], ['zoom'], 16, 10, 18, 13],
+          'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+          'text-radial-offset': 0.6,
+          'text-justify': 'auto'
+        },
+        paint: { 'text-color': '#111827', 'text-halo-color': '#ffffff', 'text-halo-width': 2 }
+      });
+      map.on('moveend', updateVisibleParcelAddresses);
+
       // Municipality boundaries
       map.addSource("zip-codes", { type: "geojson", data: zipCodesGeojsonUrl });
       map.addLayer({
@@ -2396,11 +2476,13 @@
       }
 
       map.on('click', 'licensed-location-points', event => {
+        if (addressSelectionMode) return;
         const license = event.features[0].properties;
         const matchCount = drawLicenseConnectionsForLicense(license);
         showSelectionPopup(event.lngLat, licensePopupHtml(license, matchCount), '360px');
       });
       map.on('click', 'licensed-location-clusters', event => {
+        if (addressSelectionMode) return;
         const feature = event.features[0];
         const source = map.getSource('licensed-locations');
         source.getClusterExpansionZoom(feature.properties.cluster_id, (error, zoom) => {
@@ -2424,6 +2506,7 @@
 
 // Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
+        if (addressSelectionMode) return;
         clearSpiderfy();
 
         const loc = e.features[0].properties;
@@ -2488,7 +2571,7 @@
         const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
-        const licenseReportUrl = reportLicenseInfoUrl(loc.url);
+        reportContextListing = loc;
         const researchHtml = researchStatusHtml(loc);
         const automaticMatchHtml = automaticHostMatchHtml(loc);
 
@@ -2508,7 +2591,7 @@
             ${licenseHtml}
             <hr/>
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
-            <a class="action-link secondary" href="${licenseReportUrl}" target="_blank" rel="noopener">Report address or license info</a>
+            <div class="report-action-pair"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button></div>
             <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
             <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
@@ -2521,6 +2604,7 @@
 
       // Popup + zoom for spiderfied points
       map.on("click", "spiderfy-circles", (e) => {
+        if (addressSelectionMode) return;
         const loc = e.features[0].properties;
         drawLicenseConnectionsForListing(loc);
         const excessive = loc.overOccupancy;
@@ -2556,7 +2640,7 @@
 
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(loc.approximate_address || '')}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
-        const licenseReportUrl = reportLicenseInfoUrl(loc.url);
+        reportContextListing = loc;
         const researchHtml = researchStatusHtml(loc);
         const automaticMatchHtml = automaticHostMatchHtml(loc);
 
@@ -2573,7 +2657,7 @@
             ${automaticMatchHtml}
             ${licenseHtml}
             <a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a>
-            <a class="action-link secondary" href="${licenseReportUrl}" target="_blank" rel="noopener">Report address or license info</a>
+            <div class="report-action-pair"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button></div>
             <a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a>
             <a class="action-link secondary" href="${complaintViewUrl}" target="_blank">View complaints</a>
           </div>
@@ -2586,6 +2670,7 @@
 
       // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
       map.on("click", "clusters", (e) => {
+        if (addressSelectionMode) return;
         clearSpiderfy();
 
         const clusterId = e.features[0].properties.cluster_id;
@@ -2818,6 +2903,7 @@
       map.setLayoutProperty("zip-code-outline", "visibility", visibility);
       map.setLayoutProperty("zip-code-labels", "visibility", visibility);
     });
+    document.getElementById('parcelAddressesCheckbox').addEventListener('change', updateVisibleParcelAddresses);
     document.getElementById("overlappingZipsCheckbox").addEventListener("change", updateOverlappingZipHighlights);
     document.getElementById("zipToleranceSlider").addEventListener("input", (event) => {
       const yards = Number(event.target.value);

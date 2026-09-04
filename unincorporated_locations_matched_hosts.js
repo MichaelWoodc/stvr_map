@@ -27091,35 +27091,6 @@ const locations = [
     "host_license_candidates": []
   },
   {
-    "url": "https://www.airbnb.com/rooms/1109700607202881682 ",
-    "rental_type": "Entire home",
-    "guests": 4,
-    "bedrooms": 1,
-    "beds": 1,
-    "baths": 2,
-    "latitude": 32.016,
-    "longitude": -80.9582,
-    "host_name": "Jacqueline",
-    "superhost": null,
-    "years_hosting": null,
-    "address": "511 OEMLER LOOP",
-    "verified_licenses": [],
-    "approximate_address": "511 OEMLER LOOP",
-    "approx_distance_meters": 0.00020125084037132715,
-    "municipality": "UNINCORPORATED",
-    "allowed_guests": 4,
-    "over_occupancy": 0,
-    "percent_over": 0,
-    "host_license_match": {
-      "matched": false,
-      "match_type": "none",
-      "confidence": "none",
-      "search_radius_meters": 1100,
-      "candidate_count": 0
-    },
-    "host_license_candidates": []
-  },
-  {
     "url": "https://www.airbnb.com/rooms/11126593 ",
     "rental_type": "Entire rental unit",
     "guests": 3,
