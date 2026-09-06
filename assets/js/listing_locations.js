@@ -63,7 +63,7 @@ const ListingLocations = (() => {
       ? (loc.actual_location_source === 'visitor_parcel_match' ? 'Reported address (parcel location, unverified)' : loc.actual_location_source === 'visitor_submission' ? 'Submitted actual address (unverified)' : 'Actual address')
       : 'Airbnb approximate address';
     const address = actualAddress || approximateAddress || 'Not confirmed';
-    return `<div class="listing-location-details"><strong>${addressLabel}:</strong> ${escape(address)}${actual(loc) ? '<br/><span style="color:#047857">Blue outline: Airbnb location. Purple outline: reported location. Locations on the same parcel share one dot; separate parcels are joined by a line.</span>' : ''}</div>`;
+    return `<div class="listing-location-details"><strong>${addressLabel}:</strong> ${escape(address)}${actual(loc) ? '<br/><span style="color:#047857">Listings with licenses on other parcels are connected with a line, the circle with the blue outline is the Airbnb location, the purple outline dot is the suspected address.</span>' : ''}</div>`;
   }
   let visible = [], activeMap = null, lastData = '';
   const collection = features => ({type: 'FeatureCollection', features});
@@ -103,6 +103,10 @@ const ListingLocations = (() => {
     if (!endpoint) return false;
     const approximate = [Number(loc.airbnb_longitude ?? loc.longitude), Number(loc.airbnb_latitude ?? loc.latitude)];
     if (approximate.every((n,i) => n === endpoint[i])) return true;
+    const normalizeAddress = value => String(value || '').split(',')[0].toUpperCase().replace(/[^A-Z0-9]/g, '');
+    const approximateAddress = normalizeAddress(loc.airbnb_approximate_address ?? loc.approximate_address ?? loc.address);
+    const actualAddress = normalizeAddress(loc.actual_address);
+    if (approximateAddress && actualAddress && approximateAddress === actualAddress) return true;
     return (parcelCells.get(parcelCellKey(approximate)) || [])
       .some(geometry => inParcel(approximate, geometry) && inParcel(endpoint, geometry));
   }
