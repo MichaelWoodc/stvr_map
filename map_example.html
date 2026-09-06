@@ -289,6 +289,7 @@
       cursor: not-allowed;
     }
   </style>
+  <link rel="stylesheet" href="assets/css/map_popups.css">
 </head>
 <body>
 
@@ -311,7 +312,9 @@
   <div id="map"></div>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
+  <script src="assets/js/map_popups.js"></script>
   <script src="locations.js"></script>
+  <script src="assets/js/listing_locations.js"></script>
   <script>
     // Configurable variable for auto-pan marker placement (0.25 = top 1/4 of the viewport)
     const MARKER_TOP_RATIO = 0.15;
@@ -386,7 +389,7 @@
       window.open(finalUrl, '_blank');
     };
 
-    window.repositionLocation = function(lat, lng, address) {
+    window.repositionLocation = function(lat, lng, address, listingUrl = "") {
       const popups = document.getElementsByClassName('maplibregl-popup');
       while (popups[0]) popups[0].remove();
 
@@ -403,7 +406,7 @@
         lat: lat,
         lng: lng,
         address: address,
-        listingUrl: ""
+        listingUrl: decodeURIComponent(listingUrl)
       };
 
       createConfirmationPopup(lng, lat, `Repositioning: ${address}`);
@@ -451,7 +454,7 @@
       const shortAddress = loc.address.split(',')[0];
 
       let html = `
-        <div class="popup-title">${displayTitle}</div>
+        <div class="popup-title">${displayTitle}</div>${ListingLocations.details(loc)}
         <div class="popup-detail"><strong>Address:</strong> ${shortAddress}</div>
         <div class="popup-detail"><strong>License #:</strong> ${currentUnit.license}</div>
         
@@ -462,7 +465,7 @@
 
         <div class="popup-actions">
           <button class="popup-btn btn-complaint" onclick="triggerComplaint('${loc.lat}', '${loc.lng}', '${loc.address}', '${currentUnit.vrboUrl}', '${currentUnit.unitName}')">Submit Complaint Form</button>
-          <button class="popup-btn btn-reposition" onclick="repositionLocation(${loc.lat}, ${loc.lng}, '${loc.address}')">📍 Reposition / New Spot</button>
+          <button class="popup-btn btn-reposition" onclick="repositionLocation(${loc.lat}, ${loc.lng}, '${loc.address}', '${encodeURIComponent(loc.url || loc.airbnbUrl || '')}')">📍 Reposition / New Spot</button>
           <a href="${complaintsPath}" target="_blank" class="popup-btn btn-view">View Existing Complaints</a>
         </div>
       `;
@@ -481,7 +484,7 @@
 
       html += `
         <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #e5e7eb;">
-          <button class="popup-btn btn-add-unit" onclick="repositionLocation(${loc.lat}, ${loc.lng}, '${loc.address}')">Submit New Unit</button>
+          <button class="popup-btn btn-add-unit" onclick="repositionLocation(${loc.lat}, ${loc.lng}, '${loc.address}', '${encodeURIComponent(loc.url || loc.airbnbUrl || '')}')">Submit New Unit</button>
         </div>
       `;
 
@@ -503,7 +506,7 @@
 
     map.on('load', () => {
       for (let i = 1; i <= TOTAL_PARCEL_PARTS; i++) {
-        const partUrl = `media/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
+        const partUrl = `data/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
         
         map.addSource(`parcels_part_${i}`, {
           type: 'geojson',
@@ -541,12 +544,12 @@
       }
 
       // Read locations from imported locations.js, filtering duplicates by address string
-      const rawLocations = (typeof stvrLocations !== 'undefined') ? stvrLocations : [];
+      const rawLocations = locations.map(loc => ({...loc, lat: loc.airbnb_latitude, lng: loc.airbnb_longitude, address: loc.actual_address || loc.airbnb_approximate_address || '', airbnbUrl: loc.url}));
       const seenAddresses = new Set();
       const locationsToRender = [];
 
       rawLocations.forEach(loc => {
-        const normalizedAddr = loc.address ? loc.address.trim().toUpperCase() : '';
+        const normalizedAddr = loc.url || `${loc.lat},${loc.lng},${loc.address}`;
         if (normalizedAddr && !seenAddresses.has(normalizedAddr)) {
           seenAddresses.add(normalizedAddr);
           locationsToRender.push(loc);
@@ -563,7 +566,7 @@
         el.style.cursor = 'pointer';
 
         // autoPan false so we handle panning manually via flyToCenteredLocation
-        const popup = new maplibregl.Popup({ 
+        const popup = new ListingMapPopup({
           offset: 25, 
           closeOnClick: true,
           autoPan: false
@@ -598,6 +601,21 @@
 
         registryEntry.marker = marker;
         markerRegistry.push(registryEntry);
+        const actualPoint = ListingLocations.actual(loc);
+        if (actualPoint) {
+          const actualElement = el.cloneNode(true);
+          actualElement.style.backgroundColor = '#047857';
+          actualElement.style.width = '16px';
+          actualElement.style.height = '16px';
+          const actualMarker = new maplibregl.Marker({element: actualElement}).setLngLat(actualPoint).addTo(map);
+          actualElement.addEventListener('click', event => {
+            event.stopPropagation();
+            popup.setLngLat(actualPoint).setHTML(generateMultiUnitPopupHtml(loc, registryEntry.currentUnitIndex)).addTo(map);
+          });
+          const connectionId = `actual-connection-${markerRegistry.length}`;
+          map.addSource(connectionId, {type:'geojson', data:{type:'Feature', geometry:{type:'LineString', coordinates:[[loc.lng,loc.lat],actualPoint]}, properties:{}}});
+          map.addLayer({id:connectionId, type:'line', source:connectionId, paint:{'line-color':'#047857','line-width':2,'line-dasharray':[3,2]}});
+        }
       });
     });
 
@@ -648,6 +666,7 @@
 
       const popupContent = document.createElement('div');
       
+      if (pendingData?.listingUrl) existingReg = null;
       if (existingReg) {
         popupContent.innerHTML = `
           <div class="popup-title">Location Already Exists!</div>
@@ -674,7 +693,7 @@
         `;
       }
 
-      activePopup = new maplibregl.Popup({ 
+      activePopup = new ListingMapPopup({
         offset: 25, 
         closeOnClick: true,
         autoPan: false
@@ -693,7 +712,7 @@
         document.getElementById('popupConfirmBtn').addEventListener('click', () => {
           if (activeMarker && pendingData) {
             const finalCoords = activeMarker.getLngLat();
-            const finalUrl = buildFormUrl(finalCoords.lat, finalCoords.lng, pendingData.address, pendingData.listingUrl || "");
+            const finalUrl = ListingLocations.reportUrl({latitude: finalCoords.lat, longitude: finalCoords.lng, address: pendingData.address, listingUrl: pendingData.listingUrl});
             window.open(finalUrl, '_blank');
           }
           cleanupActiveSession();
@@ -837,7 +856,7 @@
         <button class="popup-btn btn-complaint" id="ctxAddBtn" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">📍 Add New Location Here</button>
       `;
 
-      contextPopup = new maplibregl.Popup({ 
+      contextPopup = new ListingMapPopup({
         offset: 15, 
         closeOnClick: true,
         autoPan: false 

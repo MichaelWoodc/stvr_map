@@ -142,6 +142,7 @@
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="../assets/css/map_popups.css">
 </head>
 <body>
 
@@ -172,7 +173,9 @@
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
-  <script src="data_files/in_process_data/locations.js"></script>
+  <script src="../assets/js/map_popups.js"></script>
+  <script src="../data_files/in_process_data/locations.js"></script>
+  <script src="../assets/js/listing_locations.js"></script>
 
   <script>
     // Precompute metrics
@@ -207,6 +210,7 @@
     }).filter(Boolean);
 
     function toGeoJSON(data) {
+      ListingLocations.setVisible(data);
       return {
         type: "FeatureCollection",
         features: data.map(loc => ({
@@ -676,7 +680,7 @@
       });
 
       // Popup + zoom for individual points (base layer)
-      map.on("click", "strv-circles", (e) => {
+      ListingLocations.onListingClick(map, 'strv-circles', (e) => {
         clearSpiderfy();
 
         const loc = e.features[0].properties;
@@ -688,7 +692,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+            ${ListingLocations.details(loc)}
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms: </strong>${loc.bedrooms}<br/>
@@ -699,7 +703,7 @@
           </div>
         `;
 
-        new maplibregl.Popup()
+        new ListingMapPopup()
           .setLngLat(e.lngLat)
           .setHTML(html)
           .addTo(map);
@@ -736,7 +740,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+            ${ListingLocations.details(loc)}
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
@@ -746,7 +750,7 @@
           </div>
         `;
 
-        new maplibregl.Popup()
+        new ListingMapPopup()
           .setLngLat(e.lngLat)
           .setHTML(html)
           .addTo(map);

@@ -37,6 +37,7 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   
   <script src="data_files/in_process_data/locations.js"></script>
+  <script src="assets/js/listing_locations.js"></script>
   <script src="data_files/in_process_data/boundaries.js"></script>
 
   <script>
@@ -175,8 +176,9 @@
         `;
 
         const newMarker = L.marker([Number(loc.latitude), Number(loc.longitude)], {icon: pinIcon})
-                           .bindPopup(popupTemplate);
+                           .bindPopup(popupTemplate + ListingLocations.details(loc));
         markerLayerGroup.addLayer(newMarker);
+        ListingLocations.leafletPair(loc, newMarker, markerLayerGroup);
       });
     }
 

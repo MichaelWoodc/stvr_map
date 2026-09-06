@@ -7,8 +7,8 @@
 
   <link href="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="county_map_submission.css">
-  <script src="county_map_submission.js"></script>
+  <link rel="stylesheet" href="assets/css/county_map_submission.css">
+  <script src="assets/js/county_map_submission.js"></script>
   <style>
     body {
       background-color: #1e1e1e;
@@ -522,6 +522,7 @@
     .maplibregl-popup-content { max-height: calc(100dvh - 100px); overflow-y: auto; }
     .mobile-popup-card { box-sizing: border-box; overflow-y: auto; }
   </style>
+  <link rel="stylesheet" href="assets/css/map_popups.css">
 </head>
 <body>
   <div id="dataDisclaimerOverlay" class="data-disclaimer-overlay" role="dialog" aria-modal="true" aria-labelledby="dataDisclaimerTitle">
@@ -540,7 +541,7 @@
       <summary>Menu</summary>
       <nav aria-label="Map menu">
         <button id="newLocationButton" type="button">Submit a new location</button>
-        <a href="about.html">About</a>
+        <a href="about_data.html">About</a>
       </nav>
     </details>
     <h2>Chatham County STVR Compliance Map</h2>
@@ -548,6 +549,11 @@
   <section id="newLocationPanel" class="new-location-panel" aria-label="Submit a new location" hidden>
     <strong>Submit a new location</strong>
     <p id="newLocationStatus" role="status">Click or tap the map to drop a pin.</p>
+    <label for="newLocationSearchAddress">Or type a known street address</label>
+    <input id="newLocationSearchAddress" type="text" placeholder="e.g. 27 MORNINGSIDE DR" autocomplete="street-address">
+    <p>Type the beginning of an address, then keep typing or select a match. Only a complete known address places a pin.</p>
+    <p id="newLocationAddressOptionCount" role="status"></p>
+    <select id="newLocationAddressOptions" size="6" aria-label="Known addresses matching your search" hidden></select>
     <label for="newLocationAddress">Street address (confirm or edit)</label>
     <input id="newLocationAddress" type="text" autocomplete="street-address" disabled>
     <p id="newLocationCoordinates"></p>
@@ -709,7 +715,9 @@
   </footer>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
+  <script src="assets/js/map_popups.js"></script>
   <script src="unincorporated_locations.js"></script>
+  <script src="assets/js/listing_locations.js"></script>
 
   <script>
     // Precompute metrics
@@ -815,6 +823,9 @@
       const content = document.getElementById('mobilePopupContent');
       if (!overlay || !content) return;
       content.innerHTML = html;
+      const fragment = document.createDocumentFragment();
+      while (content.firstChild) fragment.appendChild(content.firstChild);
+      content.appendChild(layoutListingPopup(fragment));
       overlay.classList.add('active');
     }
 
@@ -827,6 +838,7 @@
     }
 
     function toGeoJSON(data) {
+      ListingLocations.setVisible(data);
       return {
         type: "FeatureCollection",
         features: data.map(loc => ({
@@ -944,7 +956,7 @@
       if (parcelSearchMarker) parcelSearchMarker.remove();
       parcelSearchMarker = new maplibregl.Marker({ color: '#1976d2' })
         .setLngLat(centroid)
-        .setPopup(new maplibregl.Popup({ closeButton: true, closeOnClick: true })
+        .setPopup(new ListingMapPopup({ closeButton: true, closeOnClick: true })
           .setHTML(`<strong>Property address</strong><br/>${parcel.address}`))
         .addTo(map);
       map.flyTo({ center: centroid, zoom: 17, essential: true });
@@ -1119,8 +1131,8 @@
     let parcelSearchMarker = null;
     let activeMapPopup = null;
     let refreshLicenseConnectionLines = null;
-    const municipalityGeojsonUrl = "Municipality.geojson";
-    const zipCodesGeojsonUrl = "georgia-zip-codes.geojson";
+    const municipalityGeojsonUrl = "data/geography_files/Municipality.geojson";
+    const zipCodesGeojsonUrl = "data/geography_files/georgia-zip-codes.geojson";
     let zipCodesGeojson = null;
     let overlappingZipCodes = new Set();
     const excludedMunicipalities = new Set();
@@ -1260,20 +1272,16 @@
     }
 
     function reportAddressFor(item) {
-      return String(item?.research_address || item?.matched_license_address || item?.matchedAddress || item?.Parcel_Matched_Address || item?.address || item?.approximate_address || item?.DBA || '').trim();
+      return String(item?.actual_address || item?.research_address || item?.matched_license_address || item?.matchedAddress || item?.Parcel_Matched_Address || item?.address || item?.approximate_address || item?.DBA || '').trim();
     }
 
     function reportLicenseNumberFor(item) {
       return String(item?.licenseNumber || item?.['Business License Number'] || item?.permit_number || '').trim();
     }
 
-    function buildPrefilledReportUrl(address = '', licenseNumber = '') {
-      const url = new URL('https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform');
-      url.searchParams.set('usp', 'pp_url');
-      url.searchParams.set('entry.1013247072', String(reportContextListing?.url || '').trim());
-      url.searchParams.set('entry.1545663527', address);
-      url.searchParams.set('entry.1993836701', licenseNumber);
-      return url.toString();
+    function buildPrefilledReportUrl(address = '', licenseNumber = '', coordinates = null) {
+      return ListingLocations.reportUrl({listingUrl: reportContextListing?.url, address, licenseNumber,
+        longitude: coordinates?.[0], latitude: coordinates?.[1]});
     }
 
     function hasVerifiedListingStatus(item) {
@@ -1348,7 +1356,7 @@
       document.getElementById('submitLicenseReport').addEventListener('click', () => {
         if (!selectedReportLicense) return;
         const manualEntry = selectedReportLicense.manualEntry;
-        window.open(buildPrefilledReportUrl(manualEntry ? reportAddressFor(reportContextListing) : reportAddressFor(selectedReportLicense), manualEntry ? '' : reportLicenseNumberFor(selectedReportLicense)), '_blank', 'noopener');
+        window.open(buildPrefilledReportUrl(manualEntry ? reportAddressFor(reportContextListing) : reportAddressFor(selectedReportLicense), manualEntry ? '' : reportLicenseNumberFor(selectedReportLicense), manualEntry ? null : [selectedReportLicense.longitude, selectedReportLicense.latitude]), '_blank', 'noopener');
       });
     }
 
@@ -1369,24 +1377,25 @@
     function renderAddressReportConfirmation(address = reportAddressFor(reportContextListing)) {
       document.querySelector('.report-workflow-card').classList.remove('license-picker');
       document.getElementById('reportWorkflowTitle').textContent = 'Confirm address information';
-      document.getElementById('reportWorkflowContent').innerHTML = `<p>Click “Select location on map,” then click the property location. Confirm or edit the actual street address before continuing.</p><input id="reportAddressInput" value="${escapeReportHtml(address)}" placeholder="Actual street address"><div class="report-workflow-actions"><button id="selectAddressOnMap" class="action-link secondary" type="button">Select location on map</button><button id="submitAddressReport" class="action-link" type="button">Continue to report form</button><button id="cancelReportWorkflow" class="action-link secondary" type="button">Cancel</button></div>`;
+      document.getElementById('reportWorkflowContent').innerHTML = `<p>Click “Select location on map,” then click the property location. Confirm or edit the actual street address before continuing.</p><input id="reportAddressInput" value="${escapeReportHtml(address)}" placeholder="Actual street address"><div class="report-workflow-actions"><button id="selectAddressOnMap" class="action-link secondary" type="button">Select location on map</button><button id="submitAddressReport" class="action-link" type="button" ${selectedReportCoordinates ? '' : 'disabled'}>Continue to report form</button><button id="cancelReportWorkflow" class="action-link secondary" type="button">Cancel</button></div>`;
       document.getElementById('reportWorkflowOverlay').classList.add('active');
       document.getElementById('selectAddressOnMap').addEventListener('click', async event => {
         event.currentTarget.disabled = true;
         event.currentTarget.textContent = 'Loading parcel addresses…';
         await loadParcelTileManifest();
-        addressSelectionMode = true;
+        addressSelectionMode = true; enableLocationSelectionAddresses();
         closeReportWorkflow();
         map.getCanvas().style.cursor = 'crosshair';
       });
       document.getElementById('submitAddressReport').addEventListener('click', () => {
         const address = document.getElementById('reportAddressInput').value.trim();
-        window.open(buildPrefilledReportUrl(address, ''), '_blank', 'noopener');
+        window.open(buildPrefilledReportUrl(address, '', selectedReportCoordinates), '_blank', 'noopener');
       });
       document.getElementById('cancelReportWorkflow').addEventListener('click', closeReportWorkflow);
     }
 
     function startAddressReportWorkflow() {
+      selectedReportCoordinates = ListingLocations.actual(reportContextListing || {});
       if (activeMapPopup) activeMapPopup.remove();
       closeMobilePopup();
       renderAddressReportConfirmation();
@@ -1864,7 +1873,7 @@
       const headers = (table?.cols || []).map(column => column.label || column.id);
       return (table?.rows || []).map(row => Object.fromEntries(headers.map((header, index) => {
         const cell = row.c?.[index];
-        return [header, cell?.f ?? cell?.v ?? ''];
+        return [header, /^(Longitude|Latitude)\b/.test(header) ? (cell?.v ?? cell?.f ?? '') : (cell?.f ?? cell?.v ?? '')];
       })));
     }
 
@@ -1921,16 +1930,18 @@
     async function applyVisitorSheetRows(rows) {
       const submissionsByListingId = new Map();
       rows.forEach(row => {
-        const field = prefix => Object.entries(row).find(([name]) => name.startsWith(prefix))?.[1] || '';
+        const field = prefix => Object.entries(row).find(([name]) => name.trim().startsWith(prefix))?.[1] ?? '';
         const listingUrls = splitSubmittedLines(field('Airbnb and/or other listing URLs')).map(safeSubmittedUrl).filter(Boolean);
+        const coordinates = ListingLocations.actual({actual_longitude: field('Longitude (Use map to autofill)'), actual_latitude: field('Latitude (Use map to autofill)')});
         const submission = {
-          timestamp: String(row.Timestamp || ''),
-          address: String(row['Actual Address'] || '').trim(),
+          addressCoordinates: coordinates,
+          coordinateSource: coordinates ? 'submitted_pin' : null,
+          timestamp: String(field('Timestamp')),
+          address: String(field('Actual Address')).trim(),
           proofUrls: splitSubmittedLines(field('Proof URLs')).map(safeSubmittedUrl).filter(Boolean),
           licenseNumber: String(field('Does this listing have a license?')).trim()
         };
-        listingUrls.forEach(url => {
-          const id = listingIdFromUrl(url);
+        [...new Set(listingUrls.map(ListingLocations.listingKey))].forEach(id => {
           if (!id) return;
           if (!submissionsByListingId.has(id)) submissionsByListingId.set(id, []);
           submissionsByListingId.get(id).push(submission);
@@ -1938,7 +1949,8 @@
       });
       const knownLicenseAddresses = new Set([...licensedLocations.values()].map(reportAddressFor).map(normalizedStreetAddress).filter(Boolean));
       const refresh = item => {
-        item.visitor_submissions = submissionsByListingId.get(listingIdFromUrl(item.url)) || [];
+        item.visitor_submissions = submissionsByListingId.get(ListingLocations.listingKey(item.url)) || [];
+        ListingLocations.applySubmittedLocation(item, item.visitor_submissions);
         item.hasVisitorLicenseMatch = item.visitor_submissions.some(submission => submission.licenseNumber);
         item.hasVisitorAddressNoLicense = item.visitor_submissions.some(submission => {
           const address = normalizedStreetAddress(submission.address);
@@ -1949,9 +1961,9 @@
       locations.forEach(refresh);
       processedLocations.forEach(refresh);
       await Promise.all(processedLocations.map(async item => {
-        const unresolved = item.visitor_submissions.filter(submission => submission.address && !submission.licenseNumber);
+        const unresolved = item.visitor_submissions.filter(submission => submission.address && !submission.addressCoordinates);
         if (!unresolved.length) return;
-        const nearby = await loadParcelAddressesNear(Number(item.longitude), Number(item.latitude));
+        const nearby = await loadParcelAddressesNear(Number(item.longitude), Number(item.latitude)).catch(() => []);
         unresolved.forEach(submission => {
           const target = normalizedStreetAddress(submission.address);
           const matches = nearby.filter(record => normalizedStreetAddress(record[2]) === target);
@@ -1964,12 +1976,15 @@
             { longitude: best[0], latitude: best[1] }
           ) ? record : best);
           submission.addressCoordinates = [Number(closest[0]), Number(closest[1])];
+          submission.coordinateSource = 'parcel_address_match';
         });
       }));
       locations.forEach(item => {
-        const processed = processedLocations.find(candidate => listingIdFromUrl(candidate.url) === listingIdFromUrl(item.url));
+        const processed = processedLocations.find(candidate => ListingLocations.listingKey(candidate.url) === ListingLocations.listingKey(item.url));
         if (processed) item.visitor_submissions = processed.visitor_submissions;
       });
+      locations.forEach(refresh);
+      processedLocations.forEach(refresh);
     }
 
     function visitorSubmissionsFor(item) {
@@ -1995,7 +2010,7 @@
         }
         if (!item.hasVisitorAddressNoLicense || !submissions.length) return;
         submissions.forEach(submission => {
-          if (!Array.isArray(submission.addressCoordinates)) return;
+          if (ListingLocations.actual(item) || !Array.isArray(submission.addressCoordinates)) return;
           const addressCoordinates = submission.addressCoordinates.map(Number);
           features.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: [listingCoordinates, addressCoordinates] }, properties: { kind: 'address_connection' } });
           features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: addressCoordinates }, properties: { kind: 'submitted_address', address: submission.address || '' } });
@@ -2054,7 +2069,7 @@
     }
 
     async function loadLicensedRows() {
-      const response = await fetch(`county_licensed_locations.geojson?v=${Date.now()}`, { cache: 'no-store' });
+      const response = await fetch(`data/county_licenses/county_licensed_locations.geojson?v=${Date.now()}`, { cache: 'no-store' });
       if (!response.ok) throw new Error(`License location request failed (${response.status})`);
       const data = await response.json();
       (data.features || []).forEach(feature => {
@@ -2325,6 +2340,7 @@
         fetch(partUrl)
           .then(response => response.json())
           .then(async geojson => {
+            ListingLocations.addParcels(geojson.features || []);
             await licensedRowsReady;
             (geojson.features || []).forEach(feature => {
               const properties = feature.properties;
@@ -2739,13 +2755,19 @@
           return;
         }
         // Keep the selected point slightly below center so its card remains in view.
-        map.easeTo({ center: lngLat, offset: [0, 170], duration: 350, essential: true });
+        map.easeTo({ center: lngLat, offset: [0, Math.min(170, map.getContainer().clientHeight * 0.3)], duration: 350, essential: true });
         // A popup is replaced explicitly when another map feature is selected.  Do not
         // close it for ordinary map clicks, pans, or drags.
-        const popup = new maplibregl.Popup({ closeButton: true, closeOnClick: false, maxWidth })
+        const popup = new ListingMapPopup({ closeButton: true, closeOnClick: false, maxWidth, anchor: 'bottom' })
           .setLngLat(lngLat)
           .setHTML(html)
           .addTo(map);
+        const body = popup.getElement().querySelector('.listing-popup-frame');
+        if (body) {
+          const mapHeight = map.getContainer().clientHeight;
+          const pointY = mapHeight / 2 + Math.min(170, mapHeight * 0.3);
+          body.style.maxHeight = `${Math.max(80, pointY - 90)}px`;
+        }
         activeMapPopup = popup;
         popup.on('close', () => { if (activeMapPopup === popup) activeMapPopup = null; });
       }
@@ -2767,7 +2789,7 @@
       }
 
       function setLicenseConnection(features) {
-        map.getSource('license-connections')?.setData({ type: 'FeatureCollection', features });
+        map.getSource('license-connections')?.setData({ type: 'FeatureCollection', features: ListingLocations.licenseConnections(features, processedLocations) });
       }
 
       function drawLicenseConnectionsForListing(listing) {
@@ -2795,7 +2817,7 @@
         // A clustered listing has no individual on-map dot yet.  Only draw a
         // connection once its circle (or a spiderfied circle) is rendered.
         const visibleListingUrls = new Set(
-          map.queryRenderedFeatures({ layers: ['strv-circles', 'spiderfy-circles'] })
+          map.queryRenderedFeatures({ layers: ['strv-circles', 'spiderfy-circles', 'actual-listing-points'].filter(id => map.getLayer(id)) })
             .map(feature => String(feature.properties?.url || ''))
             .filter(Boolean)
         );
@@ -2807,7 +2829,7 @@
           .map(license => ({
             type: 'Feature',
             geometry: { type: 'LineString', coordinates: [[Number(listing.longitude), Number(listing.latitude)], [Number(license.longitude), Number(license.latitude)]] },
-            properties: { licenseNumber: licenseNumberFor(license), connectionType: visitorLicenseNumbers(listing).includes(licenseNumberFor(license)) ? 'visitor_submitted_license' : 'research_match' }
+            properties: { listingUrl: listing.url, licenseNumber: licenseNumberFor(license), connectionType: visitorLicenseNumbers(listing).includes(licenseNumberFor(license)) ? 'visitor_submitted_license' : 'research_match' }
           })));
         setLicenseConnection(features);
       }
@@ -2858,7 +2880,7 @@
       });
 
 // Popup + zoom for individual points (base layer)
-      map.on("click", "strv-circles", (e) => {
+      ListingLocations.onListingClick(map, 'strv-circles', (e) => {
         if (addressSelectionMode || newLocationPlacementMode) return;
         clearSpiderfy();
 
@@ -2916,12 +2938,8 @@
           `;
         }
 
-        // Fall back to approx address only if there's no verified address available
-        if (!addressHtml && loc.approximate_address) {
-          addressHtml = `<strong>Approx Address:</strong> ${loc.approximate_address}<br/>`;
-        }
 
-        const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
+        const complaintAddress = loc.actual_address || fullVerifiedAddress || loc.approximate_address || '';
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
         reportContextListing = loc;
         const researchHtml = researchStatusHtml(loc);
@@ -2929,7 +2947,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type || 'Listing'}</div>
-            ${addressHtml}
+            ${ListingLocations.details(loc)}${addressHtml}
             <strong>Host:</strong> ${loc.host_name || 'N/A'}<br/>
             ${loc.years_hosting ? `<small>(${loc.years_hosting} years hosting)</small><br/>` : ''}
             <hr/>
@@ -2993,7 +3011,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+            ${ListingLocations.details(loc)}
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>

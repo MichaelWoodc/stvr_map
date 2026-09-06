@@ -104,7 +104,8 @@
   <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="data_files/in_process_data/locations.js"></script>
+  <script src="../data_files/in_process_data/locations.js"></script>
+  <script src="../assets/js/listing_locations.js"></script>
 
   <script>
     // Precompute metrics
@@ -191,7 +192,7 @@
           color: "#ffffff",
           fillColor: markerColor,
           fillOpacity: 1
-        }).bindPopup(buildPopup(loc));
+        }).bindPopup(buildPopup(loc) + ListingLocations.details(loc));
 
         marker.bindTooltip(String(loc.guests), {
           permanent: true,
@@ -200,6 +201,7 @@
         });
 
         markerLayerGroup.addLayer(marker);
+        ListingLocations.leafletPair(loc, marker, markerLayerGroup);
       });
     }
 

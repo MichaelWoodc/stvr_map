@@ -372,6 +372,7 @@
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="../assets/css/map_popups.css">
 </head>
 <body>
 
@@ -460,7 +461,9 @@
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.js"></script>
+  <script src="../assets/js/map_popups.js"></script>
   <script src="unincorporated_locations.js"></script>
+  <script src="../assets/js/listing_locations.js"></script>
 
   <script>
     // Precompute metrics
@@ -566,6 +569,9 @@
       const content = document.getElementById('mobilePopupContent');
       if (!overlay || !content) return;
       content.innerHTML = html;
+      const fragment = document.createDocumentFragment();
+      while (content.firstChild) fragment.appendChild(content.firstChild);
+      content.appendChild(layoutListingPopup(fragment));
       overlay.classList.add('active');
     }
 
@@ -578,6 +584,7 @@
     }
 
     function toGeoJSON(data) {
+      ListingLocations.setVisible(data);
       return {
         type: "FeatureCollection",
         features: data.map(loc => ({
@@ -616,7 +623,7 @@
       if (parcelSearchMarker) parcelSearchMarker.remove();
       parcelSearchMarker = new maplibregl.Marker({ color: '#1976d2' })
         .setLngLat(centroid)
-        .setPopup(new maplibregl.Popup({ closeButton: true, closeOnClick: true })
+        .setPopup(new ListingMapPopup({ closeButton: true, closeOnClick: true })
           .setHTML(`<strong>Property address</strong><br/>${parcel.address}`))
         .addTo(map);
       map.flyTo({ center: centroid, zoom: 17, essential: true });
@@ -680,7 +687,7 @@
     const TOTAL_PARCEL_PARTS = 9;
     const parcelIndexCache = [];
     let parcelSearchMarker = null;
-    const municipalityGeojsonUrl = "Municipality.geojson";
+    const municipalityGeojsonUrl = "../data/geography_files/Municipality.geojson";
     const excludedMunicipalities = new Set();
     let municipalityNames = [];
     const municipalityColors = {};
@@ -1136,7 +1143,7 @@
     }
 
     async function loadLicensedRows() {
-      const response = await fetch('STR Renewal List.ChathamCounty.2026.matched.csv');
+      const response = await fetch('../data/county_licenses/STR Renewal List.ChathamCounty.2026.matched.csv');
       if (!response.ok) throw new Error(`License CSV request failed (${response.status})`);
       parseCsv(await response.text()).forEach(row => {
         const pin = normalizePin(row.Parcel_PIN);
@@ -1603,7 +1610,7 @@
       }
 
 // Popup + zoom for individual points (base layer)
-      map.on("click", "strv-circles", (e) => {
+      ListingLocations.onListingClick(map, 'strv-circles', (e) => {
         clearSpiderfy();
 
         const loc = e.features[0].properties;
@@ -1659,12 +1666,8 @@
           `;
         }
 
-        // Fall back to approx address only if there's no verified address available
-        if (!addressHtml && loc.approximate_address) {
-          addressHtml = `<strong>Approx Address:</strong> ${loc.approximate_address}<br/>`;
-        }
 
-        const complaintAddress = fullVerifiedAddress || loc.approximate_address || '';
+        const complaintAddress = loc.actual_address || fullVerifiedAddress || loc.approximate_address || '';
         const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}`;
         const complaintViewUrl = `complaints.php?address=${encodeURIComponent(complaintAddress)}&unit=${encodeURIComponent(loc.unit || '')}&municipality=${encodeURIComponent(loc.municipality || '')}`;
         const researchHtml = researchStatusHtml(loc);
@@ -1672,7 +1675,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type || 'Listing'}</div>
-            ${addressHtml}
+            ${ListingLocations.details(loc)}${addressHtml}
             <strong>Host:</strong> ${loc.host_name || 'N/A'}<br/>
             ${loc.years_hosting ? `<small>(${loc.years_hosting} years hosting)</small><br/>` : ''}
             <hr/>
@@ -1692,7 +1695,7 @@
         if (window.innerWidth <= 768) {
           openMobilePopup(html);
         } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
+          new ListingMapPopup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
             .setLngLat(e.lngLat)
             .setHTML(html)
             .addTo(map);
@@ -1740,7 +1743,7 @@
         const html = `
           <div class="popup-content">
             <div class="popup-title">${loc.rental_type}</div>
-            <strong>Approx Address:</strong> ${loc.approximate_address}<br/>
+            ${ListingLocations.details(loc)}
             <strong>Host:</strong> ${loc.host_name}<hr/>
             <strong>Advertised Capacity:</strong> ${loc.guests}<br/>
             <strong>Bedrooms:</strong> ${loc.bedrooms}<br/>
@@ -1757,7 +1760,7 @@
         if (window.innerWidth <= 768) {
           openMobilePopup(html);
         } else {
-          new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
+          new ListingMapPopup({ closeButton: true, closeOnClick: true, maxWidth: '320px' })
             .setLngLat(e.lngLat)
             .setHTML(html)
             .addTo(map);
