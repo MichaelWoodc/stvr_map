@@ -130,7 +130,7 @@ const ListingLocations = (() => {
       const baseLabel = map.getStyle().layers.find(item => item.id === 'strv-labels');
       map.setPaintProperty(layer, 'circle-stroke-color', '#2563eb');
       if (map.getLayer('spiderfy-circles')) map.setPaintProperty('spiderfy-circles', 'circle-stroke-color', '#2563eb');
-      map.addLayer({id:'actual-listing-points', type:'circle', source:'actual-listing-locations', filter:['==', ['geometry-type'], 'Point'],
+      map.addLayer({id:'actual-listing-points', type:'circle', source:'actual-listing-locations', filter:['all', ['==', ['geometry-type'], 'Point'], ['!', ['get', 'isFullyVerifiedParcel']]],
         paint:{...baseCircle.paint, 'circle-stroke-color':['match', ['get','location_kind'], 'actual', '#9333ea', '#2563eb'], 'circle-stroke-width':3}});
       if (baseLabel) map.addLayer({id:'actual-listing-labels', type:'symbol', source:'actual-listing-locations', filter:['==', ['geometry-type'], 'Point'],
         layout:{...baseLabel.layout, 'text-allow-overlap':true, 'text-ignore-placement':true}, paint:{...baseLabel.paint}});

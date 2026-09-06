@@ -1262,6 +1262,7 @@
     let tybeeIslandGeometry = null;
     const licensedRowsByPin = new Map();
     const licensedLocations = new Map();
+    let licensedParcelGeojson = null;
     let licensedRowsReady;
     let countyResearchReady;
     let visitorSubmissionsReady;
@@ -1653,6 +1654,66 @@
       return geometry.coordinates.some(polygon => pointInPolygon(point, polygon[0]));
     }
 
+    function normalizedParcelPin(value) {
+      return String(value || '').toUpperCase().replace(/\s+/g, '');
+    }
+
+    function isFullyVerifiedCompliantParcel(feature) {
+      const parcelPin = normalizedParcelPin(feature.properties?.PIN);
+      if (!parcelPin) return false;
+      const parcelLicenses = [...licensedLocations.values()].filter(license =>
+        normalizedParcelPin(license.Parcel_PIN) === parcelPin
+      );
+      return processedLocations.some(listing => {
+        const actualPoint = ListingLocations.actual(listing);
+        const automaticMatch = hasAutomaticHostMatch(listing);
+        if ((!listing.hasMatchedLicense && !automaticMatch) || listing.isOverCapacity || !actualPoint) return false;
+        if (!pointInGeometry([listing.longitude, listing.latitude], feature.geometry) ||
+            !pointInGeometry(actualPoint, feature.geometry)) return false;
+        let matchedNumbers = listing.matched_license_numbers;
+        if (typeof matchedNumbers === 'string') {
+          try { matchedNumbers = JSON.parse(matchedNumbers); } catch { matchedNumbers = []; }
+        }
+        if (!Array.isArray(matchedNumbers)) matchedNumbers = [];
+        const automaticNumber = automaticMatchedLicenseNumber(listing);
+        if (automaticNumber) matchedNumbers.push(automaticNumber);
+        const matchesParcelLicense = parcelLicenses.some(license => {
+          const number = String(license.licenseNumber || license['Business License Number'] || '');
+          return matchedNumbers.map(String).includes(number);
+        });
+        if (matchesParcelLicense) listing.isFullyVerifiedParcel = true;
+        return matchesParcelLicense;
+      });
+    }
+
+    function updateFullyVerifiedParcelHighlights() {
+      if (!licensedParcelGeojson) return;
+      const fullyVerifiedFeatures = [];
+      processedLocations.forEach(listing => { listing.isFullyVerifiedParcel = false; });
+      licensedLocations.forEach(license => { license.isFullyVerifiedParcel = false; });
+      licensedParcelGeojson.features.forEach(feature => {
+        const fullyVerified = isFullyVerifiedCompliantParcel(feature);
+        feature.properties._fullyVerified = fullyVerified;
+        if (fullyVerified) {
+          const parcelPin = normalizedParcelPin(feature.properties?.PIN);
+          licensedLocations.forEach(license => {
+            if (normalizedParcelPin(license.Parcel_PIN) === parcelPin) license.isFullyVerifiedParcel = true;
+          });
+        }
+        if (!fullyVerified) return;
+        const centroid = getGeometryCentroid(feature.geometry);
+        if (centroid) fullyVerifiedFeatures.push({
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [centroid.lng, centroid.lat] },
+          properties: feature.properties
+        });
+      });
+      map.getSource('licensed-parcels')?.setData(licensedParcelGeojson);
+      map.getSource('fully-verified-parcels')?.setData({ type: 'FeatureCollection', features: fullyVerifiedFeatures });
+      map.getSource('strv')?.setData(toGeoJSON(processedLocations));
+      updateLicensedLocationLayers();
+    }
+
     function updateOverlappingZipHighlights() {
       if (!zipCodesGeojson || !map.getSource("zip-codes")) return;
       const toleranceYards = Number(document.getElementById("zipToleranceSlider").value) || 0;
@@ -1955,10 +2016,32 @@
       return visitorSubmissionsFor(item).map(submission => String(submission.licenseNumber || '').trim()).filter(Boolean);
     }
 
+    async function resolveResearchAddressCoordinates(items) {
+      await Promise.all(items.filter(item => item.research_address && !item.researchAddressCoordinates).map(async item => {
+        const target = normalizedStreetAddress(item.research_address);
+        const nearby = await loadParcelAddressesNear(Number(item.longitude), Number(item.latitude)).catch(() => []);
+        const matches = nearby.filter(record => normalizedStreetAddress(record[2]) === target);
+        if (!matches.length) return;
+        const closest = matches.reduce((best, record) => squaredDistanceMeters(
+          { longitude: item.longitude, latitude: item.latitude },
+          { longitude: record[0], latitude: record[1] }
+        ) < squaredDistanceMeters(
+          { longitude: item.longitude, latitude: item.latitude },
+          { longitude: best[0], latitude: best[1] }
+        ) ? record : best);
+        item.researchAddressCoordinates = [Number(closest[0]), Number(closest[1])];
+      }));
+    }
+
     function updateVisitorAddressOverlays(items = currentFilteredListings) {
       const features = [];
       items.forEach(item => {
         const listingCoordinates = [Number(item.displayLongitude ?? item.longitude), Number(item.displayLatitude ?? item.latitude)];
+        if (item.researchAddressCoordinates) {
+          const researchProperties = { kind: 'research_address', address: item.research_address, listingUrl: item.url, isOverCapacity: item.isOverCapacity, overAmount: item.overAmount, inOverlappingZip: item.inOverlappingZip, isConfirmedUnlicensed: item.isConfirmedUnlicensed, hasMatchedLicense: item.hasMatchedLicense, isLikelyUnlicensed: item.isLikelyUnlicensed };
+          features.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: [listingCoordinates, item.researchAddressCoordinates] }, properties: { ...researchProperties, kind: 'research_address_connection' } });
+          features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: item.researchAddressCoordinates }, properties: researchProperties });
+        }
         const submissions = visitorSubmissionsFor(item).filter(submission => !submission.licenseNumber);
         const showNoLicenseWarning = item.isConfirmedUnlicensed || item.license_status === 'unlicensed' || item.hasVisitorAddressNoLicense;
         if (showNoLicenseWarning) {
@@ -1968,8 +2051,9 @@
         submissions.forEach(submission => {
           if (ListingLocations.actual(item) || !Array.isArray(submission.addressCoordinates)) return;
           const addressCoordinates = submission.addressCoordinates.map(Number);
-          features.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: [listingCoordinates, addressCoordinates] }, properties: { kind: 'address_connection' } });
-          features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: addressCoordinates }, properties: { kind: 'submitted_address', address: submission.address || '' } });
+          const submittedProperties = { kind: 'submitted_address', address: submission.address || '', listingUrl: item.url, isOverCapacity: item.isOverCapacity, overAmount: item.overAmount, inOverlappingZip: item.inOverlappingZip, isConfirmedUnlicensed: item.isConfirmedUnlicensed, hasMatchedLicense: item.hasMatchedLicense, isLikelyUnlicensed: item.isLikelyUnlicensed };
+          features.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: [listingCoordinates, addressCoordinates] }, properties: { ...submittedProperties, kind: 'address_connection' } });
+          features.push({ type: 'Feature', geometry: { type: 'Point', coordinates: addressCoordinates }, properties: submittedProperties });
         });
       });
       map.getSource('visitor-address-overlays')?.setData({ type: 'FeatureCollection', features });
@@ -2093,14 +2177,14 @@
         if (Array.isArray(nearbyListings) && !nearbyListings.some(listing => squaredDistanceMeters(listing, license) <= radiusSquared)) return false;
         return true;
       });
-      const licensesWithoutMatchedListings = visibleLicenses.filter(license => !hasMatchedListingForLicense(license));
+      const licensesNeedingCoverage = visibleLicenses.filter(license => !hasMatchedListingForLicense(license));
       const points = {
         type: 'FeatureCollection',
         features: visibleLicenses.map(license => ({ type: 'Feature', geometry: { type: 'Point', coordinates: [license.longitude, license.latitude] }, properties: license }))
       };
       const coverage = {
         type: 'FeatureCollection',
-        features: radiusMeters > 0 ? licensesWithoutMatchedListings.map(license => ({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [coordinatesForRadius(license.longitude, license.latitude, radiusMeters)] }, properties: license })) : []
+        features: radiusMeters > 0 ? licensesNeedingCoverage.map(license => ({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [coordinatesForRadius(license.longitude, license.latitude, radiusMeters)] }, properties: license })) : []
       };
       map.getSource('licensed-locations')?.setData(points);
       map.getSource('license-coverage')?.setData(coverage);
@@ -2180,13 +2264,17 @@
         .then(() => {
           setScopeMetadata([...licensedLocations.values()]);
           updateLicensedLocationLayers();
+          updateFullyVerifiedParcelHighlights();
           updatePropertyAutocomplete();
           if (unincorporatedGeometry) applyFilters();
         })
         .catch(error => console.error('Failed to load licensed locations:', error));
       countyResearchReady = loadCountyLicenseResearch()
-        .then(() => {
+        .then(async () => {
+          await resolveResearchAddressCoordinates(processedLocations);
           map.getSource('found-address-connections')?.setData(duplicateAddressConnections(processedLocations));
+          updateVisitorAddressOverlays();
+          updateFullyVerifiedParcelHighlights();
           updatePropertyAutocomplete();
           if (unincorporatedGeometry) applyFilters();
         })
@@ -2196,6 +2284,7 @@
           await applyVisitorSheetRows(rows);
           map.getSource('strv')?.setData(toGeoJSON(processedLocations));
           updateVisitorAddressOverlays();
+          updateFullyVerifiedParcelHighlights();
           updatePropertyAutocomplete();
           if (unincorporatedGeometry) applyFilters();
         })
@@ -2213,6 +2302,27 @@
       map.addSource('found-address-connections', { type: 'geojson', data: duplicateAddressConnections(processedLocations) });
       map.addSource('visitor-address-overlays', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addSource('license-balance-heatmap', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addSource('licensed-parcels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addSource('fully-verified-parcels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({
+        id: 'licensed-parcel-fills', type: 'fill', source: 'licensed-parcels', minzoom: 14,
+        paint: {
+          'fill-color': ['case', ['boolean', ['get', '_fullyVerified'], false], '#047857', '#16a34a'],
+          'fill-opacity': ['case', ['boolean', ['get', '_fullyVerified'], false], 0.34, 0.2]
+        }
+      });
+      map.addLayer({
+        id: 'licensed-parcel-outlines', type: 'line', source: 'licensed-parcels', minzoom: 14,
+        paint: {
+          'line-color': ['case', ['boolean', ['get', '_fullyVerified'], false], '#065f46', '#15803d'],
+          'line-width': 0.75,
+          'line-opacity': ['case', ['boolean', ['get', '_fullyVerified'], false], 0.9, 0.7]
+        }
+      });
+      map.addLayer({
+        id: 'fully-verified-parcel-points', type: 'circle', source: 'fully-verified-parcels', minzoom: 14,
+        paint: { 'circle-radius': 7, 'circle-color': '#047857', 'circle-opacity': 0.98, 'circle-stroke-width': 2, 'circle-stroke-color': '#ffffff' }
+      });
       map.addLayer({
         id: 'license-coverage-fill', type: 'fill', source: 'license-coverage',
         paint: { 'fill-color': '#22c55e', 'fill-opacity': 0.16 }
@@ -2265,7 +2375,7 @@
       });
       map.addLayer({
         id: 'licensed-location-points', type: 'circle', source: 'licensed-locations',
-        filter: ['!', ['has', 'point_count']],
+        filter: ['all', ['!', ['has', 'point_count']], ['!', ['get', 'isFullyVerifiedParcel']]],
         paint: { 'circle-radius': 5, 'circle-color': '#16a34a', 'circle-opacity': 0.9, 'circle-stroke-width': 1.5, 'circle-stroke-color': '#ffffff' }
       });
       map.addLayer({
@@ -2277,75 +2387,6 @@
         }
       });
 
-      // Load the same split property files used by map_example.html.  They
-      // provide address suggestions and a parcel centroid for unmatched searches.
-      for (let i = 1; i <= TOTAL_PARCEL_PARTS; i++) {
-        const partUrl = `data/geography_files/split_parcels/Parcel_Digest_2025_part${i}.geojson`;
-        const sourceId = `parcel-addresses-${i}`;
-        map.addSource(sourceId, { type: 'geojson', data: partUrl });
-        map.addLayer({
-          id: `parcel-fills-${i}`,
-          type: 'fill',
-          source: sourceId,
-          minzoom: 14,
-          paint: {
-            'fill-color': '#3b82f6',
-            'fill-opacity': 0.035
-          }
-        });
-        map.addLayer({
-          id: `parcel-outlines-${i}`,
-          type: 'line',
-          source: sourceId,
-          minzoom: 14,
-          paint: {
-            'line-color': '#2563eb',
-            'line-width': 0.75,
-            'line-opacity': 0.28
-          }
-        });
-        fetch(partUrl)
-          .then(response => response.json())
-          .then(async geojson => {
-            ListingLocations.addParcels(geojson.features || []);
-            await licensedRowsReady;
-            (geojson.features || []).forEach(feature => {
-              const properties = feature.properties;
-              if (!properties || !properties.PropAddress_Full) return;
-              const address = `${properties.PropAddress_Full}, ${properties.PropAddress_City || 'SAVANNAH'}, ${properties.PropAddress_State || 'GA'} ${properties.PropAddress_Zip || ''}`.trim();
-              parcelIndexCache.push({
-                address,
-                searchAddress: address.toLowerCase().replace(/\s+/g, ' '),
-                geometry: feature.geometry
-              });
-
-              const matchingLicenses = licensedRowsByPin.get(normalizePin(properties.PIN));
-              if (matchingLicenses) {
-                const centroid = getGeometryCentroid(feature.geometry);
-                if (centroid) {
-                  matchingLicenses.forEach(license => {
-                    const key = license['Business License Number'] || `${properties.PIN}-${license.Parcel_Matched_Address}`;
-                    licensedLocations.set(key, {
-                      ...license,
-                      longitude: centroid.lng,
-                      latitude: centroid.lat,
-                      licenseNumber: license['Business License Number'],
-                      matchedAddress: license.Parcel_Matched_Address
-                    });
-                  });
-                }
-              }
-            });
-            setScopeMetadata([...licensedLocations.values()]);
-            updateLicensedLocationLayers();
-            if (unincorporatedGeometry) applyFilters();
-            if (document.getElementById('propertySearchInput').value.trim().length >= 3) {
-              updatePropertyAutocomplete();
-            }
-          })
-          .catch(error => console.error(`Failed to load parcel address index part ${i}:`, error));
-      }
-
       // Main source with clustering
       map.addSource("strv", {
         type: "geojson",
@@ -2354,6 +2395,13 @@
         clusterRadius: 40,
         clusterMaxZoom: 14
       });
+      fetch('data/geography_files/licensed_parcels.geojson')
+        .then(response => response.json())
+        .then(data => {
+          licensedParcelGeojson = data;
+          updateFullyVerifiedParcelHighlights();
+        })
+        .catch(error => console.error('Failed to load licensed parcel render data:', error));
 
       // Spiderfy source
       map.addSource("spiderfy", {
@@ -2361,7 +2409,11 @@
         data: { type: "FeatureCollection", features: [] }
       });
       map.addLayer({ id: 'visitor-address-line', type: 'line', source: 'visitor-address-overlays', filter: ['==', ['geometry-type'], 'LineString'], paint: { 'line-color': '#dc2626', 'line-width': 3, 'line-opacity': 0.9, 'line-dasharray': [2, 1] } });
-      map.addLayer({ id: 'visitor-address-point', type: 'circle', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'submitted_address'], paint: { 'circle-radius': 7, 'circle-color': '#dc2626', 'circle-stroke-color': '#fff', 'circle-stroke-width': 2 } });
+      const addressPointColor = ['case', ['get', 'inOverlappingZip'], '#ef4444', ['get', 'isConfirmedUnlicensed'], '#dc2626', ['get', 'isOverCapacity'], '#d32f2f', ['get', 'hasMatchedLicense'], '#388e3c', ['get', 'isLikelyUnlicensed'], '#dc2626', '#388e3c'];
+      const addressPointFilter = ['any', ['==', ['get', 'kind'], 'submitted_address'], ['==', ['get', 'kind'], 'research_address']];
+      map.addLayer({ id: 'visitor-address-point', type: 'circle', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'submitted_address'], paint: { 'circle-radius': 12, 'circle-color': addressPointColor, 'circle-stroke-color': '#9333ea', 'circle-stroke-width': 3 } });
+      map.addLayer({ id: 'research-address-point', type: 'circle', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'research_address'], paint: { 'circle-radius': 12, 'circle-color': addressPointColor, 'circle-stroke-color': '#9333ea', 'circle-stroke-width': 3 } });
+      map.addLayer({ id: 'address-point-labels', type: 'symbol', source: 'visitor-address-overlays', filter: addressPointFilter, layout: { 'text-field': ['case', ['get', 'isOverCapacity'], ['to-string', ['get', 'overAmount']], ''], 'text-size': 11, 'text-allow-overlap': true, 'text-ignore-placement': true }, paint: { 'text-color': '#000', 'text-halo-color': '#fff', 'text-halo-width': 0.8 } });
       map.addLayer({ id: 'visitor-unlicensed-warning', type: 'symbol', source: 'visitor-address-overlays', filter: ['==', ['get', 'kind'], 'warning'], layout: { 'text-field': '⚠️', 'text-size': 22, 'text-offset': [1.15, -1.15], 'text-allow-overlap': true, 'text-ignore-placement': true } });
 
       map.addSource('parcel-address-labels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
@@ -2383,7 +2435,7 @@
       map.on('moveend', updateVisibleParcelAddresses);
 
       // Municipality boundaries
-      map.addSource("zip-codes", { type: "geojson", data: zipCodesGeojsonUrl });
+      map.addSource("zip-codes", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
       map.addLayer({
         id: "zip-code-fill",
         type: "fill",
@@ -2569,7 +2621,7 @@
         id: "strv-circles",
         type: "circle",
         source: "strv",
-        filter: ["!", ["has", "point_count"]],
+        filter: ["all", ["!", ["has", "point_count"]], ["!", ["get", "isFullyVerifiedParcel"]]],
         paint: {
           "circle-radius": 12,
           "circle-color": [
@@ -2631,6 +2683,7 @@
         id: "spiderfy-circles",
         type: "circle",
         source: "spiderfy",
+        filter: ["!", ["get", "isFullyVerifiedParcel"]],
         paint: {
           "circle-radius": 10,
           "circle-color": [
@@ -2912,6 +2965,21 @@
       });
 
 // Popup + zoom for individual points (base layer)
+  const showAddressOverlayPopup = event => {
+    if (addressSelectionMode || newLocationPlacementMode) return;
+    const listingUrl = String(event.features[0].properties?.listingUrl || '');
+    const loc = processedLocations.find(item => String(item.url || '') === listingUrl);
+    if (!loc) return;
+    const excessive = Number(loc.over_occupancy || loc.overAmount || 0);
+    const warning = excessive > 0 ? `<div class="warning-text">⚠️ OVER CAPACITY BY ${excessive} GUESTS</div>` : '';
+    reportContextListing = loc;
+    const complaintAddress = loc.actual_address || loc.approximate_address || '';
+    const complaintIntroUrl = `complaint_intro.html?address=${encodeURIComponent(complaintAddress)}&municipality=${encodeURIComponent(loc.municipality || '')}&host_name=${encodeURIComponent(loc.host_name || '')}&url=${encodeURIComponent(loc.url || '')}&rental_type=${encodeURIComponent(loc.rental_type || '')}&lat=${encodeURIComponent(loc.latitude || '')}&lng=${encodeURIComponent(loc.longitude || '')}`;
+    const html = `<div class="popup-content"><div class="popup-title">${loc.rental_type || 'Listing'}</div>${ListingLocations.details(loc)}<strong>Host:</strong> ${loc.host_name || 'N/A'}<hr/><strong>Advertised Capacity:</strong> ${loc.guests || 'N/A'}<br/><strong>Bedrooms:</strong> ${loc.bedrooms || 'N/A'}<br/><strong>Legal Limit:</strong> ${loc.allowed_guests || 'N/A'}<br/>${warning}${researchStatusHtml(loc)}${automaticHostMatchHtml(loc)}<hr/><a class="airbnb-link" href="${loc.url}" target="_blank">View Listing</a><div class="listing-action-grid"><button class="action-link secondary" type="button" onclick="startAddressReportWorkflow()">Report address info</button><button class="action-link secondary" type="button" onclick="startLicenseReportWorkflow()">Report license info</button>${deadListingReportButton(loc)}<a class="action-link" href="${complaintIntroUrl}" target="_blank">Submit a complaint</a></div></div>`;
+    showSelectionPopup(event.lngLat, html);
+  };
+      map.on('click', 'research-address-point', showAddressOverlayPopup);
+      map.on('click', 'visitor-address-point', showAddressOverlayPopup);
       ListingLocations.onListingClick(map, 'strv-circles', (e) => {
         if (addressSelectionMode || newLocationPlacementMode) return;
         clearSpiderfy();
