@@ -57,7 +57,13 @@ const ListingLocations = (() => {
     return loc;
   }
   function details(loc) {
-    return `<div class="listing-location-details"><strong>Airbnb approximate address:</strong> ${escape(loc.airbnb_approximate_address ?? loc.approximate_address ?? '')}<br/><strong>${loc.actual_location_source === 'visitor_parcel_match' ? 'Reported address (parcel location, unverified)' : loc.actual_location_source === 'visitor_submission' ? 'Submitted actual address (unverified)' : 'Actual address'}:</strong> ${escape(loc.actual_address || 'Not confirmed')}${actual(loc) ? '<br/><span style="color:#047857">Blue outline: Airbnb location. Purple outline: reported location. Locations on the same parcel share one dot; separate parcels are joined by a line.</span>' : ''}</div>`;
+    const actualAddress = String(loc.actual_address || '').trim();
+    const approximateAddress = loc.airbnb_approximate_address ?? loc.approximate_address ?? '';
+    const addressLabel = actualAddress
+      ? (loc.actual_location_source === 'visitor_parcel_match' ? 'Reported address (parcel location, unverified)' : loc.actual_location_source === 'visitor_submission' ? 'Submitted actual address (unverified)' : 'Actual address')
+      : 'Airbnb approximate address';
+    const address = actualAddress || approximateAddress || 'Not confirmed';
+    return `<div class="listing-location-details"><strong>${addressLabel}:</strong> ${escape(address)}${actual(loc) ? '<br/><span style="color:#047857">Blue outline: Airbnb location. Purple outline: reported location. Locations on the same parcel share one dot; separate parcels are joined by a line.</span>' : ''}</div>`;
   }
   let visible = [], activeMap = null, lastData = '';
   const collection = features => ({type: 'FeatureCollection', features});
@@ -125,14 +131,14 @@ const ListingLocations = (() => {
     if (!map.getSource('actual-listing-locations')) {
       activeMap = map;
       map.addSource('actual-listing-locations', {type:'geojson', data: collection([])});
-      map.addLayer({id:'actual-listing-lines', type:'line', source:'actual-listing-locations', filter:['==', ['geometry-type'], 'LineString'], paint:{'line-color':'#047857', 'line-width':2, 'line-dasharray':[3,2]}});
+      map.addLayer({id:'actual-listing-lines', type:'line', source:'actual-listing-locations', minzoom:14, filter:['==', ['geometry-type'], 'LineString'], paint:{'line-color':'#047857', 'line-width':2, 'line-dasharray':[3,2]}});
       const baseCircle = map.getStyle().layers.find(item => item.id === layer);
       const baseLabel = map.getStyle().layers.find(item => item.id === 'strv-labels');
       map.setPaintProperty(layer, 'circle-stroke-color', '#2563eb');
       if (map.getLayer('spiderfy-circles')) map.setPaintProperty('spiderfy-circles', 'circle-stroke-color', '#2563eb');
-      map.addLayer({id:'actual-listing-points', type:'circle', source:'actual-listing-locations', filter:['all', ['==', ['geometry-type'], 'Point'], ['!', ['get', 'isFullyVerifiedParcel']]],
+      map.addLayer({id:'actual-listing-points', type:'circle', source:'actual-listing-locations', minzoom:14, filter:['all', ['==', ['geometry-type'], 'Point'], ['!', ['get', 'isFullyVerifiedParcel']]],
         paint:{...baseCircle.paint, 'circle-stroke-color':['match', ['get','location_kind'], 'actual', '#9333ea', '#2563eb'], 'circle-stroke-width':3}});
-      if (baseLabel) map.addLayer({id:'actual-listing-labels', type:'symbol', source:'actual-listing-locations', filter:['==', ['geometry-type'], 'Point'],
+      if (baseLabel) map.addLayer({id:'actual-listing-labels', type:'symbol', source:'actual-listing-locations', minzoom:14, filter:['==', ['geometry-type'], 'Point'],
         layout:{...baseLabel.layout, 'text-allow-overlap':true, 'text-ignore-placement':true}, paint:{...baseLabel.paint}});
       map.on('click', 'actual-listing-points', callback);
       map.on('mouseenter', 'actual-listing-points', () => {map.getCanvas().style.cursor = 'pointer';});
