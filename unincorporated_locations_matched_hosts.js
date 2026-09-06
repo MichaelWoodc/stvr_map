@@ -31072,11 +31072,10 @@ const locations = [
     "percent_over": -16.666666666666664,
     "host_license_match": {
       "matched": false,
-      "match_type": "excluded_confirmed_unlicensed",
+      "match_type": "none",
       "confidence": "none",
       "search_radius_meters": 1100,
-      "candidate_count": 0,
-      "exclusion_reason": "confirmed_unlicensed_research_status"
+      "candidate_count": 0
     },
     "host_license_candidates": []
   },

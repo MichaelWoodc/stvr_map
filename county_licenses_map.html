@@ -7,6 +7,8 @@
 
   <link href="https://unpkg.com/maplibre-gl@3.6.0/dist/maplibre-gl.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="county_map_submission.css">
+  <script src="county_map_submission.js"></script>
   <style>
     body {
       background-color: #1e1e1e;
@@ -483,11 +485,48 @@
         bottom: calc(72vh + 8px);
       }
     }
+
+    /* Keep popup dismissal controls visible inside their scrolling cards. */
+    .data-disclaimer-card .popup-dismiss,
+    .report-workflow-card .popup-dismiss,
+    .mobile-popup-card .close-button,
+    .maplibregl-popup-content .maplibregl-popup-close-button {
+      position: sticky;
+      top: 0;
+      right: 0;
+      z-index: 10;
+      display: block;
+      flex: 0 0 44px;
+      box-sizing: border-box;
+      width: 44px;
+      height: 44px;
+      margin: 0 0 8px auto;
+      padding: 0;
+      border: 1px solid #cbd5e1;
+      border-radius: 50%;
+      background: #fff;
+      color: #1f2937;
+      font-size: 28px;
+      font-weight: normal;
+      line-height: 42px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,.18);
+    }
+    .popup-dismiss:focus-visible,
+    .mobile-popup-card .close-button:focus-visible,
+    .maplibregl-popup-close-button:focus-visible {
+      outline: 3px solid #1976d2;
+      outline-offset: 2px;
+    }
+    .maplibregl-popup-content { max-height: calc(100dvh - 100px); overflow-y: auto; }
+    .mobile-popup-card { box-sizing: border-box; overflow-y: auto; }
   </style>
 </head>
 <body>
   <div id="dataDisclaimerOverlay" class="data-disclaimer-overlay" role="dialog" aria-modal="true" aria-labelledby="dataDisclaimerTitle">
     <div class="data-disclaimer-card">
+      <button class="popup-dismiss" type="button" aria-label="Close popup" title="Close" onclick="this.closest('.data-disclaimer-overlay').classList.add('dismissed')">&times;</button>
       <h2 id="dataDisclaimerTitle">Important data disclaimer</h2>
       <p>This is an independent research map. It is not affiliated with, endorsed by, or verified by Chatham County, any municipality, or any other government agency.</p>
       <p>Collecting listing data from Airbnb can take several weeks. Listings may change or become unavailable before collection and review are finished, so some links may already be inactive.</p>
@@ -496,29 +535,50 @@
     </div>
   </div>
 
-  <h2>Chatham County STVR Compliance Map</h2>
+  <header class="county-title-bar">
+    <details id="countyMenu" class="county-menu">
+      <summary>Menu</summary>
+      <nav aria-label="Map menu">
+        <button id="newLocationButton" type="button">Submit a new location</button>
+        <a href="about.html">About</a>
+      </nav>
+    </details>
+    <h2>Chatham County STVR Compliance Map</h2>
+  </header>
+  <section id="newLocationPanel" class="new-location-panel" aria-label="Submit a new location" hidden>
+    <strong>Submit a new location</strong>
+    <p id="newLocationStatus" role="status">Click or tap the map to drop a pin.</p>
+    <label for="newLocationAddress">Street address (confirm or edit)</label>
+    <input id="newLocationAddress" type="text" autocomplete="street-address" disabled>
+    <p id="newLocationCoordinates"></p>
+    <button id="newLocationContinue" type="button" disabled>Continue to submission form</button>
+    <button id="newLocationCancel" type="button">Cancel</button>
+  </section>
   <div id="map"></div>
   <div id="mobilePopupOverlay" class="mobile-popup-overlay" role="dialog" aria-modal="true">
     <div class="mobile-popup-card">
-      <button class="close-button" id="mobilePopupClose">×</button>
+      <button class="close-button" id="mobilePopupClose" type="button" aria-label="Close property popup" title="Close">×</button>
       <div id="mobilePopupContent"></div>
     </div>
   </div>
   <div id="reportWorkflowOverlay" class="report-workflow-overlay" role="dialog" aria-modal="true" aria-labelledby="reportWorkflowTitle">
     <div class="report-workflow-card">
+      <button class="popup-dismiss" type="button" aria-label="Close report popup" title="Close" onclick="closeReportWorkflow()">&times;</button>
       <h3 id="reportWorkflowTitle">Report information</h3>
       <div id="reportWorkflowContent"></div>
     </div>
   </div>
   <div id="revenueEstimateOverlay" class="data-disclaimer-overlay dismissed" role="dialog" aria-modal="true" aria-labelledby="revenueEstimateTitle">
     <div class="data-disclaimer-card">
+      <button class="popup-dismiss" type="button" aria-label="Close popup" title="Close" onclick="this.closest('.data-disclaimer-overlay').classList.add('dismissed')">&times;</button>
       <h2 id="revenueEstimateTitle">Potential revenue shortfall estimate</h2>
-      <p id="revenueEstimateExplanation"></p>
+      <p id="revenueEstimateExplanation" style="white-space: pre-line"></p>
+      <p><a href="about_data.html" target="_blank" rel="noopener noreferrer">View the data page: county license list, open records letter, and CSV response</a></p>
       <p><a href="https://cms.chathamcountyga.gov/api/assets/buildingsafety/35d420d1-28d8-4770-ab27-956b26492d68?download=0" target="_blank" rel="noopener noreferrer">View the Chatham County fee information</a></p>
-      <p>This is only an estimate based on listings currently categorized as having no license found. It does not establish that a license was legally required, that a fee was unpaid, or that the listing was operating.</p>
+      <p>This range estimates potential license fees from likely unlicensed properties and properties whose status is still undetermined, allowing for the county's legitimate licenses. The likely unlicensed properties have been traced to an address that seems plausible, but there has been no licensed issued for a short-term vacation rental at that address, i.e.  they do not appear in the county license list used by this project. It does not establish that a license was legally required, that a fee was unpaid, or that the listing was operating.</p>
       <p>Tax revenue is also uncertain. Without complete, property-level tracking, taxes could be remitted to an incorrect agency, and this independent project has no way to verify whether taxes were collected, owed, or distributed correctly.</p>
       <h3>Why jurisdiction boundaries matter</h3>
-      <p>A 2026 report describes a Hochatown, Oklahoma lawsuit alleging that lodging taxes were routed to neighboring Broken Bow because Hochatown properties use Broken Bow’s ZIP code. The report says Hochatown collects approximately $4.35 million in lodging taxes annually, while the exact amount allegedly misdirected remains unknown. The map’s ZIP-code and jurisdiction-overlap tools are provided to help identify places where postal and government boundaries differ; they do not prove that any tax was routed incorrectly. <a href="https://staystra.com/hochatown-airbnb-lodging-tax-lawsuit-2026/" target="_blank" rel="noopener noreferrer">Read the Hochatown report</a>.</p>
+      <p>A 2026 report describes a Hochatown, Oklahoma lawsuit alleging that lodging taxes were routed to neighboring Broken Bow because Hochatown properties use Broken Bow's ZIP code. The report says Hochatown collects approximately $4.35 million in lodging taxes annually, while the exact amount allegedly misdirected remains unknown. The map’s ZIP-code and jurisdiction-overlap tools are provided to help identify places where postal and government boundaries differ; they do not prove that any tax was routed incorrectly. <a href="https://staystra.com/hochatown-airbnb-lodging-tax-lawsuit-2026/" target="_blank" rel="noopener noreferrer">Read the Hochatown report</a>.</p>
       <h3>Tax-collection context</h3>
       <ul>
         <li>South Carolina reporting says Airbnb agreed to a $60 million settlement with 16 communities over claims involving uncollected tourism taxes. <a href="https://www.myrtlebeachonline.com/news/business/tourism/article300616349.html" target="_blank" rel="noopener noreferrer">Source</a></li>
@@ -534,7 +594,7 @@
     <div class="filter-header">
       <div class="filter-title">Likely unlicensed properties by host (<span id="unlicensedListingTotal">0</span>)</div>
       <button class="selected-host-indicator" id="selectedHostIndicator" type="button" title="Clear selected host"></button>
-      <button class="revenue-shortfall-button" id="revenueShortfallButton" type="button">Potential license-fee revenue shortfall: $0</button>
+      <button class="revenue-shortfall-button" id="revenueShortfallButton" type="button">Potential license-fee revenue shortfall: calculating?</button>
       <button class="toggle-button" id="clearHostFilterBtn" type="button">Clear</button>
       <button class="toggle-button" id="toggleHostsBtn" aria-expanded="false">Show</button>
     </div>
@@ -984,6 +1044,26 @@
       list.style.display = results.length ? 'block' : 'none';
     }
 
+    function updateRevenueEstimate() {
+      const licenseFee = 350;
+      // Full county renewal inventory, including licenses without map coordinates.
+      const legitimateLicenseCount = 318;
+      const scoped = processedLocations.filter(item => !unincorporatedGeometry || isWithinCountyScope(item));
+      const confirmed = scoped.filter(item => item.isConfirmedUnlicensed).length;
+      const totalListings = scoped.length;
+      const upperCount = Math.max(0, totalListings - legitimateLicenseCount);
+      const number = value => value.toLocaleString('en-US');
+      const money = value => '$' + number(value * licenseFee);
+      const range = money(confirmed) + ' - ' + money(upperCount);
+      document.getElementById('revenueShortfallButton').textContent = 'Potential license-fee revenue shortfall: ' + range;
+      document.getElementById('revenueEstimateExplanation').textContent =
+        'Potential license-fee revenue range: ' + range + '.\n\n' +
+        'Lower estimate\n' + number(confirmed) + ' likely unlicensed properties with plausible addresses times $350 = ' + money(confirmed) + '.\n\n' +
+        'Upper estimate\n' + number(totalListings) + ' total county listings minus ' + number(legitimateLicenseCount) + ' total county licenses = ' + number(upperCount) + ' potentially unlicensed properties.\n' +
+        number(upperCount) + ' properties times $350 = ' + money(upperCount) + '.\n\n' +
+        'The upper estimate uses the full listing count in the counties boundaries, regardless of host, search, or license-status filters. It subtracts all 318 county licenses once, including licenses already matched to listings. The lower estimate updates as properties are confirmed as licensed or likely unlicensed. This estimate assumes one license per property.';
+    }
+
     function updateUnlicensedHostList() {
       const groups = new Map();
       processedLocations.filter(loc => loc.isConfirmedUnlicensed && matchesActiveMarkerFilters(loc, false)).forEach(loc => {
@@ -996,8 +1076,7 @@
       list.innerHTML = '';
       const unlicensedCount = [...groups.values()].reduce((total, listings) => total + listings.length, 0);
       document.getElementById('unlicensedListingTotal').textContent = unlicensedCount;
-      document.getElementById('revenueShortfallButton').textContent = `Potential license-fee revenue shortfall: $${(unlicensedCount * 350).toLocaleString()}`;
-      document.getElementById('revenueEstimateExplanation').textContent = `${unlicensedCount.toLocaleString()} currently displayed properties × $350 per license = $${(unlicensedCount * 350).toLocaleString()} in potential license-fee revenue.`;
+      updateRevenueEstimate();
       [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([hostName, listings]) => {
         const group = document.createElement('div');
         group.className = `host-group${expandedHostName === hostName ? ' expanded' : ''}${selectedHostName === hostName ? ' selected' : ''}`;
@@ -2750,13 +2829,13 @@
       }
 
       map.on('click', 'licensed-location-points', event => {
-        if (addressSelectionMode) return;
+        if (addressSelectionMode || newLocationPlacementMode) return;
         const license = event.features[0].properties;
         const matchCount = drawLicenseConnectionsForLicense(license);
         showSelectionPopup(event.lngLat, licensePopupHtml(license, matchCount), '360px');
       });
       map.on('click', 'licensed-location-clusters', event => {
-        if (addressSelectionMode) return;
+        if (addressSelectionMode || newLocationPlacementMode) return;
         const feature = event.features[0];
         const source = map.getSource('licensed-locations');
         source.getClusterExpansionZoom(feature.properties.cluster_id, (error, zoom) => {
@@ -2780,7 +2859,7 @@
 
 // Popup + zoom for individual points (base layer)
       map.on("click", "strv-circles", (e) => {
-        if (addressSelectionMode) return;
+        if (addressSelectionMode || newLocationPlacementMode) return;
         clearSpiderfy();
 
         const loc = e.features[0].properties;
@@ -2873,7 +2952,7 @@
 
       // Popup + zoom for spiderfied points
       map.on("click", "spiderfy-circles", (e) => {
-        if (addressSelectionMode) return;
+        if (addressSelectionMode || newLocationPlacementMode) return;
         const loc = e.features[0].properties;
         drawLicenseConnectionsForListing(loc);
         const excessive = loc.overOccupancy;
@@ -2934,7 +3013,7 @@
 
       // Cluster click: zoom into cluster (no spiderfy unless max zoom & overlap handled via point clicks)
       map.on("click", "clusters", (e) => {
-        if (addressSelectionMode) return;
+        if (addressSelectionMode || newLocationPlacementMode) return;
         clearSpiderfy();
 
         const clusterId = e.features[0].properties.cluster_id;
@@ -3222,6 +3301,16 @@
       });
     }
 
+    initializeCountySubmission(map, {
+      loadAddresses: loadParcelAddressesNear,
+      nearestAddress: nearestParcelAddress,
+      closeExisting: () => {
+        addressSelectionMode = false;
+        closeReportWorkflow();
+        closeMobilePopup();
+        if (activeMapPopup) activeMapPopup.remove();
+      }
+    });
   </script>
 </body>
 </html>
