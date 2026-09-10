@@ -532,7 +532,7 @@
       <p>This is an independent research map. It is not affiliated with, endorsed by, or verified by Chatham County, any municipality, or any other government agency.</p>
       <p>Collecting listing data from Airbnb can take several weeks. Listings may change or become unavailable before collection and review are finished, so some links may already be inactive.</p>
       <p>Addresses, license matches, research statuses, and other conclusions shown here are speculative, may be incomplete or inaccurate, and should not be treated as official findings. Please use the reporting and correction options on listing cards to submit updated information.</p>
-      <button type="button" onclick="document.getElementById('dataDisclaimerOverlay').classList.add('dismissed')">I understand — view the map</button>
+      <button type="button" onclick="document.getElementById('dataDisclaimerOverlay').classList.add('dismissed')">I understand - view the map</button>
     </div>
   </div>
 
@@ -946,7 +946,7 @@
       const active = Boolean(selectedHostName || document.getElementById('propertySearchInput').value.trim());
       document.getElementById('clearPropertySearchBtn').classList.toggle('active', active);
       const indicator = document.getElementById('selectedHostIndicator');
-      indicator.textContent = selectedHostName ? `Selected host: ${selectedHostName} — click to clear` : '';
+      indicator.textContent = selectedHostName ? `Selected host: ${selectedHostName} - click to clear` : '';
       indicator.classList.toggle('active', Boolean(selectedHostName));
     }
 
@@ -1332,7 +1332,7 @@
         const businessName = String(license['Business Name'] || '').trim();
         const dba = String(license.DBA || '').trim();
         const names = [...new Set([businessName, dba].filter(Boolean))].join(' / ');
-        button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` — ${names}` : ''} — ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`;
+        button.textContent = `${reportLicenseNumberFor(license) || 'No license number'}${names ? ` - ${names}` : ''} - ${reportAddressFor(license) || 'No address'} (${distance.toFixed(0)} m)`;
         button.addEventListener('click', () => { selectedReportLicense = license; renderLicenseReportChoices(query); });
         list.appendChild(button);
       });
@@ -1340,7 +1340,7 @@
       const manualButton = document.createElement('button');
       manualButton.type = 'button';
       manualButton.className = `report-license-option${selectedReportLicense?.manualEntry ? ' selected' : ''}`;
-      manualButton.textContent = "License not listed — I'll enter it manually";
+      manualButton.textContent = "License not listed - I'll enter it manually";
       manualButton.addEventListener('click', () => { selectedReportLicense = { manualEntry: true }; renderLicenseReportChoices(query); });
       list.appendChild(manualButton);
       document.getElementById('reportLicenseSearch').addEventListener('input', event => {

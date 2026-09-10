@@ -8,3 +8,5 @@ data_files/parcels/
 data_files\parcels\Parcel_Digest_2025\Parcel_Digest_2025.geojson
 data_files\parcels\Parcel_Digest_2025\Parcel_Digest_2025.kml
 /data/geography_files/Parcel_Digest_2025.csv
+/listings
+/listings/*
